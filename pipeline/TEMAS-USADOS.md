@@ -1,6 +1,10 @@
-# Temas já publicados/agendados (NUNCA repetir — conferir antes de escolher)
-# A rotina DEVE acrescentar 1 linha aqui a cada carrossel novo (data | tema).
-2026-08-11 | MASLD / fígado gorduroso (rastreio FIB-4, AASLD 2023)
-2026-08-12 | IMC vs circunferência da cintura (Lancet 2025, nova definição de obesidade)
-2026-08-13 | Perimenopausa (sintomas antes da menopausa)
-2026-08-11 | Tireoide na gestação (diretriz ATA 2026)
+# Temas OCUPADOS (agendado OU publicado) — conferir antes de escolher; tema daqui NAO volta.
+# Formato: data-alvo | status (AGENDADO/PUBLICADO/FALHOU) | tema
+# Regras: AGENDADO conta como ocupado (evita repeticao na mesma semana).
+#         A auditoria semanal confirma publicacao: AGENDADO -> PUBLICADO.
+#         Se FALHOU: remover a linha (tema volta pro estoque) e avisar o Wagner.
+# A rotina acrescenta 1 linha (status AGENDADO) a cada carrossel novo, no mesmo commit.
+2026-08-11 | PUBLICADO | Tireoide na gestação (diretriz ATA 2026)
+2026-08-11 | AGENDADO  | MASLD / fígado gorduroso (rastreio FIB-4, AASLD 2023)
+2026-08-12 | AGENDADO  | IMC vs circunferência da cintura (Lancet 2025)
+2026-08-13 | AGENDADO  | Perimenopausa (sintomas antes da menopausa)
