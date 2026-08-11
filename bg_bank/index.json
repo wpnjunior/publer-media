@@ -1,0 +1,153 @@
+{
+ "bg_01.jpg": {
+  "tags": [
+   "figado",
+   "anatomia",
+   "orgao"
+  ]
+ },
+ "bg_01_alt.jpg": {
+  "tags": [
+   "barriga",
+   "gordura",
+   "maos"
+  ]
+ },
+ "bg_01_top.jpg": {
+  "tags": [
+   "medico",
+   "cintura",
+   "fita",
+   "paciente"
+  ]
+ },
+ "bg_02.jpg": {
+  "tags": [
+   "barriga",
+   "homem",
+   "peso"
+  ]
+ },
+ "bg_03.jpg": {
+  "tags": [
+   "hospital",
+   "cama",
+   "escuro"
+  ]
+ },
+ "bg_04.jpg": {
+  "tags": [
+   "ultrassom",
+   "exame",
+   "abdomen"
+  ]
+ },
+ "bg_05.jpg": {
+  "tags": [
+   "sangue",
+   "tubos",
+   "laboratorio",
+   "exame"
+  ]
+ },
+ "bg_06.jpg": {
+  "tags": [
+   "comida",
+   "vegetais",
+   "saudavel"
+  ]
+ },
+ "bg_07.jpg": {
+  "tags": [
+   "medico",
+   "paciente",
+   "consulta"
+  ]
+ },
+ "bmi_athlete.jpg": {
+  "tags": [
+   "musculo",
+   "atleta",
+   "academia",
+   "treino"
+  ]
+ },
+ "bmi_capa.jpg": {
+  "tags": [
+   "homem",
+   "cintura",
+   "fita",
+   "medir"
+  ]
+ },
+ "bmi_doctor.jpg": {
+  "tags": [
+   "medico",
+   "cintura",
+   "fita",
+   "paciente"
+  ]
+ },
+ "bmi_scale.jpg": {
+  "tags": [
+   "balanca",
+   "peso",
+   "pes"
+  ]
+ },
+ "bmi_tape.jpg": {
+  "tags": [
+   "fita",
+   "medir",
+   "maos"
+  ]
+ },
+ "peri_awake.jpg": {
+  "tags": [
+   "mulher",
+   "cama",
+   "insonia",
+   "sono"
+  ]
+ },
+ "peri_brain.jpg": {
+  "tags": [
+   "cerebro",
+   "ressonancia",
+   "neurologia",
+   "medico"
+  ]
+ },
+ "peri_calm.jpg": {
+  "tags": [
+   "mulher",
+   "madura",
+   "calma",
+   "pele"
+  ]
+ },
+ "peri_capa.jpg": {
+  "tags": [
+   "mulher",
+   "insonia",
+   "preocupada",
+   "noite"
+  ]
+ },
+ "peri_consult.jpg": {
+  "tags": [
+   "medica",
+   "paciente",
+   "consulta",
+   "grafico"
+  ]
+ },
+ "peri_doctor2.jpg": {
+  "tags": [
+   "medica",
+   "exame",
+   "ultrassom",
+   "paciente"
+  ]
+ }
+}
