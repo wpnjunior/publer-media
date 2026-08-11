@@ -37,12 +37,12 @@ def main(qdir):
     urls = [RAW.format(p) for p in rel]
     # espera raw ficar acessivel
     for u in urls:
-        for _ in range(10):
+        for _ in range(4):
             try:
                 urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=30)
                 break
             except Exception:
-                time.sleep(15)
+                time.sleep(8)
     media_req = [{"url": u, "name": f"esteira_{i+1}"} for i, u in enumerate(urls)]
     j = req("POST", "/media/from-url", {"media": media_req, "type": "multi", "direct_upload": False, "in_library": True})
     if "job_id" not in j:
@@ -50,7 +50,14 @@ def main(qdir):
     r = poll(j["job_id"])
     if not r.get("status", "").startswith("complete"):
         print("ERRO upload job:", json.dumps(r)[:300]); return 1
-    media = r["payload"]
+    payload = r.get("payload")
+    if isinstance(payload, dict):
+        payload = payload.get("media") or payload.get("data") or payload.get("payload") or []
+    media = [m for m in (payload or []) if isinstance(m, dict) and m.get("id")]
+    if len(media) < len(urls):
+        print("AVISO: payload inesperado, bruto:", json.dumps(r)[:800])
+    if not media:
+        print("ERRO: nenhum media id no payload"); return 1
     mid = [{"id": m["id"], "type": "photo"} for m in media]
     when = meta["schedule_at"]  # ISO UTC ex 2026-08-14T23:00:00Z
     for attempt in range(5):
