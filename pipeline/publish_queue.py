@@ -33,16 +33,19 @@ def main(qdir):
     slides = sorted(glob.glob(os.path.join(qdir, "slide_*.png")))
     if len(slides) < 5:
         print("ERRO: menos de 5 slides"); return 1
-    rel = [os.path.relpath(s, start=os.path.dirname(os.path.dirname(qdir))).replace(os.sep, "/") for s in slides]
-    urls = [RAW.format(p) for p in rel]
-    # espera raw ficar acessivel
+    base = qdir.replace(os.sep, "/").strip("/")
+    urls = [RAW.format(base + "/" + os.path.basename(s)) for s in slides]
+    # espera raw ficar acessivel (falha ALTO se nao ficar)
     for u in urls:
-        for _ in range(4):
+        ok = False
+        for _ in range(6):
             try:
                 urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=30)
-                break
+                ok = True; break
             except Exception:
                 time.sleep(8)
+        if not ok:
+            print("ERRO: raw inacessivel:", u); return 1
     media_req = [{"url": u, "name": f"esteira_{i+1}"} for i, u in enumerate(urls)]
     j = req("POST", "/media/from-url", {"media": media_req, "type": "multi", "direct_upload": False, "in_library": True})
     if "job_id" not in j:
