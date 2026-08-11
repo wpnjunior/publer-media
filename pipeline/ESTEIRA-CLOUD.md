@@ -10,10 +10,16 @@ Playwright está pré-instalado, (c) git push FUNCIONA. Use exatamente isso.
 - GITHUB ACTIONS (.github/workflows/esteira.yml): ao ver push em queue/**, publica no Publer (ele tem rede e a chave). Você NÃO chama o Publer.
 
 ## Passos
-1. **Tema (radar):** 1º conector Gmail: buscar `from:medscape newer_than:1d`. 2º fallback: WebFetch em
-   https://www.medscape.com/cx/rssfeeds/2684.xml. Escolher 1 tema: metabólico/funcional/prevenção
-   (fígado, tireoide, obesidade, intestino, suplementos, hormônios, sono, menopausa). PULAR: droga de
-   nicho, CME patrocinado, negócio médico. Nada bom → encerrar reportando "sem tema hoje".
+1. **Tema (radar em 2 camadas):**
+   a) FRESCO: conector Gmail `from:medscape newer_than:1d` — se tiver tema bom, prefira o fresco.
+   b) ESTOQUE: se o dia estiver fraco, garimpe `from:medscape newer_than:30d` (são ~200; quase metade
+      aproveitável) e pegue o MELHOR tema ainda não usado.
+   Critério: metabólico/funcional/prevenção (fígado, tireoide, obesidade, intestino, suplementos,
+   hormônios, sono, menopausa); emails em PT-BR do Medscape Brasil valem ouro. PULAR: droga de nicho,
+   CME patrocinado, negócio médico, caso clínico técnico. Fallback final: WebFetch no RSS
+   https://www.medscape.com/cx/rssfeeds/2684.xml. Nada bom → encerrar reportando "sem tema hoje".
+   **ANTES de decidir: ler pipeline/TEMAS-USADOS.md e as pastas queue/ — tema usado NÃO volta.**
+   **DEPOIS de gerar: acrescentar o tema em pipeline/TEMAS-USADOS.md (mesmo commit).**
 2. **DEDUP via repo:** liste queue/ — se existir pasta com meta.json de schedule_at nos PRÓXIMOS 2 dias
    (published true ou false), encerre com "já coberto". Temas já usados (não repetir): ver pastas
    queue/* e estes já publicados: MASLD/fígado gorduroso, IMC vs cintura, perimenopausa.
