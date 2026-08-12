@@ -1,0 +1,50 @@
+{
+ "marca": [
+  "PAPO",
+  "NEWS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_01.jpg",
+   "editoria": "Hepatologia",
+   "manchete": "O órgão que<br>adoece em<br><span class=\"hl\">silêncio</span>",
+   "sub": "<b>1 em cada 3 adultos</b> tem gordura no fígado — e quase ninguém sabe. A ciência já flagra antes do dano.",
+   "fonte": "Fonte: Medscape · AASLD 2023 (Hepatology)"
+  },
+  {
+   "foto": "bg_02.jpg",
+   "numero": "01",
+   "manchete": "A doença<br>mudou de <span class=\"hl\">nome</span>",
+   "corpo": "Por décadas o nome culpava o álcool. Em 2023 virou <b>MASLD</b>: a gordura no fígado ligada à <b>disfunção metabólica</b> — insulina alta, açúcar, gordura abdominal."
+  },
+  {
+   "foto": "bg_03.jpg",
+   "numero": "02",
+   "manchete": "Do silêncio<br>à <span class=\"hl\">cirrose</span>",
+   "corpo": "Sem cuidado: <b>inflamação → fibrose → cirrose</b>. E o risco não é só hepático — é também <b>cardiovascular</b>.",
+   "destaque": "A AASLD recomenda rastrear quem tem obesidade, diabetes tipo 2 ou síndrome metabólica — mesmo sem sintoma."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">diretriz</span>.",
+   "print": "C:\\Users\\Neves\\Desktop\\CARROSSEL_MEDSCAPE\\estudos\\aasld_ficha.png",
+   "sub": "Publicada na <b>Hepatology</b>, a diretriz da <b>AASLD (2023)</b> é a referência que orienta o rastreio no mundo todo."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "03",
+   "manchete": "Quatro números<br>que você <span class=\"hl\">já tem</span>",
+   "corpo": "<b>FIB-4 = (Idade × AST) ÷ (Plaquetas × √ALT)</b><br>Tudo isso já vem no seu exame de sangue de rotina.",
+   "destaque": "Abaixo de 1,3 → risco baixo · 1,3 a 2,67 → elastografia · acima de 2,67 → avaliação especializada"
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "04",
+   "manchete": "O único órgão<br>que se <span class=\"hl\">regenera</span>",
+   "corpo": "Na fase inicial, a esteatose regride: perder <b>7 a 10% do peso</b> derruba gordura e inflamação. Cortar açúcar líquido e ultraprocessado tira a lenha da fogueira.",
+   "fonte": "Fontes: Medscape · AASLD 2023 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

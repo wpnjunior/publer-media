@@ -24,15 +24,21 @@ Playwright está pré-instalado, (c) git push FUNCIONA. Use exatamente isso.
    (published true ou false), encerre com "já coberto". Temas já usados (não repetir): ver pastas
    queue/* e estes já publicados: MASLD/fígado gorduroso, IMC vs cintura, perimenopausa.
 3. **Gate de fonte:** WebSearch — diretriz/estudo 2020-2026, preferir independente. NÚMERO SEM FONTE NÃO ENTRA.
-4. **Slides (7, molde v7):** ler pipeline/template_v7.py e reproduzir o layout/CSS:
-   - Capa SPLIT: topo = foto DO TEMA do banco `bg_bank/` (escolher por tags no index.json; com gente
-     quando couber); baixo = tarja "CIÊNCIA · ÁREA", título VIRAL 2 linhas horizontais, dado forte,
-     pill "Dossiê: Medscape · <fonte>".
-   - Internos: foto do banco full-bleed + overlay escuro + texto branco; títulos editoriais (estilo
-     revista de ciência); 1 slide "como calcular/medir" quando couber; último = fontes +
+4. **Slides (5-7, molde PAPO NEWS — PADRÃO OFICIAL):** use `pipeline/template_news.py`
+   (monte um JSON como `pipeline/exemplo_news.json` e rode `python pipeline/template_news.py seu.json`):
+   - Identidade fixa: selo **PAPO** (vermelho) + **NEWS** (branco) no topo de todo slide.
+   - **CAPA**: foto MUITO impactante (humana/emocional/anatômica) ocupando o quadro; véu escuro só
+     no rodapé; manchete curta 2-3 linhas com a palavra-chave em `<span class="hl">dourado</span>`;
+     subtítulo com o dado forte; linha de fonte.
+   - **INTERNOS**: `numero` ("01","02"...) + manchete + corpo; use `destaque` para o dado/critério.
+   - **SLIDE "A FONTE" (fazer SEMPRE que houver estudo/diretriz nomeada):** print REAL do artigo.
+     Como capturar: `chrome --headless=new --window-size=1400,1000 --screenshot=raw.png
+     "https://europepmc.org/article/MED/<PMID>"` (Europe PMC não tem captcha), depois recortar a
+     ficha (título/autores/revista/PMID) com PIL: `im.crop((420,405,1060,710))`. Passar o caminho
+     do recorte no campo `"print"` do slide tipo `"prova"`.
+   - Rodapé de TODOS: logo (pipeline/logo_b64.txt) + "Dr. Wagner Novaes" + CRM-RJ 0127554-2 + nº do slide.
+   - CFM: proibido "cura/garante/melhor/especialista"; último slide leva fontes +
      "Conteúdo educativo — não substitui consulta médica."
-   - Rodapé de TODOS: logo (pipeline/logo_b64.txt) + "Dr. Wagner Novaes" + CRM-RJ 0127554-2.
-   - CFM: proibido "cura/garante/melhor/especialista".
 5. **Render:** grave os HTML e use o Playwright pré-instalado:
    `npx playwright screenshot --viewport-size=1080,1350 slide_01.html slide_01.png` (repetir 01..07).
 6. **Entrega (o push publica):** criar `queue/YYYY-MM-DD-<slug>/` com slide_01..07.png + meta.json:
