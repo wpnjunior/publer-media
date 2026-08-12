@@ -1,0 +1,90 @@
+{
+ "posts": [
+  {"id": "saude-bem-maior", "tema": "saúde como bem maior", "legenda": "Saúde…",
+   "texto": [
+    "Duas coisas que importam muito na sua vida:",
+    "1 - A sua SAÚDE.",
+    "2 - A SAÚDE de quem você AMA!",
+    "A falta da sua saúde vai fazer vc parar tudo e a falta da saúde de quem vc ama vai ser a causa dos seus maiores sofrimentos.",
+    "Valorize a SAÚDE como um bem maior na vida!"
+   ]},
+  {"id": "tres-suplementos", "tema": "3 suplementos", "legenda": "Indicados da maneira certa, esses três entregam.",
+   "texto": [
+    "3 suplementos que quando indicados da maneira correta, você conseguirá grandes resultados:",
+    "1 - Creatina: força e massa magra.",
+    "2 - Magnésio: metabolismo geral e sono.",
+    "3 - Vitamina D: imunidade e metabolismo cálcio.",
+    "Suplementos não são a solução maior, hábitos de vida ainda são o grande alicerce!"
+   ]},
+  {"id": "melhor-que-90", "tema": "melhor que 90%", "legenda": "Disposto a começar a mudança?",
+   "texto": [
+    "Como deixar a sua saúde melhor do que a de 90% das pessoas:",
+    "1 - Não consumir álcool/cigarro (nenhum tipo).",
+    "2 - Praticar atividade física pelo menos 3x/semana.",
+    "3 - Não consumir açúcar e refinados.",
+    "Esses são 3 passos que mudam a vida de qualquer pessoa!"
+   ]},
+  {"id": "resistencia-insulina", "tema": "resistência à insulina", "legenda": "Observe a causa principal e comece a melhorar a partir daí.",
+   "texto": [
+    "A maioria das pessoas com resistência insulina/diabetes II tb apresentam: esteatose, hipertensão, alto colesterol/triglicérides, obesidade. Ou seja, não são 5 condições separadas, é a mesma causa: excesso de glicose dos carboidratos refinados. Resolva essa base e resolverá todos."
+   ]},
+  {"id": "cafeina-foco", "tema": "cafeína e foco", "legenda": "O que a ciência já mostra — e o que ainda não mostra.",
+   "texto": [
+    "Cafeína tem se mostrado uma substância positiva quando falamos em foco e memória (estudos mais consistentes do ponto de vista científico).",
+    "Já suplementos como creatina, rhodiola, colina apresentam benefícios mas os estudos ainda são bem pequenos e com fragilidades que não nos permite afirmar que são verdadeiras indicações para melhorar foco e memória."
+   ]},
+  {"id": "coenzima-q10", "tema": "coenzima Q10", "legenda": "Sabia que essas eram as principais indicações?",
+   "texto": [
+    "Usos da coenzima Q10 com maior nível de evidência:",
+    "1 - Enxaqueca.",
+    "2 - Stress oxidativo.",
+    "3 - Hipertensão arterial.",
+    "4 - LDL colesterol aumentado.",
+    "5 - Triglicerídeos aumentado."
+   ]},
+  {"id": "restricao-calorica", "tema": "restrição calórica", "legenda": "Restringir calorias importa.",
+   "texto": [
+    "Restrição calórica é essencial para perder peso.",
+    "Apenas ter boas escolhas alimentares sem restringir calorias não é efetivo.",
+    "Regra importante: Restrição calórica pequena + Boas escolhas alimentares = Sucesso na perda de Peso"
+   ]},
+  {"id": "proposito-seu", "tema": "propósito", "legenda": "Concorda?",
+   "texto": [
+    "Quando você compra um carro, sempre haverá um carro melhor. Quando você compra uma casa, sempre haverá uma casa melhor. Quando você alcança o sucesso, sempre haverá alguém mais bem-sucedido. Quando você ganha dinheiro, sempre haverá alguém com mais dinheiro. É por isso que você deve buscar um propósito SEU. Quando você busca o seu “próprio” propósito, não haverá um propósito melhor."
+   ]},
+  {"id": "mais-fortes-gentis", "tema": "poder discreto", "legenda": "🙏",
+   "texto": [
+    "Os mais fortes são gentis.",
+    "Os mais inteligentes são humildes.",
+    "Os mais ricos são simples.",
+    "Os mais felizes são discretos.",
+    "O verdadeiro poder não precisa provar nada."
+   ]},
+  {"id": "respeito-negociado", "tema": "respeito", "legenda": "As negociações mais perigosas terminam dessa forma…",
+   "texto": [
+    "O respeito raramente se perde de uma vez só.",
+    "Ele é negociado muitas vezes antes e você vai perdendo pouco a pouco nessa negociação."
+   ]},
+  {"id": "linguagem-do-amor", "tema": "linguagem do amor", "legenda": "Faz sentido?",
+   "texto": [
+    "Uma linguagem do amor que raramente mencionamos é quando alguém trabalha em si mesmo pelo bem da relação.",
+    "Alguém que assume a responsabilidade pela própria cura, que trabalha seus gatilhos…em vez de transformar isso em um peso para o outro. O oposto disso é: \"eu sou assim mesmo\". Ou seja, não vou mudar absolutamente nada em função do \"nosso\" relacionamento!"
+   ]},
+  {"id": "pessoas-boas", "tema": "pessoas boas", "legenda": "Marca essa pessoa na sua vida aqui pra ela entender o quanto é importante!", "centro": true,
+   "texto": [
+    "Eu realmente espero que você encontre as suas pessoas boas. Pessoas que genuinamente queiram o melhor para você. Pessoas que genuinamente queiram ver você vencer. Pessoas que iriam até o fim do mundo por você. Espero que você encontre pessoas que não precisem que você dê um show para ter o amor delas. Que vejam a sua vitória e a sintam no próprio peito. Que ouçam sobre o seu dia ruim e que ele se torne o dia ruim delas também. Que ouçam sobre o seu dia bom e que ele se torne o dia bom delas também. Pessoas que não digam apenas \"estou aqui por você\", mas pessoas que fiquem o tempo suficiente para provar isso. Espero que você encontre pessoas que adotem você como se fosse delas. Que te amem como se fosse delas, te apoiem e te sustentem todas as vezes. Eu realmente espero que você encontre pessoas que escolham você de novo, de novo e de novo."
+   ]},
+  {"id": "versoes-de-voce", "tema": "versões de você", "legenda": "Permanecer honesto sobre quem você é.",
+   "texto": [
+    "As pessoas criarão versões de você na cabeça delas. Algumas vão torná-lo melhor do que você é, algumas vão torná-lo pior.",
+    "E não importa o que você faça, elas frequentemente se apegarão à versão que melhor serve à história que elas contam para si mesmas.",
+    "O seu trabalho não é passar a vida gerenciando a imaginação de outra pessoa. O seu trabalho é permanecer honesto sobre quem você é."
+   ]},
+  {"id": "persistente-consistente-grato", "tema": "persistência", "legenda": "Persistir, manter, agradecer.",
+   "texto": [
+    "Se você for persistente, você vai conseguir.",
+    "Se for consistente, você vai manter.",
+    "E se for grato, vai atrair ainda mais."
+   ]}
+ ]
+}

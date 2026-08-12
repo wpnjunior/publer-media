@@ -1,0 +1,46 @@
+{
+ "descricao": "Cards de texto diarios — publicados as 14h de Brasilia, um por dia, na ordem desta lista.",
+ "cards": [
+  {"id": "saude-bem-maior", "published": false, "slot": null,
+   "caption": "Saúde…\n\nA gente só percebe o tamanho dela quando falta — na nossa ou na de quem a gente ama.\n\nObrigado por me acompanhar nessa jornada de ciência e saúde 🧬\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #saude #longevidade #medicina #prevencao"},
+
+  {"id": "tres-suplementos", "published": false, "slot": null,
+   "caption": "Indicados da maneira certa, esses três entregam resultado.\n\nMas repare na última linha: suplemento é alicerce nenhum. Ele entra depois que sono, comida de verdade e treino já estão de pé.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #suplementacao #creatina #magnesio #vitaminad"},
+
+  {"id": "melhor-que-90", "published": false, "slot": null,
+   "caption": "Disposto a começar a mudança?\n\nNão tem protocolo caro aqui. Tem três coisas que quase ninguém faz — e é exatamente por isso que elas separam você da média.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #habitos #saude #prevencao #estilodevida"},
+
+  {"id": "resistencia-insulina", "published": false, "slot": null,
+   "caption": "Observe a causa principal e comece a melhorar a partir daí.\n\nO paciente chega com cinco diagnósticos e sai com cinco remédios. Na maioria das vezes, é uma raiz só.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #resistenciainsulinica #diabetes #esteatose #metabolismo"},
+
+  {"id": "cafeina-foco", "published": false, "slot": null,
+   "caption": "O que a ciência já mostra — e o que ainda não mostra.\n\nA diferença entre \"tem evidência\" e \"tem promessa de rótulo\" costuma ser o tamanho do estudo.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #cafeina #foco #memoria #suplementacao"},
+
+  {"id": "coenzima-q10", "published": false, "slot": null,
+   "caption": "Sabia que essas eram as principais indicações?\n\nQ10 virou sinônimo de \"energia\" no marketing. As indicações com mais evidência são outras — estão no card.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #coenzimaq10 #enxaqueca #colesterol #suplementacao"},
+
+  {"id": "restricao-calorica", "published": false, "slot": null,
+   "caption": "Restringir calorias importa.\n\nComer bem sem ajustar a quantidade não emagrece. E cortar demais não se sustenta. A conta que funciona está no card.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #emagrecimento #alimentacao #peso #saude"},
+
+  {"id": "proposito-seu", "published": false, "slot": null,
+   "caption": "Concorda?\n\nSempre vai existir alguém com mais. O único lugar onde essa corrida termina é dentro de um propósito que é seu.\n\n#drwagnernovaes #proposito #mentalidade #vida"},
+
+  {"id": "mais-fortes-gentis", "published": false, "slot": null,
+   "caption": "🙏\n\nQuem precisa provar, ainda não tem.\n\n#drwagnernovaes #reflexao #humildade #vida"},
+
+  {"id": "respeito-negociado", "published": false, "slot": null,
+   "caption": "As negociações mais perigosas terminam dessa forma…\n\nNinguém acorda um dia sem respeito. Foi entregue em parcelas.\n\n#drwagnernovaes #relacionamentos #respeito #reflexao"},
+
+  {"id": "linguagem-do-amor", "published": false, "slot": null,
+   "caption": "Faz sentido?\n\nTem gente que cuida da relação indo à terapia, dormindo melhor, tratando o que dói. Isso também é amor.\n\n#drwagnernovaes #relacionamentos #saudemental #amor"},
+
+  {"id": "pessoas-boas", "published": false, "slot": null,
+   "caption": "Marca aqui aquela pessoa da sua vida — pra ela entender o quanto é importante.\n\n#drwagnernovaes #amizade #pessoas #reflexao"},
+
+  {"id": "versoes-de-voce", "published": false, "slot": null,
+   "caption": "Permanecer honesto sobre quem você é.\n\nVocê não controla a versão sua que mora na cabeça dos outros. Controla só a verdadeira.\n\n#drwagnernovaes #reflexao #autenticidade #mentalidade"},
+
+  {"id": "persistente-consistente-grato", "published": false, "slot": null,
+   "caption": "Persistir, manter, agradecer.\n\nTrês verbos que decidem quase tudo — na saúde e fora dela.\n\n#drwagnernovaes #consistencia #habitos #gratidao"}
+ ]
+}
