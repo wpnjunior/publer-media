@@ -41,6 +41,13 @@ Companheiro do carrossel: **18h Reel (isca) → 20h carrossel (dossiê)**, mesmo
    (Se o overlay sair com fundo preto em vez de transparente, renderize com Chromium headless usando
    `--default-background-color=00000000`.)
 
+   **TRILHA:** use sempre `reel_kit/trilha_wagner.m4a` (20s, já normalizada a -14 LUFS). É a faixa
+   "Event - Golden Hour" do Pixabay — **licença de uso comercial livre, sem atribuição**, escolhida em
+   12/08/2026 para acabar com o risco de silenciamento. **NUNCA** trocar por música comercial, faixa
+   ripada de outro Reel ou áudio de terceiro: conta profissional que embute música com dono leva mute
+   ou remoção. Alternativas já baixadas e liberadas ficam em `reel_kit/trilhas/` (dark cinematic,
+   summer sun, background calmo, future bass) — se for trocar, trocar por uma dessas.
+
 5. **Entregue** criando `reels_queue/YYYY-MM-DD-<slug>/` com `reel.mp4` + `meta.json`:
    ```json
    {"tema":"...","titulo":"Frasco para ...","caption":"<legenda humana>",
