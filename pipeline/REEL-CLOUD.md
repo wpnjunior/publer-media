@@ -41,12 +41,22 @@ Companheiro do carrossel: **18h Reel (isca) → 20h carrossel (dossiê)**, mesmo
    (Se o overlay sair com fundo preto em vez de transparente, renderize com Chromium headless usando
    `--default-background-color=00000000`.)
 
-   **TRILHA:** use sempre `reel_kit/trilha_wagner.m4a` (20s, já normalizada a -14 LUFS). É a faixa
-   "Event - Golden Hour" do Pixabay — **licença de uso comercial livre, sem atribuição**, escolhida em
-   12/08/2026 para acabar com o risco de silenciamento. **NUNCA** trocar por música comercial, faixa
-   ripada de outro Reel ou áudio de terceiro: conta profissional que embute música com dono leva mute
-   ou remoção. Alternativas já baixadas e liberadas ficam em `reel_kit/trilhas/` (dark cinematic,
-   summer sun, background calmo, future bass) — se for trocar, trocar por uma dessas.
+   **TRILHA — a música VARIA a cada dia.** Não use um arquivo fixo: peça a trilha do dia ao seletor,
+   que roda o banco de 11 faixas e só repete depois de 11 dias.
+   ```bash
+   TRILHA=$(python reel_kit/escolhe_trilha.py)   # imprime o caminho da faixa do dia
+   ```
+   Use `$TRILHA` no lugar de `reel_kit/trilha_wagner.m4a` no ffmpeg acima, e **diga no relatório final
+   qual faixa saiu**. Todas em `reel_kit/trilhas/` já vêm com 20s normalizados a -14 LUFS (o padrão do
+   Instagram), então basta cortar 15s.
+
+   Banco definido em 12/08/2026, tudo **Pixabay, licença de uso comercial livre e sem atribuição**:
+   golden_hour, dark_cinematic, background_calmo, summer_sun, summer_vibe, future_bass,
+   fast_beat_energetico, moment_of_peace, lobby_ambient, promo_corporativa, educacional.
+
+   ⚠️ **NUNCA** embutir música comercial, faixa ripada de outro Reel ou áudio de terceiro no arquivo do
+   vídeo: conta profissional que faz isso leva silenciamento ou remoção — foi o que aconteceu com a
+   trilha antiga. Se for ampliar o banco, só com faixa de licença comercial livre.
 
 5. **Entregue** criando `reels_queue/YYYY-MM-DD-<slug>/` com `reel.mp4` + `meta.json`:
    ```json
