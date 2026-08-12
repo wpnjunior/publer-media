@@ -1,39 +1,117 @@
 {
  "posts": [
-  {"id": "saude-bem-maior", "tema": "saúde como bem maior", "legenda": "Saúde…",
+  {
+   "id": "versoes-de-voce-na-cabeca-dos-outros",
+   "tema": "versões de você",
+   "tipo": "reflexivo",
+   "texto": [
+    "As pessoas criarão versões de você na cabeça delas. Algumas vão torná-lo melhor do que você é, algumas vão torná-lo pior.",
+    "E não importa o que você faça, elas frequentemente se apegarão à versão que melhor serve à história que elas contam para si mesmas.",
+    "O seu trabalho não é passar a vida gerenciando a imaginação de outra pessoa.",
+    "O seu trabalho é permanecer honesto sobre quem você é."
+   ],
+   "legenda": "Vejo isso no consultório com frequência: gente exausta de sustentar uma imagem que nem escolheu ter. Cansa mais que trabalho pesado.\nVocê não controla o que o outro entende de você. Controla só o que você é de verdade.\n#drwagnernovaes #autoconhecimento #saudemental #relacoes #maturidade",
+   "fonte": "wagner",
+   "codigo": "DZlA7-OxGqj"
+  },
+  {
+   "id": "duas-coisas-que-importam-saude",
+   "tema": "valor da saúde",
+   "tipo": "reflexivo",
    "texto": [
     "Duas coisas que importam muito na sua vida:",
     "1 - A sua SAÚDE.",
-    "2 - A SAÚDE de quem você AMA!",
+    "2 - SAÚDE de quem você AMA!",
     "A falta da sua saúde vai fazer vc parar tudo e a falta da saúde de quem vc ama vai ser a causa dos seus maiores sofrimentos.",
     "Valorize a SAÚDE como um bem maior na vida!"
-   ]},
-  {"id": "tres-suplementos", "tema": "3 suplementos", "legenda": "Indicados da maneira certa, esses três entregam.",
+   ],
+   "legenda": "Quase ninguém procura ajuda quando está tudo funcionando. Procura quando o corpo já obrigou.\nCuidar da saúde é decisão de tempo bom, não de tempo ruim. E vale igual pra quem você ama.\n#drwagnernovaes #saude #prevencao #familia #cuidarsedesi",
+   "fonte": "wagner",
+   "codigo": "Db6BPfssls3"
+  },
+  {
+   "id": "restricao-calorica-perda-de-peso",
+   "tema": "restrição calórica",
+   "tipo": "tecnico",
    "texto": [
-    "3 suplementos que quando indicados da maneira correta, você conseguirá grandes resultados:",
-    "1 - Creatina: força e massa magra.",
-    "2 - Magnésio: metabolismo geral e sono.",
-    "3 - Vitamina D: imunidade e metabolismo cálcio.",
-    "Suplementos não são a solução maior, hábitos de vida ainda são o grande alicerce!"
-   ]},
-  {"id": "melhor-que-90", "tema": "melhor que 90%", "legenda": "Disposto a começar a mudança?",
+    "Restrição calórica é essencial para perder peso. Apenas ter boas escolhas alimentares sem restringir calorias não é efetivo.",
+    "Regra importante:",
+    "Restrição calórica pequena + Boas escolhas alimentares = Sucesso na perda de Peso."
+   ],
+   "legenda": "Muita gente troca tudo por versão saudável, não perde peso e não entende o motivo: comida boa também tem caloria. Castanha, azeite, pão integral melhoram a qualidade do que você come, mas não criam o déficit sozinhos.\nComer bem e comer um pouco menos são duas coisas diferentes, e as duas precisam existir.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #emagrecimento #alimentacaosaudavel #metabolismo #deficitcalorico",
+   "fonte": "wagner",
+   "codigo": "Db3nUAYxTR7"
+  },
+  {
+   "id": "resistencia-insulina-causa-comum",
+   "tema": "resistência à insulina",
+   "tipo": "tecnico",
    "texto": [
-    "Como deixar a sua saúde melhor do que a de 90% das pessoas:",
-    "1 - Não consumir álcool/cigarro (nenhum tipo).",
-    "2 - Praticar atividade física pelo menos 3x/semana.",
-    "3 - Não consumir açúcar e refinados.",
-    "Esses são 3 passos que mudam a vida de qualquer pessoa!"
-   ]},
-  {"id": "resistencia-insulina", "tema": "resistência à insulina", "legenda": "Observe a causa principal e comece a melhorar a partir daí.",
+    "A maioria das pessoas com resistência insulina/diabetes II tb apresentam: esteatose, hipertensão, alto colesterol/triglicérides, obesidade.",
+    "Ou seja, não são 5 condições separadas, é a mesma causa: excesso de glicose dos carboidratos refinados.",
+    "Resolva essa base e resolverá todos!"
+   ],
+   "legenda": "É comum o paciente chegar com quatro diagnósticos e quatro remédios, um pra cada, sem ninguém ter olhado o que liga tudo.\nAntes de somar medicação, vale olhar o que entra no prato todos os dias.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #resistenciaainsulina #diabetes #figadogorduroso #alimentacao",
+   "fonte": "wagner",
+   "codigo": "DbvqVXLxpjK"
+  },
+  {
+   "id": "linguagem-do-amor-trabalhar-em-si",
+   "tema": "linguagem do amor",
+   "tipo": "reflexivo",
    "texto": [
-    "A maioria das pessoas com resistência insulina/diabetes II tb apresentam: esteatose, hipertensão, alto colesterol/triglicérides, obesidade. Ou seja, não são 5 condições separadas, é a mesma causa: excesso de glicose dos carboidratos refinados. Resolva essa base e resolverá todos."
-   ]},
-  {"id": "cafeina-foco", "tema": "cafeína e foco", "legenda": "O que a ciência já mostra — e o que ainda não mostra.",
+    "Uma linguagem do amor que raramente mencionamos é quando alguém trabalha em si mesmo pelo bem da relação.",
+    "Alguém que assume a responsabilidade pela própria cura, que trabalha seus gatilhos... em vez de transformar isso em um peso para o outro.",
+    "O oposto disso é: \"eu sou assim mesmo\". Ou seja, não vou mudar absolutamente nada em função do \"nosso\" relacionamento!"
+   ],
+   "legenda": "Terapia, sono em ordem, parar de beber, cuidar do corpo: quem faz isso melhora a própria vida e alivia o peso da casa junto.\n\"Eu sou assim mesmo\" é frase que fecha a porta. Ninguém precisa estar pronto pra amar bem, precisa estar disposto a olhar pra si.\n#drwagnernovaes #relacionamento #maturidade #amor #terapia",
+   "fonte": "wagner",
+   "codigo": "Dbtxa0txUDg"
+  },
+  {
+   "id": "buscar-um-proposito-seu",
+   "tema": "propósito próprio",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quando você compra um carro, sempre haverá um carro melhor.",
+    "Quando você compra uma casa, sempre haverá uma casa melhor.",
+    "Quando você alcança o sucesso, sempre haverá alguém mais bem-sucedido.",
+    "Quando você ganha dinheiro, sempre haverá alguém com mais dinheiro.",
+    "É por isso que você deve buscar um propósito SEU.",
+    "Quando você busca o seu \"próprio\" propósito, não haverá um propósito melhor."
+   ],
+   "legenda": "Comparação é corrida sem linha de chegada: sempre tem alguém um passo à frente, e isso não acaba nunca.\nQuando o alvo é seu, o placar do outro para de importar.\n#drwagnernovaes #proposito #autoconhecimento #comparacao #vidacomsentido",
+   "fonte": "wagner",
+   "codigo": "DbrXHN3x2tz"
+  },
+  {
+   "id": "cafeina-foco-e-memoria",
+   "tema": "cafeína, foco e memória",
+   "tipo": "tecnico",
    "texto": [
     "Cafeína tem se mostrado uma substância positiva quando falamos em foco e memória (estudos mais consistentes do ponto de vista científico).",
     "Já suplementos como creatina, rhodiola, colina apresentam benefícios mas os estudos ainda são bem pequenos e com fragilidades que não nos permite afirmar que são verdadeiras indicações para melhorar foco e memória."
-   ]},
-  {"id": "coenzima-q10", "tema": "coenzima Q10", "legenda": "Sabia que essas eram as principais indicações?",
+   ],
+   "legenda": "Estudo pequeno não significa que não funciona. Significa que ainda não dá pra afirmar, e essa diferença é importante.\nE a cafeína também tem contrapartida: se ela atrapalha seu sono, o foco que dá de dia ela cobra de noite.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #cafeina #foco #memoria #suplementacao",
+   "fonte": "wagner",
+   "codigo": "Dbq2jVFxrVl"
+  },
+  {
+   "id": "respeito-se-perde-aos-poucos",
+   "tema": "perda do respeito",
+   "tipo": "reflexivo",
+   "texto": [
+    "O respeito raramente se perde de uma vez só.",
+    "Ele é negociado muitas vezes antes e você vai perdendo pouco a pouco nessa negociação."
+   ],
+   "legenda": "Começa pequeno: a piada que você deixou passar, o combinado quebrado sem explicação, o limite que você não repetiu.\nQuando percebe, virou padrão. Falar na primeira vez custa muito menos que na décima.\n#drwagnernovaes #respeito #limites #relacionamentos #autoestima",
+   "fonte": "wagner",
+   "codigo": "DboWt3nRjWn"
+  },
+  {
+   "id": "coenzima-q10-nivel-de-evidencia",
+   "tema": "coenzima Q10",
+   "tipo": "tecnico",
    "texto": [
     "Usos da coenzima Q10 com maior nível de evidência:",
     "1 - Enxaqueca.",
@@ -41,50 +119,1278 @@
     "3 - Hipertensão arterial.",
     "4 - LDL colesterol aumentado.",
     "5 - Triglicerídeos aumentado."
-   ]},
-  {"id": "restricao-calorica", "tema": "restrição calórica", "legenda": "Restringir calorias importa.",
+   ],
+   "legenda": "Ter boa evidência não é o mesmo que servir pra todo mundo. Depende do caso, dos exames e do que a pessoa já usa.\nSe você toma medicação para colesterol e começou a sentir dor no corpo, isso é assunto de consulta, não de decisão na farmácia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #coenzimaq10 #enxaqueca #colesterol #suplementacao",
+   "fonte": "wagner",
+   "codigo": "Dbnpa35Rf29"
+  },
+  {
+   "id": "3-suplementos-grandes-resultados",
+   "tema": "3 suplementos",
+   "tipo": "tecnico",
    "texto": [
-    "Restrição calórica é essencial para perder peso.",
-    "Apenas ter boas escolhas alimentares sem restringir calorias não é efetivo.",
-    "Regra importante: Restrição calórica pequena + Boas escolhas alimentares = Sucesso na perda de Peso"
-   ]},
-  {"id": "proposito-seu", "tema": "propósito", "legenda": "Concorda?",
+    "3 suplementos que quando indicados da maneira correta, você conseguirá grandes resultados:",
+    "1 - Creatina: força e massa magra.",
+    "2 - Magnésio: metabolismo geral e sono.",
+    "3 - Vitamina D: imunidade e metabolismo cálcio.",
+    "Suplementos não são a solução maior, hábitos de vida ainda são o grande alicerce!"
+   ],
+   "legenda": "O detalhe está em \"indicados da maneira correta\": motivo claro, exame quando necessário e acompanhamento depois.\nSuplemento não corrige noite mal dormida, comida ruim e sedentarismo. Ele entra depois que a base está de pé.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #creatina #magnesio #vitaminad #habitossaudaveis",
+   "fonte": "wagner",
+   "codigo": "Dbl8TrtR_cu"
+  },
+  {
+   "id": "saude-melhor-que-90-por-cento",
+   "tema": "3 passos de saúde",
+   "tipo": "tecnico",
    "texto": [
-    "Quando você compra um carro, sempre haverá um carro melhor. Quando você compra uma casa, sempre haverá uma casa melhor. Quando você alcança o sucesso, sempre haverá alguém mais bem-sucedido. Quando você ganha dinheiro, sempre haverá alguém com mais dinheiro. É por isso que você deve buscar um propósito SEU. Quando você busca o seu “próprio” propósito, não haverá um propósito melhor."
-   ]},
-  {"id": "mais-fortes-gentis", "tema": "poder discreto", "legenda": "🙏",
+    "Como deixar a sua saúde melhor do que a de 90% das pessoas:",
+    "1 - Não consumir álcool/cigarro (nenhum tipo).",
+    "2 - Praticar atividade física pelo menos 3x/semana.",
+    "3 - Não consumir açúcar e refinados.",
+    "Esses são 3 passos que mudam a vida de qualquer pessoa!"
+   ],
+   "legenda": "Parece óbvio, e é justamente por isso que quase ninguém faz.\nNão precisa atacar os três de uma vez: escolha o que mais atrapalha você hoje e mexa nele por um mês. Simples e constante rende mais que plano perfeito no papel.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #habitossaudaveis #prevencao #atividadefisica #acucar",
+   "fonte": "wagner",
+   "codigo": "DbjVVhYxUTF"
+  },
+  {
+   "id": "verdadeiro-poder-nao-precisa-provar",
+   "tema": "verdadeiro poder",
+   "tipo": "reflexivo",
    "texto": [
     "Os mais fortes são gentis.",
     "Os mais inteligentes são humildes.",
     "Os mais ricos são simples.",
     "Os mais felizes são discretos.",
     "O verdadeiro poder não precisa provar nada."
-   ]},
-  {"id": "respeito-negociado", "tema": "respeito", "legenda": "As negociações mais perigosas terminam dessa forma…",
+   ],
+   "legenda": "Quem precisa provar força costuma estar com medo de perder alguma coisa.\nNo consultório é parecido: o paciente mais firme com o próprio cuidado é quase sempre o mais quieto sobre ele. Barulho e segurança raramente andam juntos.\n#drwagnernovaes #humildade #carater #maturidade #forca",
+   "fonte": "wagner",
+   "codigo": "DbhA8dQxn5H"
+  },
+  {
+   "id": "onde-coloca-sua-energia",
+   "tema": "Seletividade de energia",
+   "tipo": "reflexivo",
    "texto": [
-    "O respeito raramente se perde de uma vez só.",
-    "Ele é negociado muitas vezes antes e você vai perdendo pouco a pouco nessa negociação."
-   ]},
-  {"id": "linguagem-do-amor", "tema": "linguagem do amor", "legenda": "Faz sentido?",
+    "Ser inteligente envolve vc saber onde coloca sua energia.",
+    "Seletividade é essencial e vale pra tudo: relacionamento amoroso, trabalho, lugares, conversas, notícias, etc.",
+    "Tenha foco no que aumenta sua energia e não no que consome ela."
+   ],
+   "legenda": "Teste simples: por uma semana, anote no fim do dia o que te deixou leve e o que te deixou pesado.\nO padrão aparece sozinho. Depois disso fica mais fácil escolher, e mais difícil fingir que você não sabia.\n#drwagnernovaes #energia #prioridades #foco #saudemental",
+   "fonte": "wagner",
+   "codigo": "DbdbP3oRIM5"
+  },
+  {
+   "id": "escolhas-de-todo-dia",
+   "tema": "Escolhas de todo dia",
+   "tipo": "reflexivo",
    "texto": [
-    "Uma linguagem do amor que raramente mencionamos é quando alguém trabalha em si mesmo pelo bem da relação.",
-    "Alguém que assume a responsabilidade pela própria cura, que trabalha seus gatilhos…em vez de transformar isso em um peso para o outro. O oposto disso é: \"eu sou assim mesmo\". Ou seja, não vou mudar absolutamente nada em função do \"nosso\" relacionamento!"
-   ]},
-  {"id": "pessoas-boas", "tema": "pessoas boas", "legenda": "Marca essa pessoa na sua vida aqui pra ela entender o quanto é importante!", "centro": true,
+    "Cada dia você precisará escolher entre duas opções:",
+    "Ver problemas ou ver possibilidades.",
+    "Reclamar ou agradecer.",
+    "Viver com medo ou viver com fé.",
+    "A diferença entre um coração pesado e um coração em paz é muitas vezes a perspectiva.",
+    "Gratidão e alegria não são apenas sentimentos, são escolhas feitas todos os dias.",
+    "E quando você as escolhe, sua vida inteira começa a mudar."
+   ],
+   "legenda": "Não é fingir que está tudo bem. É escolher onde colocar o olho quando as duas coisas são verdade ao mesmo tempo.\nO dia ruim não desaparece com gratidão. Ele só pesa menos.\n#drwagnernovaes #gratidao #perspectiva #escolhas #fe",
+   "fonte": "wagner",
+   "codigo": "DbbWdTERlgm"
+  },
+  {
+   "id": "dna-ou-prato",
+   "tema": "DNA ou prato",
+   "tipo": "tecnico",
    "texto": [
-    "Eu realmente espero que você encontre as suas pessoas boas. Pessoas que genuinamente queiram o melhor para você. Pessoas que genuinamente queiram ver você vencer. Pessoas que iriam até o fim do mundo por você. Espero que você encontre pessoas que não precisem que você dê um show para ter o amor delas. Que vejam a sua vitória e a sintam no próprio peito. Que ouçam sobre o seu dia ruim e que ele se torne o dia ruim delas também. Que ouçam sobre o seu dia bom e que ele se torne o dia bom delas também. Pessoas que não digam apenas \"estou aqui por você\", mas pessoas que fiquem o tempo suficiente para provar isso. Espero que você encontre pessoas que adotem você como se fosse delas. Que te amem como se fosse delas, te apoiem e te sustentem todas as vezes. Eu realmente espero que você encontre pessoas que escolham você de novo, de novo e de novo."
-   ]},
-  {"id": "versoes-de-voce", "tema": "versões de você", "legenda": "Permanecer honesto sobre quem você é.",
+    "Às vezes culpamos o nosso DNA pela diabetes II, gota, gordura no fígado, colesterol alto, obesidade...",
+    "Mas na verdade, a maior causa disso tudo está nos alimentos que escolhemos colocar no prato."
+   ],
+   "legenda": "No consultório é comum ouvir \"na minha família todo mundo tem\". A genética pesa, mas ela quase sempre precisa de um convite — e o convite costuma vir do prato de todo dia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacao #diabetes #figadogorduroso #genetica",
+   "fonte": "wagner",
+   "codigo": "DbYpbd9xIxN"
+  },
+  {
+   "id": "estar-pronto-e-mito",
+   "tema": "Estar pronto é mito",
+   "tipo": "reflexivo",
    "texto": [
-    "As pessoas criarão versões de você na cabeça delas. Algumas vão torná-lo melhor do que você é, algumas vão torná-lo pior.",
-    "E não importa o que você faça, elas frequentemente se apegarão à versão que melhor serve à história que elas contam para si mesmas.",
-    "O seu trabalho não é passar a vida gerenciando a imaginação de outra pessoa. O seu trabalho é permanecer honesto sobre quem você é."
-   ]},
-  {"id": "persistente-consistente-grato", "tema": "persistência", "legenda": "Persistir, manter, agradecer.",
+    "Estar pronto na realidade é um mito.",
+    "Você começa.",
+    "Você erra.",
+    "Você quase desiste.",
+    "Você tenta mais um pouco.",
+    "Você melhora.",
+    "Você começa novamente e o ciclo continua!"
+   ],
+   "legenda": "Ninguém chega pronto: nem pra mudar hábito, nem pra recomeçar. Quem espera se sentir preparado espera a vida inteira. Começa torto e ajusta no caminho.\n#drwagnernovaes #recomeco #disciplina #mudancadehabito #comecar",
+   "fonte": "wagner",
+   "codigo": "DbVjm9Jx83i"
+  },
+  {
+   "id": "massa-muscular-cognicao",
+   "tema": "Massa muscular e cognição",
+   "tipo": "tecnico",
    "texto": [
-    "Se você for persistente, você vai conseguir.",
-    "Se for consistente, você vai manter.",
-    "E se for grato, vai atrair ainda mais."
-   ]}
+    "Quanto mais massa muscular você tem, menos vulnerável fica ao declínio cognitivo à medida que envelhece.",
+    "Músculo é muito mais do que estética: ele tem uma relação diretamente proporcional de proteção ao cérebro, tem função anti-inflamatória e aumenta a sobrevida com qualidade de vida.",
+    "Vá pra academia \"puxar um ferro\", comece agora, comece simples, mas apenas comece.",
+    "Porque o momento ideal pra começar é AGORA!"
+   ],
+   "legenda": "Quem mantém músculo envelhece com mais reserva — pra levantar da cadeira e pra cabeça também. Não é treino de atleta que faz isso, é constância com carga. Se nunca treinou, comece leve e com alguém que saiba orientar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #massamuscular #treinodeforca #envelhecimento #saudecerebral",
+   "fonte": "wagner",
+   "codigo": "DbT-AFJRK2w"
+  },
+  {
+   "id": "orgulho-e-ego",
+   "tema": "Orgulho e ego",
+   "tipo": "reflexivo",
+   "texto": [
+    "Nenhum de nós é fácil de conviver.",
+    "Todos nós carregamos nossas próprias dores.",
+    "Por isso, quando você encontrar alguém disposto a se comprometer em te entender e que realmente queira crescer com você, não deixe que algo tolo como o orgulho ou o ego estraguem tudo."
+   ],
+   "legenda": "Perde-se mais relação boa por orgulho do que por falta de amor. Quem senta pra te entender já está fazendo a parte mais difícil. Vale engolir o ego antes de perder isso.\n#drwagnernovaes #relacionamentos #ego #maturidade #convivencia",
+   "fonte": "wagner",
+   "codigo": "DbRI_WwxBZk"
+  },
+  {
+   "id": "treino-para-sempre",
+   "tema": "Treino é para sempre",
+   "tipo": "reflexivo",
+   "texto": [
+    "O dia em que você aceita que o treino físico é para sempre é o dia em que você para de se preocupar com o tempo que levará para ter resultado."
+   ],
+   "legenda": "A pergunta que eu mais escuto é \"em quanto tempo aparece\". Quem trata treino como fase para quando a fase termina. Quando vira rotina de vida, o prazo deixa de importar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treino #constancia #atividadefisica #habitos",
+   "fonte": "wagner",
+   "codigo": "DbNsuyXxBmh"
+  },
+  {
+   "id": "quatro-regras-simples",
+   "tema": "4 regras simples",
+   "tipo": "reflexivo",
+   "texto": [
+    "4 Regras simples para vida:",
+    "1 - Visite quem te visita.",
+    "2 - Ligue para quem te liga.",
+    "3 - Apoie quem te apoia.",
+    "4 - Ignore quem te ignora."
+   ],
+   "legenda": "Regra simples e desconfortável: repare quem procura você e quem só aparece quando precisa. Reciprocidade não é cobrança, é higiene — poupa energia e mágoa.\n#drwagnernovaes #reciprocidade #relacoes #limites #energia",
+   "fonte": "wagner",
+   "codigo": "DbIZJ-0RgqD"
+  },
+  {
+   "id": "proteina-gordura-abdominal",
+   "tema": "Proteína e gordura abdominal",
+   "tipo": "tecnico",
+   "texto": [
+    "Uma das rotinas mais importantes quando precisamos reduzir a gordura abdominal é ter uma dieta com bom aporte de proteínas.",
+    "As proteínas tem um grande papel no gasto calórico final do corpo, o que chamamos de efeito térmico dos alimentos.",
+    "Dieta rica em proteínas = Maior gasto calórico final",
+    "Dieta baixa em proteínas = Menor gasto calórico final",
+    "Mais proteínas = Mais efeito térmico, Maior construção muscular, Maior saciedade."
+   ],
+   "legenda": "Muita gente corta caloria e esquece a proteína: perde músculo junto com o peso e a barriga teima em ficar. Distribuir proteína ao longo do dia sustenta saciedade e gasto calórico. Quem tem doença nos rins precisa ajustar isso com o médico antes.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #proteina #gorduraabdominal #saciedade #alimentacao",
+   "fonte": "wagner",
+   "codigo": "DbGL-GjRaPF"
+  },
+  {
+   "id": "como-a-doenca-comeca",
+   "tema": "Como a doença começa",
+   "tipo": "tecnico",
+   "texto": [
+    "A doença não começa com exames alterados.",
+    "Ela começa com:",
+    "Emoções não processadas.",
+    "Noites sem dormir.",
+    "Limites que você nunca colocou.",
+    "O estresse que você chamou de \"normal\".",
+    "Agradar todo mundo menos a si mesmo.",
+    "Carregar feridas da infância negando tratamento.",
+    "Uma mente ocupada e uma alma desconectada.",
+    "Sorrir quando você deveria ter dito \"não\".",
+    "Ignorar o que sua intuição já sabia."
+   ],
+   "legenda": "O exame é o último a avisar. Antes dele vem meses de sono ruim, estresse chamado de normal e limite que nunca foi colocado. Quando o paciente conta a rotina, dá pra ver onde aquilo começou a ser construído.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #prevencao #estresse #sono #saudeintegral",
+   "fonte": "wagner",
+   "codigo": "DbDyk1tRRJk"
+  },
+  {
+   "id": "tempo-dedicado-a-mim",
+   "tema": "Tempo dedicado a mim",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quanto mais velho fico, mais percebo que o fato de alguém dedicar tempo a mim é um dos sinais mais claros de que essa pessoa se importa comigo.",
+    "Todo mundo está ocupado, tem responsabilidades e suas próprias batalhas para enfrentar.",
+    "Portanto, quando alguém escolhe consistentemente passar tempo comigo, ver como estou, isso significa muito.",
+    "O tempo é a única coisa que nunca vamos recuperar.",
+    "Por isso, quem o entrega e faz parte da minha vida terá todo meu apoio sempre!"
+   ],
+   "legenda": "Todo mundo está ocupado, então tempo é a moeda mais honesta que existe. Quem para pra saber como você está diz muito sem dizer nada. Repare em quem faz isso sem você pedir.\n#drwagnernovaes #tempo #amizade #presenca #gratidao",
+   "fonte": "wagner",
+   "codigo": "Da_hlrORNUU"
+  },
+  {
+   "id": "conselho-que-funciona",
+   "tema": "Conselho que funciona",
+   "tipo": "reflexivo",
+   "texto": [
+    "Conselho que sempre funciona:",
+    "Se você não sabe o que seguir na vida neste momento. Siga em busca do melhor pra você mesmo.",
+    "Busque se tornar a versão mais saudável, mais feliz, mais presente e mais confiante de si mesmo.",
+    "Então, o caminho certo vai se revelar."
+   ],
+   "legenda": "Quando não dá pra escolher o caminho, dá pra escolher a versão de você que vai andar nele. Cuidar do sono, do corpo e das companhias resolve mais dúvida do que ficar planejando. O rumo aparece depois, não antes.\n#drwagnernovaes #proposito #autocuidado #escolhas #vidacomsentido",
+   "fonte": "wagner",
+   "codigo": "Da--Me_xrSs"
+  },
+  {
+   "id": "ordem-dos-alimentos",
+   "tema": "Ordem dos alimentos",
+   "tipo": "tecnico",
+   "texto": [
+    "Coma primeiro os vegetais, depois a proteína e o carboidrato.",
+    "Se comer dessa forma você vai perceber um efeito positivo nos níveis de açúcar no sangue e por consequência de energia ao longo do dia."
+   ],
+   "legenda": "Mesmo prato, mesma comida, ordem diferente — e a curva de açúcar responde diferente. É um ajuste sem custo, útil pra quem sente sono e fome pouco depois de comer. Não substitui reduzir refinado, só ajuda.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #glicemia #alimentacao #energia #resistenciainsulina",
+   "fonte": "wagner",
+   "codigo": "Da8Bt2xR-bD"
+  },
+  {
+   "id": "custo-futuro-das-decisoes",
+   "tema": "Custo futuro das decisões",
+   "tipo": "reflexivo",
+   "texto": [
+    "A matemática mais valiosa que você pode aprender é como calcular o custo futuro das suas decisões atuais.",
+    "Leia isso novamente e pense sobre sua saúde!"
+   ],
+   "legenda": "A conta da noite mal dormida e do excesso de hoje chega — só chega atrasada. Quase todo diagnóstico que eu dou tem anos de história silenciosa atrás dele. Decidir hoje pensando no corpo de daqui a dez anos é a matemática que vale.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #prevencao #longevidade #escolhas #saude",
+   "fonte": "wagner",
+   "codigo": "Da3VBvoRYAm"
+  },
+  {
+   "id": "treino-para-a-vida",
+   "tema": "Treino para a vida",
+   "tipo": "tecnico",
+   "texto": [
+    "Agachamento hoje vai ajudar você a se levantar do vaso sanitário quando estiver mais velho.",
+    "O levantamento terra hoje ajudará você a pegar seus netos no colo.",
+    "As passadas hoje ajudarão você a subir escadas.",
+    "O treino de superiores hoje será sua base para carregar sua mala quando for viajar no futuro.",
+    "A caminhada hoje ajudará você a ser um idoso ativo.",
+    "Não são apenas exercícios na musculação. Se trata de um treinamento para viver bem, para que você possa apreciar a vida."
+   ],
+   "legenda": "Ninguém treina pensando em levantar do vaso sanitário, mas é exatamente isso que está em jogo lá na frente. Força e equilíbrio hoje são autonomia depois. Se tem dor ou limitação, adapta o exercício — não abandona.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treinodeforca #autonomia #envelhecerbem #mobilidade",
+   "fonte": "wagner",
+   "codigo": "DaxmXIaxEHG"
+  },
+  {
+   "id": "magnesio-nivel-de-evidencia",
+   "tema": "Magnésio e evidência",
+   "tipo": "tecnico",
+   "texto": [
+    "Impacto positivo da Suplementação com magnésio com maior nível de evidência:",
+    "1 - Pressão arterial.",
+    "2 - Constipação intestinal.",
+    "3 - Pressão arterial na gestação.",
+    "4 - Glicemia e sens. a insulina.",
+    "5 - Enxaqueca.",
+    "Impacto positivo mas com estudos menos impactantes: TPM, sono, ansiedade, depressão, performance esporte."
+   ],
+   "legenda": "Magnésio virou moda pra sono e ansiedade, e é justamente aí que a evidência é mais frágil. Onde ele tem lastro melhor é pressão, intestino preso, glicemia e enxaqueca. E a forma usada muda o resultado: não é tudo a mesma coisa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #magnesio #suplementacao #evidenciacientifica #enxaqueca",
+   "fonte": "wagner",
+   "codigo": "DaidHLFu-I8"
+  },
+  {
+   "id": "habitos-de-disciplina",
+   "tema": "Hábitos de disciplina",
+   "tipo": "reflexivo",
+   "texto": [
+    "Respire por 5 segundos antes de atender um telefonema importante, chegue sempre 15 minutos mais cedo, mantenha \"guarda alta\" para qualquer tipo de \"almoço grátis\", nunca fale de pessoas que não estão no ambiente e quando a raiva subir, espere 5 minutos antes de reagir.",
+    "Esses hábitos podem parecer pequenos, mas são parte da disciplina que levará você até seu objetivo."
+   ],
+   "legenda": "Percebo isso no consultório: quem cuida dos detalhes pequenos do dia costuma cuidar melhor de si em tudo. Ninguém vira outra pessoa num gesto grande, vira no que repete quando não tem ninguém olhando.\n#drwagnernovaes #disciplina #habitos #rotina #autocontrole",
+   "fonte": "wagner",
+   "codigo": "Dasp7npRL3-"
+  },
+  {
+   "id": "perdao-sem-reconexao",
+   "tema": "Perdão sem reconexão",
+   "tipo": "reflexivo",
+   "texto": [
+    "Eu acredito no perdão. Eu acredito em dar uma segunda chance.",
+    "Mas também acredito que as pessoas sabem exatamente o que estão fazendo. Elas conhecem o impacto. Elas sabem o dano.",
+    "Então, embora o perdão seja algo que eu escolho para mim, a reconexão não é algo que sempre vou dar o direito.",
+    "As pessoas sabem o que fazem e fazem sabendo que vão machucar. Normalmente, para mim, isso é o suficiente."
+   ],
+   "legenda": "Perdoar devolve a sua paz. Reabrir a porta é outra decisão, e ela pode continuar fechada. Uma coisa não obriga a outra.\n#drwagnernovaes #perdao #limites #relacoes #maturidade",
+   "fonte": "wagner",
+   "codigo": "DakwmliOtS6"
+  },
+  {
+   "id": "pessoas-toxicas-manipulacao",
+   "tema": "Pessoas tóxicas manipulam",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quando pessoas tóxicas percebem que não conseguem mais controlar você, o próximo passo delas é te ferir mudando a forma como os outros te veem.",
+    "Isso é manipulação em outro nível.",
+    "Elas vão distorcer histórias, bancar a vítima e convencer os outros que você é o problema, tudo porque perderam o controle sobre você."
+   ],
+   "legenda": "Quando a história sobre você muda mas o seu comportamento não mudou, o problema não é você. Guarde distância e deixe o tempo fazer o trabalho de mostrar quem é quem.\n#drwagnernovaes #manipulacao #limites #relacoes #autoconhecimento",
+   "fonte": "wagner",
+   "codigo": "DagnG7-xpkn"
+  },
+  {
+   "id": "mobilidade-e-privilegio",
+   "tema": "Mobilidade é privilégio",
+   "tipo": "reflexivo",
+   "texto": [
+    "Uma lesão ensina muito rápido como a capacidade do seu corpo de se mover é o maior privilégio que você tem.",
+    "Você não percebe quanta liberdade ela te dá até ser forçado a viver sem ela."
+   ],
+   "legenda": "Já atendi gente que só entendeu isso depois de duas semanas com o pé imobilizado: de repente a própria casa vira um circuito de obstáculos. Movimento se treina antes de precisar, não depois.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #mobilidade #movimento #forca #envelhecerbem",
+   "fonte": "wagner",
+   "codigo": "DadNWZZR89t"
+  },
+  {
+   "id": "gentileza-retribuida",
+   "tema": "Gentileza retribuída",
+   "tipo": "reflexivo",
+   "texto": [
+    "Eu espero, de verdade, que a vida seja gentil com todos que foram gentis comigo.",
+    "Aqueles que estiveram presentes por mim, que me amaram e tornaram minha vida melhor apenas por estarem nela.",
+    "Espero que coisas boas encontrem vocês. Espero que seus dias sejam cheios de paz, amor e que a vida ofereça tudo o que vocês têm pedido em suas orações."
+   ],
+   "legenda": "Se alguém te veio à cabeça lendo isso, manda pra pessoa. Ela provavelmente não sabe do tamanho que teve num ano difícil da sua vida 🙏\n#drwagnernovaes #gratidao #gentileza #amizade #reflexao",
+   "fonte": "wagner",
+   "codigo": "DaTU6spRGhI"
+  },
+  {
+   "id": "treino-ruim-melhor-que-nenhum",
+   "tema": "Treino ruim conta",
+   "tipo": "tecnico",
+   "texto": [
+    "Um treino ruim é melhor do que um treino que você não fez.",
+    "Faça acontecer!"
+   ],
+   "legenda": "O treino curto e sem vontade mantém o hábito de pé, e é o hábito que sustenta o longo prazo. Nos dias ruins, encurte a série em vez de cancelar o dia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treino #consistencia #musculacao #saude",
+   "fonte": "wagner",
+   "codigo": "DaQhBg2RCz5"
+  },
+  {
+   "id": "privado-aparece-em-publico",
+   "tema": "Privado aparece em público",
+   "tipo": "reflexivo",
+   "texto": [
+    "O que você faz no privado aparece em público.",
+    "Boas leituras aparecem nas conversas.",
+    "Rotina de treino aparece no físico.",
+    "Alimentação saudável aparece na energia.",
+    "A disciplina aparece na confiança.",
+    "O foco aparece nos resultados.",
+    "Você é aquilo que cultiva quando ninguém está olhando."
+   ],
+   "legenda": "Ninguém aplaude o que você faz sozinho, e é justamente ali que a coisa é construída. O que os outros veem é só o acúmulo do que você repetiu sem plateia.\n#drwagnernovaes #disciplina #habitos #consistencia #reflexao",
+   "fonte": "wagner",
+   "codigo": "DaN1viFRPVf"
+  },
+  {
+   "id": "esta-tudo-bem-sentir",
+   "tema": "Está tudo bem sentir",
+   "tipo": "reflexivo",
+   "texto": [
+    "Caso ninguém tenha te dito isso hoje: está tudo bem sentir tudo o que você está sentindo agora.",
+    "Não existe um manual sobre como lidar com o que a vida coloca no seu caminho e ninguém tem o direito de dizer como você deveria se sentir.",
+    "Você está fazendo o melhor que pode e o melhor é o SEU MELHOR.",
+    "Então dê a si mesmo o espaço para curar no seu próprio tempo, do seu próprio jeito."
+   ],
+   "legenda": "Sentir tristeza depois de uma perda não é doença, é processo. O sinal de atenção é outro: quando não passa, tira o sono, tira o apetite e trava a sua vida por semanas. Aí vale conversar com alguém que possa avaliar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #saudemental #emocoes #acolhimento #cuidado",
+   "fonte": "wagner",
+   "codigo": "DaLwzd8xnvj"
+  },
+  {
+   "id": "respeito-e-impacto",
+   "tema": "Respeito e impacto",
+   "tipo": "reflexivo",
+   "texto": [
+    "Alguém que te respeita se importará com o impacto que causa em você.",
+    "É por isso que esse pensamento do \"eles não fizeram por querer\" não tem muito valor. A intenção importa assim como o impacto.",
+    "Alguém que te respeita não descartará sua mágoa só porque \"não foi intencional\". Essa pessoa abrirá espaço para os seus sentimentos, assumirá a responsabilidade pelo impacto causado e trabalhará para reparar a lesão causada."
+   ],
+   "legenda": "Intenção explica, mas não repara. Reparar é ouvir o impacto sem discutir se ele deveria existir. \"Não foi por mal\" não fecha ferida de ninguém.\n#drwagnernovaes #respeito #relacoes #limites #maturidade",
+   "fonte": "wagner",
+   "codigo": "DaIlciYx292"
+  },
+  {
+   "id": "daqui-a-200-anos",
+   "tema": "Daqui a 200 anos",
+   "tipo": "reflexivo",
+   "texto": [
+    "Daqui a 200 anos, um novo grupo de pessoas vai caminhar por esta Terra. Nós todos já teremos partido.",
+    "Estranhos vão morar na sua casa sem saber que, 200 anos atrás, você dormia naquele mesmo quarto.",
+    "Ninguém vai visitar nosso túmulo. Ninguém vai falar sobre a nossa história. Seremos apenas mais uma parte do passado.",
+    "Pense nisso e reflita sobre o que vale a pena de verdade hoje!"
+   ],
+   "legenda": "Isso não é pra deprimir, é pra escolher melhor hoje. Se quase nada disso vai ser lembrado, o que sobra é como você viveu e quem você tratou bem no caminho.\n#drwagnernovaes #reflexao #tempo #proposito #vida",
+   "fonte": "wagner",
+   "codigo": "DaF9DBWx8Dt"
+  },
+  {
+   "id": "imparavel-de-verdade",
+   "tema": "Imparável de verdade",
+   "tipo": "reflexivo",
+   "texto": [
+    "Você se torna imparável de verdade quando fica muito bom em coisas que as pessoas não podem tirar de você!",
+    "Por exemplo, caráter, conhecimento, humildade, respeito.",
+    "Foca nesses passos antes de mais nada!"
+   ],
+   "legenda": "Cargo, patrimônio e status podem sumir num ano ruim. Caráter, conhecimento e a forma de tratar as pessoas ninguém tira de você. Comece por esses.\n#drwagnernovaes #carater #humildade #conhecimento #proposito",
+   "fonte": "wagner",
+   "codigo": "DaAqh96xuk0"
+  },
+  {
+   "id": "confianca-se-constroi",
+   "tema": "Confiança se constrói",
+   "tipo": "reflexivo",
+   "texto": [
+    "A confiança não se constrói quando as coisas dão certo. Ela se constrói quando não dão!"
+   ],
+   "legenda": "Todo mundo parece confiável no dia bom. Você descobre quem é quem quando o plano desanda, e é ali que você também mostra quem é.\n#drwagnernovaes #confianca #carater #relacoes #maturidade",
+   "fonte": "wagner",
+   "codigo": "DZ-v8qPxyEd"
+  },
+  {
+   "id": "levantar-peso-e-ossos",
+   "tema": "Levantar peso e ossos",
+   "tipo": "tecnico",
+   "texto": [
+    "Quanto mais você levanta peso:",
+    "Mais fortes seus ossos se tornarão.",
+    "Mais músculo você preservará e construirá.",
+    "Melhor você controlará seu peso.",
+    "Melhor você se sentirá!",
+    "Nunca é tarde demais, apenas comece agora!"
+   ],
+   "legenda": "Osso responde a carga: o estímulo do peso é um dos sinais que ele usa pra se manter firme. Quem vai começar mais tarde na vida não perdeu a janela, só precisa de progressão e orientação de quem acompanha.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #musculacao #densidadeossea #forca #envelhecerbem",
+   "fonte": "wagner",
+   "codigo": "DZ-IiikRFm-"
+  },
+  {
+   "id": "criados-de-formas-diferentes",
+   "tema": "Criados de formas diferentes",
+   "tipo": "reflexivo",
+   "texto": [
+    "Você precisa lembrar que você e seu parceiro foram criados de formas diferentes e aprenderam a amar e reagir de maneiras distintas.",
+    "Tente entender um ao outro.",
+    "Vocês precisam trabalhar juntos e não um contra o outro."
+   ],
+   "legenda": "No mesmo casal, um aprendeu que amor é falar tudo e o outro que amor é resolver em silêncio. Antes de acusar má vontade, pergunte como aquilo funcionava na casa onde a pessoa cresceu.\n#drwagnernovaes #relacionamento #casal #comunicacao #empatia",
+   "fonte": "wagner",
+   "codigo": "DZ8d8E3xVT1"
+  },
+  {
+   "id": "saude-passa-por-geracoes",
+   "tema": "Saúde passa por gerações",
+   "tipo": "tecnico",
+   "texto": [
+    "A saúde passa por gerações e começa com uma pessoa.",
+    "Uma pessoa que escolhe comida natural.",
+    "Uma pessoa que faz exercícios diariamente.",
+    "Uma pessoa que cuida e valoriza a saúde mental.",
+    "Uma pessoa que assume o controle da própria saúde.",
+    "Seja essa pessoa para a sua família."
+   ],
+   "legenda": "No consultório eu vejo isso começar quase sempre por uma pessoa da casa. Um muda o prato e o horário, e um tempo depois o resto da família está olhando e copiando, sem discurso nenhum.\nSe você espera todo mundo mudar junto, ninguém muda. Comece sozinho.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #saudedafamilia #habitos #prevencao #medicinapreventiva",
+   "fonte": "wagner",
+   "codigo": "DZ7KRz8RjIq"
+  },
+  {
+   "id": "familias-disfuncionais",
+   "tema": "Famílias disfuncionais",
+   "tipo": "reflexivo",
+   "texto": [
+    "Normalmente, famílias disfuncionais identificam a pessoa mais saudável mentalmente como o problema.",
+    "Isso acontece porque pessoas saudáveis param de participar das regras doentias impostas por esse ambiente."
+   ],
+   "legenda": "Quem começa a se cuidar quase sempre passa por uma fase de ser chamado de difícil, arrogante ou distante em casa.\nNão é que você piorou. É que você parou de participar do que sempre te adoeceu. Firmeza não precisa virar guerra.\n#drwagnernovaes #saudemental #familia #limites #autocuidado",
+   "fonte": "wagner",
+   "codigo": "DZsvX4bN-S-"
+  },
+  {
+   "id": "sucesso-vida-leve",
+   "tema": "Sucesso e vida leve",
+   "tipo": "reflexivo",
+   "texto": [
+    "Engraçado como a gente cresceu achando que sucesso era proporcional a quantidade de títulos, diplomas e dinheiro.",
+    "Mas hoje, a maioria de nós só quer uma vida que seja leve, tranquila, feliz e com sentido."
+   ],
+   "legenda": "Já atendi gente com currículo impecável e sono destruído. Título nenhum segura uma pessoa em pé.\nSe a sua rotina de sucesso te tirou o sono, o apetite e a paciência, ela não está funcionando — está só rendendo bem.\n#drwagnernovaes #qualidadedevida #proposito #vidaleve #saudemental",
+   "fonte": "wagner",
+   "codigo": "DZ2YKChxhRA"
+  },
+  {
+   "id": "viajar-tolerancia",
+   "tema": "Viajar ensina tolerância",
+   "tipo": "reflexivo",
+   "texto": [
+    "Viajar abre a mente quando você sabe usar a seu favor, olha só:",
+    "As pessoas que viajaram muito tendem a julgar menos. Não porque se tornaram mais legais, mas porque viram muitas versões do que é \"normal\".",
+    "Em um país, é normal comer com as mãos.",
+    "Em outro, é normal ficar em silêncio à mesa.",
+    "Em um terceiro, é normal abraçar estranhos.",
+    "Quando você viu 30 versões diferentes do \"jeito certo\", você para de acreditar que o \"seu jeito\" é o único.",
+    "Viajar não ensina apenas geografia, ensina tolerância!"
+   ],
+   "legenda": "Quem andou muito perde o hábito de corrigir os outros. Vale pra mesa, pra criação de filho e pra forma de cuidar da saúde.\nNem tudo que é diferente do seu jeito está errado. Às vezes é só outro jeito que também funciona.\n#drwagnernovaes #viajar #tolerancia #culturas #mentalidade",
+   "fonte": "wagner",
+   "codigo": "DZxvg5JxCZa"
+  },
+  {
+   "id": "treino-peso-mulheres-40",
+   "tema": "Treino com peso 40+",
+   "tipo": "tecnico",
+   "texto": [
+    "Mulheres, se a sua idade começa com 4, 5, 6... o treino com peso NÃO é opcional.",
+    "Lembre-se: sua autonomia física e mental depende totalmente disso."
+   ],
+   "legenda": "Muita mulher chega achando que musculação é assunto de vaidade, quando na prática é o que sustenta osso, equilíbrio e autonomia depois dos 40. E não precisa ser complicado: começar leve, com orientação de quem entende, já muda a conversa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treinocompeso #saudedamulher #densidadeossea #menopausa",
+   "fonte": "wagner",
+   "codigo": "DZuj2D0xJiW"
+  },
+  {
+   "id": "comida-ansiolitico-exercicio",
+   "tema": "Ansiolítico e antidepressivo",
+   "tipo": "tecnico",
+   "texto": [
+    "A comida é o \"ansiolítico\" mais utilizado.",
+    "O exercício é o \"antidepressivo\" menos utilizado."
+   ],
+   "legenda": "Quando aperta a ansiedade, a geladeira é o caminho mais curto. Resolve por vinte minutos e cobra depois.\nNão estou dizendo pra trocar tratamento por caminhada. Estou dizendo que a caminhada quase nunca entra na conta, e devia entrar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #ansiedade #saudemental #exercicio #comerporemocao",
+   "fonte": "wagner",
+   "codigo": "DZsUcNgxpLL"
+  },
+  {
+   "id": "musculo-orgao-endocrino",
+   "tema": "Músculo órgão endócrino",
+   "tipo": "tecnico",
+   "texto": [
+    "Acha que levantar peso é só para ter um corpo definido?",
+    "Seus músculos são órgãos endócrinos. Cada repetição libera miocinas, hormônios que combatem a inflamação, estabilizam o açúcar no sangue e melhoram a saúde cerebral.",
+    "Ou seja, o treino de força é um medicamento sem efeitos colaterais."
+   ],
+   "legenda": "O músculo não é só o que aparece no espelho. Ele conversa com o resto do corpo, e isso pesa em coisas que ninguém associa a academia.\nRessalva honesta: treino não tira remédio de quem precisa de remédio, e treino sem técnica machuca. Mas poucas condutas mexem em tantas frentes ao mesmo tempo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treinodeforca #miocinas #inflamacao #musculacao",
+   "fonte": "wagner",
+   "codigo": "DZpd1ijxpZm"
+  },
+  {
+   "id": "jantar-cedo-3h",
+   "tema": "Jantar 3h antes de dormir",
+   "tipo": "tecnico",
+   "texto": [
+    "Jantar pelo menos 3h antes de ir pra cama é um ponto de virada pra sua saúde. Ajuda reduzir a glicose, otimiza o sono, reduz a inflamação.",
+    "Ou seja, jantar cedo deve estar na sua lista de objetivos.",
+    "Comece por onde conseguir, importante é começar!"
+   ],
+   "legenda": "A queixa de quem janta tarde raramente é peso. É acordar de madrugada e não conseguir voltar a dormir.\nAdiantar o jantar não custa nada e costuma aparecer primeiro no sono. Se hoje você come muito tarde, antecipar aos poucos já conta.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #sono #jantar #glicemia #habitos",
+   "fonte": "wagner",
+   "codigo": "DZm57TjRGKm"
+  },
+  {
+   "id": "alimentacao-saude-mental",
+   "tema": "Alimentação e saúde mental",
+   "tipo": "tecnico",
+   "texto": [
+    "A conexão entre a alimentação e a saúde mental é uma das conversas mais negligenciadas atualmente.",
+    "O que você come não afeta apenas o seu corpo. Afeta o seu humor, seus níveis de estresse, seu foco, sua energia e até mesmo sua capacidade de sentir a felicidade.",
+    "No final, o seu prato está diariamente apoiando a sua cura ou trabalhando contra ela."
+   ],
+   "legenda": "Muita gente chega no consultório querendo resolver humor e energia sem tocar no que come.\nNão é que a comida explique tudo — é que ela quase nunca é olhada. Antes de concluir qualquer coisa, anote três dias reais do seu prato e leia sem se enganar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacao #saudemental #humor #energia",
+   "fonte": "wagner",
+   "codigo": "DZkfHJoRHbS"
+  },
+  {
+   "id": "inteligencia-humildade",
+   "tema": "Inteligência com humildade",
+   "tipo": "reflexivo",
+   "texto": [
+    "Sou um grande admirador de pessoas extremamente inteligentes e cheias de conhecimento, mas que permanecem humildes e gentis, tratando todos com respeito e nunca diminuindo ninguém."
+   ],
+   "legenda": "Inteligência que precisa diminuir alguém pra aparecer é insegurança de roupa nova.\nNa medicina isso fica escancarado: o colega que a gente quer por perto é o que explica sem te fazer sentir burro.\n#drwagnernovaes #humildade #respeito #conhecimento #carater",
+   "fonte": "wagner",
+   "codigo": "DZh-rxqReP-"
+  },
+  {
+   "id": "dopamina-midia-social",
+   "tema": "Dopamina e mídia social",
+   "tipo": "tecnico",
+   "texto": [
+    "Ficar longos períodos na mídia social faz com que a dopamina aumente rapidamente. Mas, da mesma forma que ela aumenta, ela também cai rapidamente.",
+    "A consequência mais imediata é a pessoa \"entristecer\" pela falta do estímulo.",
+    "Por isso, cuidado com os excessos, afinal vivemos num mundo em que cada vez mais as pessoas se tornam dependentes da mídia social."
+   ],
+   "legenda": "Estímulo rápido e barato acaba rápido. Aquele vazio depois de uma hora rolando o feed tem explicação, não é frescura sua.\nTeste uma janela fixa do dia sem tela — muita gente sente diferença já na hora de dormir.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #dopamina #redessociais #saudemental #foco",
+   "fonte": "wagner",
+   "codigo": "DZfJi9zR1_F"
+  },
+  {
+   "id": "mobilidade-autonomia",
+   "tema": "Mobilidade e autonomia",
+   "tipo": "tecnico",
+   "texto": [
+    "Nunca acredite que sua mobilidade já está garantida.",
+    "Treine com pesos, ande de bicicleta, faça uma caminhada, vá correr. Faça o que conseguir de exercício, mas FAÇA!",
+    "Seja gentil com o seu corpo cuidando dele enquanto você pode, isso sim vai garantir um futuro com autonomia."
+   ],
+   "legenda": "Mobilidade não se guarda, se paga todo mês. Vejo gente de 60 subindo escada melhor que gente de 40, e a diferença quase sempre foi o que fizeram na década anterior.\nEscolha o exercício que você consegue manter, não o que parece mais bonito no vídeo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #mobilidade #autonomia #exercicio #envelhecerbem",
+   "fonte": "wagner",
+   "codigo": "DZcnx4qxc2Y"
+  },
+  {
+   "id": "vitamina-d-k2",
+   "tema": "Vitamina D e K2",
+   "tipo": "tecnico",
+   "texto": [
+    "Usar vitamina D apenas 1x/semana é sim uma possibilidade já que ela tem uma duração maior.",
+    "No entanto, a vitamina K2 é de duração mais curta.",
+    "Por isso, se usa vitD 1x/semana, será interessante associar vitK2 todos os dias."
+   ],
+   "legenda": "Vitamina D e K2 não permanecem no corpo pelo mesmo tempo: uma sai devagar, a outra sai rápido. Por isso espaçar as duas do mesmo jeito não fecha.\nQuem já usa: leve isso pra quem prescreveu, porque a decisão depende do seu exame e do seu caso, não de um post.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #vitaminad #vitaminak2 #suplementacao #exames",
+   "fonte": "wagner",
+   "codigo": "DZa_AHZxMCO"
+  },
+  {
+   "id": "vida-bela-novamente",
+   "tema": "A vida se torna bela",
+   "tipo": "reflexivo",
+   "texto": [
+    "Lembre-se: sempre que a vida ficar difícil, ela se tornará bela novamente na sequência. É assim que a vida funciona.",
+    "Às vezes ela te dá lágrimas de dor e às vezes lágrimas de alegria.",
+    "Mas, sempre, a vida se torna bela novamente."
+   ],
+   "legenda": "Nada dura pra sempre, nem o ruim. Isso não é otimismo bobo, é o que se vê acompanhando as mesmas pessoas por anos.\nNa fase dura o trabalho é um só: atravessar sem se destruir no meio do caminho. 🙏\n#drwagnernovaes #resiliencia #fasesdavida #esperanca #saudemental",
+   "fonte": "wagner",
+   "codigo": "DZaaynTxZRG"
+  },
+  {
+   "id": "colesterol-q10-magnesio",
+   "tema": "Colesterol, dor muscular",
+   "tipo": "tecnico",
+   "texto": [
+    "Se vc usa medicamento pra colesterol e começou a ter dor no corpo, cansaço após o início do uso.",
+    "Vale a pena associar coenzima q10 e magnésio, esses dois nutrientes ajudam a melhorar esses sintomas."
+   ],
+   "legenda": "No consultório isso aparece muito: a pessoa começa o remédio do colesterol e semanas depois chega falando de perna pesada e cansaço. Antes de parar o tratamento por conta própria, fale com quem prescreveu — nem toda dor que surge nesse período vem do medicamento, e o ajuste às vezes é simples.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #colesterol #coenzimaq10 #magnesio #saudecardiovascular",
+   "fonte": "wagner",
+   "codigo": "DZaAay_xNBj"
+  },
+  {
+   "id": "pensamento-japones-sorte",
+   "tema": "Pensamento japonês, sorte",
+   "tipo": "reflexivo",
+   "texto": [
+    "Existe um pensamento japonês antigo que diz:",
+    "Se você perdeu o ônibus, talvez tenha evitado um acidente.",
+    "Se foi rejeitado, talvez tenha sido poupado de estar num lugar errado.",
+    "O universo protege você de maneiras que, à primeira vista, parecem falta de sorte. Mas na verdade eram a sua maior sorte!"
+   ],
+   "legenda": "Já escutei isso de muito paciente: o emprego que não veio, a relação que acabou, e um ano depois a frase \"foi um alívio\". Nem toda porta fechada é castigo — algumas só demoram pra fazer sentido. 🙏\n#drwagnernovaes #reflexao #vida #gratidao #saudemental",
+   "fonte": "wagner",
+   "codigo": "DZYKA99Pk8v"
+  },
+  {
+   "id": "treino-peso-mulheres-40-motivos",
+   "tema": "Treino com peso após 40",
+   "tipo": "tecnico",
+   "texto": [
+    "Por que o treino com peso é indispensável para mulheres acima dos 40 anos:",
+    "1 - Aumenta a densidade óssea.",
+    "2 - Melhora a postura e o equilíbrio.",
+    "3 - Aumenta a força para as atividades diárias.",
+    "4 - Constrói massa muscular, o que acelera o metabolismo.",
+    "5 - Melhora metabolismo da glicose."
+   ],
+   "legenda": "Densidade ossea, equilibrio e forca para a vida diaria: o ganho do treino com peso depois dos 40 vai muito alem da estetica.\nSe voce nunca treinou, comece leve e com quem saiba orientar.\nEste conteudo e educativo e nao substitui a consulta medica.\n#drwagnernovaes #treinodeforca #mulheres40 #densidadeossea #menopausa",
+   "fonte": "wagner",
+   "codigo": "DZVatbCxSVr"
+  },
+  {
+   "id": "dieta-perfeita-simples",
+   "tema": "Dieta perfeita",
+   "tipo": "tecnico",
+   "texto": [
+    "As pessoas passam anos tentando encontrar a dieta perfeita.",
+    "Enquanto na verdade, a maioria das pessoas deveria apenas comer alimentos naturais e ser mais consistente.",
+    "Sem complicar, apenas executando o simples que funciona!"
+   ],
+   "legenda": "A pergunta que mais escuto é qual dieta é a certa. Na prática, quem come comida de verdade na maior parte dos dias tende a se sustentar por muito mais tempo do que quem troca de plano a cada dois meses. Consistência é chata, mas é o que sobra no fim.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacaosaudavel #comidadeverdade #habitos #nutricao",
+   "fonte": "wagner",
+   "codigo": "DZVHBlqRsBe"
+  },
+  {
+   "id": "industrializados-custo-futuro",
+   "tema": "Industrializados custam depois",
+   "tipo": "tecnico",
+   "texto": [
+    "\"Alimentos\" industrializados não são mais baratos.",
+    "Você acaba pagando por eles mais tarde na vida com sintomas, doenças, contas médicas, limitações físicas e mentais.",
+    "A vida faz você pagar suas dívidas.",
+    "Então, escolha investir pra ganhar com juros compostos ao invés de pagar essas dívidas!"
+   ],
+   "legenda": "O pacote barato do mercado costuma cobrar a diferença depois — em sintoma, em consulta, em exame. Vale olhar o carrinho pensando no que ele devolve daqui a cinco, dez anos.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #ultraprocessados #alimentacaosaudavel #prevencao #saude",
+   "fonte": "wagner",
+   "codigo": "DZSkDChxhp-"
+  },
+  {
+   "id": "pessoa-em-5-anos",
+   "tema": "Você em 5 anos",
+   "tipo": "reflexivo",
+   "texto": [
+    "A pessoa que vc será em 5 anos depende: da comida que vc come, das pessoas que vc passa seu tempo, das idéias que fala, dos seus exercícios, dos seus descansos, das leituras que vc faz, dos hábitos que vc tem.",
+    "Escolha com sabedoria!"
+   ],
+   "legenda": "Ninguém muda a vida numa decisão grande. Muda no que se repete sem pensar: o que come, com quem conversa, a que hora vai dormir. Escolha o que você quer repetir.\n#drwagnernovaes #habitos #rotina #escolhas #reflexao",
+   "fonte": "wagner",
+   "codigo": "DZSWWgixdvV"
+  },
+  {
+   "id": "fontes-de-dopamina",
+   "tema": "Boas fontes de dopamina",
+   "tipo": "tecnico",
+   "texto": [
+    "Tenha na sua vida boas fontes de dopamina: treino com pesos, contato com a natureza, corrida, estar próximo das pessoas que você gosta, um relacionamento amoroso saudável, dias de descanso após dias de trabalho.",
+    "Essas fontes são motivadoras e ainda impulsionam seus dias!"
+   ],
+   "legenda": "Reparei que quem tem prazer em coisas que exigem algum esforço — treino, natureza, gente por perto — reclama menos daquele vazio do fim da tarde. O prazer fácil da tela cobra rápido; o outro sustenta o dia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #dopamina #treinocompeso #saudemental #habitos",
+   "fonte": "wagner",
+   "codigo": "DZP4IVRxm6n"
+  },
+  {
+   "id": "uma-coisa-dificil-por-dia",
+   "tema": "Uma coisa difícil por dia",
+   "tipo": "reflexivo",
+   "texto": [
+    "Faça pelo menos uma coisa difícil relacionada a sua saúde todos os dias: Aumente o peso num exercício, caminhe um pouco mais, coma mais saudável, vá para cama mais cedo, leia um pouco mais.",
+    "A cada coisa difícil adicionada hoje, a vida ficará um pouco mais fácil amanhã!"
+   ],
+   "legenda": "Não precisa ser heroico: uma série a mais, dez minutos de caminhada, dormir antes da meia-noite. O corpo entende repetição bem melhor do que entende esforço isolado num domingo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #disciplina #habitossaudaveis #treino #saude",
+   "fonte": "wagner",
+   "codigo": "DZNTKZ7R79q"
+  },
+  {
+   "id": "sinais-do-universo",
+   "tema": "Sinais do universo",
+   "tipo": "reflexivo",
+   "texto": [
+    "O universo vai dizer suavemente que algo não é para você.",
+    "Pessoas, lugares, carreiras, círculos sociais.",
+    "Ele aumentará o volume gradualmente até que você ouça.",
+    "Eventualmente, se você continuar se recusando a escutar, ele o removerá violentamente."
+   ],
+   "legenda": "Quase sempre a pessoa já sabia. O aviso vem baixinho — no cansaço, na vontade que sumiu, no incômodo que ela chamou de fase — e a gente escolhe não ouvir até virar barulho.\n#drwagnernovaes #reflexao #autoconhecimento #escolhas #vida",
+   "fonte": "wagner",
+   "codigo": "DZNEPkpRU7T"
+  },
+  {
+   "id": "refeicao-como-investimento",
+   "tema": "Refeição é investimento",
+   "tipo": "tecnico",
+   "texto": [
+    "Cada refeição que você faz é um investimento de curto prazo em como você se sente, um investimento de médio prazo na sua aparência e um investimento de longo prazo na sua liberdade contra doenças."
+   ],
+   "legenda": "Gosto de perguntar como a pessoa se sentiu duas horas depois do almoço — a resposta diz mais do que qualquer contagem de calorias. É a soma dessas refeições, e não a de ontem, que aparece nos exames lá na frente.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacaosaudavel #metabolismo #prevencao #saude",
+   "fonte": "wagner",
+   "codigo": "DZLpBeexrS3"
+  },
+  {
+   "id": "dias-de-construcao-manutencao",
+   "tema": "Dias de construção",
+   "tipo": "reflexivo",
+   "texto": [
+    "Uma verdade difícil que levei anos para aceitar: nem todo dia é um dia de construção.",
+    "Alguns dias são para manutenção e outros para demolição. Alguns são dias de descanso.",
+    "Tentar construir em um dia de descanso só resulta em uma arquitetura ruim.",
+    "Saiba em que tipo de dia você está e execute de acordo."
+   ],
+   "legenda": "Existe dia de empurrar e existe dia de apenas não retroceder. Saber em qual você está poupa energia que ia embora brigando consigo mesmo.\n#drwagnernovaes #reflexao #descanso #rotina #autoconhecimento",
+   "fonte": "wagner",
+   "codigo": "DZKhadwRrT0"
+  },
+  {
+   "id": "processo-nao-fardo",
+   "tema": "Processo, não fardo",
+   "tipo": "reflexivo",
+   "texto": [
+    "Se você encara dieta, treino e disciplina como um fardo, você não durará muito nessa jornada.",
+    "Treine sua mente para aproveitar o processo.",
+    "Pare de se comparar, isso deixa você obcecado com o resultado rápido a ponto de esquecer de apreciar o seu trabalho em si.",
+    "Veja cada treino como um privilégio e cada refeição como combustível."
+   ],
+   "legenda": "Quando comida e treino viram castigo, o abandono é só questão de tempo — vejo isso se repetir. Quem permanece é quem achou alguma graça no caminho, não quem passou meses contando os dias pro resultado.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treino #consistencia #habitos #saude",
+   "fonte": "wagner",
+   "codigo": "DZI-6mmxF2A"
+  },
+  {
+   "id": "orgulho-da-sua-jornada",
+   "tema": "Orgulho da sua jornada",
+   "tipo": "reflexivo",
+   "texto": [
+    "Ninguém nunca entenderá completamente o quão difícil tem sido para você, o quanto de \"peso\" você carregou, quantas vezes teve que se reerguer silenciosamente.",
+    "Mas você sabe! E isso é o suficiente.",
+    "Tenha orgulho da maneira como você continuou.",
+    "Tenha orgulho da maneira como você permaneceu gentil e bom, mesmo quando o mundo pediu para que você não fosse."
+   ],
+   "legenda": "Tem gente que atravessou anos duros sem ninguém por perto pra ver. Se é o seu caso, o reconhecimento não precisa vir de fora. 🙏\n#drwagnernovaes #reflexao #forcainterior #gratidao #saudemental",
+   "fonte": "wagner",
+   "codigo": "DZIAIR8RbdG"
+  },
+  {
+   "id": "gluten-investigar-antes-de-cortar",
+   "tema": "Gluten e celiaca",
+   "tipo": "tecnico",
+   "texto": [
+    "Tres coisas verdadeiras sobre gluten, na ordem que importa.",
+    "1 - Ele mexe na barreira do intestino. Isso e real e esta descrito.",
+    "2 - Barreira mais permeavel nao e doenca. Muita gente vive assim e vai bem.",
+    "3 - Quem melhora tirando pao muitas vezes melhorou pelo frutano do trigo, nao pelo gluten.",
+    "O furo que eu vejo toda semana: a pessoa corta gluten sozinha e so depois pede o exame de doenca celiaca. Sem gluten na dieta, o exame perde valor. Se quer saber, investiga comendo. Depois corta."
+   ],
+   "legenda": "O gluten mexe na barreira do intestino, e isso nao faz dele a causa de tudo. Cortar por conta propria antes de investigar celiaca atrapalha o diagnostico. Este conteudo e educativo e nao substitui a consulta medica. #gluten #intestino #celiaca #saude #nutricao",
+   "fonte": "novo",
+   "nota": 8.5
+  },
+  {
+   "id": "o-que-o-pedido-nao-pergunta",
+   "tema": "O que o exame não mede",
+   "tipo": "reflexivo",
+   "texto": [
+    "O pedido de exame não tem campo para as coisas que mais mexem no resultado.",
+    "Não tem linha para o turno da noite. Nem para o luto de três meses atrás. Nem para as garrafas de sexta. Nem para as quatro horas de sono que viraram rotina.",
+    "Aí a glicemia vem no limite, a pressão vem alta, o cortisol vem estranho, e o número sozinho vira um diagnóstico que não existe.",
+    "O exame mede o corpo. A consulta descobre o motivo."
+   ],
+   "legenda": "Sono, bebida, turno e sofrimento aparecem nos exames sem se identificar. Contar isso ao médico evita que um número circunstancial vire um rótulo permanente.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #sono #estresse #medicinapreventiva #saude",
+   "fonte": "novo",
+   "nota": 8.0
+  },
+  {
+   "id": "queda-comeca-na-receita",
+   "tema": "Quedas e remédios",
+   "tipo": "tecnico",
+   "texto": [
+    "Muita queda de idoso não começa no chão. Começa na lista de remédios.",
+    "1 - Um para dormir, que ainda está fazendo efeito quando ele levanta de madrugada.",
+    "2 - Um para pressão, que derruba na hora de ficar de pé.",
+    "3 - Um para ansiedade, que rouba o reflexo do tropeço.",
+    "4 - Um para tontura, tomado há tantos anos que ninguém sabe se ainda é preciso.",
+    "Se alguém da sua casa toma vários remédios por dia, leve todos na próxima consulta e revise um por um com quem prescreveu."
+   ],
+   "legenda": "Antes de culpar o tapete, vale olhar a lista de remédios. Revisão de medicação se faz em consulta, com quem prescreveu, nunca por conta própria. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #quedas #polifarmacia #idosos #prevencao",
+   "fonte": "novo",
+   "nota": 8.0
+  },
+  {
+   "id": "idoso-nao-reclama-ele-adapta",
+   "tema": "Adaptação esconde perda",
+   "tipo": "reflexivo",
+   "texto": [
+    "Idoso raramente chega dizendo que está mais fraco. Ele adapta.",
+    "Passa a levar a bolsa mais leve. Começa a segurar no corrimão. Deixa de ir à padaria porque hoje não deu. Escolhe a cadeira com braço na festa de família. Nada disso vira queixa na consulta.",
+    "Quando a família percebe, a conta já correu por anos. Se alguém que você ama parou de fazer alguma coisa e ninguém perguntou por quê, comece por aí."
+   ],
+   "legenda": "Idoso não reclama, adapta. E adaptação esconde perda de função. Se alguém parou de fazer algo, pergunte por quê. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #idosos #funcionalidade #familia #prevencao",
+   "fonte": "novo",
+   "nota": 8.0
+  },
+  {
+   "id": "melhorei-logo-era-isso",
+   "tema": "Melhorei, logo era isso",
+   "tipo": "reflexivo",
+   "texto": [
+    "\"Cortei gluten e melhorei\" quase nunca e um teste.",
+    "Naquela mesma semana voce comeu menos besteira, bebeu menos, cozinhou mais, dormiu melhor e passou a prestar atencao no corpo.",
+    "Sao seis mudancas contando o gluten. Voce deu o credito para uma.",
+    "Isso nao quer dizer que a melhora foi inventada. A melhora e real.",
+    "Mas se voce nao sabe qual das seis funcionou, vai carregar as outras cinco a vida inteira sem precisar."
+   ],
+   "legenda": "Melhorar e uma coisa. Saber o que fez melhorar e outra. Quando muda tudo junto, um inocente leva a culpa e a fama. Este conteudo e educativo e nao substitui a consulta medica. #nutricao #habitos #saude #medicina #evidencia",
+   "fonte": "novo",
+   "nota": 8.0
+  },
+  {
+   "id": "suplemento-sem-bula",
+   "tema": "Bula e suplemento",
+   "tipo": "tecnico",
+   "texto": [
+    "Medicamento vem com uma lista enorme de efeito adverso. Suplemento vem com quase nada escrito. Isso engana.",
+    "1 - A lista do medicamento existe porque alguém foi obrigado a procurar e anotar.\n2 - O silêncio do suplemento significa que ninguém foi obrigado a procurar.\n3 - Não ter achado não é a mesma coisa que não existir.",
+    "Suplemento também interage com remédio, também tem dose errada, também sobrecarrega. A diferença está em quem foi fiscalizado."
+   ],
+   "legenda": "A bula grande assusta e a embalagem limpa tranquiliza, mas a diferença entre as duas é o nível de fiscalização, não o nível de risco.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #suplementacao #medicina #bula #seguranca",
+   "fonte": "novo",
+   "nota": 8.0
+  },
+  {
+   "id": "exame-demais-tambem-faz-mal",
+   "tema": "Exame pedido demais",
+   "tipo": "tecnico",
+   "texto": [
+    "Exame demais também faz mal. Três que costumam ser pedidos sem necessidade:",
+    "1 - Painel de intolerância alimentar por IgG. IgG contra alimento mostra exposição: que a pessoa comeu aquilo. Sociedades de alergia não recomendam esse painel para diagnosticar intolerância.",
+    "2 - Vitamina D repetida de três em três meses em quem já corrigiu e está bem.",
+    "3 - Ultrassom de tireoide sem sintoma, sem nódulo palpável e sem histórico. Encontra achado que nunca iria incomodar, e o achado cobra punção, susto e às vezes cirurgia.",
+    "Antes de marcar, uma pergunta resolve: o que muda se vier alterado?"
+   ],
+   "legenda": "Todo exame tem chance de achar algo que nunca iria dar problema, e essa descoberta cobra preço em ansiedade e procedimento. Pedir com critério é cuidado, não economia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #medicinapreventiva #saude #prevencao",
+   "fonte": "novo",
+   "nota": 7.75
+  },
+  {
+   "id": "ultraprocessado-nao-da-trabalho",
+   "tema": "Ultraprocessado",
+   "tipo": "tecnico",
+   "texto": [
+    "Ultraprocessado não engorda porque é veneno. Engorda porque é fácil.",
+    "1 - Quase não exige mastigar.",
+    "2 - Acaba antes de o corpo perceber que comeu.",
+    "3 - Deixa vontade de repetir.",
+    "Antes do rótulo, responda uma coisa: essa comida deu algum trabalho pra ser comida? Boa parte da resposta está aí."
+   ],
+   "legenda": "A conversa sobre ultraprocessado costuma travar no rótulo. Na prática, o que muda é a velocidade com que aquilo entra.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ultraprocessados #alimentacao #habitos #metabolismo #saude",
+   "fonte": "novo",
+   "nota": 7.75
+  },
+  {
+   "id": "ronco-nao-e-so-estresse",
+   "tema": "apneia disfarçada de estresse",
+   "tipo": "tecnico",
+   "texto": [
+    "Homem de 45 anos, pressão que não fecha nem com dois remédios, ronca alto, dorme oito horas e acorda destruído. A explicação que ele traz é sempre a mesma: estresse.",
+    "Muitas vezes não é. É a respiração parando durante a noite.",
+    "Apneia sobe a pressão, atrapalha a memória recente e mantém o cansaço mesmo com a cama cheia de horas.",
+    "Antes de aceitar o \"é só estresse\", vale investigar como você respira enquanto dorme."
+   ],
+   "legenda": "Ronco alto, sono longo e cansaço no dia seguinte é um trio que merece investigação do sono, não mais um remédio de pressão.\nEste conteúdo é educativo e não substitui a consulta médica.\n#apneiadosono #ronco #pressaoalta #sono #saudedohomem",
+   "fonte": "novo",
+   "nota": 7.75
+  },
+  {
+   "id": "apneia-quem-dorme-do-lado",
+   "tema": "apneia do parceiro",
+   "tipo": "tecnico",
+   "texto": [
+    "Quem descobre a apneia do marido raramente é o médico. É a esposa.",
+    "Ela ouve o ronco parar, conta os segundos e espera o ar voltar. Faz isso há anos e chama de sono leve.",
+    "No consultório chega ele, reclamando de cansaço. E ela, reclamando de nada.",
+    "São dois pacientes. Um dorme mal porque para de respirar. O outro dorme mal porque vigia.",
+    "Se você já ouviu essa pausa em quem dorme do seu lado, isso pede investigação. Não paciência."
+   ],
+   "legenda": "Quem dorme do seu lado costuma ver antes de qualquer exame. Levar isso pro consultório é cuidado com os dois, não implicância.\nEste conteúdo é educativo e não substitui a consulta médica.\n#sono #apneiadosono #saude #casal #prevencao",
+   "fonte": "novo",
+   "nota": 7.75
+  },
+  {
+   "id": "dieta-da-casa-nao-da-crianca",
+   "tema": "alimentação infantil",
+   "tipo": "tecnico",
+   "texto": [
+    "Não existe dieta da criança. Existe dieta da casa.",
+    "1 - Criança não come o que você fala. Come o que está na bancada.",
+    "2 - Se o refrigerante é do pai, é dela também. Ela vê o vidro, não a regra.",
+    "3 - Casa que janta em pé, na frente da TV, cria gente que come rápido a vida inteira.",
+    "4 - Ninguém muda sozinho um hábito que é de todos.",
+    "Mudar o que entra pela porta ensina mais que qualquer conversa sobre comer bem."
+   ],
+   "legenda": "O que está no armário ensina mais que o discurso na mesa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#alimentacaoinfantil #familia #habitos #saude #prevencao",
+   "fonte": "novo",
+   "nota": 7.75
+  },
+  {
+   "id": "sedentario-com-hobby",
+   "tema": "Passos no dia",
+   "tipo": "tecnico",
+   "texto": [
+    "Treinar uma hora e passar o resto do dia sentado é ser sedentário com hobby.",
+    "O corpo não soma o dia num bloco só. Nove horas parado continuam sendo nove horas paradas, mesmo com treino de manhã.",
+    "Levantar de vez em quando, atender ligação em pé, subir escada. Nada disso substitui o treino. É outra coisa, que também precisa acontecer."
+   ],
+   "legenda": "Dá pra treinar todo dia e ainda assim passar o dia inteiro parado. São dois problemas diferentes, e cada um cobra do seu jeito.\nEste conteúdo é educativo e não substitui a consulta médica.\n#movimento #sedentarismo #habitos #treino #saude",
+   "fonte": "novo",
+   "nota": 7.5
+  },
+  {
+   "id": "antes-de-rotular-ansiedade",
+   "tema": "diagnóstico de ansiedade",
+   "tipo": "tecnico",
+   "texto": [
+    "Antes de fechar o diagnóstico de ansiedade, algumas coisas merecem ser olhadas:",
+    "1 - Tireoide, porque hipertireoidismo imita ataque de pânico.",
+    "2 - Hemograma e ferritina, porque anemia dá palpitação e falta de ar.",
+    "3 - Vitamina B12, porque a falta bagunça humor e concentração.",
+    "4 - Cafeína de verdade, contando pré-treino, chá e refrigerante.",
+    "5 - Quantas horas você dorme, não quantas horas fica na cama."
+   ],
+   "legenda": "Ansiedade existe, é comum e merece tratamento. Só não merece ser o primeiro rótulo antes de alguém olhar o resto.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ansiedade #tireoide #ferritina #b12 #investigacaoclinica",
+   "fonte": "novo",
+   "nota": 7.5
+  },
+  {
+   "id": "historico-familiar-e-aviso-com-data",
+   "tema": "histórico familiar",
+   "tipo": "tecnico",
+   "texto": [
+    "Quando alguém me conta que o pai infartou aos cinquenta, eu não ouço história de família. Ouço um aviso com data.",
+    "Histórico familiar não é sentença. É motivo para investigar mais cedo o que precisa ser olhado.",
+    "E herança não vem só no gene. Vem no prato, no cigarro, no jeito de engolir raiva calado. Essa parte dá para reescrever."
+   ],
+   "legenda": "Histórico de família serve para antecipar a investigação, não para se conformar. Este conteúdo é educativo e não substitui a consulta médica. #familia #prevencao #coracao #saude #medicina",
+   "fonte": "novo",
+   "nota": 7.5
+  },
+  {
+   "id": "glicemia-normal-com-insulina-alta",
+   "tema": "Insulina antes da glicemia",
+   "tipo": "tecnico",
+   "texto": [
+    "A glicemia de jejum é o último exame a mudar.",
+    "Antes dela, o pâncreas passa anos produzindo insulina de sobra pra segurar aquele número bonito no papel. Enquanto ele dá conta, o resultado sai normal.",
+    "Quando a glicemia finalmente sobe, o problema não é novo. Ele só ficou visível.",
+    "Exame normal não significa metabolismo saudável. Significa que a compensação ainda está funcionando."
+   ],
+   "legenda": "A glicemia de jejum costuma ser o último indicador a se alterar. Antes dela existem anos de insulina trabalhando dobrado para manter o número dentro da faixa. Quem tem diabetes na família ganha em olhar isso antes, e não depois. Este conteúdo é educativo e não substitui a consulta médica. #resistenciainsulinica #glicemia #saudemetabolica #prevencao #metabolismo",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "glicemia-da-manha-e-do-figado",
+   "tema": "Glicemia da manhã",
+   "tipo": "tecnico",
+   "texto": [
+    "O paciente jura que não comeu nada depois do jantar, e a glicemia de jejum vem alta.",
+    "Ele não está mentindo. De madrugada o fígado libera açúcar sozinho, pra ninguém acordar em hipoglicemia. Quando existe resistência à insulina, esse freio funciona mal e a torneira fica aberta demais.",
+    "O número da manhã fala mais do fígado do que da janta."
+   ],
+   "legenda": "A glicemia de jejum alta raramente é culpa do que se comeu na noite anterior. Ela reflete o quanto o fígado libera açúcar de madrugada sem freio. Entender isso muda a conversa e evita culpa desnecessária. Este conteúdo é educativo e não substitui a consulta médica. #glicemiadejejum #resistenciainsulinica #figado #metabolismo #prevencao",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "comprar-e-uma-decisao-so",
+   "tema": "Pote x rotina",
+   "tipo": "reflexivo",
+   "texto": [
+    "Comprar suplemento é uma decisão só. Treinar é uma decisão por dia.",
+    "É por isso que o pote vende tão bem. Ele entrega a sensação de ter cuidado da saúde sem exigir que nada da rotina mude.",
+    "Quando alguém me mostra a lista do que toma, eu pergunto o que mudou no dia dela desde que começou. Quando a resposta é nada, já sabemos por onde começar."
+   ],
+   "legenda": "O que custa não é o pote, é a repetição. E é justamente a parte repetida que muda exame, energia e o resto. Este conteúdo é educativo e não substitui a consulta médica. #suplementacao #rotina #treino #medicinapreventiva #saudemetabolica",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "guarde-os-exames-antigos",
+   "tema": "Tendência x foto",
+   "tipo": "reflexivo",
+   "texto": [
+    "Guarde os exames antigos. Eles valem mais do que o de hoje.",
+    "1 - Um valor isolado é foto. Uma sequência de anos é filme, e o filme conta melhor.",
+    "2 - O que sobe devagar dentro da faixa é a informação mais útil de um resultado escrito como normal.",
+    "3 - Sem o antigo, dá para dizer se você está dentro da média. Com ele, dá para dizer se você está saindo do seu normal.",
+    "Uma pasta, no papel ou no celular. Leve na próxima consulta."
+   ],
+   "legenda": "Boa parte do que importa em um resultado só aparece na comparação com os anos anteriores. Levar a pasta velha muda a qualidade da leitura.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #saude #medicinapreventiva #prevencao",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "sol-da-manha-nao-e-vitamina-d",
+   "tema": "Sol e relógio biológico",
+   "tipo": "tecnico",
+   "texto": [
+    "Duas coisas diferentes acontecem no sol, e quase todo mundo mistura.",
+    "1 - Luz de manhã acerta o relógio. Ela avisa que o dia começou, e é isso que organiza o sono da noite.",
+    "2 - Sol do meio do dia participa da produção de vitamina D.",
+    "A cápsula cuida da segunda. Não cuida da primeira. Quem dorme mal e só aumentou o suplemento tratou o exame, não o relógio."
+   ],
+   "legenda": "Sol de manhã e vitamina D não são a mesma conversa. Um ajusta o horário do corpo, o outro aparece no exame.\nEste conteúdo é educativo e não substitui a consulta médica.\n#vitaminad #sono #ritmocircadiano #habitos #saude",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "agua-nao-tem-numero-magico",
+   "tema": "Água e hidratação",
+   "tipo": "tecnico",
+   "texto": [
+    "Não existe um número de litros que sirva pra todo mundo. Peso, calor, sal e treino mudam tudo.",
+    "1 - Sede é informação, não fraqueza.",
+    "2 - Urina clara o dia inteiro costuma ser água a mais, não saúde a mais.",
+    "3 - Beber muito não limpa nada por dentro. Você urina mais, só isso.",
+    "O rim não é filtro de piscina. Ele trabalha o dia todo, com ou sem garrafa em cima da mesa."
+   ],
+   "legenda": "A meta de litros virou regra sem nunca ter sido regra. Hidratar é acompanhar sede e urina, não bater número.\nEste conteúdo é educativo e não substitui a consulta médica.\n#hidratacao #agua #mitos #habitos #saude",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "lista-de-proibidos-que-so-cresce",
+   "tema": "Dieta de eliminacao",
+   "tipo": "reflexivo",
+   "texto": [
+    "Tem um tipo de paciente que eu vejo repetir: a lista de proibidos dele so cresce, nunca diminui.",
+    "Cada crise entra um nome novo. Nenhum nome sai.",
+    "Em dois anos ele nao come gluten, leite, tomate, ovo, cafe. Continua com o mesmo sintoma e agora tem medo do prato.",
+    "Retirada sem data de volta nao e tratamento. E divida que so aumenta.",
+    "Toda retirada precisa ter dia marcado para testar o retorno."
+   ],
+   "legenda": "Dieta de eliminacao sem plano de reintroducao vira lista que so cresce, com o mesmo sintoma no fim. Este conteudo e educativo e nao substitui a consulta medica. #dietadeeliminacao #nutricao #intestino #saude #medicina",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "cortisol-normal-nao-prova-nada",
+   "tema": "cortisol e estresse crônico",
+   "tipo": "tecnico",
+   "texto": [
+    "Muita gente chega pedindo pra medir o cortisol, pra provar que está esgotada.",
+    "Quase sempre o exame vem normal. E a pessoa sai achando que inventou o sintoma.",
+    "Desgaste crônico raramente aparece numa dosagem isolada de sangue. Aparece no sono picado, na barriga que trava antes da reunião, na libido que sumiu, na vontade que não volta.",
+    "O exame mede um instante. O desgaste é uma linha do tempo."
+   ],
+   "legenda": "Cortisol normal não significa cabeça descansada. O que conta a história é o padrão do dia, não um tubo de sangue às oito da manhã.\nEste conteúdo é educativo e não substitui a consulta médica.\n#cortisol #estressecronico #burnout #saudemental #clinicamedica",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "alcool-nao-e-sono-e-anestesia",
+   "tema": "álcool e sono",
+   "tipo": "tecnico",
+   "texto": [
+    "Duas doses no fim da noite fazem você apagar rápido. Não fazem você dormir bem.",
+    "O álcool entrega a primeira metade da noite e cobra a segunda. Quando o corpo termina de metabolizar, vem o tranco: você acorda perto das três da manhã, coração acelerado, cabeça ligada.",
+    "No dia seguinte vem o cansaço. E a saída parece ser outra dose à noite.",
+    "Nem sempre isso é dependência de bebida. Muitas vezes é gente exausta usando anestesia e chamando de relaxar."
+   ],
+   "legenda": "O álcool não é um bom sedativo, é um sedativo curto: adianta o apagar e devolve a conta de madrugada.\nEste conteúdo é educativo e não substitui a consulta médica.\n#alcool #sono #insonia #ansiedade #saudemental",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "ansiedade-em-homem-e-pavio-curto",
+   "tema": "ansiedade masculina",
+   "tipo": "reflexivo",
+   "texto": [
+    "Ansiedade em homem raramente chega como medo.",
+    "Chega como pavio curto: buzina no trânsito, grito com o filho por bobagem, resposta atravessada em quem não fez nada.",
+    "A família percebe muito antes do médico. E costuma chamar de gênio ruim, não de sintoma.",
+    "Quando alguém em casa diz que você mudou, vale ouvir. Isso é dado clínico."
+   ],
+   "legenda": "Irritabilidade é um dos jeitos mais comuns de a ansiedade se apresentar em homens, e um dos mais confundidos com temperamento.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ansiedade #saudedohomem #irritabilidade #familia #saudemental",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "voce-desistiu-da-dor",
+   "tema": "normalizar sintoma",
+   "tipo": "tecnico",
+   "texto": [
+    "Você não se acostumou com a dor. Você desistiu dela.",
+    "Tem gente que responde \"é normal\" para joelho que trava, azia todo dia, cansaço para subir um andar. Normal para aquela pessoa. Não para um corpo.",
+    "O corpo não tem outro jeito de falar. Quando ele repete a mesma frase por meses, não é manha. É recado."
+   ],
+   "legenda": "Conviver com o sintoma não é o mesmo que ele ser normal. Este conteúdo é educativo e não substitui a consulta médica. #sintomas #saude #dor #prevencao #medicina",
+   "fonte": "novo",
+   "nota": 7.25
+  },
+  {
+   "id": "pistas-de-resistencia-no-exame-de-rotina",
+   "tema": "Pistas no exame comum",
+   "tipo": "tecnico",
+   "texto": [
+    "Coisas que aparecem no exame de rotina e passam batido:",
+    "1 - Triglicerídeos subindo enquanto o HDL desce.",
+    "2 - Ácido úrico alto em quem nunca teve crise de gota.",
+    "3 - TGP pouco acima do limite, sem hepatite e sem bebida.",
+    "4 - Ferritina alta sem anemia e sem infecção.",
+    "Nenhum fecha diagnóstico sozinho. Juntos, costumam contar a mesma história."
+   ],
+   "legenda": "Nem todo achado de exame precisa de um especialista diferente. Quando quatro alterações pequenas aparecem no mesmo papel, vale perguntar se existe uma causa comum ligando elas. Este conteúdo é educativo e não substitui a consulta médica. #resistenciainsulinica #exameslaboratoriais #sindromemetabolica #figadogorduroso #saudemetabolica",
+   "fonte": "novo",
+   "nota": 7.0
+  },
+  {
+   "id": "o-que-o-ldl-nao-conta",
+   "tema": "Colesterol além do LDL",
+   "tipo": "tecnico",
+   "texto": [
+    "LDL normal não é passe livre. Três coisas que ele não conta:",
+    "1 - Quantas partículas estão circulando. Duas pessoas com o mesmo LDL podem carregar riscos diferentes, e quem responde isso é a apolipoproteína B.",
+    "2 - O resto do colesterol que também deposita. O colesterol não-HDL sai do mesmo exame de sangue, sem custo a mais, e raramente entra na leitura.",
+    "3 - A herança. A lipoproteína(a) é definida pela genética e se mede uma vez na vida.",
+    "Colesterol bom no papel não encerra a conversa."
+   ],
+   "legenda": "O LDL é uma estimativa, não a história completa do risco cardiovascular. Não-HDL, apolipoproteína B e uma dosagem única de lipoproteína(a) mudam a régua de quem precisa cuidar cedo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#colesterol #ldl #coracao #exames #medicinapreventiva",
+   "fonte": "novo",
+   "nota": 7.0
+  },
+  {
+   "id": "a-nota-do-sono-virou-o-problema",
+   "tema": "Medir o sono",
+   "tipo": "reflexivo",
+   "texto": [
+    "Tem gente que dormia bem até comprar o aparelho que mede o sono.",
+    "Agora acorda, olha a nota e o dia já começa ruim. À noite deita com medo de tirar nota baixa de novo, e medo é ótimo pra manter alguém acordado.",
+    "Medir ajuda quem estava perdido. Atrapalha quem estava bem e virou fiscal de si mesmo.",
+    "Se o número manda mais que o seu corpo, o número virou o problema."
+   ],
+   "legenda": "Monitorar o sono ajuda muita gente e piora outra tanta. Quando a nota do aplicativo vira ansiedade, ela deixou de ser informação.\nEste conteúdo é educativo e não substitui a consulta médica.\n#sono #ansiedade #habitos #tecnologia #saude",
+   "fonte": "novo",
+   "nota": 7.0
+  },
+  {
+   "id": "internacao-cama-tambem-deixa-sequela",
+   "tema": "Internação e imobilidade",
+   "tipo": "tecnico",
+   "texto": [
+    "Se um idoso da sua família for internado, quatro coisas importam quase tanto quanto o remédio:",
+    "1 - Perguntar se ele já pode sentar e caminhar no corredor.",
+    "2 - Perguntar todo dia se a fisioterapia passou.",
+    "3 - Olhar o que ele está comendo de verdade, não o que foi prescrito.",
+    "4 - Levar de casa os óculos e o aparelho auditivo.",
+    "Tempo demais na cama também deixa sequela. E isso não vem escrito no resumo de alta."
+   ],
+   "legenda": "Internação cobra do músculo. Se você acompanha alguém internado, movimento, comida e os óculos entram na conta. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #internacao #idosos #fisioterapia #autonomia",
+   "fonte": "novo",
+   "nota": 7.0
+  },
+  {
+   "id": "vilao-unico-e-mais-facil",
+   "tema": "Vilao unico",
+   "tipo": "reflexivo",
+   "texto": [
+    "Reparo numa coisa no consultorio: e mais facil largar um alimento do que mudar uma rotina.",
+    "Cortar o trigo e uma decisao. Dormir direito e uma briga toda noite.",
+    "Ai a pessoa passa dois anos brigando com o pao e nunca mexeu no sono, no alcool, na cadeira.",
+    "Nao e falta de disciplina. O vilao unico da alivio rapido. A rotina cobra todo dia.",
+    "E o que costuma virar o jogo e justamente a parte sem graca."
+   ],
+   "legenda": "Escolher um alimento culpado alivia mais rapido do que mexer no sono, no alcool e no sedentarismo. So que o resultado costuma vir do lado chato. Este conteudo e educativo e nao substitui a consulta medica. #habitos #sono #nutricao #saude #medicina",
+   "fonte": "novo",
+   "nota": 7.0
+  },
+  {
+   "id": "ficha-diz-cansaco",
+   "tema": "o motivo real da consulta",
+   "tipo": "reflexivo",
+   "texto": [
+    "O motivo da consulta escrito na ficha é cansaço.",
+    "Lá pelo minuto vinte, quando a pessoa solta os ombros, aparece o motivo de verdade. Ela não está cansada. Está triste, ou com medo, ou não suporta mais a vida que montou.",
+    "Ninguém liga na clínica dizendo que quer marcar porque está infeliz. Vem pedindo exame de tireoide.",
+    "Não tem nada de errado em vir assim. Só não pare no exame."
+   ],
+   "legenda": "Pedir exame é um jeito socialmente aceito de pedir ajuda. Vale usar a consulta inteira, não só a parte que caberia num laudo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#consulta #saudemental #cansaco #tristeza #clinicamedica",
+   "fonte": "novo",
+   "nota": 7.0
+  }
  ]
 }

@@ -11,14 +11,21 @@ def b64(p):
 AVATAR = b64(os.path.join(BASE, "assets", "avatar.png"))
 LOGO = open(os.path.join(BASE, "assets", "logo_b64.txt"), encoding="utf-8").read().strip()
 
+LARGURA = 1080 - 76 * 2      # area util do texto
+ALTURA_MIOLO = 1350 - 70 - 54 - 96 - 120 - 60   # paddings, rodape, cabecalho e respiro
+
+
 def escala(post):
-    """Fonte cai conforme o texto cresce — o card nunca estoura."""
-    n = sum(len(t) for t in post["texto"])
-    for limite, fs, lh in ((260, 50, 1.40), (420, 45, 1.40), (620, 40, 1.38),
-                           (900, 34, 1.36), (1300, 28, 1.34)):
-        if n <= limite:
+    """Maior fonte em que o texto ainda cabe: estima as linhas de cada paragrafo."""
+    paras = post["texto"]
+    for fs in range(58, 19, -1):
+        lh = 1.40 if fs >= 40 else 1.36
+        cpl = max(1, int(LARGURA / (fs * 0.505)))   # caracteres por linha nessa fonte
+        linhas = sum(max(1, -(-len(t) // cpl)) for t in paras)
+        alt = linhas * fs * lh + (len(paras) - 1) * fs * 0.62
+        if alt <= ALTURA_MIOLO:
             return fs, lh
-    return 24, 1.32
+    return 20, 1.32
 
 def build(post, out_html):
     fs, lh = escala(post)

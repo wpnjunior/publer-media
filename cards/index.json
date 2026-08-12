@@ -1,89 +1,706 @@
 {
- "descricao": "Cards de texto diarios — publicados as 14h de Brasilia, um por dia, na ordem desta lista.",
+ "descricao": "Cards de texto diarios — 14h de Brasilia, um por dia, na ordem desta lista.",
  "cards": [
   {
-   "id": "saude-bem-maior",
+   "id": "restricao-calorica-perda-de-peso",
+   "tema": "restrição calórica",
+   "published": false,
+   "slot": null,
+   "caption": "Muita gente troca tudo por versão saudável, não perde peso e não entende o motivo: comida boa também tem caloria. Castanha, azeite, pão integral melhoram a qualidade do que você come, mas não criam o déficit sozinhos.\nComer bem e comer um pouco menos são duas coisas diferentes, e as duas precisam existir.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #emagrecimento #alimentacaosaudavel #metabolismo #deficitcalorico"
+  },
+  {
+   "id": "versoes-de-voce-na-cabeca-dos-outros",
+   "tema": "versões de você",
+   "published": false,
+   "slot": null,
+   "caption": "Vejo isso no consultório com frequência: gente exausta de sustentar uma imagem que nem escolheu ter. Cansa mais que trabalho pesado.\nVocê não controla o que o outro entende de você. Controla só o que você é de verdade.\n#drwagnernovaes #autoconhecimento #saudemental #relacoes #maturidade"
+  },
+  {
+   "id": "resistencia-insulina-causa-comum",
+   "tema": "resistência à insulina",
+   "published": false,
+   "slot": null,
+   "caption": "É comum o paciente chegar com quatro diagnósticos e quatro remédios, um pra cada, sem ninguém ter olhado o que liga tudo.\nAntes de somar medicação, vale olhar o que entra no prato todos os dias.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #resistenciaainsulina #diabetes #figadogorduroso #alimentacao"
+  },
+  {
+   "id": "duas-coisas-que-importam-saude",
+   "tema": "valor da saúde",
    "published": true,
    "slot": "2026-08-12T17:00:00Z",
-   "caption": "Saúde…\n\nA gente só percebe o tamanho dela quando falta — na nossa ou na de quem a gente ama.\n\nObrigado por me acompanhar nessa jornada de ciência e saúde 🧬\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #saude #longevidade #medicina #prevencao"
+   "caption": "Quase ninguém procura ajuda quando está tudo funcionando. Procura quando o corpo já obrigou.\nCuidar da saúde é decisão de tempo bom, não de tempo ruim. E vale igual pra quem você ama.\n#drwagnernovaes #saude #prevencao #familia #cuidarsedesi",
+   "nota": "publicado como saude-bem-maior em 12/08"
   },
   {
-   "id": "tres-suplementos",
+   "id": "cafeina-foco-e-memoria",
+   "tema": "cafeína, foco e memória",
    "published": false,
    "slot": null,
-   "caption": "Indicados da maneira certa, esses três entregam resultado.\n\nMas repare na última linha: suplemento é alicerce nenhum. Ele entra depois que sono, comida de verdade e treino já estão de pé.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #suplementacao #creatina #magnesio #vitaminad"
+   "caption": "Estudo pequeno não significa que não funciona. Significa que ainda não dá pra afirmar, e essa diferença é importante.\nE a cafeína também tem contrapartida: se ela atrapalha seu sono, o foco que dá de dia ela cobra de noite.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #cafeina #foco #memoria #suplementacao"
   },
   {
-   "id": "melhor-que-90",
+   "id": "linguagem-do-amor-trabalhar-em-si",
+   "tema": "linguagem do amor",
    "published": false,
    "slot": null,
-   "caption": "Disposto a começar a mudança?\n\nNão tem protocolo caro aqui. Tem três coisas que quase ninguém faz — e é exatamente por isso que elas separam você da média.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #habitos #saude #prevencao #estilodevida"
+   "caption": "Terapia, sono em ordem, parar de beber, cuidar do corpo: quem faz isso melhora a própria vida e alivia o peso da casa junto.\n\"Eu sou assim mesmo\" é frase que fecha a porta. Ninguém precisa estar pronto pra amar bem, precisa estar disposto a olhar pra si.\n#drwagnernovaes #relacionamento #maturidade #amor #terapia"
   },
   {
-   "id": "resistencia-insulina",
+   "id": "coenzima-q10-nivel-de-evidencia",
+   "tema": "coenzima Q10",
    "published": false,
    "slot": null,
-   "caption": "Observe a causa principal e comece a melhorar a partir daí.\n\nO paciente chega com cinco diagnósticos e sai com cinco remédios. Na maioria das vezes, é uma raiz só.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #resistenciainsulinica #diabetes #esteatose #metabolismo"
+   "caption": "Ter boa evidência não é o mesmo que servir pra todo mundo. Depende do caso, dos exames e do que a pessoa já usa.\nSe você toma medicação para colesterol e começou a sentir dor no corpo, isso é assunto de consulta, não de decisão na farmácia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #coenzimaq10 #enxaqueca #colesterol #suplementacao"
   },
   {
-   "id": "cafeina-foco",
+   "id": "buscar-um-proposito-seu",
+   "tema": "propósito próprio",
    "published": false,
    "slot": null,
-   "caption": "O que a ciência já mostra — e o que ainda não mostra.\n\nA diferença entre \"tem evidência\" e \"tem promessa de rótulo\" costuma ser o tamanho do estudo.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #cafeina #foco #memoria #suplementacao"
+   "caption": "Comparação é corrida sem linha de chegada: sempre tem alguém um passo à frente, e isso não acaba nunca.\nQuando o alvo é seu, o placar do outro para de importar.\n#drwagnernovaes #proposito #autoconhecimento #comparacao #vidacomsentido"
   },
   {
-   "id": "coenzima-q10",
+   "id": "3-suplementos-grandes-resultados",
+   "tema": "3 suplementos",
    "published": false,
    "slot": null,
-   "caption": "Sabia que essas eram as principais indicações?\n\nQ10 virou sinônimo de \"energia\" no marketing. As indicações com mais evidência são outras — estão no card.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #coenzimaq10 #enxaqueca #colesterol #suplementacao"
+   "caption": "O detalhe está em \"indicados da maneira correta\": motivo claro, exame quando necessário e acompanhamento depois.\nSuplemento não corrige noite mal dormida, comida ruim e sedentarismo. Ele entra depois que a base está de pé.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #creatina #magnesio #vitaminad #habitossaudaveis"
   },
   {
-   "id": "restricao-calorica",
+   "id": "respeito-se-perde-aos-poucos",
+   "tema": "perda do respeito",
    "published": false,
    "slot": null,
-   "caption": "Restringir calorias importa.\n\nComer bem sem ajustar a quantidade não emagrece. E cortar demais não se sustenta. A conta que funciona está no card.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#drwagnernovaes #emagrecimento #alimentacao #peso #saude"
+   "caption": "Começa pequeno: a piada que você deixou passar, o combinado quebrado sem explicação, o limite que você não repetiu.\nQuando percebe, virou padrão. Falar na primeira vez custa muito menos que na décima.\n#drwagnernovaes #respeito #limites #relacionamentos #autoestima"
   },
   {
-   "id": "proposito-seu",
+   "id": "saude-melhor-que-90-por-cento",
+   "tema": "3 passos de saúde",
    "published": false,
    "slot": null,
-   "caption": "Concorda?\n\nSempre vai existir alguém com mais. O único lugar onde essa corrida termina é dentro de um propósito que é seu.\n\n#drwagnernovaes #proposito #mentalidade #vida"
+   "caption": "Parece óbvio, e é justamente por isso que quase ninguém faz.\nNão precisa atacar os três de uma vez: escolha o que mais atrapalha você hoje e mexa nele por um mês. Simples e constante rende mais que plano perfeito no papel.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #habitossaudaveis #prevencao #atividadefisica #acucar"
   },
   {
-   "id": "mais-fortes-gentis",
+   "id": "verdadeiro-poder-nao-precisa-provar",
+   "tema": "verdadeiro poder",
    "published": false,
    "slot": null,
-   "caption": "🙏\n\nQuem precisa provar, ainda não tem.\n\n#drwagnernovaes #reflexao #humildade #vida"
+   "caption": "Quem precisa provar força costuma estar com medo de perder alguma coisa.\nNo consultório é parecido: o paciente mais firme com o próprio cuidado é quase sempre o mais quieto sobre ele. Barulho e segurança raramente andam juntos.\n#drwagnernovaes #humildade #carater #maturidade #forca"
   },
   {
-   "id": "respeito-negociado",
+   "id": "dna-ou-prato",
+   "tema": "DNA ou prato",
    "published": false,
    "slot": null,
-   "caption": "As negociações mais perigosas terminam dessa forma…\n\nNinguém acorda um dia sem respeito. Foi entregue em parcelas.\n\n#drwagnernovaes #relacionamentos #respeito #reflexao"
+   "caption": "No consultório é comum ouvir \"na minha família todo mundo tem\". A genética pesa, mas ela quase sempre precisa de um convite — e o convite costuma vir do prato de todo dia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacao #diabetes #figadogorduroso #genetica"
   },
   {
-   "id": "linguagem-do-amor",
+   "id": "onde-coloca-sua-energia",
+   "tema": "Seletividade de energia",
    "published": false,
    "slot": null,
-   "caption": "Faz sentido?\n\nTem gente que cuida da relação indo à terapia, dormindo melhor, tratando o que dói. Isso também é amor.\n\n#drwagnernovaes #relacionamentos #saudemental #amor"
+   "caption": "Teste simples: por uma semana, anote no fim do dia o que te deixou leve e o que te deixou pesado.\nO padrão aparece sozinho. Depois disso fica mais fácil escolher, e mais difícil fingir que você não sabia.\n#drwagnernovaes #energia #prioridades #foco #saudemental"
   },
   {
-   "id": "pessoas-boas",
+   "id": "massa-muscular-cognicao",
+   "tema": "Massa muscular e cognição",
    "published": false,
    "slot": null,
-   "caption": "Marca aqui aquela pessoa da sua vida — pra ela entender o quanto é importante.\n\n#drwagnernovaes #amizade #pessoas #reflexao"
+   "caption": "Quem mantém músculo envelhece com mais reserva — pra levantar da cadeira e pra cabeça também. Não é treino de atleta que faz isso, é constância com carga. Se nunca treinou, comece leve e com alguém que saiba orientar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #massamuscular #treinodeforca #envelhecimento #saudecerebral"
   },
   {
-   "id": "versoes-de-voce",
+   "id": "escolhas-de-todo-dia",
+   "tema": "Escolhas de todo dia",
    "published": false,
    "slot": null,
-   "caption": "Permanecer honesto sobre quem você é.\n\nVocê não controla a versão sua que mora na cabeça dos outros. Controla só a verdadeira.\n\n#drwagnernovaes #reflexao #autenticidade #mentalidade"
+   "caption": "Não é fingir que está tudo bem. É escolher onde colocar o olho quando as duas coisas são verdade ao mesmo tempo.\nO dia ruim não desaparece com gratidão. Ele só pesa menos.\n#drwagnernovaes #gratidao #perspectiva #escolhas #fe"
   },
   {
-   "id": "persistente-consistente-grato",
+   "id": "proteina-gordura-abdominal",
+   "tema": "Proteína e gordura abdominal",
    "published": false,
    "slot": null,
-   "caption": "Persistir, manter, agradecer.\n\nTrês verbos que decidem quase tudo — na saúde e fora dela.\n\n#drwagnernovaes #consistencia #habitos #gratidao"
+   "caption": "Muita gente corta caloria e esquece a proteína: perde músculo junto com o peso e a barriga teima em ficar. Distribuir proteína ao longo do dia sustenta saciedade e gasto calórico. Quem tem doença nos rins precisa ajustar isso com o médico antes.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #proteina #gorduraabdominal #saciedade #alimentacao"
+  },
+  {
+   "id": "estar-pronto-e-mito",
+   "tema": "Estar pronto é mito",
+   "published": false,
+   "slot": null,
+   "caption": "Ninguém chega pronto: nem pra mudar hábito, nem pra recomeçar. Quem espera se sentir preparado espera a vida inteira. Começa torto e ajusta no caminho.\n#drwagnernovaes #recomeco #disciplina #mudancadehabito #comecar"
+  },
+  {
+   "id": "como-a-doenca-comeca",
+   "tema": "Como a doença começa",
+   "published": false,
+   "slot": null,
+   "caption": "O exame é o último a avisar. Antes dele vem meses de sono ruim, estresse chamado de normal e limite que nunca foi colocado. Quando o paciente conta a rotina, dá pra ver onde aquilo começou a ser construído.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #prevencao #estresse #sono #saudeintegral"
+  },
+  {
+   "id": "orgulho-e-ego",
+   "tema": "Orgulho e ego",
+   "published": false,
+   "slot": null,
+   "caption": "Perde-se mais relação boa por orgulho do que por falta de amor. Quem senta pra te entender já está fazendo a parte mais difícil. Vale engolir o ego antes de perder isso.\n#drwagnernovaes #relacionamentos #ego #maturidade #convivencia"
+  },
+  {
+   "id": "ordem-dos-alimentos",
+   "tema": "Ordem dos alimentos",
+   "published": false,
+   "slot": null,
+   "caption": "Mesmo prato, mesma comida, ordem diferente — e a curva de açúcar responde diferente. É um ajuste sem custo, útil pra quem sente sono e fome pouco depois de comer. Não substitui reduzir refinado, só ajuda.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #glicemia #alimentacao #energia #resistenciainsulina"
+  },
+  {
+   "id": "treino-para-sempre",
+   "tema": "Treino é para sempre",
+   "published": false,
+   "slot": null,
+   "caption": "A pergunta que eu mais escuto é \"em quanto tempo aparece\". Quem trata treino como fase para quando a fase termina. Quando vira rotina de vida, o prazo deixa de importar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treino #constancia #atividadefisica #habitos"
+  },
+  {
+   "id": "treino-para-a-vida",
+   "tema": "Treino para a vida",
+   "published": false,
+   "slot": null,
+   "caption": "Ninguém treina pensando em levantar do vaso sanitário, mas é exatamente isso que está em jogo lá na frente. Força e equilíbrio hoje são autonomia depois. Se tem dor ou limitação, adapta o exercício — não abandona.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treinodeforca #autonomia #envelhecerbem #mobilidade"
+  },
+  {
+   "id": "quatro-regras-simples",
+   "tema": "4 regras simples",
+   "published": false,
+   "slot": null,
+   "caption": "Regra simples e desconfortável: repare quem procura você e quem só aparece quando precisa. Reciprocidade não é cobrança, é higiene — poupa energia e mágoa.\n#drwagnernovaes #reciprocidade #relacoes #limites #energia"
+  },
+  {
+   "id": "magnesio-nivel-de-evidencia",
+   "tema": "Magnésio e evidência",
+   "published": false,
+   "slot": null,
+   "caption": "Magnésio virou moda pra sono e ansiedade, e é justamente aí que a evidência é mais frágil. Onde ele tem lastro melhor é pressão, intestino preso, glicemia e enxaqueca. E a forma usada muda o resultado: não é tudo a mesma coisa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #magnesio #suplementacao #evidenciacientifica #enxaqueca"
+  },
+  {
+   "id": "tempo-dedicado-a-mim",
+   "tema": "Tempo dedicado a mim",
+   "published": false,
+   "slot": null,
+   "caption": "Todo mundo está ocupado, então tempo é a moeda mais honesta que existe. Quem para pra saber como você está diz muito sem dizer nada. Repare em quem faz isso sem você pedir.\n#drwagnernovaes #tempo #amizade #presenca #gratidao"
+  },
+  {
+   "id": "treino-ruim-melhor-que-nenhum",
+   "tema": "Treino ruim conta",
+   "published": false,
+   "slot": null,
+   "caption": "O treino curto e sem vontade mantém o hábito de pé, e é o hábito que sustenta o longo prazo. Nos dias ruins, encurte a série em vez de cancelar o dia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treino #consistencia #musculacao #saude"
+  },
+  {
+   "id": "conselho-que-funciona",
+   "tema": "Conselho que funciona",
+   "published": false,
+   "slot": null,
+   "caption": "Quando não dá pra escolher o caminho, dá pra escolher a versão de você que vai andar nele. Cuidar do sono, do corpo e das companhias resolve mais dúvida do que ficar planejando. O rumo aparece depois, não antes.\n#drwagnernovaes #proposito #autocuidado #escolhas #vidacomsentido"
+  },
+  {
+   "id": "levantar-peso-e-ossos",
+   "tema": "Levantar peso e ossos",
+   "published": false,
+   "slot": null,
+   "caption": "Osso responde a carga: o estímulo do peso é um dos sinais que ele usa pra se manter firme. Quem vai começar mais tarde na vida não perdeu a janela, só precisa de progressão e orientação de quem acompanha.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #musculacao #densidadeossea #forca #envelhecerbem"
+  },
+  {
+   "id": "custo-futuro-das-decisoes",
+   "tema": "Custo futuro das decisões",
+   "published": false,
+   "slot": null,
+   "caption": "A conta da noite mal dormida e do excesso de hoje chega — só chega atrasada. Quase todo diagnóstico que eu dou tem anos de história silenciosa atrás dele. Decidir hoje pensando no corpo de daqui a dez anos é a matemática que vale.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #prevencao #longevidade #escolhas #saude"
+  },
+  {
+   "id": "saude-passa-por-geracoes",
+   "tema": "Saúde passa por gerações",
+   "published": false,
+   "slot": null,
+   "caption": "No consultório eu vejo isso começar quase sempre por uma pessoa da casa. Um muda o prato e o horário, e um tempo depois o resto da família está olhando e copiando, sem discurso nenhum.\nSe você espera todo mundo mudar junto, ninguém muda. Comece sozinho.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #saudedafamilia #habitos #prevencao #medicinapreventiva"
+  },
+  {
+   "id": "habitos-de-disciplina",
+   "tema": "Hábitos de disciplina",
+   "published": false,
+   "slot": null,
+   "caption": "Percebo isso no consultório: quem cuida dos detalhes pequenos do dia costuma cuidar melhor de si em tudo. Ninguém vira outra pessoa num gesto grande, vira no que repete quando não tem ninguém olhando.\n#drwagnernovaes #disciplina #habitos #rotina #autocontrole"
+  },
+  {
+   "id": "treino-peso-mulheres-40",
+   "tema": "Treino com peso 40+",
+   "published": false,
+   "slot": null,
+   "caption": "Muita mulher chega achando que musculação é assunto de vaidade, quando na prática é o que sustenta osso, equilíbrio e autonomia depois dos 40. E não precisa ser complicado: começar leve, com orientação de quem entende, já muda a conversa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treinocompeso #saudedamulher #densidadeossea #menopausa"
+  },
+  {
+   "id": "perdao-sem-reconexao",
+   "tema": "Perdão sem reconexão",
+   "published": false,
+   "slot": null,
+   "caption": "Perdoar devolve a sua paz. Reabrir a porta é outra decisão, e ela pode continuar fechada. Uma coisa não obriga a outra.\n#drwagnernovaes #perdao #limites #relacoes #maturidade"
+  },
+  {
+   "id": "comida-ansiolitico-exercicio",
+   "tema": "Ansiolítico e antidepressivo",
+   "published": false,
+   "slot": null,
+   "caption": "Quando aperta a ansiedade, a geladeira é o caminho mais curto. Resolve por vinte minutos e cobra depois.\nNão estou dizendo pra trocar tratamento por caminhada. Estou dizendo que a caminhada quase nunca entra na conta, e devia entrar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #ansiedade #saudemental #exercicio #comerporemocao"
+  },
+  {
+   "id": "pessoas-toxicas-manipulacao",
+   "tema": "Pessoas tóxicas manipulam",
+   "published": false,
+   "slot": null,
+   "caption": "Quando a história sobre você muda mas o seu comportamento não mudou, o problema não é você. Guarde distância e deixe o tempo fazer o trabalho de mostrar quem é quem.\n#drwagnernovaes #manipulacao #limites #relacoes #autoconhecimento"
+  },
+  {
+   "id": "musculo-orgao-endocrino",
+   "tema": "Músculo órgão endócrino",
+   "published": false,
+   "slot": null,
+   "caption": "O músculo não é só o que aparece no espelho. Ele conversa com o resto do corpo, e isso pesa em coisas que ninguém associa a academia.\nRessalva honesta: treino não tira remédio de quem precisa de remédio, e treino sem técnica machuca. Mas poucas condutas mexem em tantas frentes ao mesmo tempo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treinodeforca #miocinas #inflamacao #musculacao"
+  },
+  {
+   "id": "mobilidade-e-privilegio",
+   "tema": "Mobilidade é privilégio",
+   "published": false,
+   "slot": null,
+   "caption": "Já atendi gente que só entendeu isso depois de duas semanas com o pé imobilizado: de repente a própria casa vira um circuito de obstáculos. Movimento se treina antes de precisar, não depois.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #mobilidade #movimento #forca #envelhecerbem"
+  },
+  {
+   "id": "jantar-cedo-3h",
+   "tema": "Jantar 3h antes de dormir",
+   "published": false,
+   "slot": null,
+   "caption": "A queixa de quem janta tarde raramente é peso. É acordar de madrugada e não conseguir voltar a dormir.\nAdiantar o jantar não custa nada e costuma aparecer primeiro no sono. Se hoje você come muito tarde, antecipar aos poucos já conta.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #sono #jantar #glicemia #habitos"
+  },
+  {
+   "id": "gentileza-retribuida",
+   "tema": "Gentileza retribuída",
+   "published": false,
+   "slot": null,
+   "caption": "Se alguém te veio à cabeça lendo isso, manda pra pessoa. Ela provavelmente não sabe do tamanho que teve num ano difícil da sua vida 🙏\n#drwagnernovaes #gratidao #gentileza #amizade #reflexao"
+  },
+  {
+   "id": "alimentacao-saude-mental",
+   "tema": "Alimentação e saúde mental",
+   "published": false,
+   "slot": null,
+   "caption": "Muita gente chega no consultório querendo resolver humor e energia sem tocar no que come.\nNão é que a comida explique tudo — é que ela quase nunca é olhada. Antes de concluir qualquer coisa, anote três dias reais do seu prato e leia sem se enganar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacao #saudemental #humor #energia"
+  },
+  {
+   "id": "privado-aparece-em-publico",
+   "tema": "Privado aparece em público",
+   "published": false,
+   "slot": null,
+   "caption": "Ninguém aplaude o que você faz sozinho, e é justamente ali que a coisa é construída. O que os outros veem é só o acúmulo do que você repetiu sem plateia.\n#drwagnernovaes #disciplina #habitos #consistencia #reflexao"
+  },
+  {
+   "id": "dopamina-midia-social",
+   "tema": "Dopamina e mídia social",
+   "published": false,
+   "slot": null,
+   "caption": "Estímulo rápido e barato acaba rápido. Aquele vazio depois de uma hora rolando o feed tem explicação, não é frescura sua.\nTeste uma janela fixa do dia sem tela — muita gente sente diferença já na hora de dormir.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #dopamina #redessociais #saudemental #foco"
+  },
+  {
+   "id": "esta-tudo-bem-sentir",
+   "tema": "Está tudo bem sentir",
+   "published": false,
+   "slot": null,
+   "caption": "Sentir tristeza depois de uma perda não é doença, é processo. O sinal de atenção é outro: quando não passa, tira o sono, tira o apetite e trava a sua vida por semanas. Aí vale conversar com alguém que possa avaliar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #saudemental #emocoes #acolhimento #cuidado"
+  },
+  {
+   "id": "mobilidade-autonomia",
+   "tema": "Mobilidade e autonomia",
+   "published": false,
+   "slot": null,
+   "caption": "Mobilidade não se guarda, se paga todo mês. Vejo gente de 60 subindo escada melhor que gente de 40, e a diferença quase sempre foi o que fizeram na década anterior.\nEscolha o exercício que você consegue manter, não o que parece mais bonito no vídeo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #mobilidade #autonomia #exercicio #envelhecerbem"
+  },
+  {
+   "id": "respeito-e-impacto",
+   "tema": "Respeito e impacto",
+   "published": false,
+   "slot": null,
+   "caption": "Intenção explica, mas não repara. Reparar é ouvir o impacto sem discutir se ele deveria existir. \"Não foi por mal\" não fecha ferida de ninguém.\n#drwagnernovaes #respeito #relacoes #limites #maturidade"
+  },
+  {
+   "id": "vitamina-d-k2",
+   "tema": "Vitamina D e K2",
+   "published": false,
+   "slot": null,
+   "caption": "Vitamina D e K2 não permanecem no corpo pelo mesmo tempo: uma sai devagar, a outra sai rápido. Por isso espaçar as duas do mesmo jeito não fecha.\nQuem já usa: leve isso pra quem prescreveu, porque a decisão depende do seu exame e do seu caso, não de um post.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #vitaminad #vitaminak2 #suplementacao #exames"
+  },
+  {
+   "id": "daqui-a-200-anos",
+   "tema": "Daqui a 200 anos",
+   "published": false,
+   "slot": null,
+   "caption": "Isso não é pra deprimir, é pra escolher melhor hoje. Se quase nada disso vai ser lembrado, o que sobra é como você viveu e quem você tratou bem no caminho.\n#drwagnernovaes #reflexao #tempo #proposito #vida"
+  },
+  {
+   "id": "colesterol-q10-magnesio",
+   "tema": "Colesterol, dor muscular",
+   "published": false,
+   "slot": null,
+   "caption": "No consultório isso aparece muito: a pessoa começa o remédio do colesterol e semanas depois chega falando de perna pesada e cansaço. Antes de parar o tratamento por conta própria, fale com quem prescreveu — nem toda dor que surge nesse período vem do medicamento, e o ajuste às vezes é simples.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #colesterol #coenzimaq10 #magnesio #saudecardiovascular"
+  },
+  {
+   "id": "imparavel-de-verdade",
+   "tema": "Imparável de verdade",
+   "published": false,
+   "slot": null,
+   "caption": "Cargo, patrimônio e status podem sumir num ano ruim. Caráter, conhecimento e a forma de tratar as pessoas ninguém tira de você. Comece por esses.\n#drwagnernovaes #carater #humildade #conhecimento #proposito"
+  },
+  {
+   "id": "treino-peso-mulheres-40-motivos",
+   "tema": "Treino com peso após 40",
+   "published": false,
+   "slot": null,
+   "caption": "Densidade ossea, equilibrio e forca para a vida diaria: o ganho do treino com peso depois dos 40 vai muito alem da estetica.\nSe voce nunca treinou, comece leve e com quem saiba orientar.\nEste conteudo e educativo e nao substitui a consulta medica.\n#drwagnernovaes #treinodeforca #mulheres40 #densidadeossea #menopausa"
+  },
+  {
+   "id": "confianca-se-constroi",
+   "tema": "Confiança se constrói",
+   "published": false,
+   "slot": null,
+   "caption": "Todo mundo parece confiável no dia bom. Você descobre quem é quem quando o plano desanda, e é ali que você também mostra quem é.\n#drwagnernovaes #confianca #carater #relacoes #maturidade"
+  },
+  {
+   "id": "dieta-perfeita-simples",
+   "tema": "Dieta perfeita",
+   "published": false,
+   "slot": null,
+   "caption": "A pergunta que mais escuto é qual dieta é a certa. Na prática, quem come comida de verdade na maior parte dos dias tende a se sustentar por muito mais tempo do que quem troca de plano a cada dois meses. Consistência é chata, mas é o que sobra no fim.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacaosaudavel #comidadeverdade #habitos #nutricao"
+  },
+  {
+   "id": "criados-de-formas-diferentes",
+   "tema": "Criados de formas diferentes",
+   "published": false,
+   "slot": null,
+   "caption": "No mesmo casal, um aprendeu que amor é falar tudo e o outro que amor é resolver em silêncio. Antes de acusar má vontade, pergunte como aquilo funcionava na casa onde a pessoa cresceu.\n#drwagnernovaes #relacionamento #casal #comunicacao #empatia"
+  },
+  {
+   "id": "industrializados-custo-futuro",
+   "tema": "Industrializados custam depois",
+   "published": false,
+   "slot": null,
+   "caption": "O pacote barato do mercado costuma cobrar a diferença depois — em sintoma, em consulta, em exame. Vale olhar o carrinho pensando no que ele devolve daqui a cinco, dez anos.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #ultraprocessados #alimentacaosaudavel #prevencao #saude"
+  },
+  {
+   "id": "familias-disfuncionais",
+   "tema": "Famílias disfuncionais",
+   "published": false,
+   "slot": null,
+   "caption": "Quem começa a se cuidar quase sempre passa por uma fase de ser chamado de difícil, arrogante ou distante em casa.\nNão é que você piorou. É que você parou de participar do que sempre te adoeceu. Firmeza não precisa virar guerra.\n#drwagnernovaes #saudemental #familia #limites #autocuidado"
+  },
+  {
+   "id": "fontes-de-dopamina",
+   "tema": "Boas fontes de dopamina",
+   "published": false,
+   "slot": null,
+   "caption": "Reparei que quem tem prazer em coisas que exigem algum esforço — treino, natureza, gente por perto — reclama menos daquele vazio do fim da tarde. O prazer fácil da tela cobra rápido; o outro sustenta o dia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #dopamina #treinocompeso #saudemental #habitos"
+  },
+  {
+   "id": "sucesso-vida-leve",
+   "tema": "Sucesso e vida leve",
+   "published": false,
+   "slot": null,
+   "caption": "Já atendi gente com currículo impecável e sono destruído. Título nenhum segura uma pessoa em pé.\nSe a sua rotina de sucesso te tirou o sono, o apetite e a paciência, ela não está funcionando — está só rendendo bem.\n#drwagnernovaes #qualidadedevida #proposito #vidaleve #saudemental"
+  },
+  {
+   "id": "refeicao-como-investimento",
+   "tema": "Refeição é investimento",
+   "published": false,
+   "slot": null,
+   "caption": "Gosto de perguntar como a pessoa se sentiu duas horas depois do almoço — a resposta diz mais do que qualquer contagem de calorias. É a soma dessas refeições, e não a de ontem, que aparece nos exames lá na frente.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacaosaudavel #metabolismo #prevencao #saude"
+  },
+  {
+   "id": "viajar-tolerancia",
+   "tema": "Viajar ensina tolerância",
+   "published": false,
+   "slot": null,
+   "caption": "Quem andou muito perde o hábito de corrigir os outros. Vale pra mesa, pra criação de filho e pra forma de cuidar da saúde.\nNem tudo que é diferente do seu jeito está errado. Às vezes é só outro jeito que também funciona.\n#drwagnernovaes #viajar #tolerancia #culturas #mentalidade"
+  },
+  {
+   "id": "gluten-investigar-antes-de-cortar",
+   "tema": "Gluten e celiaca",
+   "published": false,
+   "slot": null,
+   "caption": "O gluten mexe na barreira do intestino, e isso nao faz dele a causa de tudo. Cortar por conta propria antes de investigar celiaca atrapalha o diagnostico. Este conteudo e educativo e nao substitui a consulta medica. #gluten #intestino #celiaca #saude #nutricao"
+  },
+  {
+   "id": "inteligencia-humildade",
+   "tema": "Inteligência com humildade",
+   "published": false,
+   "slot": null,
+   "caption": "Inteligência que precisa diminuir alguém pra aparecer é insegurança de roupa nova.\nNa medicina isso fica escancarado: o colega que a gente quer por perto é o que explica sem te fazer sentir burro.\n#drwagnernovaes #humildade #respeito #conhecimento #carater"
+  },
+  {
+   "id": "queda-comeca-na-receita",
+   "tema": "Quedas e remédios",
+   "published": false,
+   "slot": null,
+   "caption": "Antes de culpar o tapete, vale olhar a lista de remédios. Revisão de medicação se faz em consulta, com quem prescreveu, nunca por conta própria. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #quedas #polifarmacia #idosos #prevencao"
+  },
+  {
+   "id": "vida-bela-novamente",
+   "tema": "A vida se torna bela",
+   "published": false,
+   "slot": null,
+   "caption": "Nada dura pra sempre, nem o ruim. Isso não é otimismo bobo, é o que se vê acompanhando as mesmas pessoas por anos.\nNa fase dura o trabalho é um só: atravessar sem se destruir no meio do caminho. 🙏\n#drwagnernovaes #resiliencia #fasesdavida #esperanca #saudemental"
+  },
+  {
+   "id": "suplemento-sem-bula",
+   "tema": "Bula e suplemento",
+   "published": false,
+   "slot": null,
+   "caption": "A bula grande assusta e a embalagem limpa tranquiliza, mas a diferença entre as duas é o nível de fiscalização, não o nível de risco.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #suplementacao #medicina #bula #seguranca"
+  },
+  {
+   "id": "pensamento-japones-sorte",
+   "tema": "Pensamento japonês, sorte",
+   "published": false,
+   "slot": null,
+   "caption": "Já escutei isso de muito paciente: o emprego que não veio, a relação que acabou, e um ano depois a frase \"foi um alívio\". Nem toda porta fechada é castigo — algumas só demoram pra fazer sentido. 🙏\n#drwagnernovaes #reflexao #vida #gratidao #saudemental"
+  },
+  {
+   "id": "exame-demais-tambem-faz-mal",
+   "tema": "Exame pedido demais",
+   "published": false,
+   "slot": null,
+   "caption": "Todo exame tem chance de achar algo que nunca iria dar problema, e essa descoberta cobra preço em ansiedade e procedimento. Pedir com critério é cuidado, não economia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #medicinapreventiva #saude #prevencao"
+  },
+  {
+   "id": "pessoa-em-5-anos",
+   "tema": "Você em 5 anos",
+   "published": false,
+   "slot": null,
+   "caption": "Ninguém muda a vida numa decisão grande. Muda no que se repete sem pensar: o que come, com quem conversa, a que hora vai dormir. Escolha o que você quer repetir.\n#drwagnernovaes #habitos #rotina #escolhas #reflexao"
+  },
+  {
+   "id": "ultraprocessado-nao-da-trabalho",
+   "tema": "Ultraprocessado",
+   "published": false,
+   "slot": null,
+   "caption": "A conversa sobre ultraprocessado costuma travar no rótulo. Na prática, o que muda é a velocidade com que aquilo entra.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ultraprocessados #alimentacao #habitos #metabolismo #saude"
+  },
+  {
+   "id": "uma-coisa-dificil-por-dia",
+   "tema": "Uma coisa difícil por dia",
+   "published": false,
+   "slot": null,
+   "caption": "Não precisa ser heroico: uma série a mais, dez minutos de caminhada, dormir antes da meia-noite. O corpo entende repetição bem melhor do que entende esforço isolado num domingo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #disciplina #habitossaudaveis #treino #saude"
+  },
+  {
+   "id": "ronco-nao-e-so-estresse",
+   "tema": "apneia disfarçada de estresse",
+   "published": false,
+   "slot": null,
+   "caption": "Ronco alto, sono longo e cansaço no dia seguinte é um trio que merece investigação do sono, não mais um remédio de pressão.\nEste conteúdo é educativo e não substitui a consulta médica.\n#apneiadosono #ronco #pressaoalta #sono #saudedohomem"
+  },
+  {
+   "id": "sinais-do-universo",
+   "tema": "Sinais do universo",
+   "published": false,
+   "slot": null,
+   "caption": "Quase sempre a pessoa já sabia. O aviso vem baixinho — no cansaço, na vontade que sumiu, no incômodo que ela chamou de fase — e a gente escolhe não ouvir até virar barulho.\n#drwagnernovaes #reflexao #autoconhecimento #escolhas #vida"
+  },
+  {
+   "id": "apneia-quem-dorme-do-lado",
+   "tema": "apneia do parceiro",
+   "published": false,
+   "slot": null,
+   "caption": "Quem dorme do seu lado costuma ver antes de qualquer exame. Levar isso pro consultório é cuidado com os dois, não implicância.\nEste conteúdo é educativo e não substitui a consulta médica.\n#sono #apneiadosono #saude #casal #prevencao"
+  },
+  {
+   "id": "dias-de-construcao-manutencao",
+   "tema": "Dias de construção",
+   "published": false,
+   "slot": null,
+   "caption": "Existe dia de empurrar e existe dia de apenas não retroceder. Saber em qual você está poupa energia que ia embora brigando consigo mesmo.\n#drwagnernovaes #reflexao #descanso #rotina #autoconhecimento"
+  },
+  {
+   "id": "dieta-da-casa-nao-da-crianca",
+   "tema": "alimentação infantil",
+   "published": false,
+   "slot": null,
+   "caption": "O que está no armário ensina mais que o discurso na mesa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#alimentacaoinfantil #familia #habitos #saude #prevencao"
+  },
+  {
+   "id": "processo-nao-fardo",
+   "tema": "Processo, não fardo",
+   "published": false,
+   "slot": null,
+   "caption": "Quando comida e treino viram castigo, o abandono é só questão de tempo — vejo isso se repetir. Quem permanece é quem achou alguma graça no caminho, não quem passou meses contando os dias pro resultado.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treino #consistencia #habitos #saude"
+  },
+  {
+   "id": "sedentario-com-hobby",
+   "tema": "Passos no dia",
+   "published": false,
+   "slot": null,
+   "caption": "Dá pra treinar todo dia e ainda assim passar o dia inteiro parado. São dois problemas diferentes, e cada um cobra do seu jeito.\nEste conteúdo é educativo e não substitui a consulta médica.\n#movimento #sedentarismo #habitos #treino #saude"
+  },
+  {
+   "id": "orgulho-da-sua-jornada",
+   "tema": "Orgulho da sua jornada",
+   "published": false,
+   "slot": null,
+   "caption": "Tem gente que atravessou anos duros sem ninguém por perto pra ver. Se é o seu caso, o reconhecimento não precisa vir de fora. 🙏\n#drwagnernovaes #reflexao #forcainterior #gratidao #saudemental"
+  },
+  {
+   "id": "antes-de-rotular-ansiedade",
+   "tema": "diagnóstico de ansiedade",
+   "published": false,
+   "slot": null,
+   "caption": "Ansiedade existe, é comum e merece tratamento. Só não merece ser o primeiro rótulo antes de alguém olhar o resto.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ansiedade #tireoide #ferritina #b12 #investigacaoclinica"
+  },
+  {
+   "id": "o-que-o-pedido-nao-pergunta",
+   "tema": "O que o exame não mede",
+   "published": false,
+   "slot": null,
+   "caption": "Sono, bebida, turno e sofrimento aparecem nos exames sem se identificar. Contar isso ao médico evita que um número circunstancial vire um rótulo permanente.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #sono #estresse #medicinapreventiva #saude"
+  },
+  {
+   "id": "historico-familiar-e-aviso-com-data",
+   "tema": "histórico familiar",
+   "published": false,
+   "slot": null,
+   "caption": "Histórico de família serve para antecipar a investigação, não para se conformar. Este conteúdo é educativo e não substitui a consulta médica. #familia #prevencao #coracao #saude #medicina"
+  },
+  {
+   "id": "idoso-nao-reclama-ele-adapta",
+   "tema": "Adaptação esconde perda",
+   "published": false,
+   "slot": null,
+   "caption": "Idoso não reclama, adapta. E adaptação esconde perda de função. Se alguém parou de fazer algo, pergunte por quê. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #idosos #funcionalidade #familia #prevencao"
+  },
+  {
+   "id": "glicemia-normal-com-insulina-alta",
+   "tema": "Insulina antes da glicemia",
+   "published": false,
+   "slot": null,
+   "caption": "A glicemia de jejum costuma ser o último indicador a se alterar. Antes dela existem anos de insulina trabalhando dobrado para manter o número dentro da faixa. Quem tem diabetes na família ganha em olhar isso antes, e não depois. Este conteúdo é educativo e não substitui a consulta médica. #resistenciainsulinica #glicemia #saudemetabolica #prevencao #metabolismo"
+  },
+  {
+   "id": "melhorei-logo-era-isso",
+   "tema": "Melhorei, logo era isso",
+   "published": false,
+   "slot": null,
+   "caption": "Melhorar e uma coisa. Saber o que fez melhorar e outra. Quando muda tudo junto, um inocente leva a culpa e a fama. Este conteudo e educativo e nao substitui a consulta medica. #nutricao #habitos #saude #medicina #evidencia"
+  },
+  {
+   "id": "glicemia-da-manha-e-do-figado",
+   "tema": "Glicemia da manhã",
+   "published": false,
+   "slot": null,
+   "caption": "A glicemia de jejum alta raramente é culpa do que se comeu na noite anterior. Ela reflete o quanto o fígado libera açúcar de madrugada sem freio. Entender isso muda a conversa e evita culpa desnecessária. Este conteúdo é educativo e não substitui a consulta médica. #glicemiadejejum #resistenciainsulinica #figado #metabolismo #prevencao"
+  },
+  {
+   "id": "comprar-e-uma-decisao-so",
+   "tema": "Pote x rotina",
+   "published": false,
+   "slot": null,
+   "caption": "O que custa não é o pote, é a repetição. E é justamente a parte repetida que muda exame, energia e o resto. Este conteúdo é educativo e não substitui a consulta médica. #suplementacao #rotina #treino #medicinapreventiva #saudemetabolica"
+  },
+  {
+   "id": "sol-da-manha-nao-e-vitamina-d",
+   "tema": "Sol e relógio biológico",
+   "published": false,
+   "slot": null,
+   "caption": "Sol de manhã e vitamina D não são a mesma conversa. Um ajusta o horário do corpo, o outro aparece no exame.\nEste conteúdo é educativo e não substitui a consulta médica.\n#vitaminad #sono #ritmocircadiano #habitos #saude"
+  },
+  {
+   "id": "guarde-os-exames-antigos",
+   "tema": "Tendência x foto",
+   "published": false,
+   "slot": null,
+   "caption": "Boa parte do que importa em um resultado só aparece na comparação com os anos anteriores. Levar a pasta velha muda a qualidade da leitura.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #saude #medicinapreventiva #prevencao"
+  },
+  {
+   "id": "agua-nao-tem-numero-magico",
+   "tema": "Água e hidratação",
+   "published": false,
+   "slot": null,
+   "caption": "A meta de litros virou regra sem nunca ter sido regra. Hidratar é acompanhar sede e urina, não bater número.\nEste conteúdo é educativo e não substitui a consulta médica.\n#hidratacao #agua #mitos #habitos #saude"
+  },
+  {
+   "id": "lista-de-proibidos-que-so-cresce",
+   "tema": "Dieta de eliminacao",
+   "published": false,
+   "slot": null,
+   "caption": "Dieta de eliminacao sem plano de reintroducao vira lista que so cresce, com o mesmo sintoma no fim. Este conteudo e educativo e nao substitui a consulta medica. #dietadeeliminacao #nutricao #intestino #saude #medicina"
+  },
+  {
+   "id": "cortisol-normal-nao-prova-nada",
+   "tema": "cortisol e estresse crônico",
+   "published": false,
+   "slot": null,
+   "caption": "Cortisol normal não significa cabeça descansada. O que conta a história é o padrão do dia, não um tubo de sangue às oito da manhã.\nEste conteúdo é educativo e não substitui a consulta médica.\n#cortisol #estressecronico #burnout #saudemental #clinicamedica"
+  },
+  {
+   "id": "ansiedade-em-homem-e-pavio-curto",
+   "tema": "ansiedade masculina",
+   "published": false,
+   "slot": null,
+   "caption": "Irritabilidade é um dos jeitos mais comuns de a ansiedade se apresentar em homens, e um dos mais confundidos com temperamento.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ansiedade #saudedohomem #irritabilidade #familia #saudemental"
+  },
+  {
+   "id": "alcool-nao-e-sono-e-anestesia",
+   "tema": "álcool e sono",
+   "published": false,
+   "slot": null,
+   "caption": "O álcool não é um bom sedativo, é um sedativo curto: adianta o apagar e devolve a conta de madrugada.\nEste conteúdo é educativo e não substitui a consulta médica.\n#alcool #sono #insonia #ansiedade #saudemental"
+  },
+  {
+   "id": "a-nota-do-sono-virou-o-problema",
+   "tema": "Medir o sono",
+   "published": false,
+   "slot": null,
+   "caption": "Monitorar o sono ajuda muita gente e piora outra tanta. Quando a nota do aplicativo vira ansiedade, ela deixou de ser informação.\nEste conteúdo é educativo e não substitui a consulta médica.\n#sono #ansiedade #habitos #tecnologia #saude"
+  },
+  {
+   "id": "voce-desistiu-da-dor",
+   "tema": "normalizar sintoma",
+   "published": false,
+   "slot": null,
+   "caption": "Conviver com o sintoma não é o mesmo que ele ser normal. Este conteúdo é educativo e não substitui a consulta médica. #sintomas #saude #dor #prevencao #medicina"
+  },
+  {
+   "id": "vilao-unico-e-mais-facil",
+   "tema": "Vilao unico",
+   "published": false,
+   "slot": null,
+   "caption": "Escolher um alimento culpado alivia mais rapido do que mexer no sono, no alcool e no sedentarismo. So que o resultado costuma vir do lado chato. Este conteudo e educativo e nao substitui a consulta medica. #habitos #sono #nutricao #saude #medicina"
+  },
+  {
+   "id": "pistas-de-resistencia-no-exame-de-rotina",
+   "tema": "Pistas no exame comum",
+   "published": false,
+   "slot": null,
+   "caption": "Nem todo achado de exame precisa de um especialista diferente. Quando quatro alterações pequenas aparecem no mesmo papel, vale perguntar se existe uma causa comum ligando elas. Este conteúdo é educativo e não substitui a consulta médica. #resistenciainsulinica #exameslaboratoriais #sindromemetabolica #figadogorduroso #saudemetabolica"
+  },
+  {
+   "id": "ficha-diz-cansaco",
+   "tema": "o motivo real da consulta",
+   "published": false,
+   "slot": null,
+   "caption": "Pedir exame é um jeito socialmente aceito de pedir ajuda. Vale usar a consulta inteira, não só a parte que caberia num laudo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#consulta #saudemental #cansaco #tristeza #clinicamedica"
+  },
+  {
+   "id": "o-que-o-ldl-nao-conta",
+   "tema": "Colesterol além do LDL",
+   "published": false,
+   "slot": null,
+   "caption": "O LDL é uma estimativa, não a história completa do risco cardiovascular. Não-HDL, apolipoproteína B e uma dosagem única de lipoproteína(a) mudam a régua de quem precisa cuidar cedo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#colesterol #ldl #coracao #exames #medicinapreventiva"
+  },
+  {
+   "id": "internacao-cama-tambem-deixa-sequela",
+   "tema": "Internação e imobilidade",
+   "published": false,
+   "slot": null,
+   "caption": "Internação cobra do músculo. Se você acompanha alguém internado, movimento, comida e os óculos entram na conta. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #internacao #idosos #fisioterapia #autonomia"
   }
  ]
 }

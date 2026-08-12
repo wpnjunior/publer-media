@@ -1,0 +1,1125 @@
+{
+ "posts": [
+  {
+   "id": "funcao-vale-mais-que-idade",
+   "tema": "Função acima da idade",
+   "tipo": "tecnico",
+   "texto": [
+    "Idade no documento diz pouco. Prefiro olhar o que o corpo faz:",
+    "1 - Levantar da cadeira sem usar as mãos.",
+    "2 - A velocidade do passo atravessando o corredor.",
+    "3 - A força do aperto de mão.",
+    "4 - Subir um andar de escada e ainda conseguir falar no fim.",
+    "Nada disso aparece no exame de sangue. E os quatro dizem mais sobre os próximos anos do que a data de nascimento."
+   ],
+   "legenda": "Função conta mais que idade no papel. Levantar da cadeira e a velocidade do passo dizem coisas que o exame de sangue não diz. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #funcionalidade #geriatria #prevencao #autonomia",
+   "nota": 7.0,
+   "risco_cfm": true
+  },
+  {
+   "id": "suplemento-nao-segura-vida-que-nao-para",
+   "tema": "suplementos para estresse",
+   "tipo": "tecnico",
+   "texto": [
+    "Sobre as coisas que prometem baixar o estresse por fora:",
+    "1 - Magnésio ajuda principalmente quem está com pouco magnésio. Não é calmante.",
+    "2 - Ashwagandha tem estudos mostrando queda na sensação de estresse, mas quase todos curtos, pequenos e muitos financiados por quem vende.",
+    "3 - Melatonina mexe com o horário do sono, não com o motivo que te mantém acordado.",
+    "Suplemento pode ser apoio. Ele não segura uma vida que não para."
+   ],
+   "legenda": "Nenhuma cápsula compete com dormir direito e encarar o que está consumindo você. Suplemento entra como apoio, com indicação e avaliação individual.\nEste conteúdo é educativo e não substitui a consulta médica.\n#magnesio #ashwagandha #melatonina #estresse #suplementacao",
+   "nota": 7.0,
+   "risco_cfm": true
+  },
+  {
+   "id": "forca-perdida-em-silencio",
+   "tema": "perda de força",
+   "tipo": "tecnico",
+   "texto": [
+    "Ninguém perde força de uma vez.",
+    "Perde no dia em que passou a pegar o elevador, na cadeira que virou o lugar da tarde, no ano em que parou de carregar peso. Músculo vai embora em silêncio, sem dor e sem aviso.",
+    "Quando a queixa aparece, já é a segunda parte do problema. A primeira começou anos antes, sem ninguém reclamar."
+   ],
+   "legenda": "Perder músculo não dói — e é justamente por isso que passa despercebido por anos. Este conteúdo é educativo e não substitui a consulta médica. #forca #musculo #envelhecimento #longevidade #saude",
+   "nota": 7.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "pai-quer-subir-a-escada",
+   "tema": "envelhecer em família",
+   "tipo": "reflexivo",
+   "texto": [
+    "O filho quer que o pai viva mais anos. O pai quer subir a escada de casa sem parar no meio.",
+    "Quando eu pergunto ao idoso o que ele quer, quase nunca ouço tempo. Ouço tarefa: pegar o neto no colo, dirigir, tomar banho sem pedir ajuda.",
+    "Cuidar de quem envelhece fica mais fácil quando a família decide junto com ele. Não sobre ele."
+   ],
+   "legenda": "O que a pessoa quer preservar raramente é o número de anos. É o que ela consegue fazer sozinha.\nEste conteúdo é educativo e não substitui a consulta médica.\n#envelhecimento #familia #autonomia #longevidade",
+   "nota": 7.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "jejum-nao-e-magica",
+   "tema": "Jejum sem fantasia",
+   "tipo": "tecnico",
+   "texto": [
+    "Jejum não é mágica. Faz uma coisa: dá tempo pra insulina descer.",
+    "Se as horas em que você come continuam sendo refrigerante, pão branco e biscoito, o jejum vira só um intervalo entre dois problemas.",
+    "E não serve pra todo mundo. Quem usa medicação para diabetes, quem está grávida ou tem histórico de transtorno alimentar precisa conversar com o médico antes."
+   ],
+   "legenda": "Jejum funciona pelo intervalo que cria, não pelo que promete. Sem mexer na qualidade da comida, o efeito se perde. E existem situações em que ele não deve ser feito por conta própria. Este conteúdo é educativo e não substitui a consulta médica. #jejumintermitente #resistenciainsulinica #metabolismo #alimentacao #saudemetabolica",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "balanca-aplaude-o-sangue-nao",
+   "tema": "Peso não é metabolismo",
+   "tipo": "reflexivo",
+   "texto": [
+    "Perder peso e melhorar o metabolismo não são a mesma coisa.",
+    "Dá pra emagrecer perdendo músculo, dormindo mal, e terminar com os mesmos exames de antes. A balança aplaude, o sangue não.",
+    "Quando o paciente volta com a cintura menor, o triglicerídeo mais baixo e mais força do que tinha, a conversa é outra. Mesmo que a balança tenha andado pouco."
+   ],
+   "legenda": "Número na balança é um dado pobre sozinho. Cintura, exames e força contam melhor o que mudou no metabolismo. Vale definir com o seu médico o que acompanhar antes de começar. Este conteúdo é educativo e não substitui a consulta médica. #emagrecimentosaudavel #cintura #saudemetabolica #massamuscular #metabolismo",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "antes-de-comprar-mais-um-pote",
+   "tema": "Suplemento com alvo",
+   "tipo": "reflexivo",
+   "texto": [
+    "Antes de comprar mais um pote, responda três coisas.",
+    "1 - O que exatamente você espera que melhore.",
+    "2 - Em quanto tempo você espera perceber.",
+    "3 - Como você vai saber que melhorou: exame, sintoma ou medida.",
+    "Sem isso, ninguém está medindo nada. Não dá para saber se vale continuar nem se vale parar. É assim que o vidro fica dois anos pela metade na gaveta."
+   ],
+   "legenda": "Suplemento sem alvo e sem prazo não tem como dar certo nem como dar errado, porque ninguém está medindo. Definir isso antes muda a decisão de continuar ou parar. Este conteúdo é educativo e não substitui a consulta médica. #suplementacao #exames #decisaoclinica #medicinapreventiva #usoconsciente",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "checkup-nao-e-cuidado",
+   "tema": "Ritual do check-up",
+   "tipo": "reflexivo",
+   "texto": [
+    "Fazer o check-up não é cuidar da saúde. É olhar para ela.",
+    "O exame não trata nada. Ele fotografa. O que muda o rumo vem depois da foto: o sono, a comida, o remédio certo, a decisão adiada.",
+    "Tem gente que repete o pacote todo ano com disciplina de atleta e nunca mexeu em nada do que o pacote mostrou.",
+    "Exame em dia com a vida no mesmo lugar é rotina. Não é prevenção."
+   ],
+   "legenda": "O exame anual é o começo do cuidado, não a prova de que ele existe. A parte que muda o desfecho acontece depois que o papel sai da impressora.\nEste conteúdo é educativo e não substitui a consulta médica.\n#checkup #prevencao #exames #saude #longevidade",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "normal-exclui-nao-explica",
+   "tema": "Normal sem explicação",
+   "tipo": "reflexivo",
+   "texto": [
+    "Exame normal não significa que não é nada.",
+    "Normal EXCLUI. Normal não explica.",
+    "Quem sai do consultório com tudo dentro da faixa e continua cansado, com dor, sem dormir, não está inventando. Está com um sintoma que aquele conjunto de exames não foi feito para responder.",
+    "A pergunta muda de \"está tudo normal?\" para \"o que ainda não foi perguntado?\"."
+   ],
+   "legenda": "Resultado dentro da faixa afasta algumas hipóteses e não esgota o assunto. Quem continua com sintoma merece a próxima pergunta, não o encerramento da conversa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #sintomas #medicinapreventiva #saude #consultamedica",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "historia-da-familia-exame-barato",
+   "tema": "História familiar",
+   "tipo": "reflexivo",
+   "texto": [
+    "O exame mais barato do check-up é uma conversa, e quase ninguém chega com ela pronta.",
+    "1 - De quê morreram seus avós, e com que idade.",
+    "2 - Infarto ou derrame em pai, mãe ou irmão antes dos sessenta.",
+    "3 - Câncer de intestino, de mama ou de próstata em parente de primeiro grau, e com que idade apareceu.",
+    "Essa resposta muda a idade em que se começa a rastrear e o que faz sentido pedir.",
+    "Pergunte em casa antes da próxima consulta."
+   ],
+   "legenda": "História familiar bem contada muda a estratégia de rastreamento mais do que boa parte dos exames de sangue. É informação de graça, e quase sempre está com alguém da sua família.\nEste conteúdo é educativo e não substitui a consulta médica.\n#historiafamiliar #checkup #prevencao #exames #saude",
+   "nota": 6.75,
+   "risco_cfm": true
+  },
+  {
+   "id": "musculo-e-reserva-para-doenca",
+   "tema": "Músculo como reserva",
+   "tipo": "tecnico",
+   "texto": [
+    "Ninguém treina para o dia bom. Treina para a semana ruim.",
+    "Quando uma pessoa de 75 anos é internada por uma pneumonia, ela passa dias deitada e comendo pouco. O corpo gasta músculo nesse período. Quem chegou com reserva costuma sair andando. Quem chegou no limite às vezes sai de andador, e não volta ao que era.",
+    "Músculo depois dos 60 não é estética. É o estoque que vai ser queimado numa doença que ainda não aconteceu."
+   ],
+   "legenda": "Reserva muscular é o que a doença aguda gasta sem pedir licença. Treino de força depois dos 60 é preparo para a semana em que o corpo não vai poder escolher. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #massamuscular #forca #envelhecersaudavel #prevencao",
+   "nota": 6.75,
+   "risco_cfm": true
+  },
+  {
+   "id": "emagrecer-depois-dos-60-perdeu-o-que",
+   "tema": "Emagrecer sem perder perna",
+   "tipo": "tecnico",
+   "texto": [
+    "Emagrecer depois dos 60 pede três perguntas que quase ninguém faz:",
+    "1 - Perdeu gordura ou perdeu perna?",
+    "2 - Está comendo proteína ou só comendo menos?",
+    "3 - Está treinando força ou só caminhando?",
+    "A balança não separa gordura de músculo. Dá para ver o número cair e ficar mais frágil do que antes."
+   ],
+   "legenda": "Perder peso sem preservar músculo entrega um corpo mais leve e mais frágil. A pergunta certa nunca é quanto caiu, é o que caiu. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #emagrecimento #massamuscular #proteina #forca",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "cinco-caixas-cascata",
+   "tema": "Cinco caixas de remédio",
+   "tipo": "tecnico",
+   "texto": [
+    "Chega gente aqui com cinco caixas na sacola, e a pergunta é sempre a mesma: pode tomar tudo isso junto?",
+    "Antes dessa, tem outra. Para que cada uma entrou.",
+    "1 - Remédio que resolveu um problema que já passou e ninguém tirou.\n2 - Remédio que trata o efeito colateral do remédio de cima.\n3 - Remédio que começou em outro consultório e ninguém quis mexer.\n4 - Remédio que faz sentido e vai continuar.",
+    "Muitas vezes, o grupo 4 é o menor."
+   ],
+   "legenda": "A pergunta que quase ninguém faz na consulta é para que cada caixa entrou. Muita prescrição só existe para apagar o incêndio da prescrição anterior.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #prescricao #consulta #prevencao",
+   "nota": 6.75,
+   "risco_cfm": true
+  },
+  {
+   "id": "estudo-que-ficou-na-gaveta",
+   "tema": "Quem pagou o estudo",
+   "tipo": "tecnico",
+   "texto": [
+    "Quando alguém te mostra um estudo, a primeira pergunta não é quantas pessoas entraram. É quem pagou.",
+    "E existe coisa pior que estudo patrocinado com resultado bom: o estudo com resultado ruim que nunca foi publicado. Foi feito, não deu o que esperavam, ficou na gaveta.",
+    "É assim que uma substância mediana ganha fama. Você vê só o lado da história que alguém teve interesse em contar."
+   ],
+   "legenda": "O viés mais barato de todos não é mentir no resultado, é não publicar o resultado ruim. Quando só o lado bom aparece, a conta fecha errado.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #evidencia #cienciahonesta #suplementacao",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "insonia-vem-antes-do-humor",
+   "tema": "sono e humor",
+   "tipo": "tecnico",
+   "texto": [
+    "A insônia é quase sempre tratada como consequência da depressão. Muitas vezes ela é o aviso que veio antes.",
+    "Quem dorme mal por semanas perde a capacidade de relativizar. O que era pequeno vira insuportável, chorar fica fácil.",
+    "Isso não é fraqueza de caráter. É um cérebro sem manutenção.",
+    "Cuidar do sono não é detalhe do tratamento de humor. Costuma ser o COMEÇO dele."
+   ],
+   "legenda": "Dormir mal não é só efeito do humor ruim; muitas vezes é o que abre a porta. Sono é a primeira coisa que eu quero entender quando alguém chega assim.\nEste conteúdo é educativo e não substitui a consulta médica.\n#insonia #humor #depressao #sono #saudemental",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "ferias-nao-resolvem-burnout",
+   "tema": "burnout x cansaço",
+   "tipo": "reflexivo",
+   "texto": [
+    "Cansaço melhora com férias.",
+    "Burnout não. Você volta de quinze dias fora e, na segunda-feira, às nove da manhã, já está do mesmo jeito.",
+    "Quando o descanso não muda nada, o problema não é a quantidade de sono. É aquilo pra onde você está voltando."
+   ],
+   "legenda": "O teste mais simples que eu uso: as férias resolveram por quanto tempo? Se acabou no primeiro dia de volta, o assunto não é descanso.\nEste conteúdo é educativo e não substitui a consulta médica.\n#burnout #ferias #trabalho #esgotamento #saudemental",
+   "nota": 6.75,
+   "risco_cfm": true
+  },
+  {
+   "id": "frases-de-quem-esta-esgotado",
+   "tema": "falas do esgotamento",
+   "tipo": "reflexivo",
+   "texto": [
+    "Frases que eu escuto de gente esgotada, quase sempre nessa ordem:",
+    "1 - \"Estou bem, só cansado.\"",
+    "2 - \"Quando esse projeto terminar, eu paro.\"",
+    "3 - \"Não tenho tempo de ficar doente.\"",
+    "4 - \"Sempre fui assim.\"",
+    "A quarta é a que preocupa. É quando a pessoa para de tratar o desgaste como algo que dá pra mudar e passa a tratar como personalidade."
+   ],
+   "legenda": "Ninguém adoece de repente. Existe uma fila de frases que vem antes, e a última é a que fecha a porta.\nEste conteúdo é educativo e não substitui a consulta médica.\n#esgotamento #burnout #trabalho #saudemental #consultorio",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "sono-nao-se-recupera-no-domingo",
+   "tema": "dívida de sono",
+   "tipo": "tecnico",
+   "texto": [
+    "Dormir cinco horas na semana e dez no domingo não empata a conta.",
+    "O corpo não faz média. Cada noite curta cobra no dia seguinte: fome desregulada, humor curto, pressão que não desce, açúcar que não se organiza.",
+    "Sono é a parte do tratamento que ninguém quer ouvir, porque cobra abrir mão de alguma coisa hoje à noite."
+   ],
+   "legenda": "Sono não é recompensa de fim de semana, é parte do tratamento. Este conteúdo é educativo e não substitui a consulta médica. #sono #saude #metabolismo #prevencao #longevidade",
+   "nota": 6.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "omega-3-leia-o-verso",
+   "tema": "Rótulo de ômega 3",
+   "tipo": "tecnico",
+   "texto": [
+    "Antes de comprar ômega 3, vire o pote e leia o verso.",
+    "1 - O número grande da frente costuma ser o total de óleo, não o que interessa.",
+    "2 - O que interessa é a soma de EPA e DHA, na tabela de trás.",
+    "3 - Muita cápsula anunciada como forte entrega só uma fração disso em EPA e DHA.",
+    "Não é fraude, é marketing. Mas muda quantas cápsulas seriam necessárias para chegar onde você queria chegar."
+   ],
+   "legenda": "A parte útil do ômega 3 quase nunca é o número da frente do rótulo. Ler o verso do pote economiza mais do que trocar de marca. Este conteúdo é educativo e não substitui a consulta médica. #omega3 #suplementacao #leiaorotulo #medicinapreventiva #saudecardiovascular",
+   "nota": 6.5,
+   "risco_cfm": true
+  },
+  {
+   "id": "melatonina-e-relogio",
+   "tema": "Melatonina e horário",
+   "tipo": "tecnico",
+   "texto": [
+    "Melatonina não é sonífero. É relógio.",
+    "Ela não derruba ninguém. Avisa o corpo que anoiteceu. Se você toma e continua com a tela na cara, manda duas mensagens opostas ao mesmo tempo. A luz costuma ganhar.",
+    "Quando não funciona, a maioria aumenta a quantidade. O problema quase nunca é esse. É o horário, e o que você faz depois de tomar."
+   ],
+   "legenda": "Melatonina informa horário, não força sono. Por isso o mesmo pote funciona para uma pessoa e não faz nada para outra: o que muda é o resto da noite. Este conteúdo é educativo e não substitui a consulta médica. #melatonina #sono #ritmocircadiano #suplementacao #medicinapreventiva",
+   "nota": 6.5,
+   "risco_cfm": true
+  },
+  {
+   "id": "multivitaminico-acalma",
+   "tema": "Multivitamínico",
+   "tipo": "reflexivo",
+   "texto": [
+    "O multivitamínico é o abraço da indústria em quem não quer olhar o próprio prato.",
+    "Ninguém é deficiente de tudo ao mesmo tempo. Costuma faltar uma coisa ou duas, e essas têm nome e aparecem em exame.",
+    "Um pote com pouquinho de tudo tem um efeito real: acalma. E tem um preço escondido: adia a pergunta do que está faltando de verdade."
+   ],
+   "legenda": "Tomar um pouco de tudo é confortável justamente porque não exige descobrir nada. O incômodo começa quando a gente pergunta o que, exatamente, está faltando. Este conteúdo é educativo e não substitui a consulta médica. #multivitaminico #suplementacao #alimentacao #medicinapreventiva #exames",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "ferritina-normal-com-inflamacao",
+   "tema": "Ferritina e inflamação",
+   "tipo": "tecnico",
+   "texto": [
+    "Ferritina baixa cansa. Ferritina normal não garante que o ferro está bom.",
+    "Ela é estoque de ferro e também proteína de fase aguda: sobe com inflamação, infecção, excesso de peso, doença crônica. O estoque pode estar vazio com o número parecendo tranquilo.",
+    "Por isso ela se lê acompanhada. Saturação de transferrina, um marcador de inflamação, e a pessoa: cansaço, queda de cabelo, fluxo menstrual, intestino.",
+    "Número sozinho engana. Número no contexto, não."
+   ],
+   "legenda": "Ferritina é estoque de ferro e marcador de inflamação ao mesmo tempo. Separar os dois papéis é o que evita tanto o tratamento desnecessário quanto a falta de ferro que passa batida.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ferritina #exames #anemia #saudedamulher #medicinapreventiva",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "b12-na-faixa-nao-descarta",
+   "tema": "B12 e faixa larga",
+   "tipo": "tecnico",
+   "texto": [
+    "B12 dentro da faixa não descarta falta de B12. Três situações que pedem segundo olhar:",
+    "1 - Valor no rodapé da faixa com formigamento, memória ruim ou desequilíbrio. O sinal neurológico costuma aparecer antes da anemia.",
+    "2 - Uso prolongado de metformina ou de inibidor de bomba de prótons, que atrapalham a absorção.",
+    "3 - Alimentação sem produto animal, cirurgia bariátrica, doença do intestino.",
+    "Na dúvida, ácido metilmalônico e homocisteína contam o que a B12 sozinha não conta."
+   ],
+   "legenda": "O hemograma pode estar bonito e a B12 já estar faltando onde importa. Sintoma neurológico com valor no limite inferior é motivo para investigar, não para arquivar o exame.\nEste conteúdo é educativo e não substitui a consulta médica.\n#b12 #exames #cansaco #medicinapreventiva #saude",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "o-que-se-quer-aos-85",
+   "tema": "Metas aos 85 anos",
+   "tipo": "reflexivo",
+   "texto": [
+    "Pergunto a quem passou dos 60 o que quer estar fazendo aos 85. Ninguém responde maratona. As respostas são quase sempre estas:",
+    "1 - Tomar banho sozinho.",
+    "2 - Levantar do vaso sem apoio.",
+    "3 - Pegar o neto no colo.",
+    "4 - Viajar sem depender de alguém para carregar a mala.",
+    "Tudo isso é força e equilíbrio. É por isso que insisto em treino, e não porque fica bonito na foto."
+   ],
+   "legenda": "Ninguém pede maratona aos 85. Pede banho sozinho e neto no colo, e isso se chama força e equilíbrio. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #autonomia #forca #equilibrio #envelhecersaudavel",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "leite-lactose-x-proteina",
+   "tema": "Mito do leite",
+   "tipo": "tecnico",
+   "texto": [
+    "Leite nao e um vilao so. Sao coisas diferentes que a internet mistura.",
+    "Intolerancia a lactose e falta de enzima, e a enzima cai com a idade. Da gas, dor, diarreia. Nao e alergia.",
+    "Alergia a proteina do leite e outra historia, e e rara em adulto.",
+    "E nao e sim ou nao. Quem tem pouca enzima costuma tolerar quantidade pequena, e tolera queijo curado e iogurte, onde a lactose ja foi trabalhada.",
+    "O que quase ninguem combina antes de cortar: sai calcio e sai proteina da rotina, e nao entra nada no lugar. Isso aparece depois."
+   ],
+   "legenda": "Intolerancia a lactose e alergia a proteina do leite sao coisas diferentes. E intolerancia costuma ser questao de quantidade, nao de proibicao. Este conteudo e educativo e nao substitui a consulta medica. #leite #lactose #nutricao #saude #medicina",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "sem-gluten-nao-e-selo-de-saudavel",
+   "tema": "Rotulo sem gluten",
+   "tipo": "tecnico",
+   "texto": [
+    "Sem gluten no rotulo nao e selo de saudavel.",
+    "E informacao tecnica para quem precisa evitar gluten. Nada alem disso.",
+    "Pao sem gluten de mercado costuma levar mais amido e mais gordura que o comum, para imitar a textura.",
+    "Quem tira gluten e melhora normalmente trocou ultraprocessado por comida feita em casa.",
+    "Trocar um pao industrializado por outro industrializado nao faz essa troca."
+   ],
+   "legenda": "Sem gluten e informacao tecnica para quem precisa, nao selo de comida saudavel. Trocar um industrializado por outro nao muda o que melhora. Este conteudo e educativo e nao substitui a consulta medica. #semgluten #rotulos #ultraprocessados #nutricao #saude",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "pergunta-de-adesao",
+   "tema": "Se o paciente toma",
+   "tipo": "tecnico",
+   "texto": [
+    "Está tomando? é a pergunta mais inútil da consulta. A resposta é sempre sim.",
+    "O que funciona melhor:\n1 - Quantos dias da semana passada você esqueceu?\n2 - Onde a caixa fica guardada?\n3 - Qual deles você já decidiu que não vai tomar mais?",
+    "Muito tratamento que fracassa nunca foi tomado do jeito que estava no papel. Nem sempre é o paciente que falhou. Às vezes é receita que não caberia na vida de ninguém."
+   ],
+   "legenda": "Tratamento que não cabe na rotina da pessoa não fracassou por falta de disciplina. Fracassou no consultório, na hora de escrever.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #tratamento #adesao #consulta",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "medo-herdado-de-remedio",
+   "tema": "Medo de remédio",
+   "tipo": "reflexivo",
+   "texto": [
+    "Muito medo de remédio não vem de estudo nenhum. Vem de uma história de família.",
+    "Alguém passou mal uma vez, há vinte anos, tomando outras cinco coisas junto. Aquilo virou regra para a vida inteira.",
+    "E aí a pessoa aceita conviver com uma doença de verdade para não correr um risco que talvez nem fosse daquele remédio.",
+    "Medo merece resposta, não deboche. Mas a resposta tem que ser sobre o SEU caso, não sobre a história do tio."
+   ],
+   "legenda": "Medo de medicação quase nunca nasce de leitura. Nasce de um episódio antigo na família, e merece ser respondido caso a caso.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #medodemedicamento #consulta #paciente",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "onde-a-cabeca-cobra-primeiro",
+   "tema": "sintomas físicos do estresse",
+   "tipo": "tecnico",
+   "texto": [
+    "A cabeça insiste que está tudo bem. O corpo discorda antes, e quase sempre nesses lugares:",
+    "1 - Dente gasto e mandíbula dolorida ao acordar.",
+    "2 - Intestino que muda de comportamento no domingo à noite.",
+    "3 - Herpes labial voltando sempre na mesma época do ano.",
+    "4 - Queda de cabelo que aparece dois, três meses depois do pior período.",
+    "Nada disso é frescura. Cada um é RECADO."
+   ],
+   "legenda": "Bruxismo, intestino instável e queda de cabelo atrasada costumam chegar ao consultório antes de a pessoa admitir que está no limite.\nEste conteúdo é educativo e não substitui a consulta médica.\n#bruxismo #estresse #quedadecabelo #intestino #saudemental",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "o-que-sustenta-um-tratamento",
+   "tema": "propósito e constância",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quem sustenta um tratamento por anos costuma ter três coisas:",
+    "1 - Um motivo com nome. Não \"saúde\", e sim a filha de seis anos.",
+    "2 - Uma rotina que cabe num dia ruim.",
+    "3 - Alguém em casa que percebe quando some.",
+    "Disciplina sozinha costuma sumir em fevereiro."
+   ],
+   "legenda": "Constância não nasce de vontade, nasce de motivo concreto e rotina que caiba na vida real. Este conteúdo é educativo e não substitui a consulta médica. #tratamento #habitos #saude #familia #longevidade",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "solidao-antes-da-conversa",
+   "tema": "solidão como risco",
+   "tipo": "tecnico",
+   "texto": [
+    "A solidão chega ao consultório antes de chegar na conversa.",
+    "1 - Sono picado, sem motivo aparente.",
+    "2 - Come de noite, sem fome.",
+    "3 - Falta na consulta e não avisa ninguém.",
+    "4 - Ninguém em casa sabe que ele veio ao médico hoje.",
+    "Quando eu pergunto quem te liga, a resposta às vezes explica mais que o hemograma. Estar sozinho não é diagnóstico, mas é fator de risco que quase ninguém escreve no prontuário."
+   ],
+   "legenda": "Vínculo entra na conta da saúde junto com pressão, sono e exercício.\nEste conteúdo é educativo e não substitui a consulta médica.\n#solidao #saude #longevidade #saudemental #prevencao",
+   "nota": 6.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "magro-com-figado-gordo",
+   "tema": "Magro com fígado gordo",
+   "tipo": "tecnico",
+   "texto": [
+    "Existe gente magra com fígado gordo.",
+    "A gordura que aparece no espelho é a de baixo da pele. A que atrapalha o metabolismo fica em volta das vísceras e dentro do fígado, e essa não aparece de camiseta.",
+    "Por isso o ultrassom às vezes surpreende quem nunca teve um quilo sobrando. A cintura conta mais dessa história do que a balança."
+   ],
+   "legenda": "Peso normal não exclui gordura visceral nem esteatose hepática. A distribuição da gordura pesa mais no metabolismo do que o total. Se a cintura cresceu com o peso estável, é assunto de consulta. Este conteúdo é educativo e não substitui a consulta médica. #figadogorduroso #gorduravisceral #esteatosehepatica #cintura #saudemetabolica",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "pre-diabetes-nome-infeliz",
+   "tema": "Pré-diabetes",
+   "tipo": "reflexivo",
+   "texto": [
+    "Pré-diabetes é um nome infeliz. O prefixo dá a impressão de que ainda não é nada.",
+    "Não é véspera. É o processo andando há anos, num estágio em que o corpo ainda responde bem ao que você faz.",
+    "É o momento em que o menor esforço muda mais coisa. E é o momento em que quase ninguém se mexe, porque não dói."
+   ],
+   "legenda": "O nome pré-diabetes tranquiliza mais do que deveria. É a fase em que a mudança costuma render mais e em que a maioria ainda não se mobiliza. Se apareceu no seu exame, é conversa para agora. Este conteúdo é educativo e não substitui a consulta médica. #prediabetes #glicemia #resistenciainsulinica #prevencao #saudemetabolica",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "cafeina-adia-a-cobranca",
+   "tema": "Cafeína e cansaço",
+   "tipo": "reflexivo",
+   "texto": [
+    "Café não cria energia. Ele adia a cobrança.",
+    "A cafeína ocupa o lugar da molécula que avisa o cérebro que você está cansado. O cansaço continua ali, sem aviso. Quando o efeito passa, tudo chega junto.",
+    "Tem gente vivendo assim há anos, adiantando disposição que ainda não tem. Funciona por um tempo. Depois o corpo cobra, e o primeiro a pagar é o sono."
+   ],
+   "legenda": "Cafeína não fabrica disposição, ela silencia o aviso de cansaço. Vale saber disso antes de culpar o corpo por não acompanhar o ritmo. Este conteúdo é educativo e não substitui a consulta médica. #cafeina #sono #cansaco #medicinapreventiva #saudemetabolica",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "alcool-troca-o-comeco-pelo-fim-da-noite",
+   "tema": "Álcool e sono",
+   "tipo": "tecnico",
+   "texto": [
+    "Álcool não te faz dormir. Ele te apaga.",
+    "Você desliga rápido e acorda de madrugada com o coração acelerado, sem entender por quê. O começo da noite fica pesado, o fim fica picado.",
+    "Quem toma uma taça pra dormir melhor troca o começo da noite pelo fim dela. E é o fim que faz você acordar descansado."
+   ],
+   "legenda": "Dormir rápido não é dormir bem. O álcool cobra a conta na segunda metade da noite, e é aí que a maior parte do descanso acontece.\nEste conteúdo é educativo e não substitui a consulta médica.\n#alcool #sono #habitos #saude #prevencao",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "o-cigarro-esta-preso-a-um-momento",
+   "tema": "Parar de fumar",
+   "tipo": "reflexivo",
+   "texto": [
+    "Ninguém fuma por não saber que faz mal. Essa informação chegou faz décadas.",
+    "O cigarro não está preso ao maço. Está preso a um momento: o café depois do almoço, a saída do trabalho, a primeira cerveja, a discussão em casa.",
+    "Quem larga e só troca por outro dispositivo mantém o momento inteiro.",
+    "E é o momento que chama."
+   ],
+   "legenda": "Informação sobre o cigarro sobra. O que falta quase sempre é um plano para os momentos em que ele era usado.\nEste conteúdo é educativo e não substitui a consulta médica.\n#pararedefumar #cigarro #habitos #prevencao #saude",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "ver-e-ouvir-sustentam-autonomia",
+   "tema": "Visão e audição",
+   "tipo": "tecnico",
+   "texto": [
+    "Duas coisas sustentam a independência e quase nunca entram na conversa: ver e ouvir.",
+    "Depois da cirurgia de catarata a pessoa volta a enxergar o degrau, e o passo muda. Aparelho auditivo pode devolver a mesa de domingo, porque ela volta a entender a conversa em vez de fingir que entendeu.",
+    "Quando alguém se recolhe depois dos 70, antes de falar de humor ou de memória, vale checar o óbvio: olho e ouvido."
+   ],
+   "legenda": "Visão e audição sustentam independência e quase nunca entram na conversa. Quando alguém se recolhe, vale checar olho e ouvido. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #audicao #visao #autonomia #idosos",
+   "nota": 6.25,
+   "risco_cfm": true
+  },
+  {
+   "id": "agua-com-limao-ph",
+   "tema": "Agua com limao",
+   "tipo": "tecnico",
+   "texto": [
+    "Agua com limao nao alcaliniza o sangue. O pH do sangue nao e negociavel pela comida. Muda a urina, nao o sangue.",
+    "Se esse copo te faz beber agua de manha, mantem.",
+    "Mas tem uma metade verdadeira que quase ninguem cita: o citrato tem uso real em quem forma pedra no rim.",
+    "So que isso e conduta medica, com indicacao e acompanhamento. Nao e habito de cafe da manha.",
+    "O mito e fraco. O que esta por tras dele e serio."
+   ],
+   "legenda": "O pH do sangue e controlado de perto pelo corpo e nao muda com o que voce bebe. Mas existe um uso clinico de citrato que a internet nunca conta direito. Este conteudo e educativo e nao substitui a consulta medica. #aguacomlimao #rins #mitos #saude #medicina",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "exame-intolerancia-igg",
+   "tema": "Exame de intolerancia",
+   "tipo": "tecnico",
+   "texto": [
+    "O exame que devolve uma lista de alimentos proibidos merece uma explicacao.",
+    "Ele mede anticorpo IgG contra comida. Esse anticorpo aparece em quem come aquilo e passa muito bem. Ele conta exposicao, nao doenca.",
+    "O que sobra na pratica e dieta pobre, paciente com medo e nenhum diagnostico.",
+    "Quem responde de verdade e a REINTRODUCAO controlada, e ela nao vem no papel do laboratorio."
+   ],
+   "legenda": "Lista de alimentos proibidos nao e diagnostico. IgG contra comida mostra que voce come aquilo, nao que aquilo te faz mal. Este conteudo e educativo e nao substitui a consulta medica. #intoleranciaalimentar #exames #nutricao #saude #medicina",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "segunda-opiniao-sem-esconder",
+   "tema": "Segunda opinião",
+   "tipo": "reflexivo",
+   "texto": [
+    "Segunda opinião não é teste de adivinhação.",
+    "Muita gente esconde o que o primeiro médico disse, para ver se o segundo chega no mesmo lugar. Aí o segundo decide com metade do dado.",
+    "Leve o que você já tem:\n1 - o diagnóstico, com as palavras que usaram.\n2 - a receita anterior inteira, inclusive o que você parou por conta própria.\n3 - os exames com data, não o resultado que você lembra.",
+    "Querer outra opinião é maduro. Sonegar informação para testar o médico é o contrário disso."
+   ],
+   "legenda": "Procurar outra opinião é direito seu e sinal de cuidado. Só não transforme a consulta em prova surpresa, porque quem perde informação é o seu caso.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #segundaopiniao #consulta #paciente",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "motivo-real-na-porta",
+   "tema": "O motivo real da consulta",
+   "tipo": "reflexivo",
+   "texto": [
+    "O verdadeiro motivo da consulta quase nunca é o primeiro assunto.",
+    "A pessoa fala de cansaço, de exame, de suplemento. Vinte minutos depois, já de pé, bolsa na mão, na porta: doutor, e essa dor no peito quando eu subo escada?",
+    "Consulta apertada adoece essa conversa. O que importa costuma sair quando a pessoa já relaxou.",
+    "Se você tem uma pergunta que dá vergonha, faça na entrada. Não na saída."
+   ],
+   "legenda": "O assunto que mais pesa costuma aparecer no último minuto, quando a pessoa já está de pé. Diga primeiro o que te trouxe de verdade.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #consulta #escuta #paciente",
+   "nota": 6.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "zinco-tem-teto",
+   "tema": "Zinco e cobre",
+   "tipo": "tecnico",
+   "texto": [
+    "Zinco em excesso por meses derruba o cobre do organismo.",
+    "A conta não chega no mês seguinte. Chega lá na frente, num cansaço sem explicação e num hemograma estranho que ninguém liga ao pote.",
+    "Suplemento tem teto. Passou do teto, deixa de ser suplemento e vira remédio tomado sem ninguém olhando."
+   ],
+   "legenda": "Mais nem sempre é melhor. Nutriente em excesso por tempo demais compete com outro, e o efeito aparece longe da causa. Este conteúdo é educativo e não substitui a consulta médica. #zinco #suplementacao #hemograma #medicinapreventiva #usoconsciente",
+   "nota": 6.0,
+   "risco_cfm": true
+  },
+  {
+   "id": "colageno-sem-propaganda",
+   "tema": "Colágeno na prática",
+   "tipo": "tecnico",
+   "texto": [
+    "Colágeno, sem propaganda.",
+    "1 - Ele não vai direto para a pele. É quebrado em aminoácidos no intestino, como qualquer proteína, e o corpo decide onde usar.",
+    "2 - A evidência menos frágil é em tendão e articulação, sempre acompanhada de exercício. Sozinho no copo, é pouco.",
+    "3 - Se a proteína do seu dia é baixa, o colágeno é o menor dos seus problemas.",
+    "Não é inútil. É bem menor do que o rótulo promete."
+   ],
+   "legenda": "Colágeno não tem endereço fixo dentro do corpo. Entra na fila das proteínas como qualquer outra, e o que dá direção é a carga do treino e a proteína do dia. Este conteúdo é educativo e não substitui a consulta médica. #colageno #suplementacao #proteina #articulacoes #medicinapreventiva",
+   "nota": 6.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "faixa-de-referencia-nao-e-meta",
+   "tema": "Normal x ótimo",
+   "tipo": "tecnico",
+   "texto": [
+    "A faixa de referência do laboratório não é meta de saúde.",
+    "Ela nasce da estatística de uma população medida: onde cai a maioria. Não de quem vive melhor, nem de quem envelhece sem doença.",
+    "Por isso existe o valor dentro da faixa que não combina com a pessoa sentada na minha frente.",
+    "Normal quer dizer comum. Não quer dizer ÓTIMO."
+   ],
+   "legenda": "A faixa de referência responde \"isso é comum?\". Ela não responde \"isso é bom para você?\". São perguntas diferentes, e o papel impresso só sabe responder a primeira.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #medicinapreventiva #saude #prevencao",
+   "nota": 6.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "habito-cai-por-atrito",
+   "tema": "Como o hábito morre",
+   "tipo": "reflexivo",
+   "texto": [
+    "Ninguém decide parar de treinar.",
+    "Vem uma semana ótima, cheia de compromisso bom, e você pula. Vem uma semana ruim, e você pula de novo. Quando percebe, faz dois meses.",
+    "Hábito quase nunca cai por decisão. Cai por atrito.",
+    "Por isso o plano precisa ter uma versão pequena, feita pra semana ruim. Senão ele só existe na semana boa."
+   ],
+   "legenda": "Quase ninguém abandona um hábito de uma vez. Vai adiando em semana boa e em semana ruim, até virar passado.\nEste conteúdo é educativo e não substitui a consulta médica.\n#habitos #rotina #treino #consistencia #saude",
+   "nota": 6.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "os-que-envelhecem-bem-sao-chatos",
+   "tema": "Rotina que envelhece bem",
+   "tipo": "reflexivo",
+   "texto": [
+    "As pessoas que chegam bem aos setenta raramente foram as mais disciplinadas.",
+    "Foram as mais chatas. Jantam quase sempre no mesmo horário, dormem quase sempre na mesma faixa, andam todo dia, sempre beberam pouco.",
+    "Ninguém fez nada heroico. Nada disso rende foto.",
+    "É o que funciona."
+   ],
+   "legenda": "Envelhecer bem tem menos a ver com intensidade e mais com repetição. A rotina sem graça costuma vencer o esforço espetacular.\nEste conteúdo é educativo e não substitui a consulta médica.\n#longevidade #rotina #habitos #prevencao #saude",
+   "nota": 6.0,
+   "risco_cfm": true
+  },
+  {
+   "id": "treino-so-faz-o-pedido",
+   "tema": "Treino e recuperação",
+   "tipo": "reflexivo",
+   "texto": [
+    "Treino não constrói nada. Treino faz o pedido.",
+    "Quem constrói é o que vem depois: o sono, a comida, o intervalo entre um dia e outro.",
+    "Treinar seis vezes por semana dormindo mal é abrir chamado e não ter ninguém do outro lado pra atender.",
+    "Descanso não é o que sobra do plano. É parte dele."
+   ],
+   "legenda": "Estímulo e resultado acontecem em momentos diferentes. Treinar mais dormindo menos costuma andar para trás.\nEste conteúdo é educativo e não substitui a consulta médica.\n#treino #sono #recuperacao #habitos #saude",
+   "nota": 6.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "para-a-idade-dele-esta-otimo",
+   "tema": "Idade como desculpa",
+   "tipo": "reflexivo",
+   "texto": [
+    "\"Para a idade dele, está ótimo.\" Essa frase já deixou passar mais perda de função do que qualquer exame lido errado.",
+    "Idade explica alguma coisa. Não explica tudo. E quando explica tudo, ninguém investiga mais nada."
+   ],
+   "legenda": "Idade não pode virar explicação para tudo. Quando vira, a investigação para. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #geriatria #funcionalidade #prevencao #autonomia",
+   "nota": 6.0,
+   "risco_cfm": true
+  },
+  {
+   "id": "quem-paga-a-conta-da-dependencia",
+   "tema": "Autonomia e família",
+   "tipo": "reflexivo",
+   "texto": [
+    "Autonomia não é assunto só seu.",
+    "A conta de perder independência aos 80 costuma ser paga por um filho de 50, que muda de emprego, de casa e de rotina para dar conta. Ninguém planeja isso. Acontece, e uma rotina inteira se reorganiza em poucas semanas.",
+    "Cuidar do próprio corpo agora é uma das poucas heranças que dá para deixar ainda vivo."
+   ],
+   "legenda": "Perder independência reorganiza a vida de quem está por perto. Cuidar do corpo hoje é poupar isso de quem você ama. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #autonomia #cuidadores #familia #prevencao",
+   "nota": 6.0,
+   "risco_cfm": true
+  },
+  {
+   "id": "metabolismo-nao-e-botao",
+   "tema": "Acelerar o metabolismo",
+   "tipo": "tecnico",
+   "texto": [
+    "\"Meu metabolismo e lento\" quase sempre e outra coisa.",
+    "1 - Na maioria das rotinas, o que voce faz fora do treino pesa mais no gasto do dia do que o treino.",
+    "2 - Musculo sustenta esse gasto. Ele e construido, nao acelerado.",
+    "3 - Termogenico levanta o gasto pouco e por pouco tempo.",
+    "4 - Dieta muito apertada faz voce se mexer menos sem perceber. O corpo economiza.",
+    "Metabolismo nao e botao. E rotina somada."
+   ],
+   "legenda": "Ninguem acelera o metabolismo com capsula. O que muda a conta do dia e musculo e movimento, inclusive o movimento que voce nem chama de exercicio. Este conteudo e educativo e nao substitui a consulta medica. #metabolismo #musculo #treino #saude #nutricao",
+   "nota": 6.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "quatro-sessoes-nao-e-tratamento",
+   "tema": "terapia interrompida",
+   "tipo": "reflexivo",
+   "texto": [
+    "\"Já tentei terapia, não funcionou.\"",
+    "Pergunto quantas sessões. Quase sempre a resposta é três, quatro.",
+    "Ninguém para o antibiótico no segundo dia e conclui que o remédio não serve. Com a cabeça, a gente se permite esse atalho.",
+    "Quatro sessões dão pra mapear o problema. Ainda não são o tratamento."
+   ],
+   "legenda": "Terapia tem tempo de resposta, como qualquer tratamento. Parar na quarta sessão diz mais sobre a dor de começar do que sobre o método.\nEste conteúdo é educativo e não substitui a consulta médica.\n#terapia #psicoterapia #saudemental #ansiedade #tratamento",
+   "nota": 6.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "senhor-de-setenta-nunca-teve-nada",
+   "tema": "ausência de acompanhamento",
+   "tipo": "reflexivo",
+   "texto": [
+    "Cena que se repete no consultório: um senhor de setenta anos, trazido pela filha, dizendo que nunca teve nada na vida.",
+    "Não é que nunca teve nada. É que ninguém olhou.",
+    "Quarenta anos sem consulta não são quarenta anos de saúde. São quarenta anos sem informação."
+   ],
+   "legenda": "\"Nunca tive nada\" costuma significar \"nunca foi medido\". Este conteúdo é educativo e não substitui a consulta médica. #saude #prevencao #familia #checkup #medicina",
+   "nota": 6.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "silencio-de-acumulo",
+   "tema": "silêncio que aperta os dentes",
+   "tipo": "tecnico",
+   "texto": [
+    "Existe silêncio de descanso e silêncio de acúmulo. O segundo tem endereço no corpo.",
+    "Dor de cabeça na têmpora ao acordar, maxilar cansado, dente sensível, ombro subido até a orelha. Muitas vezes o dentista vê o desgaste antes de todo mundo.",
+    "Tem gente que não briga em casa e briga a noite inteira apertando os dentes.",
+    "A placa protege o dente. Não resolve o assunto."
+   ],
+   "legenda": "Conflito engolido costuma reaparecer como dor, não como discussão.\nEste conteúdo é educativo e não substitui a consulta médica.\n#bruxismo #estresse #sono #relacoes #saude",
+   "nota": 6.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "figado-nao-desmancha-em-duas-semanas",
+   "tema": "Tempo de melhora",
+   "tipo": "reflexivo",
+   "texto": [
+    "Fígado gordo não desmancha em duas semanas.",
+    "O que costumo ver mudar primeiro não é o exame de imagem. É a fome fora de hora que dá tréguas, o sono pesado depois do almoço que alivia, a calça que folga antes de a balança se mexer.",
+    "A imagem é a última a dar a notícia. Muita gente desiste antes disso, achando que não estava funcionando."
+   ],
+   "legenda": "Sinais clínicos costumam melhorar antes do ultrassom. Quem só olha o exame de imagem acha que nada aconteceu e abandona no meio do caminho. Combine com o seu médico o que observar enquanto o tempo passa. Este conteúdo é educativo e não substitui a consulta médica. #figadogorduroso #esteatosehepatica #saudemetabolica #prevencao #metabolismo",
+   "nota": 5.75,
+   "risco_cfm": true
+  },
+  {
+   "id": "conflito-de-interesse-orgulho",
+   "tema": "Conflito de interesse",
+   "tipo": "reflexivo",
+   "texto": [
+    "Conflito de interesse não é só dinheiro.",
+    "Existe um que quase ninguém declara: o orgulho. O médico defende o protocolo que ele mesmo montou, o exame que adora pedir, a teoria que já disse em público. Voltar atrás custa imagem.",
+    "Vale para mim também. Se eu nunca mudo de conduta, não é porque acertei sempre. É porque parei de olhar."
+   ],
+   "legenda": "O conflito de interesse mais barato de esconder é o orgulho: defender a própria tese porque voltar atrás custa imagem.\n\n#saude #medicina #conflitodeinteresse #cienciahonesta #consulta",
+   "nota": 5.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "nao-sei-do-medico",
+   "tema": "O médico dizer não sei",
+   "tipo": "reflexivo",
+   "texto": [
+    "Médico que nunca diz não sei não é mais competente. É menos honesto.",
+    "Não sei ainda, vamos investigar por aqui é uma frase clínica legítima. O problema é que chute em voz firme também soa bem. Às vezes soa melhor.",
+    "Desconfie de quem tem resposta pronta para tudo. Inclusive de mim."
+   ],
+   "legenda": "Certeza imediata sobre tudo é performance, não competência. Não sei ainda, vamos investigar por aqui é uma frase clínica completa.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #consulta #honestidade #paciente",
+   "nota": 5.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "quem-cuida-de-todos",
+   "tema": "a cuidadora da casa",
+   "tipo": "reflexivo",
+   "texto": [
+    "A pessoa que cuida de todo mundo costuma chegar com o exame mais velho da família.",
+    "Ela sabe o horário do remédio da mãe, a consulta do filho, a carteirinha do marido. E não sabe quando mediu a própria pressão.",
+    "Cuidar dos outros não conta como consulta. Nunca contou."
+   ],
+   "legenda": "Quem organiza a saúde da casa é quase sempre a última a marcar a própria. Este conteúdo é educativo e não substitui a consulta médica. #saude #cuidado #familia #prevencao #mulheres",
+   "nota": 5.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "vinho-das-dez",
+   "tema": "álcool e sono do casal",
+   "tipo": "tecnico",
+   "texto": [
+    "O vinho das dez da noite não relaxa vocês dois. Seda.",
+    "O álcool encurta o caminho pro sono e estraga a segunda metade da noite. Daí o acordar de madrugada, o coração acelerado, o dia seguinte curto de paciência.",
+    "Ninguém liga a briga boba do café da manhã com a taça de ontem.",
+    "Não estou falando de vício. Estou falando de um ritual da casa que está sendo cobrado no sono. E casa com sono ruim tem pavio curto."
+   ],
+   "legenda": "Sono ruim não fica só no corpo. Aparece na convivência do dia seguinte.\nEste conteúdo é educativo e não substitui a consulta médica.\n#sono #alcool #casal #saude #habitos",
+   "nota": 5.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "lista-dos-outros-na-bolsa",
+   "tema": "quem cuida de todos",
+   "tipo": "tecnico",
+   "texto": [
+    "A mulher que lembra o exame de todo mundo é a que está com o próprio atrasado.",
+    "Marca o cardiologista do marido, leva o filho no dentista, controla a medicação da mãe. Chega aqui com a lista dos outros na bolsa e nenhum papel dela.",
+    "Quando eu pergunto do último exame dela, o que ouço é o ano em que a vida ficou corrida.",
+    "Cuidar de todos e ficar fora da própria lista não é amor. É hábito, e sai caro."
+   ],
+   "legenda": "Rotina de cuidado que não inclui você mesma atrasa diagnóstico. Ponha seu nome na lista da família.\nEste conteúdo é educativo e não substitui a consulta médica.\n#prevencao #saudedamulher #familia #checkup #saude",
+   "nota": 5.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "culpa-e-combustivel-ruim",
+   "tema": "Culpa no consultório",
+   "tipo": "reflexivo",
+   "texto": [
+    "Muito paciente entra no consultório pedindo desculpa pelo próprio corpo.",
+    "Culpa não trata nada. Ela só atrasa a consulta.",
+    "Resistência à insulina não é falha de caráter. É fisiologia, e fisiologia se trata.",
+    "O que precisa mudar são as escolhas dos próximos meses. Não a opinião que você tem sobre os últimos dez anos."
+   ],
+   "legenda": "Vergonha atrasa consulta e atrasa diagnóstico. Alteração metabólica é um processo do corpo, não um julgamento sobre a pessoa. Quem chega antes tem mais caminho pela frente. Este conteúdo é educativo e não substitui a consulta médica. #resistenciainsulinica #saudemetabolica #consultamedica #prevencao #metabolismo",
+   "nota": 5.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "magnesio-qual-magnesio",
+   "tema": "Formas de magnésio",
+   "tipo": "tecnico",
+   "texto": [
+    "Não existe tomar magnésio. Existe qual magnésio.",
+    "1 - A forma mais barata é a menos absorvida. Age mais no intestino do que no resto do corpo.",
+    "2 - Se o seu magnésio soltou o intestino e não fez mais nada, provavelmente era essa.",
+    "3 - Formas diferentes têm destinos diferentes: músculo, cérebro, sono.",
+    "Quem diz que magnésio não funcionou quase sempre tomou a forma errada para o objetivo certo."
+   ],
+   "legenda": "Magnésio não é um produto só. A forma decide para onde ele vai, e é aí que mora a diferença entre resolver e só gastar. Este conteúdo é educativo e não substitui a consulta médica. #magnesio #suplementacao #sono #medicinapreventiva #saudemetabolica",
+   "nota": 5.5,
+   "risco_cfm": true
+  },
+  {
+   "id": "exame-demais-e-sorteio",
+   "tema": "Exame demais",
+   "tipo": "tecnico",
+   "texto": [
+    "Pedir exame demais parece zelo. Às vezes é o contrário.",
+    "Quanto mais você procura, mais aparece achado pequeno que não ia mudar nada na sua vida. Só que agora ele tem nome, tem laudo, e vai gerar repetição e controle por anos.",
+    "Exame bom é o que responde uma pergunta. Se ninguém sabe dizer o que vai fazer com o resultado, aquilo não é cuidado, é sorteio."
+   ],
+   "legenda": "Check-up não é quanto mais, melhor. Exame que ninguém sabe o que vai fazer com o resultado gera mais controle do que saúde.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #exames #checkup #prevencao",
+   "nota": 5.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "consulta-sem-receita",
+   "tema": "Consulta sem receita",
+   "tipo": "reflexivo",
+   "texto": [
+    "A consulta mais difícil de conduzir é a que termina sem receita nenhuma.",
+    "Quase ninguém sai satisfeito de mãos vazias, mesmo quando de mãos vazias é a conduta certa.",
+    "Daí nasce uma pressão que ninguém admite: prescrever qualquer coisa só para a pessoa sentir que o dinheiro valeu."
+   ],
+   "legenda": "Sair sem receita às vezes é o melhor desfecho possível, e é o que menos parece que valeu a pena. Essa distância explica muita prescrição por aí.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #medicina #consulta #prescricao #honestidade",
+   "nota": 5.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "medo-do-resultado-do-exame",
+   "tema": "medo do exame",
+   "tipo": "tecnico",
+   "texto": [
+    "Muita gente não faz o exame porque tem medo do resultado.",
+    "O resultado já existe. Ele não espera você ficar pronto.",
+    "O que muda com o tempo não é o diagnóstico. É o tamanho da conversa que vamos ter sobre ele."
+   ],
+   "legenda": "Não fazer o exame não altera o que está acontecendo — só atrasa a informação. Este conteúdo é educativo e não substitui a consulta médica. #exames #prevencao #saude #medicina #cuidado",
+   "nota": 5.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "o-preco-da-matricula-do-susto",
+   "tema": "mudar depois do susto",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quase todo mundo muda depois do susto.",
+    "O susto funciona: faz caminhar, faz cortar bebida, faz parar de fumar. O problema é o preço da matrícula.",
+    "Dá para aprender a mesma coisa mais barato: consulta, exame, e o incômodo de ouvir hoje o que você preferia ouvir depois."
+   ],
+   "legenda": "O susto ensina, mas cobra caro pela aula. Este conteúdo é educativo e não substitui a consulta médica. #prevencao #saude #medicina #habitos #cuidado",
+   "nota": 5.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "musculo-e-deposito-de-glicose",
+   "tema": "Músculo e glicose",
+   "tipo": "tecnico",
+   "texto": [
+    "Músculo é o maior destino da glicose no corpo.",
+    "Quando você treina força, a fibra abre a porta pro açúcar mesmo com pouca insulina circulando. E insulina baixa é o que interessa aqui.",
+    "Quem só corta comida e nunca pega peso briga com a fome e deixa parado justamente o tecido que trabalharia a favor."
+   ],
+   "legenda": "Treino de força não serve só para estética. Músculo capta glicose com menos dependência de insulina, o que ajuda no controle metabólico. Dieta sozinha deixa metade do trabalho parada. Este conteúdo é educativo e não substitui a consulta médica. #treinodeforca #resistenciainsulinica #massamuscular #saudemetabolica #longevidade",
+   "nota": 5.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "creatina-nao-e-hormonio",
+   "tema": "Creatina e treino",
+   "tipo": "tecnico",
+   "texto": [
+    "Três coisas sobre creatina que eu repito toda semana no consultório.",
+    "1 - Não é hormônio nem anabolizante. É uma molécula que o próprio corpo fabrica e que também vem da carne.",
+    "2 - A água que ela puxa vai para DENTRO da célula muscular. Não é inchaço de rosto, é músculo mais cheio.",
+    "3 - Sem treino de força, vira pó caro. O efeito depende do estímulo que vem depois.",
+    "Tem muito estudo em cima e muita bobagem em volta."
+   ],
+   "legenda": "A creatina tem muito estudo em cima e continua sendo mal explicada. O que muda o resultado não é a marca do pote, é o treino que vem depois. Este conteúdo é educativo e não substitui a consulta médica. #creatina #suplementacao #treinodeforca #medicinapreventiva #saudemetabolica",
+   "nota": 5.25,
+   "risco_cfm": true
+  },
+  {
+   "id": "vitamina-d-normal-nao-e-otimo",
+   "tema": "Vitamina D e PTH",
+   "tipo": "tecnico",
+   "texto": [
+    "\"Sua vitamina D está normal.\" Normal e ótimo não são a mesma coisa.",
+    "A faixa do laboratório começa no ponto em que o osso passa a sofrer. Isso é piso, não meta.",
+    "Por isso não leio a vitamina D sozinha. Olho o paratormônio junto. Se ele ainda está trabalhando alto para compensar, o corpo está dizendo que aquele número não bastou para ele, mesmo com a folha escrita normal."
+   ],
+   "legenda": "O exame não fala sozinho. Vitamina D se interpreta junto com o resto, e o paratormônio costuma ser o dedo-duro mais honesto dessa conversa. Este conteúdo é educativo e não substitui a consulta médica. #vitaminad #exames #medicinapreventiva #suplementacao #saudeossea",
+   "nota": 5.25,
+   "risco_cfm": true
+  },
+  {
+   "id": "quem-vende-nao-cuida",
+   "tema": "Conflito de interesse",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quem te vende o suplemento não é quem cuida de você.",
+    "Isso não faz o produto ser ruim. Faz a recomendação ser suspeita, porque quem ganha por pote nunca vai dizer que você não precisa de pote.",
+    "Existe uma frase que só sai da boca de quem não está vendendo nada: no seu caso, não precisa."
+   ],
+   "legenda": "Vale sempre perguntar de onde veio a indicação e quem ganha com ela. A resposta muda o peso do conselho. Este conteúdo é educativo e não substitui a consulta médica. #suplementacao #conflitodeinteresse #medicinapreventiva #evidenciacientifica #saude",
+   "nota": 5.25,
+   "risco_cfm": true
+  },
+  {
+   "id": "dois-senhores-de-80",
+   "tema": "Rotina e vínculo",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quando dois senhores de 80 chegam no mesmo dia, o que separa um do outro raramente é o exame.",
+    "Um tem hora para acordar, gente esperando por ele e algo marcado na terça. O outro tem o dia inteiro livre e ninguém para notar se ele saiu de casa.",
+    "Rotina e gente por perto não substituem tratamento. Sustentam o tratamento. E isso não sai escrito em receita."
+   ],
+   "legenda": "Rotina e vínculo não substituem tratamento, mas sustentam. Difícil escrever em receita, fácil de ver no consultório. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #autonomia #rotina #vinculo #envelhecersaudavel",
+   "nota": 5.25,
+   "risco_cfm": true
+  },
+  {
+   "id": "teste-genetico-tendencia",
+   "tema": "Teste genetico vendido",
+   "tipo": "reflexivo",
+   "texto": [
+    "Teste genetico de pacote fala de tendencia. Ele nao diz o que esta acontecendo com voce agora.",
+    "Ja atendi gente com laudo de risco carregado e sangue de quem esta muito bem. E o contrario tambem.",
+    "O gene e a carta que voce recebeu. A leitura muda com sono, peso, alcool, movimento e tempo.",
+    "Antes de pagar por probabilidade, vale gastar no exame que muda a sua conduta desta semana."
+   ],
+   "legenda": "Laudo genetico nao e sentenca nem plano de tratamento. Tendencia nao dispensa olhar o que esta acontecendo agora. Este conteudo e educativo e nao substitui a consulta medica. #genetica #exames #longevidade #saude #prevencao",
+   "nota": 5.25,
+   "risco_cfm": false
+  },
+  {
+   "id": "certeza-vende-cuidado-acompanha",
+   "tema": "Certeza da internet",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quem fala do seu corpo com certeza total nao examinou o seu corpo.",
+    "O video e seguro porque nao paga o preco do erro. Ele nao vai te ver de novo em sessenta dias.",
+    "Consultorio e o contrario: quem responde volta e olha o resultado.",
+    "Por isso a resposta honesta muitas vezes comeca com depende. E isso incomoda.",
+    "Certeza vende. Cuidado acompanha."
+   ],
+   "legenda": "Conteudo de internet nao paga o preco de errar sobre voce. Quem acompanha o resultado costuma falar com menos certeza e mais cuidado. Este conteudo e educativo e nao substitui a consulta medica. #saude #medicina #informacao #prevencao #consultorio",
+   "nota": 5.25,
+   "risco_cfm": true
+  },
+  {
+   "id": "tres-contas-erradas-dinheiro-saude",
+   "tema": "dinheiro x saúde",
+   "tipo": "reflexivo",
+   "texto": [
+    "Três contas que eu vejo erradas no consultório:",
+    "1 - Achar caro o acompanhamento e barato o pronto-socorro.",
+    "2 - Guardar dinheiro trocando sono por hora extra.",
+    "3 - Pagar plano de saúde por anos e nunca ter usado para prevenção.",
+    "Dinheiro repõe. Década não."
+   ],
+   "legenda": "Dá para recuperar dinheiro. Tempo de corpo, não. Este conteúdo é educativo e não substitui a consulta médica. #saude #prevencao #financas #longevidade #cuidado",
+   "nota": 5.25,
+   "risco_cfm": true
+  },
+  {
+   "id": "vitamina-d-se-le-com-pth",
+   "tema": "Vitamina D e PTH",
+   "tipo": "tecnico",
+   "texto": [
+    "Vitamina D quase nunca deveria ser lida sozinha.",
+    "O PTH é o hormônio que sobe quando o corpo sente falta de cálcio e de vitamina D. Se ele está no alto da faixa, o corpo está compensando, mesmo com a vitamina D impressa como normal.",
+    "Um jeito mais honesto de ler os dois juntos: vitamina D suficiente é aquela em que o PTH desce e sossega.",
+    "Vitamina D sozinha mostra o estoque. Com PTH, mostra se o estoque está dando conta."
+   ],
+   "legenda": "Vitamina D e PTH conversam entre si. Os dois no mesmo pedido dizem se o valor impresso está realmente suprindo o corpo daquela pessoa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#vitaminad #pth #exames #ossos #medicinapreventiva",
+   "nota": 5.0,
+   "risco_cfm": true
+  },
+  {
+   "id": "quatro-frases-de-quem-chega-tarde",
+   "tema": "frases do consultório",
+   "tipo": "reflexivo",
+   "texto": [
+    "Quatro frases que eu ouço quase toda semana:",
+    "1 - Eu achei que era da idade.",
+    "2 - Eu não sentia nada.",
+    "3 - Eu ia marcar, mas apareceu trabalho.",
+    "4 - Só vim porque minha esposa marcou.",
+    "Nenhuma delas é falta de inteligência. É a vida ocupando o lugar do cuidado, um dia por vez, sem barulho."
+   ],
+   "legenda": "Essas quatro frases não são desculpa. São a rotina vencendo o cuidado no detalhe. Este conteúdo é educativo e não substitui a consulta médica. #saude #prevencao #consultorio #cuidado #medicina",
+   "nota": 5.0,
+   "risco_cfm": false
+  },
+  {
+   "id": "musculo-e-onde-a-glicose-entra",
+   "tema": "Treino de força e glicemia",
+   "tipo": "tecnico",
+   "texto": [
+    "Muita gente chega com a glicemia subindo e a primeira pergunta é qual suplemento tomar.",
+    "O açúcar do sangue precisa de um lugar pra ir. Esse lugar é músculo. Quem tem pouco músculo tem pouco lugar.",
+    "Treino de força não é estética. É aumentar o depósito que guarda o que você comeu.",
+    "Por isso duas pessoas comem o mesmo prato e só uma sai com o exame ruim."
+   ],
+   "legenda": "Glicemia subindo raramente é só o doce. Quase sempre tem pouca massa muscular na história, e isso não se resolve na farmácia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#treinodeforca #glicemia #metabolismo #prevencao #saude",
+   "nota": 4.75,
+   "risco_cfm": false
+  },
+  {
+   "id": "casal-educado-demais",
+   "tema": "casal cordial demais",
+   "tipo": "reflexivo",
+   "texto": [
+    "Casal que discute na minha frente ainda está brigando por alguma coisa.",
+    "O que me preocupa é o casal educado. Responde tudo certo, um completa o dado do outro, ninguém interrompe, ninguém se olha.",
+    "Raiva ainda é sinal de que importa.",
+    "Cortesia perfeita entre duas pessoas que moram juntas costuma ser o que sobra depois que os dois desistiram de convencer o outro."
+   ],
+   "legenda": "No consultório, o silêncio bem-educado diz mais que a discussão.\n#relacionamentos #casamento #saudemental #convivencia",
+   "nota": 4.75,
+   "risco_cfm": true
+  },
+  {
+   "id": "medo-de-fazer-o-exame",
+   "tema": "Medo do resultado",
+   "tipo": "reflexivo",
+   "texto": [
+    "O medo de fazer o exame é mais comum do que parece, e tem uma lógica torta.",
+    "Enquanto o papel não existe, parece que a coisa também não existe.",
+    "Só que o exame não cria nada. Ele mostra o que já está lá, e quanto mais cedo mostra, mais caminho existe.",
+    "Adiar não muda o que já está acontecendo. Muda só o tamanho da conversa que vem depois."
+   ],
+   "legenda": "Muita gente não deixa de fazer exame por esquecimento, deixa por medo. Vale dizer isso em voz alta na consulta, porque medo dito em voz alta atrapalha menos a decisão.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #medo #prevencao #saude",
+   "nota": 4.5,
+   "risco_cfm": false
+  },
+  {
+   "id": "limite-ou-autorizacao",
+   "tema": "limite mal dado",
+   "tipo": "reflexivo",
+   "texto": [
+    "Três sinais de que você não deu um limite, pediu autorização:",
+    "1 - Explicou o motivo três vezes.",
+    "2 - Ficou esperando a pessoa concordar pra valer.",
+    "3 - Voltou atrás porque ela ficou de mau humor.",
+    "Limite não precisa de plateia nem de aprovação. Precisa de repetição.",
+    "Quem cede rápido nem sempre é generoso. Às vezes é alguém que aprendeu que engolir hoje sai mais barato que a conversa."
+   ],
+   "legenda": "Limite explicado demais deixa de ser limite e passa a ser negociação.\n#limites #relacoes #saudemental #convivencia",
+   "nota": 3.0,
+   "risco_cfm": true
+  },
+  {
+   "id": "so-um-se-mexe",
+   "tema": "esforço desigual",
+   "tipo": "reflexivo",
+   "texto": [
+    "Relação em que só um se mexe segue quase sempre a mesma ordem:",
+    "1 - No começo parece injustiça.",
+    "2 - Depois parece missão.",
+    "3 - No fim vira relatório: a pessoa lista tudo que fez e o outro nem sabia que havia algo em jogo.",
+    "Trabalhar em si pelo bem da relação funciona. Trabalhar no lugar do outro, não.",
+    "A diferença é simples: o outro sabe que existe um problema?"
+   ],
+   "legenda": "Esforço que o outro não sabe que existe não é acordo, é sacrifício silencioso.\n#relacionamentos #casamento #relacoes #saudemental",
+   "nota": 3.0,
+   "risco_cfm": true
+  }
+ ]
+}
