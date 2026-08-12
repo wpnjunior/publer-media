@@ -62,6 +62,10 @@ def main():
     alvo = agora.replace(hour=17, minute=0, second=0, microsecond=0)
     if alvo < agora + dt.timedelta(minutes=50):
         alvo += dt.timedelta(days=1)
+    # um card por dia: se o dia-alvo ja tem card na fila, pula pro proximo dia livre
+    ocupados = {c["slot"][:10] for c in idx["cards"] if c.get("slot")}
+    while alvo.strftime("%Y-%m-%d") in ocupados:
+        alvo += dt.timedelta(days=1)
     when = alvo.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     for _ in range(5):
