@@ -1,0 +1,37 @@
+name: reel-publica
+on:
+  push:
+    branches: [master]
+    paths: ["reels_queue/**"]
+  workflow_dispatch: {}
+jobs:
+  publicar-reel:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: achar reel pendente
+        id: fila
+        run: |
+          set -e
+          PEND=""
+          for d in reels_queue/*/; do
+            [ -f "$d/meta.json" ] || continue
+            if ! grep -q '"published": true' "$d/meta.json"; then PEND="$d"; fi
+          done
+          echo "dir=$PEND" >> "$GITHUB_OUTPUT"
+          echo "reel pendente: $PEND"
+      - name: publicar no Publer
+        if: steps.fila.outputs.dir != ''
+        env:
+          PUBLER_KEY: ${{ secrets.PUBLER_KEY }}
+        run: python pipeline/publish_reel.py "${{ steps.fila.outputs.dir }}"
+      - name: marcar publicado
+        if: steps.fila.outputs.dir != ''
+        run: |
+          git config user.name "esteira-bot"
+          git config user.email "esteira@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "reel: marcado publicado [skip ci]"
+          git push
