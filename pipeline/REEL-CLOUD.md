@@ -21,8 +21,13 @@ Companheiro do carrossel: **18h Reel (isca) → 20h carrossel (dossiê)**, mesmo
     "posologia":"Uso: 1 dose pela manhã, por 30 dias.",
     "dica":"<hábito simples e barato que ajuda no tema>"}
    ```
-   As duas frases de urgência saem em DOURADO e CAIXA ALTA (já está no CSS). Varie um pouco as frases
-   entre os dias, mantendo o tom "isso é ouro / printa isso / não se vê todo dia".
+   **MOLDE APROVADO (12/08): PAPO NEWS LIMPO** — selo PAPO|NEWS + UM painel translúcido único com:
+   chapéu dourado ("O frasco do dia" — pode variar: "O frasco de hoje", "Frasco da semana"),
+   título sóbrio "Frasco para <Tema>", tracinho vermelho, lista tipo tabela (nome branco à esquerda,
+   dose DOURADA à direita, linha fininha separando), posologia em cinza, dica de rotina em UMA linha
+   com barrinha dourada, advertência discreta em cinza, logo+CRM. NADA de caixinhas coloridas,
+   nada de vermelho espalhado, nada de emoji. Sobriedade é a regra — Wagner reprovou versão poluída.
+   O JSON aceita "chapeu" e "dica" (dica opcional: se não houver algo bom e curto, OMITA).
    `python reel_kit/gen_overlay.py meu.json overlay.html`
 
 4. **Renderize o overlay** (transparente) e **monte o vídeo** (15s, foto PARADA — sem zoom):
