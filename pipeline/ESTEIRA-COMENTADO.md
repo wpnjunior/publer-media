@@ -74,7 +74,38 @@ Fontes ativas: TikTok, Instagram, Reddit, YouTube (com transcrição), Hacker Ne
 **O radar é o segredo da esteira.** É ele que faz o post ser sobre o que as pessoas estão falando
 HOJE, em vez de mais um conteúdo atemporal. Rodar sempre antes de escolher tema.
 
-### Pautas (rodízio — não repetir assunto em dias seguidos)
+### COTA SEMANAL (decidida por Wagner em 15/08) — o conteúdo alimenta os produtos
+A semana tem **6 comentados, de segunda a sábado**:
+
+| Quantos | Assunto |
+|---|---|
+| 2 | **Desparasitação** (app próprio) |
+| 2 | **Jejum** (app próprio) |
+| 2 | Livre — o que o radar trouxer de mais quente |
+
+Domingo não tem comentado: é o pior dia do perfil (mediana 20, contra 37 da segunda) —
+ver [[reference_engajamento_instagram]]. Distribuir os pares em dias separados, nunca
+dois de desparasitação seguidos.
+
+**Como tratar tema de produto sem virar anúncio:** o post é conteúdo de verdade, com a mesma régua
+de evidência dos outros. O app entra como **caminho**, não como promessa — no fim, uma linha, sem
+"resolve", sem "cura", sem antes-e-depois. Quem chega no app tem que sentir que aprendeu antes de
+ser convidado. Conteúdo que só vende queima o perfil e o alcance.
+
+#### Pautas de DESPARASITAÇÃO
+Sintomas inespecíficos que ninguém liga a parasita · por que **exame de fezes negativo não exclui**
+(sensibilidade, número de amostras) · quem tem risco real (pet em casa, água, alimento cru, viagem)
+· o que a evidência mostra sobre desparasitação periódica e em quem ela faz sentido · princípios
+ativos e **status regulatório** de cada um · o que é mito nos "protocolos" que circulam na internet
+· higiene alimentar que muda a conta de verdade.
+
+#### Pautas de JEJUM
+16/8 x 12/12 x prolongado: o que muda de fato · autofagia — o que o Nobel mostrou e o que virou
+lenda · jejum e **perda de massa magra** (o furo que quase ninguém comenta) · jejum em mulher e
+ciclo · jejum e treino: ordem que funciona · jejum e resistência insulínica · como quebrar o jejum
+· **quem não deve jejuar** (gestante, transtorno alimentar, medicação para diabetes).
+
+### Pautas do radar (rodízio — não repetir assunto em dias seguidos)
 **Integrativa e metabolismo:** jejum · alimentação carnívora · suplementação · resistência
 insulínica · longevidade · sono · hormônios · exames.
 
@@ -91,6 +122,10 @@ insulínica · longevidade · sono · hormônios · exames.
 - **Medicamentos que prometem inovar** — o que a aprovação realmente mostrou, desfecho substituto
   x desfecho que importa (o remédio mexeu no exame ou fez a pessoa viver melhor?).
 - **Vacinas** — ver a régua abaixo antes de escrever qualquer coisa.
+
+**Nos dias de desparasitação e jejum o radar continua rodando** — mas para achar o ÂNGULO quente
+dentro do tema, não para escolher o tema. Ex.: `/last30days jejum` mostra o que estão discutindo
+sobre jejum agora, e o roteiro entra por aí.
 
 **Critério de escolha do tema** — só entra o que tem as três:
 1. Volume real de conversa nos últimos 30 dias (não é achismo meu).
