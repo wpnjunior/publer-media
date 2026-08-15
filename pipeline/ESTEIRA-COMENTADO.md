@@ -28,6 +28,32 @@ Na prática:
 - **Quando o assunto envolve remédio**, o critério é risco x benefício naquele caso — não
   torcida. Nunca orientar a parar medicação.
 
+## RÉGUA DOS TEMAS SENSÍVEIS
+
+O critério é sempre o mesmo: **a régua é a evidência, não a torcida.** Isso vale para o remédio e
+vale para o suplemento. Com essa régua dá para ser polêmico o quanto quiser sem ficar exposto.
+
+**Vacinas.** Aqui o limite não é editorial, é de registro: desinformação vacinal é a via mais curta
+para um processo ético no CFM, e o CRM é o que sustenta a consulta. Então:
+- **Não escrevo:** que vacina causa autismo, que "esconderam" dados sem documento que prove, que
+  alguém deve deixar de vacinar, ou qualquer coisa que use o medo como argumento.
+- **Escrevo, e engaja igual:** evento adverso que existe, está em bula e na farmacovigilância (a
+  miocardite em homens jovens após mRNA é o exemplo clássico); a diferença entre **redução relativa
+  e absoluta** de risco, que é onde a manchete engana; conflito de interesse no financiamento de
+  ensaio; o que a fase 4 mostrou depois da aprovação; decisão de reforço por faixa etária e risco.
+- A pauta forte é **"o que te contaram x o que o dado mostra"** — não "é tudo mentira".
+
+**Câncer.** Nunca sugerir alternativa a tratamento oncológico nem nada que possa fazer alguém
+abandonar terapia — isso é o risco máximo. Pauta legítima e forte: rastreio (quem, quando, o que
+o exame realmente muda), prevenção, exercício e nutrição DURANTE o tratamento, caquexia, e o
+que a evidência mostra sobre jejum e quimioterapia.
+
+**Peptídeos e hormônio.** Sempre dizer o status: aprovado, off-label ou não aprovado no Brasil.
+Nunca dose para o público geral. Falar do risco com o mesmo peso do benefício.
+
+**Medicamento com nome.** Usar **princípio ativo** (semaglutida, tirzepatida, lecanemabe), nunca a
+marca comercial — nomear marca em publicidade é o que o CFM veda.
+
 ## COMPLIANCE — inegociável (CFM 2.336/2023)
 Proibido: prometer cura, garantir resultado, "o melhor / o único / milagroso", "especialista em",
 comparar-se a colegas, prometer emagrecimento em X dias, citar marca comercial, dar dose para o
@@ -44,8 +70,27 @@ consulta médica" na legenda.
 /last30days <tema do nicho>
 ```
 Fontes ativas: TikTok, Instagram, Reddit, YouTube (com transcrição), Hacker News, web.
-Rodízio de temas para não repetir assunto: jejum · carnívoro · suplementação · resistência
+
+**O radar é o segredo da esteira.** É ele que faz o post ser sobre o que as pessoas estão falando
+HOJE, em vez de mais um conteúdo atemporal. Rodar sempre antes de escolher tema.
+
+### Pautas (rodízio — não repetir assunto em dias seguidos)
+**Integrativa e metabolismo:** jejum · alimentação carnívora · suplementação · resistência
 insulínica · longevidade · sono · hormônios · exames.
+
+**Polêmicas de saúde (o que mais engaja — Wagner pediu em 15/08):**
+- **Emagrecimento farmacológico** — análogos de GLP-1 (semaglutida, tirzepatida), o que entregam,
+  reganho ao parar, perda de massa magra, quem não deveria usar.
+- **Peptídeos** — BPC-157, ipamorelina, retatrutida e afins: o que existe de evidência humana de
+  verdade x o que é venda de academia. **Sempre dizer o status regulatório** (aprovado? off-label?
+  não aprovado no Brasil?).
+- **Ganho de muscular** — creatina, testosterona e uso hormonal em não-atleta, SARMs.
+- **Memória e cognição** — os novos anticorpos anti-amiloide (lecanemabe, donanemabe): tamanho real
+  do efeito x manchete, e o custo/risco.
+- **Câncer** — rastreio, prevenção, exercício e nutrição no tratamento, jejum e quimioterapia.
+- **Medicamentos que prometem inovar** — o que a aprovação realmente mostrou, desfecho substituto
+  x desfecho que importa (o remédio mexeu no exame ou fez a pessoa viver melhor?).
+- **Vacinas** — ver a régua abaixo antes de escrever qualquer coisa.
 
 **Critério de escolha do tema** — só entra o que tem as três:
 1. Volume real de conversa nos últimos 30 dias (não é achismo meu).
