@@ -10,3 +10,4 @@
 2026-08-13 | AGENDADO  | Perimenopausa (sintomas antes da menopausa)
 2026-08-14 | AGENDADO  | Ultraprocessados e microbioma intestinal (BMJ 2021 / Nutrients 2025)
 2026-08-16 | AGENDADO  | Hipercortisolismo em diabetes tipo 2 de difícil controle (estudo CATALYST, Diabetes Care/ADA 2025)
+2026-08-18 | AGENDADO  | Agonistas de GLP-1 — efeitos adversos e achados inesperados (Nature Medicine 2025, Xie/Al-Aly; JCI 2026, Jalleh et al.)
