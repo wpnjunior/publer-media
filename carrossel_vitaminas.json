@@ -1,0 +1,44 @@
+{
+ "marca": [
+  "PAPO",
+  "NEWS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "vitgummy.jpg",
+   "editoria": "Pediatria",
+   "manchete": "A vitamina que<br>mandou <span class=\"hl\">1.961 crianças</span><br>pro hospital",
+   "sub": "Parece bala, vende como saúde — e virou caso de internação nos EUA. <b>73% eram meninas</b>, a maioria adolescentes.",
+   "fonte": "Fonte: Medscape · Pediatric Hospital Medicine 2026 (Baylor)"
+  },
+  {
+   "foto": "vitpotes.jpg",
+   "numero": "01",
+   "manchete": "O estudo que<br><span class=\"hl\">ninguém esperava</span>",
+   "corpo": "Pesquisadores da <b>Baylor</b> contaram as internações por intoxicação de <b>vitaminas e minerais</b> em crianças americanas: 1.961 casos em três anos analisados.",
+   "destaque": "Um terço evoluiu como caso grave — e o tempo de internação subiu de 3 para 4 dias."
+  },
+  {
+   "foto": "vitcrianca.jpg",
+   "numero": "02",
+   "manchete": "Não foi<br><span class=\"hl\">acidente</span>",
+   "corpo": "A parte que dói: <b>56% tomaram de propósito</b>. Adolescentes de 13 a 17 anos são 57% dos casos, e <b>73% são meninas</b>. Suplemento à vontade dentro de casa virou risco.",
+   "destaque": "Vitamina em excesso não é 'xixi caro'. A lipossolúvel (A, D, E, K) acumula — e o ferro intoxica."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "03",
+   "manchete": "O frasco é remédio,<br>não <span class=\"hl\">doce</span>",
+   "corpo": "Gominha com sabor, pote colorido, 'natural'. O cérebro entende <b>bala</b> — e a dose some do controle. Criança não deveria ter acesso livre a NENHUM suplemento.",
+   "destaque": "Guarde no alto, com trava, como qualquer remédio. E gominha: conte as unidades da semana."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "O que fazer<br><span class=\"hl\">hoje</span>",
+   "corpo": "Suplemento de criança só com indicação: <b>vitamina D quando há deficiência, ferro quando o exame mostra</b>. O resto é comida de verdade. E adolescente com uso escondido de suplemento merece conversa, não bronca.",
+   "fonte": "Fontes: Medscape · PHM 2026 (dados preliminares de congresso) · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

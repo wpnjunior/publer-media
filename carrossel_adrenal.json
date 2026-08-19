@@ -1,0 +1,51 @@
+{
+ "marca": [
+  "PAPO",
+  "NEWS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_04.jpg",
+   "editoria": "Endocrinologia",
+   "manchete": "O nódulo que aparece<br>no exame<br><span class=\"hl\">por acaso</span>",
+   "sub": "Você faz uma tomografia por outro motivo — e vem um achado na <b>adrenal</b>. Até <b>1 em cada 10 idosos</b> tem. O que fazer com ele?",
+   "fonte": "Fonte: Medscape · Diretriz ESE 2023 (Eur J Endocrinol)"
+  },
+  {
+   "foto": "bg_03.jpg",
+   "numero": "01",
+   "manchete": "Achado sem<br><span class=\"hl\">querer</span>",
+   "corpo": "Chama-se <b>incidentaloma</b>: uma massa na glândula adrenal descoberta num exame feito por outra razão. Na maioria das vezes é <b>benigno</b> e não produz hormônio.",
+   "destaque": "Aparece em cerca de 5% das tomografias de abdome — e fica mais comum com a idade."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "Todo nódulo<br>faz <span class=\"hl\">exame de sangue</span>",
+   "corpo": "A diretriz é clara: <b>todo incidentaloma</b> precisa de avaliação hormonal. Cortisol após dexametasona à noite, metanefrinas, e aldosterona se houver pressão alta.",
+   "destaque": "Até 1 em cada 3 produz cortisol em excesso LEVE — sem os sinais clássicos. Associa-se a pressão alta, diabetes e osteoporose."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">diretriz</span>.",
+   "print": "C:\\Users\\Neves\\Desktop\\POSTAR_12_VIDEOS\\_repo\\queue\\2026-08-20-incidentaloma-adrenal\\ficha.png",
+   "sub": "Diretriz da <b>European Society of Endocrinology (2023)</b>, com a rede europeia de tumores adrenais — a referência mundial do tema."
+  },
+  {
+   "foto": "bg_04.jpg",
+   "numero": "03",
+   "manchete": "Quando o nódulo<br><span class=\"hl\">preocupa</span>",
+   "corpo": "A própria imagem responde: massa <b>homogênea com até 10 unidades</b> na tomografia sem contraste é benigna e dispensa seguimento.",
+   "destaque": "Sinais de alerta: mais de 4 cm, aspecto heterogêneo ou crescimento entre exames."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Cansaço tem exame,<br>não <span class=\"hl\">adivinhação</span>",
+   "corpo": "Pressão difícil de controlar, açúcar subindo, osso enfraquecendo e cansaço podem ter causa <b>adrenal de verdade</b> — mensurável no sangue. Investigar é isso: exame certo, na ordem certa.",
+   "fonte": "Fontes: Medscape · ESE 2023 (PMID 37318239) · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

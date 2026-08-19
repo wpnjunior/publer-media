@@ -1,0 +1,44 @@
+{
+ "marca": [
+  "PAPO",
+  "NEWS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "trigopao.jpg",
+   "editoria": "Gastroenterologia",
+   "manchete": "E se o vilão<br>nunca foi o<br><span class=\"hl\">glúten</span>?",
+   "sub": "Um duplo-cego mudou a conversa: nos 'sensíveis ao glúten', quem provocou sintoma foi <b>outro componente do trigo</b>.",
+   "fonte": "Fonte: Skodje et al., Gastroenterology 2018"
+  },
+  {
+   "foto": "trigobarriga.jpg",
+   "numero": "01",
+   "manchete": "O teste que o<br>influencer <span class=\"hl\">não faz</span>",
+   "corpo": "59 pessoas que se diziam sensíveis ao glúten (sem doença celíaca) toparam o jogo: barrinhas idênticas com <b>glúten, fructano ou placebo</b> — sem saber qual era qual.",
+   "destaque": "Resultado: o glúten empatou com o placebo. Quem inchou a barriga foi o FRUCTANO — um carboidrato fermentável do trigo."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">duplo-cego</span>.",
+   "print": "C:\\Users\\Neves\\Desktop\\POSTAR_12_VIDEOS\\_repo\\fonte_trigo_ficha.png",
+   "sub": "Publicado na <b>Gastroenterology</b> (2018), o padrão-ouro dos testes: nem o paciente nem o pesquisador sabiam o que havia em cada barrinha."
+  },
+  {
+   "foto": "bg_01_alt.jpg",
+   "numero": "02",
+   "manchete": "Mas o glúten<br>é <span class=\"hl\">santo</span>?",
+   "corpo": "Também não. O glúten aumenta a <b>zonulina</b>, que abre as junções do intestino — isso é real e mensurável. Só que <b>abrir não é adoecer</b>: na maioria das pessoas, a barreira se recompõe.",
+   "destaque": "Quem PRECISA tirar o glúten: celíaco e alérgico ao trigo. Isso é diagnóstico, não moda."
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "03",
+   "manchete": "Por que o pão de<br>padaria <span class=\"hl\">pesa menos</span>",
+   "corpo": "Fermentação longa <b>consome parte do fructano</b>. Por isso tanta gente 'sensível ao pão' come massa de fermentação natural sem drama. Não era milagre — era química.",
+   "fonte": "Fontes: Gastroenterology 2018 (PMID 29102613) · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

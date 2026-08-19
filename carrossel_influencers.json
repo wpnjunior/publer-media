@@ -1,0 +1,44 @@
+{
+ "marca": [
+  "PAPO",
+  "NEWS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "influfone.jpg",
+   "editoria": "Saúde intestinal",
+   "manchete": "O que o influencer<br>erra sobre o seu<br><span class=\"hl\">intestino</span>",
+   "sub": "O Medscape publicou a lista dos erros — e ela bate exatamente com o que lota o seu feed.",
+   "fonte": "Fonte: Medscape (18/08/2026) · Cell 2021 (Stanford)"
+  },
+  {
+   "foto": "bg_04.jpg",
+   "numero": "01",
+   "manchete": "Erro 1: você NÃO<br>precisa de <span class=\"hl\">detox</span>",
+   "corpo": "Chá, suco, limpeza de 7 dias: o intestino não acumula 'toxina' esperando faxina. Quem faz a limpeza é ele mesmo, todos os dias, de graça.",
+   "destaque": "Sinal de alerta: se a solução do vídeo está no link da bio, a ciência costuma ficar de fora."
+  },
+  {
+   "foto": "influferm.jpg",
+   "numero": "02",
+   "manchete": "O que Stanford<br><span class=\"hl\">provou</span>",
+   "corpo": "No estudo de Stanford, <b>alimento fermentado de verdade</b> — iogurte, kefir, kimchi, chucrute — aumentou a diversidade da microbiota e <b>derrubou marcadores de inflamação</b> em 10 semanas.",
+   "destaque": "Não foi cápsula de probiótico. Foi comida."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É a <span class=\"hl\">Cell</span>.",
+   "print": "C:\\Users\\Neves\\Desktop\\POSTAR_12_VIDEOS\\_repo\\fonte_cell_ficha.png",
+   "sub": "Publicado na <b>Cell (2021)</b> por Stanford: dieta com fermentados mudou microbiota e inflamação — medidos no sangue."
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "03",
+   "manchete": "O básico que<br><span class=\"hl\">funciona</span>",
+   "corpo": "Fibra variada (feijão, fruta, verdura), fermentado diário, dormir direito e mexer o corpo. <b>Chato? Sim. Funciona? Também.</b> Seu intestino não precisa de produto — precisa de rotina.",
+   "fonte": "Fontes: Medscape 18/08/2026 · Cell 2021 (PMID 34256014) · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

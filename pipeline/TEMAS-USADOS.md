@@ -12,3 +12,23 @@
 2026-08-16 | AGENDADO  | Hipercortisolismo em diabetes tipo 2 de difícil controle (estudo CATALYST, Diabetes Care/ADA 2025)
 2026-08-18 | AGENDADO  | Agonistas de GLP-1 — efeitos adversos e achados inesperados (Nature Medicine 2025, Xie/Al-Aly; JCI 2026, Jalleh et al.)
 2026-08-20 | AGENDADO  | Incidentaloma adrenal — nódulo achado por acaso (ESE 2023, PMID 37318239)
+2026-08-21 | AGENDADO  | Comentado: vitaminas gummy intoxicação crianças (Baylor/PHM 2026)
+2026-08-22 | AGENDADO  | Comentado: glúten vs fructano — zonulina (Skodje 2018)
+2026-08-23 | AGENDADO  | Comentado: influencers e mitos do intestino (Cell 2021)
+2026-08-24 | AGENDADO  | Comentado: álcool sem dose segura (JAMA Netw Open 2023 + OMS)
+2026-08-25 | AGENDADO  | Comentado: GLP-1 massa magra e reganho (SURMOUNT/STEP)
+2026-08-26 | AGENDADO  | Comentado: microplástico na carótida (NEJM 2024)
+2026-08-27 | AGENDADO  | Comentado: café absolvido pela AHA
+2026-08-28 | AGENDADO  | Comentado: raiva por morcego sem marca de mordida
+2026-08-29 | AGENDADO  | Comentado: osso precisa de proteína (estudo suíço)
+2026-08-30 | AGENDADO  | Comentado: azul de metileno + antidepressivo
+2026-08-31 | AGENDADO  | Comentado: B6 e neuropatia (Austrália 2025)
+2026-09-01 | AGENDADO  | Comentado: eritritol e trombose (Cleveland Clinic)
+2026-09-02 | AGENDADO  | Comentado: ashwagandha e fígado
+2026-09-03 | AGENDADO  | Comentado: ômega-3 e fibrilação atrial (Circulation)
+2026-09-04 | AGENDADO  | Comentado: whey e rim saudável (Noruega 10 anos)
+2026-09-05 | AGENDADO  | Comentado: testosterona coração ok, fratura +43% (TRAVERSE)
+2026-09-06 | AGENDADO  | Comentado: dieta cetogênica e saúde mental (Stanford)
+2026-09-07 | AGENDADO  | Comentado: fita na boca — revisão fraca + risco
+2026-09-08 | AGENDADO  | Comentado: unha grossa nem sempre é micose
+2026-09-09 | AGENDADO  | Comentado: acupuntura no intestino irritável (sham-controlado)
