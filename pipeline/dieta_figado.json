@@ -1,0 +1,54 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_01.jpg",
+   "editoria": "Nutrição",
+   "manchete": "A dieta oficial<br>dos EUA esqueceu<br>o <span class=\"hl\">fígado</span>",
+   "sub": "<b>Quase 11 mil adultos</b> analisados: mais proteína, sem número pro álcool — e o fígado entrou na conta, mostra novo estudo.",
+   "fonte": "Fonte: Medscape · American Journal of Gastroenterology, 2026"
+  },
+  {
+   "foto": "bg_02.jpg",
+   "numero": "01",
+   "manchete": "A diretriz<br>trocou de <span class=\"hl\">foco</span>",
+   "corpo": "Em janeiro de 2026, os EUA publicaram a nova <b>Dietary Guidelines for Americans</b>. Cresceu a ênfase em proteína total — e o limite de álcool que existia desde 1980 virou só <b>“beba menos”</b>, sem número.",
+   "destaque": "Antes: até 2 doses/dia para homens e 1 dose/dia para mulheres. Na nova diretriz, o número saiu do texto."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "Quase 11 mil<br>pessoas, um <span class=\"hl\">padrão</span> claro",
+   "corpo": "Um estudo cruzou o que <b>10.944 adultos</b> nos EUA comeram (NHANES) com o fígado avaliado por elastografia. Fruta, verdura, grão integral e proteína de peixe ou planta apareceram ligados a menos gordura e fibrose no fígado.",
+   "destaque": "Carne vermelha/processada, sódio, proteína total em excesso e açúcar de adição: ligados a mais gordura e fibrose hepática."
+  },
+  {
+   "foto": "bg_01_alt.jpg",
+   "numero": "03",
+   "manchete": "Álcool:<br>o risco sobe <span class=\"hl\">direto</span>",
+   "corpo": "No mesmo estudo, cada grau a mais de excesso no consumo de álcool andou junto com um salto no risco hepático:",
+   "destaque": "+16% esteatose hepática · +21% fibrose significativa · +39% fibrose avançada"
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">artigo científico</span>.",
+   "corpo": "<b>Dietary Guidelines 2025–2030 For Americans Are Concerning For Liver Health</b><br>Dunn N, Singal AK, et al. · <b>American Journal of Gastroenterology</b>, 2026<br>DOI 10.14309/ajg.0000000000004114 · PMID 42424626<br>NHANES 2017–2023 · 10.944 adultos · elastografia hepática (VCTE)",
+   "sub": "Publicado em 2026 na revista oficial do American College of Gastroenterology."
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "04",
+   "manchete": "Não é radical.<br>É <span class=\"hl\">ajuste fino</span>",
+   "corpo": "Os próprios autores do estudo propõem dois ajustes na diretriz: trocar “mais proteína” por <b>quantidade certa, de fonte adequada</b> (peixe, leguminosa, vegetal) — e devolver ao texto um número claro para o álcool, deixando explícito que beber menos é preferível e que não beber é uma opção adequada para muita gente."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "05",
+   "manchete": "Fígado também<br>é assunto de <span class=\"hl\">prato</span>",
+   "corpo": "Sobrepeso, diabetes, colesterol alterado ou histórico de bebida frequente? Vale perguntar ao seu médico se faz sentido avaliar o fígado — antes de qualquer sintoma aparecer.",
+   "fonte": "Fontes: Medscape · Dunn N et al., Am J Gastroenterol, 2026 (DOI 10.14309/ajg.0000000000004114, PMID 42424626). Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

@@ -13,6 +13,7 @@
 2026-08-18 | AGENDADO  | Agonistas de GLP-1 — efeitos adversos e achados inesperados (Nature Medicine 2025, Xie/Al-Aly; JCI 2026, Jalleh et al.)
 2026-08-20 | AGENDADO  | Incidentaloma adrenal — nódulo achado por acaso (ESE 2023, PMID 37318239)
 2026-08-21 | AGENDADO  | Comparação direta entre 19 medicamentos para obesidade — emagrecimento x proteção cardiovascular (Nong et al., The BMJ 2026;394:e372161)
+2026-08-23 | AGENDADO  | Nova Dietary Guidelines for Americans (2025-2030) e o fígado — mais proteína, sem limite de álcool (Dunn N et al., Am J Gastroenterol 2026, PMID 42424626)
 2026-08-21 | AGENDADO  | Comentado: vitaminas gummy intoxicação crianças (Baylor/PHM 2026)
 2026-08-22 | AGENDADO  | Comentado: glúten vs fructano — zonulina (Skodje 2018)
 2026-08-23 | AGENDADO  | Comentado: influencers e mitos do intestino (Cell 2021)
