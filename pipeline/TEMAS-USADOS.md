@@ -34,3 +34,4 @@
 2026-09-07 | AGENDADO  | Comentado: fita na boca — revisão fraca + risco
 2026-09-08 | AGENDADO  | Comentado: unha grossa nem sempre é micose
 2026-09-09 | AGENDADO  | Comentado: acupuntura no intestino irritável (sham-controlado)
+2026-08-26 | AGENDADO  | Diabetes tipo 2 além da glicemia — diretriz SBD 2025-2026 (risco cardiovascular, IMC e peso na escolha do tratamento e da meta de HbA1c)
