@@ -1,15 +1,26 @@
 # -*- coding: utf-8 -*-
 """Publica o Reel FRASCO PARA X: le reels_queue/<data>-<slug>/meta.json + reel.mp4 (ja no repo)
-e agenda no Instagram via Publer. Roda no GitHub Actions (que tem rede + chave)."""
+e agenda no Instagram, TikTok e YouTube via Publer. Roda no GitHub Actions (que tem rede + chave)."""
 import json, os, sys, time, urllib.request, urllib.error, datetime as dt
 
 KEY = os.environ["PUBLER_KEY"].strip()
 WS = "6a331bf8de25980271e20cc5"
 IG = "6a33206a2e5a43b4b2de3428"
+TT = "6a332078c7ca16d627869341"
+YT = "6a33203e2e5a43b4b2de33cb"
 BASE = "https://app.publer.com/api/v1"
 RAW = "https://raw.githubusercontent.com/wpnjunior/publer-media/master/{}"
 H = {"Authorization": "Bearer-API " + KEY, "Publer-Workspace-Id": WS,
      "Content-Type": "application/json", "User-Agent": "Mozilla/5.0 Chrome/126.0", "Accept": "application/json"}
+
+def titulo_yt(texto):
+    """YouTube exige titulo: usa a 1a linha util da legenda (max 90 chars)."""
+    for linha in texto.splitlines():
+        linha = linha.strip()
+        if linha and not linha.startswith("#"):
+            return linha[:90]
+    return "Dr. Wagner Novaes Jr."
+
 
 def req(m, p, b=None):
     d = json.dumps(b).encode() if b is not None else None
@@ -71,8 +82,18 @@ def main(qdir):
     for _ in range(5):
         w = alvo.strftime("%Y-%m-%dT%H:%M:00Z")
         body = {"bulk": {"state": "scheduled", "posts": [{
-            "networks": {"instagram": {"type": "video", "media": [mm], "text": meta["caption"]}},
-            "accounts": [{"id": IG, "scheduled_at": w}]}]}}
+            "networks": {
+                "instagram": {"type": "video", "media": [mm], "text": meta["caption"]},
+                "tiktok": {"type": "video", "media": [mm], "text": meta["caption"]},
+                # YouTube so aceita type "video" ("short"/"reel" da "Post type is
+                # not valid"); vertical e curto ele mesmo publica como Short
+                "youtube": {"type": "video", "media": [mm], "text": meta["caption"],
+                            "title": titulo_yt(meta["caption"]), "privacy": "public",
+                            "made_for_kids": False},
+            },
+            "accounts": [{"id": IG, "scheduled_at": w},
+                         {"id": TT, "scheduled_at": w},
+                         {"id": YT, "scheduled_at": w}]}]}}
         j2 = req("POST", "/posts/schedule", body)
         if "job_id" not in j2:
             print("ERRO schedule:", json.dumps(j2)[:300]); return 1
