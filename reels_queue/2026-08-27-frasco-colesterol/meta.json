@@ -3,6 +3,7 @@
  "titulo": "Frasco para Colesterol",
  "caption": "Essa semana mais um paciente perguntou se dava pra resolver o colesterol só tomando cápsula, sem mexer no prato. Não dá.\n\nO frasco de hoje: COLESTEROL — berberina, ômega-3, policosanol e coenzima Q10, combinação clássica de manipulação, usada como apoio de rotina por quem já trata o colesterol com acompanhamento médico.\n\nE a parte que nenhum frasco resolve sozinho: menos gordura saturada no prato e uma caminhada depois das refeições pesam tanto quanto qualquer cápsula.\n\nISSO NÃO É UMA RECOMENDAÇÃO. Procure o seu médico.\n\n#colesterol #saudecardiovascular #manipulacao #endocrinologia #drwagnernovaes",
  "schedule_at": "2026-08-27T21:00:00Z",
- "published": false,
- "trilha": "lobby_ambient"
+ "published": true,
+ "trilha": "lobby_ambient",
+ "slot": "2026-08-27T21:00:00Z"
 }
