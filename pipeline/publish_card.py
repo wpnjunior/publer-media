@@ -62,6 +62,18 @@ def main():
     alvo = agora.replace(hour=17, minute=0, second=0, microsecond=0)
     if alvo < agora + dt.timedelta(minutes=50):
         alvo += dt.timedelta(days=1)
+
+    # MODO RESERVA (segundo disparo do dia): so age se HOJE ficou sem card.
+    # O cron do GitHub Actions e "melhor esforco" e chega a atrasar horas — em
+    # 27/08/2026 rodou 21:53 em vez de 12:48 e o dia perdeu o card. O 2o gatilho
+    # cobre isso sem consumir o banco em dobro: se hoje ja tem card, sai quieto.
+    if os.environ.get("MODO") == "reserva":
+        hoje = agora.strftime("%Y-%m-%d")
+        if any((c.get("slot") or "").startswith(hoje) for c in idx["cards"]):
+            print("RESERVA: hoje ja tem card agendado, nada a fazer."); return 0
+        if agora.hour >= 17:
+            print("RESERVA: ja passou das 14h BRT, o cron normal cuida de amanha."); return 0
+        alvo = agora.replace(hour=17, minute=0, second=0, microsecond=0)
     # um card por dia: se o dia-alvo ja tem card na fila, pula pro proximo dia livre
     ocupados = {c["slot"][:10] for c in idx["cards"] if c.get("slot")}
     while alvo.strftime("%Y-%m-%d") in ocupados:

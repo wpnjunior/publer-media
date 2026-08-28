@@ -2,6 +2,7 @@ name: cards-14h
 on:
   schedule:
     - cron: "0 12 * * *"   # 09h de Brasilia — agenda o card das 14h do mesmo dia
+    - cron: "0 14 * * *"   # 11h BRT — RESERVA: so age se o das 09h atrasou e o dia ficou sem card
   workflow_dispatch: {}
 jobs:
   publicar-card:
@@ -13,6 +14,9 @@ jobs:
       - name: agendar proximo card
         env:
           PUBLER_KEY: ${{ secrets.PUBLER_KEY }}
+          # o disparo das 14h UTC (11h BRT) entra em modo reserva: nao duplica,
+          # so cobre o dia se o cron das 09h tiver atrasado (acontece no Actions)
+          MODO: ${{ github.event.schedule == '0 14 * * *' && 'reserva' || 'normal' }}
         run: python pipeline/publish_card.py
       - name: marcar publicado
         run: |
