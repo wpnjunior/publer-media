@@ -35,3 +35,4 @@
 2026-09-08 | AGENDADO  | Comentado: unha grossa nem sempre é micose
 2026-09-09 | AGENDADO  | Comentado: acupuntura no intestino irritável (sham-controlado)
 2026-08-26 | AGENDADO  | Diabetes tipo 2 além da glicemia — diretriz SBD 2025-2026 (risco cardiovascular, IMC e peso na escolha do tratamento e da meta de HbA1c)
+2026-08-30 | AGENDADO  | Diretriz Brasileira de Tratamento Farmacológico da Obesidade — ABESO 2026 (fórmulas manipuladas contraindicadas; semaglutida/tirzepatida/liraglutida com >15% de perda de peso)
