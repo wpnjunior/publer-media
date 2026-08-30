@@ -145,8 +145,8 @@
   {
    "id": "ordem-dos-alimentos",
    "tema": "Ordem dos alimentos",
-   "published": false,
-   "slot": null,
+   "published": true,
+   "slot": "2026-08-31T17:00:00Z",
    "caption": "Mesmo prato, mesma comida, ordem diferente — e a curva de açúcar responde diferente. É um ajuste sem custo, útil pra quem sente sono e fome pouco depois de comer. Não substitui reduzir refinado, só ajuda.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #glicemia #alimentacao #energia #resistenciainsulina"
   },
   {
