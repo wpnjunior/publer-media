@@ -1,0 +1,46 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_04.jpg",
+   "editoria": "Endocrinologia",
+   "manchete": "Vitamina D:<br>pare de pedir<br><span class=\"hl\">esse exame</span>",
+   "sub": "Nova diretriz da <b>Endocrine Society</b> recomenda não dosar rotina em quem é saudável — e reserva a reposição pra 4 grupos específicos.",
+   "fonte": "Fonte: Medscape · Endocrine Society, J Clin Endocrinol Metab, 2024 (PMID 38828931)"
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "01",
+   "manchete": "Exame de rotina?<br><span class=\"hl\">A diretriz diz não</span>",
+   "corpo": "Em 2024, a <b>Endocrine Society</b> publicou, no <b>Journal of Clinical Endocrinology & Metabolism</b>, a recomendação: não dosar vitamina D em adultos saudáveis, sem um motivo clínico específico.",
+   "destaque": "Elevar o nível de vitamina D no sangue, isoladamente, não muda desfecho em quem não está em nenhum grupo de risco."
+  },
+  {
+   "foto": "vitpotes.jpg",
+   "numero": "02",
+   "manchete": "Só 4 grupos<br>saem da <span class=\"hl\">regra geral</span>",
+   "corpo": "Pra esses grupos, a diretriz recomenda suplementar <b>acima da dose padrão</b> — sem precisar de exame de sangue antes:",
+   "destaque": "Crianças e adolescentes (1–18 anos) · Gestantes · Adultos com pré-diabetes · Pessoas com 75 anos ou mais"
+  },
+  {
+   "foto": "vitgummy.jpg",
+   "numero": "03",
+   "manchete": "O que muda<br>pra <span class=\"hl\">cada grupo</span>",
+   "corpo": "Em crianças, menos <b>raquitismo</b> e <b>infecção respiratória</b>. Em quem tem 75 anos ou mais, a suplementação foi associada a <b>menor mortalidade</b>.",
+   "destaque": "Na gestação: menos complicação na gravidez. No pré-diabetes: menor chance de evoluir pra diabetes tipo 2."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Fora desses grupos?<br><span class=\"hl\">Sem pressa</span>",
+   "corpo": "Se você é adulto saudável e não se encaixa em nenhum desses grupos, a diretriz não recomenda dosar nem suplementar por conta própria — o que vem da dieta e do sol costuma bastar."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "manchete": "Dose certa é<br>decisão <span class=\"hl\">clínica</span>",
+   "corpo": "Vitamina D em excesso também tem risco — mais dose não significa mais benefício. A indicação depende do seu histórico, não de uma regra geral pronta.",
+   "fonte": "Fontes: Medscape · Endocrine Society, Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline, J Clin Endocrinol Metab, 2024;109(8):1907-1947, PMID 38828931. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

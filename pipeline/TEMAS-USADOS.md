@@ -37,3 +37,4 @@
 2026-08-26 | AGENDADO  | Diabetes tipo 2 além da glicemia — diretriz SBD 2025-2026 (risco cardiovascular, IMC e peso na escolha do tratamento e da meta de HbA1c)
 2026-08-30 | AGENDADO  | Diretriz Brasileira de Tratamento Farmacológico da Obesidade — ABESO 2026 (fórmulas manipuladas contraindicadas; semaglutida/tirzepatida/liraglutida com >15% de perda de peso)
 2026-09-06 | AGENDADO  | SOP renomeada para SOMP (Síndrome Ovariana Metabólica Poliendócrina) — consenso internacional, The Lancet mai/2026 (56 sociedades médicas, DOI 10.1016/S0140-6736(26)00717-8)
+2026-09-08 | AGENDADO  | Vitamina D — diretriz Endocrine Society (JCEM, 2024): não dosar rotina em saudáveis, suplementação reservada a 4 grupos (crianças, gestantes, pré-diabetes, 75+), PMID 38828931
