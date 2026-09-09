@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_05.jpg",
+   "editoria": "Cardiologia",
+   "manchete": "O colesterol<br>ganhou <span class=\"hl\">diretriz</span><br>nova",
+   "sub": "<b>11 sociedades médicas dos EUA</b> reescreveram, em 2026, o guia que orienta o tratamento do colesterol no mundo todo — a primeira atualização desde 2018.",
+   "fonte": "Fonte: JACC · Guideline ACC/AHA sobre Dislipidemia, 2026"
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "01",
+   "manchete": "Um exame que<br>quase ninguém<br><span class=\"hl\">pede</span>",
+   "corpo": "Pela primeira vez, a diretriz recomenda medir a <b>Lipoproteína(a) — Lp(a)</b> pelo menos uma vez na vida de todo adulto.",
+   "destaque": "É um risco genético, herdado — não muda com dieta ou exercício. Mas saber que você tem é o que muda a conduta médica."
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "02",
+   "manchete": "Colesterol não é<br>coisa só de<br><span class=\"hl\">adulto</span>",
+   "corpo": "A diretriz recomenda rastrear <b>toda criança entre 9 e 11 anos</b> que nunca fez o exame — e, com parente de 1º ou 2º grau com colesterol muito alto, o exame pode começar a partir dos <b>2 anos</b>.",
+   "destaque": "O objetivo não é medicalizar a infância — é achar cedo o colesterol alto herdado (hipercolesterolemia familiar) antes de décadas de artéria exposta."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_05.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">diretriz</span>.",
+   "print": "/home/user/publer-media/fonte_colesterol_ficha.png",
+   "sub": "Publicada na <b>JACC</b>, assinada por <b>ACC/AHA</b> e mais 9 sociedades médicas — a referência que substitui a diretriz de 2018."
+  },
+  {
+   "foto": "bg_02.jpg",
+   "numero": "03",
+   "manchete": "A meta do LDL<br>ficou <span class=\"hl\">mais cedo</span>",
+   "corpo": "Uma calculadora nova — a <b>PREVENT</b> — substitui a antiga e estima o risco cardiovascular ao longo de <b>toda a vida</b>, não só dos próximos 10 anos.",
+   "destaque": "Resultado: tratar mais cedo, antes do primeiro evento cardíaco — e meta de LDL mais rígida para quem já tem doença cardiovascular."
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "04",
+   "manchete": "O número sozinho<br>não fecha a<br><span class=\"hl\">conta</span>",
+   "corpo": "Alimentação com menos ultraprocessado e mais fibra, atividade física regular e, quando indicado, estatina — a decisão de tratar continua sendo sobre o <b>risco individual</b>, não só o LDL isolado.",
+   "fonte": "Fontes: JACC · Guideline ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA sobre Dislipidemia, 2026 (DOI 10.1016/j.jacc.2025.11.016, PMID 41824590). Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

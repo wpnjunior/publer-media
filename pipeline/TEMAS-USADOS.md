@@ -38,3 +38,4 @@
 2026-08-30 | AGENDADO  | Diretriz Brasileira de Tratamento Farmacológico da Obesidade — ABESO 2026 (fórmulas manipuladas contraindicadas; semaglutida/tirzepatida/liraglutida com >15% de perda de peso)
 2026-09-06 | AGENDADO  | SOP renomeada para SOMP (Síndrome Ovariana Metabólica Poliendócrina) — consenso internacional, The Lancet mai/2026 (56 sociedades médicas, DOI 10.1016/S0140-6736(26)00717-8)
 2026-09-08 | AGENDADO  | Vitamina D — diretriz Endocrine Society (JCEM, 2024): não dosar rotina em saudáveis, suplementação reservada a 4 grupos (crianças, gestantes, pré-diabetes, 75+), PMID 38828931
+2026-09-10 | AGENDADO  | Nova diretriz americana de colesterol/dislipidemia — ACC/AHA e mais 9 sociedades médicas (JACC 2026;87(19):2624-2757, DOI 10.1016/j.jacc.2025.11.016, PMID 41824590): Lp(a) medida 1x na vida, rastreio infantil (9-11 anos, ou desde os 2 com histórico familiar), calculadora de risco PREVENT (risco ao longo da vida)
