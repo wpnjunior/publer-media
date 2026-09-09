@@ -180,8 +180,8 @@
   {
    "id": "tempo-dedicado-a-mim",
    "tema": "Tempo dedicado a mim",
-   "published": false,
-   "slot": null,
+   "published": true,
+   "slot": "2026-09-09T17:00:00Z",
    "caption": "Todo mundo está ocupado, então tempo é a moeda mais honesta que existe. Quem para pra saber como você está diz muito sem dizer nada. Repare em quem faz isso sem você pedir.\n#drwagnernovaes #tempo #amizade #presenca #gratidao"
   },
   {
