@@ -1,0 +1,54 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_calm.jpg",
+   "manchete": "20 anos de<br><span class=\"hl\">medo</span><br>saem da bula",
+   "sub": "A FDA removeu o aviso mais grave dos hormônios da menopausa — depois de reanalisar os mesmos dados que causaram o susto.",
+   "fonte": "Fonte: FDA (EUA), fev/2026"
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "01",
+   "manchete": "A bula<br>mudou de <span class=\"hl\">verdade</span>",
+   "corpo": "Em 12 de fevereiro de 2026, a FDA (agência que regula remédios nos EUA) aprovou a retirada do <b>black box warning</b> — o aviso mais grave que existe em bula — de seis hormônios usados na menopausa.",
+   "destaque": "Bijuva, Divigel, Cenestin, Enjuvia, Prometrium e Estring foram os primeiros a mudar de bula."
+  },
+  {
+   "foto": "peri_brain.jpg",
+   "numero": "02",
+   "manchete": "De onde veio<br>o <span class=\"hl\">medo</span>",
+   "corpo": "O aviso existia desde 2002, quando o estudo <b>Women's Health Initiative (WHI)</b> associou hormônio a mais risco cardiovascular, câncer de mama e demência — e o uso despencou no mundo todo.",
+   "destaque": "O problema: o estudo somava numa única conta mulheres de 50 a 79 anos — idades com riscos bem diferentes."
+  },
+  {
+   "foto": "peri_doctor2.jpg",
+   "numero": "03",
+   "manchete": "Separar por<br>idade <span class=\"hl\">mudou</span> a conta",
+   "corpo": "Reanalisando os dados por faixa etária, quem começa o hormônio até 10 anos após a menopausa — ou antes dos 60 anos — tem mais benefício do que risco.",
+   "destaque": "Nesse grupo: menos morte por qualquer causa e menos fratura, segundo a reanálise que embasou a decisão da FDA."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">decisão oficial</span>",
+   "corpo": "A mudança não veio de influenciador nem de estudo isolado: é uma decisão da própria agência que regula remédios nos Estados Unidos, publicada oficialmente em fda.gov.",
+   "destaque": "FDA — \"FDA Approves Labeling Changes to Menopausal Hormone Therapy Products\", 12/fev/2026 (processo iniciado em 10/nov/2025)."
+  },
+  {
+   "foto": "peri_awake.jpg",
+   "numero": "05",
+   "manchete": "O que<br><span class=\"hl\">não</span> mudou",
+   "corpo": "O aviso de câncer de endométrio continua na bula do estrogênio isolado em mulher com útero — por isso ele segue sendo usado junto com progestagênio nesses casos.",
+   "destaque": "Menos aviso não é sinônimo de 'sem risco nenhum' — é uma bula mais precisa, não mais permissiva."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "06",
+   "manchete": "Vale a pena<br>pra <span class=\"hl\">você</span>?",
+   "corpo": "A decisão de usar hormônio na menopausa depende da sua idade, do tempo desde a última menstruação e do seu histórico de saúde — não existe resposta igual pra todo mundo.",
+   "fonte": "Fontes: FDA (fda.gov, fev/2026) · Estudo Women's Health Initiative (WHI, 2002). Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
