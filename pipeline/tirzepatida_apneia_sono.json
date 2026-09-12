@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_awake.jpg",
+   "editoria": "Medicina do Sono",
+   "manchete": "Emagrecer também<br>pode <span class=\"hl\">liberar</span><br>a respiração à noite",
+   "sub": "Estudo com <b>469 pessoas</b> mostrou queda de até <b>63% nos eventos</b> de apneia do sono com o mesmo remédio usado para emagrecer.",
+   "fonte": "Fonte: Medscape · SURMOUNT-OSA, N Engl J Med, 2024"
+  },
+  {
+   "foto": "bg_02.jpg",
+   "numero": "01",
+   "manchete": "Duas doenças,<br>um só <span class=\"hl\">tratamento</span>",
+   "corpo": "A apneia obstrutiva do sono anda de mãos dadas com o excesso de peso: gordura ao redor do pescoço e da via aérea favorece o colapso da garganta durante o sono.",
+   "destaque": "Até então, o tratamento padrão — o CPAP — cuidava só da respiração durante a noite. Não mexia no peso."
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "02",
+   "manchete": "469 pessoas,<br>52 semanas de<br><span class=\"hl\">acompanhamento</span>",
+   "corpo": "Duas pesquisas de fase 3, randomizadas e controladas por placebo, testaram a <b>tirzepatida</b> — mesma molécula usada para diabetes e obesidade — em adultos com apneia moderada a grave e excesso de peso.",
+   "destaque": "Nem os participantes nem os pesquisadores sabiam, durante o estudo, quem recebia o remédio e quem recebia placebo."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_05.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">estudo</span>.",
+   "print": "/home/user/publer-media/fonte_osa_ficha.png",
+   "sub": "Publicado no <b>New England Journal of Medicine</b>, um dos maiores estudos já feitos testando um remédio para apneia do sono."
+  },
+  {
+   "foto": "bg_03.jpg",
+   "numero": "03",
+   "manchete": "Até <span class=\"hl\">63% menos</span><br>engasgos por<br>hora de sono",
+   "corpo": "O índice de apneia-hipopneia — quantas vezes a respiração para ou quase para por hora — caiu bem mais no grupo que usou o remédio do que no grupo placebo.",
+   "destaque": "Em até <b>51,5%</b> de quem usou a dose mais alta, a apneia foi considerada resolvida — sem mais critério clínico para o diagnóstico."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "O sono muda.<br>O ronco não é o<br><span class=\"hl\">único</span> alvo",
+   "corpo": "Além da respiração, quem usou o remédio teve queda também na pressão arterial, na inflamação (PCR) e no peso — e relatou qualidade de vida mais alta no dia a dia.",
+   "fonte": "Fontes: Medscape · Malhotra A et al., \"Tirzepatide for the Treatment of Obstructive Sleep Apnea and Obesity\", N Engl J Med, 2024;391(13):1193-1205, DOI 10.1056/NEJMoa2404881, PMID 38912654. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
