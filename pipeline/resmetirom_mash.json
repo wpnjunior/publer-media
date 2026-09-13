@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_01.jpg",
+   "editoria": "Hepatologia",
+   "manchete": "O fígado gorduroso<br>ganhou seu primeiro<br><span class=\"hl\">remédio</span>",
+   "sub": "Depois de décadas sem nenhum tratamento aprovado, a ciência chegou a um remédio que age direto na fibrose do fígado — já em uso há dois anos nos Estados Unidos.",
+   "fonte": "Fonte: Medscape · New England Journal of Medicine, 2024"
+  },
+  {
+   "foto": "bg_03.jpg",
+   "numero": "01",
+   "manchete": "Quando o fígado<br>gorduroso vira<br><span class=\"hl\">MASH</span>",
+   "corpo": "Quando a gordura no fígado evolui para inflamação e cicatriz, o quadro muda de nome — e de risco. Vira <b>MASH</b>, a esteato-hepatite associada à disfunção metabólica.",
+   "destaque": "Sem tratamento, a MASH pode avançar para fibrose avançada e cirrose. Até 2024, não existia remédio aprovado especificamente para essa fase."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "O estudo que<br>abriu a <span class=\"hl\">porta</span>",
+   "corpo": "Quase 1.000 pessoas com MASH e fibrose participaram de um estudo de fase 3: remédio oral (resmetirom) contra placebo, por 52 semanas, com biópsia hepática antes e depois.",
+   "destaque": "Na dose mais alta, 29,9% resolveram a inflamação sem piorar a fibrose — quase 3 vezes mais que o placebo (perto de 10%)."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_05.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">estudo</span>.",
+   "print": "/home/user/publer-media/fonte_resmetirom_ficha.png",
+   "sub": "Publicado no <b>New England Journal of Medicine</b>, o estudo levou à aprovação acelerada do remédio pela FDA em março de 2024."
+  },
+  {
+   "foto": "bmi_doctor.jpg",
+   "numero": "03",
+   "manchete": "Não é para<br><span class=\"hl\">todo</span> fígado gorduroso",
+   "corpo": "A diretriz americana (AASLD) reserva o remédio para quem já tem fibrose em estágio F2 ou F3, confirmada por exame de imagem — elastografia ou ressonância.",
+   "destaque": "Fígado com gordura sem fibrose avançada continua sendo acompanhado com perda de peso, atividade física e controle metabólico."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Ainda não<br>chegou ao<br><span class=\"hl\">Brasil</span>",
+   "corpo": "Aprovado nos EUA em 2024 e com aprovação condicional na Europa em 2025, o remédio ainda não tem registro na Anvisa. O hábito de vida continua sendo a base do tratamento — remédio novo não substitui isso.",
+   "fonte": "Fontes: Medscape · Harrison SA et al., N Engl J Med, 2024;390(6):497-509 (DOI 10.1056/NEJMoa2309000, PMID 38324483) · AASLD Practice Guidance, Hepatology, 2025;81(1):312-320 (PMID 39422487). Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
