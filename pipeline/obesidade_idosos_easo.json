@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bmi_capa.jpg",
+   "editoria": "Endocrinologia",
+   "manchete": "Depois dos 65,<br>a balança pode<br>estar <span class=\"hl\">mentindo</span>",
+   "sub": "Nova diretriz europeia diz: <b>o IMC sozinho não serve</b> mais para diagnosticar obesidade em quem já tem mais idade.",
+   "fonte": "Fonte: Medscape · European Association for the Study of Obesity (EASO), Obesity Facts, 2025"
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "01",
+   "manchete": "O problema<br>do <span class=\"hl\">IMC</span>",
+   "corpo": "Com a idade, o corpo perde altura, ganha gordura e perde músculo — sem o peso mudar muito. O IMC só divide peso pela altura: não vê nada disso.",
+   "destaque": "Resultado: idoso com IMC \"normal\" pode ter gordura em excesso escondida, enquanto a perda de músculo (sarcopenia) passa batida na consulta."
+  },
+  {
+   "foto": "bmi_tape.jpg",
+   "numero": "02",
+   "manchete": "A régua nova:<br><span class=\"hl\">cintura ÷ altura</span>",
+   "corpo": "A diretriz da EASO passou a usar a razão cintura/altura no lugar da circunferência da cintura isolada — ela mede melhor o risco cardiometabólico do que o IMC.",
+   "destaque": "Cintura ÷ altura abaixo de 0,5 = sem risco aumentado · de 0,5 a 0,6 = risco aumentado · acima de 0,6 = risco bem mais alto."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bmi_tape.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">diretriz</span>.",
+   "print": "/home/user/publer-media/fonte_easo_idosos_ficha.png",
+   "sub": "Publicada na <b>Obesity Facts</b>, revista oficial da EASO, a diretriz de 2025 atualiza o guia europeu de 2012 para o cuidado da obesidade após os 65 anos."
+  },
+  {
+   "foto": "bmi_athlete.jpg",
+   "numero": "03",
+   "manchete": "Obesidade não é<br>só <span class=\"hl\">peso</span> de sobra",
+   "corpo": "A diretriz define obesidade no idoso como excesso de gordura <b>somado</b> a algum problema associado — funcional, físico ou psicológico. Peso alto sozinho, sem nenhum desses três, não entra como doença.",
+   "destaque": "O foco do tratamento passa a ser preservar músculo, mobilidade, independência e qualidade de vida — não só o número da balança."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Emagrecer rápido<br>pode custar <span class=\"hl\">caro</span>",
+   "corpo": "Em quem já tem menos músculo, perder peso depressa — inclusive com remédios como os agonistas de GLP-1 — pode agravar a fragilidade. A diretriz recomenda avaliar a função física antes de fechar a meta de peso.",
+   "fonte": "Fontes: Medscape · European Association for the Study of Obesity (EASO), Position Statement on the Diagnosis and Management of Obesity in Older Adults, Obesity Facts, 2025;19(4):422-450, DOI 10.1159/000549751. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
