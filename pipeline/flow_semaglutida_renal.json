@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_05.jpg",
+   "editoria": "Nefrologia",
+   "manchete": "O remédio do<br>diabetes que também<br><span class=\"hl\">protege</span> o rim",
+   "sub": "Estudo global com <b>3.533 pessoas</b> mostrou <b>24% menos risco</b> de perda grave da função renal com a semaglutida.",
+   "fonte": "Fonte: Medscape · Estudo FLOW, N Engl J Med, 2024"
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "01",
+   "manchete": "O rim que<br>avisa <span class=\"hl\">tarde</span> demais",
+   "corpo": "No diabetes tipo 2, o rim perde função aos poucos, quase sem sintoma. Remédios que já protegem a pressão (IECA/BRA) ajudam, mas nem sempre bastam para segurar essa perda.",
+   "destaque": "A semaglutida já é usada para controlar a glicemia e para emagrecer. Um estudo global testou se o mesmo remédio também protegeria o rim."
+  },
+  {
+   "foto": "bg_02.jpg",
+   "numero": "02",
+   "manchete": "3.533 pessoas,<br>28 países,<br><span class=\"hl\">3,4 anos</span>",
+   "corpo": "O estudo FLOW recrutou pacientes com diabetes tipo 2 e doença renal crônica — já em uso do remédio padrão para proteger o rim — e comparou semaglutida contra placebo.",
+   "destaque": "O estudo foi interrompido antes do previsto: a análise mostrou benefício tão claro que continuar dando placebo deixou de ser ético."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">estudo</span>.",
+   "print": "/home/user/publer-media/fonte_flow_ficha.png",
+   "sub": "Publicado no <b>New England Journal of Medicine</b>, um dos maiores estudos já feitos testando proteção renal no diabetes tipo 2."
+  },
+  {
+   "foto": "bg_04.jpg",
+   "numero": "03",
+   "manchete": "<span class=\"hl\">24% menos</span><br>risco de perder<br>a função renal",
+   "corpo": "Quem usou semaglutida teve 24% menos risco de piora grave da função renal, necessidade de diálise/transplante ou morte por causa renal — e a queda anual da filtração renal foi mais lenta.",
+   "destaque": "HR 0,76 (IC95% 0,66–0,88; p=0,0003) — o mesmo estudo também mostrou 18% menos eventos cardiovasculares graves e 20% menos morte por qualquer causa."
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "04",
+   "manchete": "Um remédio,<br>três frentes de<br><span class=\"hl\">proteção</span>",
+   "corpo": "A mesma molécula usada para controlar o açúcar e ajudar a emagrecer agora soma evidência de proteção renal — sem substituir os remédios que já protegem o rim, e sim somando a eles.",
+   "fonte": "Fontes: Medscape · Perkovic V, Tuttle KR, Rossing P, et al. (FLOW Trial Committees and Investigators), \"Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes\", N Engl J Med, 2024;391(2):109-121, DOI 10.1056/NEJMoa2403347, PMID 38785209. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
