@@ -1,0 +1,47 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bmi_scale.jpg",
+   "editoria": "Diabetes",
+   "manchete": "O diabetes que<br>não é tipo 1<br>nem <span class=\"hl\">tipo 2</span>",
+   "sub": "A Federação Internacional de Diabetes reconheceu o <b>diabetes tipo 5</b> — ligado à desnutrição, já afeta até <b>25 milhões</b> de pessoas magras no mundo.",
+   "fonte": "Fonte: Medscape · International Diabetes Federation (IDF), 2025"
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "01",
+   "manchete": "Reconhecido<br>oficialmente em <span class=\"hl\">2025</span>",
+   "corpo": "Em abril de 2025, no Congresso Mundial de Diabetes, em Bangkok, a International Diabetes Federation (IDF) declarou o diabetes tipo 5 uma categoria própria — não é o tipo 1, não é o tipo 2.",
+   "destaque": "A forma já havia sido descrita em 1955, na Jamaica, mas passou décadas sem reconhecimento oficial por falta de evidência consolidada."
+  },
+  {
+   "foto": "bmi_tape.jpg",
+   "numero": "02",
+   "manchete": "Magreza,<br>não <span class=\"hl\">excesso de peso</span>",
+   "corpo": "Ao contrário do tipo 2, aqui a causa é desnutrição — na infância ou ainda dentro do útero — que faz o pâncreas se desenvolver com menos capacidade de produzir insulina.",
+   "destaque": "Critérios em estudo: idade abaixo de 40 anos, IMC baixo (abaixo de 19 kg/m²) e sensibilidade à insulina preservada — sem obesidade, sem processo autoimune."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "manchete": "Isso não é<br><span class=\"hl\">opinião médica</span>",
+   "corpo": "O reconhecimento da nova categoria está descrito em publicação científica indexada, com revisão por pares — como qualquer outro avanço médico oficial.",
+   "destaque": "Azhar Z, Sadia Z, Siddiqui AN, Yokolo H. \"The neglected epidemic of type 5 diabetes mellitus.\" Annals of Medicine &amp; Surgery, 2025;87(11):6957-6958.<br>DOI 10.1097/MS9.0000000000003985 · PMID 41180768"
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "03",
+   "manchete": "Até <span class=\"hl\">25 milhões</span><br>de pessoas",
+   "corpo": "A IDF estima que entre 20 e 25 milhões de pessoas vivam com diabetes tipo 5 no mundo — a maioria na Ásia, na África e na América Latina, onde a insegurança alimentar ainda é realidade.",
+   "destaque": "Uma força-tarefa internacional, liderada pela Dra. Meredith Hawkins (Albert Einstein College of Medicine), trabalha agora nos critérios diagnósticos e terapêuticos oficiais."
+  },
+  {
+   "foto": "bmi_doctor.jpg",
+   "numero": "04",
+   "manchete": "Por que isso<br>importa <span class=\"hl\">pra você</span>",
+   "corpo": "Um paciente magro, com açúcar alto, que \"não parece\" ter diabetes tipo 1 nem tipo 2 pode estar sendo classificado — e tratado — de forma equivocada, com insulina em dose maior do que precisaria.",
+   "fonte": "Fontes: Medscape Brasil · International Diabetes Federation (IDF, 2025) · Azhar Z et al., Annals of Medicine &amp; Surgery, 2025, DOI 10.1097/MS9.0000000000003985, PMID 41180768. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
