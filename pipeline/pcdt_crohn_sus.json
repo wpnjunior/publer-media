@@ -1,0 +1,47 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_01.jpg",
+   "editoria": "Gastroenterologia",
+   "manchete": "O SUS<br>renovou o<br><span class=\"hl\">protocolo</span>",
+   "sub": "Depois de quase uma década, o Ministério da Saúde atualizou o tratamento da <b>doença de Crohn</b> — novo exame de fezes e mais remédios biológicos liberados.",
+   "fonte": "Fonte: Ministério da Saúde · Portaria Conjunta SAES/SCTIE nº 51/2026"
+  },
+  {
+   "foto": "bg_01_alt.jpg",
+   "numero": "01",
+   "manchete": "Dez anos<br>sem <span class=\"hl\">atualizar</span>",
+   "corpo": "O protocolo brasileiro de tratamento da doença de Crohn — o PCDT, que orienta todo atendimento pelo SUS — ficou quase uma década sem revisão completa. Em maio de 2026 o Ministério da Saúde aprovou a atualização, publicada no Diário Oficial em julho.",
+   "destaque": "Portaria Conjunta SAES/SCTIE nº 51, de 18 de maio de 2026 — Ministério da Saúde, publicada no DOU em 29/jul/2026."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "Um exame<br>novo na<br><span class=\"hl\">tabela do SUS</span>",
+   "corpo": "A calprotectina fecal — uma proteína medida numa amostra de fezes — entrou na Tabela do SUS como forma de acompanhar a inflamação intestinal sem precisar repetir colonoscopia com tanta frequência.",
+   "destaque": "Exame incorporado ao SUS pelo valor de R$ 77,98, com financiamento inicial de 12 meses antes da incorporação definitiva — Ministério da Saúde, 2026."
+  },
+  {
+   "foto": "bg_03.jpg",
+   "manchete": "Isso não é<br><span class=\"hl\">opinião médica</span>",
+   "corpo": "A atualização está descrita em ato oficial do Ministério da Saúde, com protocolo técnico revisado pela Conitec — como qualquer mudança oficial de conduta dentro do SUS.",
+   "destaque": "Portaria Conjunta SAES/SCTIE nº 51, de 18/mai/2026 — Ministério da Saúde/Conitec. Publicada no Diário Oficial da União em 29/jul/2026.<br>Protocolo Clínico e Diretrizes Terapêuticas (PCDT) da Doença de Crohn."
+  },
+  {
+   "foto": "bg_04.jpg",
+   "numero": "03",
+   "manchete": "Gestação:<br>o remédio<br><span class=\"hl\">pode continuar</span>",
+   "corpo": "Antes, a orientação usual era suspender o biológico na gravidez por precaução. O novo protocolo passa a priorizar a manutenção do tratamento em quem está com a doença ativa ou em remissão instável.",
+   "destaque": "Estudo PIANO acompanhou mais de 1.500 gestantes em uso de biológicos (anti-TNF, vedolizumabe, ustequinumabe) e não encontrou mais risco de aborto ou parto prematuro — a doença ativa segue sendo o maior risco na gravidez, não o remédio."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Por que isso<br>importa <span class=\"hl\">pra você</span>",
+   "corpo": "O protocolo também ampliou o acesso a biológicos — vedolizumabe, ustequinumabe e infliximabe por via subcutânea — para quem já tentou outro remédio e não teve resposta adequada.",
+   "fonte": "Fontes: Ministério da Saúde · Portaria Conjunta SAES/SCTIE nº 51/2026 · Conitec, PCDT Doença de Crohn · Estudo PIANO. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
