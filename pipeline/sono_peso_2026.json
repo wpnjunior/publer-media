@@ -1,0 +1,47 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_capa.jpg",
+   "editoria": "Medicina do Sono",
+   "manchete": "Perder só <span class=\"hl\">78 minutos</span> de sono já pesa na balança",
+   "sub": "Ensaio clínico randomizado mostrou <b>ganho real de peso</b> com um corte modesto e prolongado no sono.",
+   "fonte": "Fonte: Medscape · Ann Intern Med, 2026 (Zuraikat et al.)"
+  },
+  {
+   "foto": "peri_awake.jpg",
+   "numero": "01",
+   "manchete": "O estudo que <span class=\"hl\">testou</span> de verdade",
+   "corpo": "95 adultos com risco cardiometabólico elevado passaram por <b>6 semanas de sono adequado</b> e <b>6 semanas de sono restrito</b>, em ordem sorteada — o desenho mais forte para provar causa e efeito.",
+   "destaque": "Corte real alcançado no estudo: 78,4 minutos a menos de sono por noite."
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "02",
+   "manchete": "O peso que <span class=\"hl\">sobrou</span>",
+   "corpo": "Com menos sono, o corpo ganhou, em média, <b>0,45 kg</b> a mais do que no período de sono adequado — mesmo sem qualquer mudança proposital na dieta.",
+   "destaque": "A cintura também cresceu: +0,52 cm, em média, no período de sono curto."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">ensaio clínico</span>.",
+   "sub": "<div class=\"selo-prova\">A fonte</div>Zuraikat FM, Scaccia SE, Cochran JA, et al. <b>\"Prolonged Short Sleep and Its Effect on Body Weight and Composition: A Pooled Analysis of Randomized Trials.\"</b><br><br>Annals of Internal Medicine, publicado em 7 de julho de 2026.<br>DOI: 10.7326/ANNALS-25-01660 · PMID: 42407080"
+  },
+  {
+   "foto": "bg_02.jpg",
+   "numero": "03",
+   "manchete": "Pouco, mas <span class=\"hl\">todo dia</span>",
+   "corpo": "78 minutos por noite parece pouco. Mas os próprios autores calculam que, mantido por um ano, esse déficit de sono pode significar um <b>ganho de peso clinicamente relevante</b>.",
+   "destaque": "O corte foi de sono — não de comida — e ainda assim o peso subiu."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "O sono entrou na <span class=\"hl\">conta</span>",
+   "corpo": "Dormir bem não é luxo: é parte do controle de peso, junto com alimentação e atividade física. Se você tem dificuldade pra dormir, isso também é assunto pra levar à consulta.",
+   "fonte": "Fontes: Medscape · Zuraikat FM et al., \"Prolonged Short Sleep and Its Effect on Body Weight and Composition: A Pooled Analysis of Randomized Trials\", Ann Intern Med, 2026 Jul 7 (DOI 10.7326/ANNALS-25-01660, PMID 42407080). Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
