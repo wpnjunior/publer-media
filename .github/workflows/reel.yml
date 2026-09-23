@@ -22,6 +22,38 @@ jobs:
           done
           echo "dir=$PEND" >> "$GITHUB_OUTPUT"
           echo "reel pendente: $PEND"
+      - name: sabor (confere e, se faltar, aplica)
+        # Regra do Wagner: reel sem sabor NAO esta pronto. A rotina da nuvem ja deveria entregar com
+        # sabor (pipeline/REEL-CLOUD.md, passo 4.5). Aqui e a rede de seguranca: se chegar sem, aplica,
+        # confere e sobe como reel-sabor.mp4 (nome novo = o raw do GitHub nao serve versao velha).
+        # Se nem assim passar no portao, o job FALHA e nada e publicado.
+        if: steps.fila.outputs.dir != ''
+        run: |
+          set -e
+          D="${{ steps.fila.outputs.dir }}"
+          D="${D%/}"
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null; }
+          if [ -f "$D/reel-sabor.mp4" ] && python pipeline/sabor/conferir_sabor.py "$D/reel-sabor.mp4"; then
+            echo "reel-sabor.mp4 ja existe e passa no portao"
+          elif python pipeline/sabor/conferir_sabor.py "$D/reel.mp4"; then
+            echo "reel.mp4 chegou COM sabor (a rotina aplicou)"
+          else
+            echo "reel.mp4 chegou SEM sabor: aplicando agora"
+            python pipeline/sabor/camuflar_forte.py "$D/reel.mp4" --saida "$D" --refazer
+            python pipeline/sabor/conferir_sabor.py "$D/reel-sabor.mp4" --origem "$D"
+            rm -f "$D/camuflagem_forte_log.csv"
+            git config user.name "esteira-bot"
+            git config user.email "esteira@users.noreply.github.com"
+            git add "$D/reel-sabor.mp4"
+            git commit -m "reel: sabor aplicado pelo GitHub [skip ci]"
+            ok=0
+            for t in 1 2 3; do
+              if git pull --rebase -q && git push -q; then ok=1; break; fi
+              sleep 5
+            done
+            [ "$ok" = 1 ] || { echo "nao consegui subir o reel-sabor.mp4: NAO publico sem sabor"; exit 1; }
+          fi
+
       - name: publicar no Publer
         if: steps.fila.outputs.dir != ''
         env:

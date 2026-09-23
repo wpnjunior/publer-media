@@ -42,10 +42,14 @@ def main(qdir):
     meta = json.load(open(os.path.join(qdir, "meta.json"), encoding="utf-8"))
     if meta.get("published"):
         print("ja publicado"); return 0
-    mp4 = os.path.join(qdir, "reel.mp4")
+    # Se o GitHub teve de aplicar o sabor (a rotina entregou sem), o arquivo pronto e reel-sabor.mp4.
+    # Senao, o reel.mp4 ja chegou com sabor. O passo "sabor" do reel.yml garante um dos dois.
+    nome = "reel-sabor.mp4" if os.path.exists(os.path.join(qdir, "reel-sabor.mp4")) else "reel.mp4"
+    mp4 = os.path.join(qdir, nome)
     if not os.path.exists(mp4):
         print("ERRO: reel.mp4 ausente"); return 1
-    url = RAW.format(qdir.replace(os.sep, "/").strip("/") + "/reel.mp4")
+    print("publicando:", nome)
+    url = RAW.format(qdir.replace(os.sep, "/").strip("/") + "/" + nome)
     ok = False
     for _ in range(8):
         try:

@@ -58,6 +58,20 @@ Companheiro do carrossel: **18h Reel (isca) → 20h carrossel (dossiê)**, mesmo
    vídeo: conta profissional que faz isso leva silenciamento ou remoção — foi o que aconteceu com a
    trilha antiga. Se for ampliar o banco, só com faixa de licença comercial livre.
 
+4.5. **SABOR — obrigatório antes de entregar.** Sem sabor o reel NÃO está pronto.
+   O sabor apaga a identidade do arquivo (metadados, etiqueta do codificador, data de criação) e deixa
+   cada cópia única com micro-rotação, corte de 0,5 s nas pontas e microvariação de velocidade,
+   sem mudar nada que se veja. Detalhes em `pipeline/sabor/SABOR.md`.
+   ```bash
+   python pipeline/sabor/camuflar_forte.py reel.mp4 --saida sabor_out
+   python pipeline/sabor/conferir_sabor.py sabor_out --origem .      # tem que sair com código 0
+   mv sabor_out/reel-sabor.mp4 reel.mp4
+   ```
+   Se o `conferir_sabor.py` sair com código 1, **não entregue**: rode de novo com `--refazer` e confira.
+   Nunca use `--trilha` aqui (o reel já tem a trilha do dia) nem `--crop45`.
+   O GitHub confere de novo antes de publicar e, se chegar sem sabor, aplica sozinho — mas o certo é
+   já chegar pronto. **Diga no relatório final que o sabor passou.**
+
 5. **Entregue** criando `reels_queue/YYYY-MM-DD-<slug>/` com `reel.mp4` + `meta.json`:
    ```json
    {"tema":"...","titulo":"Frasco para ...","caption":"<legenda humana>",
@@ -71,7 +85,7 @@ Companheiro do carrossel: **18h Reel (isca) → 20h carrossel (dossiê)**, mesmo
    ressalva honesta ("nenhum frasco vence rotina ruim") + "ISSO NÃO É UMA RECOMENDAÇÃO. Procure o seu médico."
    + 4-5 hashtags.
 
-7. **Reporte** em 3 linhas: tema, pasta enviada, horário-alvo.
+7. **Reporte** em 4 linhas: tema, pasta enviada, horário-alvo, e "sabor: passou no portão".
 
 ## Regras inegociáveis
 - Advertência vermelha no vídeo (já no template) + na legenda.
