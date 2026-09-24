@@ -285,8 +285,8 @@
   {
    "id": "alimentacao-saude-mental",
    "tema": "Alimentação e saúde mental",
-   "published": false,
-   "slot": null,
+   "published": true,
+   "slot": "2026-09-25T17:00:00Z",
    "caption": "Muita gente chega no consultório querendo resolver humor e energia sem tocar no que come.\nNão é que a comida explique tudo — é que ela quase nunca é olhada. Antes de concluir qualquer coisa, anote três dias reais do seu prato e leia sem se enganar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacao #saudemental #humor #energia"
   },
   {
