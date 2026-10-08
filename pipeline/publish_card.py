@@ -1,38 +1,39 @@
 # -*- coding: utf-8 -*-
-"""Roda no GitHub Actions (cron diario): pega o proximo card nao publicado em cards/
-e agenda no Instagram as 14h de Brasilia (17:00Z) do dia da execucao."""
-import json, os, sys, time, datetime as dt, urllib.request, urllib.error
+"""Roda no GitHub Actions (cron diario ~14h BRT): pega o proximo card nao publicado em cards/
+e publica NA HORA no Instagram pela API oficial da Meta (Content Publishing API, gratis).
+Substituiu o Publer em 07/10/2026 (Publer exige plano Business pra API).
+A API da Meta nao agenda post de feed — por isso o cron roda no horario e publica direto."""
+import json, os, sys, time, datetime as dt, urllib.request, urllib.parse, urllib.error
 
-KEY = os.environ["PUBLER_KEY"].strip()
-WS = "6a331bf8de25980271e20cc5"
-IG = "6a33206a2e5a43b4b2de3428"
-BASE = "https://app.publer.com/api/v1"
-H = {"Authorization": "Bearer-API " + KEY, "Publer-Workspace-Id": WS,
-     "Content-Type": "application/json", "User-Agent": "Mozilla/5.0 Chrome/126.0", "Accept": "application/json"}
-RAW = "https://raw.githubusercontent.com/wpnjunior/publer-media/master/cards/{}.png"
+TOKEN = os.environ["IG_TOKEN"].strip()   # token de PAGINA (nao expira), gerado por pipeline/ig_token.py
+IG = "17841401642025519"                 # Instagram business do Dr. Wagner
+GRAPH = "https://graph.facebook.com/v25.0"
+RAW = "https://raw.githubusercontent.com/wpnjunior/publer-media/master/cards/jpg/{}.jpg"
 IDX = "cards/index.json"
 
-def req(m, p, b=None):
-    d = json.dumps(b).encode() if b is not None else None
-    r = urllib.request.Request(BASE + p, data=d, headers=H, method=m)
+def req(m, p, params=None):
+    params = dict(params or {}, access_token=TOKEN)
+    data = urllib.parse.urlencode(params).encode()
+    url = GRAPH + p
+    if m == "GET":
+        url, data = url + "?" + data.decode(), None
     try:
-        return json.loads(urllib.request.urlopen(r, timeout=120).read().decode())
+        return json.loads(urllib.request.urlopen(urllib.request.Request(url, data=data, method=m), timeout=120).read().decode())
     except urllib.error.HTTPError as e:
         return {"_err": e.code, "_b": e.read().decode()[:400]}
-
-def poll(job, n=40):
-    for _ in range(n):
-        time.sleep(3)
-        s = req("GET", "/job_status/" + job)
-        if s.get("status", "").startswith("complete") or s.get("status") == "failed":
-            return s
-    return {"status": "timeout"}
 
 def main():
     idx = json.load(open(IDX, encoding="utf-8"))
     pend = [c for c in idx["cards"] if not c.get("published")]
     if not pend:
-        print("ACABOU: todos os cards do banco ja foram agendados. Reabastecer cards/."); return 0
+        print("ACABOU: todos os cards do banco ja foram publicados. Reabastecer cards/."); return 0
+
+    # um card por dia: o cron reserva so age se hoje ficou sem card
+    agora = dt.datetime.now(dt.UTC)
+    hoje = agora.strftime("%Y-%m-%d")
+    if any((c.get("slot") or "").startswith(hoje) for c in idx["cards"]):
+        print("HOJE ja tem card publicado, nada a fazer."); return 0
+
     card = pend[0]
     url = RAW.format(card["id"])
     for _ in range(6):
@@ -42,67 +43,29 @@ def main():
         except Exception:
             time.sleep(8)
     else:
-        print("ERRO: raw inacessivel:", url); return 1
+        print("ERRO: jpg inacessivel (a API do IG so aceita JPEG; rodar pipeline/png2jpg.py):", url); return 1
 
-    j = req("POST", "/media/from-url", {"media": [{"url": url, "name": "card_" + card["id"]}],
-                                        "type": "multi", "direct_upload": False, "in_library": True})
-    if "job_id" not in j:
-        print("ERRO upload:", json.dumps(j)[:300]); return 1
-    r = poll(j["job_id"])
-    payload = r.get("payload")
-    if isinstance(payload, dict):
-        payload = payload.get("media") or payload.get("data") or payload.get("payload") or []
-    media = [m for m in (payload or []) if isinstance(m, dict) and m.get("id")]
-    if not media:
-        print("ERRO: nenhum media id:", json.dumps(r)[:600]); return 1
-    mid = [{"id": media[0]["id"], "type": "photo"}]
+    c = req("POST", f"/{IG}/media", {"image_url": url, "caption": card["caption"]})
+    if "id" not in c:
+        print("ERRO container:", json.dumps(c)[:400]); return 1
+    # espera o IG baixar e processar a imagem
+    for _ in range(20):
+        s = req("GET", "/" + c["id"], {"fields": "status_code"})
+        if s.get("status_code") == "FINISHED":
+            break
+        if s.get("status_code") == "ERROR":
+            print("ERRO processamento:", json.dumps(s)[:400]); return 1
+        time.sleep(5)
+    p = req("POST", f"/{IG}/media_publish", {"creation_id": c["id"]})
+    if "id" not in p:
+        print("ERRO publish:", json.dumps(p)[:400]); return 1
 
-    # 14h de Brasilia = 17:00Z; se ja passou, empurra pro dia seguinte
-    agora = dt.datetime.now(dt.UTC)
-    alvo = agora.replace(hour=17, minute=0, second=0, microsecond=0)
-    if alvo < agora + dt.timedelta(minutes=50):
-        alvo += dt.timedelta(days=1)
-
-    # MODO RESERVA (segundo disparo do dia): so age se HOJE ficou sem card.
-    # O cron do GitHub Actions e "melhor esforco" e chega a atrasar horas — em
-    # 27/08/2026 rodou 21:53 em vez de 12:48 e o dia perdeu o card. O 2o gatilho
-    # cobre isso sem consumir o banco em dobro: se hoje ja tem card, sai quieto.
-    if os.environ.get("MODO") == "reserva":
-        hoje = agora.strftime("%Y-%m-%d")
-        if any((c.get("slot") or "").startswith(hoje) for c in idx["cards"]):
-            print("RESERVA: hoje ja tem card agendado, nada a fazer."); return 0
-        if agora.hour >= 17:
-            print("RESERVA: ja passou das 14h BRT, o cron normal cuida de amanha."); return 0
-        alvo = agora.replace(hour=17, minute=0, second=0, microsecond=0)
-    # um card por dia: se o dia-alvo ja tem card na fila, pula pro proximo dia livre
-    ocupados = {c["slot"][:10] for c in idx["cards"] if c.get("slot")}
-    while alvo.strftime("%Y-%m-%d") in ocupados:
-        alvo += dt.timedelta(days=1)
-    when = alvo.strftime("%Y-%m-%dT%H:%M:%SZ")
-
-    for _ in range(5):
-        body = {"bulk": {"state": "scheduled", "posts": [{
-            "networks": {"instagram": {"type": "photo", "media": mid, "text": card["caption"]}},
-            "accounts": [{"id": IG, "scheduled_at": when}]}]}}
-        j2 = req("POST", "/posts/schedule", body)
-        if "job_id" not in j2:
-            print("ERRO schedule:", json.dumps(j2)[:300]); return 1
-        r2 = poll(j2["job_id"])
-        fails = r2.get("payload", {}).get("failures", {}) if isinstance(r2, dict) else {"x": 1}
-        if r2.get("status", "").startswith("complete") and not fails:
-            print("AGENDADO:", card["id"], when)
-            card["published"] = True
-            card["slot"] = when
-            json.dump(idx, open(IDX, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-            return 0
-        msg = json.dumps(fails)
-        if "another post at this time" in msg:
-            alvo += dt.timedelta(minutes=5)
-            when = alvo.strftime("%Y-%m-%dT%H:%M:%SZ")
-            print("conflito, tentando", when)
-            continue
-        print("ERRO agendamento:", msg[:300]); return 1
-    print("ERRO: conflitos seguidos"); return 1
+    print("PUBLICADO:", card["id"], "media", p["id"])
+    card["published"] = True
+    card["slot"] = agora.strftime("%Y-%m-%dT%H:%M:%SZ")
+    card["ig_media"] = p["id"]
+    json.dump(idx, open(IDX, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    return 0
 
 if __name__ == "__main__":
     sys.exit(main())

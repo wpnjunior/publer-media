@@ -1,8 +1,8 @@
 name: cards-14h
 on:
   schedule:
-    - cron: "0 12 * * *"   # 09h de Brasilia — agenda o card das 14h do mesmo dia
-    - cron: "0 14 * * *"   # 11h BRT — RESERVA: so age se o das 09h atrasou e o dia ficou sem card
+    - cron: "0 17 * * *"   # 14h de Brasilia — publica o card na hora (API da Meta nao agenda feed)
+    - cron: "0 19 * * *"   # 16h BRT — RESERVA: se o das 14h atrasou/falhou, cobre o dia (o script nao duplica)
   workflow_dispatch: {}
 jobs:
   publicar-card:
@@ -11,17 +11,14 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: agendar proximo card
+      - name: publicar proximo card no Instagram
         env:
-          PUBLER_KEY: ${{ secrets.PUBLER_KEY }}
-          # o disparo das 14h UTC (11h BRT) entra em modo reserva: nao duplica,
-          # so cobre o dia se o cron das 09h tiver atrasado (acontece no Actions)
-          MODO: ${{ github.event.schedule == '0 14 * * *' && 'reserva' || 'normal' }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: python pipeline/publish_card.py
       - name: marcar publicado
         run: |
           git config user.name "esteira-bot"
           git config user.email "esteira@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "card: agendado [skip ci]"
+          git diff --cached --quiet || git commit -m "card: publicado [skip ci]"
           git push
