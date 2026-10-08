@@ -292,9 +292,10 @@
   {
    "id": "privado-aparece-em-publico",
    "tema": "Privado aparece em público",
-   "published": false,
-   "slot": null,
-   "caption": "Ninguém aplaude o que você faz sozinho, e é justamente ali que a coisa é construída. O que os outros veem é só o acúmulo do que você repetiu sem plateia.\n#drwagnernovaes #disciplina #habitos #consistencia #reflexao"
+   "published": true,
+   "slot": "2026-10-08T23:37:58Z",
+   "caption": "Ninguém aplaude o que você faz sozinho, e é justamente ali que a coisa é construída. O que os outros veem é só o acúmulo do que você repetiu sem plateia.\n#drwagnernovaes #disciplina #habitos #consistencia #reflexao",
+   "ig_media": "17954641350257690"
   },
   {
    "id": "dopamina-midia-social",
