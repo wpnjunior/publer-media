@@ -300,9 +300,10 @@
   {
    "id": "dopamina-midia-social",
    "tema": "Dopamina e mídia social",
-   "published": false,
-   "slot": null,
-   "caption": "Estímulo rápido e barato acaba rápido. Aquele vazio depois de uma hora rolando o feed tem explicação, não é frescura sua.\nTeste uma janela fixa do dia sem tela — muita gente sente diferença já na hora de dormir.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #dopamina #redessociais #saudemental #foco"
+   "published": true,
+   "slot": "2026-10-09T21:30:15Z",
+   "caption": "Estímulo rápido e barato acaba rápido. Aquele vazio depois de uma hora rolando o feed tem explicação, não é frescura sua.\nTeste uma janela fixa do dia sem tela — muita gente sente diferença já na hora de dormir.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #dopamina #redessociais #saudemental #foco",
+   "ig_media": "17908628403483728"
   },
   {
    "id": "esta-tudo-bem-sentir",
