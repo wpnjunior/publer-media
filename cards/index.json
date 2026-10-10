@@ -308,9 +308,10 @@
   {
    "id": "esta-tudo-bem-sentir",
    "tema": "Está tudo bem sentir",
-   "published": false,
-   "slot": null,
-   "caption": "Sentir tristeza depois de uma perda não é doença, é processo. O sinal de atenção é outro: quando não passa, tira o sono, tira o apetite e trava a sua vida por semanas. Aí vale conversar com alguém que possa avaliar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #saudemental #emocoes #acolhimento #cuidado"
+   "published": true,
+   "slot": "2026-10-10T20:30:42Z",
+   "caption": "Sentir tristeza depois de uma perda não é doença, é processo. O sinal de atenção é outro: quando não passa, tira o sono, tira o apetite e trava a sua vida por semanas. Aí vale conversar com alguém que possa avaliar.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #saudemental #emocoes #acolhimento #cuidado",
+   "ig_media": "18122337275292397"
   },
   {
    "id": "mobilidade-autonomia",
