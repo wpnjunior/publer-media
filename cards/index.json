@@ -348,9 +348,10 @@
   {
    "id": "colesterol-q10-magnesio",
    "tema": "Colesterol, dor muscular",
-   "published": false,
-   "slot": null,
-   "caption": "No consultório isso aparece muito: a pessoa começa o remédio do colesterol e semanas depois chega falando de perna pesada e cansaço. Antes de parar o tratamento por conta própria, fale com quem prescreveu — nem toda dor que surge nesse período vem do medicamento, e o ajuste às vezes é simples.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #colesterol #coenzimaq10 #magnesio #saudecardiovascular"
+   "published": true,
+   "slot": "2026-10-15T20:12:11Z",
+   "caption": "No consultório isso aparece muito: a pessoa começa o remédio do colesterol e semanas depois chega falando de perna pesada e cansaço. Antes de parar o tratamento por conta própria, fale com quem prescreveu — nem toda dor que surge nesse período vem do medicamento, e o ajuste às vezes é simples.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #colesterol #coenzimaq10 #magnesio #saudecardiovascular",
+   "ig_media": "17896130145413381"
   },
   {
    "id": "imparavel-de-verdade",
