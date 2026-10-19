@@ -380,9 +380,10 @@
   {
    "id": "dieta-perfeita-simples",
    "tema": "Dieta perfeita",
-   "published": false,
-   "slot": null,
-   "caption": "A pergunta que mais escuto é qual dieta é a certa. Na prática, quem come comida de verdade na maior parte dos dias tende a se sustentar por muito mais tempo do que quem troca de plano a cada dois meses. Consistência é chata, mas é o que sobra no fim.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacaosaudavel #comidadeverdade #habitos #nutricao"
+   "published": true,
+   "slot": "2026-10-19T21:22:35Z",
+   "caption": "A pergunta que mais escuto é qual dieta é a certa. Na prática, quem come comida de verdade na maior parte dos dias tende a se sustentar por muito mais tempo do que quem troca de plano a cada dois meses. Consistência é chata, mas é o que sobra no fim.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacaosaudavel #comidadeverdade #habitos #nutricao",
+   "ig_media": "18128668360833617"
   },
   {
    "id": "criados-de-formas-diferentes",
