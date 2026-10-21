@@ -396,9 +396,10 @@
   {
    "id": "industrializados-custo-futuro",
    "tema": "Industrializados custam depois",
-   "published": false,
-   "slot": null,
-   "caption": "O pacote barato do mercado costuma cobrar a diferença depois — em sintoma, em consulta, em exame. Vale olhar o carrinho pensando no que ele devolve daqui a cinco, dez anos.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #ultraprocessados #alimentacaosaudavel #prevencao #saude"
+   "published": true,
+   "slot": "2026-10-21T20:28:10Z",
+   "caption": "O pacote barato do mercado costuma cobrar a diferença depois — em sintoma, em consulta, em exame. Vale olhar o carrinho pensando no que ele devolve daqui a cinco, dez anos.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #ultraprocessados #alimentacaosaudavel #prevencao #saude",
+   "ig_media": "18285175531293172"
   },
   {
    "id": "familias-disfuncionais",
