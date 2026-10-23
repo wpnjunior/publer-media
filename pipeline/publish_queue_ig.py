@@ -51,12 +51,14 @@ def escolher():
         m = ler(d)
         if m.get("published"):
             continue
-        quando = m.get("schedule_at") or ""
         try:
-            if dt.datetime.fromisoformat(quando.replace("Z", "+00:00")) > agora:
-                continue
+            quando = dt.datetime.fromisoformat((m.get("schedule_at") or "").replace("Z", "+00:00"))
         except ValueError:
-            pass
+            continue                                   # sem data valida: nao publica
+        if quando > agora:
+            continue
+        if agora - quando > dt.timedelta(days=2):
+            continue   # fila VELHA nao sai sozinha: em 23/10 um carrossel de 21/08 foi ao ar por isso
         return d.rstrip("/\\"), ""
     return None, "nenhum carrossel pendente na fila"
 
