@@ -20,8 +20,11 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-IG = "17841401642025519"                 # Instagram business do Dr. Wagner
-GRAPH = "https://graph.facebook.com/v25.0"
+# padrao = Instagram do Dr. Wagner (token de Pagina, graph.facebook.com). A conta do camarao usa
+# IG_ID=17841452090508191, GRAPH_URL=https://graph.instagram.com/v25.0 e FILA=camarao/queue.
+IG = os.environ.get("IG_ID", "17841401642025519")
+GRAPH = os.environ.get("GRAPH_URL", "https://graph.facebook.com/v25.0")
+FILA = os.environ.get("FILA", "queue")
 RAW = "https://raw.githubusercontent.com/wpnjunior/publer-media/master/{}"
 
 
@@ -44,7 +47,7 @@ def ler(pasta):
 def escolher():
     agora = dt.datetime.now(dt.timezone.utc)
     hoje = agora.strftime("%Y-%m-%d")
-    pastas = sorted(d for d in glob.glob("queue/*/") if os.path.exists(os.path.join(d, "meta.json")))
+    pastas = sorted(d for d in glob.glob(FILA + "/*/") if os.path.exists(os.path.join(d, "meta.json")))
     if any((ler(d).get("published_at") or "").startswith(hoje) for d in pastas):
         return None, "HOJE ja saiu carrossel"
     for d in pastas:

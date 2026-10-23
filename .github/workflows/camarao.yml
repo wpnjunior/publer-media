@@ -1,0 +1,52 @@
+name: camarao-publica
+# Papo de Carcinicultor: carrossel do @aquacultivonovaes publicado NA HORA, todo dia ao meio-dia (BRT),
+# pela API do Instagram com login do Instagram (token IG_TOKEN_CAMARAO, conta 17841452090508191).
+# A rotina da nuvem "esteira-camarao-diaria" gera a pasta em camarao/queue/ de manha; aqui sai o SABOR
+# (PNG -> JPEG limpo) e a publicacao. Uma pasta por dia; fila com mais de 2 dias de atraso nao sai.
+on:
+  schedule:
+    - cron: "0 15 * * *"   # 12h de Brasilia
+    - cron: "0 17 * * *"   # 14h BRT - RESERVA: cobre o dia se o das 12h falhar (o script nao duplica)
+  workflow_dispatch: {}
+concurrency:
+  group: camarao-publica
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      FILA: camarao/queue
+      IG_ID: "17841452090508191"
+      GRAPH_URL: https://graph.instagram.com/v25.0
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            camarao/queue
+            pipeline
+      - name: sabor nos slides (PNG -> JPEG limpo)
+        id: fila
+        run: |
+          pip install --quiet pillow
+          python pipeline/publish_queue_ig.py preparar
+      - name: subir os JPEG (a API baixa pela URL raw)
+        if: steps.fila.outputs.dir != ''
+        run: |
+          git config user.name "esteira-bot"
+          git config user.email "esteira@users.noreply.github.com"
+          git add "${{ steps.fila.outputs.dir }}/jpg"
+          git commit -m "camarao: sabor nos slides [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q origin master && git push -q && break; sleep 5; done
+      - name: publicar no Instagram do camarao
+        if: steps.fila.outputs.dir != ''
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_CAMARAO }}
+        run: python pipeline/publish_queue_ig.py publicar "${{ steps.fila.outputs.dir }}"
+      - name: marcar publicado
+        if: steps.fila.outputs.dir != ''
+        run: |
+          git add -A camarao/queue
+          git diff --cached --quiet || git commit -m "camarao: carrossel publicado [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q origin master && git push -q && break; sleep 5; done

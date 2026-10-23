@@ -1,0 +1,58 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Pós-larva",
+   "manchete": "Sua pós-larva não morreu no viveiro. <span class=\"hl\">Morreu na aclimatação.</span>",
+   "sub": "Idade do lote, salinidade e pressa: o que a pesquisa mostra sobre a hora mais cara do povoamento.",
+   "fonte": "Fontes: McGraw et al., J World Aquac Soc, 2002 · Jayasankar et al., JARQ, 2009"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "01",
+   "manchete": "Pressa <span class=\"hl\">mata</span>",
+   "corpo": "Pós-larvas de 15 dias saíram de 30 ppt para 1 e 5 ppt. A aclimatação <b>gradual</b> deu sobrevivência maior que a troca <b>de uma vez só</b>.",
+   "destaque": "Baixar a salinidade num tranco só é o erro mais caro do povoamento.",
+   "fonte": "Jayasankar et al., JARQ, 2009"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "02",
+   "manchete": "A idade do lote <span class=\"hl\">decide</span>",
+   "corpo": "Pós-larva de <b>10 dias</b> aguentou descer até <b>4 ppt</b> com boa sobrevivência. As de <b>15 e 20 dias</b> chegaram a <b>1 ppt</b>.",
+   "destaque": "Quanto mais doce o seu viveiro, mais velha precisa chegar a pós-larva.",
+   "fonte": "McGraw et al., J World Aquac Soc, 2002"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "03",
+   "manchete": "Água doce é <span class=\"hl\">outro jogo</span>",
+   "corpo": "Na fase de pós-larva, a sobrevivência passou de <b>85%</b> acima de <b>1,5 ppt</b>. Em água doce, caiu para <b>2%</b>. No juvenil, ficou em <b>65%</b>.",
+   "destaque": "Em água quase doce, quem chega preparado é o juvenil, não a PL recém-saída do laboratório.",
+   "fonte": "Jayasankar et al., JARQ, 2009"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "04",
+   "manchete": "Antes de povoar, <span class=\"hl\">pergunte</span>",
+   "corpo": "Três perguntas para quem vende a sua pós-larva: <b>qual a idade do lote</b>, <b>em que salinidade ele está</b> e <b>quanto tempo de aclimatação</b> o seu viveiro vai pedir.",
+   "destaque": "Pós-larva boa com aclimatação errada vira prejuízo do mesmo jeito."
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta a salinidade do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
