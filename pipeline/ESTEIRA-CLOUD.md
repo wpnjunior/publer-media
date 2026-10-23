@@ -7,7 +7,7 @@ Playwright está pré-instalado, (c) git push FUNCIONA. Use exatamente isso.
 
 ## Divisão de trabalho
 - VOCÊ (nuvem): escolhe tema → verifica fonte → escreve → monta slides com fotos do BANCO → renderiza → git push.
-- GITHUB ACTIONS (.github/workflows/esteira.yml): ao ver push em queue/**, publica no Publer (ele tem rede e a chave). Você NÃO chama o Publer.
+- GITHUB ACTIONS (.github/workflows/esteira.yml): todo dia às 20h BRT passa o SABOR nos slides (PNG → JPEG limpo) e publica no Instagram pela API oficial da Meta (desde 23/10/2026; o Publer saiu). Você NÃO publica nada.
 
 ## Passos
 1. **Tema (radar em 2 camadas):**
@@ -45,7 +45,7 @@ Playwright está pré-instalado, (c) git push FUNCIONA. Use exatamente isso.
    ```json
    {"topic":"...","source":"...","caption":"<legenda humana>","schedule_at":"<AMANHÃ>T23:00:00Z","published":false}
    ```
-   (23:00Z = 20h de Brasília. Se o dia estiver ocupado, o Actions empurra +1 dia sozinho.)
+   (23:00Z = 20h de Brasília. O Actions publica uma pasta por dia, a mais antiga com schedule_at vencido; se o dia já teve carrossel, a sua sai no dia seguinte.)
    `git add queue/... && git commit -m "esteira: <tema>" && git push`.
 7. **Legenda HUMANA obrigatória:** cena de consultório/reflexão + dado com fonte + convite suave +
    "Fontes: Medscape · <diretriz>. Conteúdo educativo — não substitui consulta." + 4-5 hashtags.
