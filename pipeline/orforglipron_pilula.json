@@ -1,0 +1,47 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_02.jpg",
+   "editoria": "Obesidade",
+   "manchete": "O GLP-1<br>virou <span class=\"hl\">pílula</span><br>sem jejum",
+   "sub": "O <b>FDA aprovou</b>, em abril de 2026, o primeiro comprimido de GLP-1 que não é peptídeo — e não exige jejum pra tomar.",
+   "fonte": "Fonte: FDA · NEJM, 2025 (ATTAIN-1)"
+  },
+  {
+   "foto": "bmi_doctor.jpg",
+   "numero": "01",
+   "manchete": "Pílula,<br>não <span class=\"hl\">injeção</span>",
+   "corpo": "O <b>orforglipron</b> é um GLP-1 em comprimido, mas de uma classe nova: molécula pequena, não peptídeo. Na prática, diferente do comprimido de semaglutida, ele <b>não exige jejum</b> nem horário rígido pra tomar.",
+   "destaque": "Aprovado pelo FDA em 1º de abril de 2026, para adultos com obesidade ou sobrepeso com complicação associada."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "O que o<br><span class=\"hl\">estudo</span> mostrou",
+   "corpo": "O ATTAIN-1 testou <b>3.127 adultos</b> com obesidade, sem diabetes, em 9 países: comprimido de 6, 12 ou 36 mg uma vez ao dia, por <b>72 semanas</b>, comparado a placebo.",
+   "destaque": "Na dose de 36 mg: -11,2% do peso corporal em 72 semanas, contra -2,1% com placebo."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_07.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">ensaio clínico</span>.",
+   "sub": "<div class=\"selo-prova\">A fonte</div>Wharton S, Aronne LJ, Stefanski A, et al., pelos investigadores do <b>ATTAIN-1</b>. <b>\"Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment.\"</b><br><br>The New England Journal of Medicine, 2025;393(18):1796-1806, publicado em 16 de setembro de 2025.<br>DOI: 10.1056/NEJMoa2511774 · PMID: 40960239<br><br>Aprovação regulatória: FDA, 1º de abril de 2026 (Foundayo®)."
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "03",
+   "manchete": "O que o número<br>não <span class=\"hl\">mostra</span>",
+   "corpo": "Nem todo mundo responde igual: na dose mais alta, <b>59,6%</b> perderam pelo menos 10% do peso, e <b>39,6%</b> perderam pelo menos 15%. Efeitos colaterais gastrointestinais foram os mais comuns, em geral leves a moderados.",
+   "destaque": "Entre 5% e 10% dos participantes pararam o remédio por efeito colateral, contra 3% no grupo placebo."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Pílula não é<br><span class=\"hl\">atalho sozinho</span>",
+   "corpo": "Menos barreira pra tomar não quer dizer menos acompanhamento. Indicação, dose e efeitos colaterais continuam exigindo avaliação médica — essa conversa também é assunto de consulta.",
+   "fonte": "Fontes: FDA (aprovação de Foundayo®, 1º/abr/2026) · Wharton S et al., \"Orforglipron, an Oral Small-Molecule GLP-1 Receptor Agonist for Obesity Treatment\", N Engl J Med, 2025;393(18):1796-1806 (DOI 10.1056/NEJMoa2511774, PMID 40960239). Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
