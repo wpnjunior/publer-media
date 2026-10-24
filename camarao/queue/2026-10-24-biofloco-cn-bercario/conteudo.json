@@ -1,0 +1,58 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "editoria": "Bioflocos",
+   "manchete": "No berçário, a <span class=\"hl\">conta de carbono</span> decide quem sobrevive.",
+   "sub": "Pesquisa testou 4 relações C:N em bioflocos com melaço — a diferença de sobrevivência passou de 20 pontos.",
+   "fonte": "Fontes: Halim et al., Aquaculture, Fish and Fisheries, 2025"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "C:N 10:1 <span class=\"hl\">venceu</span>",
+   "corpo": "Em berçário de bioflocos com melaço, pós-larva de vannamei criada em relação C:N <b>10:1</b> teve <b>95,33%</b> de sobrevivência — a maior entre as quatro relações testadas (10, 15, 20 e 25).",
+   "destaque": "Mais carbono não é sempre melhor. No berçário, a relação certa pesa mais que a quantidade.",
+   "fonte": "Halim et al., Aquaculture, Fish and Fisheries, 2025"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "02",
+   "manchete": "Cresceu <span class=\"hl\">mais rápido</span> também",
+   "corpo": "A mesma relação C:N 10:1 deu a maior taxa de crescimento específico da pós-larva: <b>9,77% ao dia</b> — acima das relações 15:1, 20:1 e 25:1 testadas no mesmo berçário.",
+   "destaque": "Sobrevivência e crescimento andaram juntos na mesma relação C:N. Não teve meio-termo.",
+   "fonte": "Halim et al., Aquaculture, Fish and Fisheries, 2025"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "numero": "03",
+   "manchete": "Menos ração por <span class=\"hl\">quilo de camarão</span>",
+   "corpo": "A conversão alimentar também foi melhor em C:N 10:1: <b>1,58</b> — a mais eficiente entre todas as relações do estudo.",
+   "destaque": "Berçário eficiente começa na conta de carbono do melaço, não só na ração.",
+   "fonte": "Halim et al., Aquaculture, Fish and Fisheries, 2025"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "04",
+   "manchete": "A pergunta pro teu <span class=\"hl\">berçário</span>",
+   "corpo": "Se o teu berçário usa bioflocos, qual relação C:N você mantém hoje — e com que fonte de carbono? O estudo variou de 10:1 a 25:1 usando melaço.",
+   "destaque": "Relação C:N errada custa sobrevivência antes mesmo da pós-larva sair pro viveiro."
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como é o berçário do teu lote.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
