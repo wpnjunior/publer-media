@@ -428,9 +428,10 @@
   {
    "id": "refeicao-como-investimento",
    "tema": "Refeição é investimento",
-   "published": false,
-   "slot": null,
-   "caption": "Gosto de perguntar como a pessoa se sentiu duas horas depois do almoço — a resposta diz mais do que qualquer contagem de calorias. É a soma dessas refeições, e não a de ontem, que aparece nos exames lá na frente.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacaosaudavel #metabolismo #prevencao #saude"
+   "published": true,
+   "slot": "2026-10-25T19:28:16Z",
+   "caption": "Gosto de perguntar como a pessoa se sentiu duas horas depois do almoço — a resposta diz mais do que qualquer contagem de calorias. É a soma dessas refeições, e não a de ontem, que aparece nos exames lá na frente.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #alimentacaosaudavel #metabolismo #prevencao #saude",
+   "ig_media": "18119465975068278"
   },
   {
    "id": "viajar-tolerancia",
