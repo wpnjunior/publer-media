@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Densidade",
+   "manchete": "Povoar mais forte <span class=\"hl\">custa mais Vibrio</span>",
+   "sub": "De 50 para 200 camarões por m³, a sobrevivência caiu e a bactéria subiu — o que a pesquisa mediu.",
+   "fonte": "Fonte: Said et al., Scientific Reports, 2024"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "01",
+   "manchete": "Dois pontos que <span class=\"hl\">pesam no bolso</span>",
+   "corpo": "Em 16 semanas de biofloco, a densidade de <b>200 camarões/m³</b> fechou com <b>97%</b> de sobrevivência. A de <b>50/m³</b> chegou a <b>99%</b> — e ainda cresceu mais rápido (<b>+0,32%</b> de SGR por dia).",
+   "destaque": "Lotar mais não é de graça: cada ponto de sobrevivência que cai é lote que não chega na despesca.",
+   "fonte": "Said et al., Scientific Reports, 2024"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "02",
+   "manchete": "A água <span class=\"hl\">engordou de Vibrio</span>",
+   "corpo": "Na densidade alta (200/m³), a contagem de <b>Vibrio</b> na água chegou a <b>3,59 log CFU/mL</b>. Na densidade baixa (50/m³), ficou em <b>2,45 log CFU/mL</b>.",
+   "destaque": "Mais camarão no mesmo volume de água também é mais comida pra bactéria oportunista.",
+   "fonte": "Said et al., Scientific Reports, 2024"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "numero": "03",
+   "manchete": "O Vibrio <span class=\"hl\">chegou no camarão</span>",
+   "corpo": "No tecido do camarão, a contagem de Vibrio foi de <b>4,63 log CFU/g</b> na densidade alta contra <b>3,57 log CFU/g</b> na baixa. Só na alta densidade apareceu Salmonella no camarão.",
+   "destaque": "Vibrio alto no viveiro não fica só na água — ele entra no camarão que você vai vender.",
+   "fonte": "Said et al., Scientific Reports, 2024"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "04",
+   "manchete": "A guelra <span class=\"hl\">contou a história</span>",
+   "corpo": "Na densidade alta, a guelra do camarão mostrou lamelas malformadas e vacúolos. Na densidade baixa, a estrutura ficou normal.",
+   "destaque": "Antes de lotar mais o viveiro, pergunte se a aeração e a troca de água vão dar conta do respiro extra.",
+   "fonte": "Said et al., Scientific Reports, 2024"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta a densidade que você quer povoar.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
