@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_capa.jpg",
+   "editoria": "Menopausa",
+   "manchete": "Fogacho sem<br><span class=\"hl\">hormônio</span>:<br>chegou ao Brasil",
+   "sub": "Primeiro remédio oral não hormonal para ondas de calor da menopausa aprovado pela Anvisa — reduziu os episódios em até <b>61% em 12 semanas</b> no estudo que sustentou o registro.",
+   "fonte": "Fonte: The Lancet · SKYLIGHT-1 (2023) · Anvisa 2026"
+  },
+  {
+   "foto": "peri_awake.jpg",
+   "numero": "01",
+   "manchete": "Quando o calor<br>vira <span class=\"hl\">insônia</span>",
+   "corpo": "Ondas de calor e suores noturnos chegam a atingir <b>até 80% das mulheres</b> na transição menopausal — e minam sono, humor e concentração no dia a dia.",
+   "destaque": "Para quem tem contraindicação ou não quer fazer reposição hormonal, as opções sempre foram limitadas."
+  },
+  {
+   "foto": "peri_brain.jpg",
+   "numero": "02",
+   "manchete": "O alvo é um<br>ponto no <span class=\"hl\">cérebro</span>",
+   "corpo": "O fezolinetanto age no hipotálamo, bloqueando a <b>neurocinina B</b> — substância que dispara a sensação de calor quando o estrogênio cai. Não é hormônio: é um caminho diferente para o mesmo sintoma."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "03",
+   "manchete": "O que o<br>estudo <span class=\"hl\">mostrou</span>",
+   "corpo": "Em 527 mulheres dos EUA, Europa e Canadá, a dose de 45mg reduziu a frequência dos fogachos em <b>61% até a semana 12</b> — contra 35% no placebo. O efeito já aparecia na <b>primeira semana</b>.",
+   "destaque": "Diferença estatisticamente significativa (p&lt;0,001) a partir da 4ª semana de uso."
+  },
+  {
+   "tipo": "prova",
+   "foto": "peri_doctor2.jpg",
+   "editoria": "A fonte",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">estudo</span>.",
+   "sub": "<b>SKYLIGHT-1</b>: estudo de fase 3, randomizado e controlado por placebo, publicado em uma das revistas médicas mais citadas do mundo.",
+   "corpo": "Lederman S et al. <b>The Lancet</b>, 2023;401(10382):1091-1102.<br>DOI 10.1016/S0140-6736(23)00085-5 · PMID 36924778"
+  },
+  {
+   "foto": "peri_calm.jpg",
+   "numero": "04",
+   "manchete": "Chegou ao<br><span class=\"hl\">Brasil</span>",
+   "corpo": "A Anvisa aprovou o registro em <b>junho de 2026</b>: via oral, indicado para quem tem contraindicação ou não quer usar hormônio para tratar os fogachos. O preço ainda depende da CMED.",
+   "fonte": "Fontes: The Lancet · SKYLIGHT-1 (2023, PMID 36924778) · Anvisa (jun/2026). Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
