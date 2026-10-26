@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "editoria": "Aeração",
+   "manchete": "Mais oxigênio, <span class=\"hl\">camarão mais pesado</span>",
+   "sub": "De 5 para 15 mg/L de oxigênio dissolvido, o mesmo lote saiu do tanque pesando quase 2,6 g mais — o que mediu um estudo tailandês.",
+   "fonte": "Fonte: Patkaew et al., Veterinary World, 2024"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "01",
+   "manchete": "O mesmo lote, <span class=\"hl\">pesos diferentes</span>",
+   "corpo": "Juvenis de <b>Litopenaeus vannamei</b> com <b>8,22 g</b> de peso inicial foram divididos em dois grupos por 30 dias. Com oxigênio supersaturado (15 mg/L), fecharam com <b>14,73 g</b>. Com oxigenação normal (5 mg/L), fecharam com <b>12,13 g</b>.",
+   "destaque": "Mesma ração, mesma genética, mesmo tempo — a diferença no peso final foi o oxigênio da água.",
+   "fonte": "Patkaew et al., Veterinary World, 2024"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "02",
+   "manchete": "A ração <span class=\"hl\">rendeu mais</span>",
+   "corpo": "No grupo com oxigênio supersaturado, a conversão alimentar (FCR) melhorou <b>1,62 vez</b> em relação ao grupo com oxigenação normal.",
+   "destaque": "Aerar bem não é custo extra — é ração que vira camarão em vez de ir pro fundo do viveiro.",
+   "fonte": "Patkaew et al., Veterinary World, 2024"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "Como foi <span class=\"hl\">o teste</span>",
+   "corpo": "Dois grupos de juvenis de 8,22 g, quatro repetições cada, 15 camarões por tanque: um recebeu oxigênio a <b>5 mg/L</b> (microbolhas de ar), o outro a <b>15 mg/L</b> (microbolhas de oxigênio puro), por 30 dias.",
+   "destaque": "O único fator que mudou de um tanque pro outro foi o oxigênio dissolvido.",
+   "fonte": "Patkaew et al., Veterinary World, 2024"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "04",
+   "manchete": "O camarão também <span class=\"hl\">ficou mais resistente</span>",
+   "corpo": "No grupo com oxigênio supersaturado, a expressão do gene HSP70 — ligado à tolerância ao estresse — subiu cerca de <b>679 vezes</b> em relação ao grupo controle.",
+   "destaque": "Camarão bem oxigenado não cresce só mais rápido: ele também aguenta melhor um pico de estresse no viveiro.",
+   "fonte": "Patkaew et al., Veterinary World, 2024"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a aeração do teu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
