@@ -444,9 +444,10 @@
   {
    "id": "gluten-investigar-antes-de-cortar",
    "tema": "Gluten e celiaca",
-   "published": false,
-   "slot": null,
-   "caption": "O gluten mexe na barreira do intestino, e isso nao faz dele a causa de tudo. Cortar por conta propria antes de investigar celiaca atrapalha o diagnostico. Este conteudo e educativo e nao substitui a consulta medica. #gluten #intestino #celiaca #saude #nutricao"
+   "published": true,
+   "slot": "2026-10-27T21:08:54Z",
+   "caption": "O gluten mexe na barreira do intestino, e isso nao faz dele a causa de tudo. Cortar por conta propria antes de investigar celiaca atrapalha o diagnostico. Este conteudo e educativo e nao substitui a consulta medica. #gluten #intestino #celiaca #saude #nutricao",
+   "ig_media": "18075178805753800"
   },
   {
    "id": "inteligencia-humildade",
