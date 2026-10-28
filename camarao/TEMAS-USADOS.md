@@ -4,3 +4,4 @@
 - 2026-10-24 · bioflocos · relação C:N no berçário (melaço, 10:1 a 25:1): sobrevivência, crescimento e conversão alimentar da pós-larva de vannamei (Halim et al. 2025, doi:10.1002/aff2.70032)
 - 2026-10-25 · densidade de estocagem · 50 vs 200 camarões/m³ em bioflocos: sobrevivência, crescimento, Vibrio na água e no camarão, histologia da guelra (Said et al. 2024, Scientific Reports, doi:10.1038/s41598-024-61328-4)
 - 2026-10-26 · aeração · oxigênio dissolvido supersaturado (5 vs 15 mg/L) em juvenis de L. vannamei: peso final, FCR e expressão do gene HSP70 (Patkaew et al. 2024, Veterinary World, doi:10.14202/vetworld.2024.50-58)
+- 2026-10-28 · qualidade da água (amônia/nitrogênio) · bactérias probióticas (Bacillus e bactéria láctica) na água sem troca de água: queda da amônia total (TAN) e sobrevivência de 60% para 95-100% de L. vannamei em 35 dias (Vega-Carranza et al. 2024, Animals, doi:10.3390/ani14182676)

@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "editoria": "Qualidade da água",
+   "manchete": "Sua pós-larva não morreu fraca. <span class=\"hl\">Morreu afogada na própria amônia.</span>",
+   "sub": "Mesmo viveiro, mesma ração, mesma pós-larva. Só mudou o que cuidou da água — e a sobrevivência saltou de 60% para 100%.",
+   "fonte": "Fonte: Vega-Carranza et al., Animals, 2024"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "01",
+   "manchete": "Sem troca de água, a <span class=\"hl\">amônia sobe</span>",
+   "corpo": "Em sistema fechado, sem troca de água, a amônia total (TAN) no tanque sem bactéria de manejo chegou a <b>0,30 mg/L</b> no dia 30. Com Bacillus e bactéria láctica na água, caiu para <b>0,015 a 0,034 mg/L</b>.",
+   "destaque": "Não é só parar de trocar a água. É colocar algo nela que segure a amônia no lugar.",
+   "fonte": "Vega-Carranza et al., Animals, 2024"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "02",
+   "manchete": "60% virou <span class=\"hl\">até 100%</span>",
+   "corpo": "No grupo sem manejo da água, a sobrevivência em 35 dias foi de <b>60%</b>. Com Bacillus na água, chegou a <b>100%</b>; com bactéria láctica, a <b>95%</b>.",
+   "destaque": "A maior causa de morte não foi doença. Foi a água que ninguém cuidou.",
+   "fonte": "Vega-Carranza et al., Animals, 2024"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "03",
+   "manchete": "O camarão também <span class=\"hl\">cresceu mais</span>",
+   "corpo": "Saindo do mesmo peso inicial (~0,7 g), o peso final em 35 dias foi de <b>3,09 g</b> sem manejo da água e chegou a <b>4,18 g</b> com Bacillus na água — mesma ração, mesmo tanque.",
+   "destaque": "Água limpa não é só sobrevivência. É camarão maior na despesca.",
+   "fonte": "Vega-Carranza et al., Animals, 2024"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "Pergunte isso <span class=\"hl\">antes de povoar</span>",
+   "corpo": "O estudo foi em sistema de <b>600 camarões/m³, sem troca de água</b> — parecido com berçário e engorda intensiva. Três perguntas pro seu manejo: quem cuida da amônia, com que frequência e desde quando.",
+   "destaque": "Aeração resolve oxigênio. Amônia alta pede outra solução.",
+   "fonte": "Vega-Carranza et al., Animals, 2024"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a água do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
