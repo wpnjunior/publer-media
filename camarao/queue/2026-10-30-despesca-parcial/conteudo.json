@@ -1,0 +1,52 @@
+{
+ "marca": ["PAPO DE", "CARCINICULTOR"],
+ "assinatura": {"emblema": "🦐", "nome": "Aqua Cultivo Novaes", "linha": "Pós-larva de vannamei · Jaguaripe-BA"},
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "camarao-despesca-monte.jpg",
+   "editoria": "Despesca e produtividade",
+   "manchete": "Despescar tudo de uma vez pode estar <span class=\"hl\">matando metade do seu lote</span>.",
+   "sub": "Em bioflocos, sobrevivência foi de 43,67% na despesca total e chegou a 86,6% com despesca parcial — e quem ficou cresceu mais.",
+   "fonte": "Fonte: Da Silveira et al., Aquaculture, 2022"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "Despesca total: <span class=\"hl\">lote menor e mais fraco</span>",
+   "corpo": "Em sistema de bioflocos, o tratamento sem despesca parcial — só despesca total no final do ciclo — terminou com sobrevivência de <b>43,67%</b> e peso final médio de <b>16,1 g</b>.",
+   "destaque": "Quando o camarão fica apertado até o fim do ciclo, ele não aguenta até o fim.",
+   "fonte": "Da Silveira et al., Aquaculture, 2022"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "Despesca parcial: sobrevivência <span class=\"hl\">quase dobrou</span>",
+   "corpo": "Fazendo uma, duas ou quatro despescas parciais ao longo do ciclo, a sobrevivência subiu para <b>82,7% a 86,6%</b>, e o peso final chegou a <b>20,1 g</b> — bem acima dos 16,1 g da despesca total.",
+   "destaque": "Tirar parte do lote no meio do caminho deu mais espaço pra quem ficou crescer.",
+   "fonte": "Da Silveira et al., Aquaculture, 2022"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "03",
+   "manchete": "A estratégia que mais <span class=\"hl\">produziu</span>",
+   "corpo": "Entre as formas de despesca parcial testadas, duas despescas de 33% da biomassa cada foi a que os autores apontaram como mais produtiva, com sobrevivência de <b>86,6%</b>.",
+   "destaque": "Não é só despescar antes. É achar o ritmo certo de tirar biomassa do tanque.",
+   "fonte": "Da Silveira et al., Aquaculture, 2022"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "numero": "04",
+   "manchete": "Pergunte isso <span class=\"hl\">no seu próximo ciclo</span>",
+   "corpo": "O estudo foi em bioflocos de alta densidade. Se o seu tanque ou viveiro chega apertado no fim do ciclo, despescar parte do lote no meio do caminho pode ser o que falta pra sobra virar camarão maior.",
+   "destaque": "Densidade que aperta no fim do ciclo custa sobrevivência e peso.",
+   "fonte": "Da Silveira et al., Aquaculture, 2022"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está o manejo da despesca no seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
