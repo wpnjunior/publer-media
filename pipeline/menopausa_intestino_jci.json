@@ -1,0 +1,49 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_capa.jpg",
+   "editoria": "Ginecologia",
+   "manchete": "O intestino<br>muda antes<br>da <span class=\"hl\">menopausa</span>",
+   "sub": "Marcadores da parede do intestino começam a subir <b>anos antes</b> da última menstruação — mostra estudo com 964 mulheres.",
+   "fonte": "Fonte: Journal of Clinical Investigation · Shieh et al., 2026"
+  },
+  {
+   "foto": "peri_doctor2.jpg",
+   "numero": "01",
+   "manchete": "964 mulheres,<br>quase <span class=\"hl\">9 anos</span><br>de acompanhamento",
+   "corpo": "O estudo usou dados do <b>SWAN Bone Cohort</b> — mulheres acompanhadas com coletas de sangue repetidas, de antes a depois da transição menopausal.",
+   "destaque": "É um desenho longitudinal: a mesma mulher é comparada com ela mesma ao longo do tempo, não apenas grupos diferentes num só momento."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "Duas pistas<br>no <span class=\"hl\">sangue</span>",
+   "corpo": "<b>FABP2</b>: sinaliza desgaste nas células que revestem o intestino.<br><b>sCD14</b>: sinaliza ativação do sistema imune por produtos bacterianos que vazaram para a circulação.",
+   "destaque": "Nenhum dos dois mede o intestino diretamente — são pistas indiretas, mas são as mesmas usadas em estudos de permeabilidade intestinal."
+  },
+  {
+   "tipo": "prova",
+   "foto": "peri_brain.jpg",
+   "editoria": "A fonte",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">estudo</span>.",
+   "sub": "Publicado no <b>Journal of Clinical Investigation</b>, periódico revisado por pares de alto impacto em medicina.",
+   "corpo": "Shieh A et al. <b>J Clin Invest</b>, 2026;136(17):e205059.<br>DOI 10.1172/JCI205059"
+  },
+  {
+   "foto": "peri_awake.jpg",
+   "numero": "03",
+   "manchete": "O relógio<br>começa <span class=\"hl\">antes</span><br>do esperado",
+   "corpo": "O FABP2 inicia a subida <b>2,5 anos antes</b> da última menstruação; o sCD14 entra em cena cerca de <b>6 meses depois</b>. Os dois sobem ritmo de <b>+2,6%/ano</b> e <b>+0,8%/ano</b>, até estabilizar uns 6 anos depois da menopausa.",
+   "destaque": "Ou seja: a mudança não começa na menopausa — começa antes, na perimenopausa."
+  },
+  {
+   "foto": "peri_calm.jpg",
+   "numero": "04",
+   "manchete": "O que isso<br><span class=\"hl\">significa</span>",
+   "corpo": "Os próprios autores avisam: é <b>associação, não causa</b>. O estudo não prova que a mudança no intestino provoque os sintomas da menopausa, nem que probiótico ou terapia hormonal revertam esses marcadores.",
+   "fonte": "Fontes: Journal of Clinical Investigation · Shieh et al., 2026;136(17):e205059, DOI 10.1172/JCI205059. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
