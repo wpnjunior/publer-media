@@ -476,9 +476,10 @@
   {
    "id": "suplemento-sem-bula",
    "tema": "Bula e suplemento",
-   "published": false,
-   "slot": null,
-   "caption": "A bula grande assusta e a embalagem limpa tranquiliza, mas a diferença entre as duas é o nível de fiscalização, não o nível de risco.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #suplementacao #medicina #bula #seguranca"
+   "published": true,
+   "slot": "2026-10-31T20:25:10Z",
+   "caption": "A bula grande assusta e a embalagem limpa tranquiliza, mas a diferença entre as duas é o nível de fiscalização, não o nível de risco.\n\nEste conteúdo é educativo e não substitui a consulta médica.\n\n#saude #suplementacao #medicina #bula #seguranca",
+   "ig_media": "17919843801463640"
   },
   {
    "id": "pensamento-japones-sorte",
