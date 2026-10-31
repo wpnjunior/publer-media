@@ -1,0 +1,58 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "camarao-gigante-na-mao.jpg",
+   "editoria": "Alimentação",
+   "manchete": "Camarão não cresce pela ração que você compra. <span class=\"hl\">Cresce pela vez que ele come.</span>",
+   "sub": "Estudo com alimentador automático testou de 6 a 12 arraçoamentos por dia — e achou o ponto ótimo.",
+   "fonte": "Fontes: Liang et al., Animals, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "01",
+   "manchete": "Mais vezes <span class=\"hl\">não é sempre melhor</span>",
+   "corpo": "Juvenis de <b>3,85 g</b> foram alimentados 6, 8, 10 ou 12 vezes ao dia por 63 dias, em sistema de recirculação. Subir para <b>12 vezes</b> piorou a conversão alimentar (FCR) em vez de melhorar.",
+   "destaque": "Passar de 8 vezes ao dia não rendeu camarão extra — rendeu ração desperdiçada.",
+   "fonte": "Liang et al., Animals, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "O ponto certo: <span class=\"hl\">quase 8 vezes</span>",
+   "corpo": "A regressão do estudo apontou <b>7,83 arraçoamentos por dia</b> como o ideal. No grupo de 8 vezes, o FCR foi de <b>1,30</b> — o menor de todos os grupos testados.",
+   "destaque": "Entre 6 e 8 vezes ao dia é onde a conversão alimentar compensa o esforço extra.",
+   "fonte": "Liang et al., Animals, 2025"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "03",
+   "manchete": "Automático bateu <span class=\"hl\">manual</span>",
+   "corpo": "Com a mesma ração diária, o grupo alimentado <b>8x/dia</b> por máquina teve peso final de <b>18,45 g</b> e sobrevivência de <b>98,48%</b> — acima do grupo alimentado manualmente 6x/dia.",
+   "destaque": "Não é só quanto você dá de ração. É quantas vezes ela chega distribuída no dia.",
+   "fonte": "Liang et al., Animals, 2025"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "04",
+   "manchete": "Antes de mexer no horário, <span class=\"hl\">pergunte</span>",
+   "corpo": "Três perguntas pro seu manejo: quantas vezes por dia o camarão come, quanto tempo a ração fica na água antes de ser consumida, e se está sobrando no fundo do viveiro.",
+   "destaque": "Ração sobrando no fundo não é camarão guardando — é lucro virando amônia."
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está o manejo de alimentação do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
