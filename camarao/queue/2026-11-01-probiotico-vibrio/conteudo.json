@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "editoria": "Biossegurança",
+   "manchete": "Metade do viveiro não morre de Vibrio. <span class=\"hl\">Morre da dose errada de probiótico.</span>",
+   "sub": "No desafio com Vibrio parahaemolyticus, a dose certa de probiótico levou a sobrevivência de 16,7% para 66,7%.",
+   "fonte": "Fonte: Maurus et al., J World Aquac Soc, 2025"
+  },
+  {
+   "foto": "camarao-cru-no-gelo.jpg",
+   "numero": "01",
+   "manchete": "Sem proteção, <span class=\"hl\">quase todo mundo morre</span>",
+   "corpo": "Camarões sem probiótico na dieta foram desafiados com <b>Vibrio parahaemolyticus</b>, a bactéria da AHPND. Só <b>16,7%</b> sobreviveu.",
+   "destaque": "Biossegurança não é só bomba e cloro na porteira do viveiro. Começa na ração.",
+   "fonte": "Maurus et al., JWAS, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "02",
+   "manchete": "A dose de <span class=\"hl\">2%</span> virou o jogo",
+   "corpo": "Com probiótico comercial a <b>2%</b> da dieta, a sobrevivência no mesmo desafio subiu para <b>66,7%</b> — quase 4 vezes mais que sem proteção.",
+   "destaque": "Probiótico na ração é parte da biossegurança, não um extra.",
+   "fonte": "Maurus et al., JWAS, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "03",
+   "manchete": "1% também <span class=\"hl\">protegeu bem</span>",
+   "corpo": "Na dose de <b>1%</b>, a sobrevivência ficou em <b>61,1%</b> — perto do resultado da dose de 2% e bem acima do grupo sem probiótico.",
+   "destaque": "Entre 1% e 2% a proteção já aparece. Não precisa exagerar pra funcionar.",
+   "fonte": "Maurus et al., JWAS, 2025"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "numero": "04",
+   "manchete": "Na dose de 5%, a proteção <span class=\"hl\">caiu</span>",
+   "corpo": "Com <b>5%</b> de probiótico na dieta, a sobrevivência despencou pra <b>33,3%</b> — menos da metade do resultado da dose de 2%.",
+   "destaque": "Mais probiótico não é mais proteção. Dose errada pra cima também é erro.",
+   "fonte": "Maurus et al., JWAS, 2025"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta qual é o protocolo de biossegurança do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
