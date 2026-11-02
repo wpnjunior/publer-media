@@ -492,9 +492,10 @@
   {
    "id": "exame-demais-tambem-faz-mal",
    "tema": "Exame pedido demais",
-   "published": false,
-   "slot": null,
-   "caption": "Todo exame tem chance de achar algo que nunca iria dar problema, e essa descoberta cobra preço em ansiedade e procedimento. Pedir com critério é cuidado, não economia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #medicinapreventiva #saude #prevencao"
+   "published": true,
+   "slot": "2026-11-02T23:49:13Z",
+   "caption": "Todo exame tem chance de achar algo que nunca iria dar problema, e essa descoberta cobra preço em ansiedade e procedimento. Pedir com critério é cuidado, não economia.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #medicinapreventiva #saude #prevencao",
+   "ig_media": "18104944877635000"
   },
   {
    "id": "pessoa-em-5-anos",
