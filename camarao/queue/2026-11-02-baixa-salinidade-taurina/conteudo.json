@@ -1,0 +1,58 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Baixa salinidade",
+   "manchete": "A salinidade caiu devagar. <span class=\"hl\">1 em cada 3 pós-larvas morreu assim mesmo.</span>",
+   "sub": "Estudo com pós-larva de L. vannamei mostra o tamanho do estrago de uma queda de salinidade — e o que ajudou a reduzir a perda.",
+   "fonte": "Fonte: Wang et al., Biology, 2025"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "01",
+   "manchete": "Queda <span class=\"hl\">devagar</span> também mata",
+   "corpo": "Baixar a salinidade de <b>18‰ para 4‰</b> em 7 dias (2‰ por dia) derrubou a sobrevivência da pós-larva de <b>92,67% para 61,11%</b>.",
+   "destaque": "Não precisa ser choque de uma vez só: queda gradual de salinidade já é estresse pesado pra pós-larva.",
+   "fonte": "Wang et al., Biology, 2025. doi:10.3390/biology14081082"
+  },
+  {
+   "foto": "camarao-agua-doce-detalhe.jpg",
+   "numero": "02",
+   "manchete": "O estrago <span class=\"hl\">por dentro</span>",
+   "corpo": "Com a salinidade baixa, a bomba de sódio/potássio da brânquia trabalha mais e o tecido muda: espaço <b>entre as fibras do músculo</b> e limite <b>borrado</b> entre os órgãos.",
+   "destaque": "Pós-larva estressada por salinidade gasta energia pra sobreviver, não pra crescer.",
+   "fonte": "Wang et al., Biology, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "Suporte na ração <span class=\"hl\">reduziu a perda</span>",
+   "corpo": "Com taurina na ração (<b>0,3%</b> do peso seco), a sobrevivência em baixa salinidade subiu de <b>61,11% para 76,67%</b>, e a pós-larva também cresceu mais em comprimento.",
+   "destaque": "Não zerou o estresse, mas reduziu o tamanho do estrago — isso é lote que sobra até a despesca.",
+   "fonte": "Wang et al., Biology, 2025. doi:10.3390/biology14081082"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "Antes de povoar em água <span class=\"hl\">mais doce</span>",
+   "corpo": "Chuva forte ou influência de água doce no viveiro já reduz a sobrevivência da pós-larva por conta própria, mesmo sem choque térmico ou doença no meio.",
+   "destaque": "Pergunte a quem te vende a pós-larva: a que salinidade ela está, com que aclimatação e que suporte no transporte."
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta a salinidade do teu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
