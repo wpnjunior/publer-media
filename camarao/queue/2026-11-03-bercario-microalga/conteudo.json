@@ -1,0 +1,55 @@
+{
+ "marca": ["PAPO DE", "CARCINICULTOR"],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "editoria": "Berçário",
+   "manchete": "Sua pós-larva comeu a ração certa. <span class=\"hl\">E cresceu pouco mesmo assim.</span>",
+   "sub": "No berçário em bioflocos, a conversão alimentar caiu de 11,46 para 0,99 só com uma microalga a cada 10 dias.",
+   "fonte": "Fontes: Pereira Dos Santos et al., Isotopes in Environmental and Health Studies, 2024"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "O <span class=\"hl\">teste</span>",
+   "corpo": "Pós-larva de <b>Penaeus vannamei</b> em bioflocos, <b>3.000/m³</b>, por <b>35 dias</b>. Quatro grupos: sem microalga extra e com a diatomácea <b>Navicula sp.</b> a cada <b>5, 10 ou 15 dias</b>.",
+   "destaque": "O biofloco sozinho não é a última palavra em alimento natural.",
+   "fonte": "Pereira Dos Santos et al., 2024"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "02",
+   "manchete": "Sobrevivência <span class=\"hl\">não mudou</span>",
+   "corpo": "Em todos os grupos, com ou sem a microalga, a sobrevivência ficou perto de <b>93%</b> depois dos 35 dias.",
+   "destaque": "A pós-larva não morre por falta da microalga. Ela só cresce menos.",
+   "fonte": "Pereira Dos Santos et al., 2024"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "03",
+   "manchete": "A conta que <span class=\"hl\">mudou</span>",
+   "corpo": "Com a microalga a cada <b>10 dias</b>, o peso final chegou a <b>0,50 g</b> contra <b>0,33 g</b> do grupo sem adição. A conversão alimentar caiu de <b>11,46</b> para <b>0,99</b>.",
+   "destaque": "Mesma ração, mesma água — só a rotina de alimento natural que decidiu o resultado.",
+   "fonte": "Pereira Dos Santos et al., 2024"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "Não precisa ser <span class=\"hl\">todo dia</span>",
+   "corpo": "A melhora apareceu já com a adição a cada <b>10 dias</b> — não precisou virar rotina diária para fazer diferença no berçário.",
+   "destaque": "Berçário que só confia na ração está deixando crescimento (e dinheiro) na água."
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está o manejo do teu berçário.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
