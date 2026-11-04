@@ -508,9 +508,10 @@
   {
    "id": "ultraprocessado-nao-da-trabalho",
    "tema": "Ultraprocessado",
-   "published": false,
-   "slot": null,
-   "caption": "A conversa sobre ultraprocessado costuma travar no rótulo. Na prática, o que muda é a velocidade com que aquilo entra.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ultraprocessados #alimentacao #habitos #metabolismo #saude"
+   "published": true,
+   "slot": "2026-11-04T22:29:01Z",
+   "caption": "A conversa sobre ultraprocessado costuma travar no rótulo. Na prática, o que muda é a velocidade com que aquilo entra.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ultraprocessados #alimentacao #habitos #metabolismo #saude",
+   "ig_media": "18119304754801571"
   },
   {
    "id": "uma-coisa-dificil-por-dia",
