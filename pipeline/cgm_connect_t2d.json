@@ -1,0 +1,47 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_05.jpg",
+   "editoria": "DIABETES",
+   "manchete": "A picadinha<br>no dedo pode<br>ter os <span class=\"hl\">dias contados</span>",
+   "sub": "Estudo com <b>283 pessoas</b> achou queda extra na glicose em quem tem diabetes tipo 2 e não usa insulina — sem furar o dedo.",
+   "fonte": "Fonte: NEJM · estudo CONNECT (out/2026)"
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "01",
+   "manchete": "Pra quem tem<br>diabetes tipo 2<br>sem <span class=\"hl\">insulina</span>",
+   "corpo": "A forma clássica de acompanhar é furar o dedo algumas vezes por dia. Um estudo testou trocar isso pelo sensor que mede a glicose o tempo todo — o <b>CGM</b> (monitor contínuo de glicose)."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "02",
+   "manchete": "O estudo<br><span class=\"hl\">CONNECT</span>",
+   "corpo": "283 adultos com diabetes tipo 2, sem insulina, em 22 clínicas de atenção primária nos EUA. Por sorteio: um grupo usou o sensor, o outro manteve o cuidado de rotina — por 26 semanas.",
+   "destaque": "Publicado no New England Journal of Medicine (NEJM) em outubro de 2026."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "03",
+   "manchete": "A diferença<br>nos <span class=\"hl\">números</span>",
+   "corpo": "Com o sensor, a hemoglobina glicada caiu de <b>8,8% para 7,2%</b>. No cuidado de rotina, caiu menos: de 8,7% para 8,0%.",
+   "destaque": "0,9 ponto percentual de diferença a favor do sensor — e quase 5 horas por dia extras com a glicose na faixa saudável (62% vs 41% do tempo)."
+  },
+  {
+   "foto": "bmi_doctor.jpg",
+   "numero": "04",
+   "manchete": "O que o<br>estudo <span class=\"hl\">não mostra</span>",
+   "corpo": "O estudo foi financiado pela empresa que fabrica o sensor testado — informação declarada pela própria publicação. E o resultado vale pra quem já estava fora da meta de glicose, não pra todo mundo com diabetes tipo 2.",
+   "destaque": "Nenhum caso de hipoglicemia grave foi registrado no grupo do sensor."
+  },
+  {
+   "foto": "bg_03.jpg",
+   "numero": "05",
+   "manchete": "Vale a conversa<br>com seu <span class=\"hl\">médico</span>",
+   "corpo": "Monitor contínuo de glicose não é só pra quem usa insulina. Se seu controle do diabetes tipo 2 ainda não está na meta, essa é uma opção pra discutir na consulta.",
+   "fonte": "Fontes: N Engl J Med, 2026 — estudo CONNECT, DOI 10.1056/NEJMoa2608571. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
