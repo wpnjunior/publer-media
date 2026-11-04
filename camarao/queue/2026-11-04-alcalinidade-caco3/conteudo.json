@@ -1,0 +1,59 @@
+{
+ "marca": ["PAPO DE", "CARCINICULTOR"],
+ "assinatura": {"emblema": "🦐", "nome": "Aqua Cultivo Novaes", "linha": "Pós-larva de vannamei · Jaguaripe-BA"},
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Qualidade da água",
+   "manchete": "Seu berçário não cresce <span class=\"hl\">de calcário em calcário.</span>",
+   "sub": "Carbonato de cálcio, de magnésio ou os dois? Teste com pós-larva de 0,044 g mostra que a fonte muda o crescimento.",
+   "fonte": "Fonte: Amjad et al., Aquaculture Reports, 2025"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "01",
+   "manchete": "O biofloco <span class=\"hl\">rouba</span> alcalinidade",
+   "corpo": "A matéria orgânica do biofloco consome carbonato da água. Sem reposição, a alcalinidade do berçário cai sozinha — e o manejo vira jogar calcário sem saber qual.",
+   "destaque": "Alcalinizante errado não é inofensivo: muda crescimento e conversão alimentar."
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "02",
+   "manchete": "O teste: <span class=\"hl\">três fontes, 52 dias</span>",
+   "corpo": "Pós-larva de <b>0,044 g</b> em biofloco recebeu carbonato de cálcio (<b>20 mg/L</b>), carbonato de magnésio (<b>20 mg/L</b>) ou os dois juntos (<b>10+10 mg/L</b>), por 52 dias.",
+   "destaque": "Mesma dose total de alcalinizante — fontes diferentes.",
+   "fonte": "Amjad et al., Aquaculture Reports, 2025"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "03",
+   "manchete": "Cálcio <span class=\"hl\">cresceu mais</span>",
+   "corpo": "Ganho de peso: <b>0,21 g</b> com carbonato de cálcio, <b>0,20 g</b> com a mistura e <b>0,19 g</b> com carbonato de magnésio puro.",
+   "destaque": "Diferença pequena em grama, real em escala de lote.",
+   "fonte": "Amjad et al., Aquaculture Reports, 2025"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "numero": "04",
+   "manchete": "A ração <span class=\"hl\">também sentiu</span>",
+   "corpo": "Conversão alimentar de <b>1,27</b> com cálcio e <b>1,29</b> com a mistura, contra <b>1,42</b> com magnésio puro — mais ração pro mesmo quilo de camarão.",
+   "destaque": "Trocar a fonte de alcalinizante pode custar ração sem o produtor perceber.",
+   "fonte": "Amjad et al., Aquaculture Reports, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "05",
+   "manchete": "Magnésio ganhou <span class=\"hl\">na água</span>",
+   "corpo": "Dureza total mais alta com magnésio (<b>3.105 mg/L</b>) e com a mistura (<b>3.026 mg/L</b>) do que com cálcio puro (<b>2.994 mg/L</b>) — todos acima do grupo sem reposição (<b>2.805 mg/L</b>).",
+   "destaque": "Sobrevivência não mudou entre os grupos: a escolha pesa no crescimento, não no risco de perder o lote.",
+   "fonte": "Amjad et al., Aquaculture Reports, 2025"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a alcalinidade do teu berçário.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
