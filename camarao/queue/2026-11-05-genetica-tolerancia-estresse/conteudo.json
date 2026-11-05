@@ -1,0 +1,58 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "camarao-gigante-na-mao.jpg",
+   "editoria": "Pós-larva",
+   "manchete": "Duas pós-larvas do mesmo berçário. Uma sobrevive ao choque. <span class=\"hl\">A outra não.</span>",
+   "sub": "Teste com 20 famílias de L. vannamei: sobrevivência ao estresse de salinidade variou de 12% a 88% — e isso é genético.",
+   "fonte": "Fonte: Shi et al., Animals, 2024;14(4):600. doi:10.3390/ani14040600"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "O teste foi <span class=\"hl\">de verdade</span>",
+   "corpo": "Pesquisadores pegaram <b>20 famílias</b> de pós-larva de L. vannamei (puras e cruzadas, origem tailandesa e americana) e aplicaram um choque de <b>96 horas</b>: amônia alta, pH alto e salinidade baixa (2 ppt), cada um separado.",
+   "destaque": "Mesma espécie, mesma idade — lotes de genética diferente.",
+   "fonte": "Shi et al., Animals, 2024"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "De <span class=\"hl\">12% a 88%</span>",
+   "corpo": "No choque de salinidade baixa, a sobrevivência das famílias foi de <b>12%</b> na pior até <b>88%</b> na melhor. Média geral: <b>39,63%</b>.",
+   "destaque": "Entre a pior e a melhor família, a diferença passou de 7 vezes na sobrevivência.",
+   "fonte": "Shi et al., Animals, 2024"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "Não é <span class=\"hl\">sorte</span>",
+   "corpo": "A herdabilidade da tolerância ao estresse ficou em <b>0,27</b> para salinidade, <b>0,44</b> para amônia e <b>0,41</b> para pH — número de genética que mostra herança real, não acaso.",
+   "destaque": "Família que aguenta estresse passa isso pra frente. Dá pra selecionar essa característica.",
+   "fonte": "Shi et al., Animals, 2024"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "numero": "04",
+   "manchete": "Pergunte <span class=\"hl\">antes de comprar</span>",
+   "corpo": "Se a tolerância ao choque muda tanto de família pra família, o lote que você povoa não é só \"pós-larva de vannamei\" — é uma genética específica, com uma resistência específica.",
+   "destaque": "Pergunte ao seu fornecedor de onde vem o plantel e se ele seleciona por resistência a estresse."
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e pergunta sobre a genética do teu lote.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
