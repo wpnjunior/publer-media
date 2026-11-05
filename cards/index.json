@@ -516,9 +516,10 @@
   {
    "id": "uma-coisa-dificil-por-dia",
    "tema": "Uma coisa difícil por dia",
-   "published": false,
-   "slot": null,
-   "caption": "Não precisa ser heroico: uma série a mais, dez minutos de caminhada, dormir antes da meia-noite. O corpo entende repetição bem melhor do que entende esforço isolado num domingo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #disciplina #habitossaudaveis #treino #saude"
+   "published": true,
+   "slot": "2026-11-05T00:06:28Z",
+   "caption": "Não precisa ser heroico: uma série a mais, dez minutos de caminhada, dormir antes da meia-noite. O corpo entende repetição bem melhor do que entende esforço isolado num domingo.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #disciplina #habitossaudaveis #treino #saude",
+   "ig_media": "18071961740500947"
   },
   {
    "id": "ronco-nao-e-so-estresse",
