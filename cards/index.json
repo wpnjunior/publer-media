@@ -524,9 +524,10 @@
   {
    "id": "ronco-nao-e-so-estresse",
    "tema": "apneia disfarçada de estresse",
-   "published": false,
-   "slot": null,
-   "caption": "Ronco alto, sono longo e cansaço no dia seguinte é um trio que merece investigação do sono, não mais um remédio de pressão.\nEste conteúdo é educativo e não substitui a consulta médica.\n#apneiadosono #ronco #pressaoalta #sono #saudedohomem"
+   "published": true,
+   "slot": "2026-11-06T21:58:00Z",
+   "caption": "Ronco alto, sono longo e cansaço no dia seguinte é um trio que merece investigação do sono, não mais um remédio de pressão.\nEste conteúdo é educativo e não substitui a consulta médica.\n#apneiadosono #ronco #pressaoalta #sono #saudedohomem",
+   "ig_media": "18108709955461006"
   },
   {
    "id": "sinais-do-universo",
