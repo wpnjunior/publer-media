@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "editoria": "Densidade de estocagem",
+   "manchete": "Mais camarão por m³ <span class=\"hl\">custa mais</span> do que parece",
+   "sub": "De 200 para 800 camarões/m³ em bioflocos: peso final -36%, sobrevivência -19%, rendimento total +151%.",
+   "fonte": "Fonte: Xu et al., Fishes, 2025"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "O lote <span class=\"hl\">engana</span>",
+   "corpo": "De 200 para 800 camarões/m³ em bioflocos, o peso final na despesca caiu <b>36%</b>, a sobrevivência caiu <b>19%</b> e a taxa de crescimento caiu <b>7%</b>.",
+   "destaque": "Mais camarão no viveiro não é mais camarão forte saindo dele.",
+   "fonte": "Xu et al., Fishes, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "A água <span class=\"hl\">avisa primeiro</span>",
+   "corpo": "No mesmo estudo, o pico de amônia total subiu de <b>0,4 para 2,3 mg/L</b> e o pico de nitrito, de <b>1,0 para 4,2 mg/L</b>, quando a densidade foi de 200 para 800 camarões/m³.",
+   "destaque": "Se a densidade sobe e o manejo da água não acompanha, quem paga a conta é o camarão.",
+   "fonte": "Xu et al., Fishes, 2025"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "03",
+   "manchete": "Rendimento <span class=\"hl\">sobe</span>, eficiência <span class=\"hl\">cai</span>",
+   "corpo": "O rendimento total por m³ subiu <b>151%</b> de 200 para 800 camarões/m³ — mas a conversão alimentar piorou <b>15%</b> e a variação de tamanho do lote aumentou <b>70%</b>.",
+   "destaque": "Mais quilo na balança não é lucro se vem com mais ração gasta e lote desuniforme.",
+   "fonte": "Xu et al., Fishes, 2025"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "Existe um <span class=\"hl\">ponto certo</span>",
+   "corpo": "Os autores calcularam a densidade ideal entre <b>513 e 529 camarões/m³</b> — dentro da faixa de <b>400 a 600/m³</b> validada no estudo, equilibrando rendimento, conversão alimentar e sobrevivência.",
+   "destaque": "Densidade não é 'quanto mais, melhor'. É um alvo a acertar.",
+   "fonte": "Xu et al., Fishes, 2025"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta a densidade que você está pensando para o próximo povoamento.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
