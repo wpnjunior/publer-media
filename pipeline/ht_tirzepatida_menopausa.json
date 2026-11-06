@@ -1,0 +1,47 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_calm.jpg",
+   "editoria": "MENOPAUSA",
+   "manchete": "O hormônio<br>que pode <span class=\"hl\">turbinar</span><br>o emagrecimento",
+   "sub": "Mulheres na menopausa que faziam <b>reposição hormonal</b> perderam quase <b>35% a mais de peso</b> usando a mesma medicação.",
+   "fonte": "Fonte: The Lancet Obstetrics, Gynaecology & Women's Health (2026) · Mayo Clinic"
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "01",
+   "manchete": "Emagrecer na<br><span class=\"hl\">menopausa</span><br>é mais difícil",
+   "corpo": "Com a queda do estrogênio, o corpo tende a estocar mais gordura na barriga e responde pior à dieta. Remédios como a <b>tirzepatida</b> ajudam — mas o efeito varia de mulher pra mulher."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "02",
+   "manchete": "O estudo da<br><span class=\"hl\">Mayo Clinic</span>",
+   "corpo": "Pesquisadores analisaram <b>120 mulheres</b> na pós-menopausa, com sobrepeso ou obesidade, todas usando tirzepatida há pelo menos 12 meses — 40 delas também faziam reposição hormonal, comparadas a 80 que não faziam.",
+   "destaque": "Publicado na The Lancet Obstetrics, Gynaecology &amp; Women's Health (fev/2026), DOI 10.1016/S3050-5038(25)00145-1."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "03",
+   "manchete": "A diferença<br>nos <span class=\"hl\">números</span>",
+   "corpo": "Quem usava reposição hormonal junto com a tirzepatida perdeu <b>19,2%</b> do peso corporal. Quem não usava, perdeu <b>14,0%</b>.",
+   "destaque": "Diferença de 5,2 pontos percentuais (IC 95% 1,90–8,54; p=0,0023) — na prática, quase 35% a mais de peso perdido."
+  },
+  {
+   "foto": "peri_doctor2.jpg",
+   "numero": "04",
+   "manchete": "O que o<br>estudo <span class=\"hl\">não prova</span>",
+   "corpo": "É um estudo observacional, não um ensaio clínico randomizado. A autora responsável, Dra. Maria Daniela Hurtado Andrade, foi clara: não dá pra dizer que a reposição hormonal <b>causou</b> o emagrecimento extra.",
+   "destaque": "Um ensaio clínico randomizado já está sendo planejado pelo mesmo grupo para testar essa relação de verdade."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "05",
+   "manchete": "Vale a conversa<br>com seu <span class=\"hl\">médico</span>",
+   "corpo": "Reposição hormonal tem indicações e contraindicações próprias — não deve ser iniciada só pensando em emagrecimento. Se você está na menopausa e em tratamento com tirzepatida, essa é uma pauta pra levar à consulta.",
+   "fonte": "Fontes: The Lancet Obstetrics, Gynaecology &amp; Women's Health, 2026, DOI 10.1016/S3050-5038(25)00145-1 · Mayo Clinic. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
