@@ -1,0 +1,52 @@
+{
+ "marca": ["PAPO DE", "CARCINICULTOR"],
+ "assinatura": {"emblema": "🦐", "nome": "Aqua Cultivo Novaes", "linha": "Pós-larva de vannamei · Jaguaripe-BA"},
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "editoria": "Aeração em bioflocos",
+   "manchete": "O compressor liga mais forte. O camarão <span class=\"hl\">não cresce mais rápido</span> por isso.",
+   "sub": "Em biofloco, 75, 35 ou 10 L/min de ar deram o mesmo peso final e a mesma sobrevivência (p>0,05) — mas o floco mudou.",
+   "fonte": "Fonte: Han et al., Water, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "01",
+   "manchete": "Mais ar <span class=\"hl\">não engorda</span>",
+   "corpo": "Dois meses de biofloco com três intensidades de aeração contínua (75, 35 e 10 L/min): o peso final e a sobrevivência da pós-larva de vannamei não tiveram diferença estatística entre os grupos (p>0,05).",
+   "destaque": "Gastar mais energia no compressor não é garantia de camarão maior na despesca.",
+   "fonte": "Han et al., Water, 2025"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "numero": "02",
+   "manchete": "O floco <span class=\"hl\">muda de qualidade</span>",
+   "corpo": "O teor de DHA (ômega-3) no biofloco foi de <b>1,08%</b> com aeração forte (75 L/min) e caiu para <b>0%</b> com aeração fraca (10 L/min) — floco mais ventilado é floco mais nutritivo.",
+   "destaque": "A aeração não engorda o camarão direto. Engorda o alimento natural que ele come no viveiro.",
+   "fonte": "Han et al., Water, 2025"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "03",
+   "manchete": "Floco <span class=\"hl\">maior</span> não é floco <span class=\"hl\">melhor</span>",
+   "corpo": "Com menos ar (10 L/min), o floco cresceu mais em área, mas perdeu complexidade estrutural ao longo do ciclo. Com mais ar (75 L/min), a estrutura do floco se manteve estável.",
+   "destaque": "Floco grande e frouxo decanta pior e limpa menos a água do que floco firme.",
+   "fonte": "Han et al., Water, 2025"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "O nitrato <span class=\"hl\">subiu mais</span> onde teve menos ar",
+   "corpo": "Já na segunda semana, o nitrato subiu mais nos grupos de aeração mais fraca (35 e 10 L/min) do que no de aeração forte (75 L/min), diferença estatística confirmada (p<0,05). A amônia total ficou baixa e estável nos três grupos.",
+   "destaque": "Menos ar não mata o lote na hora. Mas deixa a água trabalhando sozinha, sem ajuda do compressor.",
+   "fonte": "Han et al., Water, 2025"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a aeração do teu berçário ou viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
