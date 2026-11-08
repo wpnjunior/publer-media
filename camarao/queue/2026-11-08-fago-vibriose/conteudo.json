@@ -1,0 +1,52 @@
+{
+ "marca": ["PAPO DE", "CARCINICULTOR"],
+ "assinatura": {"emblema": "🦐", "nome": "Aqua Cultivo Novaes", "linha": "Pós-larva de vannamei · Jaguaripe-BA"},
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "editoria": "Doenças e biossegurança",
+   "manchete": "Vibriose <span class=\"hl\">derrubou a sobrevivência pra 45%</span>. O fago segurou quase 80%.",
+   "sub": "Um vírus que ataca só a bactéria, na dose certa, mudou o resultado do desafio com Vibrio parahaemolyticus.",
+   "fonte": "Fonte: Zeng et al., Fishes, 2025"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "O teste foi <span class=\"hl\">pesado de propósito</span>",
+   "corpo": "Pesquisadores desafiaram camarão-branco (<i>Litopenaeus vannamei</i>) com a dose que mata metade do lote — LC50 de <b>7,3 milhões de UFC/mL</b> de Vibrio parahaemolyticus, a bactéria da AHPND, a síndrome da morte precoce.",
+   "destaque": "Esse é o nível de vibriose que ninguém quer ver no próprio viveiro.",
+   "fonte": "Zeng et al., Fishes, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "Sem fago, a sobrevivência <span class=\"hl\">despencou</span>",
+   "corpo": "No grupo sem tratamento, a sobrevivência caiu para <b>45%</b> já em 72 horas após a infecção — e não se recuperou mais até o 7º dia.",
+   "destaque": "O estrago mais pesado da vibriose acontece nas primeiras 72 horas. Depois disso, o lote só confirma a perda.",
+   "fonte": "Zeng et al., Fishes, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "A dose certa de fago <span class=\"hl\">quase dobrou</span> a sobrevivência",
+   "corpo": "Com <b>1 ppm</b> de fago (vírus que ataca só a bactéria), a sobrevivência ficou em <b>78,5%</b> do 3º ao 7º dia — contra 45% de quem não recebeu nada.",
+   "destaque": "Mais fago não é melhor: 2 ppm deu 70,5% e 4 ppm caiu para 62,5%. A dose certa importa mais que a dose alta.",
+   "fonte": "Zeng et al., Fishes, 2025"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "04",
+   "manchete": "O camarão também <span class=\"hl\">reagiu por dentro</span>",
+   "corpo": "No hepatopâncreas, enzimas de defesa como fosfatase ácida e lisozima subiram significativamente no grupo de 1 ppm, acima do grupo sem fago (p&lt;0,05).",
+   "destaque": "O fago não troca um remédio por outro: ele ajuda o sistema imune do próprio camarão a trabalhar.",
+   "fonte": "Zeng et al., Fishes, 2025"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a biossegurança do teu viveiro contra vibriose.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
