@@ -540,9 +540,10 @@
   {
    "id": "apneia-quem-dorme-do-lado",
    "tema": "apneia do parceiro",
-   "published": false,
-   "slot": null,
-   "caption": "Quem dorme do seu lado costuma ver antes de qualquer exame. Levar isso pro consultório é cuidado com os dois, não implicância.\nEste conteúdo é educativo e não substitui a consulta médica.\n#sono #apneiadosono #saude #casal #prevencao"
+   "published": true,
+   "slot": "2026-11-08T20:58:24Z",
+   "caption": "Quem dorme do seu lado costuma ver antes de qualquer exame. Levar isso pro consultório é cuidado com os dois, não implicância.\nEste conteúdo é educativo e não substitui a consulta médica.\n#sono #apneiadosono #saude #casal #prevencao",
+   "ig_media": "18109398686255705"
   },
   {
    "id": "dias-de-construcao-manutencao",
