@@ -1,0 +1,49 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bmi_scale.jpg",
+   "editoria": "Endocrinologia",
+   "manchete": "O exame que<br>engana quem tem<br><span class=\"hl\">obesidade</span>",
+   "sub": "TSH <b>até 10</b> pode ser só uma resposta do corpo ao peso — não hipotireoidismo. Diretriz europeia explica quando investigar de verdade.",
+   "fonte": "Fonte: European Society of Endocrinology (Eur J Endocrinol, 2020)"
+  },
+  {
+   "foto": "bg_01_top.jpg",
+   "numero": "01",
+   "manchete": "O TSH sobe<br>sozinho na<br><span class=\"hl\">obesidade</span>",
+   "corpo": "Ter obesidade pode elevar o TSH mesmo com a tireoide funcionando bem — é uma resposta adaptativa do corpo ao excesso de peso, diferente do hipotireoidismo de causa autoimune.",
+   "destaque": "Valores de TSH até 10 mUI/L, com T4 livre normal, são comuns na obesidade e não bastam, sozinhos, para fechar o diagnóstico."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "Antes de tratar,<br><span class=\"hl\">investigar</span>",
+   "corpo": "A diretriz orienta começar pelo TSH. Se vier alto, o passo seguinte é dosar o T4 livre e o anti-TPO — esse último ajuda a diferenciar uma causa autoimune de uma resposta ao peso.",
+   "destaque": "Hipotireoidismo manifesto deve ser tratado independente dos anticorpos. Já o TSH levemente alto, isolado, pede cautela antes de qualquer remédio."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_07.jpg",
+   "editoria": "A fonte",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">diretriz</span>.",
+   "sub": "Publicada no <b>European Journal of Endocrinology</b>, pela European Society of Endocrinology (ESE).",
+   "corpo": "Pasquali R et al. <b>Eur J Endocrinol</b>, 2020;182(1):G1-G32.<br>DOI 10.1530/EJE-19-0893 · PMID 31855556"
+  },
+  {
+   "foto": "bmi_tape.jpg",
+   "numero": "03",
+   "manchete": "Hormônio de<br>tireoide pra<br><span class=\"hl\">emagrecer</span>?",
+   "corpo": "Quando a tireoide funciona normalmente, usar hormônio tireoidiano para perder peso não é recomendado pela diretriz. O efeito na balança costuma ser pequeno.",
+   "destaque": "Em troca, o risco inclui perda de massa muscular e efeitos sobre ossos e coração."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "O que levar<br>pra <span class=\"hl\">consulta</span>",
+   "corpo": "Se você tem obesidade e um TSH um pouco alto no exame, não é motivo para começar remédio por conta própria. Vale perguntar ao seu médico se os próximos exames (T4 livre, anti-TPO) já foram pedidos.",
+   "fonte": "Fontes: European Journal of Endocrinology, 2020;182(1):G1-G32, DOI 10.1530/EJE-19-0893, PMID 31855556. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
