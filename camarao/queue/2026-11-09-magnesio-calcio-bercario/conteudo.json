@@ -1,0 +1,52 @@
+{
+ "marca": ["PAPO DE", "CARCINICULTOR"],
+ "assinatura": {"emblema": "🦐", "nome": "Aqua Cultivo Novaes", "linha": "Pós-larva de vannamei · Jaguaripe-BA"},
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "editoria": "Qualidade da água",
+   "manchete": "A sobrevivência do berçário <span class=\"hl\">caiu pra 58%</span> por causa do mineral da água.",
+   "sub": "Numa água de baixa salinidade rica em cálcio e pobre em magnésio, ajustar essa relação levou a sobrevivência pra mais de 92%.",
+   "fonte": "Fonte: Al-Subiai et al., Aquaculture, 2025"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "01",
+   "manchete": "O berçário rodou numa <span class=\"hl\">água de poço</span>",
+   "corpo": "Pesquisadores usaram água subterrânea de baixa salinidade do deserto do Kuwait — naturalmente rica em cálcio e pobre em magnésio — pra criar pós-larva de <i>Litopenaeus vannamei</i> de 0,02 g, em berçário de alta densidade (1.250 PL/m³).",
+   "destaque": "Muita fazenda de água doce ou baixa salinidade tem esse mesmo perfil: cálcio sobra, magnésio falta.",
+   "fonte": "Al-Subiai et al., Aquaculture, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "Sem magnésio, a sobrevivência <span class=\"hl\">desabou</span>",
+   "corpo": "No grupo controle (relação Mg/Ca de só 0,49, sem suplementar magnésio), a sobrevivência da pós-larva no berçário ficou em <b>58,5%</b>. Em todos os grupos com magnésio ajustado, a sobrevivência passou de <b>92,5%</b>.",
+   "destaque": "A diferença não foi na ração. Foi no mineral da água.",
+   "fonte": "Al-Subiai et al., Aquaculture, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "Na engorda, a <span class=\"hl\">proporção certa</span> rendeu mais",
+   "corpo": "Na fase seguinte (juvenis de 0,54 g, 250/m³), o grupo com relação Mg/Ca perto de 2 teve a melhor engorda: sobrevivência de <b>70,8%</b>, peso médio de <b>16,3 g</b> e rendimento de <b>2,89 kg/m³</b>.",
+   "destaque": "Relação de magnésio acima de 2,12 deu crescimento significativamente melhor do que a água sem ajuste.",
+   "fonte": "Al-Subiai et al., Aquaculture, 2025"
+  },
+  {
+   "foto": "camarao-agua-doce-detalhe.jpg",
+   "numero": "04",
+   "manchete": "Não é a <span class=\"hl\">quantidade de magnésio</span>, é a proporção",
+   "corpo": "Os autores concluem que o que importa é a relação Mg/Ca na água, não a concentração isolada de magnésio. Na pós-larva, o mineral mexeu com a sobrevivência; no juvenil e no adulto, mexeu com o crescimento.",
+   "destaque": "Antes de jogar mais mineral na água, meça a relação Mg/Ca — não só o magnésio sozinho.",
+   "fonte": "Al-Subiai et al., Aquaculture, 2025"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a água do teu berçário — salinidade, cálcio, magnésio.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
