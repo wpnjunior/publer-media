@@ -12,7 +12,8 @@ no Metricool para 18h (Instagram, TikTok e YouTube).
 ## 0. Travas (antes de gastar qualquer coisa)
 - Código: o editor vive em `reel_kit/diario/`. Se essa pasta não existir no master, traga do branch de trabalho
   sem comitar: `git fetch origin claude/project-thread-wkec50 && git checkout origin/claude/project-thread-wkec50 --
-  reel_kit/diario pipeline/sabor/conferir_sabor.py && git reset -q`. Comite SÓ `diario/<hoje>/`, no branch em que você trabalha.
+  reel_kit/diario pipeline/sabor/conferir_sabor.py diario/TEMAS-PRODUZIDOS.md && git reset -q`. Comite SÓ `diario/<hoje>/`
+  e `diario/TEMAS-PRODUZIDOS.md`, no branch em que você trabalha.
 - ESTADO COMPARTILHADO: a pasta do projeto `/mnt/project-files/diario/<hoje>/` (outras etapas leem dali).
 - Data de hoje no fuso America/Bahia. Se já existe `/mnt/project-files/diario/<hoje>/meta.json`, ENCERRE ("já coberto").
 - Se existe `/mnt/project-files/diario/PAUSADO`, ENCERRE ("pausado pelo Wagner").
@@ -29,6 +30,13 @@ magra e força, intestino e intolerância alimentar, canetas emagrecedoras, mito
 Descarte: tema já feito (veja `diario/*/meta.json`, `pipeline/TEMAS-USADOS.md`, `queue/` e os posts dos últimos
 30 dias no Metricool, marca 7510655), tema sem fonte primária confiável, tema que exige indicar remédio/dose.
 
+## 1b. Tema repetido é proibido (regra do Wagner, 10/11/2026)
+Antes do Jev, abra `diario/TEMAS-PRODUZIDOS.md` e confira as fontes listadas lá. Risque todo candidato cujo
+tema (história, experimento, personagem ou pergunta central) já foi produzido, mesmo com outro título. Só
+repita com autorização expressa do Wagner. Se sobrarem menos de 3 candidatos, busque mais temas (história da
+medicina tem muito: experimentos famosos, erros de diagnóstico, descobertas por acaso). Depois de produzir,
+acrescente o tema do dia em `diario/TEMAS-PRODUZIDOS.md` e comite junto com `diario/<hoje>/`.
+
 ## 2. Jev escolhe (nota 0-10 de potencial viral)
 Dê a cada candidato nota 0-10 e uma linha de motivo. Critérios do Jev (vindos do reel Efeito Rosenhan, o que
 mais rendeu entre os recentes):
@@ -37,7 +45,7 @@ mais rendeu entre os recentes):
 - +2 se tem polêmica atual (está nas buscas/notícias hoje) e conflito claro (crença popular x estudo).
 - +1 se cabe em uma frase-gancho de 3 partes: nome do fenômeno + conflito + consequência.
 - +1 se é dos focos do Wagner. +1 se tem número concreto que vira imagem (52 dias, 1.815 mulheres).
-- −3 se depende de promessa de cura, remédio ou dose (CFM). −2 se é parecido com o vídeo de ontem.
+- −3 se depende de promessa de cura, remédio ou dose (CFM). −2 se é parecido com o vídeo de ontem (tema já produzido nem entra: ver 1b).
 Fique com a maior nota. Guarde os candidatos, notas e motivos no meta.json.
 
 ## 3. Roteiro (molde da vacina + achados do Rosenhan)
