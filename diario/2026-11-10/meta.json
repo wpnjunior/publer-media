@@ -63,5 +63,8 @@
  "titulo_yt": "O médico que bebeu uma bactéria pra provar que a gastrite não era só nervoso #Shorts",
  "publicar_em": "2026-11-10T18:00:00-03:00",
  "branch": "claude/project-thread-qzwnuj",
- "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/claude/project-thread-qzwnuj/diario/2026-11-10/reel.mp4"
+ "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/claude/project-thread-qzwnuj/diario/2026-11-10/reel.mp4",
+ "tamanho_bytes_raw": 29963530,
+ "obs_pasta_rede": "a pasta /mnt/project-files remuxa o mp4 ao gravar (fica ~29969405 bytes, md5 diferente), mesma duração 67,4 s e sabor aprovado; a mídia oficial é a do raw_url",
+ "previa_disparada": true
 }
