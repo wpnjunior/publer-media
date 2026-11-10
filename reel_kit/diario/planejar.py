@@ -127,6 +127,15 @@ def main() -> None:
         tl["fonte"] = {"t0": round(t0, 3), "t1": round(t1, 3), "texto": f["texto"]}
         tl["eventos"].append({"t": t0, "sfx": "ding"})
 
+    if formato == "mapeamento":
+        mapeamento(plano, words, tl, forcados, fala_fim, total)
+        Path(sys.argv[4]).write_text(json.dumps(tl, ensure_ascii=False, indent=1), encoding="utf-8")
+        tipos: dict = {}
+        for c in tl["cenas"]:
+            tipos[c["tipo"]] = tipos.get(c["tipo"], 0) + 1
+        print(f"total {total}s, mapeamento: {len(tl['shots'])} enquadramentos, cenas {tipos}")
+        return
+
     # junta os forçados que se sobrepõem
     forcados.sort()
     fz: list[list] = []
@@ -185,6 +194,92 @@ def main() -> None:
         modos[s["modo"]] = modos.get(s["modo"], 0) + 1
     print(f"total {total}s, {len(tl['shots'])} enquadramentos {modos}, {len(tl['paineis'])} painéis, "
           f"{len(tl['carimbos'])} carimbos, {len(tl['numeros'])} números")
+
+
+TIPOS_CENA = {"rosto", "mapa", "cartao", "foto", "bolinhas", "citacao", "etiqueta", "barra"}
+
+
+def mapeamento(plano: dict, words: list[dict], tl: dict, forcados: list, fala_fim: float, total: float) -> None:
+    """Formato Mapeamento: explicador em cenas gráficas de tela cheia (mapa 3D em papel antigo,
+    cartões coloridos, fotos com fita, bolinhas de porcentagem, citação, etiqueta de data, barra)
+    intercaladas com ele em tela cheia. Cada cena vale do seu "quando" até a próxima começar.
+    Gancho e closes são sempre o rosto dele. Cenas gráficas longas ganham a bolha dele no canto
+    quando a cena pede ("pip": true)."""
+    cenas = []
+    for c in plano.get("cenas", []):
+        if c.get("tipo") not in TIPOS_CENA:
+            raise SystemExit(f"cena com tipo desconhecido: {c.get('tipo')!r} (use {sorted(TIPOS_CENA)})")
+        t0, _, _ = achar(words, c["quando"])
+        q = dict(c)
+        q["t0"] = round(t0, 3)
+        cenas.append(q)
+    cenas.sort(key=lambda x: x["t0"])
+    g_fim = forcados[0][1]  # fim do gancho
+    # closes viram cenas de rosto (por cima do que estiver no ar)
+    for a, b, tipo in forcados[1:]:
+        if tipo == "close":
+            cenas.append({"tipo": "rosto", "t0": round(a, 3), "close": True, "ate": round(b, 3)})
+    cenas = [c for c in cenas if c["t0"] >= g_fim - 0.01]
+    cenas.append({"tipo": "rosto", "t0": 0.0, "gancho": True})
+    cenas.sort(key=lambda x: (x["t0"], 0 if x.get("close") else 1))
+    out: list[dict] = []
+    for c in cenas:
+        if out and abs(c["t0"] - out[-1]["t0"]) < 0.3:
+            if c.get("close"):
+                out[-1] = c
+            continue
+        out.append(c)
+    # duração: até a próxima; um close devolve a cena interrompida depois do seu trecho
+    final = []
+    for k, c in enumerate(out):
+        prox = out[k + 1]["t0"] if k + 1 < len(out) else fala_fim
+        if c.get("close") and c.get("ate", prox) + 0.6 < prox and final:
+            final.append(dict(c, t1=round(c["ate"], 3)))
+            ant = dict(next(x for x in reversed(final[:-1]) if not x.get("close")))
+            ant.update({"t0": round(c["ate"], 3), "t1": round(prox, 3), "volta": True})
+            final.append(ant)
+        else:
+            final.append(dict(c, t1=round(prox, 3)))
+    # ritmo do modelo: cena gráfica não passa de ~4 s; o resto volta para o rosto dele
+    ritmo = []
+    for c in final:
+        if c["tipo"] != "rosto" and c["t1"] - c["t0"] > 5.5:
+            corte = corte_proximo(words, c["t0"] + 3.8)
+            if c["t0"] + 2.5 < corte < c["t1"] - 1.2:
+                ritmo.append(dict(c, t1=round(corte, 3)))
+                ritmo.append({"tipo": "rosto", "t0": round(corte, 3), "t1": c["t1"]})
+                continue
+        ritmo.append(c)
+    tl["cenas"] = [c for c in ritmo if c["t1"] - c["t0"] > 0.05]
+
+    shots = []
+    zooms = [1.0, 1.15, 1.3, 1.08]
+    kz = 0
+    for i, c in enumerate(tl["cenas"]):
+        if c["tipo"] != "rosto":
+            shots.append({"t0": c["t0"], "t1": c["t1"], "modo": "cena", "cena": i, "zoom": 1.0, "pan": 0})
+            tl["eventos"].append({"t": c["t0"], "sfx": "whoosh" if c["tipo"] == "mapa" else "pop"})
+            continue
+        # rosto: troca de zoom a cada ~2,6 s (corte seco, como no modelo)
+        t = c["t0"]
+        while c["t1"] - t > 0.05:
+            alvo = c["t1"] if c["t1"] - t < 3.8 else corte_proximo(words, t + 2.6)
+            if alvo <= t + 0.8:
+                alvo = c["t1"]
+            z = 1.0 if c.get("gancho") and t == 0 else (1.38 if c.get("close") else zooms[kz % len(zooms)])
+            tipo = "gancho" if c.get("gancho") and t == 0 else ("close" if c.get("close") else None)
+            s = {"t0": round(t, 3), "t1": round(alvo, 3), "modo": "full", "zoom": z, "pan": [-1, 1][kz % 2]}
+            if tipo:
+                s["tipo"] = tipo
+            shots.append(s)
+            kz += 1
+            t = alvo
+    shots.append({"t0": round(fala_fim, 3), "t1": total, "modo": "fim", "zoom": 1.0, "pan": 0})
+    for k in range(1, len(shots)):
+        shots[k]["t0"] = shots[k - 1]["t1"]
+    tl["shots"] = [s for s in shots if s["t1"] - s["t0"] > 0.05]
+    tl["eventos"].append({"t": fala_fim, "sfx": "brilho"})
+    tl["eventos"].sort(key=lambda e: e["t"])
 
 
 if __name__ == "__main__":

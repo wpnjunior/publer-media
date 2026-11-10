@@ -77,6 +77,10 @@ Confira 6 quadros (`ffmpeg -ss`): sem sorrisão, rosto sem deformar. Se deformou
 - `dinamica` + `estilo_painel: "dossie"` (Dossiê confidencial): história real, experimento famoso, erro da medicina.
   Tela cheia com cortes a cada 2-3 s, painel em pasta "CONFIDENCIAL".
 - `dinamica` + `estilo_painel: "celular"` (Réplica à polêmica): notícia/polêmica do dia, painel como manchete.
+- `mapeamento` (Mapeamento: explicador em cenas, pedido do Wagner em 10/11): tema com lugar, data, estudo de outro país,
+  porcentagem, "o mundo todo faz X", história com linha do tempo. Cenas gráficas de tela cheia trocando a cada 2-4 s
+  (mapa 3D em papel antigo, cartão colorido com ícone, foto com fita, bolinhas de %, citação, etiqueta de data, barra),
+  intercaladas com ele em tela cheia; legenda serifada palavra a palavra em cima. Plano próprio (veja 6b).
 - Edição full (3D, recorte) NÃO roda aqui; nunca prometa.
 Empate: não repita o formato de ontem. Grave em meta.json `formato` e `motivo_formato`.
 
@@ -90,6 +94,22 @@ Escreva `diario/<hoje>/plano.json` (modelo completo em `reel_kit/diario/exemplo_
 - `fonte` aparece do início ao fim do trecho do estudo; `fim` traz a frase-lição e as referências com DOI.
 - `trilha`: uma de `reel_kit/trilhas/` (dark_cinematic, educacional, background_calmo, future_bass, ...);
   tensa para dossiê, leve para explicador, energética para réplica. Nunca música de terceiros.
+### 6b. Plano do formato `mapeamento` (modelo: `reel_kit/diario/exemplo_plano_mapeamento.json`)
+No lugar de `paineis`/`carimbos`/`numeros`, escreva `cenas` (12 a 18, uma a cada 2-4 s de fala; cada uma vale do seu
+`quando` até a próxima; cena gráfica com mais de 5,5 s é cortada para o rosto dele sozinha). Tipos:
+- `mapa`: `paises` (português ou inglês: "EUA", "Brasil", "Suécia", "Europa", "Escandinávia", "América Latina"), `cor`
+  (vermelho, amarelo, azul, laranja, verde, preto, roxo), opcional `outros` {paises, cor}, `setas` [["A","B"]],
+  `etiqueta` ("1984 · Perth"), `pip`: true (bolha dele no canto). Use para o país do estudo, de onde veio, onde proibiram.
+- `cartao`: `emoji`, `cor`, `rotulo` (até 3 palavras), opcional `fundo` (vermelho/amarelo/azul, tela inteira colorida).
+- `foto`: `emoji` ou `imagem` (arquivo em `<pasta_trabalho>/img/`), `cor` do bloco, `legenda` curta.
+- `bolinhas`: `valor` (0-100, só número real do estudo), `cor`, `legenda`, `mini` (citação curta da fonte).
+- `citacao`: `texto` (frase curta), `destaque` (trecho grifado em amarelo), `autor`.
+- `etiqueta`: `texto` ("10 dias", "1870 – 1950"), `sub`, `cor`.
+- `barra`: `barras` [{rotulo, valor, texto, cor}] (até 3).
+- `rosto`: volta para ele em tela cheia (use 3-5 vezes, nas viradas e micro-perguntas).
+Gancho e `closes` são sempre o rosto dele. `fonte`, `fim`, `titulo`, `destaques` e `trilha` valem igual.
+Na folha de conferência: o país certo aceso, a legenda de cima legível, nenhuma cena vazia.
+
 Rode:
 ```bash
 pip install -q faster-whisper pillow
