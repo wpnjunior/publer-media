@@ -67,11 +67,90 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:var(--fund
 #fim .frase { font-family:Mont; font-weight:900; font-size:64px; color:#fff; margin:40px 0; line-height:1.1; text-transform:uppercase; }
 #fim .ref { font-family:Mont; font-weight:600; font-size:30px; color:#cfd8d3; line-height:1.35; white-space:pre-line; }
 #fim .crm { font-family:Mont; font-weight:700; font-size:30px; color:var(--amarelo); margin-top:40px; }
+
+/* ===== formato Mapeamento: explicador em cenas (mapa 3D em papel antigo, cartões, fotos com fita, bolinhas) ===== */
+@font-face { font-family: Serif4; src: url(fonts/SourceSerif4.ttf); font-weight: 200 900; }
+@font-face { font-family: Serif4; src: url(fonts/SourceSerif4-Italic.ttf); font-weight: 200 900; font-style: italic; }
+@font-face { font-family: Maquina; src: url(fonts/CourierPrime.ttf); }
+#mp { position:absolute; inset:0; z-index:12; display:none; overflow:hidden; background:#8e8e8e; }
+#mp.fundo-vermelho { background:#c8102e; } #mp.fundo-amarelo { background:#f0bf14; } #mp.fundo-azul { background:#1d3fe0; }
+#mp .cinza { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 40%, rgba(255,255,255,.22), rgba(0,0,0,.28) 85%); }
+#mp .graoP { position:absolute; inset:0; opacity:.16; background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='3'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>"); }
+#mpMesa { position:absolute; left:-260px; top:250px; width:1600px; height:1900px; perspective:1700px; perspective-origin:50% 0%; }
+#mpPapel { position:absolute; inset:0; transform-origin:50% 0%; transform:rotateX(26deg) rotateZ(-2.5deg);
+  background:#e6d3a3; box-shadow:0 -6px 30px rgba(0,0,0,.35); overflow:hidden; }
+#mpPapel::before { content:""; position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:radial-gradient(ellipse at 30% 20%, rgba(255,250,230,.55), transparent 55%), radial-gradient(ellipse at 80% 90%, rgba(120,80,30,.28), transparent 60%),
+  url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.035' numOctaves='4'/><feColorMatrix values='0 0 0 0 .45  0 0 0 0 .32  0 0 0 0 .15  0 0 0 .35 0'/></filter><rect width='400' height='400' filter='url(%23n)'/></svg>"); }
+#mpSvg { position:absolute; inset:0; width:100%; height:100%; z-index:2; }
+#mpSvg .base path { fill:rgba(150,110,50,.07); stroke:#8c7348; stroke-width:1.3px; vector-effect:non-scaling-stroke; stroke-linejoin:round; }
+#mpSvg .lado path { vector-effect:non-scaling-stroke; stroke-width:1px; }
+#mpSvg .topo path { vector-effect:non-scaling-stroke; stroke-width:1.6px; }
+#mpSvg .arco { fill:none; stroke:#c8102e; stroke-width:4px; vector-effect:non-scaling-stroke; stroke-linecap:round; }
+#mpEtq { position:absolute; z-index:6; left:50%; top:1180px; font-family:Serif4; font-weight:700; font-size:66px; color:#fff;
+  background:#151515; padding:10px 34px 14px; transform:translateX(-50%) rotate(-2deg); box-shadow:0 10px 18px rgba(0,0,0,.35); white-space:nowrap; display:none; }
+#mpCont { position:absolute; z-index:5; left:0; right:0; top:330px; height:1300px; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.mpCard { width:640px; height:640px; transform-origin:50% 50%; box-shadow:0 26px 40px rgba(0,0,0,.35); display:flex; flex-direction:column; align-items:center; justify-content:center; }
+.mpCard .emo { font-size:330px; line-height:1; margin:0; }
+.mpCard .rot { font-family:Mont; font-weight:800; font-size:40px; letter-spacing:6px; text-transform:uppercase; margin-top:26px; }
+.mpBloco { position:relative; width:820px; height:640px; display:flex; align-items:center; justify-content:center; box-shadow:0 20px 34px rgba(0,0,0,.3); }
+.mpPola { position:relative; width:680px; background:#fbfaf6; padding:26px 26px 30px; box-shadow:0 18px 30px rgba(0,0,0,.35); }
+.mpPola .img { width:628px; height:440px; background:#e9e4da center/cover no-repeat; display:flex; align-items:center; justify-content:center; font-size:260px; overflow:hidden; }
+.mpPola .leg { font-family:Maquina; font-size:26px; color:#333; margin-top:14px; }
+.fita { position:absolute; width:150px; height:44px; background:rgba(190,170,230,.75); box-shadow:0 2px 4px rgba(0,0,0,.15); }
+.mpPct { font-family:Serif4; font-weight:600; font-size:150px; line-height:1; margin-bottom:34px; }
+.mpDots { display:grid; grid-template-columns:repeat(10, 46px); gap:20px; }
+.mpDots i { width:46px; height:46px; border-radius:50%; background:#4a4a4a; display:block; }
+.mpLab { font-family:Serif4; font-weight:600; font-size:44px; color:#fff; background:#151515; padding:8px 24px 12px; margin-top:44px; }
+.mpMini { font-family:Maquina; font-size:24px; color:#333; background:#f4f1ea; padding:8px 16px; margin-top:22px; max-width:880px; text-align:center; }
+.mpNota { width:900px; background:#fbfaf6; padding:56px 60px; box-shadow:0 22px 36px rgba(0,0,0,.3); transform:rotate(-1.2deg); }
+.mpNota .q { font-family:Maquina; font-size:48px; line-height:1.38; color:#1b1b1b; }
+.mpNota .q mark { background:linear-gradient(#ffe600,#ffe600) no-repeat 0 60% / var(--m,0%) 70%; color:inherit; padding:0 2px; }
+.mpNota .a { font-family:Maquina; font-size:26px; color:#666; margin-top:26px; }
+.mpTag { font-family:Serif4; font-weight:700; font-size:120px; color:#fff; padding:16px 50px 26px; box-shadow:0 18px 30px rgba(0,0,0,.35); transform:rotate(-2deg); white-space:nowrap; }
+.mpSub { font-family:Serif4; font-style:italic; font-size:52px; color:#1b1b1b; margin-top:40px; }
+.mpBarras { display:flex; align-items:flex-end; gap:70px; height:900px; }
+.mpBarras .b { display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; }
+.mpBarras .col { width:190px; box-shadow:0 14px 24px rgba(0,0,0,.3); }
+.mpBarras .tg { font-family:Mont; font-weight:800; font-size:34px; color:#fff; background:#c8102e; padding:6px 16px; margin-bottom:18px; white-space:nowrap; }
+.mpBarras .v { font-family:Serif4; font-weight:700; font-size:70px; color:#151515; margin-bottom:6px; }
+.mpDoc { position:relative; width:900px; background:#fff; padding:18px; box-shadow:0 24px 40px rgba(0,0,0,.4); transform:rotate(-1.5deg); }
+.mpDoc img { display:block; width:100%; max-height:980px; object-fit:cover; object-position:top; }
+.mpDoc .grifo { position:absolute; left:18px; background:rgba(255,230,0,.45); mix-blend-mode:multiply; }
+.mpDoc .ref { font-family:Maquina; font-size:26px; color:#333; margin-top:14px; }
+#mpCap { position:absolute; z-index:8; left:60px; right:60px; top:118px; text-align:center; font-family:Serif4; color:#24201a;
+  text-shadow:0 1px 0 rgba(255,255,255,.35); line-height:1.1; }
+#mpCap .g { font-size:86px; font-weight:600; }
+#mpCap .p { font-size:42px; font-weight:500; }
+#mpCap span { display:inline-block; margin:0 .14em; }
+#mp.fundo-vermelho #mpCap, #mp.fundo-azul #mpCap { color:#fff; text-shadow:none; }
+#mpPip { position:absolute; z-index:9; left:742px; top:520px; width:270px; height:270px; border-radius:50%; overflow:hidden;
+  border:7px solid #fff; box-shadow:0 12px 26px rgba(0,0,0,.45); display:none; background:#111; }
+#mpPip img { position:absolute; left:0; top:0; width:1080px; height:1920px; transform-origin:0 0; }
+body.mapeamento #cap { font-family:Serif4; font-style:italic; font-weight:600; font-size:64px; text-transform:none; -webkit-text-stroke:0;
+  color:#fff; text-shadow:0 3px 12px rgba(0,0,0,.85), 0 0 2px rgba(0,0,0,.9); }
+body.mapeamento #cap .cur { color:#fff; } body.mapeamento #cap .dest { color:#ffd84a; }
+body.mapeamento #bigtitle { font-family:Serif4; font-weight:800; text-transform:none; color:#fff; -webkit-text-stroke:0; font-size:118px; line-height:1.02;
+  text-shadow:0 6px 24px rgba(0,0,0,.8); top:auto; bottom:640px; }
+body.mapeamento #prog { top:auto; bottom:44px; left:40px; height:5px; background:rgba(255,255,255,.95); border-radius:3px; }
+body.mapeamento #progTrilho { display:block; }
+#progTrilho { display:none; position:absolute; z-index:45; left:40px; right:40px; bottom:44px; height:5px; border-radius:3px; background:rgba(255,255,255,.3); }
+body.mapeamento #fonte { background:#f4f1ea; color:#333; border-left:0; font-family:Maquina; font-weight:400; font-size:26px; border-radius:2px; bottom:110px; }
+body.mapeamento #fonte b { color:#c8102e; }
+body.mapeamento #fim { background:#8e8e8e; }
+body.mapeamento #fim .marca { font-family:Serif4; font-weight:800; color:#fff; font-size:110px; letter-spacing:0; }
+body.mapeamento #fim .frase { font-family:Serif4; font-weight:600; text-transform:none; font-size:68px; color:#151515; background:#e6d3a3; padding:30px 40px; transform:rotate(-1.5deg); box-shadow:0 18px 30px rgba(0,0,0,.3); }
+body.mapeamento #fim .ref { font-family:Maquina; color:#151515; }
+body.mapeamento #fim .crm { color:#fff; }
 </style>
 </head>
 <body>
 <div id="stage">
   <div id="vidbox"><img id="vid" alt=""></div>
+  <div id="mp"><div class="cinza"></div><div class="graoP"></div>
+    <div id="mpMesa"><div id="mpPapel"><svg id="mpSvg" viewBox="0 0 1600 1900" preserveAspectRatio="none"><g id="mpCam"><g class="base"></g><g id="mpHi"></g><g id="mpArcos"></g></g></svg></div></div>
+    <div id="mpEtq"></div><div id="mpCont"></div><div id="mpCap"></div><div id="mpPip"><img alt=""></div>
+  </div>
   <div id="bigtitle"></div>
   <div id="paper"><div class="linhas"></div><div id="pcont"></div></div>
   <div id="aba"></div>
@@ -81,6 +160,7 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:var(--fund
   <div id="cap"></div>
   <div id="fim"><div class="marca">PAPO DE MÉDICO</div><div class="frase"></div><div class="ref"></div><div class="crm">Dr. Wagner Novaes Jr. · CRM-RJ 0127554-2</div></div>
   <div id="flash"></div>
+  <div id="progTrilho"></div>
   <div id="prog"></div>
   <div id="vinheta"></div>
   <div id="grain"></div>
@@ -101,6 +181,7 @@ window.init = async function (tl) {
   $('#aba').textContent = tl.titulo || '';
   const est = tl.estilo_painel || 'caderno';
   if (est !== 'caderno') $('#paper').classList.add(est);
+  if (tl.formato === 'mapeamento') await mpInit();
   $('#fim .frase').textContent = (tl.fim && tl.fim.frase) || '';
   $('#fim .ref').textContent = (tl.fim && tl.fim.ref) || '';
   return true;
@@ -191,6 +272,178 @@ function desenhaPainel(p, t) {
   }
 }
 
+
+// ===================== formato Mapeamento =====================
+const MPCOR = { vermelho:['#d81414','#8a0b0b'], amarelo:['#f3c316','#a07c05'], azul:['#1d3fe0','#0f2386'], laranja:['#ea7a3c','#9a4718'],
+  verde:['#1f9d55','#0f5c30'], preto:['#262626','#050505'], roxo:['#7a3fd0','#45207d'] };
+const cor = (c, k = 0) => (MPCOR[c] || MPCOR.vermelho)[k];
+let MAPA = null, NOMES = null;
+async function mpInit() {
+  document.body.classList.add('mapeamento');
+  MAPA = await (await fetch('mapa_mundo.json')).json();
+  NOMES = {};
+  for (const n of Object.keys(MAPA.paises)) NOMES[norm(n)] = [n];
+  for (const [k, v] of Object.entries(MAPA.apelidos)) NOMES[norm(k)] = [v];
+  for (const [k, v] of Object.entries(MAPA.grupos)) NOMES[norm(k)] = v;
+  const base = document.querySelector('#mpSvg .base');
+  base.innerHTML = Object.values(MAPA.paises).map(p => `<path d="${p.d}"/>`).join('');
+  await document.fonts.load('500 74px Serif4'); await document.fonts.load('italic 600 64px Serif4'); await document.fonts.load('40px Maquina');
+}
+function resolve(lista) {
+  const out = [];
+  for (const x of lista || []) { const r = NOMES[norm(x)]; if (!r) console.warn('país não achado: ' + x); else out.push(...r.filter(n => MAPA.paises[n])); }
+  return out;
+}
+function caixa(nomes) {
+  let b = null;
+  for (const n of nomes) { const q = MAPA.paises[n].bbox; b = b ? [Math.min(b[0], q[0]), Math.min(b[1], q[1]), Math.max(b[2], q[2]), Math.max(b[3], q[3])] : q.slice(); }
+  return b;
+}
+function camDe(c) {
+  // câmera = centro e escala em coordenadas do mapa (1 unidade = 1 px no papel em escala 1)
+  const nomes = [...resolve(c.paises), ...resolve((c.outros || {}).paises), ...resolve((c.setas || []).flat())];
+  if (!nomes.length) return { x: 1000, y: 470, k: 0.95 };
+  const b = caixa(nomes); const bw = Math.max(b[2] - b[0], 8), bh = Math.max(b[3] - b[1], 8);
+  const k = clamp(Math.min(1600 * 0.42 / bw, 1900 * 0.3 / bh), 0.7, 16) * (c.zoom || 1);
+  return { x: (b[0] + b[2]) / 2, y: (b[1] + b[3]) / 2, k };
+}
+function centro(n) { const b = MAPA.paises[n].bbox; return [(b[0] + b[2]) / 2, (b[1] + b[3]) / 2]; }
+let mpChave = null;
+function mpMontaMapa(c) {
+  const grupos = [[resolve(c.paises), c.cor || 'vermelho', 0]];
+  if (c.outros) grupos.push([resolve(c.outros.paises), c.outros.cor || 'laranja', 0.35]);
+  const N = 14; let h = '';
+  for (const [nomes, co, atraso] of grupos) {
+    const d = nomes.map(n => MAPA.paises[n].d).join('');
+    if (!d) continue;
+    h += `<g class="ext" data-atraso="${atraso}" style="filter:drop-shadow(0 18px 14px rgba(40,25,5,.35))">`;
+    for (let j = 0; j < N; j++) h += `<g class="lado" data-j="${j}"><path d="${d}" fill="${cor(co, 1)}" stroke="${cor(co, 1)}"/></g>`;
+    h += `<g class="topo"><path d="${d}" fill="${cor(co)}" stroke="${cor(co, 1)}"/></g></g>`;
+  }
+  document.querySelector('#mpHi').innerHTML = h;
+  document.querySelector('#mpArcos').innerHTML = (c.setas || []).map(([a, b]) => {
+    const A = resolve([a])[0], B = resolve([b])[0]; if (!A || !B) return '';
+    const [x1, y1] = centro(A), [x2, y2] = centro(B); const mx = (x1 + x2) / 2, my = (y1 + y2) / 2 - Math.hypot(x2 - x1, y2 - y1) * 0.35;
+    return `<path class="arco" pathLength="1" d="M${x1} ${y1}Q${mx} ${my} ${x2} ${y2}" style="stroke-dasharray:1;stroke-dashoffset:1"/>`;
+  }).join('');
+}
+function mpCenaAnterior(i) { for (let k = i - 1; k >= 0; k--) { if (TL.cenas[k].tipo === 'mapa') return k; if (TL.cenas[k].tipo !== 'rosto' || k < i - 2) return -1; } return -1; }
+function mpMapa(c, i, t) {
+  const chave = 'm' + i;
+  if (mpChave !== chave) { mpChave = chave; mpMontaMapa(c); }
+  const k = t - c.t0, dur = c.t1 - c.t0;
+  const alvo = camDe(c); const ant = mpCenaAnterior(i);
+  const de = ant >= 0 && !c.volta ? camDe(TL.cenas[ant]) : { x: alvo.x, y: alvo.y, k: alvo.k * 0.62 };
+  const e = c.volta ? 1 : ease(P(k, 0, 0.9));
+  const lk = Math.log(de.k) + (Math.log(alvo.k) - Math.log(de.k)) * e;
+  const z = Math.exp(lk) * (1 + 0.04 * (k / Math.max(dur, 0.1)));
+  const cx = de.x + (alvo.x - de.x) * e, cy = de.y + (alvo.y - de.y) * e;
+  document.querySelector('#mpCam').setAttribute('transform', `translate(800 ${1900 * 0.3}) scale(${z}) translate(${-cx} ${-cy})`);
+  const H = 34 / z; // altura da extrusão em px de tela
+  document.querySelectorAll('#mpHi .ext').forEach(g => {
+    const at = parseFloat(g.dataset.atraso) + (c.volta ? -5 : 0.25);
+    const r = back(P(k, at, 0.45)); const h = H * r;
+    g.style.opacity = P(k, at, 0.08);
+    g.querySelectorAll('.lado').forEach(l => l.setAttribute('transform', `translate(0 ${-h + (parseInt(l.dataset.j) / 14) * h})`));
+    g.querySelector('.topo').setAttribute('transform', `translate(0 ${-h})`);
+  });
+  document.querySelectorAll('#mpArcos .arco').forEach((a, j) => { a.style.strokeDashoffset = 1 - ease(P(k, 0.6 + j * 0.25, 0.8)); });
+  const et = document.querySelector('#mpEtq');
+  if (c.etiqueta) { et.style.display = 'block'; et.textContent = c.etiqueta; const r = back(P(k, 0.7, 0.35)); et.style.transform = `translateX(-50%) rotate(-2deg) scale(${r})`; et.style.opacity = P(k, 0.7, 0.1); }
+  else et.style.display = 'none';
+}
+function fitas() { return '<div class="fita" style="left:-40px;top:-14px;transform:rotate(-32deg)"></div><div class="fita" style="right:-40px;top:-14px;transform:rotate(32deg)"></div>'; }
+function mpMonta(c) {
+  const box = document.querySelector('#mpCont');
+  let h = '';
+  if (c.tipo === 'cartao') h = `<div class="mpCard" style="background:${cor(c.cor || 'amarelo')}"><div class="emo">${esc(c.emoji || '❗')}</div>${c.rotulo ? `<div class="rot" style="color:${c.cor === 'amarelo' || !c.cor ? '#151515' : '#fff'}">${esc(c.rotulo)}</div>` : ''}</div>`;
+  else if (c.tipo === 'foto') {
+    const img = c.imagem ? `<div class="img" style="background-image:url('${esc(c.imagem)}')"></div>` : `<div class="img">${esc(c.emoji || '📷')}</div>`;
+    h = `<div class="mpBloco" style="background:${cor(c.cor || 'azul')}"><div class="mpPola">${fitas()}${img}${c.legenda ? `<div class="leg">${esc(c.legenda)}</div>` : ''}</div></div>`;
+  } else if (c.tipo === 'bolinhas') {
+    const v = clamp(Math.round(c.valor || 0), 0, 100);
+    h = `<div class="mpPct" style="color:${cor(c.cor || 'vermelho')}" data-v="${v}">0%</div><div class="mpDots">${'<i></i>'.repeat(100)}</div>` +
+      (c.legenda ? `<div class="mpLab">${esc(c.legenda)}</div>` : '') + (c.mini ? `<div class="mpMini">${esc(c.mini)}</div>` : '');
+  } else if (c.tipo === 'citacao') {
+    let q = esc(c.texto || ''); const d = c.destaque ? esc(c.destaque) : '';
+    if (d && q.includes(d)) q = q.replace(d, `<mark>${d}</mark>`);
+    h = `<div class="mpNota"><div class="q">“${q}”</div>${c.autor ? `<div class="a">${esc(c.autor)}</div>` : ''}</div>`;
+  } else if (c.tipo === 'etiqueta') h = `<div class="mpTag" style="background:${cor(c.cor || 'azul')}">${esc(c.texto || '')}</div>${c.sub ? `<div class="mpSub">${esc(c.sub)}</div>` : ''}`;
+  else if (c.tipo === 'documento') {
+    const g = c.grifo ? `<div class="grifo" data-y0="${c.grifo[0]}" data-y1="${c.grifo[1]}"></div>` : '';
+    h = `<div class="mpDoc">${fitas()}<img src="${esc(c.imagem || '')}" alt="">${g}${c.legenda ? `<div class="ref">${esc(c.legenda)}</div>` : ''}</div>`;
+  }
+  else if (c.tipo === 'barra') {
+    const bs = c.barras || []; const mx = Math.max(...bs.map(b => b.valor), 1);
+    h = `<div class="mpBarras">${bs.map(b => `<div class="b"><div class="v">${esc(b.texto || b.valor)}</div>${b.rotulo ? `<div class="tg">${esc(b.rotulo)}</div>` : ''}<div class="col" data-h="${(b.valor / mx) * 640}" style="background:${cor(b.cor || 'vermelho')};height:0"></div></div>`).join('')}</div>`;
+  }
+  box.innerHTML = h;
+}
+function mpAnima(c, t) {
+  const k = c.volta ? 9 : t - c.t0; const box = document.querySelector('#mpCont');
+  const el1 = box.firstElementChild; if (!el1) return;
+  const r = back(P(k, 0, 0.4));
+  if (c.tipo === 'cartao') el1.style.transform = `scale(${0.55 + 0.45 * r}) rotate(${-3 - (1 - ease(P(k, 0, .5))) * 10}deg)`;
+  else if (c.tipo === 'foto') { el1.style.transform = `rotate(-2deg) translateY(${(1 - ease(P(k, 0, .45))) * 900}px)`; const pl = el1.querySelector('.mpPola'); pl.style.transform = `rotate(${1.5 + (1 - ease(P(k, .2, .5))) * 8}deg) translateY(${(1 - ease(P(k, .2, .5))) * 300}px)`; }
+  else if (c.tipo === 'bolinhas') {
+    const pc = box.querySelector('.mpPct'); const v = +pc.dataset.v; const e = ease(P(k, 0.3, 1.1)); const n = Math.round(v * e);
+    pc.textContent = n + '%'; box.querySelectorAll('.mpDots i').forEach((d, j) => { d.style.background = j < n ? cor(c.cor || 'vermelho') : '#4a4a4a'; });
+    box.style.transform = `scale(${0.9 + 0.1 * r})`;
+    box.querySelectorAll('.mpLab, .mpMini').forEach((l, j) => { l.style.opacity = P(k, 0.6 + j * 0.3, 0.2); });
+  } else if (c.tipo === 'citacao') { el1.style.transform = `rotate(-1.2deg) translateY(${(1 - ease(P(k, 0, .45))) * 700}px)`; const m = box.querySelector('mark'); if (m) m.style.setProperty('--m', (ease(P(k, 0.9, 0.7)) * 100) + '%'); }
+  else if (c.tipo === 'etiqueta') { el1.style.transform = `rotate(-2deg) translateX(${(1 - ease(P(k, 0, .35))) * -1200}px)`; const sb = box.querySelector('.mpSub'); if (sb) sb.style.opacity = P(k, 0.5, 0.3); }
+  else if (c.tipo === 'documento') {
+    el1.style.transform = `rotate(-1.5deg) translateY(${(1 - ease(P(k, 0, .45))) * 1100}px) scale(${1 + 0.05 * P(k, 0.5, 4)})`;
+    const g = el1.querySelector('.grifo'), im = el1.querySelector('img');
+    if (g && im) { const y0 = +g.dataset.y0, y1 = +g.dataset.y1, H = im.offsetHeight; g.style.top = (18 + y0 * H) + 'px'; g.style.height = ((y1 - y0) * H) + 'px'; g.style.width = (ease(P(k, 0.8, 0.7)) * im.offsetWidth) + 'px'; }
+  }
+  else if (c.tipo === 'barra') box.querySelectorAll('.col').forEach((b, j) => { b.style.height = (ease(P(k, 0.2 + j * 0.3, 0.8)) * parseFloat(b.dataset.h)) + 'px'; });
+  if (c.tipo !== 'bolinhas') box.style.transform = 'none';
+}
+// legenda de cima: a palavra-chave grande, as palavrinhas pequenas, entrando conforme a fala
+let MPCH = null;
+function mpChunks() {
+  if (MPCH) return MPCH;
+  MPCH = []; let ch = [], big = 0;
+  TL.words.forEach((w, i) => {
+    const g = norm(w.w).length > 3 || /\d/.test(w.w); ch.push(i); if (g) big++;
+    if (big === 2 || (g && /[.,?!;:]$/.test(w.w))) { MPCH.push(ch); ch = []; big = 0; }
+  });
+  if (ch.length) MPCH.push(ch);
+  return MPCH;
+}
+function mpLegenda(t) {
+  const cap = document.querySelector('#mpCap'); const W = TL.words;
+  let i = -1; for (let j = 0; j < W.length; j++) { if (W[j].s <= t + 0.02) i = j; else break; }
+  if (i < 0 || t > W[i].e + 0.8) { cap.innerHTML = ''; return; }
+  const ch = mpChunks().find(c => c.includes(i));
+  cap.innerHTML = ch.filter(j => j <= i).map(j => {
+    const w = W[j], g = norm(w.w).length > 3 || /\d/.test(w.w); const r = ease(P(t, w.s, 0.14));
+    return `<span class="${g ? 'g' : 'p'}" style="opacity:${r};transform:translateY(${(1 - r) * 14}px)">${esc(w.w.replace(/[.,;:]+$/, ''))}</span>`;
+  }).join('');
+}
+function mpPip(c, t, src) {
+  const pip = document.querySelector('#mpPip');
+  const on = c.pip && t - c.t0 > 0.6 && c.tipo !== 'rosto';
+  pip.style.display = on ? 'block' : 'none'; if (!on) return;
+  const im = pip.querySelector('img'); if (!im.src.endsWith(src)) im.src = src;
+  const [rx, ry] = TL.rosto; const z = 0.46;
+  im.style.transform = `translate(${135 - rx * 1080 * z}px, ${150 - ry * 1920 * z}px) scale(${z})`;
+  const r = back(P(t - c.t0, 0.6, 0.35)); pip.style.transform = `scale(${r})`;
+  if (c.tipo === 'mapa') { pip.style.left = '742px'; pip.style.top = '520px'; } else { pip.style.left = '760px'; pip.style.top = '1500px'; }
+}
+let mpUlt = null;
+async function mpDesenha(c, i, t, src) {
+  const mp = document.querySelector('#mp'); mp.style.display = 'block';
+  mp.className = c.fundo && c.tipo !== 'mapa' ? 'fundo-' + c.fundo : '';
+  const ehMapa = c.tipo === 'mapa';
+  document.querySelector('#mpMesa').style.display = ehMapa ? 'block' : 'none';
+  document.querySelector('#mpCont').style.display = ehMapa ? 'none' : 'flex';
+  if (ehMapa) mpMapa(c, i, t);
+  else { document.querySelector('#mpEtq').style.display = 'none'; if (mpUlt !== i) { mpUlt = i; mpMonta(c); await Promise.all([...document.querySelectorAll('#mpCont img')].map(im => im.decode().catch(() => {}))); } mpAnima(c, t); }
+  mpLegenda(t); mpPip(c, t, src);
+}
+
 window.renderFrame = async function (f) {
   const t = f / FPS;
   const s = shotAt(t);
@@ -200,6 +453,8 @@ window.renderFrame = async function (f) {
   const src = `frames/${String(fr).padStart(5, '0')}.jpg`;
   if (!img.src.endsWith(src)) { img.src = src; await img.decode().catch(() => {}); }
 
+  const MP = TL.formato === 'mapeamento';
+  if (MP && s.modo === 'cena') await mpDesenha(TL.cenas[s.cena], s.cena, t, src); else if (MP) $('#mp').style.display = 'none';
   const [rx, ry] = TL.rosto;
   const k = t - s.t0, dur = s.t1 - s.t0;
   const drift = 1 + 0.025 * (k / Math.max(dur, 0.1));   // zoom lento dentro do plano
@@ -271,12 +526,12 @@ window.renderFrame = async function (f) {
   if (TL.fonte && t >= TL.fonte.t0 && t < TL.fonte.t1 && !nm && !st) {
     fo.style.display = 'block'; fo.innerHTML = `<b>FONTE</b> · ${esc(TL.fonte.texto)}`;
     fo.style.opacity = P(t, TL.fonte.t0, 0.25) * (1 - P(t, TL.fonte.t1 - 0.25, 0.25));
-    fo.style.bottom = split ? '120px' : (painelSobre ? '60px' : '250px');
+    fo.style.bottom = MP ? '110px' : split ? '120px' : (painelSobre ? '60px' : '250px');
   } else fo.style.display = 'none';
 
   // legenda
-  const capY = split ? 820 : (painelSobre ? 1600 : 1330);
-  legenda(t, capY, s.modo !== 'fim' && !nm && !st && s.tipo !== 'gancho');
+  const capY = MP ? 1450 : (split ? 820 : (painelSobre ? 1600 : 1330));
+  legenda(t, capY, s.modo !== 'fim' && s.modo !== 'cena' && !nm && !st && s.tipo !== 'gancho');
 
   // flash nos impactos (só a partir do tempo do impacto)
   let fl = 0;
@@ -286,7 +541,7 @@ window.renderFrame = async function (f) {
   // cartão final
   const fim = $('#fim');
   fim.style.opacity = s.modo === 'fim' ? ease(P(t, s.t0, 0.35)) : 0;
-  $('#prog').style.width = (clamp(t / TL.fala_fim, 0, 1) * 1080) + 'px';
+  $('#prog').style.width = (clamp(t / TL.fala_fim, 0, 1) * (MP ? 1000 : 1080)) + 'px';
   return true;
 };
 </script>
