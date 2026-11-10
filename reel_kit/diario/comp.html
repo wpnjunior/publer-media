@@ -23,7 +23,7 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:var(--fund
 #paper { position:absolute; z-index:15; left:46px; right:46px; top:70px; height:700px; border-radius:22px;
   background:var(--papel); box-shadow:0 22px 40px rgba(0,0,0,.45); overflow:hidden; }
 #paper.dossie { background:#e9d9a8; }
-#paper.dossie::after { content:"CONFIDENCIAL"; position:absolute; right:36px; bottom:28px; font-family:Anton; font-size:46px;
+#paper.dossie::after { content:"CONFIDENCIAL"; position:absolute; right:26px; top:18px; font-family:Anton; font-size:34px;
   color:rgba(200,30,40,.55); border:5px solid rgba(200,30,40,.55); padding:2px 16px; transform:rotate(-8deg); }
 #paper.celular { background:#10151c; border:10px solid #2a3240; }
 #paper .linhas { position:absolute; inset:0; background:repeating-linear-gradient(transparent 0 58px, rgba(60,90,160,.18) 58px 60px); }
@@ -212,10 +212,15 @@ window.renderFrame = async function (f) {
   let z = s.zoom * drift;
   // centro do rosto na caixa
   const fx = rx * 1080, fy = ry * 1920;
+  const pAgora = painelAt(t);
+  const painelSobre = !!pAgora && !split && TL.formato === 'dinamica' && s.modo === 'full' && !s.tipo;
   let ty;
   if (split) ty = boxH * 0.30 - fy * z;             // rosto a 30% da caixa de baixo
   else ty = 1920 * (s.tipo === 'close' ? 0.36 : 0.40) - fy * z;
   ty = clamp(ty, boxH - 1920 * z, 0);
+  // dossiê/réplica com painel em cima: desce a imagem para o topo da cabeça ficar abaixo do painel
+  // (o vão de cima fica atrás do painel e do fundo; nunca cobrir os olhos dele)
+  if (painelSobre) ty = 700 - 0.15 * 1920 * z;
   let tx = 540 - fx * z + (s.pan || 0) * 18 * (z - 1) * 4;
   tx = clamp(tx, 1080 - 1080 * z, 0);
   img.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`;
@@ -237,7 +242,7 @@ window.renderFrame = async function (f) {
   paper.style.display = mostraPainel ? 'block' : 'none';
   aba.style.display = mostraPainel && TL.titulo ? 'block' : 'none';
   if (mostraPainel) {
-    if (!split) { paper.style.top = '150px'; paper.style.height = '640px'; paper.style.opacity = .97; }
+    if (!split) { paper.style.top = '110px'; paper.style.height = '560px'; paper.style.opacity = 1; }
     else { paper.style.top = '70px'; paper.style.height = '700px'; paper.style.opacity = 1; }
     const e = back(P(t, p.t0, 0.3));
     paper.style.transform = `translateY(${(1 - e) * -30}px) rotate(${(1 - e) * -1.5}deg)`;
@@ -266,11 +271,11 @@ window.renderFrame = async function (f) {
   if (TL.fonte && t >= TL.fonte.t0 && t < TL.fonte.t1 && !nm && !st) {
     fo.style.display = 'block'; fo.innerHTML = `<b>FONTE</b> · ${esc(TL.fonte.texto)}`;
     fo.style.opacity = P(t, TL.fonte.t0, 0.25) * (1 - P(t, TL.fonte.t1 - 0.25, 0.25));
-    fo.style.bottom = split ? '120px' : '250px';
+    fo.style.bottom = split ? '120px' : (painelSobre ? '60px' : '250px');
   } else fo.style.display = 'none';
 
   // legenda
-  const capY = split ? 820 : 1330;
+  const capY = split ? 820 : (painelSobre ? 1600 : 1330);
   legenda(t, capY, s.modo !== 'fim' && !nm && !st && s.tipo !== 'gancho');
 
   // flash nos impactos (só a partir do tempo do impacto)
