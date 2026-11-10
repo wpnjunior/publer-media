@@ -1,6 +1,6 @@
 {
  "data": "2026-11-10",
- "status": "agendado",
+ "status": "publicado",
  "tema": "O médico que bebeu a bactéria: gastrite não é só nervoso (H. pylori, Marshall e Warren)",
  "nota_jev": 9,
  "candidatos": [
@@ -69,5 +69,10 @@
  "previa_disparada": true,
  "branch_anterior": "claude/project-thread-qzwnuj",
  "metricool_id": 423621858,
- "agendado_em": "2026-11-10T17:06-03:00"
+ "agendado_em": "2026-11-10T17:06-03:00",
+ "links": {
+  "instagram": "https://www.instagram.com/reel/Dfk1ExhCvZ-/",
+  "tiktok": "https://www.tiktok.com/@drwagnernovaesjr/video/7706649692825767169",
+  "youtube": "https://www.youtube.com/shorts/fNxFLmDmzOI"
+ }
 }
