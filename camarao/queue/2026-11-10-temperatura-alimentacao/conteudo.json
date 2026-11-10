@@ -1,0 +1,56 @@
+{
+ "marca": ["PAPO DE", "CARCINICULTOR"],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Alimentação",
+   "manchete": "Teu camarão não está sem fome. <span class=\"hl\">Está com frio.</span>",
+   "sub": "Consumo de ração quase dobra entre água fria e água quente, mostra estudo com microfone no fundo do tanque.",
+   "fonte": "Fonte: Zhang et al., Animals, 2025"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "numero": "01",
+   "manchete": "A ração que <span class=\"hl\">sobra no fundo</span>",
+   "corpo": "Em 30 minutos de teste, o camarão comeu <b>0,95 g</b> de ração a 32°C. A 20°C, comeu só <b>0,46 g</b> — quase a metade.",
+   "destaque": "Em dia de água fria, ajuste a ração antes de jogar mais no viveiro.",
+   "fonte": "Zhang et al., Animals, 2025, doi:10.3390/ani15142113"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "02",
+   "manchete": "O som do <span class=\"hl\">silêncio</span>",
+   "corpo": "Um microfone gravou o som da mastigação. A 32°C, quase <b>2.950 cliques</b> em 30 min. A 20°C, só <b>388</b>.",
+   "destaque": "Camarão quieto comendo pouco não é falta de apetite — é água fria.",
+   "fonte": "Zhang et al., Animals, 2025, doi:10.3390/ani15142113"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "03",
+   "manchete": "Amônia <span class=\"hl\">tira o apetite</span>",
+   "corpo": "Com <b>12 mg/L</b> de amônia na água, o consumo de ração caiu <b>0,15 g</b> e a atividade de mastigação caiu quase <b>912 cliques</b> frente à água limpa.",
+   "destaque": "Antes de aumentar a ração por 'ele comeu pouco', meça a amônia.",
+   "fonte": "Zhang et al., Animals, 2025, doi:10.3390/ani15142113"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "04",
+   "manchete": "Nitrito <span class=\"hl\">também pesa</span>",
+   "corpo": "Com <b>40 mg/L</b> de nitrito, o consumo caiu <b>0,15 g</b> e a atividade caiu mais de <b>300 cliques</b> nos mesmos 30 minutos.",
+   "destaque": "Água ruim engana o produtor: parece camarão sem fome, é camarão intoxicado.",
+   "fonte": "Zhang et al., Animals, 2025, doi:10.3390/ani15142113"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta a temperatura e a água do teu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
