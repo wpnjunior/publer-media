@@ -83,7 +83,7 @@ Empate: não repita o formato de ontem. Grave em meta.json `formato` e `motivo_f
 ## 6. Plano de edição e render
 Escreva `diario/<hoje>/plano.json` (modelo completo em `reel_kit/diario/exemplo_plano.json`). Regras:
 - `quando` = trecho EXATO de 2-4 palavras do roteiro (o editor acha o tempo pela fala).
-- 7 a 10 `paineis` (tipos: fala, texto, numero, comparacao, checklist, manchete), um por ideia, com emoji.
+- 7 a 10 `paineis` (tipos: fala, texto, numero, comparacao, checklist, manchete), um por ideia, com emoji. No estilo `dossie` NÃO use `manchete` (sai texto branco no papel claro, ilegível): use `texto`. Na folha de conferência, o painel nunca pode cobrir os olhos dele.
   Texto curto (até 7 palavras). Comparação só com números reais do estudo.
 - 1 ou 2 `carimbos` (palavra de impacto), 0-2 `numeros` gigantes (o número-chave do estudo), 2-3 `closes`
   (frases de impacto: "Olha que coisa", a frase-lição), `destaques` (6-10 palavras-chave em amarelo).
@@ -100,7 +100,7 @@ no lugar. Se algo saiu errado, ajuste o plano e rode de novo (no máximo 3 vezes
 ```bash
 python pipeline/sabor/camuflar_forte.py /tmp/diario/editado.mp4 --saida /tmp/diario/sabor
 python pipeline/sabor/conferir_sabor.py /tmp/diario/sabor --origem /tmp/diario   # tem que sair 0
-cp /tmp/diario/sabor/editado-sabor.mp4 diario/<hoje>/reel.mp4
+cp /tmp/diario/sabor/editado-sabor.mp4 diario/<hoje>/reel.mp4   # grave no meta.json tamanho_bytes_raw = tamanho deste arquivo (o portão das 17h compara com o raw_url)
 cp /tmp/diario/w/conferir/folha.jpg diario/<hoje>/folha.jpg
 ```
 Confira: reel.mp4 existe, > 1 MB, < 95 MB, duração entre 90% e 110% do bruto + 2,6 s do cartão final.
