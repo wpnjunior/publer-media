@@ -1,6 +1,6 @@
 {
  "data": "2026-11-10",
- "status": "previa",
+ "status": "agendado",
  "tema": "O médico que bebeu a bactéria: gastrite não é só nervoso (H. pylori, Marshall e Warren)",
  "nota_jev": 9,
  "candidatos": [
@@ -67,5 +67,7 @@
  "tamanho_bytes_raw": 30033265,
  "obs_pasta_rede": "a pasta /mnt/project-files remuxa o mp4 ao gravar (fica ~29969405 bytes, md5 diferente), mesma duração 67,4 s e sabor aprovado; a mídia oficial é a do raw_url",
  "previa_disparada": true,
- "branch_anterior": "claude/project-thread-qzwnuj"
+ "branch_anterior": "claude/project-thread-qzwnuj",
+ "metricool_id": 423621858,
+ "agendado_em": "2026-11-10T17:06-03:00"
 }
