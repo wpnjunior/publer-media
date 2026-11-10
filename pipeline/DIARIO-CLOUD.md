@@ -12,11 +12,14 @@ no Metricool para 18h (Instagram, TikTok e YouTube).
 ## 0. Travas (antes de gastar qualquer coisa)
 - Código: o editor vive em `reel_kit/diario/`. Se essa pasta não existir no master, traga do branch de trabalho
   sem comitar: `git fetch origin claude/project-thread-wkec50 && git checkout origin/claude/project-thread-wkec50 --
-  reel_kit/diario pipeline/sabor/conferir_sabor.py && git reset -q`. Comite SÓ `diario/<hoje>/` no master.
-- Data de hoje no fuso America/Bahia. Se já existe `diario/<hoje>/meta.json`, ENCERRE ("já coberto").
-- Se existe o arquivo `diario/PAUSADO`, ENCERRE ("pausado pelo Wagner").
+  reel_kit/diario pipeline/sabor/conferir_sabor.py && git reset -q`. Comite SÓ `diario/<hoje>/`, no branch em que você trabalha.
+- ESTADO COMPARTILHADO: a pasta do projeto `/mnt/project-files/diario/<hoje>/` (outras etapas leem dali).
+- Data de hoje no fuso America/Bahia. Se já existe `/mnt/project-files/diario/<hoje>/meta.json`, ENCERRE ("já coberto").
+- Se existe `/mnt/project-files/diario/PAUSADO`, ENCERRE ("pausado pelo Wagner").
+- Logo que passar das travas, crie `/mnt/project-files/diario/<hoje>/meta.json` com {"data":..., "status":"produzindo"}
+  (é a trava contra duas rotinas no mesmo dia).
 - HeyGen `get_current_user`: se `premium_credits.remaining` < 150 + custo estimado (47 créditos por minuto de
-  vídeo), NÃO gere. Crie `diario/<hoje>/meta.json` com status "sem_credito" e o saldo, dê push e siga ao passo 8.
+  vídeo), NÃO gere. Grave status "sem_credito" e o saldo no meta.json da pasta do projeto e siga ao passo 8.
 
 ## 1. Tema mais viral do dia (3 a 5 candidatos)
 Fontes, nesta ordem: vidIQ (`vidiq_trending_videos`, `vidiq_outliers`, `vidiq_instagram_tiktok_outlier_search`
@@ -112,9 +115,13 @@ Converse com seu médico.", 3 a 5 hashtags incluindo #papodemedico. Sem travess�
  "heygen_id":"...","heygen_link":"https://app.heygen.com/videos/<id>","creditos_antes":0,"creditos_depois":0,
  "formato":"tela_dividida","motivo_formato":"...","duracao_s":60.8,"tamanho_mb":27.2,"trilha":"...",
  "fontes":[{"ref":"Autor et al., Revista Ano","doi":"..."}],"legenda":"...","titulo_yt":"<até 90 caracteres> #Shorts",
- "publicar_em":"AAAA-MM-DDT18:00:00-03:00"}
+ "publicar_em":"AAAA-MM-DDT18:00:00-03:00","branch":"...","raw_url":"https://raw.githubusercontent.com/..."}
 ```
-`git add diario/<hoje> && git commit -m "diario: <tema>" && git pull --rebase && git push` (repita até 4x se falhar).
+`git add diario/<hoje> && git commit -m "diario: <tema>" && git push -u origin <seu branch>` (repita até 4x se falhar).
+Grave no meta.json `branch` e `raw_url` = `https://raw.githubusercontent.com/wpnjunior/publer-media/<branch>/diario/<hoje>/reel.mp4`
+(é a URL pública que o Metricool baixa; confira com `curl -sI` que responde 200 e o tamanho bate).
+Copie meta.json, roteiro.txt, plano.json, folha.jpg e reel.mp4 para `/mnt/project-files/diario/<hoje>/` e releia
+depois de 10 s (a pasta é de rede). Não abra pull request para a pasta do dia.
 
 ## 8. Chamar a prévia
 Dispare a tarefa agendada `trig_013gXUvYv8Bbym4fBeYf6Cg4` ("Vídeo diário: prévia pronta") com `fire_trigger`
