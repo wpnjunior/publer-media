@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>comp diario</title>
+<style>
+@font-face { font-family: Anton; src: url(fonts/Anton-Regular.ttf); }
+@font-face { font-family: Mont; src: url(fonts/Montserrat.ttf); font-weight: 100 900; }
+@font-face { font-family: Caveat; src: url(fonts/Caveat.ttf); font-weight: 400 700; }
+:root { --lima:#c6ff3d; --amarelo:#ffd400; --vermelho:#ff2d3d; --fundo:#0b1512; --papel:#f6efdc; }
+* { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:1080px; height:1920px; overflow:hidden; background:var(--fundo); }
+#stage { position:absolute; inset:0; width:1080px; height:1920px; overflow:hidden; background:var(--fundo); }
+#grain { position:absolute; inset:0; pointer-events:none; opacity:.07; z-index:50;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>"); }
+#vinheta { position:absolute; inset:0; z-index:49; pointer-events:none;
+  background:radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,.55) 100%); }
+#vidbox { position:absolute; overflow:hidden; left:0; width:1080px; }
+#vid { position:absolute; left:0; top:0; width:1080px; height:1920px; transform-origin:0 0; }
+#bigtitle { position:absolute; left:0; right:0; top:90px; z-index:20; text-align:center; font-family:Anton;
+  color:var(--lima); font-size:150px; line-height:.95; text-transform:uppercase; letter-spacing:2px;
+  -webkit-text-stroke:4px #000; text-shadow:0 10px 0 rgba(0,0,0,.45); padding:0 50px; }
+#paper { position:absolute; z-index:15; left:46px; right:46px; top:70px; height:700px; border-radius:22px;
+  background:var(--papel); box-shadow:0 22px 40px rgba(0,0,0,.45); overflow:hidden; }
+#paper.dossie { background:#e9d9a8; }
+#paper.dossie::after { content:"CONFIDENCIAL"; position:absolute; right:36px; bottom:28px; font-family:Anton; font-size:46px;
+  color:rgba(200,30,40,.55); border:5px solid rgba(200,30,40,.55); padding:2px 16px; transform:rotate(-8deg); }
+#paper.celular { background:#10151c; border:10px solid #2a3240; }
+#paper .linhas { position:absolute; inset:0; background:repeating-linear-gradient(transparent 0 58px, rgba(60,90,160,.18) 58px 60px); }
+#paper.celular .linhas { display:none; }
+#aba { position:absolute; z-index:16; left:86px; top:40px; background:var(--lima); color:#0b1512; font-family:Mont; font-weight:900;
+  font-size:34px; padding:8px 26px; border-radius:12px 12px 12px 12px; text-transform:uppercase; box-shadow:0 6px 0 rgba(0,0,0,.35); }
+#pcont { position:absolute; inset:70px 50px 40px 50px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+.hand { font-family:Caveat; font-weight:700; color:#1d2430; font-size:96px; line-height:1.02; }
+.celular .hand { color:#f2f5f8; font-family:Mont; font-weight:800; font-size:56px; }
+.emo { font-size:180px; line-height:1; margin-bottom:10px; font-family:"Noto Color Emoji"; }
+.numgrande { font-family:Anton; font-size:230px; color:#1d2430; line-height:1; }
+.celular .numgrande { color:var(--lima); }
+.leg { font-family:Caveat; font-weight:700; font-size:76px; color:#c0392b; }
+.bar { height:84px; border-radius:10px; margin:12px 0; display:flex; align-items:center; padding-left:20px;
+  font-family:Mont; font-weight:900; font-size:34px; color:#fff; }
+.item { font-family:Caveat; font-weight:700; font-size:84px; color:#1d2430; text-align:left; width:100%; margin:8px 0; }
+.item .ck { color:#1f9d55; font-family:Mont; font-weight:900; }
+.celular .item { color:#f2f5f8; }
+.manchete { font-family:Mont; font-weight:900; font-size:60px; color:#fff; text-align:left; line-height:1.08; }
+.chapeu { font-family:Mont; font-weight:800; font-size:30px; color:var(--vermelho); text-transform:uppercase; letter-spacing:2px; margin-bottom:16px; align-self:flex-start; }
+.risco { position:absolute; height:8px; background:var(--vermelho); border-radius:4px; }
+#cap { position:absolute; z-index:30; left:40px; right:40px; text-align:center; font-family:Mont; font-weight:900; font-size:82px;
+  line-height:1.05; text-transform:uppercase; color:#fff; -webkit-text-stroke:5px #000; paint-order:stroke fill;
+  text-shadow:0 8px 14px rgba(0,0,0,.55); }
+#cap .cur { color:var(--lima); }
+#cap .dest { color:var(--amarelo); }
+#stamp { position:absolute; z-index:35; left:50%; top:46%; font-family:Anton; font-size:170px; color:var(--vermelho);
+  border:14px solid var(--vermelho); padding:6px 40px; border-radius:16px; text-transform:uppercase; white-space:nowrap;
+  background:rgba(255,255,255,.06); text-shadow:0 0 1px #000; }
+#num { position:absolute; z-index:34; left:0; right:0; top:28%; text-align:center; }
+#num .n { font-family:Anton; font-size:330px; color:var(--amarelo); -webkit-text-stroke:8px #000; line-height:1;
+  text-shadow:0 18px 0 #6b5a00, 0 30px 40px rgba(0,0,0,.6); }
+#num .l { font-family:Mont; font-weight:900; font-size:56px; color:#fff; -webkit-text-stroke:3px #000; paint-order:stroke fill; text-transform:uppercase; margin-top:20px; padding:0 60px; }
+#fonte { position:absolute; z-index:32; left:40px; right:40px; bottom:250px; background:rgba(11,21,18,.88); border-left:10px solid var(--lima);
+  color:#fff; font-family:Mont; font-weight:700; font-size:30px; padding:16px 22px; border-radius:10px; }
+#fonte b { color:var(--lima); font-weight:900; letter-spacing:1px; }
+#flash { position:absolute; inset:0; z-index:45; background:#fff; opacity:0; }
+#prog { position:absolute; z-index:46; left:0; top:0; height:10px; background:var(--lima); }
+#fim { position:absolute; inset:0; z-index:40; background:var(--fundo); display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 80px; text-align:center; opacity:0; }
+#fim .marca { font-family:Anton; font-size:120px; color:var(--lima); letter-spacing:3px; }
+#fim .frase { font-family:Mont; font-weight:900; font-size:64px; color:#fff; margin:40px 0; line-height:1.1; text-transform:uppercase; }
+#fim .ref { font-family:Mont; font-weight:600; font-size:30px; color:#cfd8d3; line-height:1.35; white-space:pre-line; }
+#fim .crm { font-family:Mont; font-weight:700; font-size:30px; color:var(--amarelo); margin-top:40px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <div id="vidbox"><img id="vid" alt=""></div>
+  <div id="bigtitle"></div>
+  <div id="paper"><div class="linhas"></div><div id="pcont"></div></div>
+  <div id="aba"></div>
+  <div id="num"><div class="n"></div><div class="l"></div></div>
+  <div id="stamp"></div>
+  <div id="fonte"></div>
+  <div id="cap"></div>
+  <div id="fim"><div class="marca">PAPO DE MÉDICO</div><div class="frase"></div><div class="ref"></div><div class="crm">Dr. Wagner Novaes Jr. · CRM-RJ 0127554-2</div></div>
+  <div id="flash"></div>
+  <div id="prog"></div>
+  <div id="vinheta"></div>
+  <div id="grain"></div>
+</div>
+<script>
+const $ = (s) => document.querySelector(s);
+let TL = null, FPS = 25;
+const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+const P = (t, t0, d) => clamp((t - t0) / d, 0, 1);              // progresso 0..1
+const ease = (x) => 1 - Math.pow(1 - x, 3);
+const back = (x) => { const c = 2.2; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+const norm = (p) => p.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+const esc = (s) => String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+window.init = async function (tl) {
+  TL = tl; FPS = tl.fps;
+  await document.fonts.load('80px Anton'); await document.fonts.load('900 80px Mont'); await document.fonts.load('700 80px Caveat');
+  $('#aba').textContent = tl.titulo || '';
+  const est = tl.estilo_painel || 'caderno';
+  if (est !== 'caderno') $('#paper').classList.add(est);
+  $('#fim .frase').textContent = (tl.fim && tl.fim.frase) || '';
+  $('#fim .ref').textContent = (tl.fim && tl.fim.ref) || '';
+  return true;
+};
+
+function shotAt(t) { return TL.shots.find(s => t >= s.t0 && t < s.t1) || TL.shots[TL.shots.length - 1]; }
+function painelAt(t) { return TL.paineis.find(p => t >= p.t0 && t < p.t1); }
+function ativo(lista, t) { return lista.find(x => t >= x.t0 && t < x.t1); }
+
+// grupos de legenda: até 3 palavras, quebra em pontuação
+let GRUPOS = null;
+function grupos() {
+  if (GRUPOS) return GRUPOS;
+  GRUPOS = []; let g = [];
+  TL.words.forEach((w, i) => {
+    g.push(i);
+    const fimFrase = /[.,?!;:]$/.test(w.w);
+    if (g.length === 3 || fimFrase) { GRUPOS.push(g); g = []; }
+  });
+  if (g.length) GRUPOS.push(g);
+  return GRUPOS;
+}
+
+function legenda(t, y, visivel) {
+  const cap = $('#cap');
+  if (!visivel) { cap.style.display = 'none'; return; }
+  const W = TL.words;
+  const gs = grupos();
+  let gi = gs.findIndex(g => t >= W[g[0]].s - 0.05 && t < (gs[gs.indexOf(g) + 1] ? W[gs[gs.indexOf(g) + 1][0]].s - 0.05 : W[g[g.length - 1]].e + 0.3));
+  if (gi < 0) { cap.style.display = 'none'; return; }
+  const g = gs[gi];
+  cap.style.display = 'block';
+  cap.style.top = y + 'px';
+  cap.innerHTML = g.map(i => {
+    const w = W[i]; const txt = esc(w.w.replace(/[.,;:]+$/, ''));
+    let cls = '';
+    if (t >= w.s && t < (W[i + 1] ? W[i + 1].s : w.e + 0.3)) cls = 'cur';
+    else if (TL.destaques.includes(norm(w.w))) cls = 'dest';
+    return `<span class="${cls}">${txt}</span>`;
+  }).join(' ');
+  const pop = P(t, W[g[0]].s, 0.12);
+  cap.style.transform = `scale(${0.85 + 0.15 * back(pop)})`;
+}
+
+let ultimoPainel = null;
+function desenhaPainel(p, t) {
+  const c = $('#pcont');
+  const chave = p ? p.t0 + p.tipo : null;
+  if (chave !== ultimoPainel) {
+    ultimoPainel = chave;
+    if (!p) { c.innerHTML = ''; return; }
+    const emo = p.emoji ? `<div class="emo">${esc(p.emoji)}</div>` : '';
+    let h = '';
+    if (p.tipo === 'numero') h = `${emo}<div class="numgrande" data-alvo="${esc(p.numero)}">${esc(p.numero)}</div><div class="leg rev">${esc(p.legenda || '')}</div>`;
+    else if (p.tipo === 'comparacao') {
+      const itens = p.barras || [];
+      const max = Math.max(...itens.map(b => b.valor), 1);
+      h = (p.texto ? `<div class="hand rev" style="font-size:64px;margin-bottom:18px">${esc(p.texto)}</div>` : '') +
+        itens.map((b, k) => `<div class="bar barra" data-w="${(b.valor / max) * 100}" style="background:${b.cor || (k ? '#2a7de1' : '#e74c3c')};width:0">${esc(b.rotulo)}</div>`).join('');
+    }
+    else if (p.tipo === 'checklist') h = (p.texto ? `<div class="hand" style="font-size:66px;margin-bottom:14px">${esc(p.texto)}</div>` : '') +
+        (p.itens || []).map(x => `<div class="item"><span class="ck">✓</span> ${esc(x)}</div>`).join('');
+    else if (p.tipo === 'manchete') h = `<div class="chapeu">${esc(p.chapeu || 'Manchete')}</div><div class="manchete rev">${esc(p.texto)}</div>`;
+    else if (p.tipo === 'fala') h = `${emo}<div class="hand rev">“${esc(p.texto)}”</div>`;
+    else h = `${emo}<div class="hand rev">${esc(p.texto || '')}</div>${p.riscar ? '<div class="risco"></div>' : ''}`;
+    c.innerHTML = h;
+  }
+  if (!p) return;
+  const k = t - p.t0;
+  c.querySelectorAll('.emo').forEach(e => { e.style.transform = `scale(${back(P(k, 0, .35))}) rotate(${(1 - ease(P(k, 0, .5))) * -12}deg)`; });
+  c.querySelectorAll('.rev').forEach(e => { const r = ease(P(k, 0.15, 0.9)); e.style.clipPath = `inset(0 ${100 - r * 100}% 0 0)`; });
+  c.querySelectorAll('.barra').forEach((e, i) => { e.style.width = (ease(P(k, 0.3 + i * 0.35, 0.7)) * parseFloat(e.dataset.w) * 0.9) + '%'; });
+  c.querySelectorAll('.item').forEach((e, i) => { const r = P(k, 0.2 + i * 0.7, 0.35); e.style.opacity = r; e.style.transform = `translateX(${(1 - ease(r)) * -40}px)`; });
+  c.querySelectorAll('.numgrande').forEach(e => {
+    const alvo = e.dataset.alvo; const m = alvo.match(/^([^\d]*)([\d.,]+)(.*)$/);
+    if (!m) return;
+    const sep = m[2].includes('.') && !m[2].includes(',') && m[2].split('.').pop().length === 3;
+    const val = parseFloat(sep ? m[2].replace(/\./g, '') : m[2].replace(',', '.'));
+    const r = ease(P(k, 0.1, 0.9)); let v = val * r;
+    let s = Number.isInteger(val) ? Math.round(v).toString() : v.toFixed(1).replace('.', ',');
+    if (sep) s = Math.round(v).toLocaleString('pt-BR');
+    e.textContent = m[1] + s + m[3];
+  });
+  const risco = c.querySelector('.risco'); const hand = c.querySelector('.hand');
+  if (risco && hand) {
+    const r = ease(P(k, 1.2, 0.4)); const b = hand.getBoundingClientRect(), cb = c.getBoundingClientRect();
+    risco.style.left = (b.left - cb.left) + 'px'; risco.style.top = (b.top - cb.top + b.height / 2) + 'px'; risco.style.width = (b.width * r) + 'px';
+  }
+}
+
+window.renderFrame = async function (f) {
+  const t = f / FPS;
+  const s = shotAt(t);
+  const tv = Math.min(t, TL.dur_video - 0.04);
+  const fr = Math.min(Math.floor(tv * FPS) + 1, Math.floor(TL.dur_video * FPS));
+  const img = $('#vid');
+  const src = `frames/${String(fr).padStart(5, '0')}.jpg`;
+  if (!img.src.endsWith(src)) { img.src = src; await img.decode().catch(() => {}); }
+
+  const [rx, ry] = TL.rosto;
+  const k = t - s.t0, dur = s.t1 - s.t0;
+  const drift = 1 + 0.025 * (k / Math.max(dur, 0.1));   // zoom lento dentro do plano
+  const box = $('#vidbox');
+  const split = s.modo === 'split';
+  const pan = TL.formato === 'dinamica';
+  let boxTop = 0, boxH = 1920;
+  if (split) { boxTop = 800; boxH = 1120; }
+  box.style.top = boxTop + 'px'; box.style.height = boxH + 'px';
+  let z = s.zoom * drift;
+  // centro do rosto na caixa
+  const fx = rx * 1080, fy = ry * 1920;
+  let ty;
+  if (split) ty = boxH * 0.30 - fy * z;             // rosto a 30% da caixa de baixo
+  else ty = 1920 * (s.tipo === 'close' ? 0.36 : 0.40) - fy * z;
+  ty = clamp(ty, boxH - 1920 * z, 0);
+  let tx = 540 - fx * z + (s.pan || 0) * 18 * (z - 1) * 4;
+  tx = clamp(tx, 1080 - 1080 * z, 0);
+  img.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`;
+  // zoom-blur de entrada (0,2 s)
+  const ent = 1 - P(k, 0, 0.2);
+  img.style.filter = ent > 0 && s.t0 > 0 ? `blur(${ent * 6}px) brightness(${1 + ent * 0.25})` : (pan && !split ? 'brightness(.92)' : 'none');
+
+  // título gigante no gancho
+  const bt = $('#bigtitle');
+  if (s.tipo === 'gancho' && TL.titulo) {
+    bt.style.display = 'block'; bt.textContent = TL.titulo;
+    const r = back(P(t, 0.05, 0.4)); bt.style.transform = `scale(${0.6 + 0.4 * r})`; bt.style.opacity = P(t, 0.05, 0.15);
+  } else bt.style.display = 'none';
+
+  // painel
+  const p = painelAt(t);
+  const paper = $('#paper'), aba = $('#aba');
+  const mostraPainel = !!p && (split || (TL.formato === 'dinamica' && s.modo === 'full' && !s.tipo));
+  paper.style.display = mostraPainel ? 'block' : 'none';
+  aba.style.display = mostraPainel && TL.titulo ? 'block' : 'none';
+  if (mostraPainel) {
+    if (!split) { paper.style.top = '150px'; paper.style.height = '640px'; paper.style.opacity = .97; }
+    else { paper.style.top = '70px'; paper.style.height = '700px'; paper.style.opacity = 1; }
+    const e = back(P(t, p.t0, 0.3));
+    paper.style.transform = `translateY(${(1 - e) * -30}px) rotate(${(1 - e) * -1.5}deg)`;
+    desenhaPainel(p, t);
+  } else desenhaPainel(null, t);
+
+  // número gigante e carimbo
+  const nm = ativo(TL.numeros, t), st = ativo(TL.carimbos, t);
+  const num = $('#num');
+  if (nm) {
+    num.style.display = 'block'; num.querySelector('.n').textContent = nm.texto; num.querySelector('.l').textContent = nm.legenda || '';
+    const r = back(P(t, nm.t0, 0.35));
+    num.style.transform = `perspective(900px) rotateX(${(1 - ease(P(t, nm.t0, .5))) * 50}deg) scale(${0.4 + 0.6 * r})`;
+    num.style.opacity = 1 - P(t, nm.t1 - 0.15, 0.15);
+  } else num.style.display = 'none';
+  const stamp = $('#stamp');
+  if (st) {
+    stamp.style.display = 'block'; stamp.textContent = st.texto;
+    const r = P(t, st.t0, 0.18);
+    stamp.style.transform = `translate(-50%,-50%) rotate(-9deg) scale(${2.2 - 1.2 * ease(r)})`;
+    stamp.style.opacity = Math.min(r * 2, 1) * (1 - P(t, st.t1 - 0.15, 0.15));
+  } else stamp.style.display = 'none';
+
+  // fonte na tela
+  const fo = $('#fonte');
+  if (TL.fonte && t >= TL.fonte.t0 && t < TL.fonte.t1 && !nm && !st) {
+    fo.style.display = 'block'; fo.innerHTML = `<b>FONTE</b> · ${esc(TL.fonte.texto)}`;
+    fo.style.opacity = P(t, TL.fonte.t0, 0.25) * (1 - P(t, TL.fonte.t1 - 0.25, 0.25));
+    fo.style.bottom = split ? '120px' : '250px';
+  } else fo.style.display = 'none';
+
+  // legenda
+  const capY = split ? 820 : 1330;
+  legenda(t, capY, s.modo !== 'fim' && !nm && !st && s.tipo !== 'gancho');
+
+  // flash nos impactos (só a partir do tempo do impacto)
+  let fl = 0;
+  for (const x of [...TL.numeros, ...TL.carimbos]) if (t >= x.t0) fl = Math.max(fl, 1 - P(t, x.t0, 0.18));
+  $('#flash').style.opacity = fl * 0.75;
+
+  // cartão final
+  const fim = $('#fim');
+  fim.style.opacity = s.modo === 'fim' ? ease(P(t, s.t0, 0.35)) : 0;
+  $('#prog').style.width = (clamp(t / TL.fala_fim, 0, 1) * 1080) + 'px';
+  return true;
+};
+</script>
+</body>
+</html>
