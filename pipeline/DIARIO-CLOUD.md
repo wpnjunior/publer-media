@@ -102,6 +102,9 @@ No lugar de `paineis`/`carimbos`/`numeros`, escreva `cenas` (12 a 18, uma a cada
   `etiqueta` ("1984 · Perth"), `pip`: true (bolha dele no canto). Use para o país do estudo, de onde veio, onde proibiram.
 - `cartao`: `emoji`, `cor`, `rotulo` (até 3 palavras), opcional `fundo` (vermelho/amarelo/azul, tela inteira colorida).
 - `foto`: `emoji` ou `imagem` (arquivo em `<pasta_trabalho>/img/`), `cor` do bloco, `legenda` curta.
+- `documento`: `imagem` (print da página do estudo ou jornal de época em `<pasta_trabalho>/img/`), `grifo` [y0, y1]
+  (faixa da página, de 0 a 1, grifada em amarelo), `legenda` (referência). É a fonte mostrada na tela.
+  Fotos de arquivo e páginas: só domínio público ou fonte oficial (Wikimedia Commons, PubMed/PMC), com crédito na legenda.
 - `bolinhas`: `valor` (0-100, só número real do estudo), `cor`, `legenda`, `mini` (citação curta da fonte).
 - `citacao`: `texto` (frase curta), `destaque` (trecho grifado em amarelo), `autor`.
 - `etiqueta`: `texto` ("10 dias", "1870 – 1950"), `sub`, `cor`.

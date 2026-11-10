@@ -114,6 +114,10 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:var(--fund
 .mpBarras .col { width:190px; box-shadow:0 14px 24px rgba(0,0,0,.3); }
 .mpBarras .tg { font-family:Mont; font-weight:800; font-size:34px; color:#fff; background:#c8102e; padding:6px 16px; margin-bottom:18px; white-space:nowrap; }
 .mpBarras .v { font-family:Serif4; font-weight:700; font-size:70px; color:#151515; margin-bottom:6px; }
+.mpDoc { position:relative; width:900px; background:#fff; padding:18px; box-shadow:0 24px 40px rgba(0,0,0,.4); transform:rotate(-1.5deg); }
+.mpDoc img { display:block; width:100%; max-height:980px; object-fit:cover; object-position:top; }
+.mpDoc .grifo { position:absolute; left:18px; background:rgba(255,230,0,.45); mix-blend-mode:multiply; }
+.mpDoc .ref { font-family:Maquina; font-size:26px; color:#333; margin-top:14px; }
 #mpCap { position:absolute; z-index:8; left:60px; right:60px; top:118px; text-align:center; font-family:Serif4; color:#24201a;
   text-shadow:0 1px 0 rgba(255,255,255,.35); line-height:1.1; }
 #mpCap .g { font-size:86px; font-weight:600; }
@@ -365,6 +369,10 @@ function mpMonta(c) {
     if (d && q.includes(d)) q = q.replace(d, `<mark>${d}</mark>`);
     h = `<div class="mpNota"><div class="q">“${q}”</div>${c.autor ? `<div class="a">${esc(c.autor)}</div>` : ''}</div>`;
   } else if (c.tipo === 'etiqueta') h = `<div class="mpTag" style="background:${cor(c.cor || 'azul')}">${esc(c.texto || '')}</div>${c.sub ? `<div class="mpSub">${esc(c.sub)}</div>` : ''}`;
+  else if (c.tipo === 'documento') {
+    const g = c.grifo ? `<div class="grifo" data-y0="${c.grifo[0]}" data-y1="${c.grifo[1]}"></div>` : '';
+    h = `<div class="mpDoc">${fitas()}<img src="${esc(c.imagem || '')}" alt="">${g}${c.legenda ? `<div class="ref">${esc(c.legenda)}</div>` : ''}</div>`;
+  }
   else if (c.tipo === 'barra') {
     const bs = c.barras || []; const mx = Math.max(...bs.map(b => b.valor), 1);
     h = `<div class="mpBarras">${bs.map(b => `<div class="b"><div class="v">${esc(b.texto || b.valor)}</div>${b.rotulo ? `<div class="tg">${esc(b.rotulo)}</div>` : ''}<div class="col" data-h="${(b.valor / mx) * 640}" style="background:${cor(b.cor || 'vermelho')};height:0"></div></div>`).join('')}</div>`;
@@ -384,6 +392,11 @@ function mpAnima(c, t) {
     box.querySelectorAll('.mpLab, .mpMini').forEach((l, j) => { l.style.opacity = P(k, 0.6 + j * 0.3, 0.2); });
   } else if (c.tipo === 'citacao') { el1.style.transform = `rotate(-1.2deg) translateY(${(1 - ease(P(k, 0, .45))) * 700}px)`; const m = box.querySelector('mark'); if (m) m.style.setProperty('--m', (ease(P(k, 0.9, 0.7)) * 100) + '%'); }
   else if (c.tipo === 'etiqueta') { el1.style.transform = `rotate(-2deg) translateX(${(1 - ease(P(k, 0, .35))) * -1200}px)`; const sb = box.querySelector('.mpSub'); if (sb) sb.style.opacity = P(k, 0.5, 0.3); }
+  else if (c.tipo === 'documento') {
+    el1.style.transform = `rotate(-1.5deg) translateY(${(1 - ease(P(k, 0, .45))) * 1100}px) scale(${1 + 0.05 * P(k, 0.5, 4)})`;
+    const g = el1.querySelector('.grifo'), im = el1.querySelector('img');
+    if (g && im) { const y0 = +g.dataset.y0, y1 = +g.dataset.y1, H = im.offsetHeight; g.style.top = (18 + y0 * H) + 'px'; g.style.height = ((y1 - y0) * H) + 'px'; g.style.width = (ease(P(k, 0.8, 0.7)) * im.offsetWidth) + 'px'; }
+  }
   else if (c.tipo === 'barra') box.querySelectorAll('.col').forEach((b, j) => { b.style.height = (ease(P(k, 0.2 + j * 0.3, 0.8)) * parseFloat(b.dataset.h)) + 'px'; });
   if (c.tipo !== 'bolinhas') box.style.transform = 'none';
 }
@@ -420,14 +433,14 @@ function mpPip(c, t, src) {
   if (c.tipo === 'mapa') { pip.style.left = '742px'; pip.style.top = '520px'; } else { pip.style.left = '760px'; pip.style.top = '1500px'; }
 }
 let mpUlt = null;
-function mpDesenha(c, i, t, src) {
+async function mpDesenha(c, i, t, src) {
   const mp = document.querySelector('#mp'); mp.style.display = 'block';
   mp.className = c.fundo && c.tipo !== 'mapa' ? 'fundo-' + c.fundo : '';
   const ehMapa = c.tipo === 'mapa';
   document.querySelector('#mpMesa').style.display = ehMapa ? 'block' : 'none';
   document.querySelector('#mpCont').style.display = ehMapa ? 'none' : 'flex';
   if (ehMapa) mpMapa(c, i, t);
-  else { document.querySelector('#mpEtq').style.display = 'none'; if (mpUlt !== i) { mpUlt = i; mpMonta(c); } mpAnima(c, t); }
+  else { document.querySelector('#mpEtq').style.display = 'none'; if (mpUlt !== i) { mpUlt = i; mpMonta(c); await Promise.all([...document.querySelectorAll('#mpCont img')].map(im => im.decode().catch(() => {}))); } mpAnima(c, t); }
   mpLegenda(t); mpPip(c, t, src);
 }
 
@@ -441,7 +454,7 @@ window.renderFrame = async function (f) {
   if (!img.src.endsWith(src)) { img.src = src; await img.decode().catch(() => {}); }
 
   const MP = TL.formato === 'mapeamento';
-  if (MP && s.modo === 'cena') mpDesenha(TL.cenas[s.cena], s.cena, t, src); else if (MP) $('#mp').style.display = 'none';
+  if (MP && s.modo === 'cena') await mpDesenha(TL.cenas[s.cena], s.cena, t, src); else if (MP) $('#mp').style.display = 'none';
   const [rx, ry] = TL.rosto;
   const k = t - s.t0, dur = s.t1 - s.t0;
   const drift = 1 + 0.025 * (k / Math.max(dur, 0.1));   // zoom lento dentro do plano

@@ -196,7 +196,7 @@ def main() -> None:
           f"{len(tl['carimbos'])} carimbos, {len(tl['numeros'])} números")
 
 
-TIPOS_CENA = {"rosto", "mapa", "cartao", "foto", "bolinhas", "citacao", "etiqueta", "barra"}
+TIPOS_CENA = {"rosto", "mapa", "cartao", "foto", "documento", "bolinhas", "citacao", "etiqueta", "barra"}
 
 
 def mapeamento(plano: dict, words: list[dict], tl: dict, forcados: list, fala_fim: float, total: float) -> None:
