@@ -37,6 +37,6 @@ d = lambda f: float(subprocess.run(["ffprobe","-v","error","-show_entries","form
 b, o = d(sys.argv[1]), d(sys.argv[2]); mb = os.path.getsize(sys.argv[2]) / 1e6
 print(f"bruto {b:.1f}s, editado {o:.1f}s, {mb:.1f} MB")
 assert 0.9 * b <= o <= b + 7, "duração fora do esperado"
-assert 1 < mb < 95, "tamanho fora do esperado"
+assert 1 < mb < 48, "tamanho fora do esperado (o agendador aceita até 50 MB)"
 PY
 echo "EDITADO OK: $OUT"

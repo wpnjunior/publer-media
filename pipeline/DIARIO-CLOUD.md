@@ -103,7 +103,7 @@ python pipeline/sabor/conferir_sabor.py /tmp/diario/sabor --origem /tmp/diario  
 cp /tmp/diario/sabor/editado-sabor.mp4 diario/<hoje>/reel.mp4   # grave no meta.json tamanho_bytes_raw = tamanho deste arquivo (o portão das 17h compara com o raw_url)
 cp /tmp/diario/w/conferir/folha.jpg diario/<hoje>/folha.jpg
 ```
-Confira: reel.mp4 existe, > 1 MB, < 95 MB, duração entre 90% e 110% do bruto + 2,6 s do cartão final.
+Confira: reel.mp4 existe, > 1 MB, < 48 MB (limite de 50 MB do agendador), duração entre 90% e 110% do bruto + 2,6 s do cartão final.
 
 ## 7. Legenda e meta.json
 Legenda humana (skill ig-caption/ig-human se houver): 1ª linha = pergunta pessoal ao público ("Você já...? Me
