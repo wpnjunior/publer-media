@@ -1,0 +1,19 @@
+{"formato":"tela_dividida","estilo_painel":"caderno","titulo":"Vacina e fertilidade",
+ "destaques":["vacina","engravidar","1.815","AMH","Nenhuma","35","boato","galo"],
+ "paineis":[
+  {"quando":"Ah, doutor, minha prima","tipo":"fala","emoji":"💉","texto":"Minha prima tomou a vacina e não engravida"},
+  {"quando":"Mas olha só o que","tipo":"texto","emoji":"🔬","texto":"Medir ≠ achar"},
+  {"quando":"Um estudo americano","tipo":"numero","emoji":"👩","numero":"1.815","legenda":"mulheres tentando engravidar"},
+  {"quando":"e o risco de aborto","tipo":"comparacao","texto":"Risco de aborto","barras":[{"rotulo":"Vacinadas","valor":10},{"rotulo":"Não vacinadas","valor":10}]},
+  {"quando":"Outro, da Turquia","tipo":"checklist","texto":"AMH (reserva de óvulos)","itens":["Antes da vacina","6 meses depois"]},
+  {"quando":"Então, por que a prima","tipo":"texto","emoji":"🤔","texto":"Então, por que não engravida?"},
+  {"quando":"Depois dos 35","tipo":"texto","emoji":"📉","texto":"Depois dos 35, a chance cai todo mês"},
+  {"quando":"É o galo que canta","tipo":"texto","emoji":"🐓","texto":"O galo canta, mas não puxa o sol"},
+  {"quando":"Agora, cá entre nós","tipo":"checklist","texto":"Procure o médico se:","itens":["1 ano tentando","6 meses, se tem 35+"]}
+ ],
+ "carimbos":[{"quando":"Nenhuma, tá","texto":"NENHUMA"}],
+ "numeros":[],
+ "closes":["Olha que coisa","Boato não pede exame"],
+ "fonte":{"quando":"Um estudo americano","ate":"também não.","texto":"Yland et al., Hum Reprod 2023 · doi 10.1093/humrep/dead211"},
+ "fim":{"frase":"Boato não pede exame. Doutor pede.","ref":"Yland et al., Hum Reprod 2023 · doi 10.1093/humrep/dead211\nYildiz et al., Medicine 2023 · doi 10.1097/MD.0000000000033824"},
+ "trilha":"dark_cinematic"}

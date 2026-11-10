@@ -1,0 +1,109 @@
+{
+ "formato": "dinamica",
+ "estilo_painel": "dossie",
+ "titulo": "O médico que bebeu a bactéria",
+ "destaques": [
+  "nervoso",
+  "bactéria",
+  "bebeu",
+  "errada",
+  "cem",
+  "biópsia",
+  "gastrite",
+  "Nobel",
+  "úlcera",
+  "buzina"
+ ],
+ "paineis": [
+  {
+   "quando": "Ah, doutor, minha gastrite",
+   "tipo": "fala",
+   "emoji": "😣",
+   "texto": "Minha gastrite é de nervoso"
+  },
+  {
+   "quando": "Mas olha só a",
+   "tipo": "texto",
+   "emoji": "🧪",
+   "texto": "O médico que bebeu a bactéria"
+  },
+  {
+   "quando": "examinaram o estômago",
+   "tipo": "numero",
+   "emoji": "🔬",
+   "numero": "58 de 100",
+   "legenda": "com a bactéria, em 1984"
+  },
+  {
+   "quando": "Ninguém acreditou",
+   "tipo": "texto",
+   "emoji": "🚫",
+   "texto": "Bactéria no ácido? Impossível"
+  },
+  {
+   "quando": "Aí o Marshall bebeu",
+   "tipo": "checklist",
+   "texto": "O experimento",
+   "itens": [
+    "Estômago normal",
+    "Bebeu a cultura",
+    "10 dias: gastrite"
+   ]
+  },
+  {
+   "quando": "por que a gente",
+   "tipo": "texto",
+   "emoji": "🤔",
+   "texto": "Por que culpamos o nervoso?"
+  },
+  {
+   "quando": "como culpar a buzina",
+   "tipo": "texto",
+   "emoji": "🚗",
+   "texto": "Buzina não causa engarrafamento"
+  },
+  {
+   "quando": "em 2005 os dois",
+   "tipo": "texto",
+   "emoji": "🏆",
+   "texto": "2005: Nobel de Medicina"
+  },
+  {
+   "quando": "Agora, cá entre nós",
+   "tipo": "checklist",
+   "texto": "Procure o médico se:",
+   "itens": [
+    "Queima toda semana",
+    "Acorda à noite",
+    "Fezes escuras"
+   ]
+  }
+ ],
+ "carimbos": [
+  {
+   "quando": "Aí o Marshall bebeu",
+   "texto": "BEBEU"
+  }
+ ],
+ "numeros": [
+  {
+   "quando": "Dez dias depois",
+   "texto": "10 dias",
+   "legenda": "e a biópsia mostrou gastrite"
+  }
+ ],
+ "closes": [
+  "Olha que coisa",
+  "não explica a úlcera"
+ ],
+ "fonte": {
+  "quando": "Em 1984, Barry",
+  "ate": "dele mesmo, tá",
+  "texto": "Marshall & Warren, Lancet 1984 · Marshall et al., Med J Aust 1985"
+ },
+ "fim": {
+  "frase": "Nervoso explica o dia ruim. Não explica a úlcera.",
+  "ref": "Marshall & Warren, Lancet 1984 · doi 10.1016/s0140-6736(84)91816-6\nMarshall et al., Med J Aust 1985 · doi 10.5694/j.1326-5377.1985.tb113443.x"
+ },
+ "trilha": "dark_cinematic"
+}
