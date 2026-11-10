@@ -72,8 +72,12 @@ Siga a skill `formula-heygen-papo-medico` se estiver disponível. Resumo obrigat
   laughing, no beaming. Face stays mostly neutral and focused; irony shows only as one raised eyebrow, slightly
   narrowed eyes or a tiny closed-lip half smile at the corner of the mouth. Concerned, attentive look while
   explaining the studies; firm, warm look at the end. Varied natural hand gestures, each used once: <4 a 6 gestos
-  diferentes dos do vídeo de ontem, ex.: open palm toward camera, counting on fingers, a small shrug, hands
-  together>, and pointing at the camera only in the last sentence."
+  diferentes dos do vídeo de ontem, ex.: open palm toward camera, a small shrug, hands together, palms down
+  calming, head tilt with open hands>, and pointing at the camera only in the last sentence. NEVER show numbers
+  with the fingers: no counting on fingers, no holding up fingers, no raised index finger as 'one'."
+  PROIBIDO (regra do Wagner, 10/11/2026): o clone NUNCA mostra número com os dedos. Não escolha gestos de contar,
+  levantar dedos ou "raised index finger"; números aparecem só na edição (painel/número gigante). Na conferência
+  dos quadros, se aparecer dedo contando, anote no meta.json.
 Chame UMA vez. Espere com `get_video` (30 s entre consultas, até 25 min). Se falhar, NÃO gere de novo: grave
 status "falha_heygen" com a mensagem e siga ao passo 8. Baixe o mp4 (`curl -L -o bruto.mp4 "<video_url>"`)
 para `/tmp/diario/bruto.mp4` (não comite o bruto).
