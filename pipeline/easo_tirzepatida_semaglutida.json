@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bmi_capa.jpg",
+   "editoria": "Endocrinologia",
+   "manchete": "Entre as duas<br>canetas, uma<br>passa <span class=\"hl\">à frente</span>",
+   "sub": "Atualização 2026 da diretriz europeia de obesidade (EASO) compara, lado a lado, os dois remédios mais usados pra emagrecer.",
+   "fonte": "Fonte: Medscape · EASO 2026 (Nature Medicine)"
+  },
+  {
+   "foto": "bmi_tape.jpg",
+   "numero": "01",
+   "manchete": "A diretriz que<br>se atualiza<br><span class=\"hl\">sozinha</span>",
+   "corpo": "A EASO mantém um framework \"vivo\" pra obesidade: a cada leva de estudos novos, a diretriz é atualizada. A versão de 2026 já incorpora <b>62 estudos clínicos</b>, com evidência até novembro de 2025.",
+   "destaque": "Publicada na revista Nature Medicine em maio de 2026."
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "02",
+   "manchete": "Lado a lado,<br>72 <span class=\"hl\">semanas</span>",
+   "corpo": "No estudo SURMOUNT-5, <b>751 adultos</b> com obesidade, sem diabetes, foram divididos entre as doses máximas toleradas de tirzepatida e semaglutida.",
+   "destaque": "-20,2% de peso com tirzepatida x -13,7% com semaglutida — diferença estatisticamente significativa (p&lt;0,001). Estudo financiado pela fabricante da tirzepatida."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_05.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">registro oficial</span>.",
+   "print": "/tmp/claude-0/-home-user-publer-media/4bdf6a00-98cc-5cc9-b2eb-357a85b9f200/scratchpad/estudo/ficha.png",
+   "sub": "Estudo registrado no <b>ClinicalTrials.gov</b> (NCT05822830) e publicado no <b>New England Journal of Medicine</b> em 2025."
+  },
+  {
+   "foto": "bg_01.jpg",
+   "numero": "03",
+   "manchete": "No fígado,<br>o placar<br><span class=\"hl\">muda</span>",
+   "corpo": "Em quem tem fígado gorduroso avançado (MASH) com fibrose, a semaglutida segue com mais evidência pra reduzir a fibrose. Pra tirzepatida, esse dado ainda é mais recente e menos robusto.",
+   "destaque": "Resolver a inflamação do fígado: as duas têm evidência de benefício. Reduzir a fibrose: a semaglutida está à frente."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Não existe<br><span class=\"hl\">fila única</span>",
+   "corpo": "Os próprios autores da diretriz avisam: isso não é uma sequência fixa de prescrição. A escolha leva em conta outras doenças que você tem, a tolerância ao remédio e outros fatores — uma conversa pra ter com seu médico.",
+   "fonte": "Fontes: Nature Medicine, EASO Framework 2026 Update, DOI 10.1038/s41591-026-04397-4 · N Engl J Med, estudo SURMOUNT-5 (2025), DOI 10.1056/NEJMoa2416394, PMID 40353578. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
