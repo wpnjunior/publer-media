@@ -19,6 +19,9 @@ import sys
 from pathlib import Path
 
 W, H, FPS = 1080, 1920, 25
+# Wagner, 11/11: "dar 0,5 segundo após terminar de falar, sempre". Todo clipe de rosto ganha esse respiro
+# (último quadro seguro, sem som) antes de entrar a cena seguinte, para não parecer que cortou a fala.
+RESPIRO = 0.5
 
 
 def dur(arq: str) -> float:
@@ -37,15 +40,15 @@ def main() -> None:
     marcas: list[dict] = []  # onde é rosto de verdade e onde é narração sobre foto (o editor nunca mostra o rosto na narração)
     pos = 0.0
     for i, t in enumerate(spec["trechos"]):
-        d_t = dur(t.get("rosto") or t.get("voz"))
+        d_t = dur(t.get("rosto") or t.get("voz")) + (RESPIRO if "rosto" in t else 0.0)
         marcas.append({"t0": round(pos, 3), "t1": round(pos + d_t, 3), "tipo": "rosto" if "rosto" in t else "voz"})
         pos += d_t
         if "rosto" in t:
             entradas += ["-i", t["rosto"]]
             filtros.append(
                 f"[{k}:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},setsar=1,"
-                f"format=yuv420p[v{i}];"
-                f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo[a{i}];")
+                f"format=yuv420p,tpad=stop_mode=clone:stop_duration={RESPIRO}[v{i}];"
+                f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,apad=pad_dur={RESPIRO}[a{i}];")
             k += 1
         elif "voz" in t:
             d = dur(t["voz"])

@@ -23,13 +23,32 @@ def roda(cmd: list[str]) -> None:
         sys.exit(r.stderr[-1500:])
 
 
+def inicio_da_fala(arq: str) -> float:
+    """Segundos de silêncio no começo do corpo (o clone demora a abrir a boca). Wagner, 11/11: a emenda
+    do viral para o comentário não pode dar 'travada'; o corpo entra já falando."""
+    r = subprocess.run(["ffmpeg", "-v", "error", "-t", "1.5", "-i", arq, "-af",
+                        "astats=metadata=1:reset=1,ametadata=print:key=lavfi.astats.Overall.RMS_level:file=-", "-f", "null", "-"],
+                       capture_output=True, text=True).stdout
+    t = 0.0
+    for linha in r.splitlines():
+        if "pts_time:" in linha:
+            t = float(linha.split("pts_time:")[1])
+        elif "RMS_level=" in linha:
+            v = linha.split("=")[1]
+            if v not in ("-inf", "nan") and float(v) > -30:
+                return round(min(max(t - 0.08, 0.0), 0.6), 2)
+    return 0.0
+
+
 def juntar(a: str, b: str, saida: str) -> None:
+    c = inicio_da_fala(b)
     roda(["ffmpeg", "-y", "-v", "error", "-i", a, "-i", b, "-filter_complex",
-          "[0:v]fps=25,scale=1080:1920,setsar=1[v0];[1:v]fps=25,scale=1080:1920,setsar=1[v1];"
-          "[0:a]aresample=48000,aformat=channel_layouts=stereo[a0];[1:a]aresample=48000,aformat=channel_layouts=stereo[a1];"
+          f"[0:v]fps=25,scale=1080:1920,setsar=1[v0];[1:v]trim=start={c},setpts=PTS-STARTPTS,fps=25,scale=1080:1920,setsar=1[v1];"
+          f"[0:a]aresample=48000,aformat=channel_layouts=stereo[a0];[1:a]atrim=start={c},asetpts=PTS-STARTPTS,aresample=48000,aformat=channel_layouts=stereo[a1];"
           "[v0][a0][v1][a1]concat=n=2:v=1:a=1[v][a]",
           "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
           "-movflags", "+faststart", saida])
+    print(f"emenda: cortei {c} s de silêncio no começo do corpo")
 
 
 def main() -> None:
