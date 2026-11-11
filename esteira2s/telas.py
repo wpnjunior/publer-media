@@ -51,6 +51,8 @@ body {{ width: {w}px; height: {h}px; background: {t['fundo']}; overflow: hidden;
 .rodape {{ position: absolute; bottom: 60px; left: 92px; right: 92px; display: flex;
            justify-content: space-between; align-items: center; font: 30px Rotulo; color: {t['texto']}; }}
 .story .rodape {{ bottom: 320px; }}
+.story .texto {{ font-size: 54px; }}
+.story .fonte {{ font-size: 28px; }}
 .pontos span {{ display: inline-block; width: 16px; height: 16px; border-radius: 50%;
                 background: {t['ponto']}; margin-left: 10px; }}
 .pontos span.on {{ background: {t['acento']}; }}

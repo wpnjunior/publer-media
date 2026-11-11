@@ -67,7 +67,7 @@ número sem fonte. Fecho manda procurar o médico. React: até 12 s do viral, @ 
   entrega, escrita para o assunto (GUIA seção 4). Vai na narração, com adesivo "segue + curte" e o @ por 2 s.
   Roteiro de rosto: clipe tipo `troca` do banco. `pronto` e `midia_final` já estão falados: neles entra só o
   adesivo na tela, logo depois da virada, sem mexer na fala. Post `ja_agendado` não é alterado.
-- Sem voz: Reels de texto com trilha de `reel_kit/trilhas/` (nunca música de terceiros).
+- Sem voz: Reels de texto = `python esteira2s/reels_texto.py spec.json reels.mp4` (cartões do telas.py com zoom leve, troca suave e trilha de `reel_kit/trilhas/`; nunca música de terceiros). 5 a 7 cartões, a cobrança de seguir num cartão do meio, fonte no último.
 
 ## 4b. Montar o bruto (sem clone novo)
 `python esteira2s/montar_bruto.py montagem.json /tmp/e2s/bruto.mp4`: clipes ROSTO do banco + trechos de
