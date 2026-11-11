@@ -41,6 +41,7 @@ def main() -> None:
     p.add_argument("viral"); p.add_argument("rosto"); p.add_argument("formato", choices=["dividida", "canto"]); p.add_argument("saida")
     p.add_argument("--ini", type=float, default=0.0); p.add_argument("--dur", type=float, default=9.5)
     p.add_argument("--credito", default="")
+    p.add_argument("--recorte", default="", help="clipe do rosto SEM fundo (npx hyperframes remove-background rosto.mp4 -o rosto_alpha.mov); no formato canto vira só a cabeça, recortada, em 1/6 da tela")
     a = p.parse_args()
     d = a.dur
     cred = ("Vídeo original: " + a.credito).replace(":", r"\:").replace("'", "")
@@ -59,6 +60,18 @@ def main() -> None:
               f"[v0]drawbox=x=0:y=1142:w=1080:h=16:color=white:t=fill,"
               f"drawbox=x=0:y=0:w=1080:h=72:color=black@0.55:t=fill,"
               f"drawtext=fontfile={FONTE}:text='{cred}':fontsize=34:fontcolor=white:x=(w-text_w)/2:y=18[v]")
+    elif a.recorte:
+        # Wagner, 11/11: no canto só a CABEÇA, recortada sem o fundo, ocupando cerca de 1/6 da tela, embaixo à esquerda
+        pausa = 0.5
+        t0 = d - pausa
+        laco_a = laco.replace("[1:v]", "[2:v]format=yuva444p,")
+        fc = (f"[0:v]trim=start={a.ini}:duration={t0},setpts=PTS-STARTPTS,fps=25,scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
+              f"tpad=stop_mode=clone:stop_duration={pausa},eq=brightness='if(gte(t,{t0}),-0.18,0)':eval=frame[fundo];"
+              f"{laco_a},scale=1080:1920,crop=640:800:220:230,scale=540:-2[rp];"
+              f"[fundo][rp]overlay=x=10:y=H-h-170:format=auto[v1];"
+              f"[v1]drawbox=x=0:y=60:w=1080:h=72:color=black@0.55:t=fill,"
+              f"drawtext=fontfile={FONTE}:text='{cred}':fontsize=34:fontcolor=white:x=(w-text_w)/2:y=78,"
+              f"drawtext=fontfile={FONTE}:text='II':fontsize=220:fontcolor=white@0.9:x=(w-text_w)/2:y=520:enable='gte(t,{t0})'[v]")
     else:
         pausa = 0.7  # fim: viral pausa e o rosto cresce
         t0 = d - pausa
@@ -70,7 +83,8 @@ def main() -> None:
               f"[v1]drawbox=x=0:y=60:w=1080:h=72:color=black@0.55:t=fill:enable='lt(t,{t0})',"
               f"drawtext=fontfile={FONTE}:text='{cred}':fontsize=34:fontcolor=white:x=(w-text_w)/2:y=78:enable='lt(t,{t0})',"
               f"drawtext=fontfile={FONTE}:text='II':fontsize=220:fontcolor=white@0.9:x=(w-text_w)/2:y=520:enable='between(t,{t0},{t0 + 0.35})'[v]")
-    roda(["ffmpeg", "-y", "-v", "error", "-i", a.viral, "-i", a.rosto, "-filter_complex",
+    entradas = ["-i", a.viral, "-i", a.rosto] + (["-i", a.recorte] if a.recorte else [])
+    roda(["ffmpeg", "-y", "-v", "error", *entradas, "-filter_complex",
           fc + f";[0:a]atrim=start={a.ini}:duration={d},asetpts=PTS-STARTPTS,aresample=48000,volume='if(gte(t,{esp}),0.25,1)':eval=frame[va];"
                f"[1:a]aresample=48000,adelay={int(esp * 1000)}:all=1,volume=1.6[ra];[va][ra]amix=inputs=2:duration=first:normalize=0[a]",
           "-map", "[v]", "-map", "[a]", "-t", str(d), "-r", "25", "-c:v", "libx264", "-crf", "20", "-pix_fmt", "yuv420p",
