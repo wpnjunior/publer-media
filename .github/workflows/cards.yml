@@ -1,8 +1,9 @@
 name: cards-14h
 on:
   schedule:
-    - cron: "0 17 * * *"   # 14h de Brasilia — publica o card na hora (API da Meta nao agenda feed)
-    - cron: "0 19 * * *"   # 16h BRT — RESERVA: se o das 14h atrasou/falhou, cobre o dia (o script nao duplica)
+    # O GitHub atrasa o cron em 3 a 5 horas neste repo. Por isso roda de hora em hora e o script
+    # so publica dentro da faixa do dia (14h30-16h30 de Brasilia, minuto variado) e uma vez por dia.
+    - cron: "43 12-23 * * *"
   workflow_dispatch: {}
 jobs:
   publicar-card:
@@ -14,6 +15,7 @@ jobs:
       - name: publicar proximo card no Instagram
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          FORCAR: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python pipeline/publish_card.py
       - name: marcar publicado
         run: |

@@ -3,7 +3,7 @@
 e publica NA HORA no Instagram pela API oficial da Meta (Content Publishing API, gratis).
 Substituiu o Publer em 07/10/2026 (Publer exige plano Business pra API).
 A API da Meta nao agenda post de feed — por isso o cron roda no horario e publica direto."""
-import json, os, sys, time, datetime as dt, urllib.request, urllib.parse, urllib.error
+import hashlib, json, os, sys, time, datetime as dt, urllib.request, urllib.parse, urllib.error
 
 TOKEN = os.environ["IG_TOKEN"].strip()   # token de PAGINA (nao expira), gerado por pipeline/ig_token.py
 IG = "17841401642025519"                 # Instagram business do Dr. Wagner
@@ -33,6 +33,12 @@ def main():
     hoje = agora.strftime("%Y-%m-%d")
     if any((c.get("slot") or "").startswith(hoje) for c in idx["cards"]):
         print("HOJE ja tem card publicado, nada a fazer."); return 0
+
+    # faixa do dia: o card sai entre 14h30 e 16h30 de Brasilia, num minuto que muda a cada dia
+    # (parecer humano). O cron roda de hora em hora porque o GitHub atrasa; quem segura e este portao.
+    alvo = 17 * 60 + 30 + int(hashlib.sha1(hoje.encode()).hexdigest(), 16) % 120
+    if os.environ.get("FORCAR") != "1" and agora.hour * 60 + agora.minute < alvo:
+        print(f"AINDA NAO: hoje o card sai a partir de {alvo // 60:02d}:{alvo % 60:02d} UTC."); return 0
 
     card = pend[0]
     url = RAW.format(card["id"])

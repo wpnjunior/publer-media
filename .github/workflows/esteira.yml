@@ -4,8 +4,10 @@ name: esteira-publica
 # e publica a pasta mais antiga com "published": false e schedule_at vencido (uma por dia).
 on:
   schedule:
-    - cron: "0 23 * * *"   # 20h de Brasilia
-    - cron: "0 1 * * *"    # 22h BRT - RESERVA: se o das 20h falhou, cobre o dia (o script nao duplica)
+    # O GitHub atrasa o cron em 3 a 5 horas neste repo (o das 20h saia depois da meia-noite).
+    # Roda de hora em hora; o script so publica com schedule_at vencido (20h BRT) e uma vez por dia.
+    - cron: "17 18-23 * * *"
+    - cron: "17 0-3 * * *"
   workflow_dispatch: {}
 concurrency:
   group: esteira-publica
