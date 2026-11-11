@@ -1,13 +1,21 @@
 {
- "status": "reprovado_refazer",
+ "status": "pronto_para_agendar",
  "tema": "MKUltra: a CIA drogou cidadãos sem eles saberem",
  "molde": "historia_real",
- "edicao": "dossiê (dinamica + dossie), rosto o tempo todo",
- "midia": "reels.mp4",
- "bruto": "/mnt/project-files/esteira2s/prontos/mkultra.mp4 (vídeo já produzido, 0 crédito)",
+ "edicao": "dossiê de arquivo (HyperFrames, esteira2s/hf/dossie.py): rosto do avatar padrão na abertura e no fecho, narração só em áudio sobre folhas de arquivo",
+ "midia": "final.mp4",
  "fontes": [
   "Senado dos EUA, Project MKULTRA: audiência conjunta, 3/8/1977",
   "Comissão Church, relatório final, 1976"
  ],
- "pendente": "Wagner (11/11 05h): avatar antigo ficou ruim; edição e enredo aprovados. Regerar com o avatar padrão 1d7e, mesmo roteiro (roteiro.txt) e mesma edição dossiê. NÃO agendar reels.mp4."
+ "linguagem": "arquivo",
+ "heygen_video_id": "b37ccb84bdd79c23f37bc4797dd5fb18",
+ "rostos": [
+  "clone novo (abertura e fecho)",
+  "seguir_02"
+ ],
+ "cta_meio": {
+  "tipo": "seguir",
+  "clipe": "seguir_02"
+ }
 }
