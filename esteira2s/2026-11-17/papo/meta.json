@@ -1,0 +1,25 @@
+{
+ "status": "pronto_para_agendar",
+ "tema": "O que acontece no corpo em 12, 16 e 24 h sem comer",
+ "molde": "linha_do_tempo",
+ "edicao": "mapeamento (regua), pele quadro",
+ "voz_s": 49.5,
+ "rostos": [
+  "abertura_06",
+  "seguir_03",
+  "fecho_02"
+ ],
+ "cta_meio": {
+  "tipo": "cobranca",
+  "frase": "Te dei o mapa do jejum de graça. Curte e me segue, pra esse vídeo chegar em mais gente."
+ },
+ "cta_fim": {
+  "tipo": "salvar",
+  "frase": "Salva esse vídeo, e manda pra quem precisa ouvir."
+ },
+ "fontes": [
+  "Anton et al., Obesity 2018, PMID 29086496, doi 10.1002/oby.22065"
+ ],
+ "porteiro": "aprovado",
+ "nota": "Produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories."
+}
