@@ -11,14 +11,14 @@ const path = require('path');
 
 const AQUI = __dirname;
 const [, , WORK, SAIDA, A3, A4] = process.argv;
-const TIPOS = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.jpg': 'image/jpeg', '.png': 'image/png', '.ttf': 'font/ttf' };
+const TIPOS = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.jpg': 'image/jpeg', '.png': 'image/png', '.ttf': 'font/ttf', '.jpeg': 'image/jpeg', '.webp': 'image/webp' };
 
 function servidor() {
   return new Promise((ok) => {
     const srv = http.createServer((req, res) => {
       const u = decodeURIComponent(req.url.split('?')[0]);
       let f = path.join(AQUI, u);
-      if (u.startsWith('/frames/') || u === '/timeline.json') f = path.join(WORK, u);
+      if (u.startsWith('/frames/') || u.startsWith('/img/') || u === '/timeline.json') f = path.join(WORK, u);
       fs.readFile(f, (err, data) => {
         if (err) { res.writeHead(404); return res.end(); }
         res.writeHead(200, { 'Content-Type': TIPOS[path.extname(f)] || 'application/octet-stream' });
