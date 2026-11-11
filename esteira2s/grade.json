@@ -1,0 +1,391 @@
+{
+ "ciclo": "2026-11-14 a 2026-11-27",
+ "fuso": "America/Bahia",
+ "marcas": {
+  "papo": {
+   "nome": "Papo de Médico",
+   "blogId": "7510655",
+   "focos": [
+    "jejum intermitente",
+    "parasitas e desparasitação",
+    "massa magra e força",
+    "intestino e intolerância alimentar",
+    "canetas emagrecedoras",
+    "histórias da medicina",
+    "mitos de saúde"
+   ],
+   "dias": {
+    "2026-11-14": {
+     "tipo": "reels",
+     "molde": "historia_real",
+     "edicao": "mapeamento_arquivo",
+     "janela": [
+      "11:00",
+      "13:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-15": {
+     "tipo": "reels",
+     "molde": "mito_ou_verdade",
+     "edicao": "mapeamento_cartoes",
+     "janela": [
+      "11:00",
+      "14:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "jejum intermitente"
+    },
+    "2026-11-16": {
+     "tipo": "reels",
+     "molde": "react",
+     "edicao": "react_canto_mapeamento",
+     "janela": [
+      "17:00",
+      "19:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-17": {
+     "tipo": "reels",
+     "molde": "linha_do_tempo",
+     "edicao": "linha_do_tempo",
+     "janela": [
+      "11:00",
+      "14:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "jejum 12/16/24 h"
+    },
+    "2026-11-18": {
+     "tipo": "folga"
+    },
+    "2026-11-19": {
+     "tipo": "reels",
+     "molde": "tela_dividida",
+     "edicao": "tela_dividida",
+     "janela": [
+      "11:00",
+      "14:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-20": {
+     "tipo": "reels",
+     "molde": "noticia_famoso",
+     "edicao": "dinamica_celular",
+     "janela": [
+      "17:00",
+      "19:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "parasitas"
+    },
+    "2026-11-21": {
+     "tipo": "reels",
+     "molde": "lista_para_salvar",
+     "edicao": "lista",
+     "janela": [
+      "11:00",
+      "13:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-22": {
+     "tipo": "folga"
+    },
+    "2026-11-23": {
+     "tipo": "reels",
+     "molde": "react",
+     "edicao": "react_canto_dossie",
+     "janela": [
+      "11:00",
+      "14:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-24": {
+     "tipo": "reels",
+     "molde": "responder_comentario",
+     "edicao": "dinamica_adesivo",
+     "janela": [
+      "17:00",
+      "19:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-25": {
+     "tipo": "reels",
+     "molde": "tela_dividida",
+     "edicao": "tela_dividida_lista",
+     "janela": [
+      "11:00",
+      "14:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-26": {
+     "tipo": "reels",
+     "molde": "historia_real",
+     "edicao": "dossie",
+     "janela": [
+      "17:00",
+      "19:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-27": {
+     "tipo": "reels",
+     "molde": "noticia_famoso",
+     "edicao": "dinamica_celular",
+     "janela": [
+      "11:00",
+      "14:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    }
+   },
+   "nota": "Papo News (carrossel) sai dia sim, dia não às 20h pela esteira-medscape (15,17,19,21,23,25,27/11): nesses dias o Reels fica até 14h."
+  },
+  "fertilidade": {
+   "nome": "Fertilidade a Dois",
+   "blogId": "8012127",
+   "focos": [
+    "fertilidade masculina",
+    "fertilidade feminina",
+    "exames do casal",
+    "hábitos",
+    "mitos",
+    "famosos e FIV"
+   ],
+   "dias": {
+    "2026-11-14": {
+     "tipo": "carrossel",
+     "janela": [
+      "11:00",
+      "13:00"
+     ],
+     "redes": [
+      "instagram"
+     ]
+    },
+    "2026-11-15": {
+     "tipo": "reels",
+     "molde": "mito_ou_verdade",
+     "edicao": "texto_cartoes",
+     "janela": [
+      "18:00",
+      "20:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false
+    },
+    "2026-11-16": {
+     "tipo": "carrossel",
+     "janela": [
+      "19:00",
+      "20:00"
+     ],
+     "redes": [
+      "instagram"
+     ]
+    },
+    "2026-11-17": {
+     "tipo": "reels",
+     "molde": "noticia_famoso",
+     "edicao": "dinamica_celular",
+     "janela": [
+      "19:00",
+      "21:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "Zé Felipe e testosterona"
+    },
+    "2026-11-18": {
+     "tipo": "carrossel",
+     "janela": [
+      "12:00",
+      "13:00"
+     ],
+     "redes": [
+      "instagram"
+     ]
+    },
+    "2026-11-19": {
+     "tipo": "folga"
+    },
+    "2026-11-20": {
+     "tipo": "reels",
+     "molde": "linha_do_tempo",
+     "edicao": "linha_do_tempo",
+     "janela": [
+      "19:00",
+      "21:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "ciclo do espermatozoide (precisa de fonte)"
+    },
+    "2026-11-21": {
+     "tipo": "carrossel",
+     "janela": [
+      "11:00",
+      "13:00"
+     ],
+     "redes": [
+      "instagram"
+     ]
+    },
+    "2026-11-22": {
+     "tipo": "reels",
+     "molde": "lista_para_salvar",
+     "edicao": "texto_lista",
+     "janela": [
+      "18:00",
+      "20:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false
+    },
+    "2026-11-23": {
+     "tipo": "carrossel",
+     "janela": [
+      "19:00",
+      "20:00"
+     ],
+     "redes": [
+      "instagram"
+     ]
+    },
+    "2026-11-24": {
+     "tipo": "reels",
+     "molde": "react",
+     "edicao": "react_canto_mapeamento",
+     "janela": [
+      "19:00",
+      "21:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    },
+    "2026-11-25": {
+     "tipo": "carrossel",
+     "janela": [
+      "12:00",
+      "13:00"
+     ],
+     "redes": [
+      "instagram"
+     ]
+    },
+    "2026-11-26": {
+     "tipo": "folga"
+    },
+    "2026-11-27": {
+     "tipo": "reels",
+     "molde": "tela_dividida",
+     "edicao": "tela_dividida",
+     "janela": [
+      "19:00",
+      "21:00"
+     ],
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true
+    }
+   }
+  }
+ },
+ "stories_por_dia": 2,
+ "creditos": {
+  "teto_ciclo": 200,
+  "teto_por_reels": 12,
+  "piso_saldo": 40,
+  "clone_iv_por_s": 0.9,
+  "voz_por_s": 0.23
+ }
+}
