@@ -14,7 +14,7 @@ Cada meta.json de Reels grava o campo "linguagem". Linguagens conhecidas:
   conversa     conversa de mensagens no celular (HyperFrames)
   slam         tipografia gigante, uma palavra por vez (HyperFrames)
   dados        gráfico animado em tela cheia (HyperFrames)
-  arquivo      documentário de papel rasgado e colagem (HyperFrames)
+  arquivo      dossiê de arquivo: pasta, folhas batidas à máquina e carimbo (HyperFrames, hf/dossie.py)
 Edição nova = nome novo aqui e no runbook.
 """
 import json, sys

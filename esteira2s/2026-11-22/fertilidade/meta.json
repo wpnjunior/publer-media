@@ -1,0 +1,19 @@
+{
+ "tema": "Endometriose: os anos entre a dor e o diagnóstico",
+ "molde": "linha_do_tempo",
+ "rostos": [
+  "abertura_11",
+  "seguir_05",
+  "fecho_09"
+ ],
+ "fontes": [
+  "Nnoaham et al., Fertil Steril 2011, PMID 21718982, doi 10.1016/j.fertnstert.2011.05.090: 1.418 mulheres, 10 países; atraso de 6,7 anos entre sintomas e diagnóstico cirúrgico"
+ ],
+ "status": "pronto_para_agendar",
+ "linguagem": "conversa",
+ "edicao": "CONVERSA (HyperFrames, esteira2s/hf/conversa.py): conversa de mensagens no celular",
+ "midia": "final.mp4",
+ "custo_estimado": 10,
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+ "nota": "Produzido em 11/11 (lote 2). Rodada da véspera escreve a legenda e agenda."
+}

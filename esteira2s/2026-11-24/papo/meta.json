@@ -1,0 +1,20 @@
+{
+ "tema": "Café puro quebra o jejum?",
+ "molde": "responder_comentario",
+ "rostos": [
+  "abertura_08",
+  "seguir_03",
+  "fecho_03"
+ ],
+ "fontes": [
+  "Sciarrillo et al., Clin Nutr ESPEN 2021, PMID 33487304, doi 10.1016/j.clnesp.2020.11.020: 10 pessoas, jejum de 10 h, café preto x água; glicose e triglicerídeo sem diferença",
+  "Calorias do café coado sem açúcar (cerca de 2 kcal por xícara): USDA FoodData Central"
+ ],
+ "status": "pronto_para_agendar",
+ "linguagem": "conversa",
+ "edicao": "CONVERSA (HyperFrames, esteira2s/hf/conversa.py): conversa de mensagens no celular",
+ "midia": "final.mp4",
+ "custo_estimado": 10,
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+ "nota": "Produzido em 11/11 (lote 2). Rodada da véspera escreve a legenda e agenda."
+}
