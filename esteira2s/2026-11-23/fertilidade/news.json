@@ -1,0 +1,50 @@
+{
+ "marca": [
+  "FERTILIDADE",
+  "A DOIS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_homemso_6756358.jpg",
+   "editoria": "Idade",
+   "manchete": "O relógio <span class=\"hl\">dele</span><br>também anda",
+   "sub": "Estudo inglês com <b>2.112 gestações</b> mediu o tempo até engravidar pela idade do pai.",
+   "fonte": "Fonte: Hassan e Killick, Fertil Steril, 2003"
+  },
+  {
+   "foto": "px_casal_8559990.jpg",
+   "numero": "01",
+   "manchete": "Só se fala<br>da idade <span class=\"hl\">dela</span>",
+   "corpo": "A idade da mulher pesa, e ela ouve isso o tempo todo. A do homem quase nunca entra na conversa."
+  },
+  {
+   "foto": "px_calendario_9052846.jpg",
+   "numero": "02",
+   "manchete": "Depois dos <span class=\"hl\">45</span>",
+   "corpo": "Com o pai acima de 45 anos, o tempo até a gravidez foi cerca de <b>5 vezes maior</b> do que com pais de menos de 25.",
+   "destaque": "O efeito apareceu mesmo com parceiras jovens."
+  },
+  {
+   "foto": "px_homemmedico_8413300.jpg",
+   "numero": "03",
+   "manchete": "Dividi a conta<br>do <span class=\"hl\">relógio</span>",
+   "corpo": "Curte aí, casal. E segue a gente para o próximo passo."
+  },
+  {
+   "foto": "px_lab_9574415.jpg",
+   "numero": "04",
+   "manchete": "Mais de <span class=\"hl\">1 ano</span><br>tentando",
+   "corpo": "Homens acima de 45 tiveram <b>4,6 vezes</b> mais chance de levar mais de um ano para engravidar a parceira.",
+   "destaque": "É um estudo de observação, não uma sentença."
+  },
+  {
+   "foto": "px_casal_3958822.jpg",
+   "numero": "05",
+   "manchete": "A idade é <span class=\"hl\">dos dois</span>",
+   "corpo": "No planejamento do casal, a idade dele também entra. Na dúvida, os dois conversam com o médico.",
+   "destaque": "Manda pro seu par.",
+   "fonte": "Fonte: Hassan e Killick, Fertil Steril 2003 · doi 10.1016/s0015-0282(03)00366-2 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
