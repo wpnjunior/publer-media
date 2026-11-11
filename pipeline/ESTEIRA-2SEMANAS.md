@@ -145,3 +145,22 @@ post com `draft: true` (conteúdo idêntico), status `vetado` no meta.json. "pau
 
 - Fotos: usar o banco novo `bg_bank/px_<assunto>_<id>.jpg` (83 fotos Pexels, tags em `bg_bank/index.json`); não repetir a mesma foto no mesmo carrossel nem em carrosséis da mesma semana. Faltou assunto: buscar no Pexels (WebSearch em pexels.com dá o id; baixar por `https://images.pexels.com/photos/<id>/pexels-photo-<id>.jpeg?auto=compress&cs=tinysrgb&w=1260`), olhar a foto antes de usar e registrar no índice.
 - Letra: o molde Papo News cresce o texto sozinho até sobrar só a faixa de foto no alto (variável `--k` em `pipeline/template_news.py`). Manchete curta (até 4 palavras por linha, com `<br>`) é o que deixa a letra grande.
+
+## Erros, causas e travas (regra do Wagner, 11/11: identificar todo erro, ver por que errou e criar mecanismo para não repetir)
+
+Todo erro novo entra aqui na hora, nas três colunas. Erro sem trava não está resolvido.
+
+| Erro | Por que aconteceu | Trava (mecanismo) |
+| --- | --- | --- |
+| Edições "sempre as mesmas" (reclamado 2 vezes em 11/11) | Troquei só a `pele` (cor e cenário); o esqueleto frase + cartão + etiqueta era igual. Conferi como autor, não como espectador. | `python esteira2s/trava_mesmice.py DATA MARCA LINGUAGEM` antes de produzir: a linguagem não pode repetir a dos 3 Reels anteriores da conta. Todo `meta.json` de Reels grava `linguagem`. Linguagem nova só mostrando 1 exemplo ao Wagner antes do lote. |
+| React com rosto no canto "ficou ruim" | Produzi 2 formatos sem ele pedir o segundo desse jeito. | React só em tela dividida; `react_abertura.py ... dividida`. |
+| MKUltra com avatar antigo | Reaproveitei bruto de outubro para economizar crédito, sem checar o avatar. | Vídeo com rosto só entra se o avatar for o 1d7e. Bruto antigo de `prontos/` de documentário nunca é publicado; regrava-se com o mesmo roteiro. |
+| Foto de grávida na Fertilidade | Banco de fotos sem etiqueta de conteúdo sensível. | Tag `gravida` no `bg_bank/index.json`; Fertilidade nunca usa foto com essa tag. Na dúvida, marca e troca. |
+| Fotos demais no Reels | Preenchi a narração com banco de imagem. | No máximo 2 fotos por Reels (`planejar.py` corta). |
+| Gancho em título branco "sem graça" | Título solto no 1º segundo. | Gancho sempre animado (caixinha, comentário digitado, manchete). |
+| Gráfico de barras cortado na lateral | 3 barras não cabem em 1080 px. | Cena `barra` com no máximo 2 barras; conferir a folha de quadros antes de salvar. |
+| Rosto coberto na cobrança de seguir | Cena gráfica por cima do clipe de rosto. | Trava `_rosto_gerado_aparece` no `planejar.py`. |
+| Narração gerada como vídeo do clone (49 créditos em vez de ~21, 10/11) | Usei vídeo para obter a voz. | Narração só em áudio (`create_speech`); clone só onde o rosto aparece. |
+| Reel da vacina saiu sem edição (09/11) | Arquivo editado não existia; plano B publicado sem ok. | Só publica a mídia aprovada; `porteiro.py` e conferência do arquivo antes de agendar. |
+
+Conferência final de todo Reels, olhando como espectador: (1) trava da mesmice passou; (2) folha de quadros aberta e olhada; (3) nenhum texto cortado; (4) rosto visível na cobrança; (5) fonte com DOI no fim.
