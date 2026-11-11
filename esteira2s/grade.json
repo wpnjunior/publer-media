@@ -1011,29 +1011,16 @@
      ]
     },
     "2026-12-01": {
-     "tipo": "reels",
+     "tipo": "carrossel",
      "redes": [
-      "instagram",
-      "tiktok",
-      "youtube"
+      "instagram"
      ],
-     "tema": "Cueca apertada deixa infértil? (react)",
-     "gancho": "Grávida aos 55. O que isso muda para quem tem 40?",
-     "cta_meio": "Separei a manchete da ciência. Curte e segue a gente.",
-     "cta_fim": "Comentar: qual a dúvida de vocês?",
-     "edicao_nome": "Clínico claro + manchete no celular",
+     "tema": "Os 3 meses dele: hábitos que aparecem no próximo exame",
      "janela": [
       "19:00",
-      "21:00"
+      "20:30"
      ],
-     "molde": "react",
-     "voz": true,
-     "edicao": "mapeamento",
-     "pele": "clinico",
-     "cenas_obrigatorias": [
-      "celular"
-     ],
-     "nota": "React de 11/11. O tema Gravidez depois dos 50 volta para a fila."
+     "nota": "Virou carrossel (sem crédito) por decisão do Wagner em 11/11; veio da vaga de 10/12."
     },
     "2026-12-02": {
      "tipo": "carrossel",
@@ -1192,7 +1179,7 @@
       "tiktok",
       "youtube"
      ],
-     "tema": "Os 3 meses dele: hábitos que aparecem no próximo exame",
+     "tema": "Cueca apertada deixa infértil? (react)",
      "gancho": "O que ele mudar hoje aparece no exame daqui a 3 meses.",
      "cta_meio": "Fiz o plano de 90 dias. Um curte, o outro segue.",
      "cta_fim": "Salvar e começar hoje",
@@ -1201,13 +1188,14 @@
       "18:30",
       "20:30"
      ],
-     "molde": "lista_para_salvar",
+     "molde": "react",
      "voz": true,
      "edicao": "mapeamento",
      "pele": "clinico",
      "cenas_obrigatorias": [
       "checklist"
-     ]
+     ],
+     "nota": "React pronto em 11/11; repetição do assunto de 15/11 autorizada pelo Wagner para o fim do ciclo."
     },
     "2026-12-11": {
      "tipo": "reels",
