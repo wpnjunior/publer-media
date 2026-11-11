@@ -1,0 +1,60 @@
+{
+ "marca": ["PAPO DE", "CARCINICULTOR"],
+ "assinatura": {"emblema": "🦐", "nome": "Aqua Cultivo Novaes", "linha": "Pós-larva de vannamei · Jaguaripe-BA"},
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "editoria": "Doenças e biossegurança",
+   "manchete": "Na vibriose, a sobrevivência <span class=\"hl\">quase dobrou</span> com um aditivo na ração.",
+   "sub": "De 31,3% para 62,5% no desafio com Vibrio parahaemolyticus, num teste de 4 semanas.",
+   "fonte": "Fonte: Rattanawongwiboon et al., Antioxidants, 2026"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "O teste foi <span class=\"hl\">pesado de propósito</span>",
+   "corpo": "Pesquisadores alimentaram <i>Litopenaeus vannamei</i> por 4 semanas com quitosana de baixo peso molecular na ração e depois desafiaram os lotes com <b>Vibrio parahaemolyticus</b>, a bactéria da AHPND.",
+   "destaque": "80 camarões por grupo, mesma infecção, mesma água. Só a ração mudou antes do desafio.",
+   "fonte": "Rattanawongwiboon et al., Antioxidants, 2026"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "Sem o aditivo, a queda foi <span class=\"hl\">rápida</span>",
+   "corpo": "No grupo controle, a sobrevivência após o desafio foi de só <b>31,3%</b>, com sobrevivência média de <b>2 dias</b> depois da infecção.",
+   "destaque": "A ração comum não prepara o camarão pro golpe da vibriose. Ela só mantém o peso até o dia da infecção.",
+   "fonte": "Rattanawongwiboon et al., Antioxidants, 2026"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "03",
+   "manchete": "A dose certa <span class=\"hl\">quase dobrou</span> a sobrevivência",
+   "corpo": "Com a quitosana na dose de <b>0,4%</b> da ração, a sobrevivência subiu para <b>62,5%</b> — e a sobrevivência média passou de 2 para <b>14 dias</b> (p&lt;0,0001).",
+   "destaque": "Dose menor (0,1%) rendeu só 37,5%. Não é só usar o aditivo — é usar a dose que o estudo testou.",
+   "fonte": "Rattanawongwiboon et al., Antioxidants, 2026"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "A bactéria no sangue do camarão <span class=\"hl\">quase não subiu</span>",
+   "corpo": "Depois do desafio, a carga de Vibrio na hemolinfa ficou em <b>0,96 mil UFC/mL</b> no grupo com o aditivo, contra <b>1,80 mil UFC/mL</b> no controle (p=0,0002). A lisozima, enzima de defesa, saltou de 39 para <b>138 U/mL</b> (p=0,013).",
+   "destaque": "O camarão não ficou só mais resistente por fora. O sistema de defesa dele trabalhou mais.",
+   "fonte": "Rattanawongwiboon et al., Antioxidants, 2026"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "numero": "05",
+   "manchete": "E o crescimento <span class=\"hl\">também melhorou</span>",
+   "corpo": "Antes mesmo do desafio, o grupo com o aditivo fechou as 4 semanas com peso final de <b>39-40 g</b> contra 23 g do controle, e conversão alimentar de <b>2,4</b> contra 3,3 (p&lt;0,01).",
+   "destaque": "Não foi uma troca: mais defesa contra vibriose e melhor conversão alimentar, ao mesmo tempo.",
+   "fonte": "Rattanawongwiboon et al., Antioxidants, 2026"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a biossegurança do teu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
