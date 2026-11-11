@@ -1,9 +1,9 @@
 {
- "status": "pronto_para_agendar",
+ "status": "agendado",
  "tema": "Peidar 25 vezes por dia é normal?",
  "molde": "react",
  "edicao": "react em TELA DIVIDIDA (escolha do Wagner em 11/11) + mapeamento pele clinico",
- "midia": "reels.mp4",
+ "midia": "final.mp4",
  "viral": "https://www.tiktok.com/@nutrologo.alimenticio/video/7704069050250300690 (9,6 s, crédito na tela)",
  "rostos": [
   "ouvindo_01",
@@ -15,5 +15,17 @@
   "Furne & Levitt, Dig Dis Sci 1996, PMID 8769291, doi 10.1007/BF02087912: 25 pessoas, 10 ± 1 por dia, limite do normal 20; com lactulose 19 ± 2,4"
  ],
  "nota": "Substitui o react antigo (clone a94b, edição cinza).",
- "pendente": "Porteiro/sabor, legenda, stories e agendamento na rodada da véspera"
+ "metricool_id": 424206932,
+ "uuid": "-8687010325411903888",
+ "horario": "2026-11-16T17:34 America/Sao_Paulo",
+ "sha": "f03c2b55283fcea70b8212a7c2c1bf0adc073361",
+ "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/f03c2b55283fcea70b8212a7c2c1bf0adc073361/esteira2s/2026-11-16/papo/final.mp4",
+ "tamanho_bytes": 9936824,
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
 }

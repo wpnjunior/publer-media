@@ -1,5 +1,5 @@
 {
- "status": "pronto_para_agendar",
+ "status": "agendado",
  "tema": "O que acontece no corpo em 12, 16 e 24 h sem comer",
  "molde": "linha_do_tempo",
  "edicao": "mapeamento (regua), pele quadro",
@@ -22,5 +22,19 @@
  ],
  "porteiro": "aprovado",
  "nota": "Produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories.",
- "linguagem": "mapeamento"
+ "linguagem": "mapeamento",
+ "midia": "final.mp4",
+ "metricool_id": 424206967,
+ "uuid": "-3958927430056525173",
+ "horario": "2026-11-17T11:48 America/Sao_Paulo",
+ "sha": "f03c2b55283fcea70b8212a7c2c1bf0adc073361",
+ "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/f03c2b55283fcea70b8212a7c2c1bf0adc073361/esteira2s/2026-11-17/papo/final.mp4",
+ "tamanho_bytes": 12722901,
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
 }

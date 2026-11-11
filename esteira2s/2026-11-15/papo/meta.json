@@ -1,9 +1,9 @@
 {
- "status": "pronto_para_agendar",
+ "status": "agendado",
  "tema": "Pular o café da manhã engorda? (mito)",
  "molde": "mito_ou_verdade",
  "edicao": "mapeamento, pele noite, gancho em caixinha de pergunta",
- "midia": "reels.mp4",
+ "midia": "final.mp4",
  "voz_s_bruta": 56.0,
  "custo_estimado": 11,
  "fontes": [
@@ -23,6 +23,18 @@
   "troca_01",
   "fecho_07"
  ],
- "pendente": "Porteiro/sabor, legenda, stories e agendamento na rodada da véspera",
- "linguagem": "mapeamento"
+ "linguagem": "mapeamento",
+ "metricool_id": 424206894,
+ "uuid": "295364660937838171",
+ "horario": "2026-11-15T12:23 America/Sao_Paulo",
+ "sha": "f03c2b55283fcea70b8212a7c2c1bf0adc073361",
+ "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/f03c2b55283fcea70b8212a7c2c1bf0adc073361/esteira2s/2026-11-15/papo/final.mp4",
+ "tamanho_bytes": 13397710,
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
 }
