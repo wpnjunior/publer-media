@@ -1,4 +1,4 @@
-# ESTEIRA DE 2 SEMANAS — Papo de Médico e Fertilidade a Dois (14 a 27/11/2026)
+# ESTEIRA DE 30 DIAS — Papo de Médico e Fertilidade a Dois (12/11 a 11/12/2026, sem folga)
 
 Hospital caso 004 (doc: https://claude.ai/artifact/ABfNmo7rfJ4pxEvKXoRr6G). Cada marca tem a SUA rodada diária,
 que produz os posts de AMANHÃ, já agenda no Metricool e manda a prévia. O Wagner só veta se quiser
@@ -9,15 +9,23 @@ avisa. Nunca troque mídia, nunca caia para plano B que gaste crédito, nunca ge
 
 ## 0. Travas (antes de gastar qualquer coisa)
 - Datas no fuso America/Bahia. ALVO = amanhã. Leia `esteira2s/grade.json`: `marcas.<marca>.dias[ALVO]`.
-  Se não existe (fora do ciclo) ou `tipo` = `folga`: faça só os 2 stories (passo 7) e encerre.
+  Se não existe (fora do ciclo): encerre. Não há folga (pedido do Wagner em 11/11): toda data do ciclo tem post.
+  `tipo` = `ja_agendado`: o post do dia já está no Metricool; faça só os 2 stories (passo 7) e a prévia.
+  Entrada com `midia_final`: o vídeo já está editado. Pule os passos 1 a 5 (rode só o Porteiro e o sabor), o tema é
+  o campo `tema`. Entrada com `pronto`: o bruto já foi gravado (crédito já gasto). Pule os passos 1, 3, 4 e 4b: o
+  tema é o campo `tema`, o roteiro é o `.txt` ao lado do bruto, e o bruto entra direto no editor (passo 5) com a
+  edição da grade. Nunca gere voz nem clone para um `pronto`. As fontes (PubMed/DOI) você busca para a legenda e
+  para a tela de fonte; se um número falado não tiver fonte, status `falha_fonte`, vaga vazia e aviso.
+  Carrossel também vale para o Papo (tema escuro do `telas.py`).
 - Pausa: se existe `/mnt/project-files/esteira2s/PAUSADO` ou `/mnt/project-files/esteira2s/PAUSADO-<marca>`, encerre.
 - Já feito: se existe `/mnt/project-files/esteira2s/<ALVO>/<marca>/meta.json` com status diferente de `falha`,
   encerre. Senão crie-o com `{"status":"produzindo"}` (trava contra rodada dupla).
 - HeyGen `get_current_user`: guarde `premium_credits.remaining` no meta.json como `saldo_antes`.
+  Antes de 29/11 20h22Z (renovação), some o gasto do ciclo nos meta.json: passou de `creditos.teto_ate_renovacao`, trate como saldo baixo.
   Se o post do dia usa voz e `saldo - custo_previsto < 40` (`creditos.piso_saldo`), troque o molde por um de
   texto (sem voz) e anote `motivo_troca` no meta.json; a prévia avisa.
 - Metricool `getScheduledPosts` do blogId da marca para ALVO (dia inteiro): liste os horários já ocupados.
-  Papo: some o Papo News das 20h nos dias ímpares de 15 a 27/11 (ele não aparece no Metricool; está em `queue/`).
+  Papo: some o Papo News das 20h nos dias ímpares de 15/11 a 11/12 (ele não aparece no Metricool; está em `queue/`).
 
 ## 1. Assunto (nunca repetido)
 Fontes, nesta ordem: `assunto_sugerido` da grade (se houver); vidIQ (`vidiq_instagram_tiktok_outlier_search`,
@@ -38,6 +46,7 @@ ROSTO, NARRAÇÃO ou VIRAL, e custo previsto = segundos de clone novo × 0,9 + s
 ROSTO sai SEMPRE do Banco de Rostos (passo 4). Clone novo só com ok do Wagner. Custo > 12 → corte frases.
 
 ## 3. Roteiro
+Siga `esteira2s/GUIA-FALA-ENGAJAMENTO.md` (gancho, retenção, chamada, por molde) e o banco `esteira2s/ASSUNTOS.md`.
 Skill `formula-heygen-papo-medico` e `voz-papo-medico` se disponíveis. Fertilidade: tom de acolhimento,
 fala ao casal, nunca julga. Fala natural (né, tá, cara, olha só), 90 a 130 palavras para ~40 s.
 Proibido: promessa de cura, remédio ou dose, diagnóstico de famoso ("o caso dela levanta uma dúvida comum"),
@@ -48,9 +57,13 @@ número sem fonte. Fecho manda procurar o médico. React: até 12 s do viral, @ 
   `c4755690737746ffa3bcc01c32d84751`, model `heygen-voice-1`, SEM speed, language ou outputFormat (o speed dá
   erro 500). Depois `ffmpeg -filter:a atempo=1.3`. Chame UMA vez. Falhou: tente de novo uma vez após 60 s;
   falhou de novo, status `falha_voz`, vaga vazia, avise (passo 9). NUNCA gere vídeo de avatar para pegar a voz.
-- Rosto: `esteira2s/banco-rostos/indice.json` lista os clipes (tipo abertura | fecho | ouvindo, arquivo,
+- Rosto: `esteira2s/banco-rostos/indice.json` lista os clipes (tipo abertura | fecho | virada | ouvindo | troca | seguir, arquivo,
   frase, usado_em). Sorteie um do tipo pedido que não foi usado nos últimos 30 dias e grave a data em
   `usado_em`. A frase do clipe entra no roteiro exatamente como está.
+- COBRANÇA "SEGUE E CURTE" (todo vídeo, regra do Wagner 11/11): frase bem-humorada no MEIO, logo depois da
+  entrega, escrita para o assunto (GUIA seção 4). Vai na narração, com adesivo "segue + curte" e o @ por 2 s.
+  Roteiro de rosto: clipe tipo `troca` do banco. `pronto` e `midia_final` já estão falados: neles entra só o
+  adesivo na tela, logo depois da virada, sem mexer na fala. Post `ja_agendado` não é alterado.
 - Sem voz: Reels de texto com trilha de `reel_kit/trilhas/` (nunca música de terceiros).
 
 ## 4b. Montar o bruto (sem clone novo)
@@ -75,9 +88,8 @@ Própria desta marca (nunca o texto da outra conta). Skills `instagram-agent:ig-
 Primeira linha que segura antes do "mais", corpo curto, uma chamada só, fonte com DOI, "Converse com seu médico".
 Até 5 hashtags, conjunto diferente do usado pela outra marca e do post anterior desta. Título do YouTube Short.
 
-## 7. Stories (2 por dia, também nos dias de folga)
-`esteira2s/telas.py` com formato `story` gera 2 cartões 1080x1920 (uma tela por spec): (1) chamada para o post de amanhã (ou, na folga, uma dica
-curta com fonte); (2) uma pergunta para responder no direct. Horários: o 1º 1 a 2 h depois do post, o 2º à
+## 7. Stories (2 por dia, todos os dias)
+`esteira2s/telas.py` com formato `story` gera 2 cartões 1080x1920 (uma tela por spec): (1) chamada para o post de amanhã (ou, em dia `ja_agendado`, para o post de hoje); (2) uma pergunta para responder no direct. Horários: o 1º 1 a 2 h depois do post, o 2º à
 noite (20h-22h), minutos sorteados.
 
 ## 8. Publicar a mídia e agendar

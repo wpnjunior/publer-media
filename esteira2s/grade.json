@@ -1,5 +1,5 @@
 {
- "ciclo": "2026-11-14 a 2026-11-27",
+ "ciclo": "2026-11-12 a 2026-12-11",
  "fuso": "America/Bahia",
  "marcas": {
   "papo": {
@@ -15,197 +15,442 @@
     "mitos de saúde"
    ],
    "dias": {
+    "2026-11-12": {
+     "tipo": "ja_agendado",
+     "nota": "Semmelweis 17h52 (Metricool 423832321). A rodada faz só os stories."
+    },
+    "2026-11-13": {
+     "tipo": "ja_agendado",
+     "nota": "Tuskegee 18h09 (Metricool 423832347). A rodada faz só os stories."
+    },
     "2026-11-14": {
      "tipo": "reels",
      "molde": "historia_real",
-     "edicao": "mapeamento_arquivo",
-     "janela": [
-      "11:00",
-      "13:00"
-     ],
+     "edicao": "dossie",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": false,
+     "pronto": "/mnt/project-files/esteira2s/prontos/mkultra.mp4",
+     "tema": "MKUltra: a CIA drogou cidadãos sem eles saberem",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     },
     "2026-11-15": {
      "tipo": "reels",
      "molde": "mito_ou_verdade",
      "edicao": "mapeamento_cartoes",
-     "janela": [
-      "11:00",
-      "14:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
      "voz": true,
-     "assunto_sugerido": "jejum intermitente"
+     "assunto_sugerido": "jejum intermitente",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     },
     "2026-11-16": {
      "tipo": "reels",
      "molde": "react",
      "edicao": "react_canto_mapeamento",
-     "janela": [
-      "17:00",
-      "19:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": false,
+     "midia_final": "/mnt/project-files/videos-novembro-2026/react-peidar-25-vezes-v2.mp4",
+     "tema": "React: peidar 25 vezes por dia é normal?",
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
     },
     "2026-11-17": {
      "tipo": "reels",
      "molde": "linha_do_tempo",
      "edicao": "linha_do_tempo",
-     "janela": [
-      "11:00",
-      "14:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
      "voz": true,
-     "assunto_sugerido": "jejum 12/16/24 h"
+     "assunto_sugerido": "jejum 12/16/24 h",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     },
     "2026-11-18": {
-     "tipo": "folga"
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "assunto_sugerido": "lista para salvar (intestino ou intolerância alimentar)",
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
     },
     "2026-11-19": {
      "tipo": "reels",
      "molde": "tela_dividida",
      "edicao": "tela_dividida",
-     "janela": [
-      "11:00",
-      "14:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": false,
+     "pronto": "/mnt/project-files/esteira2s/prontos/whey.mp4",
+     "tema": "Whey não salva o músculo do seu pai",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     },
     "2026-11-20": {
      "tipo": "reels",
      "molde": "noticia_famoso",
      "edicao": "dinamica_celular",
-     "janela": [
-      "17:00",
-      "19:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
      "voz": true,
-     "assunto_sugerido": "parasitas"
+     "assunto_sugerido": "parasitas",
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
     },
     "2026-11-21": {
      "tipo": "reels",
-     "molde": "lista_para_salvar",
-     "edicao": "lista",
-     "janela": [
-      "11:00",
-      "13:00"
-     ],
+     "molde": "mito_ou_verdade",
+     "edicao": "mapeamento",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": false,
+     "pronto": "/mnt/project-files/esteira2s/prontos/impotencia.mp4",
+     "tema": "Falha na ereção avisa o coração",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     },
     "2026-11-22": {
-     "tipo": "folga"
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "assunto_sugerido": "massa magra e força depois dos 40",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     },
     "2026-11-23": {
      "tipo": "reels",
      "molde": "react",
      "edicao": "react_canto_dossie",
-     "janela": [
-      "11:00",
-      "14:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": true,
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     },
     "2026-11-24": {
      "tipo": "reels",
      "molde": "responder_comentario",
      "edicao": "dinamica_adesivo",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
      "janela": [
       "17:00",
       "19:00"
-     ],
-     "redes": [
-      "instagram",
-      "tiktok",
-      "youtube"
-     ],
-     "voz": true
+     ]
     },
     "2026-11-25": {
      "tipo": "reels",
-     "molde": "tela_dividida",
-     "edicao": "tela_dividida_lista",
-     "janela": [
-      "11:00",
-      "14:00"
-     ],
+     "molde": "mito_ou_verdade",
+     "edicao": "dinamica_celular",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": false,
+     "pronto": "/mnt/project-files/esteira2s/prontos/gluten.mp4",
+     "tema": "O vilão nem sempre é o glúten (frutanos)",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     },
     "2026-11-26": {
      "tipo": "reels",
      "molde": "historia_real",
-     "edicao": "dossie",
-     "janela": [
-      "17:00",
-      "19:00"
-     ],
+     "edicao": "mapeamento_arquivo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": false,
+     "pronto": "/mnt/project-files/esteira2s/prontos/henrietta.mp4",
+     "tema": "Henrietta Lacks e as células HeLa",
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
     },
     "2026-11-27": {
      "tipo": "reels",
      "molde": "noticia_famoso",
      "edicao": "dinamica_celular",
-     "janela": [
-      "11:00",
-      "14:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": true,
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
+    },
+    "2026-11-28": {
+     "tipo": "reels",
+     "molde": "lista_para_salvar",
+     "edicao": "lista",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "desparasitação: sinais para investigar",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
+    },
+    "2026-11-29": {
+     "tipo": "reels",
+     "molde": "historia_real",
+     "edicao": "dossie",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
+    },
+    "2026-11-30": {
+     "tipo": "reels",
+     "molde": "tela_dividida",
+     "edicao": "tela_dividida",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "massa magra e força",
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
+    },
+    "2026-12-01": {
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "11:00",
+      "13:00"
+     ]
+    },
+    "2026-12-02": {
+     "tipo": "reels",
+     "molde": "react",
+     "edicao": "react_canto_mapeamento",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
+    },
+    "2026-12-03": {
+     "tipo": "reels",
+     "molde": "mito_ou_verdade",
+     "edicao": "mapeamento_cartoes",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "intolerância alimentar",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
+    },
+    "2026-12-04": {
+     "tipo": "reels",
+     "molde": "linha_do_tempo",
+     "edicao": "linha_do_tempo",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "o que acontece no intestino depois do antibiótico",
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
+    },
+    "2026-12-05": {
+     "tipo": "reels",
+     "molde": "lista_para_salvar",
+     "edicao": "texto_lista",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false,
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
+    },
+    "2026-12-06": {
+     "tipo": "reels",
+     "molde": "responder_comentario",
+     "edicao": "dinamica_adesivo",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
+    },
+    "2026-12-07": {
+     "tipo": "reels",
+     "molde": "lista_para_salvar",
+     "edicao": "lista",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "canetas sem perder músculo",
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
+    },
+    "2026-12-08": {
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
+    },
+    "2026-12-09": {
+     "tipo": "reels",
+     "molde": "historia_real",
+     "edicao": "mapeamento_arquivo",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
+    },
+    "2026-12-10": {
+     "tipo": "reels",
+     "molde": "tela_dividida",
+     "edicao": "tela_dividida_lista",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "17:00",
+      "19:00"
+     ]
+    },
+    "2026-12-11": {
+     "tipo": "reels",
+     "molde": "noticia_famoso",
+     "edicao": "dinamica_celular",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "11:00",
+      "14:00"
+     ]
     }
    },
-   "nota": "Papo News (carrossel) sai dia sim, dia não às 20h pela esteira-medscape (15,17,19,21,23,25,27/11): nesses dias o Reels fica até 14h."
+   "nota": "Papo News (carrossel) sai dia sim, dia não às 20h pela esteira-medscape (dias ímpares de 15/11 a 11/12): nesses dias o post da esteira sai até 14h."
   },
   "fertilidade": {
    "nome": "Fertilidade a Dois",
@@ -219,173 +464,415 @@
     "famosos e FIV"
    ],
    "dias": {
+    "2026-11-12": {
+     "tipo": "ja_agendado",
+     "nota": "Carrossel 'Relaxa que vem' 19h43 (Metricool 423487549). A rodada faz só os stories."
+    },
+    "2026-11-13": {
+     "tipo": "reels",
+     "molde": "linha_do_tempo",
+     "edicao": "linha_do_tempo",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "assunto_sugerido": "ciclo do espermatozoide (precisa de fonte)",
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
+    },
     "2026-11-14": {
      "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
      "janela": [
       "11:00",
       "13:00"
-     ],
-     "redes": [
-      "instagram"
      ]
     },
     "2026-11-15": {
      "tipo": "reels",
      "molde": "mito_ou_verdade",
      "edicao": "texto_cartoes",
-     "janela": [
-      "18:00",
-      "20:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false
+     "voz": false,
+     "janela": [
+      "18:00",
+      "20:00"
+     ]
     },
     "2026-11-16": {
      "tipo": "carrossel",
-     "janela": [
-      "19:00",
-      "20:00"
-     ],
      "redes": [
       "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "19:00",
+      "20:30"
      ]
     },
     "2026-11-17": {
      "tipo": "reels",
      "molde": "noticia_famoso",
      "edicao": "dinamica_celular",
-     "janela": [
-      "19:00",
-      "21:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
      "voz": true,
-     "assunto_sugerido": "Zé Felipe e testosterona"
+     "assunto_sugerido": "Zé Felipe e testosterona",
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
     },
     "2026-11-18": {
      "tipo": "carrossel",
-     "janela": [
-      "12:00",
-      "13:00"
-     ],
      "redes": [
       "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "12:00",
+      "13:30"
      ]
     },
     "2026-11-19": {
-     "tipo": "folga"
-    },
-    "2026-11-20": {
      "tipo": "reels",
-     "molde": "linha_do_tempo",
-     "edicao": "linha_do_tempo",
-     "janela": [
-      "19:00",
-      "21:00"
-     ],
+     "molde": "lista_para_salvar",
+     "edicao": "texto_lista",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "ciclo do espermatozoide (precisa de fonte)"
+     "voz": false,
+     "janela": [
+      "18:30",
+      "20:30"
+     ]
+    },
+    "2026-11-20": {
+     "tipo": "reels",
+     "molde": "tela_dividida",
+     "edicao": "tela_dividida",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false,
+     "midia_final": "/mnt/project-files/videos-novembro-2026/teste-editor-automatico-vacina.mp4",
+     "tema": "A vacina e a fertilidade: o que os estudos mediram",
+     "nota": "Nunca saiu nesta conta (o Reels cru de 09/11 saiu no Papo e foi apagado). Legenda nova, própria da Fertilidade.",
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
     },
     "2026-11-21": {
      "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
      "janela": [
       "11:00",
       "13:00"
-     ],
-     "redes": [
-      "instagram"
      ]
     },
     "2026-11-22": {
      "tipo": "reels",
-     "molde": "lista_para_salvar",
-     "edicao": "texto_lista",
-     "janela": [
-      "18:00",
-      "20:00"
-     ],
+     "molde": "linha_do_tempo",
+     "edicao": "texto_regua",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false
+     "voz": false,
+     "janela": [
+      "18:00",
+      "20:00"
+     ]
     },
     "2026-11-23": {
      "tipo": "carrossel",
-     "janela": [
-      "19:00",
-      "20:00"
-     ],
      "redes": [
       "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "19:00",
+      "20:30"
      ]
     },
     "2026-11-24": {
      "tipo": "reels",
      "molde": "react",
      "edicao": "react_canto_mapeamento",
-     "janela": [
-      "19:00",
-      "21:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": true,
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
     },
     "2026-11-25": {
      "tipo": "carrossel",
-     "janela": [
-      "12:00",
-      "13:00"
-     ],
      "redes": [
       "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "12:00",
+      "13:30"
      ]
     },
     "2026-11-26": {
-     "tipo": "folga"
+     "tipo": "reels",
+     "molde": "mito_ou_verdade",
+     "edicao": "texto_cartoes",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false,
+     "janela": [
+      "18:30",
+      "20:30"
+     ]
     },
     "2026-11-27": {
      "tipo": "reels",
      "molde": "tela_dividida",
      "edicao": "tela_dividida",
-     "janela": [
-      "19:00",
-      "21:00"
-     ],
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true
+     "voz": true,
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
+    },
+    "2026-11-28": {
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "11:00",
+      "13:00"
+     ]
+    },
+    "2026-11-29": {
+     "tipo": "reels",
+     "molde": "lista_para_salvar",
+     "edicao": "texto_lista",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false,
+     "janela": [
+      "18:00",
+      "20:00"
+     ]
+    },
+    "2026-11-30": {
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "19:00",
+      "20:30"
+     ]
+    },
+    "2026-12-01": {
+     "tipo": "reels",
+     "molde": "noticia_famoso",
+     "edicao": "dinamica_celular",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
+    },
+    "2026-12-02": {
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "12:00",
+      "13:30"
+     ]
+    },
+    "2026-12-03": {
+     "tipo": "reels",
+     "molde": "linha_do_tempo",
+     "edicao": "texto_regua",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false,
+     "janela": [
+      "18:30",
+      "20:30"
+     ]
+    },
+    "2026-12-04": {
+     "tipo": "reels",
+     "molde": "mito_ou_verdade",
+     "edicao": "mapeamento_cartoes",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
+    },
+    "2026-12-05": {
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "11:00",
+      "13:00"
+     ]
+    },
+    "2026-12-06": {
+     "tipo": "reels",
+     "molde": "mito_ou_verdade",
+     "edicao": "texto_cartoes",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false,
+     "janela": [
+      "18:00",
+      "20:00"
+     ]
+    },
+    "2026-12-07": {
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "19:00",
+      "20:30"
+     ]
+    },
+    "2026-12-08": {
+     "tipo": "reels",
+     "molde": "responder_comentario",
+     "edicao": "dinamica_adesivo",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
+    },
+    "2026-12-09": {
+     "tipo": "carrossel",
+     "redes": [
+      "instagram"
+     ],
+     "voz": false,
+     "janela": [
+      "12:00",
+      "13:30"
+     ]
+    },
+    "2026-12-10": {
+     "tipo": "reels",
+     "molde": "lista_para_salvar",
+     "edicao": "texto_lista",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": false,
+     "janela": [
+      "18:30",
+      "20:30"
+     ]
+    },
+    "2026-12-11": {
+     "tipo": "reels",
+     "molde": "historia_real",
+     "edicao": "mapeamento_arquivo",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "voz": true,
+     "janela": [
+      "19:00",
+      "21:00"
+     ]
     }
    }
   }
  },
  "stories_por_dia": 2,
  "creditos": {
-  "teto_ciclo": 200,
+  "teto_ciclo": null,
   "teto_por_reels": 12,
   "piso_saldo": 40,
   "clone_iv_por_s": 0.9,
-  "voz_por_s": 0.23
- }
+  "voz_por_s": 0.23,
+  "teto_ate_renovacao": 215,
+  "renovacao": "2026-11-29T20:22:02Z",
+  "nota": "Até a renovação: Banco de Rostos (~55) + Reels com voz (até 12 cada) não passam de 215 dos 262. Depois de 29/11 vale o saldo novo, com o mesmo teto por Reels e o mesmo piso."
+ },
+ "sem_folga": true
 }
