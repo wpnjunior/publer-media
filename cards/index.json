@@ -556,9 +556,10 @@
   {
    "id": "dieta-da-casa-nao-da-crianca",
    "tema": "alimentação infantil",
-   "published": false,
-   "slot": null,
-   "caption": "O que está no armário ensina mais que o discurso na mesa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#alimentacaoinfantil #familia #habitos #saude #prevencao"
+   "published": true,
+   "slot": "2026-11-11T23:21:04Z",
+   "caption": "O que está no armário ensina mais que o discurso na mesa.\nEste conteúdo é educativo e não substitui a consulta médica.\n#alimentacaoinfantil #familia #habitos #saude #prevencao",
+   "ig_media": "18123903421736494"
   },
   {
    "id": "processo-nao-fardo",
