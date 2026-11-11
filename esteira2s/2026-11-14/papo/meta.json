@@ -1,5 +1,5 @@
 {
- "status": "pronto_para_agendar",
+ "status": "agendado",
  "tema": "MKUltra: a CIA drogou cidadãos sem eles saberem",
  "molde": "historia_real",
  "edicao": "dossiê de arquivo (HyperFrames, esteira2s/hf/dossie.py): rosto do avatar padrão na abertura e no fecho, narração só em áudio sobre folhas de arquivo",
@@ -17,5 +17,18 @@
  "cta_meio": {
   "tipo": "seguir",
   "clipe": "seguir_02"
- }
+ },
+ "metricool_id": 424237213,
+ "uuid": "-6526414879593181488",
+ "horario": "2026-11-14T13:14 America/Sao_Paulo",
+ "sha": "8e605ebb6025f592eb19448062ddc6ad7e766be2",
+ "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/8e605ebb6025f592eb19448062ddc6ad7e766be2/esteira2s/2026-11-14/papo/final.mp4",
+ "tamanho_bytes": 9978649,
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11; avatar padrão conferido no quadro"
 }
