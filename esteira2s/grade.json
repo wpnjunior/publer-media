@@ -17,11 +17,13 @@
    "dias": {
     "2026-11-12": {
      "tipo": "ja_agendado",
-     "nota": "Semmelweis 17h52 (Metricool 423832321). A rodada faz só os stories."
+     "nota": "Semmelweis 17h52 (Metricool 423832321). A rodada faz só os stories.",
+     "agendado": true
     },
     "2026-11-13": {
      "tipo": "ja_agendado",
-     "nota": "Tuskegee 18h09 (Metricool 423832347). A rodada faz só os stories."
+     "nota": "Tuskegee 18h09 (Metricool 423832347). A rodada faz só os stories.",
+     "agendado": true
     },
     "2026-11-14": {
      "tipo": "reels",
@@ -127,25 +129,19 @@
      ]
     },
     "2026-11-19": {
-     "tipo": "reels",
+     "tipo": "carrossel",
      "redes": [
-      "instagram",
-      "tiktok",
-      "youtube"
+      "instagram"
      ],
-     "tema": "Whey não salva o músculo do seu pai",
-     "gancho": "Seu pai toma whey e continua perdendo músculo. Olha por quê.",
-     "cta_meio": "adesivo curte + segue depois do dado",
-     "cta_fim": "Mandar pro seu pai",
-     "edicao_nome": "Tela dividida com caderno (rosto o tempo todo)",
-     "pronto": "/mnt/project-files/esteira2s/prontos/whey.mp4",
+     "tema": "Teste de intolerância por IgG: vale o que custa?",
+     "gancho": "O exame caro que as sociedades médicas não recomendam",
+     "cta_meio": "Economizei seu dinheiro. Curte aí.",
+     "cta_fim": "Mandar pra quem ia fazer",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "11:00",
-      "14:00"
-     ],
-     "molde": "tela_dividida",
-     "voz": false,
-     "edicao": "tela_dividida"
+      "13:00"
+     ]
     },
     "2026-11-20": {
      "tipo": "reels",
@@ -174,23 +170,19 @@
     "2026-11-21": {
      "tipo": "reels",
      "redes": [
-      "instagram",
-      "tiktok",
-      "youtube"
+      "instagram"
      ],
-     "tema": "Falha na ereção avisa o coração",
-     "gancho": "A primeira falha na cama pode ser o coração pedindo socorro.",
-     "cta_meio": "adesivo curte + segue depois da virada",
-     "cta_fim": "Mandar pro amigo que não vai ao médico",
-     "edicao_nome": "Dinâmica com celular (rosto o tempo todo)",
-     "pronto": "/mnt/project-files/esteira2s/prontos/impotencia.mp4",
+     "tema": "Proteína: quanto o corpo aproveita por refeição",
+     "gancho": "A conta da proteína que ninguém te fez",
+     "cta_meio": "Fiz a conta pra você. Curte aí.",
+     "cta_fim": "Salvar antes de comprar o próximo pote",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
-      "11:00",
-      "14:00"
+      "17:00",
+      "19:00"
      ],
-     "molde": "mito_ou_verdade",
-     "voz": false,
-     "edicao": "dinamica_celular"
+     "formato": "lista_para_salvar",
+     "nota": "Reels com rosto do banco (sem clone novo) e narração curta. Veio de 08/12."
     },
     "2026-11-22": {
      "tipo": "carrossel",
@@ -256,7 +248,7 @@
      ]
     },
     "2026-11-25": {
-     "tipo": "reels",
+     "tipo": "carrossel",
      "redes": [
       "instagram",
       "tiktok",
@@ -266,8 +258,6 @@
      "gancho": "Você cortou o glúten e melhorou. O culpado pode ser outro.",
      "cta_meio": "adesivo curte + segue depois da virada",
      "cta_fim": "Comentar: já cortou por conta própria?",
-     "edicao_nome": "Mapa em papel com cartões (rosto o tempo todo)",
-     "pronto": "/mnt/project-files/esteira2s/prontos/gluten.mp4",
      "janela": [
       "11:00",
       "14:00"
@@ -275,7 +265,9 @@
      "molde": "mito_ou_verdade",
      "voz": false,
      "edicao": "mapeamento",
-     "pele": "mesa"
+     "pele": "mesa",
+     "roteiro_base": "/mnt/project-files/esteira2s/prontos/gluten.txt",
+     "nota": "Virou carrossel Papo News: bruto antigo usa outro avatar e não há crédito antes de 29/11."
     },
     "2026-11-26": {
      "tipo": "reels",
@@ -391,19 +383,26 @@
      "pele": "jornal"
     },
     "2026-12-01": {
-     "tipo": "carrossel",
+     "tipo": "reels",
      "redes": [
-      "instagram"
+      "instagram",
+      "tiktok",
+      "youtube"
      ],
-     "tema": "Teste de intolerância por IgG: vale o que custa?",
-     "gancho": "O exame caro que as sociedades médicas não recomendam",
-     "cta_meio": "Economizei seu dinheiro. Curte aí.",
-     "cta_fim": "Mandar pra quem ia fazer",
-     "edicao_nome": "Papo News letra grande",
+     "tema": "Whey não salva o músculo do seu pai",
+     "gancho": "Seu pai toma whey e continua perdendo músculo. Olha por quê.",
+     "cta_meio": "adesivo curte + segue depois do dado",
+     "cta_fim": "Mandar pro seu pai",
+     "edicao_nome": "Tela dividida com caderno (rosto o tempo todo)",
      "janela": [
       "11:00",
-      "13:00"
-     ]
+      "14:00"
+     ],
+     "molde": "tela_dividida",
+     "voz": false,
+     "edicao": "tela_dividida",
+     "roteiro_pronto": "/mnt/project-files/esteira2s/prontos/whey.txt",
+     "nota": "Regravar com o avatar padrão 1d7e depois de 29/11 (bruto antigo usa outro avatar). Sabatina do hospital 11/11."
     },
     "2026-12-02": {
      "tipo": "reels",
@@ -544,19 +543,26 @@
      "pele": "quadro"
     },
     "2026-12-08": {
-     "tipo": "carrossel",
+     "tipo": "reels",
      "redes": [
-      "instagram"
+      "instagram",
+      "tiktok",
+      "youtube"
      ],
-     "tema": "Proteína: quanto o corpo aproveita por refeição",
-     "gancho": "A conta da proteína que ninguém te fez",
-     "cta_meio": "Fiz a conta pra você. Curte aí.",
-     "cta_fim": "Salvar antes de comprar o próximo pote",
-     "edicao_nome": "Papo News letra grande",
+     "tema": "Falha na ereção avisa o coração",
+     "gancho": "A primeira falha na cama pode ser o coração pedindo socorro.",
+     "cta_meio": "adesivo curte + segue depois da virada",
+     "cta_fim": "Mandar pro amigo que não vai ao médico",
+     "edicao_nome": "Dinâmica com celular (rosto o tempo todo)",
      "janela": [
-      "17:00",
-      "19:00"
-     ]
+      "11:00",
+      "14:00"
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": false,
+     "edicao": "dinamica_celular",
+     "roteiro_pronto": "/mnt/project-files/esteira2s/prontos/impotencia.txt",
+     "nota": "Regravar com o avatar padrão 1d7e depois de 29/11 (bruto antigo usa outro avatar). Sabatina do hospital 11/11."
     },
     "2026-12-09": {
      "tipo": "reels",
@@ -647,7 +653,8 @@
    "dias": {
     "2026-11-12": {
      "tipo": "ja_agendado",
-     "nota": "Carrossel 'Relaxa que vem' 19h43 (Metricool 423487549). A rodada faz só os stories."
+     "nota": "Carrossel 'Relaxa que vem' 19h43 (Metricool 423487549). A rodada faz só os stories.",
+     "agendado": true
     },
     "2026-11-13": {
      "tipo": "reels",

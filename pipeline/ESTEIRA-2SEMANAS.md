@@ -162,5 +162,8 @@ Todo erro novo entra aqui na hora, nas três colunas. Erro sem trava não está 
 | Rosto coberto na cobrança de seguir | Cena gráfica por cima do clipe de rosto. | Trava `_rosto_gerado_aparece` no `planejar.py`. |
 | Narração gerada como vídeo do clone (49 créditos em vez de ~21, 10/11) | Usei vídeo para obter a voz. | Narração só em áudio (`create_speech`); clone só onde o rosto aparece. |
 | Reel da vacina saiu sem edição (09/11) | Arquivo editado não existia; plano B publicado sem ok. | Só publica a mídia aprovada; `porteiro.py` e conferência do arquivo antes de agendar. |
+| Perda de foco na entrega (Wagner, 11/11: "se perdeu nas produções, na organização, na meta e em entregar tudo pronto") | Cada pedido virou frente nova sem fechar a anterior; "pronto" era "arquivo existe"; estado espalhado em 5 lugares; aviso por peça. | `python3 esteira2s/quadro.py` é o quadro único. Pronto só conta agendado. Entrega por lote na ordem do calendário; pedido novo entra na fila com vaga no lote. Um aviso por lote, com o quadro. |
+| 3 "prontos" de outubro (whey, ereção, glúten) contados como prontos com avatar antigo | Marquei `pronto` na grade sem abrir o vídeo. | Antes de marcar pronto, tirar um quadro do rosto e comparar com `banco-rostos` (jaleco branco = 1d7e). Vale para qualquer arquivo de `prontos/` e dos acervos antigos: aproveita-se roteiro e fonte, nunca o vídeo. |
+| Ofereci refazer Reels já prontos | Não separei "corrigir o próximo" de "refazer o feito". | Mudança de regra vale para os próximos; o pronto não se refaz. |
 
 Conferência final de todo Reels, olhando como espectador: (1) trava da mesmice passou; (2) folha de quadros aberta e olhada; (3) nenhum texto cortado; (4) rosto visível na cobrança; (5) fonte com DOI no fim.
