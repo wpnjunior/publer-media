@@ -16,7 +16,7 @@ avisa. Nunca troque mídia, nunca caia para plano B que gaste crédito, nunca ge
   tema é o campo `tema`, o roteiro é o `.txt` ao lado do bruto, e o bruto entra direto no editor (passo 5) com a
   edição da grade. Nunca gere voz nem clone para um `pronto`. As fontes (PubMed/DOI) você busca para a legenda e
   para a tela de fonte; se um número falado não tiver fonte, status `falha_fonte`, vaga vazia e aviso.
-  Carrossel também vale para o Papo (tema escuro do `telas.py`).
+  Carrossel também vale para o Papo (estilo Papo News, passo 5).
 - Pausa: se existe `/mnt/project-files/esteira2s/PAUSADO` ou `/mnt/project-files/esteira2s/PAUSADO-<marca>`, encerre.
 - Exemplo já pronto: se `esteira2s/<ALVO>/<marca>/meta.json` (no repositório) tem status `pronto_para_agendar`, a mídia
   já está na mesma pasta (`reels.mp4` ou `01.jpg`...). Não produza de novo: rode o Porteiro e o sabor (só vídeo),
@@ -79,8 +79,14 @@ do HeyGen. React: o viral entra como cena do plano, não como trecho do bruto.
 (`pip install -q playwright faster-whisper pillow` antes.)
 Editor: `bash reel_kit/diario/editar.sh` (formatos tela_dividida, dinamica + dossie/celular, mapeamento;
 modelos em `reel_kit/diario/exemplo_plano*.json`). Linha do tempo = cenas `regua` (marcos, `ate` sobe a cada cena); Lista para salvar = cenas `checklist` (itens, `marcados` sobe a cada cena), ambas no formato mapeamento. Corrija pelo plano.json, nunca pelo timeline.json.
-Carrossel: `python esteira2s/telas.py spec.json saida/` com formato `carrossel` (1080x1350, 6 a 8 telas, capa que faz deslizar, última tela com a
-chamada e "conteúdo educativo, não substitui consulta").
+Carrossel (regra do Wagner, 11/11: TODO carrossel, das duas contas, sai no estilo Papo News): monte o JSON como
+`pipeline/exemplo_news.json` e rode `NEWS_OUT=pasta python pipeline/template_news.py news.json` e depois
+`python esteira2s/fotografar_news.py pasta` (gera 01.jpg... em 1080x1350; nenhum slide pode dar VAZA). Selo:
+`"marca":["PAPO","NEWS"]` no Papo e `["FERTILIDADE","A DOIS"]` na Fertilidade. 6 a 7 slides: capa com foto forte e
+manchete curta com a palavra-chave em `<span class="hl">`; internos numerados; a cobrança de seguir e curtir num
+slide do meio; último slide com a chamada no `destaque` e a fonte com DOI + "Conteúdo educativo — não substitui
+consulta médica." Fotos do `bg_bank/` (veja `index.json`); faltando foto que combine, baixe do Pexels
+(`images.pexels.com`), confira olhando e acrescente ao banco. `telas.py` fica só para os stories.
 Porteiro (todos têm que passar; senão ajuste e rode de novo, no máximo 3 vezes, depois `falha_edicao`):
 volume medido a cada 3 s sem buraco; quadros em volta de cada emenda; boca do rosto sem sorriso com dentes e
 sem dedos contando; nenhuma tela vazia; legenda dentro da tela; @ do autor visível no react; duração 25-75 s;
