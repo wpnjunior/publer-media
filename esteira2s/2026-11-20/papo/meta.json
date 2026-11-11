@@ -16,9 +16,9 @@
   "linguagem": "mapeamento",
   "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
   "agendamento": {
-    "metricool_id": 425044487,
+    "metricool_id": 425052030,
     "uuid": "-1669426340359551726",
-    "horario": "2026-11-20T17:26:00-03:00",
+    "horario": "2026-11-20T11:17:00-03:00",
     "agendado_em": "2026-11-11",
     "sha": "3134a24f6f4dc12752443697da4591c00716e053",
     "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-20/papo/final.mp4",
@@ -26,6 +26,7 @@
       "instagram",
       "tiktok",
       "youtube"
-    ]
+    ],
+    "nota": "movido para a manhã em 11/11 para ficar longe do cartão de frase (sai 17h40-22h30) e do Papo News (20h+)"
   }
 }

@@ -19,9 +19,9 @@
   "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
   "nota": "Produzido em 11/11 a pedido do Wagner (5 reacts por perfil). Entrou no lugar do react do Mel Gibson (vídeo só em inglês). Rodada da véspera escreve a legenda com crédito ao @fazbemdicas e agenda.",
   "agendamento": {
-    "metricool_id": 425045099,
+    "metricool_id": 425052061,
     "uuid": "5352405853800581633",
-    "horario": "2026-12-02T17:52:00-03:00",
+    "horario": "2026-12-02T11:06:00-03:00",
     "agendado_em": "2026-11-11",
     "sha": "3134a24f6f4dc12752443697da4591c00716e053",
     "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-12-02/papo/final.mp4",
@@ -29,6 +29,7 @@
       "instagram",
       "tiktok",
       "youtube"
-    ]
+    ],
+    "nota": "movido para a manhã em 11/11 para ficar longe do cartão de frase (sai 17h40-22h30) e do Papo News (20h+)"
   }
 }
