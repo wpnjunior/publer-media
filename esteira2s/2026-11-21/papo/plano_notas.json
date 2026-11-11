@@ -1,0 +1,12 @@
+{"arroba":"@dr.wagnernovaesjr","marca":"PAPO DE MÉDICO","aviso":["Nova nota","A conta da proteína"],
+ "titulo":["A conta","da proteína"],
+ "itens":[{"quando":"O corpo não joga","texto":"30 g não é teto"},
+          {"quando":"Uma revisão de","texto":"0,4 g por kg, por refeição"},
+          {"quando":"Dividido em pelo","texto":"4 refeições no dia"},
+          {"quando":"Somando o dia","texto":"1,6 g por kg, por dia"},
+          {"quando":"numa análise com","texto":"Base: 49 estudos"},
+          {"quando":"Sem treino de","texto":"Com treino de força"}],
+ "cartao":{"quando":"E o item mais","topo":"O ITEM MAIS","meio":"IMPORTANTE:","base":"É MÉDIA",
+   "linhas":[{"quando":"média de estudo","rotulo":"ESTUDO","valor":"NÃO É RECEITA"},{"quando":"Quem tem doença","rotulo":"RIM","valor":"ORIENTAÇÃO"}]},
+ "seguir":"curte + segue","trilha":"educacional",
+ "fim":{"frase":"Proteína se conta no dia.","ref":"Schoenfeld e Aragon, JISSN 2018\nMorton et al., BJSM 2018"}}

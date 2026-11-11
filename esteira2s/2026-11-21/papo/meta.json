@@ -1,0 +1,28 @@
+{
+ "status": "pronto_para_agendar",
+ "tema": "Proteína: quanto o corpo aproveita por refeição",
+ "molde": "lista_para_salvar",
+ "linguagem": "notas",
+ "edicao": "NOTAS (HyperFrames): lista digitada no bloco de notas + cartão de papel",
+ "midia": "final.mp4",
+ "rostos": [
+  "abertura_01",
+  "seguir_04",
+  "fecho_02"
+ ],
+ "cta_meio": {
+  "tipo": "seguir",
+  "clipe": "seguir_04"
+ },
+ "cta_fim": {
+  "tipo": "salvar",
+  "clipe": "fecho_02"
+ },
+ "fontes": [
+  "Schoenfeld e Aragon, J Int Soc Sports Nutr 2018, PMID 29497353, doi 10.1186/s12970-018-0215-1: cerca de 0,4 g/kg por refeição em pelo menos 4 refeições",
+  "Morton et al., Br J Sports Med 2018, PMID 28698222, doi 10.1136/bjsports-2017-097608: 49 estudos; ganho com suplementação de proteína estabiliza perto de 1,6 g/kg/dia"
+ ],
+ "custo_estimado": 10,
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+ "nota": "Produzido em 11/11 (lote 2). Rodada da véspera escreve a legenda e agenda."
+}
