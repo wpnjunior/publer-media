@@ -10,6 +10,6 @@ Roteiro: `pipeline/ESTEIRA-2SEMANAS.md`. Grade: `grade.json`. Hospital caso 004.
 | telas.py (carrossel 1080x1350 e stories 1080x1920, temas das 2 marcas) | pronto |
 | reel_kit: linha do tempo, lista, tela dividida econômica | a construir |
 | montar_bruto.py (rosto do banco + narração só em áudio vira o bruto do editor) | pronto, testado |
-| porteiro.py | a construir |
+| porteiro.py (volume a cada 3 s, silêncio, tela preta ou parada, duração, tamanho, folha de 16 quadros) | pronto, testado |
 
 Tarefas na nuvem (ids preenchidos ao ligar): esteira Papo (9h), esteira Fertilidade (10h30), prévia e veto, relatório de segunda.
