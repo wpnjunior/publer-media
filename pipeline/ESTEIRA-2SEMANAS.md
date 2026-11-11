@@ -62,7 +62,7 @@ do HeyGen. React: o viral entra como cena do plano, não como trecho do bruto.
 ## 5. Edição e Porteiro
 (`pip install -q playwright faster-whisper pillow` antes.)
 Editor: `bash reel_kit/diario/editar.sh` (formatos tela_dividida, dinamica + dossie/celular, mapeamento;
-modelos em `reel_kit/diario/exemplo_plano*.json`). Corrija pelo plano.json, nunca pelo timeline.json.
+modelos em `reel_kit/diario/exemplo_plano*.json`). Linha do tempo = cenas `regua` (marcos, `ate` sobe a cada cena); Lista para salvar = cenas `checklist` (itens, `marcados` sobe a cada cena), ambas no formato mapeamento. Corrija pelo plano.json, nunca pelo timeline.json.
 Carrossel: `python esteira2s/telas.py spec.json saida/` com formato `carrossel` (1080x1350, 6 a 8 telas, capa que faz deslizar, última tela com a
 chamada e "conteúdo educativo, não substitui consulta").
 Porteiro (todos têm que passar; senão ajuste e rode de novo, no máximo 3 vezes, depois `falha_edicao`):

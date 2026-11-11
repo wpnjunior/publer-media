@@ -118,6 +118,19 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:var(--fund
 .mpDoc img { display:block; width:100%; max-height:980px; object-fit:cover; object-position:top; }
 .mpDoc .grifo { position:absolute; left:18px; background:rgba(255,230,0,.45); mix-blend-mode:multiply; }
 .mpDoc .ref { font-family:Maquina; font-size:26px; color:#333; margin-top:14px; }
+.mpRegua { position:relative; width:1000px; height:900px; }
+.mpRegua .linha { position:absolute; left:328px; top:40px; width:10px; height:820px; background:rgba(0,0,0,.18); border-radius:5px; }
+.mpRegua .enche { position:absolute; left:328px; top:40px; width:10px; height:0; background:#c8102e; border-radius:5px; }
+.mpRegua .marco { position:absolute; left:0; width:1000px; display:flex; align-items:center; opacity:.35; }
+.mpRegua .marco .bola { width:54px; height:54px; border-radius:50%; background:#4a4a4a; border:8px solid #f4f1ea; margin-left:26px; flex:none; box-shadow:0 6px 12px rgba(0,0,0,.3); }
+.mpRegua .marco .h { font-family:Serif4; font-weight:700; font-size:72px; color:#151515; width:280px; text-align:right; flex:none; }
+.mpRegua .marco .tx { font-family:Serif4; font-weight:600; font-size:46px; color:#151515; background:#f4f1ea; padding:10px 22px 14px; margin-left:30px; box-shadow:0 10px 18px rgba(0,0,0,.25); max-width:580px; }
+.mpRegua .marco.on { opacity:1; } .mpRegua .marco.on .bola { background:#c8102e; }
+.mpLista { width:900px; background:#fbfaf6; padding:50px 56px; box-shadow:0 22px 36px rgba(0,0,0,.3); transform:rotate(-1deg); }
+.mpLista .tt { font-family:Mont; font-weight:800; font-size:38px; letter-spacing:5px; text-transform:uppercase; color:#c8102e; margin-bottom:24px; }
+.mpLista .it { display:flex; align-items:center; font-family:Serif4; font-weight:600; font-size:50px; color:#1b1b1b; padding:18px 0; border-bottom:2px solid #e2dccf; }
+.mpLista .cx { width:58px; height:58px; border:5px solid #1b1b1b; border-radius:8px; margin-right:30px; flex:none; position:relative; }
+.mpLista .cx::after { content:"✓"; position:absolute; left:4px; top:-22px; font-size:72px; color:#1a9c4a; font-family:Mont; font-weight:800; transform:scale(var(--c,0)); transform-origin:30% 70%; }
 #mpCap { position:absolute; z-index:8; left:60px; right:60px; top:118px; text-align:center; font-family:Serif4; color:#24201a;
   text-shadow:0 1px 0 rgba(255,255,255,.35); line-height:1.1; }
 #mpCap .g { font-size:86px; font-weight:600; }
@@ -373,6 +386,16 @@ function mpMonta(c) {
     const g = c.grifo ? `<div class="grifo" data-y0="${c.grifo[0]}" data-y1="${c.grifo[1]}"></div>` : '';
     h = `<div class="mpDoc">${fitas()}<img src="${esc(c.imagem || '')}" alt="">${g}${c.legenda ? `<div class="ref">${esc(c.legenda)}</div>` : ''}</div>`;
   }
+  else if (c.tipo === 'regua') {
+    const ms = c.marcos || []; const n = ms.length; const ate = Math.min(c.ate ?? n - 1, n - 1);
+    h = `<div class="mpRegua"><div class="linha"></div><div class="enche" data-ate="${n > 1 ? ate / (n - 1) : 1}"></div>` +
+      ms.map((m, j) => `<div class="marco${j <= ate ? ' on' : ''}" data-j="${j}" style="top:${n > 1 ? 40 + j * (820 / (n - 1)) - 27 : 400}px"><div class="h">${esc(m.rotulo || '')}</div><div class="bola"></div>${j === ate || c.todos ? `<div class="tx">${esc(m.texto || '')}</div>` : ''}</div>`).join('') + '</div>';
+  }
+  else if (c.tipo === 'checklist') {
+    const it = c.itens || []; const mk = Math.min(c.marcados ?? it.length, it.length);
+    h = `<div class="mpLista">${c.titulo ? `<div class="tt">${esc(c.titulo)}</div>` : ''}` +
+      it.map((x, j) => `<div class="it" data-j="${j}" data-m="${j < mk ? 1 : 0}" data-novo="${j === mk - 1 ? 1 : 0}"><div class="cx"></div>${esc(x)}</div>`).join('') + '</div>';
+  }
   else if (c.tipo === 'barra') {
     const bs = c.barras || []; const mx = Math.max(...bs.map(b => b.valor), 1);
     h = `<div class="mpBarras">${bs.map(b => `<div class="b"><div class="v">${esc(b.texto || b.valor)}</div>${b.rotulo ? `<div class="tg">${esc(b.rotulo)}</div>` : ''}<div class="col" data-h="${(b.valor / mx) * 640}" style="background:${cor(b.cor || 'vermelho')};height:0"></div></div>`).join('')}</div>`;
@@ -396,6 +419,19 @@ function mpAnima(c, t) {
     el1.style.transform = `rotate(-1.5deg) translateY(${(1 - ease(P(k, 0, .45))) * 1100}px) scale(${1 + 0.05 * P(k, 0.5, 4)})`;
     const g = el1.querySelector('.grifo'), im = el1.querySelector('img');
     if (g && im) { const y0 = +g.dataset.y0, y1 = +g.dataset.y1, H = im.offsetHeight; g.style.top = (18 + y0 * H) + 'px'; g.style.height = ((y1 - y0) * H) + 'px'; g.style.width = (ease(P(k, 0.8, 0.7)) * im.offsetWidth) + 'px'; }
+  }
+  else if (c.tipo === 'regua') {
+    const en = box.querySelector('.enche'); const prev = Math.max(0, (c.ate ?? 0) - 1);
+    const ms = box.querySelectorAll('.marco'); const n = ms.length; const de = n > 1 && !c.volta ? prev / (n - 1) : 0;
+    const fim = parseFloat(en.dataset.ate); en.style.height = ((de + (fim - de) * ease(P(k, 0.1, 0.8))) * 820) + 'px';
+    const tx = box.querySelector('.marco.on:last-of-type .tx') || [...box.querySelectorAll('.tx')].pop();
+    if (tx) { tx.style.opacity = P(k, 0.6, 0.25); tx.style.transform = `translateX(${(1 - ease(P(k, 0.6, 0.35))) * 80}px)`; }
+  }
+  else if (c.tipo === 'checklist') {
+    el1.style.transform = `rotate(-1deg) translateY(${(1 - ease(P(k, 0, .4))) * 900}px)`;
+    box.querySelectorAll('.it').forEach(e => { const novo = e.dataset.novo === '1'; const m = e.dataset.m === '1';
+      e.querySelector('.cx').style.setProperty('--c', m ? (novo ? back(P(k, 0.5, 0.35)) : 1) : 0);
+      e.style.opacity = m || !novo ? (m ? 1 : 0.55) : 1; });
   }
   else if (c.tipo === 'barra') box.querySelectorAll('.col').forEach((b, j) => { b.style.height = (ease(P(k, 0.2 + j * 0.3, 0.8)) * parseFloat(b.dataset.h)) + 'px'; });
   if (c.tipo !== 'bolinhas') box.style.transform = 'none';
