@@ -1,17 +1,28 @@
 {
- "tema": "O vilão nem sempre é o glúten (frutanos)",
- "fontes": [
-  "Skodje et al., Gastroenterology 2018, PMID 29102613, doi 10.1053/j.gastro.2017.10.040: 59 pessoas, cruzado duplo-cego; GSRS-IBS 33,1 glúten, 38,6 frutano, 34,3 placebo; estufamento maior com frutano; glúten = placebo"
- ],
- "status": "pronto_para_agendar",
- "molde": "carrossel",
- "cta_meio": {
-  "tipo": "cobranca",
-  "frase": "Defendi o seu pãozinho. Curte aí e me segue."
- },
- "cta_fim": {
-  "tipo": "mandar",
-  "frase": "Manda pra quem cortou o pão."
- },
- "nota": "Produzido em 11/11 (lote 2). Roteiro antigo de vídeo serviu só de base; vídeo antigo não foi usado."
+  "tema": "O vilão nem sempre é o glúten (frutanos)",
+  "fontes": [
+    "Skodje et al., Gastroenterology 2018, PMID 29102613, doi 10.1053/j.gastro.2017.10.040: 59 pessoas, cruzado duplo-cego; GSRS-IBS 33,1 glúten, 38,6 frutano, 34,3 placebo; estufamento maior com frutano; glúten = placebo"
+  ],
+  "status": "agendado",
+  "molde": "carrossel",
+  "cta_meio": {
+    "tipo": "cobranca",
+    "frase": "Defendi o seu pãozinho. Curte aí e me segue."
+  },
+  "cta_fim": {
+    "tipo": "mandar",
+    "frase": "Manda pra quem cortou o pão."
+  },
+  "nota": "Produzido em 11/11 (lote 2). Roteiro antigo de vídeo serviu só de base; vídeo antigo não foi usado.",
+  "agendamento": {
+    "metricool_id": 425045034,
+    "uuid": "8128689118584587140",
+    "horario": "2026-11-25T11:24:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-25/papo/01.jpg",
+    "redes": [
+      "instagram"
+    ]
+  }
 }

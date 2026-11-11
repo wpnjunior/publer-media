@@ -1,17 +1,30 @@
 {
- "status": "pronto_para_agendar",
- "tema": "O que levar na primeira consulta do casal",
- "molde": "lista_para_salvar",
- "linguagem": "notas",
- "edicao": "NOTAS (HyperFrames): lista digitada no bloco de notas do celular + cartão de papel",
- "rostos": [
-  "abertura_09",
-  "seguir_01",
-  "fecho_08"
- ],
- "fontes": [],
- "porteiro": "aprovado",
- "nota": "Edição nova (bloco de notas). Sabatina do hospital em 11/11: entra com veto, como o resto do plano. Rodada da véspera escreve a legenda e agenda.",
- "midia": "final.mp4",
- "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
+  "status": "agendado",
+  "tema": "O que levar na primeira consulta do casal",
+  "molde": "lista_para_salvar",
+  "linguagem": "notas",
+  "edicao": "NOTAS (HyperFrames): lista digitada no bloco de notas do celular + cartão de papel",
+  "rostos": [
+    "abertura_09",
+    "seguir_01",
+    "fecho_08"
+  ],
+  "fontes": [],
+  "porteiro": "aprovado",
+  "nota": "Edição nova (bloco de notas). Sabatina do hospital em 11/11: entra com veto, como o resto do plano. Rodada da véspera escreve a legenda e agenda.",
+  "midia": "final.mp4",
+  "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+  "agendamento": {
+    "metricool_id": 425042633,
+    "uuid": "3842275235413445079",
+    "horario": "2026-11-19T19:22:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-19/fertilidade/final.mp4",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+    ]
+  }
 }

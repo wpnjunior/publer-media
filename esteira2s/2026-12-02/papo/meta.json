@@ -1,16 +1,34 @@
 {
- "tema": "Louro com vinagre de maçã tira 3 cm de barriga por dia? (react)",
- "molde": "react",
- "linguagem": "react_dividido",
- "edicao": "react em TELA DIVIDIDA (modelo do react do peido) + mapeamento pele clinico",
- "midia": "final.mp4",
- "viral": "https://www.tiktok.com/@fazbemdicas/video/7296557702434622725 (primeiros 6 s, crédito @fazbemdicas na tela; citar também na legenda)",
- "rostos": ["ouvindo_01", "virada_03", "troca_05", "fecho_04"],
- "fontes": [
-  "Kondo e col., Biosci Biotechnol Biochem 2009, PMID 19661687, doi 10.1271/bbb.90231: ensaio duplo-cego, 12 semanas, 15 ou 30 ml de vinagre por dia em bebida de 500 ml x placebo, em japoneses com obesidade; peso, IMC, gordura visceral, cintura e triglicerídeo menores que no placebo; primeiro autor do instituto de pesquisa de fabricante de vinagre (Mizkan)"
- ],
- "status": "pronto_para_agendar",
- "custo_estimado": 10,
- "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
- "nota": "Produzido em 11/11 a pedido do Wagner (5 reacts por perfil). Entrou no lugar do react do Mel Gibson (vídeo só em inglês). Rodada da véspera escreve a legenda com crédito ao @fazbemdicas e agenda."
+  "tema": "Louro com vinagre de maçã tira 3 cm de barriga por dia? (react)",
+  "molde": "react",
+  "linguagem": "react_dividido",
+  "edicao": "react em TELA DIVIDIDA (modelo do react do peido) + mapeamento pele clinico",
+  "midia": "final.mp4",
+  "viral": "https://www.tiktok.com/@fazbemdicas/video/7296557702434622725 (primeiros 6 s, crédito @fazbemdicas na tela; citar também na legenda)",
+  "rostos": [
+    "ouvindo_01",
+    "virada_03",
+    "troca_05",
+    "fecho_04"
+  ],
+  "fontes": [
+    "Kondo e col., Biosci Biotechnol Biochem 2009, PMID 19661687, doi 10.1271/bbb.90231: ensaio duplo-cego, 12 semanas, 15 ou 30 ml de vinagre por dia em bebida de 500 ml x placebo, em japoneses com obesidade; peso, IMC, gordura visceral, cintura e triglicerídeo menores que no placebo; primeiro autor do instituto de pesquisa de fabricante de vinagre (Mizkan)"
+  ],
+  "status": "agendado",
+  "custo_estimado": 10,
+  "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+  "nota": "Produzido em 11/11 a pedido do Wagner (5 reacts por perfil). Entrou no lugar do react do Mel Gibson (vídeo só em inglês). Rodada da véspera escreve a legenda com crédito ao @fazbemdicas e agenda.",
+  "agendamento": {
+    "metricool_id": 425045099,
+    "uuid": "5352405853800581633",
+    "horario": "2026-12-02T17:52:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-12-02/papo/final.mp4",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+    ]
+  }
 }

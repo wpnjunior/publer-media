@@ -1,18 +1,31 @@
 {
- "tema": "Verme no cérebro: como a pessoa pega (caso RFK Jr.)",
- "molde": "noticia_famoso",
- "edicao": "mapeamento, pele jornal, manchete no celular",
- "rostos": [
-  "abertura_07",
-  "troca_05",
-  "fecho_01"
- ],
- "fontes": [
-  "Ndimubanzi et al., PLoS Negl Trop Dis 2010, PMID 21072231, doi 10.1371/journal.pntd.0000870: 29,0% (IC 22,9-35,5) das pessoas com epilepsia tinham neurocisticercose",
-  "The New York Times, 8/5/2024: fala do próprio Kennedy Jr. em depoimento de 2012 (manchete em tradução livre; sem diagnóstico à distância)"
- ],
- "status": "pronto_para_agendar",
- "midia": "final.mp4",
- "linguagem": "mapeamento",
- "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
+  "tema": "Verme no cérebro: como a pessoa pega (caso RFK Jr.)",
+  "molde": "noticia_famoso",
+  "edicao": "mapeamento, pele jornal, manchete no celular",
+  "rostos": [
+    "abertura_07",
+    "troca_05",
+    "fecho_01"
+  ],
+  "fontes": [
+    "Ndimubanzi et al., PLoS Negl Trop Dis 2010, PMID 21072231, doi 10.1371/journal.pntd.0000870: 29,0% (IC 22,9-35,5) das pessoas com epilepsia tinham neurocisticercose",
+    "The New York Times, 8/5/2024: fala do próprio Kennedy Jr. em depoimento de 2012 (manchete em tradução livre; sem diagnóstico à distância)"
+  ],
+  "status": "agendado",
+  "midia": "final.mp4",
+  "linguagem": "mapeamento",
+  "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+  "agendamento": {
+    "metricool_id": 425044487,
+    "uuid": "-1669426340359551726",
+    "horario": "2026-11-20T17:26:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-20/papo/final.mp4",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+    ]
+  }
 }

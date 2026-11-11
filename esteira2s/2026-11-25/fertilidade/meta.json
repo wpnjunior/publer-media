@@ -1,18 +1,29 @@
 {
- "tema": "Sauna, banho quente e notebook no colo",
- "fontes": [
-  "Garolla et al., Hum Reprod 2013, PMID 23411620, doi 10.1093/humrep/det020: 10 homens, sauna 2x/semana por 3 meses; queda de contagem e motilidade, reversível em 6 meses",
-  "Sheynkin et al., Hum Reprod 2005, PMID 15591087, doi 10.1093/humrep/deh616: 29 voluntários, 60 min; +2,8 e +2,6 °C com notebook, +2,1 °C só sentado"
- ],
- "status": "pronto_para_agendar",
- "molde": "carrossel",
- "cta_meio": {
-  "tipo": "cobranca",
-  "frase": "Esfriei a cabeça de vocês. Curte aí, casal."
- },
- "cta_fim": {
-  "tipo": "mandar",
-  "frase": "Manda pro seu par."
- },
- "nota": "Produzido em 11/11 (lote 2)."
+  "tema": "Sauna, banho quente e notebook no colo",
+  "fontes": [
+    "Garolla et al., Hum Reprod 2013, PMID 23411620, doi 10.1093/humrep/det020: 10 homens, sauna 2x/semana por 3 meses; queda de contagem e motilidade, reversível em 6 meses",
+    "Sheynkin et al., Hum Reprod 2005, PMID 15591087, doi 10.1093/humrep/deh616: 29 voluntários, 60 min; +2,8 e +2,6 °C com notebook, +2,1 °C só sentado"
+  ],
+  "status": "agendado",
+  "molde": "carrossel",
+  "cta_meio": {
+    "tipo": "cobranca",
+    "frase": "Esfriei a cabeça de vocês. Curte aí, casal."
+  },
+  "cta_fim": {
+    "tipo": "mandar",
+    "frase": "Manda pro seu par."
+  },
+  "nota": "Produzido em 11/11 (lote 2).",
+  "agendamento": {
+    "metricool_id": 425043856,
+    "uuid": "5389263328559975581",
+    "horario": "2026-11-25T12:41:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-25/fertilidade/01.jpg",
+    "redes": [
+      "instagram"
+    ]
+  }
 }

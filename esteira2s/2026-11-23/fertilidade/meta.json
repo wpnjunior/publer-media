@@ -1,9 +1,20 @@
 {
- "tema": "A idade do pai também conta",
- "fontes": [
-  "Hassan e Killick, Fertil Steril 2003, PMID 12801554, doi 10.1016/s0015-0282(03)00366-2"
- ],
- "status": "pronto_para_agendar",
- "molde": "carrossel",
- "nota": "Produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories."
+  "tema": "A idade do pai também conta",
+  "fontes": [
+    "Hassan e Killick, Fertil Steril 2003, PMID 12801554, doi 10.1016/s0015-0282(03)00366-2"
+  ],
+  "status": "agendado",
+  "molde": "carrossel",
+  "nota": "Produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories.",
+  "agendamento": {
+    "metricool_id": 425043398,
+    "uuid": "2057968005037116661",
+    "horario": "2026-11-23T19:36:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-23/fertilidade/01.jpg",
+    "redes": [
+      "instagram"
+    ]
+  }
 }

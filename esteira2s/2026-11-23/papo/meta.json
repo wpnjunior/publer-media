@@ -1,17 +1,35 @@
 {
- "tema": "Cúrcuma elimina todos os tipos de vermes? (react)",
- "molde": "react",
- "linguagem": "react_dividido",
- "edicao": "react em TELA DIVIDIDA (modelo do react do peido) + mapeamento pele jornal",
- "midia": "final.mp4",
- "viral": "https://www.tiktok.com/@fazbemdicas/video/7268311002683280645 (trecho de 5,5 s a partir de 31,0 s, crédito @fazbemdicas na tela; citar também na legenda)",
- "rostos": ["ouvindo_01", "virada_02", "troca_02", "fecho_07"],
- "fontes": [
-  "Okeniyi e col., J Med Food 2007, PMID 17472487, doi 10.1089/jmf.2005.065: 60 crianças nigerianas, semente seca de mamão com mel x só mel; exame de fezes limpo em 7 dias em 23 de 30 (76,7%) x 5 de 30 (16,7%); autores pedem estudo maior",
-  "Busca no PubMed em 11/11/2026 por ensaio clínico de cúrcuma/curcumina contra helmintos ou parasitas intestinais em humanos: zero resultados"
- ],
- "status": "pronto_para_agendar",
- "custo_estimado": 10,
- "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
- "nota": "Produzido em 11/11 a pedido do Wagner (5 reacts por perfil, igual o do peido). Sem nome de remédio. Rodada da véspera escreve a legenda (com crédito ao @fazbemdicas) e agenda."
+  "tema": "Cúrcuma elimina todos os tipos de vermes? (react)",
+  "molde": "react",
+  "linguagem": "react_dividido",
+  "edicao": "react em TELA DIVIDIDA (modelo do react do peido) + mapeamento pele jornal",
+  "midia": "final.mp4",
+  "viral": "https://www.tiktok.com/@fazbemdicas/video/7268311002683280645 (trecho de 5,5 s a partir de 31,0 s, crédito @fazbemdicas na tela; citar também na legenda)",
+  "rostos": [
+    "ouvindo_01",
+    "virada_02",
+    "troca_02",
+    "fecho_07"
+  ],
+  "fontes": [
+    "Okeniyi e col., J Med Food 2007, PMID 17472487, doi 10.1089/jmf.2005.065: 60 crianças nigerianas, semente seca de mamão com mel x só mel; exame de fezes limpo em 7 dias em 23 de 30 (76,7%) x 5 de 30 (16,7%); autores pedem estudo maior",
+    "Busca no PubMed em 11/11/2026 por ensaio clínico de cúrcuma/curcumina contra helmintos ou parasitas intestinais em humanos: zero resultados"
+  ],
+  "status": "agendado",
+  "custo_estimado": 10,
+  "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+  "nota": "Produzido em 11/11 a pedido do Wagner (5 reacts por perfil, igual o do peido). Sem nome de remédio. Rodada da véspera escreve a legenda (com crédito ao @fazbemdicas) e agenda.",
+  "agendamento": {
+    "metricool_id": 425044563,
+    "uuid": "6062885715766299795",
+    "horario": "2026-11-23T12:18:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-23/papo/final.mp4",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+    ]
+  }
 }
