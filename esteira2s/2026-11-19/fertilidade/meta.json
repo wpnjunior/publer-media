@@ -1,5 +1,5 @@
 {
- "status": "aguardando_wagner_ver_edicao",
+ "status": "pronto_para_agendar",
  "tema": "O que levar na primeira consulta do casal",
  "molde": "lista_para_salvar",
  "linguagem": "notas",
@@ -11,5 +11,7 @@
  ],
  "fontes": [],
  "porteiro": "aprovado",
- "nota": "1ª edição de linguagem nova. Só agenda depois que o Wagner vir e aprovar a linguagem."
+ "nota": "Edição nova (bloco de notas). Sabatina do hospital em 11/11: entra com veto, como o resto do plano. Rodada da véspera escreve a legenda e agenda.",
+ "midia": "final.mp4",
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
 }
