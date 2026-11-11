@@ -71,6 +71,9 @@ número sem fonte. Fecho manda procurar o médico. React: até 12 s do viral, @ 
 - Rosto parado é proibido: em narração só entra imagem (trava no `planejar.py`; o plano precisa de `broll` com fotos do `bg_bank`). Rosto só em clipe do Banco de Rostos ou em bruto gravado inteiro.
 - Chaves do plano: `pele` (mesa, noite, jornal, quadro, clinico, arquivo; nunca a mesma em dois Reels seguidos da conta), `broll`, `seguir` {quando, texto, arroba} (adesivo de curte e segue no meio), `caixa_pergunta` (gancho do 1º segundo dentro da caixinha "Faça uma pergunta" do Instagram; usa `titulo`), cena `celular` (comentário ou `modo: manchete`).
 - Uma mídia de assinatura por molde (lista em `esteira2s/grade.json`, `regras_edicao.midia_por_molde`): Mito ou verdade = caixinha de pergunta + carimbo do veredito; Notícia de famoso = manchete no celular; Responder comentário = comentário no celular; Linha do tempo = régua; Lista para salvar = checklist; História real = documento e mapa de arquivo; React = viral com rosto no canto; Tela dividida = rosto em cima e prova embaixo.
+- Foto: no máximo 2 por Reels (Wagner, 11/11). A narração sem cena vira FRASE animada (automático no `planejar.py`); `broll` no plano é opcional e só as 2 primeiras entram. Fertilidade nunca usa foto com tag `gravida`.
+- Gancho do 1º segundo sempre animado: `caixa_pergunta: true` (Mito), `caixa_pergunta: {estilo: comentario, texto, usuario}` (Responder comentário), cena `celular` modo manchete logo após a abertura (Notícia). Nunca título solto.
+- História real com vídeo já gravado: `formato: dinamica` + `estilo_painel: dossie` (como o Rosenhan), rosto o tempo todo.
 - Norte de tudo: viralizar (gancho no 1º segundo, corte a cada 2 a 4 s, cobrança no meio, um pedido só no fim).
 
 ## 4b. Montar o bruto (sem clone novo)

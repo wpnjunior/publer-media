@@ -24,15 +24,6 @@
  },
  "cenas": [
   {
-   "quando": "Doutor, lubrificante",
-   "tipo": "celular",
-   "usuario": "seguidor",
-   "onde": "pergunta que chega sempre",
-   "curtidas": " ",
-   "texto": "Doutor, lubrificante mata espermatozoide?",
-   "destaque": "mata espermatozoide"
-  },
-  {
    "quando": "No laboratório",
    "tipo": "cartao",
    "emoji": "🔬",
@@ -92,5 +83,10 @@
   "frase": "Qual é a próxima pergunta de vocês?",
   "ref": "Steiner et al., Obstet Gynecol 2012 · doi 10.1097/AOG.0b013e31825b87ae"
  },
- "trilha": "moment_of_peace"
+ "trilha": "moment_of_peace",
+ "caixa_pergunta": {
+  "estilo": "comentario",
+  "texto": "Doutor, lubrificante mata espermatozoide?",
+  "usuario": "seguidor"
+ }
 }

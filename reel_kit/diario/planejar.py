@@ -208,7 +208,7 @@ def main() -> None:
 
 
 TIPOS_CENA = {"rosto", "mapa", "cartao", "foto", "documento", "bolinhas", "citacao", "etiqueta", "barra",
-              "regua", "checklist", "broll", "celular"}  # regua = Linha do tempo; checklist = Lista para salvar;
+              "regua", "checklist", "broll", "celular", "frase"}  # regua = Linha do tempo; checklist = Lista para salvar;
 # broll = foto real em tela cheia; celular = comentário, post ou manchete na tela de um telefone
 BG_BANK = Path(__file__).resolve().parents[2] / "bg_bank"
 
@@ -226,6 +226,16 @@ def _imagem(nome: str, pasta: str) -> str:
     return f"img/{nome}"
 
 
+def _norm(x: str) -> str:
+    import unicodedata
+    x = unicodedata.normalize("NFD", x.lower())
+    return "".join(ch for ch in x if ch.isalnum() or ch == " ")
+
+
+def _eh_destaque(w: str, dest: set) -> bool:
+    return _norm(w).strip() in dest
+
+
 def _sem_rosto_na_narracao(cenas: list[dict], words: list[dict], plano: dict, pasta: str) -> list[dict]:
     """TRAVA: nos trechos de narração (voz sobre foto parada) o rosto nunca aparece. O pedaço de cena
     "rosto" que cair numa narração vira foto real em tela cheia (broll), trocando a cada ~3 s."""
@@ -233,7 +243,7 @@ def _sem_rosto_na_narracao(cenas: list[dict], words: list[dict], plano: dict, pa
     if not arq.exists():
         return cenas
     vozes = [(m["t0"], m["t1"]) for m in json.loads(arq.read_text()) if m["tipo"] == "voz"]
-    fotos = list(plano.get("broll", []))
+    dest = {t for d in plano.get("destaques", []) for t in _norm(d).split() if len(t) > 3}
     out: list[dict] = []
     kf = 0
     for c in cenas:
@@ -253,21 +263,31 @@ def _sem_rosto_na_narracao(cenas: list[dict], words: list[dict], plano: dict, pa
                 out.append(dict(c, t0=round(t, 3), t1=round(a, 3)))
             else:
                 a = t
-            if not fotos:
-                raise SystemExit(f"narração sem cena entre {a:.1f}s e {b:.1f}s e o plano não tem 'broll' (fotos do bg_bank): "
-                                 "o rosto parado não pode aparecer")
             x = a
             while b - x > 0.05:
-                y = b if b - x < 4.6 else corte_proximo(words, x + 3.0)
+                y = b if b - x < 3.6 else corte_proximo(words, x + 2.5)
                 if y <= x + 1.0 or y > b:
                     y = b
-                out.append({"tipo": "broll", "imagem": fotos[kf % len(fotos)], "t0": round(x, 3), "t1": round(y, 3), "k": kf})
-                kf += 1
+                # Reels é todo edição (Wagner, 11/11): sem foto de banco; o trecho sem cena vira FRASE animada
+                toks = [{"w": w["w"], "t": round(max(w["s"] - x, 0), 2), "d": _eh_destaque(w["w"], dest)}
+                        for w in words if x - 0.05 <= w["s"] < y - 0.05]
+                if toks:
+                    out.append({"tipo": "frase", "palavras": toks, "t0": round(x, 3), "t1": round(y, 3), "k": kf})
+                    kf += 1
+                elif out and out[-1]["tipo"] != "rosto":
+                    out[-1]["t1"] = round(y, 3)
                 x = y
             t = b
         if c["t1"] - t > 0.25:
             resto = {k: v for k, v in c.items() if k != "gancho"} if t > c["t0"] else c
             out.append(dict(resto, t0=round(t, 3)))
+    # no máximo 2 fotos por Reels (Wagner, 11/11): só duas frases, bem separadas, viram foto
+    fotos = list(plano.get("broll", []))[: int(plano.get("max_fotos", 2))]
+    fr = [i for i, c in enumerate(out) if c["tipo"] == "frase"]
+    if fotos and len(fr) >= 4:
+        alvos = [fr[len(fr) // 3], fr[(2 * len(fr)) // 3]][: len(fotos)]
+        for j, i in enumerate(alvos):
+            out[i] = {"tipo": "broll", "imagem": fotos[j], "t0": out[i]["t0"], "t1": out[i]["t1"], "k": j}
     return out
 
 

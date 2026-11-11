@@ -156,6 +156,23 @@ body.mapeamento #fim .frase { font-family:Serif4; font-weight:600; text-transfor
 body.mapeamento #fim .ref { font-family:Maquina; color:#151515; }
 body.mapeamento #fim .crm { color:#fff; }
 
+/* FRASE animada: preenche a narração só com edição, sem foto (Wagner, 11/11) */
+.mpFrase { width:980px; text-align:center; font-family:Serif4; font-weight:800; color:#f4f1ea; line-height:1.04; font-size:var(--fs,120px); }
+.mpFrase span { display:inline-block; margin:0 .13em; will-change:transform,opacity; }
+.mpFrase span.d { color:#ffe600; }
+.mpFrase.f1 { text-align:left; border-left:18px solid #c8102e; padding-left:44px; width:900px; }
+.mpFrase.f2 span.d { background:#c8102e; color:#fff; padding:0 .18em; border-radius:10px; }
+#mp.so-frase #mpCap { display:none; }
+body.pele-jornal .mpFrase { font-family:Anton; font-weight:400; text-transform:uppercase; color:#111; letter-spacing:1px; }
+body.pele-jornal .mpFrase span.d { color:#c8102e; } body.pele-jornal .mpFrase.f2 span.d { background:#111; color:#fff; border-radius:0; } body.pele-jornal .mpFrase.f1 { border-color:#111; }
+body.pele-noite .mpFrase { font-family:Mont; font-weight:900; text-transform:uppercase; color:#fff; }
+body.pele-noite .mpFrase span.d { color:#c6ff3d; } body.pele-noite .mpFrase.f2 span.d { background:#c6ff3d; color:#0b1512; } body.pele-noite .mpFrase.f1 { border-color:#c6ff3d; }
+body.pele-clinico .mpFrase { font-family:Mont; font-weight:800; color:#1F2A33; letter-spacing:-2px; }
+body.pele-clinico .mpFrase span.d { color:#2F5D72; } body.pele-clinico .mpFrase.f2 span.d { background:#2F5D72; color:#fff; } body.pele-clinico .mpFrase.f1 { border-color:#2F5D72; }
+body.pele-quadro .mpFrase { font-family:Caveat; font-weight:700; color:#f7f4e8; --m:1.25; }
+body.pele-quadro .mpFrase span.d { color:#ffe27a; } body.pele-quadro .mpFrase.f2 span.d { background:transparent; color:#ffe27a; border-bottom:8px solid #ffe27a; border-radius:0; } body.pele-quadro .mpFrase.f1 { border-color:#ffe27a; border-left-style:dashed; }
+body.pele-arquivo .mpFrase { font-family:Maquina; font-weight:700; color:#f1e2c0; --m:.82; }
+body.pele-arquivo .mpFrase span.d { background:#f1e2c0; color:#1b140d; padding:0 .15em; }
 /* cenas maiores: ocupar a tela (Wagner, 11/11) */
 .mpCard { zoom:1.3; }
 .mpFone { zoom:1.27; }
@@ -182,6 +199,13 @@ body.mapeamento #fim .crm { color:#fff; }
 .mpFone.manchete .veic { font-family:Mont; font-weight:900; font-size:30px; color:#c8102e; letter-spacing:2px; text-transform:uppercase; border-bottom:4px solid #c8102e; padding-bottom:12px; margin-bottom:24px; }
 .mpFone.manchete .txt { font-family:Serif4; font-weight:800; font-size:62px; line-height:1.08; }
 /* gancho em caixinha de pergunta (estilo sticker de perguntas dos stories) */
+#cbox { position:absolute; z-index:21; left:70px; right:70px; top:130px; display:none; border-radius:40px; background:#fff; padding:40px 44px 34px; box-shadow:0 30px 60px rgba(0,0,0,.45); transform-origin:20% 0%; }
+#cbox .quem { display:flex; align-items:center; gap:22px; font-family:Mont; color:#111; font-size:38px; margin-bottom:24px; }
+#cbox .quem i { width:86px; height:86px; border-radius:50%; background:linear-gradient(135deg,#f9ce34,#ee2a7b 55%,#6228d7); flex:none; }
+#cbox .quem b { font-weight:800; display:block; } #cbox .quem small { font-weight:600; font-size:28px; color:#8a8a8a; }
+#cbox .per { font-family:Mont; font-weight:800; font-size:76px; line-height:1.1; color:#111; min-height:170px; }
+#cbox .per::after { content:"|"; color:#ee2a7b; opacity:var(--cur,1); }
+#cbox .ac { margin-top:26px; display:flex; gap:40px; font-family:Mont; font-weight:700; font-size:32px; color:#8a8a8a; }
 #qbox { position:absolute; z-index:21; left:110px; right:110px; top:150px; display:none; border-radius:44px; overflow:hidden; background:#fff;
   box-shadow:0 26px 60px rgba(0,0,0,.5); transform-origin:50% 30%; }
 #qbox .cab { background:linear-gradient(90deg,#f9ce34,#ee2a7b 55%,#6228d7); color:#fff; font-family:Mont; font-weight:800; font-size:40px; text-align:center; padding:26px 20px; }
@@ -270,6 +294,7 @@ body.pele-arquivo #fim .crm, body.pele-arquivo #fim .ref { color:#f1e2c0; }
     <div id="mpEtq"></div><div id="mpCont"></div><div id="mpCap"></div><div id="mpPip"><img alt=""></div>
   </div>
   <div id="bigtitle"></div>
+  <div id="cbox"><div class="quem"><i></i><div><b>seguidor</b><small>Respondendo ao comentário</small></div></div><div class="per"></div><div class="ac"><span>♡</span><span>Responder</span></div></div>
   <div id="qbox"><div class="cab">Faça uma pergunta</div><div class="per"></div><div class="res">Dr. Wagner responde...</div></div>
   <div id="paper"><div class="linhas"></div><div id="pcont"></div></div>
   <div id="aba"></div>
@@ -496,6 +521,8 @@ function mpMonta(c) {
     const g = c.grifo ? `<div class="grifo" data-y0="${c.grifo[0]}" data-y1="${c.grifo[1]}"></div>` : '';
     h = `<div class="mpDoc">${fitas()}<img src="${esc(c.imagem || '')}" alt="">${g}${c.legenda ? `<div class="ref">${esc(c.legenda)}</div>` : ''}</div>`;
   }
+  else if (c.tipo === 'frase') { const ps = c.palavras || []; const n = ps.length; const fs = n <= 4 ? 190 : n <= 7 ? 150 : n <= 10 ? 122 : 100;
+    h = `<div class="mpFrase f${(c.k || 0) % 3}" style="font-size:calc(${fs}px * var(--m,1))">` + ps.map(p => `<span class="${p.d ? 'd' : ''}" data-t="${p.t}">${esc(p.w)}</span>`).join(' ') + `</div>`; }
   else if (c.tipo === 'broll') h = `<div class="mpBroll"><div class="im" style="background-image:url('${esc(c.imagem || '')}')"></div><div class="veu"></div></div>`;
   else if (c.tipo === 'celular') {
     let q = esc(c.texto || ''); const d = c.destaque ? esc(c.destaque) : ''; if (d && q.includes(d)) q = q.replace(d, `<mark>${d}</mark>`);
@@ -549,6 +576,7 @@ function mpAnima(c, t) {
       e.querySelector('.cx').style.setProperty('--c', m ? (novo ? back(P(k, 0.5, 0.35)) : 1) : 0);
       e.style.opacity = m || !novo ? (m ? 1 : 0.55) : 1; });
   }
+  else if (c.tipo === 'frase') { el1.querySelectorAll('span').forEach(e => { const u = back(P(k, Math.max(parseFloat(e.dataset.t) - .08, 0), .22)); e.style.opacity = .16 + .84 * Math.min(u * 1.4, 1); e.style.transform = `translateY(${(1 - u) * 14}px) scale(${e.classList.contains('d') ? .92 + .16 * u : .94 + .06 * u})`; }); }
   else if (c.tipo === 'broll') { const im = el1.querySelector('.im'); const d = Math.max(c.t1 - c.t0, .1); const u = clamp((t - c.t0) / d, 0, 1); const s2 = (c.k || 0) % 2 ? 1 : -1;
     im.style.transform = `scale(${1.04 + 0.10 * u}) translate(${s2 * 22 * u}px, ${-14 * u}px)`; el1.style.opacity = P(t - c.t0, 0, 0.18); }
   else if (c.tipo === 'celular') el1.style.transform = `rotate(${-2 + 2 * ease(P(k, 0, .5))}deg) translateY(${(1 - ease(P(k, 0, .45))) * 1300}px)`;
@@ -590,7 +618,7 @@ function mpPip(c, t, src) {
 let mpUlt = null;
 async function mpDesenha(c, i, t, src) {
   const mp = document.querySelector('#mp'); mp.style.display = 'block';
-  mp.className = c.tipo === 'broll' ? 'sobre-foto' : (c.fundo && c.tipo !== 'mapa' ? 'fundo-' + c.fundo : '');
+  mp.className = c.tipo === 'broll' ? 'sobre-foto' : c.tipo === 'frase' ? 'so-frase' : (c.fundo && c.tipo !== 'mapa' ? 'fundo-' + c.fundo : '');
   const ehMapa = c.tipo === 'mapa';
   document.querySelector('#mpMesa').style.display = ehMapa ? 'block' : 'none';
   document.querySelector('#mpCont').style.display = ehMapa ? 'none' : 'flex';
@@ -641,7 +669,14 @@ window.renderFrame = async function (f) {
   // título gigante no gancho
   const bt = $('#bigtitle');
   const qb = $('#qbox');
-  if (s.tipo === 'gancho' && TL.titulo && TL.caixa) {
+  const cb = $('#cbox'); cb.style.display = 'none';
+  if (s.tipo === 'gancho' && TL.titulo && TL.caixa && TL.caixa.estilo === 'comentario') {
+    bt.style.display = 'none'; qb.style.display = 'none'; cb.style.display = 'block';
+    const txt = TL.caixa.texto || TL.titulo; const n = Math.round(txt.length * P(t, 0.25, Math.min(1.3, Math.max(s.t1 - s.t0 - 0.6, 0.5))));
+    cb.querySelector('.per').textContent = txt.slice(0, n); cb.style.setProperty('--cur', n >= txt.length ? 0 : 1);
+    if (TL.caixa.usuario) cb.querySelector('b').textContent = TL.caixa.usuario;
+    const r = back(P(t, 0.02, 0.34)); cb.style.transform = `translateY(${(1 - r) * -420}px) rotate(${-2 + 2 * r}deg)`; cb.style.opacity = P(t, 0.02, 0.1);
+  } else if (s.tipo === 'gancho' && TL.titulo && TL.caixa) {
     bt.style.display = 'none'; qb.style.display = 'block'; qb.querySelector('.per').textContent = TL.titulo;
     if (TL.caixa.cab) qb.querySelector('.cab').textContent = TL.caixa.cab; if (TL.caixa.res) qb.querySelector('.res').textContent = TL.caixa.res;
     const r = back(P(t, 0.02, 0.38)); qb.style.transform = `rotate(${-3 + 3 * ease(P(t, 0.02, .5))}deg) scale(${0.5 + 0.5 * r})`; qb.style.opacity = P(t, 0.02, 0.1);
