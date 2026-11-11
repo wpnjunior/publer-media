@@ -103,6 +103,12 @@ volume medido a cada 3 s sem buraco; quadros em volta de cada emenda; boca do ro
 sem dedos contando; nenhuma tela vazia; legenda dentro da tela; @ do autor visível no react; duração 25-75 s;
 arquivo final < 48 MB. Depois o sabor: `pipeline/sabor/camuflar_forte.py` + `conferir_sabor.py` (tem que sair 0).
 
+Edições HyperFrames (linguagens novas, 11/11): bruto pelo `montar_bruto.py`, palavras pelo `transcrever.py`, depois
+`python esteira2s/hf/<edicao>.py bruto.mp4 words.json plano.json projeto_dir saida.mp4`. `notas.py` = lista no bloco
+de notas + cartão (a lista inteira fica ANTES do rosto do meio; depois dele só o cartão); `dossie.py` = linguagem
+`arquivo` (pasta, folhas batidas à máquina, carimbo), para história real; `conversa.py` = conversa de mensagens,
+para pergunta de seguidor e relato. Balão, item ou folha nova a cada 6 s no máximo, senão o Porteiro reprova.
+
 ## 6. Legenda
 Própria desta marca (nunca o texto da outra conta). Skills `instagram-agent:ig-caption` e `ig-human`.
 Primeira linha que segura antes do "mais", corpo curto, uma chamada só, fonte com DOI, "Converse com seu médico".
@@ -153,6 +159,7 @@ Todo erro novo entra aqui na hora, nas três colunas. Erro sem trava não está 
 | Erro | Por que aconteceu | Trava (mecanismo) |
 | --- | --- | --- |
 | Edições "sempre as mesmas" (reclamado 2 vezes em 11/11) | Troquei só a `pele` (cor e cenário); o esqueleto frase + cartão + etiqueta era igual. Conferi como autor, não como espectador. | `python esteira2s/trava_mesmice.py DATA MARCA LINGUAGEM` antes de produzir: a linguagem não pode repetir a dos 3 Reels anteriores da conta. Todo `meta.json` de Reels grava `linguagem`. Linguagem nova só mostrando 1 exemplo ao Wagner antes do lote. |
+| Reels de lista (notas) com papel em branco por 12 s | Pus itens da lista depois do rosto do meio; a edição `notas` troca para o cartão ali. | Montagem: todos os itens antes do rosto do meio (pode ter 2 trechos de voz seguidos). Porteiro acusa tela parada. |
 | React com rosto no canto "ficou ruim" | Produzi 2 formatos sem ele pedir o segundo desse jeito. | React só em tela dividida; `react_abertura.py ... dividida`. |
 | MKUltra com avatar antigo | Reaproveitei bruto de outubro para economizar crédito, sem checar o avatar. | Vídeo com rosto só entra se o avatar for o 1d7e. Bruto antigo de `prontos/` de documentário nunca é publicado; regrava-se com o mesmo roteiro. |
 | Foto de grávida na Fertilidade | Banco de fotos sem etiqueta de conteúdo sensível. | Tag `gravida` no `bg_bank/index.json`; Fertilidade nunca usa foto com essa tag. Na dúvida, marca e troca. |
