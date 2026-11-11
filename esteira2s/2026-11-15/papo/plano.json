@@ -124,5 +124,9 @@
   "quando": "Pronto, a minha parte",
   "texto": "curte + segue",
   "arroba": "@dr.wagnernovaesjr"
+ },
+ "caixa_pergunta": {
+  "cab": "Faça uma pergunta",
+  "res": "Dr. Wagner responde..."
  }
 }

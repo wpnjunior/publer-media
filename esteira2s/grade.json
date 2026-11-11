@@ -1247,6 +1247,17 @@
   ],
   "nao_repetir": "a mesma pele nunca em dois Reels seguidos da mesma conta",
   "cta": "cobrança criativa no MEIO, falada e com o adesivo (plano.seguir); fecho com um pedido só (mandar, comentar ou salvar)",
-  "plano": "https://claude.ai/artifact/JLCNAxtGaVK2pknsKkgHpd"
+  "plano": "https://claude.ai/artifact/JLCNAxtGaVK2pknsKkgHpd",
+  "gancho": "Primeiro segundo: o gancho aparece escrito na tela. No Mito ou verdade ele vem dentro da caixinha de pergunta do Instagram (plano.caixa_pergunta).",
+  "midia_por_molde": {
+   "mito_ou_verdade": "caixinha de pergunta do Instagram com o gancho (caixa_pergunta) + carimbo do veredito (etiqueta)",
+   "noticia_famoso": "manchete dentro do celular (cena celular, modo manchete) + foto do assunto",
+   "responder_comentario": "comentário de seguidor dentro do celular (cena celular)",
+   "linha_do_tempo": "régua do tempo que anda (cena regua)",
+   "lista_para_salvar": "checklist que marca item por item (cena checklist) + pedido de salvar",
+   "historia_real": "documento e mapa de arquivo (cenas documento e mapa, pele arquivo)",
+   "react": "vídeo viral em tela cheia com o rosto reagindo no canto",
+   "tela_dividida": "rosto em cima e a prova embaixo (artigo, exame, gráfico)"
+  }
  }
 }

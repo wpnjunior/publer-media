@@ -67,7 +67,11 @@ número sem fonte. Fecho manda procurar o médico. React: até 12 s do viral, @ 
   entrega, escrita para o assunto (GUIA seção 4). Vai na narração, com adesivo "segue + curte" e o @ por 2 s.
   Roteiro de rosto: clipe tipo `troca` do banco. `pronto` e `midia_final` já estão falados: neles entra só o
   adesivo na tela, logo depois da virada, sem mexer na fala. Post `ja_agendado` não é alterado.
-- Sem voz: Reels de texto = `python esteira2s/reels_texto.py spec.json reels.mp4` (cartões do telas.py com zoom leve, troca suave e trilha de `reel_kit/trilhas/`; nunca música de terceiros). 5 a 7 cartões, a cobrança de seguir num cartão do meio, fonte no último.
+- Reels de texto NÃO existe mais (Wagner, 11/11: "muito ruim"). Todo Reels tem voz. Saldo baixo = carrossel Papo News no lugar.
+- Rosto parado é proibido: em narração só entra imagem (trava no `planejar.py`; o plano precisa de `broll` com fotos do `bg_bank`). Rosto só em clipe do Banco de Rostos ou em bruto gravado inteiro.
+- Chaves do plano: `pele` (mesa, noite, jornal, quadro, clinico, arquivo; nunca a mesma em dois Reels seguidos da conta), `broll`, `seguir` {quando, texto, arroba} (adesivo de curte e segue no meio), `caixa_pergunta` (gancho do 1º segundo dentro da caixinha "Faça uma pergunta" do Instagram; usa `titulo`), cena `celular` (comentário ou `modo: manchete`).
+- Uma mídia de assinatura por molde (lista em `esteira2s/grade.json`, `regras_edicao.midia_por_molde`): Mito ou verdade = caixinha de pergunta + carimbo do veredito; Notícia de famoso = manchete no celular; Responder comentário = comentário no celular; Linha do tempo = régua; Lista para salvar = checklist; História real = documento e mapa de arquivo; React = viral com rosto no canto; Tela dividida = rosto em cima e prova embaixo.
+- Norte de tudo: viralizar (gancho no 1º segundo, corte a cada 2 a 4 s, cobrança no meio, um pedido só no fim).
 
 ## 4b. Montar o bruto (sem clone novo)
 `python esteira2s/montar_bruto.py montagem.json /tmp/e2s/bruto.mp4`: clipes ROSTO do banco + trechos de

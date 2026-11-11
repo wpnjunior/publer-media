@@ -77,6 +77,7 @@ def main() -> None:
         "estilo_painel": plano.get("estilo_painel", "caderno"),
         "trilha": plano.get("trilha", ""),
         "pele": plano.get("pele", "mesa"),
+        "caixa": plano.get("caixa_pergunta") or None,  # gancho dentro da caixinha de pergunta: true ou {"cab":..., "res":...}
         "titulo": plano.get("titulo", ""),
         "rosto": plano.get("rosto", [0.44, 0.37]),
         "words": words,

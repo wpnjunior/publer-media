@@ -53,7 +53,7 @@ de quem acabou de receber aquilo. Nunca no fim, nunca como pedido formal ("segue
 - Limites: o humor é contra a preguiça de seguir, nunca contra doente, corpo, religião ou a mulher que tenta
   engravidar. Fertilidade usa a versão acolhedora ("Eu trouxe o dado; vocês dois deixam o curtir. Fechado?").
   Assunto de luto ou perda gestacional: sem cobrança, sem humor.
-- Reels de texto e carrossel: a cobrança é um cartão/slide no meio, no mesmo tom.
+- Carrossel: a cobrança é um slide no meio, no mesmo tom. (Reels de texto não existe mais.)
 
 **Banco de CTAs:** `esteira2s/BANCO-CTA.json` guarda as frases por tipo e por conta, a pesquisa de retorno
 (meio converte mais que fim; envio e curtida são os sinais que o Instagram mais pesa; metade assiste sem som,

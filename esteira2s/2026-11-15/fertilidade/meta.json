@@ -1,0 +1,21 @@
+{
+ "status": "pronto_para_agendar",
+ "tema": "Cueca apertada atrapalha a fertilidade?",
+ "molde": "mito_ou_verdade",
+ "edicao": "mapeamento, pele clinico, gancho em caixinha de pergunta",
+ "midia": "reels.mp4",
+ "rostos": [
+  "abertura_10",
+  "troca_02",
+  "fecho_10"
+ ],
+ "cta_meio": {
+  "quando": "Combinado é combinado",
+  "texto": "curte + segue",
+  "arroba": "@fertilidadeadois"
+ },
+ "fontes": [
+  "Mínguez-Alarcón et al., Hum Reprod 2018, doi 10.1093/humrep/dey259"
+ ],
+ "pendente": "Porteiro/sabor, legenda, stories e agendamento na rodada da véspera"
+}

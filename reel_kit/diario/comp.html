@@ -160,7 +160,8 @@ body.mapeamento #fim .crm { color:#fff; }
 .mpBroll { position:absolute; left:0; top:-330px; width:1080px; height:1920px; overflow:hidden; }
 .mpBroll .im { position:absolute; inset:-60px; background:#222 center/cover no-repeat; }
 .mpBroll .veu { position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,.72) 0%, rgba(0,0,0,.28) 34%, rgba(0,0,0,.12) 60%, rgba(0,0,0,.6) 100%); }
-#mp.sobre-foto #mpCap { color:#fff; text-shadow:0 4px 18px rgba(0,0,0,.85); }
+#mp.sobre-foto #mpCap, #mp.sobre-foto #mpCap span { color:#fff !important; text-shadow:0 4px 18px rgba(0,0,0,.9); }
+.mpTag.longa { white-space:normal; max-width:940px; text-align:center; font-size:88px !important; line-height:1.05; }
 .mpFone { width:760px; background:#0f1115; border-radius:64px; padding:26px 22px 40px; box-shadow:0 30px 60px rgba(0,0,0,.5); border:6px solid #2b2f38; }
 .mpFone .topo { height:34px; width:200px; background:#000; border-radius:20px; margin:0 auto 26px; }
 .mpFone .tela { background:#fff; border-radius:36px; padding:38px 36px 44px; min-height:520px; }
@@ -173,6 +174,12 @@ body.mapeamento #fim .crm { color:#fff; }
 .mpFone.manchete .tela { background:#fff; }
 .mpFone.manchete .veic { font-family:Mont; font-weight:900; font-size:30px; color:#c8102e; letter-spacing:2px; text-transform:uppercase; border-bottom:4px solid #c8102e; padding-bottom:12px; margin-bottom:24px; }
 .mpFone.manchete .txt { font-family:Serif4; font-weight:800; font-size:62px; line-height:1.08; }
+/* gancho em caixinha de pergunta (estilo sticker de perguntas dos stories) */
+#qbox { position:absolute; z-index:21; left:110px; right:110px; top:150px; display:none; border-radius:44px; overflow:hidden; background:#fff;
+  box-shadow:0 26px 60px rgba(0,0,0,.5); transform-origin:50% 30%; }
+#qbox .cab { background:linear-gradient(90deg,#f9ce34,#ee2a7b 55%,#6228d7); color:#fff; font-family:Mont; font-weight:800; font-size:40px; text-align:center; padding:26px 20px; }
+#qbox .per { font-family:Mont; font-weight:800; font-size:72px; line-height:1.1; color:#111; text-align:center; padding:54px 44px 60px; }
+#qbox .res { margin:0 44px 44px; background:#efefef; border-radius:22px; color:#9a9a9a; font-family:Mont; font-weight:600; font-size:36px; padding:24px 30px; }
 /* adesivo "curte + segue" (cobrança do meio) */
 #seguir { position:absolute; z-index:33; left:50%; top:1180px; display:none; white-space:nowrap; text-align:center; }
 #seguir .pil { display:inline-flex; align-items:center; gap:22px; background:#fff; color:#111; font-family:Mont; font-weight:900; font-size:58px; padding:22px 44px;
@@ -256,6 +263,7 @@ body.pele-arquivo #fim .crm, body.pele-arquivo #fim .ref { color:#f1e2c0; }
     <div id="mpEtq"></div><div id="mpCont"></div><div id="mpCap"></div><div id="mpPip"><img alt=""></div>
   </div>
   <div id="bigtitle"></div>
+  <div id="qbox"><div class="cab">Faça uma pergunta</div><div class="per"></div><div class="res">Dr. Wagner responde...</div></div>
   <div id="paper"><div class="linhas"></div><div id="pcont"></div></div>
   <div id="aba"></div>
   <div id="num"><div class="n"></div><div class="l"></div></div>
@@ -476,7 +484,7 @@ function mpMonta(c) {
     let q = esc(c.texto || ''); const d = c.destaque ? esc(c.destaque) : '';
     if (d && q.includes(d)) q = q.replace(d, `<mark>${d}</mark>`);
     h = `<div class="mpNota"><div class="q">“${q}”</div>${c.autor ? `<div class="a">${esc(c.autor)}</div>` : ''}</div>`;
-  } else if (c.tipo === 'etiqueta') h = `<div class="mpTag" style="background:${cor(c.cor || 'azul')}">${esc(c.texto || '')}</div>${c.sub ? `<div class="mpSub">${esc(c.sub)}</div>` : ''}`;
+  } else if (c.tipo === 'etiqueta') h = `<div class="mpTag${(c.texto || '').length > 11 ? ' longa' : ''}" style="background:${cor(c.cor || 'azul')}">${esc(c.texto || '')}</div>${c.sub ? `<div class="mpSub">${esc(c.sub)}</div>` : ''}`;
   else if (c.tipo === 'documento') {
     const g = c.grifo ? `<div class="grifo" data-y0="${c.grifo[0]}" data-y1="${c.grifo[1]}"></div>` : '';
     h = `<div class="mpDoc">${fitas()}<img src="${esc(c.imagem || '')}" alt="">${g}${c.legenda ? `<div class="ref">${esc(c.legenda)}</div>` : ''}</div>`;
@@ -625,10 +633,16 @@ window.renderFrame = async function (f) {
 
   // título gigante no gancho
   const bt = $('#bigtitle');
-  if (s.tipo === 'gancho' && TL.titulo) {
+  const qb = $('#qbox');
+  if (s.tipo === 'gancho' && TL.titulo && TL.caixa) {
+    bt.style.display = 'none'; qb.style.display = 'block'; qb.querySelector('.per').textContent = TL.titulo;
+    if (TL.caixa.cab) qb.querySelector('.cab').textContent = TL.caixa.cab; if (TL.caixa.res) qb.querySelector('.res').textContent = TL.caixa.res;
+    const r = back(P(t, 0.02, 0.38)); qb.style.transform = `rotate(${-3 + 3 * ease(P(t, 0.02, .5))}deg) scale(${0.5 + 0.5 * r})`; qb.style.opacity = P(t, 0.02, 0.1);
+  } else if (s.tipo === 'gancho' && TL.titulo) {
+    qb.style.display = 'none';
     bt.style.display = 'block'; bt.textContent = TL.titulo;
     const r = back(P(t, 0.05, 0.4)); bt.style.transform = `scale(${0.6 + 0.4 * r})`; bt.style.opacity = P(t, 0.05, 0.15);
-  } else bt.style.display = 'none';
+  } else { bt.style.display = 'none'; qb.style.display = 'none'; }
 
   // painel
   const p = painelAt(t);
