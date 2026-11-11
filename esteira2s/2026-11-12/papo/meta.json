@@ -1,1 +1,16 @@
-{"status":"agendado","tipo":"ja_agendado","tema":"Semmelweis (agendado por outra rodada, Metricool 423832321)","horario":"2026-11-12T17:52 America/Sao_Paulo"}
+{
+ "status": "agendado",
+ "tipo": "ja_agendado",
+ "tema": "Semmelweis (agendado por outra rodada, Metricool 423832321)",
+ "horario": "2026-11-12T17:52 America/Sao_Paulo",
+ "stories": [
+  {
+   "metricool_id": 424324272,
+   "horario": "19:13"
+  },
+  {
+   "metricool_id": 424324294,
+   "horario": "21:08"
+  }
+ ]
+}
