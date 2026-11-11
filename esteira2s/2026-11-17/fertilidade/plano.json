@@ -1,7 +1,7 @@
 {
  "formato": "mapeamento",
  "pele": "jornal",
- "titulo": "Chip de testosterona e o espermograma",
+ "titulo": "Chip de testosterona mexe no espermograma?",
  "trilha": "moment_of_peace",
  "destaques": [
   "testosterona",
@@ -116,5 +116,9 @@
   "marca": "FERTILIDADE A DOIS",
   "frase": "Se o plano é ter filho, conversa com o médico antes do hormônio.",
   "ref": "Liu et al., Lancet 2006 · doi 10.1016/S0140-6736(06)68614-5\nEstudos com homens saudáveis em pesquisa de anticoncepcional. Conteúdo educativo. Não substitui a consulta."
+ },
+ "caixa_pergunta": {
+  "cab": "Faça uma pergunta",
+  "res": "Fertilidade a Dois responde..."
  }
 }

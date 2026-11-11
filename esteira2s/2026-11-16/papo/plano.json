@@ -45,16 +45,10 @@
    "tipo": "barra",
    "barras": [
     {
-     "rotulo": "média real",
+     "rotulo": "média medida",
      "valor": 10,
      "texto": "10 por dia",
      "cor": "verde"
-    },
-    {
-     "rotulo": "limite do normal",
-     "valor": 20,
-     "texto": "20 por dia",
-     "cor": "azul"
     },
     {
      "rotulo": "\"mínimo\" do vídeo",
