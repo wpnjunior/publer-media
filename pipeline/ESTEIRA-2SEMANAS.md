@@ -53,6 +53,12 @@ número sem fonte. Fecho manda procurar o médico. React: até 12 s do viral, @ 
   `usado_em`. A frase do clipe entra no roteiro exatamente como está.
 - Sem voz: Reels de texto com trilha de `reel_kit/trilhas/` (nunca música de terceiros).
 
+## 4b. Montar o bruto (sem clone novo)
+`python esteira2s/montar_bruto.py montagem.json /tmp/e2s/bruto.mp4`: clipes ROSTO do banco + trechos de
+narração sobre a foto parada (use `esteira2s/banco-rostos/foto.jpg`, um quadro do clipe "ouvindo", para o
+fundo bater com o rosto; se faltar, `reel_kit/foto_wagner.png`). Esse bruto entra no editor no lugar do vídeo
+do HeyGen. React: o viral entra como cena do plano, não como trecho do bruto.
+
 ## 5. Edição e Porteiro
 (`pip install -q playwright faster-whisper pillow` antes.)
 Editor: `bash reel_kit/diario/editar.sh` (formatos tela_dividida, dinamica + dossie/celular, mapeamento;
