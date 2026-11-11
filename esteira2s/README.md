@@ -16,3 +16,11 @@ Roteiro: `pipeline/ESTEIRA-2SEMANAS.md`. Grade: `grade.json`. Hospital caso 004.
 | porteiro.py (volume a cada 3 s, silêncio, tela preta ou parada, duração, tamanho, folha de 16 quadros) | pronto, testado |
 
 Tarefas na nuvem (ids preenchidos ao ligar): esteira Papo (9h), esteira Fertilidade (10h30), prévia e veto, relatório de segunda.
+
+## Tarefas agendadas (criadas em 11/11/2026)
+| Tarefa | Horário (Bahia) | Id |
+|---|---|---|
+| Esteira 30 dias: Papo de Médico | todo dia 8h47 | trig_01RUcL4DQQ7K47CH4NvQCC7S |
+| Esteira 30 dias: Fertilidade a Dois | todo dia 10h13 | trig_01LryTF25RSoWYRqoVar1Tfn |
+As duas rodam na sessão da thread dona do fluxo, produzem o post de amanhã e param depois de 10/12/2026.
+A programação aparece na aba "Programação 30 dias" das duas Mesas (coleção `programacao`).
