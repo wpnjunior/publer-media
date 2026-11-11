@@ -34,7 +34,12 @@ def main() -> None:
     entradas: list[str] = []
     filtros: list[str] = []
     k = 0
+    marcas: list[dict] = []  # onde é rosto de verdade e onde é narração sobre foto (o editor nunca mostra o rosto na narração)
+    pos = 0.0
     for i, t in enumerate(spec["trechos"]):
+        d_t = dur(t.get("rosto") or t.get("voz"))
+        marcas.append({"t0": round(pos, 3), "t1": round(pos + d_t, 3), "tipo": "rosto" if "rosto" in t else "voz"})
+        pos += d_t
         if "rosto" in t:
             entradas += ["-i", t["rosto"]]
             filtros.append(
@@ -61,6 +66,7 @@ def main() -> None:
            "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
            "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", saida]
     subprocess.run(cmd, check=True)
+    Path(saida + ".trechos.json").write_text(json.dumps(marcas, indent=1), encoding="utf-8")
     print(f"bruto montado: {saida} ({dur(saida):.1f} s)")
 
 

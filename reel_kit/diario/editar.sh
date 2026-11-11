@@ -7,6 +7,8 @@ set -euo pipefail
 D="$(cd "$(dirname "$0")" && pwd)"
 BRUTO="$1"; ROT="$2"; PLANO="$3"; W="$4"; OUT="$5"
 mkdir -p "$W/frames"
+# marcas de rosto x narração do montar_bruto (trava: narração nunca mostra o rosto parado)
+rm -f "$W/trechos.json"; [ -f "$BRUTO.trechos.json" ] && cp "$BRUTO.trechos.json" "$W/trechos.json"
 python3 -c "import faster_whisper" 2>/dev/null || pip install -q faster-whisper
 python3 -c "import PIL" 2>/dev/null || pip install -q pillow
 python3 "$D/transcrever.py" "$BRUTO" "$ROT" "$W/words.json"

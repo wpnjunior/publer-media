@@ -76,6 +76,7 @@ def main() -> None:
         "formato": formato,
         "estilo_painel": plano.get("estilo_painel", "caderno"),
         "trilha": plano.get("trilha", ""),
+        "pele": plano.get("pele", "mesa"),
         "titulo": plano.get("titulo", ""),
         "rosto": plano.get("rosto", [0.44, 0.37]),
         "words": words,
@@ -127,8 +128,17 @@ def main() -> None:
         tl["fonte"] = {"t0": round(t0, 3), "t1": round(t1, 3), "texto": f["texto"]}
         tl["eventos"].append({"t": t0, "sfx": "ding"})
 
+    if plano.get("seguir"):  # adesivo "curte + segue" na tela, junto da cobrança falada no meio
+        sg = plano["seguir"]
+        t0, t1, _ = achar(words, sg["quando"])
+        tl["seguir"] = {"t0": round(t0, 3), "t1": round(max(t1, t0 + 3.0), 3), "texto": sg.get("texto", "curte + segue"),
+                        "arroba": sg.get("arroba", "@dr.wagnernovaesjr")}
+        tl["eventos"].append({"t": t0, "sfx": "pop"})
+
     if formato == "mapeamento":
+        tl["_pasta"] = str(Path(sys.argv[4]).parent)
         mapeamento(plano, words, tl, forcados, fala_fim, total)
+        tl.pop("_pasta", None)
         Path(sys.argv[4]).write_text(json.dumps(tl, ensure_ascii=False, indent=1), encoding="utf-8")
         tipos: dict = {}
         for c in tl["cenas"]:
@@ -197,7 +207,67 @@ def main() -> None:
 
 
 TIPOS_CENA = {"rosto", "mapa", "cartao", "foto", "documento", "bolinhas", "citacao", "etiqueta", "barra",
-              "regua", "checklist"}  # regua = Linha do tempo; checklist = Lista para salvar
+              "regua", "checklist", "broll", "celular"}  # regua = Linha do tempo; checklist = Lista para salvar;
+# broll = foto real em tela cheia; celular = comentário, post ou manchete na tela de um telefone
+BG_BANK = Path(__file__).resolve().parents[2] / "bg_bank"
+
+
+def _imagem(nome: str, pasta: str) -> str:
+    """Nome de foto do bg_bank vira img/<nome> dentro da pasta de trabalho (o comp.html só enxerga a pasta)."""
+    if not nome or "/" in nome:
+        return nome
+    origem = BG_BANK / nome
+    if not origem.exists():
+        raise SystemExit(f"foto não existe no bg_bank: {nome}")
+    dest = Path(pasta) / "img"
+    dest.mkdir(parents=True, exist_ok=True)
+    (dest / nome).write_bytes(origem.read_bytes())
+    return f"img/{nome}"
+
+
+def _sem_rosto_na_narracao(cenas: list[dict], words: list[dict], plano: dict, pasta: str) -> list[dict]:
+    """TRAVA: nos trechos de narração (voz sobre foto parada) o rosto nunca aparece. O pedaço de cena
+    "rosto" que cair numa narração vira foto real em tela cheia (broll), trocando a cada ~3 s."""
+    arq = Path(pasta) / "trechos.json"
+    if not arq.exists():
+        return cenas
+    vozes = [(m["t0"], m["t1"]) for m in json.loads(arq.read_text()) if m["tipo"] == "voz"]
+    fotos = list(plano.get("broll", []))
+    out: list[dict] = []
+    kf = 0
+    for c in cenas:
+        if c["tipo"] != "rosto":
+            if c.get("pip") and any(a < c["t1"] and b > c["t0"] for a, b in vozes):
+                c = dict(c, pip=False)  # a bolha também é rosto parado
+            out.append(c)
+            continue
+        t = c["t0"]
+        pedacos = []
+        for a, b in vozes:
+            a2, b2 = max(a - 0.12, c["t0"]), min(b + 0.12, c["t1"])
+            if b2 - a2 > 0.25:
+                pedacos.append((a2, b2))
+        for a, b in pedacos:
+            if a - t > 0.25:
+                out.append(dict(c, t0=round(t, 3), t1=round(a, 3)))
+            else:
+                a = t
+            if not fotos:
+                raise SystemExit(f"narração sem cena entre {a:.1f}s e {b:.1f}s e o plano não tem 'broll' (fotos do bg_bank): "
+                                 "o rosto parado não pode aparecer")
+            x = a
+            while b - x > 0.05:
+                y = b if b - x < 4.6 else corte_proximo(words, x + 3.0)
+                if y <= x + 1.0 or y > b:
+                    y = b
+                out.append({"tipo": "broll", "imagem": fotos[kf % len(fotos)], "t0": round(x, 3), "t1": round(y, 3), "k": kf})
+                kf += 1
+                x = y
+            t = b
+        if c["t1"] - t > 0.25:
+            resto = {k: v for k, v in c.items() if k != "gancho"} if t > c["t0"] else c
+            out.append(dict(resto, t0=round(t, 3)))
+    return out
 
 
 def mapeamento(plano: dict, words: list[dict], tl: dict, forcados: list, fala_fim: float, total: float) -> None:
@@ -251,6 +321,10 @@ def mapeamento(plano: dict, words: list[dict], tl: dict, forcados: list, fala_fi
                 ritmo.append({"tipo": "rosto", "t0": round(corte, 3), "t1": c["t1"]})
                 continue
         ritmo.append(c)
+    ritmo = _sem_rosto_na_narracao(ritmo, words, plano, tl["_pasta"])
+    for c in ritmo:
+        if c.get("imagem"):
+            c["imagem"] = _imagem(c["imagem"], tl["_pasta"])
     tl["cenas"] = [c for c in ritmo if c["t1"] - c["t0"] > 0.05]
 
     shots = []

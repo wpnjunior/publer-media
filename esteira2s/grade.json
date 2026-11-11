@@ -25,69 +25,89 @@
     },
     "2026-11-14": {
      "tipo": "reels",
-     "molde": "historia_real",
-     "edicao": "dossie",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
-     "pronto": "/mnt/project-files/esteira2s/prontos/mkultra.mp4",
      "tema": "MKUltra: a CIA drogou cidadãos sem eles saberem",
+     "gancho": "O governo americano drogou gente comum. E escondeu por 20 anos.",
+     "cta_meio": "adesivo curte + segue depois da virada",
+     "cta_fim": "Comentar: você confiaria?",
+     "edicao_nome": "Dossiê (rosto o tempo todo)",
+     "pronto": "/mnt/project-files/esteira2s/prontos/mkultra.mp4",
      "janela": [
       "11:00",
       "14:00"
-     ]
+     ],
+     "molde": "historia_real",
+     "voz": false,
+     "edicao": "dossie"
     },
     "2026-11-15": {
      "tipo": "reels",
-     "molde": "mito_ou_verdade",
-     "edicao": "mapeamento_cartoes",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "jejum intermitente",
+     "tema": "Pular o café da manhã engorda?",
+     "gancho": "Café da manhã é a refeição mais importante do dia. Será?",
+     "cta_meio": "Pronto, a minha parte eu fiz. A sua é curtir e me seguir.",
+     "cta_fim": "Mandar pra quem te obriga a comer cedo",
+     "edicao_nome": "Noite (verde e lima)",
      "janela": [
       "11:00",
       "14:00"
      ],
-     "tema": "Pular o café da manhã engorda? (mito)"
+     "molde": "mito_ou_verdade",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "noite"
     },
     "2026-11-16": {
      "tipo": "reels",
-     "molde": "react",
-     "edicao": "react_canto_mapeamento",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Peidar 25 vezes por dia é normal?",
+     "gancho": "(viral) pausa: olha só o que ela falou",
+     "cta_meio": "adesivo curte + segue na pausa",
+     "cta_fim": "Comentar: conta quantas",
+     "edicao_nome": "React com clone no canto",
      "midia_final": "/mnt/project-files/videos-novembro-2026/react-peidar-25-vezes-v2.mp4",
-     "tema": "React: peidar 25 vezes por dia é normal?",
      "janela": [
       "17:00",
       "19:00"
-     ]
+     ],
+     "molde": "react",
+     "voz": false,
+     "edicao": "react_canto_mapeamento"
     },
     "2026-11-17": {
      "tipo": "reels",
-     "molde": "linha_do_tempo",
-     "edicao": "linha_do_tempo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "jejum 12/16/24 h",
+     "tema": "O que acontece no corpo em 12, 16 e 24 h sem comer",
+     "gancho": "Com 12 horas sem comer seu corpo troca de combustível.",
+     "cta_meio": "Te dei o mapa do jejum de graça. Me seguir é o pedágio.",
+     "cta_fim": "Salvar pra conferir no próximo jejum",
+     "edicao_nome": "Quadro de giz + régua",
      "janela": [
       "11:00",
       "14:00"
+     ],
+     "molde": "linha_do_tempo",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro",
+     "cenas_obrigatorias": [
+      "regua"
      ]
     },
     "2026-11-18": {
@@ -95,71 +115,92 @@
      "redes": [
       "instagram"
      ],
-     "voz": false,
-     "assunto_sugerido": "lista para salvar (intestino ou intolerância alimentar)",
+     "tema": "Intolerância à lactose: a maioria tolera 1 copo",
+     "gancho": "Você não precisa cortar todo o leite",
+     "cta_meio": "Te devolvi o pingado. Um curtir é o mínimo, né?",
+     "cta_fim": "Mandar pra quem cortou tudo",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "17:00",
       "19:00"
-     ],
-     "tema": "Intolerância à lactose: a maioria tolera 1 copo de leite"
+     ]
     },
     "2026-11-19": {
      "tipo": "reels",
-     "molde": "tela_dividida",
-     "edicao": "tela_dividida",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
-     "pronto": "/mnt/project-files/esteira2s/prontos/whey.mp4",
      "tema": "Whey não salva o músculo do seu pai",
+     "gancho": "Seu pai toma whey e continua perdendo músculo. Olha por quê.",
+     "cta_meio": "adesivo curte + segue depois do dado",
+     "cta_fim": "Mandar pro seu pai",
+     "edicao_nome": "Tela dividida com caderno (rosto o tempo todo)",
+     "pronto": "/mnt/project-files/esteira2s/prontos/whey.mp4",
      "janela": [
       "11:00",
       "14:00"
-     ]
+     ],
+     "molde": "tela_dividida",
+     "voz": false,
+     "edicao": "tela_dividida"
     },
     "2026-11-20": {
      "tipo": "reels",
-     "molde": "noticia_famoso",
-     "edicao": "dinamica_celular",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "parasitas",
+     "tema": "Verme no cérebro: como a pessoa pega (caso RFK Jr.)",
+     "gancho": "Um político americano disse que um verme comeu parte do cérebro dele.",
+     "cta_meio": "Quem não me seguir vai ficar com verme. Brincadeira. Mas segue.",
+     "cta_fim": "Comentar: você lava a salada como?",
+     "edicao_nome": "Jornal + manchete no celular",
      "janela": [
       "17:00",
       "19:00"
+     ],
+     "molde": "noticia_famoso",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "jornal",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-11-21": {
      "tipo": "reels",
-     "molde": "mito_ou_verdade",
-     "edicao": "mapeamento",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
-     "pronto": "/mnt/project-files/esteira2s/prontos/impotencia.mp4",
      "tema": "Falha na ereção avisa o coração",
+     "gancho": "A primeira falha na cama pode ser o coração pedindo socorro.",
+     "cta_meio": "adesivo curte + segue depois da virada",
+     "cta_fim": "Mandar pro amigo que não vai ao médico",
+     "edicao_nome": "Dinâmica com celular (rosto o tempo todo)",
+     "pronto": "/mnt/project-files/esteira2s/prontos/impotencia.mp4",
      "janela": [
       "11:00",
       "14:00"
-     ]
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": false,
+     "edicao": "dinamica_celular"
     },
     "2026-11-22": {
      "tipo": "carrossel",
      "redes": [
       "instagram"
      ],
-     "voz": false,
-     "assunto_sugerido": "massa magra e força depois dos 40",
+     "tema": "Força do aperto de mão prevê quanto você vive",
+     "gancho": "O aperto da sua mão diz mais que a balança",
+     "cta_meio": "Te poupei um check-up de curiosidade. Curte aí.",
+     "cta_fim": "Salvar e testar com seu pai",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "11:00",
       "14:00"
@@ -167,136 +208,196 @@
     },
     "2026-11-23": {
      "tipo": "reels",
-     "molde": "react",
-     "edicao": "react_canto_dossie",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "A 'limpeza de parasitas' com ervas que viralizou",
+     "gancho": "(viral) pausa: isso que saiu não é verme",
+     "cta_meio": "Depois de desfazer essa minhoca na sua cabeça, não me seguir é atestado de sadomasoquista.",
+     "cta_fim": "Mandar pra quem comprou o kit",
+     "edicao_nome": "Mapa em papel antigo + viral",
      "janela": [
       "11:00",
       "14:00"
+     ],
+     "molde": "react",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "mesa",
+     "cenas_obrigatorias": [
+      "viral"
      ]
     },
     "2026-11-24": {
      "tipo": "reels",
-     "molde": "responder_comentario",
-     "edicao": "dinamica_adesivo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Café puro quebra o jejum?",
+     "gancho": "\"Doutor, café quebra o jejum?\" Recebo isso todo dia.",
+     "cta_meio": "Respondi a pergunta de mil pessoas. Seguir é o mínimo.",
+     "cta_fim": "Comentar a próxima pergunta",
+     "edicao_nome": "Quadro de giz + comentário no celular",
      "janela": [
       "17:00",
       "19:00"
+     ],
+     "molde": "responder_comentario",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-11-25": {
      "tipo": "reels",
-     "molde": "mito_ou_verdade",
-     "edicao": "dinamica_celular",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
-     "pronto": "/mnt/project-files/esteira2s/prontos/gluten.mp4",
      "tema": "O vilão nem sempre é o glúten (frutanos)",
+     "gancho": "Você cortou o glúten e melhorou. O culpado pode ser outro.",
+     "cta_meio": "adesivo curte + segue depois da virada",
+     "cta_fim": "Comentar: já cortou por conta própria?",
+     "edicao_nome": "Mapa em papel com cartões (rosto o tempo todo)",
+     "pronto": "/mnt/project-files/esteira2s/prontos/gluten.mp4",
      "janela": [
       "11:00",
       "14:00"
-     ]
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": false,
+     "edicao": "mapeamento",
+     "pele": "mesa"
     },
     "2026-11-26": {
      "tipo": "reels",
-     "molde": "historia_real",
-     "edicao": "mapeamento_arquivo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Henrietta Lacks e as células que nunca morreram",
+     "gancho": "As células dela estão vivas até hoje. Ela nunca soube.",
+     "cta_meio": "adesivo curte + segue depois da virada",
+     "cta_fim": "Mandar pra quem ama história",
+     "edicao_nome": "Arquivo em sépia (rosto o tempo todo)",
      "pronto": "/mnt/project-files/esteira2s/prontos/henrietta.mp4",
-     "tema": "Henrietta Lacks e as células HeLa",
      "janela": [
       "17:00",
       "19:00"
-     ]
+     ],
+     "molde": "historia_real",
+     "voz": false,
+     "edicao": "mapeamento",
+     "pele": "arquivo"
     },
     "2026-11-27": {
      "tipo": "reels",
-     "molde": "noticia_famoso",
-     "edicao": "dinamica_celular",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Gracyanne e os 40 ovos: quanto de proteína o corpo usa",
+     "gancho": "Quarenta ovos por dia. Seu corpo usa tudo isso?",
+     "cta_meio": "Fiz a conta dos ovos pra você. Curte e me segue, que a granja agradece.",
+     "cta_fim": "Mandar pro parceiro de treino",
+     "edicao_nome": "Noite + manchete no celular",
      "janela": [
       "11:00",
       "14:00"
+     ],
+     "molde": "noticia_famoso",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "noite",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-11-28": {
      "tipo": "reels",
-     "molde": "lista_para_salvar",
-     "edicao": "lista",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "desparasitação: sinais para investigar",
+     "tema": "Coceira à noite: quando pensar em verme (oxiúros)",
+     "gancho": "Coceira que piora à noite tem um suspeito clássico.",
+     "cta_meio": "Quem não me seguir vai ficar com coceira. Mentira. Mas segue.",
+     "cta_fim": "Salvar pra levar na consulta",
+     "edicao_nome": "Mapa em papel + lista que vai marcando",
      "janela": [
       "11:00",
       "14:00"
+     ],
+     "molde": "lista_para_salvar",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "mesa",
+     "cenas_obrigatorias": [
+      "checklist"
      ]
     },
     "2026-11-29": {
      "tipo": "reels",
-     "molde": "historia_real",
-     "edicao": "dossie",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "O experimento da fome de Minnesota (1944)",
+     "gancho": "36 homens aceitaram passar fome pela ciência.",
+     "cta_meio": "Eu li o estudo inteiro pra você não precisar. Seguir aqui é pagar o pedágio.",
+     "cta_fim": "Comentar: você toparia?",
+     "edicao_nome": "Arquivo em sépia",
      "janela": [
       "11:00",
       "14:00"
-     ]
+     ],
+     "molde": "historia_real",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "arquivo"
     },
     "2026-11-30": {
      "tipo": "reels",
-     "molde": "tela_dividida",
-     "edicao": "tela_dividida",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "massa magra e força",
+     "tema": "Creatina depois dos 50: o que os estudos mediram",
+     "gancho": "Creatina não é coisa de marombeiro novo.",
+     "cta_meio": "Te poupei três potes errados. Um curtir é o mínimo, né?",
+     "cta_fim": "Mandar pra sua mãe",
+     "edicao_nome": "Jornal",
      "janela": [
       "17:00",
       "19:00"
-     ]
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "jornal"
     },
     "2026-12-01": {
      "tipo": "carrossel",
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "Teste de intolerância por IgG: vale o que custa?",
+     "gancho": "O exame caro que as sociedades médicas não recomendam",
+     "cta_meio": "Economizei seu dinheiro. Curte aí.",
+     "cta_fim": "Mandar pra quem ia fazer",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "11:00",
       "13:00"
@@ -304,103 +405,152 @@
     },
     "2026-12-02": {
      "tipo": "reels",
-     "molde": "react",
-     "edicao": "react_canto_mapeamento",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Vermífugo contra câncer: o que existe de estudo (fala de Mel Gibson)",
+     "gancho": "(viral) pausa: calma, que não é bem assim",
+     "cta_meio": "Combinado é combinado. Eu trago o estudo, você curte e segue.",
+     "cta_fim": "Mandar no grupo da família",
+     "edicao_nome": "Noite + viral",
      "janela": [
       "17:00",
       "19:00"
+     ],
+     "molde": "react",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "noite",
+     "cenas_obrigatorias": [
+      "viral"
      ]
     },
     "2026-12-03": {
      "tipo": "reels",
-     "molde": "mito_ou_verdade",
-     "edicao": "mapeamento_cartoes",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "intolerância alimentar",
+     "tema": "Jejum 16:8 faz perder músculo?",
+     "gancho": "No maior estudo de jejum 16:8, o que mais caiu não foi gordura.",
+     "cta_meio": "Se depois dessa você não me segue, o problema já não é o jejum.",
+     "cta_fim": "Comentar: você treina em jejum?",
+     "edicao_nome": "Quadro de giz",
      "janela": [
       "11:00",
       "14:00"
-     ]
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro"
     },
     "2026-12-04": {
      "tipo": "reels",
-     "molde": "linha_do_tempo",
-     "edicao": "linha_do_tempo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "o que acontece no intestino depois do antibiótico",
+     "tema": "Seu intestino depois do antibiótico",
+     "gancho": "O probiótico pode atrasar a volta da sua flora.",
+     "cta_meio": "Te contei o que quase ninguém conta, né? Então curte aí, e me segue.",
+     "cta_fim": "Salvar pro próximo antibiótico",
+     "edicao_nome": "Mapa em papel + régua",
      "janela": [
       "17:00",
       "19:00"
+     ],
+     "molde": "linha_do_tempo",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "mesa",
+     "cenas_obrigatorias": [
+      "regua"
      ]
     },
     "2026-12-05": {
      "tipo": "reels",
-     "molde": "lista_para_salvar",
-     "edicao": "texto_lista",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Intestino preso: 5 sinais para investigar",
+     "gancho": "Intestino preso com um destes sinais não é frescura.",
+     "cta_meio": "Antes do final, um pedágio leve. Curte e me segue.",
+     "cta_fim": "Salvar pra levar na consulta",
+     "edicao_nome": "Noite + lista que vai marcando",
      "janela": [
       "11:00",
       "14:00"
+     ],
+     "molde": "lista_para_salvar",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "noite",
+     "cenas_obrigatorias": [
+      "checklist"
      ]
     },
     "2026-12-06": {
      "tipo": "reels",
-     "molde": "responder_comentario",
-     "edicao": "dinamica_adesivo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Adulto precisa tomar vermífugo todo ano?",
+     "gancho": "\"Doutor, todo ano eu tomo vermífugo. Tá certo?\"",
+     "cta_meio": "Quem não me seguir vai ficar com verme.",
+     "cta_fim": "Comentar a próxima pergunta",
+     "edicao_nome": "Jornal + comentário no celular",
      "janela": [
       "11:00",
       "14:00"
+     ],
+     "molde": "responder_comentario",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "jornal",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-12-07": {
      "tipo": "reels",
-     "molde": "lista_para_salvar",
-     "edicao": "lista",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "canetas sem perder músculo",
+     "tema": "Canetas emagrecedoras: quanto do peso perdido é músculo",
+     "gancho": "Parte do peso que a caneta tira não é gordura.",
+     "cta_meio": "Essa valeu um curtir, vai. E segue, que amanhã tem outra.",
+     "cta_fim": "Mandar pra quem está usando",
+     "edicao_nome": "Quadro de giz",
      "janela": [
       "11:00",
       "14:00"
-     ]
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro"
     },
     "2026-12-08": {
      "tipo": "carrossel",
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "Proteína: quanto o corpo aproveita por refeição",
+     "gancho": "A conta da proteína que ninguém te fez",
+     "cta_meio": "Fiz a conta pra você. Curte aí.",
+     "cta_fim": "Salvar antes de comprar o próximo pote",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "17:00",
       "19:00"
@@ -408,47 +558,74 @@
     },
     "2026-12-09": {
      "tipo": "reels",
-     "molde": "historia_real",
-     "edicao": "mapeamento_arquivo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "John Snow e a bomba d'água que parou a cólera",
+     "gancho": "Um médico parou uma epidemia com um mapa e uma maçaneta.",
+     "cta_meio": "Te contei a história que fundou a saúde pública. Seguir é o mínimo.",
+     "cta_fim": "Mandar pra quem ama história",
+     "edicao_nome": "Mapa em papel antigo (mapa de verdade)",
      "janela": [
       "11:00",
       "14:00"
+     ],
+     "molde": "historia_real",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "mesa",
+     "cenas_obrigatorias": [
+      "mapa"
      ]
     },
     "2026-12-10": {
      "tipo": "reels",
-     "molde": "tela_dividida",
-     "edicao": "tela_dividida_lista",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Força depois dos 40: os 4 exercícios que os estudos mais medem",
+     "gancho": "Depois dos 40 você perde músculo todo ano. Dá pra frear.",
+     "cta_meio": "Te dei o treino resumido. Curte e me segue.",
+     "cta_fim": "Mandar pro parceiro de treino",
+     "edicao_nome": "Noite + lista que vai marcando",
      "janela": [
       "17:00",
       "19:00"
+     ],
+     "molde": "lista_para_salvar",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "noite",
+     "cenas_obrigatorias": [
+      "checklist"
      ]
     },
     "2026-12-11": {
      "tipo": "reels",
-     "molde": "noticia_famoso",
-     "edicao": "dinamica_celular",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "O famoso da semana (do banco de reacts)",
+     "gancho": "manchete na tela: o caso levanta uma dúvida comum",
+     "cta_meio": "cobrança escrita para o assunto do dia",
+     "cta_fim": "Comentar",
+     "edicao_nome": "Jornal + manchete no celular",
      "janela": [
       "11:00",
       "14:00"
+     ],
+     "molde": "noticia_famoso",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "jornal",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     }
    },
@@ -472,55 +649,74 @@
     },
     "2026-11-13": {
      "tipo": "reels",
-     "molde": "linha_do_tempo",
-     "edicao": "linha_do_tempo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "ciclo do espermatozoide (precisa de fonte)",
+     "tema": "O espermatozoide de hoje começou há 64 dias",
+     "gancho": "O espermatozoide que sai hoje começou a ser feito há dois meses.",
+     "cta_meio": "Eu trouxe o dado. Vocês dois deixam o curtir, e seguem a gente. Fechado?",
+     "cta_fim": "Salvar pro próximo exame",
+     "edicao_nome": "Quadro de giz + régua",
      "janela": [
       "19:00",
       "21:00"
      ],
-     "tema": "O espermatozoide de hoje começou a ser feito há uns 64 dias"
+     "molde": "linha_do_tempo",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro",
+     "cenas_obrigatorias": [
+      "regua"
+     ]
     },
     "2026-11-14": {
      "tipo": "carrossel",
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "AMH baixo não é sentença",
+     "gancho": "AMH baixo não é sentença",
+     "cta_meio": "Eu trouxe o dado. Um curte e o outro segue.",
+     "cta_fim": "Mandar pro seu par",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "11:00",
       "13:00"
-     ],
-     "tema": "AMH baixo não prevê se você engravida naturalmente"
+     ]
     },
     "2026-11-15": {
      "tipo": "reels",
-     "molde": "mito_ou_verdade",
-     "edicao": "texto_cartoes",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Cueca apertada atrapalha o espermatozoide?",
+     "gancho": "Cueca apertada x samba-canção: Harvard foi medir.",
+     "cta_meio": "Acabei de resolver uma briga na gaveta de cuecas. Seguir aqui é o mínimo.",
+     "cta_fim": "Mandar pro seu par",
+     "edicao_nome": "Clínico claro",
      "janela": [
       "18:00",
       "20:00"
      ],
-     "tema": "Cueca apertada x samba-canção e o espermograma"
+     "molde": "mito_ou_verdade",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "clinico"
     },
     "2026-11-16": {
      "tipo": "carrossel",
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "Metade da causa é dele: o espermograma primeiro",
+     "gancho": "O exame mais barato do casal é o dele",
+     "cta_meio": "Tirei um peso das costas dela. Curte aí, casal.",
+     "cta_fim": "Mandar pro seu par",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "19:00",
       "20:30"
@@ -528,18 +724,26 @@
     },
     "2026-11-17": {
      "tipo": "reels",
-     "molde": "noticia_famoso",
-     "edicao": "dinamica_celular",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
-     "assunto_sugerido": "Zé Felipe e testosterona",
+     "tema": "Testosterona de fora desliga a fábrica (caso Zé Felipe)",
+     "gancho": "O chip de testosterona virou moda. E o espermograma?",
+     "cta_meio": "Contei o que a propaganda não conta. Vocês curtem e seguem a gente.",
+     "cta_fim": "Mandar pro amigo que usa",
+     "edicao_nome": "Jornal + manchete no celular",
      "janela": [
       "19:00",
       "21:00"
+     ],
+     "molde": "noticia_famoso",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "jornal",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-11-18": {
@@ -547,7 +751,11 @@
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "De quanto em quanto tempo ter relação na janela fértil",
+     "gancho": "Todo dia ou dia sim, dia não?",
+     "cta_meio": "Poupei vocês de uma planilha. Curte aí.",
+     "cta_fim": "Salvar pro próximo ciclo",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "12:00",
       "13:30"
@@ -555,43 +763,60 @@
     },
     "2026-11-19": {
      "tipo": "reels",
-     "molde": "lista_para_salvar",
-     "edicao": "texto_lista",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "O que levar na primeira consulta do casal",
+     "gancho": "Salva antes da primeira consulta. Os dois.",
+     "cta_meio": "Fiz a lista por vocês. Um curte, o outro segue.",
+     "cta_fim": "Salvar e levar",
+     "edicao_nome": "Quadro de giz + lista que vai marcando",
      "janela": [
       "18:30",
       "20:30"
+     ],
+     "molde": "lista_para_salvar",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro",
+     "cenas_obrigatorias": [
+      "checklist"
      ]
     },
     "2026-11-20": {
      "tipo": "reels",
-     "molde": "tela_dividida",
-     "edicao": "tela_dividida",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
-     "midia_final": "/mnt/project-files/videos-novembro-2026/teste-editor-automatico-vacina.mp4",
      "tema": "A vacina e a fertilidade: o que os estudos mediram",
-     "nota": "Nunca saiu nesta conta (o Reels cru de 09/11 saiu no Papo e foi apagado). Legenda nova, própria da Fertilidade.",
+     "gancho": "Disseram que a vacina deixava infértil. Foram medir.",
+     "cta_meio": "adesivo curte + segue depois do dado",
+     "cta_fim": "Mandar pra quem ainda tem medo",
+     "edicao_nome": "Tela dividida (rosto o tempo todo)",
+     "midia_final": "/mnt/project-files/videos-novembro-2026/teste-editor-automatico-vacina.mp4",
      "janela": [
       "19:00",
       "21:00"
-     ]
+     ],
+     "nota": "Nunca saiu nesta conta (o Reels cru de 09/11 saiu no Papo e foi apagado). Legenda nova, própria da Fertilidade.",
+     "molde": "tela_dividida",
+     "voz": false,
+     "edicao": "tela_dividida"
     },
     "2026-11-21": {
      "tipo": "carrossel",
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "Álcool e cigarro: pesa nos dois lados",
+     "gancho": "Não é só ela que precisa parar",
+     "cta_meio": "Falei pros dois ouvirem. Curte aí.",
+     "cta_fim": "Mandar pro seu par",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "11:00",
       "13:00"
@@ -599,17 +824,26 @@
     },
     "2026-11-22": {
      "tipo": "reels",
-     "molde": "linha_do_tempo",
-     "edicao": "texto_regua",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Endometriose: os anos entre a dor e o diagnóstico",
+     "gancho": "Cólica que derruba não é normal. E o diagnóstico demora anos.",
+     "cta_meio": "Se esse vídeo encurtar o caminho de uma mulher, valeu. Curte pra ele chegar nela.",
+     "cta_fim": "Mandar pra amiga que sofre calada",
+     "edicao_nome": "Mapa em papel + régua",
      "janela": [
       "18:00",
       "20:00"
+     ],
+     "molde": "linha_do_tempo",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "mesa",
+     "cenas_obrigatorias": [
+      "regua"
      ]
     },
     "2026-11-23": {
@@ -617,7 +851,11 @@
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "A idade do pai também conta",
+     "gancho": "O relógio dele também anda",
+     "cta_meio": "Dividi a conta do relógio. Curte aí, casal.",
+     "cta_fim": "Mandar pro seu par",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "19:00",
       "20:30"
@@ -625,17 +863,26 @@
     },
     "2026-11-24": {
      "tipo": "reels",
-     "molde": "react",
-     "edicao": "react_canto_mapeamento",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Anabolizante e a fertilidade dele",
+     "gancho": "(viral) pausa: o shape cobra um preço que ninguém mostra",
+     "cta_meio": "Mostrei o lado que a academia não mostra. Curte e segue a gente.",
+     "cta_fim": "Mandar pro parceiro de treino",
+     "edicao_nome": "Noite + viral",
      "janela": [
       "19:00",
       "21:00"
+     ],
+     "molde": "react",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "noite",
+     "cenas_obrigatorias": [
+      "viral"
      ]
     },
     "2026-11-25": {
@@ -643,7 +890,11 @@
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "Sauna, banho quente e notebook no colo",
+     "gancho": "O testículo fica fora do corpo por um motivo",
+     "cta_meio": "Esfriei o assunto pra vocês. Curte aí.",
+     "cta_fim": "Mandar pro seu par",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "12:00",
       "13:30"
@@ -651,32 +902,47 @@
     },
     "2026-11-26": {
      "tipo": "reels",
-     "molde": "mito_ou_verdade",
-     "edicao": "texto_cartoes",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Ficar de pernas para cima depois ajuda?",
+     "gancho": "Travesseiro embaixo do quadril: ajuda ou é lenda?",
+     "cta_meio": "Poupei vocês de vinte minutos de ginástica. Seguir é o mínimo.",
+     "cta_fim": "Comentar: qual palpite vocês mais ouvem?",
+     "edicao_nome": "Quadro de giz",
      "janela": [
       "18:30",
       "20:30"
-     ]
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro"
     },
     "2026-11-27": {
      "tipo": "reels",
-     "molde": "tela_dividida",
-     "edicao": "tela_dividida",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Lubrificante atrapalha?",
+     "gancho": "\"Doutor, lubrificante mata espermatozoide?\"",
+     "cta_meio": "Respondi a pergunta que dá vergonha de fazer. Curte e segue.",
+     "cta_fim": "Comentar a próxima pergunta",
+     "edicao_nome": "Clínico claro + comentário no celular",
      "janela": [
       "19:00",
       "21:00"
+     ],
+     "molde": "responder_comentario",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "clinico",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-11-28": {
@@ -684,7 +950,11 @@
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "O peso dele e o espermograma",
+     "gancho": "A barriga dele entra na conta",
+     "cta_meio": "Falei com carinho. Curte aí.",
+     "cta_fim": "Mandar pro seu par",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "11:00",
       "13:00"
@@ -692,17 +962,26 @@
     },
     "2026-11-29": {
      "tipo": "reels",
-     "molde": "lista_para_salvar",
-     "edicao": "texto_lista",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Ácido fólico: quando começar",
+     "gancho": "Ácido fólico se começa antes do positivo.",
+     "cta_meio": "Avisei a tempo. Um curte, o outro segue.",
+     "cta_fim": "Salvar e mostrar pro médico",
+     "edicao_nome": "Jornal + lista que vai marcando",
      "janela": [
       "18:00",
       "20:00"
+     ],
+     "molde": "lista_para_salvar",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "jornal",
+     "cenas_obrigatorias": [
+      "checklist"
      ]
     },
     "2026-11-30": {
@@ -710,7 +989,11 @@
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "Os exames dela: o que cada um responde",
+     "gancho": "Cada exame responde uma pergunta só",
+     "cta_meio": "Traduzi o pedido de exame. Curte aí.",
+     "cta_fim": "Salvar pra levar na consulta",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "19:00",
       "20:30"
@@ -718,17 +1001,26 @@
     },
     "2026-12-01": {
      "tipo": "reels",
-     "molde": "noticia_famoso",
-     "edicao": "dinamica_celular",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Gravidez depois dos 50: o que o caso levanta",
+     "gancho": "Grávida aos 55. O que isso muda para quem tem 40?",
+     "cta_meio": "Separei a manchete da ciência. Curte e segue a gente.",
+     "cta_fim": "Comentar: qual a dúvida de vocês?",
+     "edicao_nome": "Clínico claro + manchete no celular",
      "janela": [
       "19:00",
       "21:00"
+     ],
+     "molde": "noticia_famoso",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "clinico",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-12-02": {
@@ -736,7 +1028,11 @@
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "5 palpites que todo casal tentante ouve",
+     "gancho": "\"É só relaxar\" e outros palpites",
+     "cta_meio": "Respondi por vocês no almoço de domingo. Curte aí.",
+     "cta_fim": "Mandar no grupo da família",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "12:00",
       "13:30"
@@ -744,40 +1040,59 @@
     },
     "2026-12-03": {
      "tipo": "reels",
-     "molde": "linha_do_tempo",
-     "edicao": "texto_regua",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "O ciclo dia a dia: quando é a janela fértil",
+     "gancho": "A janela fértil dura menos do que vocês pensam.",
+     "cta_meio": "Desenhei o mês inteiro. Um curte, o outro segue.",
+     "cta_fim": "Salvar pro próximo ciclo",
+     "edicao_nome": "Quadro de giz + régua",
      "janela": [
       "18:30",
       "20:30"
+     ],
+     "molde": "linha_do_tempo",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro",
+     "cenas_obrigatorias": [
+      "regua"
      ]
     },
     "2026-12-04": {
      "tipo": "reels",
-     "molde": "mito_ou_verdade",
-     "edicao": "mapeamento_cartoes",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Depois da pílula demora um ano para engravidar?",
+     "gancho": "Parou a pílula e ouviu que ia demorar um ano?",
+     "cta_meio": "Desfiz mais um palpite. Curte e segue a gente.",
+     "cta_fim": "Mandar pra amiga que parou agora",
+     "edicao_nome": "Jornal",
      "janela": [
       "19:00",
       "21:00"
-     ]
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "jornal"
     },
     "2026-12-05": {
      "tipo": "carrossel",
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "Varicocele: a variz que ninguém vê",
+     "gancho": "A causa tratável mais comum nele",
+     "cta_meio": "Mostrei o que o espelho não mostra. Curte aí.",
+     "cta_fim": "Mandar pro seu par",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "11:00",
       "13:00"
@@ -785,25 +1100,35 @@
     },
     "2026-12-06": {
      "tipo": "reels",
-     "molde": "mito_ou_verdade",
-     "edicao": "texto_cartoes",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Café atrapalha a fertilidade?",
+     "gancho": "Precisa cortar o café para engravidar?",
+     "cta_meio": "Salvei o cafezinho de vocês, ou não. Curte pra saber que eu avisei.",
+     "cta_fim": "Comentar: quantas xícaras por dia?",
+     "edicao_nome": "Mapa em papel com cartões",
      "janela": [
       "18:00",
       "20:00"
-     ]
+     ],
+     "molde": "mito_ou_verdade",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "mesa"
     },
     "2026-12-07": {
      "tipo": "carrossel",
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "Como ler o espermograma sem pânico",
+     "gancho": "Três números que assustam à toa",
+     "cta_meio": "Traduzi o laudo. Curte aí.",
+     "cta_fim": "Salvar pro dia do resultado",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "19:00",
       "20:30"
@@ -811,17 +1136,26 @@
     },
     "2026-12-08": {
      "tipo": "reels",
-     "molde": "responder_comentario",
-     "edicao": "dinamica_adesivo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "\"Meu espermograma veio alterado. E agora?\"",
+     "gancho": "\"Doutor, veio alterado. Acabou pra gente?\"",
+     "cta_meio": "Respondi com calma o que tira o sono. Curte e segue a gente.",
+     "cta_fim": "Comentar a próxima pergunta",
+     "edicao_nome": "Quadro de giz + comentário no celular",
      "janela": [
       "19:00",
       "21:00"
+     ],
+     "molde": "responder_comentario",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "quadro",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-12-09": {
@@ -829,7 +1163,11 @@
      "redes": [
       "instagram"
      ],
-     "voz": false,
+     "tema": "SOP e fertilidade: o que muda",
+     "gancho": "Ovário policístico não é ponto final",
+     "cta_meio": "Acendi a luz. Curte aí.",
+     "cta_fim": "Mandar pra amiga com SOP",
+     "edicao_nome": "Papo News letra grande",
      "janela": [
       "12:00",
       "13:30"
@@ -837,33 +1175,48 @@
     },
     "2026-12-10": {
      "tipo": "reels",
-     "molde": "lista_para_salvar",
-     "edicao": "texto_lista",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": false,
+     "tema": "Os 3 meses dele: hábitos que aparecem no próximo exame",
+     "gancho": "O que ele mudar hoje aparece no exame daqui a 3 meses.",
+     "cta_meio": "Fiz o plano de 90 dias. Um curte, o outro segue.",
+     "cta_fim": "Salvar e começar hoje",
+     "edicao_nome": "Clínico claro + lista que vai marcando",
      "janela": [
       "18:30",
       "20:30"
+     ],
+     "molde": "lista_para_salvar",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "clinico",
+     "cenas_obrigatorias": [
+      "checklist"
      ]
     },
     "2026-12-11": {
      "tipo": "reels",
-     "molde": "historia_real",
-     "edicao": "mapeamento_arquivo",
      "redes": [
       "instagram",
       "tiktok",
       "youtube"
      ],
-     "voz": true,
+     "tema": "Louise Brown, 1978: o primeiro bebê de proveta",
+     "gancho": "Em 1978 nasceu a menina que o mundo chamou de impossível.",
+     "cta_meio": "Contei a história que abriu caminho pra milhões. Curte e segue a gente.",
+     "cta_fim": "Mandar pra quem está na fila da FIV",
+     "edicao_nome": "Arquivo em sépia",
      "janela": [
       "19:00",
       "21:00"
-     ]
+     ],
+     "molde": "historia_real",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "arquivo"
     }
    }
   }
@@ -879,5 +1232,21 @@
   "renovacao": "2026-11-29T20:22:02Z",
   "nota": "Até a renovação: Banco de Rostos (~55) + Reels com voz (até 12 cada) não passam de 215 dos 262. Depois de 29/11 vale o saldo novo, com o mesmo teto por Reels e o mesmo piso."
  },
- "sem_folga": true
+ "sem_folga": true,
+ "regras_edicao": {
+  "de": "hospital caso 004, 11/11/2026 (Wagner)",
+  "sem_reels_de_texto": true,
+  "rosto": "Em narração o rosto nunca aparece (trava no planejar.py: precisa de 'broll' no plano). Rosto só em clipe do Banco de Rostos ou em bruto gravado.",
+  "peles": [
+   "mesa",
+   "noite",
+   "jornal",
+   "quadro",
+   "clinico",
+   "arquivo"
+  ],
+  "nao_repetir": "a mesma pele nunca em dois Reels seguidos da mesma conta",
+  "cta": "cobrança criativa no MEIO, falada e com o adesivo (plano.seguir); fecho com um pedido só (mandar, comentar ou salvar)",
+  "plano": "https://claude.ai/artifact/JLCNAxtGaVK2pknsKkgHpd"
+ }
 }
