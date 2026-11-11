@@ -299,30 +299,6 @@
       "tiktok",
       "youtube"
      ],
-     "tema": "Gracyanne e os 40 ovos: quanto de proteína o corpo usa",
-     "gancho": "Quarenta ovos por dia. Seu corpo usa tudo isso?",
-     "cta_meio": "Fiz a conta dos ovos pra você. Curte e me segue, que a granja agradece.",
-     "cta_fim": "Mandar pro parceiro de treino",
-     "edicao_nome": "Noite + manchete no celular",
-     "janela": [
-      "11:00",
-      "14:00"
-     ],
-     "molde": "noticia_famoso",
-     "voz": true,
-     "edicao": "mapeamento",
-     "pele": "noite",
-     "cenas_obrigatorias": [
-      "celular"
-     ]
-    },
-    "2026-11-28": {
-     "tipo": "reels",
-     "redes": [
-      "instagram",
-      "tiktok",
-      "youtube"
-     ],
      "tema": "Coceira à noite: quando pensar em verme (oxiúros)",
      "gancho": "Coceira que piora à noite tem um suspeito clássico.",
      "cta_meio": "Quem não me seguir vai ficar com coceira. Mentira. Mas segue.",
@@ -338,6 +314,30 @@
      "pele": "mesa",
      "cenas_obrigatorias": [
       "checklist"
+     ]
+    },
+    "2026-11-28": {
+     "tipo": "reels",
+     "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+     ],
+     "tema": "40 ovos por dia: o que os estudos mediram sobre ovo e coração (react)",
+     "gancho": "Quarenta ovos por dia. Seu corpo usa tudo isso?",
+     "cta_meio": "Fiz a conta dos ovos pra você. Curte e me segue, que a granja agradece.",
+     "cta_fim": "Mandar pro parceiro de treino",
+     "edicao_nome": "Noite + manchete no celular",
+     "janela": [
+      "11:00",
+      "14:00"
+     ],
+     "molde": "react",
+     "voz": true,
+     "edicao": "mapeamento",
+     "pele": "noite",
+     "cenas_obrigatorias": [
+      "celular"
      ]
     },
     "2026-11-29": {

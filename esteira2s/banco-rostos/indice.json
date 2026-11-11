@@ -182,7 +182,8 @@
    "frase": "Cada caso é um caso. Procura o seu médico.",
    "duracao_s": 2.61,
    "usado_em": [
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-23"
    ]
   },
   {
@@ -221,7 +222,9 @@
    "marca": "todas",
    "frase": "Então, vamos ao que a ciência mediu.",
    "duracao_s": 2.34,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-23"
+   ]
   },
   {
    "arquivo": "ouvindo_01.mp4",
@@ -230,7 +233,8 @@
    "frase": "Hum. Será?",
    "duracao_s": 1.58,
    "usado_em": [
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-23"
    ]
   },
   {
@@ -320,7 +324,8 @@
    "frase": "Combinado é combinado. Eu trago o estudo, você curte e segue.",
    "duracao_s": 4.25,
    "usado_em": [
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-23"
    ]
   },
   {
