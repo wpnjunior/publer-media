@@ -932,7 +932,7 @@
      "gancho": "\"Doutor, lubrificante mata espermatozoide?\"",
      "cta_meio": "Respondi a pergunta que dá vergonha de fazer. Curte e segue.",
      "cta_fim": "Comentar a próxima pergunta",
-     "edicao_nome": "Clínico claro + comentário no celular",
+     "edicao_nome": "Quadro de giz + comentário no celular",
      "janela": [
       "19:00",
       "21:00"
@@ -940,7 +940,7 @@
      "molde": "responder_comentario",
      "voz": true,
      "edicao": "mapeamento",
-     "pele": "clinico",
+     "pele": "quadro",
      "cenas_obrigatorias": [
       "celular"
      ]
@@ -1258,6 +1258,7 @@
    "historia_real": "documento e mapa de arquivo (cenas documento e mapa, pele arquivo)",
    "react": "vídeo viral em tela cheia com o rosto reagindo no canto",
    "tela_dividida": "rosto em cima e a prova embaixo (artigo, exame, gráfico)"
-  }
+  },
+  "fotos_fertilidade": "Nunca usar foto de grávida (tag 'gravida' no bg_bank/index.json) em conteúdo para quem está tentando engravidar."
  }
 }

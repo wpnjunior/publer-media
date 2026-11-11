@@ -7,3 +7,5 @@
 | 2026-11-18 | papo | Intolerância à lactose: 12 a 15 g tolerados (Shaukat 2010) | carrossel |
 | 2026-11-15 | papo | Pular o café da manhã engorda? (Sievert 2019) | mito_ou_verdade |
 | 2026-11-15 | fertilidade | Cueca apertada x samba-canção (Mínguez-Alarcón 2018) | mito_ou_verdade |
+| 2026-11-20 | papo | Verme no cérebro, como se pega (Ndimubanzi 2010; fala de RFK Jr.) | noticia_famoso |
+| 2026-11-27 | fertilidade | Lubrificante atrapalha? (Steiner 2012) | responder_comentario |

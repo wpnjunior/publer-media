@@ -1,0 +1,96 @@
+{
+ "formato": "mapeamento",
+ "pele": "quadro",
+ "titulo": "Lubrificante atrapalha?",
+ "destaques": [
+  "lubrificante",
+  "mais lento",
+  "duzentas e noventa e seis",
+  "parecida",
+  "investigar os dois"
+ ],
+ "broll": [
+  "px_casal_8559998.jpg",
+  "px_lab_8325940.jpg",
+  "px_casal_6249006.jpg",
+  "px_lab_7448009.jpg",
+  "px_casal_3958822.jpg",
+  "px_casal_8560477.jpg"
+ ],
+ "seguir": {
+  "quando": "Essa valeu um curtir",
+  "texto": "curte + segue",
+  "arroba": "@fertilidadeadois"
+ },
+ "cenas": [
+  {
+   "quando": "Doutor, lubrificante",
+   "tipo": "celular",
+   "usuario": "seguidor",
+   "onde": "pergunta que chega sempre",
+   "curtidas": " ",
+   "texto": "Doutor, lubrificante mata espermatozoide?",
+   "destaque": "mata espermatozoide"
+  },
+  {
+   "quando": "No laboratório",
+   "tipo": "cartao",
+   "emoji": "🔬",
+   "cor": "azul",
+   "rotulo": "No laboratório: mais lento"
+  },
+  {
+   "quando": "um estudo acompanhou",
+   "tipo": "etiqueta",
+   "texto": "296 mulheres",
+   "sub": "tentando engravidar, por até 6 meses",
+   "cor": "azul"
+  },
+  {
+   "quando": "Quem usava lubrificante",
+   "tipo": "barra",
+   "barras": [
+    {
+     "rotulo": "sem lubrificante",
+     "valor": 100,
+     "texto": "base",
+     "cor": "azul"
+    },
+    {
+     "rotulo": "com lubrificante",
+     "valor": 105,
+     "texto": "parecida",
+     "cor": "azul"
+    }
+   ]
+  },
+  {
+   "quando": "É um estudo só",
+   "tipo": "checklist",
+   "titulo": "Leia com calma",
+   "itens": [
+    "É um estudo só",
+    "Mulheres sem histórico de infertilidade"
+   ],
+   "marcados": 2
+  },
+  {
+   "quando": "o caminho é investigar",
+   "tipo": "etiqueta",
+   "texto": "Investigar os dois",
+   "sub": "antes de culpar o tubo da gaveta",
+   "cor": "azul"
+  }
+ ],
+ "fonte": {
+  "quando": "um estudo acompanhou",
+  "ate": "quem não usava",
+  "texto": "Steiner et al., Obstetrics & Gynecology 2012"
+ },
+ "fim": {
+  "marca": "FERTILIDADE A DOIS",
+  "frase": "Qual é a próxima pergunta de vocês?",
+  "ref": "Steiner et al., Obstet Gynecol 2012 · doi 10.1097/AOG.0b013e31825b87ae"
+ },
+ "trilha": "moment_of_peace"
+}

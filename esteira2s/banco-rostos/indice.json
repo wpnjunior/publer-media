@@ -56,7 +56,9 @@
    "marca": "todas",
    "frase": "Olha só essa notícia.",
    "duracao_s": 1.44,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-20"
+   ]
   },
   {
    "arquivo": "abertura_08.mp4",
@@ -64,7 +66,9 @@
    "marca": "todas",
    "frase": "Recebi essa pergunta, e vou responder.",
    "duracao_s": 2.52,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-27"
+   ]
   },
   {
    "arquivo": "abertura_09.mp4",
@@ -106,7 +110,9 @@
    "marca": "todas",
    "frase": "Na dúvida, conversa com o seu médico.",
    "duracao_s": 1.96,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-20"
+   ]
   },
   {
    "arquivo": "fecho_02.mp4",
@@ -122,7 +128,9 @@
    "marca": "todas",
    "frase": "Me conta aqui embaixo, tá?",
    "duracao_s": 1.59,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-27"
+   ]
   },
   {
    "arquivo": "fecho_04.mp4",
@@ -290,7 +298,9 @@
    "marca": "todas",
    "frase": "Essa valeu um curtir, vai. E segue, que amanhã tem outra.",
    "duracao_s": 3.51,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-27"
+   ]
   },
   {
    "arquivo": "troca_05.mp4",
@@ -298,7 +308,9 @@
    "marca": "todas",
    "frase": "Te contei o que quase ninguém conta, né? Então curte aí, e me segue.",
    "duracao_s": 4.15,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-20"
+   ]
   },
   {
    "arquivo": "troca_06.mp4",
