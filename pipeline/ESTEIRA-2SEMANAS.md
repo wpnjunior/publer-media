@@ -74,6 +74,8 @@ número sem fonte. Fecho manda procurar o médico. React: até 12 s do viral, @ 
 - Foto: no máximo 2 por Reels (Wagner, 11/11). A narração sem cena vira FRASE animada (automático no `planejar.py`); `broll` no plano é opcional e só as 2 primeiras entram. Fertilidade nunca usa foto com tag `gravida`.
 - Gancho do 1º segundo sempre animado: `caixa_pergunta: true` (Mito), `caixa_pergunta: {estilo: comentario, texto, usuario}` (Responder comentário), cena `celular` modo manchete logo após a abertura (Notícia). Nunca título solto.
 - História real com vídeo já gravado: `formato: dinamica` + `estilo_painel: dossie` (como o Rosenhan), rosto o tempo todo.
+- React em 2 formatos (alternar): `python esteira2s/react_abertura.py viral.mp4 esteira2s/banco-rostos/ouvindo_01.mp4 dividida|canto abertura.mp4 --dur 9.6 --credito "@autor"`; a resposta é um Reels normal da esteira (começa com clipe `virada_*`, `titulo` vazio) e junta com `react_abertura.py --juntar abertura.mp4 corpo.mp4 final.mp4`. Viral: trecho de até 10 s, com crédito ao @; baixar só de link público, sem contornar bloqueio do site; nunca diagnosticar quem fala.
+- Clipe de rosto do banco sempre aparece (trava `_rosto_gerado_aparece`): nenhuma cena cobre a fala de verdade, principalmente o "curte e segue".
 - Norte de tudo: viralizar (gancho no 1º segundo, corte a cada 2 a 4 s, cobrança no meio, um pedido só no fim).
 
 ## 4b. Montar o bruto (sem clone novo)

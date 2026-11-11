@@ -154,7 +154,9 @@
    "marca": "todas",
    "frase": "Seu corpo avisa. Escuta ele, tá?",
    "duracao_s": 2.36,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-16"
+   ]
   },
   {
    "arquivo": "fecho_07.mp4",
@@ -206,7 +208,9 @@
    "marca": "todas",
    "frase": "Hum. Será?",
    "duracao_s": 1.58,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-16"
+   ]
   },
   {
    "arquivo": "virada_03.mp4",
@@ -214,7 +218,9 @@
    "marca": "todas",
    "frase": "Calma, que não é bem assim.",
    "duracao_s": 1.84,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-16"
+   ]
   },
   {
    "arquivo": "virada_04.mp4",
@@ -290,7 +296,9 @@
    "marca": "todas",
    "frase": "Antes do final, um pedágio leve. Curte e me segue.",
    "duracao_s": 3.39,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-16"
+   ]
   },
   {
    "arquivo": "troca_04.mp4",

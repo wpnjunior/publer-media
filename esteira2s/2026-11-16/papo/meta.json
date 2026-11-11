@@ -1,0 +1,20 @@
+{
+ "status": "pronto_para_agendar",
+ "tema": "Peidar 25 vezes por dia é normal?",
+ "molde": "react",
+ "edicao": "react (viral em tela cheia com rosto no canto) + mapeamento pele clinico",
+ "midia": "reels.mp4",
+ "alternativa": "reels_tela_dividida.mp4 (mesmo vídeo com abertura em tela dividida; o Wagner escolhe; só UM vai ao ar)",
+ "viral": "https://www.tiktok.com/@nutrologo.alimenticio/video/7704069050250300690 (9,6 s, crédito na tela)",
+ "rostos": [
+  "ouvindo_01",
+  "virada_03",
+  "troca_03",
+  "fecho_06"
+ ],
+ "fontes": [
+  "Furne & Levitt, Dig Dis Sci 1996, PMID 8769291, doi 10.1007/BF02087912: 25 pessoas, 10 ± 1 por dia, limite do normal 20; com lactulose 19 ± 2,4"
+ ],
+ "nota": "Substitui o react antigo (clone a94b, edição cinza).",
+ "pendente": "Porteiro/sabor, legenda, stories e agendamento na rodada da véspera"
+}

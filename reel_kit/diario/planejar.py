@@ -236,6 +236,36 @@ def _eh_destaque(w: str, dest: set) -> bool:
     return _norm(w).strip() in dest
 
 
+def _rosto_gerado_aparece(cenas: list[dict], pasta: str) -> list[dict]:
+    """Clipe de rosto do banco (fala de verdade) sempre aparece: nenhuma cena gráfica fica por cima dele."""
+    arq = Path(pasta) / "trechos.json"
+    if not arq.exists():
+        return cenas
+    rostos = [(m["t0"], m["t1"]) for m in json.loads(arq.read_text()) if m["tipo"] == "rosto"]
+    out = [dict(c) for c in cenas]
+    for a, b in rostos:
+        a, b = a + 0.05, b - 0.05
+        novo: list[dict] = []
+        for c in out:
+            if c["tipo"] == "rosto" or c["t1"] <= a or c["t0"] >= b:
+                novo.append(c)
+                continue
+            if a - c["t0"] > 0.6:
+                novo.append(dict(c, t1=round(a, 3)))
+            novo.append({"tipo": "rosto", "t0": round(max(a, c["t0"]), 3), "t1": round(min(b, c["t1"]), 3)})
+            if c["t1"] - b > 0.6:
+                novo.append(dict(c, t0=round(b, 3)))
+        out = novo
+    # junta rostos vizinhos
+    junt: list[dict] = []
+    for c in out:
+        if junt and c["tipo"] == "rosto" and junt[-1]["tipo"] == "rosto" and not junt[-1].get("gancho") and abs(c["t0"] - junt[-1]["t1"]) < 0.7:
+            junt[-1]["t1"] = c["t1"]
+        else:
+            junt.append(c)
+    return junt
+
+
 def _sem_rosto_na_narracao(cenas: list[dict], words: list[dict], plano: dict, pasta: str) -> list[dict]:
     """TRAVA: nos trechos de narração (voz sobre foto parada) o rosto nunca aparece. O pedaço de cena
     "rosto" que cair numa narração vira foto real em tela cheia (broll), trocando a cada ~3 s."""
@@ -342,6 +372,7 @@ def mapeamento(plano: dict, words: list[dict], tl: dict, forcados: list, fala_fi
                 ritmo.append({"tipo": "rosto", "t0": round(corte, 3), "t1": c["t1"]})
                 continue
         ritmo.append(c)
+    ritmo = _rosto_gerado_aparece(ritmo, tl["_pasta"])
     ritmo = _sem_rosto_na_narracao(ritmo, words, plano, tl["_pasta"])
     for c in ritmo:
         if c.get("imagem"):

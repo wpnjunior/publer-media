@@ -174,12 +174,15 @@ body.pele-quadro .mpFrase span.d { color:#ffe27a; } body.pele-quadro .mpFrase.f2
 body.pele-arquivo .mpFrase { font-family:Maquina; font-weight:700; color:#f1e2c0; --m:.82; }
 body.pele-arquivo .mpFrase span.d { background:#f1e2c0; color:#1b140d; padding:0 .15em; }
 /* cenas maiores: ocupar a tela (Wagner, 11/11) */
+.mpTag { zoom:1.3; } body.pele-clinico .mpTag { zoom:1.3; } .mpTag.longa { zoom:1.15 !important; }
+body.pele-clinico .mpNota { zoom:1.12; }
+.mpSub { max-width:960px; text-align:center; margin-left:auto; margin-right:auto; }
 .mpCard { zoom:1.3; }
 .mpFone { zoom:1.27; }
 .mpLista { width:980px; }
 .mpLista .it { font-size:62px; }
 .mpLista .tt { font-size:44px; }
-.mpNota { zoom:1.12; }
+.mpNota { zoom:1.18; }
 /* ===== cenas novas: foto real em tela cheia (broll) e tela de celular ===== */
 .mpBroll { position:absolute; left:0; top:-330px; width:1080px; height:1920px; overflow:hidden; }
 .mpBroll .im { position:absolute; inset:-60px; background:#222 center/cover no-repeat; }
@@ -516,12 +519,12 @@ function mpMonta(c) {
     let q = esc(c.texto || ''); const d = c.destaque ? esc(c.destaque) : '';
     if (d && q.includes(d)) q = q.replace(d, `<mark>${d}</mark>`);
     h = `<div class="mpNota"><div class="q">“${q}”</div>${c.autor ? `<div class="a">${esc(c.autor)}</div>` : ''}</div>`;
-  } else if (c.tipo === 'etiqueta') h = `<div class="mpTag${(c.texto || '').length > 11 ? ' longa' : ''}" style="background:${cor(c.cor || 'azul')}">${esc(c.texto || '')}</div>${c.sub ? `<div class="mpSub">${esc(c.sub)}</div>` : ''}`;
+  } else if (c.tipo === 'etiqueta') h = `<div class="mpTag${(c.texto || '').length > 9 ? ' longa' : ''}" style="background:${cor(c.cor || 'azul')}">${esc(c.texto || '')}</div>${c.sub ? `<div class="mpSub">${esc(c.sub)}</div>` : ''}`;
   else if (c.tipo === 'documento') {
     const g = c.grifo ? `<div class="grifo" data-y0="${c.grifo[0]}" data-y1="${c.grifo[1]}"></div>` : '';
     h = `<div class="mpDoc">${fitas()}<img src="${esc(c.imagem || '')}" alt="">${g}${c.legenda ? `<div class="ref">${esc(c.legenda)}</div>` : ''}</div>`;
   }
-  else if (c.tipo === 'frase') { const ps = c.palavras || []; const n = ps.length; const fs = n <= 4 ? 190 : n <= 7 ? 150 : n <= 10 ? 122 : 100;
+  else if (c.tipo === 'frase') { const ps = c.palavras || []; const n = ps.length; const mx = Math.max(1, ...ps.map(p => p.w.length)); const fs = Math.min(n <= 4 ? 190 : n <= 7 ? 150 : n <= 10 ? 122 : 100, Math.floor(900 / (mx * 0.68)));
     h = `<div class="mpFrase f${(c.k || 0) % 3}" style="font-size:calc(${fs}px * var(--m,1))">` + ps.map(p => `<span class="${p.d ? 'd' : ''}" data-t="${p.t}">${esc(p.w)}</span>`).join(' ') + `</div>`; }
   else if (c.tipo === 'broll') h = `<div class="mpBroll"><div class="im" style="background-image:url('${esc(c.imagem || '')}')"></div><div class="veu"></div></div>`;
   else if (c.tipo === 'celular') {
