@@ -1,0 +1,25 @@
+{
+ "formato": "mapeamento",
+ "pele": "clinico",
+ "titulo": "",
+ "destaques": ["Três", "noventa", "verdade", "japonês", "doze semanas", "menores", "três meses", "detalhe", "fabricante", "cautela", "desinchar", "gás", "gordura", "salada", "amanhã"],
+ "seguir": {"quando": "Te contei o que", "texto": "curte aí + me segue", "arroba": "@dr.wagnernovaesjr"},
+ "cenas": [
+  {"quando": "Três centímetros por dia", "tipo": "etiqueta", "texto": "3 cm por dia?", "sub": "\"desinchar a barriga em até 3 cm por dia\"", "cor": "vermelho"},
+  {"quando": "Em um mês", "tipo": "barra", "barras": [
+    {"rotulo": "1 dia", "valor": 3, "texto": "3 cm", "cor": "amarelo"},
+    {"rotulo": "30 dias", "valor": 90, "texto": "90 cm", "cor": "vermelho"}]},
+  {"quando": "O estudo mais citado", "tipo": "cartao", "emoji": "📄", "cor": "azul", "rotulo": "Estudo japonês de 2009"},
+  {"quando": "Pessoas com obesidade", "tipo": "checklist", "titulo": "Como foi o teste", "itens": ["1 ou 2 colheres de sopa por dia", "Diluídas em bebida", "Durante 12 semanas"], "marcados": 3},
+  {"quando": "Peso, cintura", "tipo": "checklist", "titulo": "Menores que no placebo", "itens": ["Peso", "Cintura", "Gordura da barriga"], "marcados": 3},
+  {"quando": "Em três meses", "tipo": "etiqueta", "texto": "em 3 meses", "sub": "não em 1 dia", "cor": "verde"},
+  {"quando": "O estudo saiu", "tipo": "cartao", "emoji": "🏭", "cor": "amarelo", "rotulo": "Pesquisa de fabricante de vinagre"},
+  {"quando": "E desinchar não é", "tipo": "citacao", "texto": "Desinchar não é emagrecer.", "destaque": "não é emagrecer.", "autor": "gás e líquido não são gordura"},
+  {"quando": "Não existe chá", "tipo": "cartao", "emoji": "🚫", "cor": "vermelho", "rotulo": "Chá não tira gordura por dia"},
+  {"quando": "E vinagre puro", "tipo": "checklist", "titulo": "Vinagre puro pode", "itens": ["Irritar o estômago", "Desgastar o dente"], "marcados": 2},
+  {"quando": "Quer usar na salada", "tipo": "cartao", "emoji": "🥗", "cor": "verde", "rotulo": "Na salada, ótimo"}
+ ],
+ "fonte": {"quando": "O estudo mais citado", "ate": "tomou placebo", "texto": "Kondo e col., Biosci Biotechnol Biochem 2009"},
+ "fim": {"marca": "PAPO DE MÉDICO", "frase": "Informação boa não assusta. Orienta.", "ref": "Kondo e col., Biosci Biotechnol Biochem 2009 · doi 10.1271/bbb.90231"},
+ "trilha": "background_calmo"
+}
