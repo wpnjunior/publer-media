@@ -1,0 +1,49 @@
+{
+ "marca": [
+  "PAPO",
+  "NEWS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_sangue_12227661.jpg",
+   "editoria": "Intolerância",
+   "manchete": "Teste de IgG<br>para <span class=\"hl\">alimentos</span>",
+   "sub": "O exame caro que a academia europeia de alergia <b>não recomenda</b> para diagnóstico.",
+   "fonte": "Fonte: Stapel et al., Allergy, 2008"
+  },
+  {
+   "foto": "frutas.jpg",
+   "numero": "01",
+   "manchete": "A lista de<br><span class=\"hl\">proibidos</span>",
+   "corpo": "Você faz o exame de sangue e sai com dezenas de alimentos \"positivos\". Leite, trigo, ovo, banana. Parece que tudo faz mal."
+  },
+  {
+   "foto": "px_lab_4033300.jpg",
+   "numero": "02",
+   "manchete": "IgG é sinal<br>de <span class=\"hl\">contato</span>",
+   "corpo": "Segundo a força-tarefa europeia, a IgG4 contra um alimento mostra que o corpo <b>já teve contato</b> com aquela comida. É resposta normal do sistema imune.",
+   "destaque": "Não indica alergia nem intolerância."
+  },
+  {
+   "foto": "px_homemmedico_6749742.jpg",
+   "numero": "03",
+   "manchete": "Economizei<br>seu <span class=\"hl\">dinheiro</span>",
+   "corpo": "Curte aí e me segue, que amanhã tem mais."
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "04",
+   "manchete": "O risco é<br>cortar <span class=\"hl\">à toa</span>",
+   "corpo": "Com a lista na mão, muita gente tira comida boa do prato sem necessidade. A recomendação do documento é direta: <b>não usar</b> esse teste para diagnosticar."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "05",
+   "manchete": "Então, o que<br><span class=\"hl\">investigar</span>?",
+   "corpo": "Sintoma depois de comer se investiga com a história clínica e o exame certo para cada suspeita. Converse com seu médico antes de cortar.",
+   "destaque": "Manda pra quem ia fazer.",
+   "fonte": "Fonte: Stapel et al., Allergy 2008 · doi 10.1111/j.1398-9995.2008.01705.x · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
