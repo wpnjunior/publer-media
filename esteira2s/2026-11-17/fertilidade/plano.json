@@ -1,0 +1,120 @@
+{
+ "formato": "mapeamento",
+ "pele": "jornal",
+ "titulo": "Chip de testosterona e o espermograma",
+ "trilha": "moment_of_peace",
+ "destaques": [
+  "testosterona",
+  "desliga",
+  "fábrica",
+  "anticoncepcional",
+  "nove de cada dez",
+  "médico"
+ ],
+ "broll": [
+  "px_academia_3763115.jpg",
+  "px_homemmedico_8413217.jpg"
+ ],
+ "cenas": [
+  {
+   "quando": "Você já ouviu",
+   "tipo": "rosto"
+  },
+  {
+   "quando": "Um cantor famoso",
+   "tipo": "celular",
+   "modo": "manchete",
+   "veiculo": "Metrópoles",
+   "data": "15 de março de 2026",
+   "texto": "Zé Felipe abre o jogo e revela uso de hormônios após ficar “inofensivo”",
+   "destaque": "uso de hormônios"
+  },
+  {
+   "quando": "Eu não examinei",
+   "tipo": "cartao",
+   "emoji": "🩺",
+   "cor": "azul",
+   "rotulo": "Sem diagnóstico à distância"
+  },
+  {
+   "quando": "A testosterona que vem",
+   "tipo": "etiqueta",
+   "texto": "Hormônio de fora",
+   "sub": "o cérebro entende que já tem de sobra",
+   "cor": "amarelo"
+  },
+  {
+   "quando": "Aí o cérebro para",
+   "tipo": "citacao",
+   "texto": "O testículo desliga a fábrica de espermatozoides.",
+   "destaque": "desliga a fábrica",
+   "autor": "o que a propaganda não conta"
+  },
+  {
+   "quando": "Tanto que a ciência",
+   "tipo": "cartao",
+   "emoji": "🔬",
+   "cor": "vermelho",
+   "rotulo": "Testada como anticoncepcional masculino"
+  },
+  {
+   "quando": "Segue a gente aqui",
+   "tipo": "rosto"
+  },
+  {
+   "quando": "Numa análise com mais",
+   "tipo": "cartao",
+   "emoji": "📊",
+   "cor": "azul",
+   "rotulo": "1.549 homens em 30 estudos"
+  },
+  {
+   "quando": "Em nove de cada dez",
+   "tipo": "barra",
+   "barras": [
+    {
+     "rotulo": "voltou em 6 meses",
+     "valor": 67,
+     "texto": "67%",
+     "cor": "amarelo"
+    },
+    {
+     "rotulo": "voltou em 12 meses",
+     "valor": 90,
+     "texto": "90%",
+     "cor": "azul"
+    }
+   ]
+  },
+  {
+   "quando": "Então, se o plano",
+   "tipo": "checklist",
+   "titulo": "Se o plano é ter filho",
+   "itens": [
+    "Contar ao médico antes do hormônio",
+    "Não parar por conta própria",
+    "Ir os dois à consulta"
+   ],
+   "marcados": 3
+  },
+  {
+   "quando": "Informação boa",
+   "tipo": "rosto"
+  }
+ ],
+ "fonte": {
+  "quando": "Numa análise com mais",
+  "ate": "dentro de um ano",
+  "texto": "Liu et al., The Lancet, 2006"
+ },
+ "seguir": {
+  "quando": "Segue a gente aqui",
+  "texto": "curte + segue",
+  "arroba": "@fertilidadeadois"
+ },
+ "fim": {
+  "marca": "FERTILIDADE A DOIS",
+  "frase": "Se o plano é ter filho, conversa com o médico antes do hormônio.",
+  "ref": "Liu et al., Lancet 2006 · doi 10.1016/S0140-6736(06)68614-5\nEstudos com homens saudáveis em pesquisa de anticoncepcional. Conteúdo educativo. Não substitui a consulta."
+ }
+}
