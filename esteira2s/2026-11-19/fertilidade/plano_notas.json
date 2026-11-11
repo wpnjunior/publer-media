@@ -1,0 +1,11 @@
+{"arroba":"@fertilidadeadois","marca":"FERTILIDADE A DOIS","aviso":["Nova nota","Primeira consulta do casal"],
+ "titulo":["Primeira consulta","do casal"],
+ "itens":[{"quando":"As datas das últimas","texto":"Datas das menstruações"},
+          {"quando":"Os exames que cada","texto":"Exames dos dois"},
+          {"quando":"A lista de remédios","texto":"Remédios e suplementos"},
+          {"quando":"O histórico de cirurgias","texto":"Cirurgias e gestações"},
+          {"quando":"Há quanto tempo","texto":"Tempo de tentativa"}],
+ "cartao":{"quando":"E o item mais","topo":"O ITEM MAIS","meio":"IMPORTANTE:","base":"ELE",
+   "linhas":[{"quando":"os dois vão juntos","rotulo":"OS DOIS","valor":"JUNTOS"},{"quando":"E leva as dúvidas","rotulo":"DÚVIDAS","valor":"ANOTADAS"}]},
+ "seguir":"curte + segue","trilha":"moment_of_peace",
+ "fim":{"frase":"A investigação é do casal.","ref":"Conteúdo educativo.\nNão substitui a consulta."}}
