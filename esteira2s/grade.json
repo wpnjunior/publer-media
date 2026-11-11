@@ -1016,7 +1016,7 @@
       "tiktok",
       "youtube"
      ],
-     "tema": "Gravidez depois dos 50: o que o caso levanta",
+     "tema": "Cueca apertada deixa infértil? (react)",
      "gancho": "Grávida aos 55. O que isso muda para quem tem 40?",
      "cta_meio": "Separei a manchete da ciência. Curte e segue a gente.",
      "cta_fim": "Comentar: qual a dúvida de vocês?",
@@ -1025,13 +1025,14 @@
       "19:00",
       "21:00"
      ],
-     "molde": "noticia_famoso",
+     "molde": "react",
      "voz": true,
      "edicao": "mapeamento",
      "pele": "clinico",
      "cenas_obrigatorias": [
       "celular"
-     ]
+     ],
+     "nota": "React de 11/11. O tema Gravidez depois dos 50 volta para a fila."
     },
     "2026-12-02": {
      "tipo": "carrossel",
