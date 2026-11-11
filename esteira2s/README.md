@@ -7,8 +7,7 @@ Roteiro: `pipeline/ESTEIRA-2SEMANAS.md`. Grade: `grade.json`. Hospital caso 004.
 | grade.json | pronto |
 | TEMAS.md | pronto (vazio) |
 | banco-rostos/indice.json | espera o ok do Wagner (55 créditos) |
-| stories.py | a construir |
-| carrossel.py | a construir |
+| telas.py (carrossel 1080x1350 e stories 1080x1920, temas das 2 marcas) | pronto |
 | reel_kit: linha do tempo, lista, tela dividida econômica | a construir |
 | porteiro.py | a construir |
 

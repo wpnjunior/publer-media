@@ -54,9 +54,10 @@ número sem fonte. Fecho manda procurar o médico. React: até 12 s do viral, @ 
 - Sem voz: Reels de texto com trilha de `reel_kit/trilhas/` (nunca música de terceiros).
 
 ## 5. Edição e Porteiro
+(`pip install -q playwright faster-whisper pillow` antes.)
 Editor: `bash reel_kit/diario/editar.sh` (formatos tela_dividida, dinamica + dossie/celular, mapeamento;
 modelos em `reel_kit/diario/exemplo_plano*.json`). Corrija pelo plano.json, nunca pelo timeline.json.
-Carrossel: `esteira2s/carrossel.py` (1080x1350, 6 a 8 telas, capa que faz deslizar, última tela com a
+Carrossel: `python esteira2s/telas.py spec.json saida/` com formato `carrossel` (1080x1350, 6 a 8 telas, capa que faz deslizar, última tela com a
 chamada e "conteúdo educativo, não substitui consulta").
 Porteiro (todos têm que passar; senão ajuste e rode de novo, no máximo 3 vezes, depois `falha_edicao`):
 volume medido a cada 3 s sem buraco; quadros em volta de cada emenda; boca do rosto sem sorriso com dentes e
@@ -69,7 +70,7 @@ Primeira linha que segura antes do "mais", corpo curto, uma chamada só, fonte c
 Até 5 hashtags, conjunto diferente do usado pela outra marca e do post anterior desta. Título do YouTube Short.
 
 ## 7. Stories (2 por dia, também nos dias de folga)
-`esteira2s/stories.py` gera 2 cartões 1080x1920: (1) chamada para o post de amanhã (ou, na folga, uma dica
+`esteira2s/telas.py` com formato `story` gera 2 cartões 1080x1920 (uma tela por spec): (1) chamada para o post de amanhã (ou, na folga, uma dica
 curta com fonte); (2) uma pergunta para responder no direct. Horários: o 1º 1 a 2 h depois do post, o 2º à
 noite (20h-22h), minutos sorteados.
 
