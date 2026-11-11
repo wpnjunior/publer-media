@@ -35,14 +35,15 @@
      "cta_meio": "adesivo curte + segue depois da virada",
      "cta_fim": "Comentar: você confiaria?",
      "edicao_nome": "Dossiê (rosto o tempo todo)",
-     "pronto": "/mnt/project-files/esteira2s/prontos/mkultra.mp4",
      "janela": [
       "11:00",
       "14:00"
      ],
      "molde": "historia_real",
      "voz": false,
-     "edicao": "dossie"
+     "edicao": "dossie",
+     "roteiro_pronto": "/mnt/project-files/esteira2s/prontos/mkultra.txt",
+     "nota": "Bruto antigo (avatar de outubro) REPROVADO pelo Wagner em 11/11. Regerar com o avatar 1d7e contando a mesma história (roteiro_pronto), edição dossiê/arquivo. Nunca usar o mp4 antigo de prontos/."
     },
     "2026-11-15": {
      "tipo": "reels",
@@ -288,7 +289,6 @@
      "cta_meio": "adesivo curte + segue depois da virada",
      "cta_fim": "Mandar pra quem ama história",
      "edicao_nome": "Arquivo em sépia (rosto o tempo todo)",
-     "pronto": "/mnt/project-files/esteira2s/prontos/henrietta.mp4",
      "janela": [
       "17:00",
       "19:00"
@@ -296,7 +296,9 @@
      "molde": "historia_real",
      "voz": false,
      "edicao": "mapeamento",
-     "pele": "arquivo"
+     "pele": "arquivo",
+     "roteiro_pronto": "/mnt/project-files/esteira2s/prontos/henrietta.txt",
+     "nota": "Bruto antigo (avatar de outubro) REPROVADO pelo Wagner em 11/11. Regerar com o avatar 1d7e contando a mesma história (roteiro_pronto), edição dossiê/arquivo. Nunca usar o mp4 antigo de prontos/."
     },
     "2026-11-27": {
      "tipo": "reels",
@@ -1260,6 +1262,7 @@
    "tela_dividida": "rosto em cima e a prova embaixo (artigo, exame, gráfico)"
   },
   "fotos_fertilidade": "Nunca usar foto de grávida (tag 'gravida' no bg_bank/index.json) em conteúdo para quem está tentando engravidar.",
-  "fotos": "Reels é edição: no máximo 2 fotos do bg_bank por Reels (plano.broll, max_fotos); o resto da narração vira cena gráfica ou FRASE animada. Foto à vontade só no carrossel."
+  "fotos": "Reels é edição: no máximo 2 fotos do bg_bank por Reels (plano.broll, max_fotos); o resto da narração vira cena gráfica ou FRASE animada. Foto à vontade só no carrossel.",
+  "documentarios": "Histórias contadas da biblioteca HeyGen de 23/10 (mkultra, henrietta, unidade731, willowbrook, oregon, guatemala, holmesburg): Wagner aprovou enredo e edição dossiê, reprovou o avatar. Sempre regerar com o avatar 1d7e, mesma história. Nunca publicar os vídeos antigos."
  }
 }

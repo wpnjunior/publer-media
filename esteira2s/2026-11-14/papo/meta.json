@@ -1,5 +1,5 @@
 {
- "status": "pronto_para_agendar",
+ "status": "reprovado_refazer",
  "tema": "MKUltra: a CIA drogou cidadãos sem eles saberem",
  "molde": "historia_real",
  "edicao": "dossiê (dinamica + dossie), rosto o tempo todo",
@@ -9,5 +9,5 @@
   "Senado dos EUA, Project MKULTRA: audiência conjunta, 3/8/1977",
   "Comissão Church, relatório final, 1976"
  ],
- "pendente": "Porteiro/sabor, legenda, stories e agendamento na rodada da véspera"
+ "pendente": "Wagner (11/11 05h): avatar antigo ficou ruim; edição e enredo aprovados. Regerar com o avatar padrão 1d7e, mesmo roteiro (roteiro.txt) e mesma edição dossiê. NÃO agendar reels.mp4."
 }
