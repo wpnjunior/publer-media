@@ -93,7 +93,9 @@
    "marca": "todas",
    "frase": "Olha que coisa.",
    "duracao_s": 1.01,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-28"
+   ]
   },
   {
    "arquivo": "abertura_10.mp4",
@@ -122,7 +124,8 @@
    "frase": "Na dúvida, conversa com o seu médico.",
    "duracao_s": 1.96,
    "usado_em": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-28"
    ]
   },
   {
@@ -213,7 +216,8 @@
    "frase": "Investigar o casal é o primeiro passo.",
    "duracao_s": 1.93,
    "usado_em": [
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-24"
    ]
   },
   {
@@ -234,7 +238,9 @@
    "duracao_s": 1.58,
    "usado_em": [
     "2026-11-16",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-28",
+    "2026-11-24"
    ]
   },
   {
@@ -253,7 +259,9 @@
    "marca": "todas",
    "frase": "Agora, cá entre nós.",
    "duracao_s": 1.73,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-24"
+   ]
   },
   {
    "arquivo": "seguir_01.mp4",
@@ -314,7 +322,8 @@
    "frase": "Pronto, a minha parte eu fiz. A sua é curtir e me seguir.",
    "duracao_s": 3.74,
    "usado_em": [
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-28"
    ]
   },
   {
@@ -364,7 +373,9 @@
    "marca": "fertilidade",
    "frase": "Eu trouxe o dado. Vocês dois deixam o curtir, e seguem a gente. Fechado?",
    "duracao_s": 4.86,
-   "usado_em": []
+   "usado_em": [
+    "2026-11-24"
+   ]
   }
  ]
 }

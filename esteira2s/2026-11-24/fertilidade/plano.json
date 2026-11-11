@@ -1,0 +1,23 @@
+{
+ "formato": "mapeamento",
+ "pele": "clinico",
+ "titulo": "",
+ "destaques": ["verdade", "laboratório", "líquido", "nadar", "atraiu", "parceiro", "sinal", "calma", "lâmina", "Ninguém", "culpa", "corrida", "juntos"],
+ "seguir": {"quando": "Eu trouxe o dado", "texto": "fechado? curte + segue", "arroba": "@fertilidadeadois"},
+ "cenas": [
+  {"quando": "Isso tem um fundo", "tipo": "etiqueta", "texto": "tem um fundo de verdade", "sub": "mas falta um pedaço da história", "cor": "amarelo"},
+  {"quando": "Em dois mil e vinte", "tipo": "cartao", "emoji": "🔬", "cor": "azul", "rotulo": "Estudo de 2020, Suécia e Inglaterra"},
+  {"quando": "Pegaram o líquido", "tipo": "checklist", "titulo": "O teste", "itens": ["Líquido que envolve o óvulo", "Espermatozoides de homens diferentes", "Quem nada até onde?"], "marcados": 3},
+  {"quando": "O líquido de cada mulher", "tipo": "citacao", "texto": "O líquido de cada mulher atraiu mais os espermatozoides de alguns homens.", "destaque": "de alguns homens.", "autor": "o que o estudo mediu"},
+  {"quando": "E nem sempre", "tipo": "etiqueta", "texto": "nem sempre o parceiro", "sub": "a química não segue a escolha do casal", "cor": "vermelho"},
+  {"quando": "o óvulo manda", "tipo": "cartao", "emoji": "📡", "cor": "verde", "rotulo": "Sinal químico do óvulo"},
+  {"quando": "Isso foi medido", "tipo": "etiqueta", "texto": "na lâmina", "sub": "não dentro do corpo", "cor": "azul"},
+  {"quando": "Ninguém mostrou", "tipo": "cartao", "emoji": "❓", "cor": "amarelo", "rotulo": "Não se sabe se decide a gravidez"},
+  {"quando": "Então não é culpa", "tipo": "checklist", "titulo": "Não é culpa", "itens": ["Do óvulo", "Do espermatozoide", "De vocês"], "marcados": 3},
+  {"quando": "Quantidade e movimento", "tipo": "cartao", "emoji": "🏁", "cor": "azul", "rotulo": "Quantidade e movimento contam"},
+  {"quando": "Mais de um ano", "tipo": "etiqueta", "texto": "+ de 1 ano tentando", "sub": "investigar os dois, juntos", "cor": "verde"}
+ ],
+ "fonte": {"quando": "Em dois mil e vinte", "ate": "espermatozoide responde", "texto": "Fitzpatrick e col., Proceedings of the Royal Society B 2020"},
+ "fim": {"marca": "FERTILIDADE A DOIS", "frase": "Investigar o casal é o primeiro passo.", "ref": "Fitzpatrick e col., Proc Biol Sci 2020 · doi 10.1098/rspb.2020.0805"},
+ "trilha": "moment_of_peace"
+}
