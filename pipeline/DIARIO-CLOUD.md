@@ -65,7 +65,7 @@ Siga a skill `formula-heygen-papo-medico` se estiver disponível. Resumo obrigat
 
 ## 4. HeyGen (molde único — não mude nada)
 `create_video_from_avatar` com:
-- avatarId `6cd9ee3df3544397ad8d38fa091e14cc`, voiceId `c4755690737746ffa3bcc01c32d84751`, voiceSettings `{"speed": 1.3}`
+- avatarId `1d7e528beec9442ebcb4651a5b74bec6` ("Dr. Wagner Novaes podcasting", de jaleco no estúdio; padrão do Wagner desde 11/11/2026 para toda produção, o antigo 6cd9 não se usa mais), voiceId `c4755690737746ffa3bcc01c32d84751`, voiceSettings `{"speed": 1.3}`
 - engine `{"type": "avatar_v", "more_blinking": true}`, aspectRatio `9:16`, resolution `1080p`
 - title `Diário AAAA-MM-DD: <tema>`; script = roteiro.txt exato
 - motionPrompt: "Serious, credible doctor talking with energy, but NEVER a wide smile: no teeth-showing grin, no
