@@ -129,3 +129,8 @@ status e avise em uma linha.
 "não posta", "segura", "não posta <marca>" ou "pausa tudo" antes do horário → `updateScheduledPost` do mesmo
 post com `draft: true` (conteúdo idêntico), status `vetado` no meta.json. "pausa tudo" também cria
 `/mnt/project-files/esteira2s/PAUSADO`.
+
+## Fotos e letra do carrossel (Wagner, 11/11)
+
+- Fotos: usar o banco novo `bg_bank/px_<assunto>_<id>.jpg` (83 fotos Pexels, tags em `bg_bank/index.json`); não repetir a mesma foto no mesmo carrossel nem em carrosséis da mesma semana. Faltou assunto: buscar no Pexels (WebSearch em pexels.com dá o id; baixar por `https://images.pexels.com/photos/<id>/pexels-photo-<id>.jpeg?auto=compress&cs=tinysrgb&w=1260`), olhar a foto antes de usar e registrar no índice.
+- Letra: o molde Papo News cresce o texto sozinho até sobrar só a faixa de foto no alto (variável `--k` em `pipeline/template_news.py`). Manchete curta (até 4 palavras por linha, com `<br>`) é o que deixa a letra grande.
