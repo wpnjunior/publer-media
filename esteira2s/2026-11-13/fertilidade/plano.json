@@ -1,0 +1,19 @@
+{"formato":"mapeamento","titulo":"O espermatozoide de hoje começou há 64 dias",
+ "destaques":["dois meses","sessenta e quatro dias","retrato","repetido"],
+ "cenas":[
+  {"quando":"O espermatozoide que sai","tipo":"etiqueta","texto":"2 meses","sub":"é o tempo de fabricar um espermatozoide","cor":"azul"},
+  {"quando":"Primeiro, a célula","tipo":"regua","marcos":[{"rotulo":"Início","texto":"a célula se divide"},{"rotulo":"Meio","texto":"ganha cabeça e cauda"},{"rotulo":"Reta final","texto":"amadurece e aprende a nadar"},{"rotulo":"Dia 64","texto":"aparece no exame"}],"ate":0},
+  {"quando":"Depois, ela ganha","tipo":"regua","marcos":[{"rotulo":"Início","texto":"a célula se divide"},{"rotulo":"Meio","texto":"ganha cabeça e cauda"},{"rotulo":"Reta final","texto":"amadurece e aprende a nadar"},{"rotulo":"Dia 64","texto":"aparece no exame"}],"ate":1},
+  {"quando":"Na reta final","tipo":"regua","marcos":[{"rotulo":"Início","texto":"a célula se divide"},{"rotulo":"Meio","texto":"ganha cabeça e cauda"},{"rotulo":"Reta final","texto":"amadurece e aprende a nadar"},{"rotulo":"Dia 64","texto":"aparece no exame"}],"ate":2},
+  {"quando":"Num estudo que marcou","tipo":"cartao","emoji":"🔬","cor":"azul","rotulo":"11 homens acompanhados"},
+  {"quando":"o espermatozoide novo só","tipo":"regua","marcos":[{"rotulo":"Início","texto":"a célula se divide"},{"rotulo":"Meio","texto":"ganha cabeça e cauda"},{"rotulo":"Reta final","texto":"amadurece e aprende a nadar"},{"rotulo":"Dia 64","texto":"aparece no exame"}],"ate":3},
+  {"quando":"Eu trouxe o dado","tipo":"rosto"},
+  {"quando":"E o que isso muda","tipo":"citacao","texto":"O espermograma de hoje é o retrato de dois meses atrás.","destaque":"dois meses atrás","autor":"o que o estudo mostra na prática"},
+  {"quando":"E o que ele mudar","tipo":"etiqueta","texto":"2 a 3 meses","sub":"para a mudança de hoje aparecer no exame","cor":"amarelo"},
+  {"quando":"Por isso, um exame","tipo":"cartao","emoji":"🔁","cor":"amarelo","rotulo":"Exame alterado se repete"},
+  {"quando":"Salva, pra lembrar","tipo":"cartao","emoji":"📌","cor":"azul","rotulo":"Salva pra o próximo exame"},
+  {"quando":"Vocês dois, juntos","tipo":"rosto"}
+ ],
+ "fonte":{"quando":"Num estudo que marcou","ate":"sessenta e quatro dias","texto":"Misell et al., Journal of Urology, 2006"},
+ "fim":{"marca":"FERTILIDADE A DOIS","frase":"O exame de hoje conta a história de dois meses atrás.","ref":"Misell et al., J Urol 2006 · doi 10.1016/S0022-5347(05)00053-4\nConteúdo educativo. Não substitui a consulta."},
+ "trilha":"moment_of_peace"}

@@ -18,6 +18,9 @@ avisa. Nunca troque mídia, nunca caia para plano B que gaste crédito, nunca ge
   para a tela de fonte; se um número falado não tiver fonte, status `falha_fonte`, vaga vazia e aviso.
   Carrossel também vale para o Papo (tema escuro do `telas.py`).
 - Pausa: se existe `/mnt/project-files/esteira2s/PAUSADO` ou `/mnt/project-files/esteira2s/PAUSADO-<marca>`, encerre.
+- Exemplo já pronto: se `esteira2s/<ALVO>/<marca>/meta.json` (no repositório) tem status `pronto_para_agendar`, a mídia
+  já está na mesma pasta (`reels.mp4` ou `01.jpg`...). Não produza de novo: rode o Porteiro e o sabor (só vídeo),
+  escreva a legenda (passo 6), faça os stories (7), agende (8) e mande a prévia (9).
 - Já feito: se existe `/mnt/project-files/esteira2s/<ALVO>/<marca>/meta.json` com status diferente de `falha`,
   encerre. Senão crie-o com `{"status":"produzindo"}` (trava contra rodada dupla).
 - HeyGen `get_current_user`: guarde `premium_credits.remaining` no meta.json como `saldo_antes`.
@@ -111,12 +114,12 @@ noite (20h-22h), minutos sorteados.
 - Acrescente o tema em `esteira2s/TEMAS.md` (data, marca, tema, molde).
 
 ## 9. Prévia
-Dispare a tarefa de prévia (fire_trigger, id em `esteira2s/README.md`) com o texto
-`PRÉVIA <marca> <ALVO>`. Ela manda ao Wagner a mídia, o horário e a regra do veto. Você não fala com o Wagner.
-Em falha (voz, edição, saldo), grave o status e dispare a prévia do mesmo jeito: ela avisa em uma linha.
-Termine com 4 linhas: marca e data, tema e nota, molde e edição, custo e status.
+A rodada roda na própria thread dona do fluxo: mande você mesmo UMA mensagem curta ao Wagner com a mídia anexada,
+o horário e como vetar ("Não postar" na aba Programação 30 dias da Mesa, ou responder na thread). Atualize o doc
+`programacao/<ALVO>` da Mesa da marca (status, titulo, horario, link). Em falha (voz, edição, saldo), grave o
+status e avise em uma linha.
 
-## Veto (feito pela tarefa de prévia, não por você)
+## Veto
 "não posta", "segura", "não posta <marca>" ou "pausa tudo" antes do horário → `updateScheduledPost` do mesmo
 post com `draft: true` (conteúdo idêntico), status `vetado` no meta.json. "pausa tudo" também cria
 `/mnt/project-files/esteira2s/PAUSADO`.

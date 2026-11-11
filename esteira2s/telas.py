@@ -112,7 +112,8 @@ def gerar(spec, saida):
             tmp = saida / f".tela{i + 1:02d}.html"
             tmp.write_text(_html(tela, i, len(telas), t, formato, w, h), encoding="utf-8")
             pg.goto(tmp.resolve().as_uri())
-            pg.evaluate("document.fonts.ready")
+            pg.evaluate("Promise.all([document.fonts.load('40px Titulo'), document.fonts.load('40px Corpo'), "
+                        "document.fonts.load('30px Rotulo')]).then(() => document.fonts.ready)")
             if not pg.evaluate("document.fonts.check('40px Titulo') && document.fonts.check('40px Corpo')"):
                 raise SystemExit("fontes não carregaram")
             pg.wait_for_timeout(150)

@@ -1,0 +1,9 @@
+{"marca":"papo","formato":"carrossel","telas":[
+{"rotulo":"INTOLERÂNCIA À LACTOSE","titulo":"Você não precisa cortar todo o leite."},
+{"rotulo":"O QUE TODO MUNDO FAZ","titulo":"Descobriu a intolerância e zerou tudo.","texto":"Leite, queijo, iogurte, até o pingado. Só que os estudos mediram quanto o intestino aguenta, e o número surpreende."},
+{"rotulo":"O ESTUDO","titulo":"36 ensaios clínicos revisados.","texto":"Uma revisão sistemática juntou os estudos controlados de 1967 a 2009 com pessoas intolerantes ou com má absorção de lactose.","fonte":"Shaukat et al., Annals of Internal Medicine, 2010 (doi 10.7326/0003-4819-152-12-201006150-00241)"},
+{"rotulo":"O RESULTADO","titulo":"12 a 15 g de lactose.","texto":"É mais ou menos 1 copo de leite. Essa quantidade foi bem tolerada pela maioria dos adultos estudados.","fonte":"Shaukat et al., Ann Intern Med, 2010"},
+{"rotulo":"PEDÁGIO LEVE","titulo":"Te devolvi o pingado.","texto":"Um curtir é o mínimo, né? E segue aqui, que amanhã tem outro mito indo embora."},
+{"rotulo":"SALVA ESTA LISTA","titulo":"O que observar no seu caso","lista":["Quanto você tomou de uma vez","Se foi junto com comida ou em jejum","Em quanto tempo veio o sintoma","Se queijo curado e iogurte dão o mesmo efeito"]},
+{"rotulo":"SINAL DE ALERTA","titulo":"Nem tudo é lactose.","lista":["Perda de peso sem explicação","Sangue nas fezes","Diarreia que acorda você à noite","Anemia"],"texto":"Com qualquer um desses, a investigação é outra."},
+{"rotulo":"MANDA PRA QUEM CORTOU TUDO","titulo":"Cada caso é um caso.","texto":"Conteúdo educativo. Não substitui a consulta. Converse com seu médico antes de mudar a dieta."}]}

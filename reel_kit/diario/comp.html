@@ -195,6 +195,7 @@ window.init = async function (tl) {
   const est = tl.estilo_painel || 'caderno';
   if (est !== 'caderno') $('#paper').classList.add(est);
   if (tl.formato === 'mapeamento') await mpInit();
+  if (tl.fim && tl.fim.marca) $('#fim .marca').textContent = tl.fim.marca;  // ex.: FERTILIDADE A DOIS
   $('#fim .frase').textContent = (tl.fim && tl.fim.frase) || '';
   $('#fim .ref').textContent = (tl.fim && tl.fim.ref) || '';
   return true;
