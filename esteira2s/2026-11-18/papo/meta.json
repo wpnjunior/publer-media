@@ -1,1 +1,26 @@
-{"status":"pronto_para_agendar","tema":"Intolerância à lactose: a maioria tolera 1 copo de leite","molde":"carrossel","fontes":["Shaukat et al., Ann Intern Med 2010, PMID 20404262, doi 10.7326/0003-4819-152-12-201006150-00241"],"cta_meio":{"tipo":"cobranca","frase":"Te devolvi o pingado. Um curtir é o mínimo, né?"},"cta_fim":{"tipo":"mandar","frase":"Manda pra quem cortou tudo."},"nota":"Exemplo produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories."}
+{
+ "status": "agendado",
+ "tema": "Intolerância à lactose: a maioria tolera 1 copo de leite",
+ "molde": "carrossel",
+ "fontes": [
+  "Shaukat et al., Ann Intern Med 2010, PMID 20404262, doi 10.7326/0003-4819-152-12-201006150-00241"
+ ],
+ "cta_meio": {
+  "tipo": "cobranca",
+  "frase": "Te devolvi o pingado. Um curtir é o mínimo, né?"
+ },
+ "cta_fim": {
+  "tipo": "mandar",
+  "frase": "Manda pra quem cortou tudo."
+ },
+ "nota": "Exemplo produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories.",
+ "metricool_id": 424179993,
+ "uuid": "4510991884559928453",
+ "horario": "2026-11-18T17:41 America/Sao_Paulo",
+ "sha": "ab29a299ba764b1fe01b1303fa30fdb3fb6ffcc7",
+ "raw_base": "https://raw.githubusercontent.com/wpnjunior/publer-media/ab29a299ba764b1fe01b1303fa30fdb3fb6ffcc7/esteira2s/2026-11-18/papo/",
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram"
+ ]
+}
