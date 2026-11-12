@@ -1,0 +1,50 @@
+{
+ "marca": [
+  "CANETA",
+  "COM MÚSCULO"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_academia_3836878.jpg",
+   "editoria": "Músculo",
+   "manchete": "Emagreceu na<br>caneta. E o<br><span class=\"hl\">músculo</span>?",
+   "sub": "Uma revisão de 2026 estimou quanto do peso perdido <b>não é gordura</b>.",
+   "fonte": "Fontes: Nobakht et al., 2026; Mollero et al., 2026"
+  },
+  {
+   "foto": "px_academia_7289233.jpg",
+   "numero": "01",
+   "manchete": "De 25 a <span class=\"hl\">39%</span>",
+   "corpo": "Segundo uma revisão de 2026, cerca de 25 a 39% do peso perdido com esses remédios pode ser massa magra, em 36 a 72 semanas de uso.",
+   "destaque": "A maior parte ainda é gordura."
+  },
+  {
+   "foto": "px_lab_7448009.jpg",
+   "numero": "02",
+   "manchete": "Massa magra<br>não é só <span class=\"hl\">músculo</span>",
+   "corpo": "Massa magra inclui água e órgãos. Outra revisão de 2026 diz que essa perda costuma acompanhar o tamanho do emagrecimento e, sozinha, não prova perda de músculo."
+  },
+  {
+   "foto": "px_academia_5327487.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Aqui o assunto é um só: caneta, proteína e treino, sempre com o estudo na mão."
+  },
+  {
+   "foto": "px_whey_13779116.jpg",
+   "numero": "04",
+   "manchete": "O que <span class=\"hl\">protege</span>",
+   "corpo": "As duas revisões apontam o mesmo caminho: proteína adequada e treino de força durante o tratamento.",
+   "destaque": "A quantidade certa quem calcula é o seu médico ou nutricionista."
+  },
+  {
+   "foto": "px_homemmedico_6129444.jpg",
+   "numero": "05",
+   "manchete": "Meça a <span class=\"hl\">força</span>,<br>não só o peso",
+   "corpo": "Os autores pedem acompanhar a composição corporal e a função do músculo, e não só a balança. Leve essa conversa para a consulta.",
+   "destaque": "Salva e manda para quem está usando.",
+   "fonte": "Fontes: Nobakht et al., Cardiorenal Med 2026 · doi 10.1159/000553166 · Mollero et al., Nutrients 2026 · doi 10.3390/nu18162654 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
