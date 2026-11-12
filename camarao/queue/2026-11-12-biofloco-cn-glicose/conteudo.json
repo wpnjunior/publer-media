@@ -1,0 +1,58 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "camarao-gigante-na-mao.jpg",
+   "editoria": "Bioflocos",
+   "manchete": "Existe um C:N pra <span class=\"hl\">limpar a água</span>. E outro pra <span class=\"hl\">engordar</span> o camarão.",
+   "sub": "Estudo testou C:N 5, 10, 15 e 20 com glicose na pós-larva de vannamei — e achou dois ótimos diferentes.",
+   "fonte": "Fontes: Cao et al., Bioresource Technology, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "01",
+   "manchete": "Amônia caiu <span class=\"hl\">98%</span>",
+   "corpo": "Subindo o carbono pra C:N 20, a amônia total caiu <b>98,37%</b> frente ao controle (C:N 5). Nitrito caiu <b>57,43%</b> e nitrato, <b>59,86%</b>.",
+   "destaque": "Mais carbono na água derruba a amônia antes que ela derrube o seu lote.",
+   "fonte": "Cao et al., Bioresource Technology, 2025"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "02",
+   "manchete": "Nitrogênio e fósforo <span class=\"hl\">despencaram</span>",
+   "corpo": "No mesmo C:N 20, o nitrogênio total da água caiu <b>67,79%</b> e o fósforo total, <b>67,02%</b>, comparado ao controle.",
+   "destaque": "Água mais limpa é menos estresse pro camarão e menos renovação de água pro produtor.",
+   "fonte": "Cao et al., Bioresource Technology, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "Mas quem <span class=\"hl\">engordou</span> foi outro C:N",
+   "corpo": "No C:N 15 (não no 20), o peso do camarão subiu <b>31,89%</b> e a taxa de crescimento específica, <b>33,21%</b>, frente ao controle.",
+   "destaque": "O C:N que mais limpa a água não é o que mais engorda o camarão.",
+   "fonte": "Cao et al., Bioresource Technology, 2025"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "numero": "04",
+   "manchete": "Qual C:N pro <span class=\"hl\">seu berçário</span>?",
+   "corpo": "Água carregada, amônia subindo? Suba o carbono. Prioridade é ganho de peso rápido na pós-larva? O ponto ótimo do estudo ficou mais perto de 15.",
+   "destaque": "Não existe um C:N único — existe o C:N certo pra fase do seu lote."
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está o C:N do seu berçário.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
