@@ -1,0 +1,1107 @@
+{
+ "inicio": "2026-11-30",
+ "fim": "2026-12-29",
+ "condicao": "só começa depois da renovação do crédito HeyGen (29/11 20h22Z) e do ok do Wagner",
+ "marcas": {
+  "caneta": {
+   "nome": "Caneta com Músculo",
+   "metricool_blog": 8026015,
+   "selo": [
+    "CANETA",
+    "COM MÚSCULO"
+   ],
+   "dias": {
+    "2026-11-30": {
+     "tipo": "reels",
+     "molde": "mito ou verdade",
+     "tema": "A caneta derrete o músculo?",
+     "gancho": "Mito ou verdade: quem emagrece na caneta perde só músculo",
+     "fonte": "Look et al., Diabetes Obes Metab 2025, doi 10.1111/dom.16275",
+     "fonte_conferida": true,
+     "dado": "75% do peso perdido foi gordura e 25% massa magra, igual ao placebo (160 pessoas, 72 semanas)",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-01": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Emagreceu na caneta. E o músculo?",
+     "gancho": "De 25 a 39% do peso perdido pode ser massa magra",
+     "fonte": "Nobakht et al., Cardiorenal Med 2026, doi 10.1159/000553166",
+     "fonte_conferida": true,
+     "dado": "carrossel já pronto em esteira2s/novos/2026-11-13/caneta",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-02": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Massa magra não é só músculo",
+     "gancho": "A balança diz que você perdeu músculo. Será?",
+     "fonte": "Mollero et al., Nutrients 2026, doi 10.3390/nu18162654",
+     "fonte_conferida": true,
+     "dado": "perda de massa magra acompanha o peso perdido e não prova perda de músculo",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-03": {
+     "tipo": "reels",
+     "molde": "react em tela dividida",
+     "tema": "Parei a caneta e engordei tudo de volta?",
+     "gancho": "Ela parou a caneta e o peso voltou. O estudo mediu quanto",
+     "fonte": "Wilding et al., Diabetes Obes Metab 2022, doi 10.1111/dom.14725",
+     "fonte_conferida": true,
+     "dado": "1 ano depois de parar, voltaram cerca de dois terços do peso perdido (327 pessoas)",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-04": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Comer pouco demais custa músculo",
+     "gancho": "Quanto menos você come, mais músculo vai junto",
+     "fonte": "Iwanicka et al., Cureus 2026, doi 10.7759/cureus.117182",
+     "fonte_conferida": true,
+     "dado": "restrição maior nem sempre melhora a composição; proteína e treino de força protegem",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-05": {
+     "tipo": "reels",
+     "molde": "lista para salvar",
+     "tema": "4 conversas para ter com o médico antes de começar",
+     "gancho": "Salva antes da primeira aplicação",
+     "fonte": "Nobakht et al., Cardiorenal Med 2026, doi 10.1159/000553166",
+     "fonte_conferida": true,
+     "dado": "medir composição corporal e força no início e acompanhar",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-06": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Treino de força: o que os estudos mais associam a manter músculo",
+     "gancho": "O remédio emagrece. Quem segura o músculo é outro",
+     "fonte": "Iwanicka et al., Cureus 2026, doi 10.7759/cureus.117182",
+     "fonte_conferida": true,
+     "dado": "treino de força foi o mais consistente em preservar massa magra e força",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-07": {
+     "tipo": "reels",
+     "molde": "linha do tempo do corpo",
+     "tema": "Da semana 0 à 72: o que muda no corpo",
+     "gancho": "O que acontece no corpo em 72 semanas",
+     "fonte": "Look et al., Diabetes Obes Metab 2025, doi 10.1111/dom.16275",
+     "fonte_conferida": true,
+     "dado": "peso -21,3%, gordura -33,9%, massa magra -10,9% no estudo",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-08": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Pedra na vesícula: o risco que pouca gente comenta",
+     "gancho": "O efeito que quase ninguém te contou",
+     "fonte": "He et al., JAMA Intern Med 2022, doi 10.1001/jamainternmed.2022.0338",
+     "fonte_conferida": true,
+     "dado": "76 estudos, 103 mil pessoas: risco 37% maior de problema na vesícula; maior nos estudos de emagrecimento",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-09": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "A balança mente: peso não é composição",
+     "gancho": "Dois corpos, o mesmo peso",
+     "fonte": "Nobakht et al., Cardiorenal Med 2026, doi 10.1159/000553166",
+     "fonte_conferida": true,
+     "dado": "autores pedem acompanhar composição e função, não só o peso",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-10": {
+     "tipo": "reels",
+     "molde": "react em tela dividida",
+     "tema": "'Rosto de caneta': o que é isso?",
+     "gancho": "O rosto murchou depois da caneta?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR na véspera; achar o viral pela alegação",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-11": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Emagrecer rápido demais tem preço?",
+     "gancho": "Rápido é melhor? Nem sempre",
+     "fonte": "Iwanicka et al., Cureus 2026, doi 10.7759/cureus.117182",
+     "fonte_conferida": true,
+     "dado": "maior restrição veio com mais perda de massa magra em alguns estudos",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-12": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Cabelo caindo depois de emagrecer rápido",
+     "gancho": "Emagreceu e o cabelo começou a cair",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-13": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Depois dos 60: quem tem menos reserva de músculo",
+     "gancho": "Seu pai vai usar caneta? Leia antes",
+     "fonte": "Mollero et al., Nutrients 2026, doi 10.3390/nu18162654",
+     "fonte_conferida": true,
+     "dado": "efeitos mais variáveis em idosos e frágeis; avaliar função",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-14": {
+     "tipo": "reels",
+     "molde": "mito ou verdade",
+     "tema": "Quem usa caneta não precisa de academia",
+     "gancho": "Mito ou verdade: com caneta não precisa treinar",
+     "fonte": "Iwanicka et al., Cureus 2026, doi 10.7759/cureus.117182",
+     "fonte_conferida": true,
+     "dado": "treino de força preserva massa magra e função",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-15": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Perder massa magra é perder força?",
+     "gancho": "Perdi massa magra. Fiquei mais fraco?",
+     "fonte": "Iwanicka et al., Cureus 2026, doi 10.7759/cureus.117182",
+     "fonte_conferida": true,
+     "dado": "redução de massa magra nem sempre virou perda de força ou desempenho",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-16": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Intestino preso com a caneta",
+     "gancho": "Travou o intestino?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-17": {
+     "tipo": "reels",
+     "molde": "responder comentário",
+     "tema": "'Posso tomar whey usando caneta?'",
+     "gancho": "Respondendo o comentário mais repetido",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR; ângulo diferente do whey do Papo de Médico (01/12)",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-18": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Gordura dentro do músculo: o que os estudos viram",
+     "gancho": "Músculo também acumula gordura",
+     "fonte": "Mollero et al., Nutrients 2026, doi 10.3390/nu18162654",
+     "fonte_conferida": true,
+     "dado": "menos infiltração de gordura no músculo em estudos citados na revisão",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-19": {
+     "tipo": "reels",
+     "molde": "react em tela dividida",
+     "tema": "O famoso que emagreceu e 'murchou'",
+     "gancho": "Todo mundo comentou o corpo dele",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR; sem diagnosticar o famoso (CFM)",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-20": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "A sede some junto com a fome?",
+     "gancho": "Você tem bebido água?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-21": {
+     "tipo": "reels",
+     "molde": "lista para salvar",
+     "tema": "5 sinais para medir a força em casa",
+     "gancho": "Faça esse teste antes de subir na balança",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR (levantar da cadeira, preensão, escada)",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-22": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Álcool e caneta",
+     "gancho": "A vontade de beber mudou?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-23": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Platô: por que o peso para de cair",
+     "gancho": "O peso travou. E agora?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-24": {
+     "tipo": "reels",
+     "molde": "mito ou verdade",
+     "tema": "Homem e mulher perdem músculo igual?",
+     "gancho": "Mito ou verdade: mulher perde mais músculo na caneta",
+     "fonte": "Look et al., Diabetes Obes Metab 2025, doi 10.1111/dom.16275",
+     "fonte_conferida": true,
+     "dado": "proporção gordura/massa magra parecida entre os subgrupos",
+     "janela": "18:20-19:50",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-25": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "O que voltou junto com o peso",
+     "gancho": "Não foi só o peso que voltou",
+     "fonte": "Wilding et al., Diabetes Obes Metab 2022, doi 10.1111/dom.14725",
+     "fonte_conferida": true,
+     "dado": "melhoras cardiometabólicas voltaram em direção ao início 1 ano após parar",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-26": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Creatina para quem usa caneta: tem estudo?",
+     "gancho": "Creatina segura o músculo na caneta?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR; ângulo diferente da creatina do Papo (30/11)",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-27": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Dormir mal e a fome do dia seguinte",
+     "gancho": "A noite ruim cobra no prato",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-28": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Passos por dia contam?",
+     "gancho": "Não gosta de academia? Leia isso",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-29": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "5 números do mês para guardar",
+     "gancho": "Se você só salvar um post, salve este",
+     "fonte": "Look et al., Diabetes Obes Metab 2025, doi 10.1111/dom.16275",
+     "fonte_conferida": true,
+     "dado": "resumo dos números já conferidos (25%, 39%, dois terços, 37%, 72 semanas)",
+     "janela": "12:10-13:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    }
+   }
+  },
+  "tdah": {
+   "nome": "TDAH Adulto Real",
+   "metricool_blog": 8026030,
+   "selo": [
+    "TDAH",
+    "ADULTO REAL"
+   ],
+   "dias": {
+    "2026-11-30": {
+     "tipo": "reels",
+     "molde": "mito ou verdade",
+     "tema": "TDAH é coisa de criança?",
+     "gancho": "Mito ou verdade: TDAH some quando a pessoa cresce",
+     "fonte": "Song et al., J Glob Health 2021, doi 10.7189/jogh.11.04009",
+     "fonte_conferida": true,
+     "dado": "2,58% dos adultos seguem com TDAH desde a infância; cerca de 140 milhões",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-01": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "TDAH não é só coisa de criança",
+     "gancho": "Uma revisão global estimou quantos adultos",
+     "fonte": "Song et al., J Glob Health 2021, doi 10.7189/jogh.11.04009",
+     "fonte_conferida": true,
+     "dado": "carrossel já pronto em esteira2s/novos/2026-11-13/tdah",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-02": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Metade dos vídeos de TDAH do TikTok engana",
+     "gancho": "52 de 100",
+     "fonte": "Yeung et al., Can J Psychiatry 2022, doi 10.1177/07067437221082854",
+     "fonte_conferida": true,
+     "dado": "dos 100 vídeos mais populares, 52% enganosos, 27% experiência pessoal, 21% úteis",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-03": {
+     "tipo": "reels",
+     "molde": "react em tela dividida",
+     "tema": "'5 sinais de que você tem TDAH'",
+     "gancho": "Esse vídeo te diagnosticou em 15 segundos",
+     "fonte": "Yeung et al., Can J Psychiatry 2022, doi 10.1177/07067437221082854",
+     "fonte_conferida": true,
+     "dado": "metade dos vídeos populares era enganosa; diagnóstico é clínico",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-04": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "'Todo mundo tem um pouco de TDAH'?",
+     "gancho": "Você já ouviu essa frase",
+     "fonte": "Faraone et al., Neurosci Biobehav Rev 2021, doi 10.1016/j.neubiorev.2021.01.022",
+     "fonte_conferida": true,
+     "dado": "consenso internacional com 208 conclusões baseadas em evidência",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-05": {
+     "tipo": "reels",
+     "molde": "lista para salvar",
+     "tema": "4 coisas para levar à primeira consulta",
+     "gancho": "Salva antes de marcar a consulta",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR (história da infância, relato de familiar, boletins, lista de prejuízos)",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-06": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "TDAH e acidentes: o dado da Dinamarca",
+     "gancho": "1,92 milhão de pessoas acompanhadas",
+     "fonte": "Dalsgaard et al., Lancet 2015, doi 10.1016/S0140-6736(14)61684-6",
+     "fonte_conferida": true,
+     "dado": "mortalidade cerca de 2 vezes maior; acidente foi a causa mais comum",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-07": {
+     "tipo": "reels",
+     "molde": "mito ou verdade",
+     "tema": "Açúcar deixa a pessoa hiperativa?",
+     "gancho": "Mito ou verdade: açúcar causa TDAH",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR (meta-análise de Wolraich, JAMA 1995)",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-08": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "TDAH e o peso",
+     "gancho": "28% contra 16%",
+     "fonte": "Cortese et al., Am J Psychiatry 2015, doi 10.1176/appi.ajp.2015.15020266",
+     "fonte_conferida": true,
+     "dado": "obesidade em 28,2% dos adultos com TDAH contra 16,4% sem (42 estudos, 728 mil pessoas)",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-09": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Por que o diagnóstico tardio importa",
+     "gancho": "Descobrir aos 30 muda alguma coisa?",
+     "fonte": "Dalsgaard et al., Lancet 2015, doi 10.1016/S0140-6736(14)61684-6",
+     "fonte_conferida": true,
+     "dado": "risco maior entre os diagnosticados já adultos; tratar o tema com cuidado, sem assustar",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-10": {
+     "tipo": "reels",
+     "molde": "react em tela dividida",
+     "tema": "'TDAH é modinha'",
+     "gancho": "Ele disse que TDAH foi inventado",
+     "fonte": "Faraone et al., Neurosci Biobehav Rev 2021, doi 10.1016/j.neubiorev.2021.01.022",
+     "fonte_conferida": true,
+     "dado": "208 conclusões com base em evidência, de dezenas de países",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-11": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "No trânsito: o que um estudo com 2,3 milhões viu",
+     "gancho": "O dado que surpreende no volante",
+     "fonte": "Chang et al., JAMA Psychiatry 2017, doi 10.1001/jamapsychiatry.2017.0659",
+     "fonte_conferida": true,
+     "dado": "menos acidentes nos meses com tratamento prescrito (38% em homens, 42% em mulheres); sem citar remédio nem dose",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-12": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "TDAH em mulheres: por que demora mais",
+     "gancho": "Ela não era 'avoada'",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-13": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Sono e TDAH",
+     "gancho": "Cabeça que não desliga à noite",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-14": {
+     "tipo": "reels",
+     "molde": "responder comentário",
+     "tema": "'Fiz um teste na internet e deu TDAH'",
+     "gancho": "Respondendo o comentário mais repetido",
+     "fonte": "Yeung et al., Can J Psychiatry 2022, doi 10.1177/07067437221082854",
+     "fonte_conferida": true,
+     "dado": "teste e vídeo não fecham diagnóstico; é avaliação clínica com história desde a infância",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-15": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Exercício ajuda a atenção?",
+     "gancho": "20 minutos mudam o foco?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-16": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Terapia para TDAH adulto: o que os estudos mediram",
+     "gancho": "Não é só remédio",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR (meta-análises de TCC em adultos)",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-17": {
+     "tipo": "reels",
+     "molde": "mito ou verdade",
+     "tema": "'Quem tem TDAH não foca em nada'",
+     "gancho": "Mito ou verdade: TDAH é falta de foco",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR (hiperfoco)",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-18": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "TDAH é de família?",
+     "gancho": "Seu pai era igualzinho",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR (herdabilidade)",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-19": {
+     "tipo": "reels",
+     "molde": "react em tela dividida",
+     "tema": "O famoso que descobriu TDAH adulto",
+     "gancho": "Ele só descobriu depois dos 40",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR; sem diagnosticar ninguém (CFM)",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-20": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Ansiedade e depressão andam junto?",
+     "gancho": "Quase nunca vem sozinho",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-21": {
+     "tipo": "reels",
+     "molde": "lista para salvar",
+     "tema": "5 ajustes de rotina que os estudos testaram",
+     "gancho": "Salva para a segunda-feira",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-22": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Celular causa TDAH?",
+     "gancho": "A culpa é da tela?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-23": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Café e atenção",
+     "gancho": "Por que o café te acalma?",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-24": {
+     "tipo": "reels",
+     "molde": "história real",
+     "tema": "140 milhões: o tamanho do TDAH adulto no mundo",
+     "gancho": "Um país inteiro de adultos distraídos",
+     "fonte": "Song et al., J Glob Health 2021, doi 10.7189/jogh.11.04009",
+     "fonte_conferida": true,
+     "dado": "139,8 milhões com TDAH persistente e 366 milhões com sintomas em 2020",
+     "janela": "20:40-22:10",
+     "variacoes": {
+      "carrossel_reserva": true,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-25": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Dinheiro e impulsividade",
+     "gancho": "Comprou e se arrependeu de novo",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-26": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Procrastinar não é preguiça",
+     "gancho": "Você não é preguiçoso",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-27": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "TDAH no trabalho",
+     "gancho": "A reunião que você não ouviu",
+     "fonte": null,
+     "fonte_conferida": false,
+     "dado": "FONTE A CONFERIR",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-28": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "Diminui com a idade?",
+     "gancho": "Melhora depois dos 40?",
+     "fonte": "Song et al., J Glob Health 2021, doi 10.7189/jogh.11.04009",
+     "fonte_conferida": true,
+     "dado": "a frequência cai com a idade nas duas definições",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    },
+    "2026-12-29": {
+     "tipo": "carrossel",
+     "molde": "Papo News",
+     "tema": "5 números do mês para guardar",
+     "gancho": "Se você só salvar um post, salve este",
+     "fonte": "Song et al., J Glob Health 2021, doi 10.7189/jogh.11.04009",
+     "fonte_conferida": true,
+     "dado": "resumo dos números já conferidos (2,58%, 6,76%, 52%, 28% x 16%, 2 vezes)",
+     "janela": "07:20-08:40",
+     "variacoes": {
+      "carrossel_reserva": false,
+      "stories": [
+       "caixinha Mito ou verdade com o gancho",
+       "cartão com o número ou a frase do dia"
+      ]
+     },
+     "status": "pre_projeto"
+    }
+   }
+  }
+ }
+}

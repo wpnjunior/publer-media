@@ -3,7 +3,7 @@
 
 Uso: python esteira2s/telas.py spec.json pasta_saida
 spec.json = {
-  "marca": "fertilidade" | "papo",
+  "marca": "fertilidade" | "papo" | "caneta" | "tdah",
   "formato": "carrossel" | "story",
   "telas": [ {"rotulo": "O QUE VOCÊ JÁ OUVIU", "titulo": "Relaxa que vem.",
               "texto": "...", "lista": ["...", "..."], "fonte": "Autor, Revista, 2024 (doi ...)"} ]
@@ -21,6 +21,10 @@ TEMAS = {
                     "acento": "#B5452E", "ponto": "#D8CCC0", "arroba": "@fertilidadeadois"},
     "papo": {"fundo": "#0F2233", "barra": "#F2B705", "tinta": "#FFFFFF", "texto": "#C9D6E2",
              "acento": "#F2B705", "ponto": "#36506A", "arroba": "@dr.wagnernovaesjr"},
+    "caneta": {"fundo": "#10231C", "barra": "#3FBF7F", "tinta": "#FFFFFF", "texto": "#C8DAD0",
+               "acento": "#3FBF7F", "ponto": "#2E4A3D", "arroba": "@canetacommusculo"},
+    "tdah": {"fundo": "#F6F1FA", "barra": "#5B3F8C", "tinta": "#231A33", "texto": "#473C59",
+             "acento": "#C2553A", "ponto": "#D9CDE8", "arroba": "@tdahrealadultos"},
 }
 TAMANHOS = {"carrossel": (1080, 1350), "story": (1080, 1920)}
 
