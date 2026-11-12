@@ -564,9 +564,10 @@
   {
    "id": "processo-nao-fardo",
    "tema": "Processo, não fardo",
-   "published": false,
-   "slot": null,
-   "caption": "Quando comida e treino viram castigo, o abandono é só questão de tempo — vejo isso se repetir. Quem permanece é quem achou alguma graça no caminho, não quem passou meses contando os dias pro resultado.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treino #consistencia #habitos #saude"
+   "published": true,
+   "slot": "2026-11-12T20:24:27Z",
+   "caption": "Quando comida e treino viram castigo, o abandono é só questão de tempo — vejo isso se repetir. Quem permanece é quem achou alguma graça no caminho, não quem passou meses contando os dias pro resultado.\nEste conteúdo é educativo e não substitui a consulta médica.\n#drwagnernovaes #treino #consistencia #habitos #saude",
+   "ig_media": "17978207880151341"
   },
   {
    "id": "sedentario-com-hobby",
