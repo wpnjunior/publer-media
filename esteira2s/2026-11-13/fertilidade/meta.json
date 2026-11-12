@@ -35,5 +35,17 @@
   "tiktok",
   "youtube"
  ],
- "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+ "stories": [
+  {
+   "metricool_id": 425678261,
+   "uuid": "3490997579098833010",
+   "horario": "20:51"
+  },
+  {
+   "metricool_id": 425678302,
+   "uuid": "5969111858602135204",
+   "horario": "22:04"
+  }
+ ]
 }
