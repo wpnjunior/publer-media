@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_capa.jpg",
+   "editoria": "Ginecologia",
+   "manchete": "O guia da<br>menopausa muda<br>depois de <span class=\"hl\">12 anos</span>",
+   "sub": "O fogacho atinge de <b>50% a 92%</b> das mulheres na menopausa. A diretriz americana que orienta o tratamento acaba de ser atualizada.",
+   "fonte": "Fonte: ACOG · Obstetrics &amp; Gynecology (2026)"
+  },
+  {
+   "foto": "peri_awake.jpg",
+   "numero": "01",
+   "manchete": "O guia que estava<br>parado desde<br><span class=\"hl\">2014</span>",
+   "corpo": "A diretriz de referência dos ginecologistas americanos pra tratar fogacho, insônia e humor na menopausa não recebia uma atualização completa havia mais de uma década.",
+   "destaque": "Virou a Clinical Practice Guideline nº 13, publicada em Obstetrics &amp; Gynecology em novembro de 2026 — substitui o Practice Bulletin nº 141, de janeiro de 2014."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "02",
+   "manchete": "Hormônio segue<br>como <span class=\"hl\">1ª escolha</span>",
+   "corpo": "Pra quem não tem contraindicação, a diretriz mantém recomendação forte pra reposição hormonal no fogacho e na insônia causada por ele — com preferência por começar antes dos 60 anos ou em até 10 anos após a última menstruação.",
+   "destaque": "Cerca de 36% das mulheres no climatério relatam sintomas depressivos — mas a diretriz diz que ainda falta evidência pra indicar (ou descartar) hormônio especificamente pra isso."
+  },
+  {
+   "tipo": "prova",
+   "foto": "peri_doctor2.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">diretriz oficial</span>.",
+   "print": "/tmp/claude-0/-home-user-publer-media/605e52db-1d5f-5603-990b-faf0847e41cd/scratchpad/ficha_acog.png",
+   "sub": "Clinical Practice Guideline nº 13 do <b>American College of Obstetricians and Gynecologists (ACOG)</b>, publicada em Obstetrics &amp; Gynecology, novembro de 2026."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "03",
+   "manchete": "Sem hormônio,<br>também tem<br><span class=\"hl\">opção</span>",
+   "corpo": "Pra quem não quer ou não pode usar hormônio, a diretriz recomenda antidepressivos específicos (ISRS/IRSN) e uma classe mais nova, os bloqueadores do receptor de neurocinina — como fezolinetanto e elinzanetanto — pro fogacho e pro sono.",
+   "destaque": "Gabapentina entra como alternativa quando as outras opções sem hormônio não funcionam ou não são bem toleradas."
+  },
+  {
+   "foto": "peri_calm.jpg",
+   "numero": "04",
+   "manchete": "O que ajuda —<br>e o que ainda<br><span class=\"hl\">não comprova</span>",
+   "corpo": "Exercício físico, terapia cognitivo-comportamental, acupuntura, mindfulness e hipnose clínica entram na diretriz como opções que ajudam no fogacho e em outros sintomas. Já fitoterápicos — como isoflavona de soja — seguem sem evidência suficiente pra isso.",
+   "fonte": "Fontes: ACOG, Clinical Practice Guideline nº 13 (substitui o Practice Bulletin nº 141), Obstet Gynecol, 2026;148:e345-e369, DOI 10.1097/AOG.0000000000006428. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
