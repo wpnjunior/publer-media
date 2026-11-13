@@ -19,12 +19,12 @@ CSS = """
 *{margin:0;padding:0;box-sizing:border-box;}
 html,body{width:1080px;height:1350px;}
 .s{width:1080px;height:1350px;position:relative;overflow:hidden;background:#0A0D12;
- font-family:'Segoe UI',-apple-system,Roboto,Helvetica,Arial,sans-serif;color:#fff;}
+ font-family:'Segoe UI',-apple-system,Roboto,Helvetica,Arial,sans-serif;color:#fff;--k:1;}
 .foto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
 .veu{position:absolute;inset:0;
- background:linear-gradient(180deg,rgba(6,9,14,.62) 0%,rgba(6,9,14,.22) 32%,rgba(6,9,14,.86) 66%,rgba(6,9,14,.97) 100%);}
+ background:linear-gradient(180deg,rgba(6,9,14,.66) 0%,rgba(6,9,14,.34) 20%,rgba(6,9,14,.84) 46%,rgba(6,9,14,.97) 100%);}
 /* CAPA */
-.capa .veu{background:linear-gradient(180deg,rgba(6,9,14,.10) 0%,rgba(6,9,14,0) 42%,rgba(6,9,14,.80) 72%,rgba(4,6,10,.97) 100%);}
+.capa .veu{background:linear-gradient(180deg,rgba(6,9,14,.10) 0%,rgba(6,9,14,.05) 26%,rgba(6,9,14,.82) 56%,rgba(4,6,10,.97) 100%);}
 .capa .selo{font-size:40px;order:2;margin-bottom:20px;}
 .capa .push{order:1;}
 .capa .manchete{order:3;}
@@ -33,8 +33,8 @@ html,body{width:1080px;height:1350px;}
 .capa .rodape{order:9;}
 .capa .editoria{display:none;}
 .capa .linha{display:none;}
-.capa .manchete{font-size:62px;line-height:1.14;letter-spacing:-1px;}
-.capa .sub{font-size:30px;margin-top:16px;color:#C7D3DE;}
+.capa .manchete{line-height:1.08;letter-spacing:-1.6px;}
+.capa .sub{font-size:calc(32px*(1 + (var(--k) - 1)*.55));margin-top:16px;color:#C7D3DE;}
 .capa .wrap{justify-content:flex-end;}
 .wrap{position:absolute;inset:0;padding:64px 62px 58px;display:flex;flex-direction:column;}
 .selo{display:inline-flex;align-items:center;gap:0;align-self:flex-start;font-weight:900;
@@ -44,20 +44,20 @@ html,body{width:1080px;height:1350px;}
 .editoria{margin-top:18px;align-self:flex-start;background:rgba(255,255,255,.14);border:2px solid rgba(255,255,255,.34);
  color:#fff;font-size:24px;font-weight:800;letter-spacing:4px;text-transform:uppercase;padding:9px 20px;border-radius:6px;}
 .push{flex:1;}
-.manchete{font-size:82px;font-weight:900;line-height:1.06;letter-spacing:-1.6px;
+.manchete{font-size:calc(82px*var(--k));font-weight:900;line-height:1.06;letter-spacing:-1.6px;
  text-shadow:0 4px 24px rgba(0,0,0,.85);}
-.capa .manchete{font-size:88px;}
+.capa .manchete{font-size:calc(88px*var(--k));}
 .manchete .hl{color:#F2C14E;}
 .linha{width:120px;height:8px;background:#D62828;border-radius:4px;margin:26px 0 22px;}
-.sub{font-size:36px;line-height:1.42;color:#D9E1E8;font-weight:600;margin-top:22px;
+.sub{font-size:calc(36px*(1 + (var(--k) - 1)*.55));line-height:1.42;color:#D9E1E8;font-weight:600;margin-top:22px;
  text-shadow:0 2px 12px rgba(0,0,0,.8);}
 .sub b{color:#fff;}
-.corpo{font-size:40px;line-height:1.45;color:#E6ECF2;font-weight:400;margin-top:20px;
+.corpo{font-size:calc(40px*(1 + (var(--k) - 1)*.55));line-height:1.45;color:#E6ECF2;font-weight:400;margin-top:20px;
  text-shadow:0 2px 12px rgba(0,0,0,.8);}
 .corpo b{color:#fff;font-weight:700;}
 .destaque{display:block;background:rgba(214,40,40,.16);border-left:8px solid #D62828;border-radius:12px;
- padding:24px 26px;margin-top:22px;font-size:36px;line-height:1.35;}
-.numero{font-size:150px;font-weight:900;color:#F2C14E;line-height:.9;letter-spacing:-6px;
+ padding:24px 26px;margin-top:22px;font-size:calc(36px*(1 + (var(--k) - 1)*.55));line-height:1.3;font-weight:700;}
+.numero{font-size:calc(150px*(1 + (var(--k) - 1)*.4));font-weight:900;color:#F2C14E;line-height:.9;letter-spacing:-6px;
  text-shadow:0 4px 20px rgba(0,0,0,.7);}
 .rodape{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:26px;
  border-top:2px solid rgba(255,255,255,.2);}
@@ -92,7 +92,15 @@ TPL = """<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></
    <div class="pg">{pg}/{total}</div>
   </div>
  </div>
-</div></body></html>"""
+</div><script>
+/* Letra grande: cresce o texto até sobrar só a faixa de foto no alto (jornal de manchete). */
+(function(){{var s=document.querySelector('.s'),p=document.querySelector('.push'),m=document.querySelector('.manchete'),w=document.querySelector('.wrap');
+ if(s.classList.contains('prova'))return;
+ var min=s.classList.contains('capa')?400:200,k=1,ok=1;
+ function cabe(){{return p.offsetHeight>=min&&m.scrollWidth<=m.clientWidth+1&&w.scrollHeight<=w.clientHeight+1;}}
+ while(k<1.7){{s.style.setProperty('--k',(k+0.02).toFixed(2));if(!cabe())break;k+=0.02;}}
+ s.style.setProperty('--k',k.toFixed(2));}})();
+</script></body></html>"""
 
 def build(cfg):
     marca_a, marca_b = cfg.get("marca", ["PAPO", "NEWS"])

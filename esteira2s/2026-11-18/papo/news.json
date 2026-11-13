@@ -1,0 +1,49 @@
+{
+"marca": [
+"PAPO",
+"NEWS"
+],
+"slides": [
+{
+"tipo": "capa",
+"foto": "leite.jpg",
+"editoria": "Intestino",
+"manchete": "Você não precisa<br>cortar <span class=\"hl\">todo o leite</span>",
+"sub": "Revisão de <b>36 ensaios clínicos</b> mediu quanto o intestino do intolerante aguenta.",
+"fonte": "Fonte: Shaukat et al., Annals of Internal Medicine, 2010"
+},
+{
+"foto": "px_prato_5870870.jpg",
+"numero": "01",
+"manchete": "Descobriu e<br><span class=\"hl\">zerou tudo</span>",
+"corpo": "Leite, queijo, iogurte, até o pingado. É o que quase todo mundo faz quando ouve <b>intolerância à lactose</b>. Só que a ciência mediu a dose."
+},
+{
+"foto": "px_laticinio_4198114.jpg",
+"numero": "02",
+"manchete": "<span class=\"hl\">12 a 15 g</span><br>de lactose",
+"corpo": "É mais ou menos <b>1 copo de leite</b>. Essa quantidade foi bem tolerada pela maioria dos adultos estudados.",
+"destaque": "Evidência de qualidade moderada, segundo a própria revisão."
+},
+{
+"foto": "px_homemmedico_6129444.jpg",
+"numero": "03",
+"manchete": "Te devolvi<br>o <span class=\"hl\">pingado</span>",
+"corpo": "Um curtir é o mínimo, né? E segue aqui, que amanhã tem outro mito indo embora."
+},
+{
+"foto": "px_barriga_7298905.jpg",
+"numero": "04",
+"manchete": "O que observar<br>no <span class=\"hl\">seu caso</span>",
+"corpo": "<b>Quanto</b> tomou de uma vez. Se foi <b>com comida</b> ou em jejum. Em <b>quanto tempo</b> veio o sintoma. Se queijo curado e iogurte dão o mesmo efeito."
+},
+{
+"foto": "px_sangue_6285360.jpg",
+"numero": "05",
+"manchete": "Nem tudo<br>é <span class=\"hl\">lactose</span>",
+"corpo": "Perda de peso sem explicação, sangue nas fezes, diarreia que acorda à noite ou anemia pedem outra investigação.",
+"destaque": "Manda pra quem cortou tudo por conta própria.",
+"fonte": "Fonte: Shaukat et al., Ann Intern Med 2010 · doi 10.7326/0003-4819-152-12-201006150-00241 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+}
+]
+}

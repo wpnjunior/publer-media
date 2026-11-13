@@ -1,0 +1,21 @@
+{
+  "tema": "Álcool e cigarro: pesa nos dois lados",
+  "fontes": [
+    "Sharma et al., Eur Urol 2016, PMID 27113031, doi 10.1016/j.eururo.2016.04.010",
+    "Fan et al., Sci Rep 2017, PMID 29062133, doi 10.1038/s41598-017-14261-8"
+  ],
+  "status": "agendado",
+  "molde": "carrossel",
+  "nota": "Produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories.",
+  "agendamento": {
+    "metricool_id": 425043258,
+    "uuid": "1648290578799021880",
+    "horario": "2026-11-21T12:07:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-21/fertilidade/01.jpg",
+    "redes": [
+      "instagram"
+    ]
+  }
+}

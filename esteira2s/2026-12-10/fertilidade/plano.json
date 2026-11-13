@@ -1,0 +1,22 @@
+{
+ "formato": "mapeamento",
+ "pele": "quadro",
+ "titulo": "",
+ "destaques": ["infértil", "Calma", "mediram", "Harvard", "larga", "vinte e cinco", "calor", "frio", "detalhe", "causa", "sentença", "trocar", "espermograma"],
+ "seguir": {"quando": "Segue a gente aqui", "texto": "segue + curte", "arroba": "@fertilidadeadois"},
+ "cenas": [
+  {"quando": "Deixar infértil", "tipo": "etiqueta", "texto": "infértil?", "sub": "\"pode acabar te deixando infértil\"", "cor": "vermelho"},
+  {"quando": "Um estudo de Harvard", "tipo": "cartao", "emoji": "📄", "cor": "azul", "rotulo": "Estudo de 2018, Human Reproduction"},
+  {"quando": "com seiscentos e cinquenta", "tipo": "etiqueta", "texto": "656 homens", "sub": "de uma clínica de fertilidade", "cor": "azul"},
+  {"quando": "Quem usava mais", "tipo": "cartao", "emoji": "🩳", "cor": "verde", "rotulo": "Cueca larga (samba-canção)"},
+  {"quando": "tinha vinte e cinco", "tipo": "etiqueta", "texto": "+25%", "sub": "espermatozoides por mililitro", "cor": "verde"},
+  {"quando": "A explicação é o calor", "tipo": "cartao", "emoji": "🌡️", "cor": "amarelo", "rotulo": "O calor atrapalha a produção"},
+  {"quando": "Isso é uma foto", "tipo": "citacao", "texto": "Uma foto de um momento. Não prova causa.", "destaque": "Não prova causa.", "autor": "limite que os autores apontam"},
+  {"quando": "Eram homens que", "tipo": "checklist", "titulo": "Os limites", "itens": ["Homens já em clínica", "Cueca contada por eles", "Sem medir a temperatura"], "marcados": 3},
+  {"quando": "Então cueca apertada", "tipo": "etiqueta", "texto": "não é sentença", "sub": "é um fator a mais, fácil de trocar", "cor": "verde"},
+  {"quando": "E se o casal", "tipo": "cartao", "emoji": "🔬", "cor": "azul", "rotulo": "Quem responde é o espermograma"}
+ ],
+ "fonte": {"quando": "Um estudo de Harvard", "ate": "usava a apertada", "texto": "Mínguez-Alarcón e col., Human Reproduction 2018"},
+ "fim": {"marca": "FERTILIDADE A DOIS", "frase": "Vocês dois, juntos.", "ref": "Mínguez-Alarcón e col., Hum Reprod 2018 · doi 10.1093/humrep/dey259"},
+ "trilha": "summer_sun"
+}

@@ -1,0 +1,153 @@
+{
+ "o_que_e": "Banco de CTAs das duas contas (pedido do Wagner, 11/11/2026). A esteira sorteia daqui e adapta ao assunto do dia; frase usada ganha a data em usado_em e não volta em 30 dias.",
+ "pesquisa": {
+  "feita_em": "2026-11-11",
+  "achados": [
+   {
+    "achado": "Os 3 sinais que o Instagram mais pesa em Reels: tempo assistido, curtidas por alcance e envios por alcance. Curtida pesa um pouco mais com quem já segue; envio (mandar para alguém) pesa mais para chegar em quem não segue.",
+    "fonte": "Adam Mosseri, citado em https://buffer.com/resources/instagram-algorithms/ e https://blog.hootsuite.com/instagram-algorithm/",
+    "forca": "declaração oficial citada por terceiros"
+   },
+   {
+    "achado": "Interações mais próximas do ranking: ver alguns segundos, comentar, curtir, compartilhar e tocar no perfil. Salvar não aparece nessa lista.",
+    "fonte": "https://buffer.com/resources/instagram-algorithms/",
+    "forca": "post do Instagram citado por terceiros"
+   },
+   {
+    "achado": "CTA no MEIO do vídeo converteu 16,95%, no fim 10,98% e no começo 3,15%; 95,9% das pessoas põem no fim.",
+    "fonte": "Wistia, 481.514 CTAs, citado em https://www.skool.com/prime-mover/95-of-people-put-their-video-cta-in-the-worst-possible-spot",
+    "forca": "dado de segunda mão, vídeos em geral (não só Reels)"
+   },
+   {
+    "achado": "Cerca de metade dos vídeos do Instagram é vista sem som: todo CTA falado precisa estar também escrito na tela.",
+    "fonte": "Mosseri, citado em https://buffer.com/resources/instagram-algorithms/",
+    "forca": "declaração oficial citada por terceiros"
+   },
+   {
+    "achado": "Conteúdo com 'isca de engajamento' ou sorteio que EXIGE curtir/seguir pode não ser recomendado a quem não segue. Pedido leve e com humor não é sorteio, mas nunca prometer nada em troca do seguir.",
+    "fonte": "diretrizes de recomendação do Instagram, resumidas em https://buffer.com/resources/instagram-algorithms/",
+    "forca": "resumo de terceiros"
+   },
+   {
+    "achado": "Um CTA por momento; vários ao mesmo tempo dividem a atenção. Responder comentários está associado a 21% mais engajamento.",
+    "fonte": "https://socialk.it/en/blog/tiktok-cta-conversion-guide (opinião) e relatório Buffer 2026 (associação)",
+    "forca": "opinião + correlação"
+   }
+  ],
+  "nao_achei": "Nenhuma fonte séria compara o retorno por TIPO de CTA (seguir x mandar x salvar) com número. A ordem abaixo segue o peso que o próprio Instagram declara; os nossos 30 dias vão medir de verdade (campo cta_tipo em cada meta.json e relatório de segunda-feira)."
+ },
+ "regras": [
+  "No MEIO, logo depois da entrega: a COBRANÇA de seguir e curtir, com humor (tipo cobranca). Uma por vídeo.",
+  "No FIM: UMA chamada do conteúdo (mandar, comentar, salvar ou palavra-chave), nunca duas.",
+  "Todo CTA falado aparece escrito na tela por 2 s, com o @ da conta.",
+  "Nunca prometer prêmio, sorteio ou resultado de saúde em troca de seguir ou curtir.",
+  "Fertilidade: a brincadeira nunca é sobre não engravidar, demorar ou perder. Luto e perda gestacional: sem cobrança.",
+  "Adapte a frase ao assunto do dia; onde houver [ASSUNTO] ou [ENTREGA], troque pela imagem que o vídeo acabou de usar."
+ ],
+ "ordem_de_retorno": [
+  "mandar",
+  "cobranca",
+  "comentar",
+  "palavra_chave",
+  "salvar"
+ ],
+ "tipos": {
+  "cobranca": {
+   "onde": "meio",
+   "para_que": "seguir + curtir (curtidas por alcance e toque no perfil)",
+   "papo": [
+    "Depois de desfazer essa minhoca na sua cabeça, não me seguir é atestado de sadomasoquista.",
+    "Quem não me seguir vai ficar com verme.",
+    "Te poupei três anos de [ASSUNTO] errado. Um curtir é o mínimo, né?",
+    "Eu li o estudo inteiro pra você não precisar. Seguir aqui é pagar o pedágio.",
+    "Se depois dessa você não me segue, o problema já não é [ASSUNTO].",
+    "Quem não curtir vai passar o mês ouvindo o tio do zap falar de detox.",
+    "Pronto, a minha parte eu fiz. A sua é curtir e me seguir.",
+    "Combinado é combinado: eu trago o estudo, você curte e segue.",
+    "Antes do final, um pedágio leve: curte e me segue.",
+    "Consulta de graça, cara. O recibo é o curtir.",
+    "Quem sair sem seguir vai levar essa dúvida de volta pra casa.",
+    "Não seguir depois dessa é igual sair do médico e rasgar a receita.",
+    "Curtir custa menos que o suplemento que você ia comprar à toa.",
+    "Quem não seguir vai acreditar no próximo [ASSUNTO] milagroso que aparecer.",
+    "Esse dado ninguém te contou, né? Então curte aí, que eu conto o próximo.",
+    "Se isso te salvou de uma bobagem, o curtir é o seu obrigado."
+   ],
+   "fertilidade": [
+    "Eu trouxe o dado. Vocês dois deixam o curtir e seguem a gente. Fechado?",
+    "Quem não seguir vai ouvir da sogra 'e o neto, sai quando?' por mais dois anos.",
+    "Quem não curtir vai ter que explicar espermograma pro cunhado no churrasco.",
+    "Essa ninguém fala na consulta de dez minutos, né? Curte e segue, que aqui a gente fala.",
+    "Poupei vocês de mais um palpite de grupo de família. Um curtir paga.",
+    "Um curte e o outro segue. Dividir tarefa é o primeiro treino do casal.",
+    "Quem não seguir vai continuar ouvindo 'relaxa que vem'. Aqui a gente troca palpite por estudo.",
+    "Se isso tirou um peso das costas de vocês, deixa o curtir e segue a gente.",
+    "Manda o seu par seguir também. Aqui a conta é sempre a dois.",
+    "Seguir aqui é mais barato que o chá que a vizinha indicou."
+   ]
+  },
+  "mandar": {
+   "onde": "fim",
+   "para_que": "envios por alcance (o sinal que mais leva o vídeo a quem não segue)",
+   "papo": [
+    "Manda pra quem vive dizendo isso.",
+    "Manda pra aquele amigo que toma [ASSUNTO] sem saber por quê.",
+    "Manda no grupo da família antes que o tio mande o contrário.",
+    "Conhece alguém que jura por isso? Manda sem dizer nada.",
+    "Manda pra quem vai fazer exame essa semana.",
+    "Manda pro seu parceiro de treino."
+   ],
+   "fertilidade": [
+    "Manda pro seu par agora.",
+    "Manda pra aquela amiga que está tentando e não fala pra ninguém.",
+    "Manda pra ele. Sem bilhete, só manda.",
+    "Manda pra quem disse que 'o problema é sempre dela'.",
+    "Manda pro casal que vocês sabem que precisa ouvir."
+   ]
+  },
+  "comentar": {
+   "onde": "fim",
+   "para_que": "comentários (conversa; responder aumenta o engajamento)",
+   "papo": [
+    "E você, já cortou [ASSUNTO] por conta própria?",
+    "Me conta: mito ou verdade na sua casa?",
+    "Qual foi o exame que nunca te pediram?",
+    "Qual mito você quer que eu desmonte amanhã?",
+    "Comenta 'eu' se você já caiu nessa."
+   ],
+   "fertilidade": [
+    "Há quanto tempo vocês estão tentando? Só o número.",
+    "Ele já fez o espermograma? Sim ou não.",
+    "Qual palpite vocês mais ouvem?",
+    "Que dúvida vocês têm vergonha de levar pra consulta?"
+   ]
+  },
+  "palavra_chave": {
+   "onde": "fim",
+   "para_que": "direct com material (só quando o material existir de verdade)",
+   "papo": [
+    "Comenta EXAMES que eu te mando a lista.",
+    "Comenta JEJUM que eu te mando o passo a passo."
+   ],
+   "fertilidade": [
+    "Comenta TENTANTE que eu mando a lista de exames do casal.",
+    "Comenta LISTA que eu mando o que levar na primeira consulta."
+   ]
+  },
+  "salvar": {
+   "onde": "fim",
+   "para_que": "voltar ao post (lista, exame, passo a passo)",
+   "papo": [
+    "Salva pra levar na consulta.",
+    "Salva antes de comprar o próximo pote.",
+    "Salva, que na hora do exame você vai querer achar."
+   ],
+   "fertilidade": [
+    "Salva pra levar na consulta, vocês dois.",
+    "Salva e mostra pro médico de vocês.",
+    "Salva pra conferir no próximo ciclo."
+   ]
+  }
+ },
+ "usado_em": {}
+}

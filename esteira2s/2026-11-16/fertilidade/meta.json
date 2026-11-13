@@ -1,0 +1,26 @@
+{
+ "status": "agendado",
+ "tema": "Metade da causa é dele: o espermograma primeiro",
+ "molde": "carrossel",
+ "fontes": [
+  "Agarwal et al., Reprod Biol Endocrinol 2015, PMID 25928197, doi 10.1186/s12958-015-0032-1"
+ ],
+ "cta_meio": {
+  "tipo": "cobranca",
+  "frase": "Tirei um peso das costas dela. Curte aí, casal."
+ },
+ "cta_fim": {
+  "tipo": "mandar",
+  "frase": "Manda pro seu par."
+ },
+ "nota": "Produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories.",
+ "metricool_id": 424179933,
+ "uuid": "-6298414274846244384",
+ "horario": "2026-11-16T19:22 America/Sao_Paulo",
+ "sha": "ab29a299ba764b1fe01b1303fa30fdb3fb6ffcc7",
+ "raw_base": "https://raw.githubusercontent.com/wpnjunior/publer-media/ab29a299ba764b1fe01b1303fa30fdb3fb6ffcc7/esteira2s/2026-11-16/fertilidade/",
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "data": "2026-11-10",
+ "status": "publicado",
+ "tema": "O médico que bebeu a bactéria: gastrite não é só nervoso (H. pylori, Marshall e Warren)",
+ "nota_jev": 9,
+ "candidatos": [
+  {
+   "tema": "Barry Marshall bebeu a H. pylori (1984) e derrubou o dogma da úlcera de nervoso",
+   "nota": 9,
+   "motivo": "história real com data, cientista e números (+3), erro da própria medicina (+2), gancho de 3 partes (+1), foco intestino/estômago (+1), números 100/58/10 dias (+1); polêmica não é do dia"
+  },
+  {
+   "tema": "Angus Barbieri: 382 dias de jejum supervisionado (Postgrad Med J 1973)",
+   "nota": 6,
+   "motivo": "história real com número enorme (+3+1+1+1), mas jejum já saiu em 08/11 (-2) e roça promessa/risco de imitação"
+  },
+  {
+   "tema": "Ibuprofeno todo dia e o rim (outlier de 2,2 mi no IG)",
+   "nota": 4,
+   "motivo": "polêmica viva (+2), mas gira em torno de remédio (-3) e não é história"
+  },
+  {
+   "tema": "Músculo sóleo baixa glicose (Hamilton, iScience 2022)",
+   "nota": 5,
+   "motivo": "número e cientista, mas já viralizou em outro perfil esta semana e não é foco"
+  },
+  {
+   "tema": "Peixe-agulha que vive dentro do pepino-do-mar (trend YouTube)",
+   "nota": 3,
+   "motivo": "viral, mas não é saúde humana nem tem gancho clínico"
+  }
+ ],
+ "heygen_id": "f97f005933053b561a663bbba072c203",
+ "heygen_link": "https://app.heygen.com/videos/f97f005933053b561a663bbba072c203",
+ "creditos_antes": 501,
+ "fontes": [
+  {
+   "ref": "Marshall BJ, Warren JR. Lancet 1984;1(8390):1311-5",
+   "doi": "10.1016/s0140-6736(84)91816-6"
+  },
+  {
+   "ref": "Marshall BJ et al. Med J Aust 1985;142(8):436-9",
+   "doi": "10.5694/j.1326-5377.1985.tb113443.x"
+  },
+  {
+   "ref": "Warren JR. Nobel lecture, ChemMedChem 2006;1(7):672-85",
+   "doi": "10.1002/cmdc.200600121"
+  }
+ ],
+ "gestos": "raised index finger, palms down calming, head tilt with open hands, tap temple, point at camera last sentence",
+ "creditos_depois": 448,
+ "duracao_s": 64.5,
+ "duracao_bruto_s": 64.2,
+ "tamanho_mb": 30.0,
+ "formato": "dinamica",
+ "estilo_painel": "dossie",
+ "motivo_formato": "história real de experimento famoso e erro da medicina (dogma da úlcera de nervoso): pede o Dossiê confidencial com cortes rápidos; o último vídeo (vacina) foi tela dividida",
+ "trilha": "dark_cinematic",
+ "conferencia_rosto": "6 quadros conferidos: sem sorriso largo, rosto sem deformar",
+ "edicao_passadas": 3,
+ "edicao_nota": "1ª passada: painéis manchete saíram com texto branco no papel claro (ilegível); trocados por texto na 2ª; 3ª (thread dona): painel do dossiê descia sobre os olhos, rosto descido para baixo do painel, legenda a 1600 e fonte no rodapé",
+ "legenda": "Você já ouviu que gastrite é de nervoso? Me conta aqui embaixo.\n\nEm 1984, dois médicos australianos acharam uma bactéria em espiral no estômago de 58 de 100 pacientes. Ninguém acreditou. Aí o Barry Marshall bebeu a cultura, e dez dias depois a biópsia dele mostrou gastrite. Em 2005 os dois levaram o Nobel.\n\nO estresse piora a queimação, mas a bactéria Helicobacter pylori foi o motor escondido de muita úlcera.\n\nFonte: Marshall e Warren, The Lancet, 1984 (doi 10.1016/s0140-6736(84)91816-6) e Marshall et al., Med J Aust, 1985 (doi 10.5694/j.1326-5377.1985.tb113443.x).\n\nIsso não substitui consulta. Converse com seu médico.\n\n#papodemedico #gastrite #helicobacterpylori #estomago #historiadamedicina",
+ "titulo_yt": "O médico que bebeu uma bactéria pra provar que a gastrite não era só nervoso #Shorts",
+ "publicar_em": "2026-11-10T18:00:00-03:00",
+ "branch": "claude/project-thread-wkec50",
+ "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/claude/project-thread-wkec50/diario/2026-11-10/reel.mp4",
+ "tamanho_bytes_raw": 30033265,
+ "obs_pasta_rede": "a pasta /mnt/project-files remuxa o mp4 ao gravar (fica ~29969405 bytes, md5 diferente), mesma duração 67,4 s e sabor aprovado; a mídia oficial é a do raw_url",
+ "previa_disparada": true,
+ "branch_anterior": "claude/project-thread-qzwnuj",
+ "metricool_id": 423621858,
+ "agendado_em": "2026-11-10T17:06-03:00",
+ "links": {
+  "instagram": "https://www.instagram.com/reel/Dfk1ExhCvZ-/",
+  "tiktok": "https://www.tiktok.com/@drwagnernovaesjr/video/7706649692825767169",
+  "youtube": "https://www.youtube.com/shorts/fNxFLmDmzOI"
+ }
+}

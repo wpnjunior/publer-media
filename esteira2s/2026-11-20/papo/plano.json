@@ -1,0 +1,110 @@
+{
+ "formato": "mapeamento",
+ "pele": "jornal",
+ "titulo": "Verme no cérebro?",
+ "destaques": [
+  "verme",
+  "cérebro",
+  "Neurocisticercose",
+  "ovos",
+  "vinte e nove",
+  "Lavar"
+ ],
+ "broll": [
+  "px_lavar_4963879.jpg",
+  "px_lavar_7592334.jpg",
+  "px_prato_5870870.jpg",
+  "px_lavar_8805229.jpg",
+  "px_lab_5726714.jpg",
+  "px_lavar_9016642.jpg",
+  "px_lavar_7964659.jpg"
+ ],
+ "seguir": {
+  "quando": "Te contei o que",
+  "texto": "quem não seguir fica com verme 😅",
+  "arroba": "@dr.wagnernovaesjr"
+ },
+ "cenas": [
+  {
+   "quando": "Um político americano",
+   "tipo": "celular",
+   "modo": "manchete",
+   "veiculo": "The New York Times",
+   "data": "8 de maio de 2024 · tradução livre",
+   "texto": "Kennedy Jr. diz que médicos acharam um verme morto no cérebro dele",
+   "destaque": "verme morto"
+  },
+  {
+   "quando": "Eu não examinei",
+   "tipo": "cartao",
+   "emoji": "🩺",
+   "cor": "azul",
+   "rotulo": "Sem diagnóstico à distância"
+  },
+  {
+   "quando": "Neurocisticercose",
+   "tipo": "etiqueta",
+   "texto": "Neurocisticercose",
+   "sub": "a larva da tênia do porco no cérebro",
+   "cor": "vermelho"
+  },
+  {
+   "quando": "A pessoa não pega",
+   "tipo": "citacao",
+   "texto": "Não é a carne de porco que leva o verme ao cérebro.",
+   "destaque": "Não é a carne",
+   "autor": "o que quase ninguém sabe"
+  },
+  {
+   "quando": "Mão mal lavada",
+   "tipo": "checklist",
+   "titulo": "Por onde o ovo entra",
+   "itens": [
+    "Mão mal lavada",
+    "Água suja",
+    "Verdura mal lavada"
+   ],
+   "marcados": 3
+  },
+  {
+   "quando": "de cada cem pessoas",
+   "tipo": "barra",
+   "barras": [
+    {
+     "rotulo": "pessoas com epilepsia",
+     "valor": 100,
+     "texto": "100",
+     "cor": "azul"
+    },
+    {
+     "rotulo": "com cisticerco no cérebro",
+     "valor": 29,
+     "texto": "29",
+     "cor": "vermelho"
+    }
+   ]
+  },
+  {
+   "quando": "Lavar a mão depois",
+   "tipo": "checklist",
+   "titulo": "O que protege",
+   "itens": [
+    "Lavar a mão",
+    "Lavar bem a verdura",
+    "Água tratada"
+   ],
+   "marcados": 3
+  }
+ ],
+ "fonte": {
+  "quando": "Numa revisão de estudos",
+  "ate": "cisticerco no cérebro",
+  "texto": "Ndimubanzi et al., PLoS Negl Trop Dis 2010"
+ },
+ "fim": {
+  "marca": "PAPO DE MÉDICO",
+  "frase": "Na dúvida, conversa com o seu médico.",
+  "ref": "Ndimubanzi et al., PLoS Negl Trop Dis 2010 · doi 10.1371/journal.pntd.0000870"
+ },
+ "trilha": "moment_of_peace"
+}

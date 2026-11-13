@@ -1,0 +1,26 @@
+{
+  "status": "agendado",
+  "tema": "A vacina e a fertilidade: o que os estudos mediram",
+  "molde": "tela_dividida",
+  "linguagem": "tela_dividida",
+  "midia": "final.mp4",
+  "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+  "fontes": [
+    "Yland et al., Hum Reprod 2023, doi 10.1093/humrep/dead211 (1.815 mulheres; aborto espontâneo sem diferença entre vacinadas e não vacinadas)"
+  ],
+  "legenda_base": "/mnt/project-files/videos-novembro-2026/vacina-fertilidade-legenda.txt (reescrever própria da Fertilidade)",
+  "nota": "Vídeo pronto de 10/11, visual anterior do avatar (camisa escura). Está na grade aprovada; regra do avatar padrão vale para os próximos. Wagner avisado em 11/11: pode vetar.",
+  "agendamento": {
+    "metricool_id": 425043053,
+    "uuid": "-3559152355517969684",
+    "horario": "2026-11-20T20:11:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-20/fertilidade/final.mp4",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+    ]
+  }
+}

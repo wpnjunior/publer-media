@@ -1,0 +1,111 @@
+{
+ "formato": "mapeamento",
+ "pele": "clinico",
+ "titulo": "Cueca apertada atrapalha?",
+ "destaques": [
+  "Harvard",
+  "samba-canção",
+  "vinte e cinco",
+  "associação",
+  "calor",
+  "espermograma"
+ ],
+ "broll": [
+  "px_casal_8559990.jpg",
+  "px_homemmedico_7578803.jpg",
+  "px_lab_9574324.jpg",
+  "px_casal_3958822.jpg",
+  "px_lab_3938022.jpg",
+  "px_casal_8560477.jpg"
+ ],
+ "seguir": {
+  "quando": "Combinado é combinado",
+  "texto": "curte + segue",
+  "arroba": "@fertilidadeadois"
+ },
+ "cenas": [
+  {
+   "quando": "Cueca apertada atrapalha",
+   "tipo": "citacao",
+   "texto": "Cueca apertada atrapalha o espermatozoide?",
+   "destaque": "atrapalha",
+   "autor": "mito ou verdade?"
+  },
+  {
+   "quando": "Eles estudaram",
+   "tipo": "etiqueta",
+   "texto": "656 homens",
+   "sub": "de casais em uma clínica de fertilidade",
+   "cor": "azul"
+  },
+  {
+   "quando": "Quem usava mais samba-canção",
+   "tipo": "barra",
+   "barras": [
+    {
+     "rotulo": "cueca justa",
+     "valor": 100,
+     "texto": "base",
+     "cor": "azul"
+    },
+    {
+     "rotulo": "samba-canção",
+     "valor": 125,
+     "texto": "+25%",
+     "cor": "vermelho"
+    }
+   ]
+  },
+  {
+   "quando": "O estudo mostra uma",
+   "tipo": "checklist",
+   "titulo": "Leia com calma",
+   "itens": [
+    "É associação, não causa",
+    "Estudo em uma clínica só",
+    "O tipo de cueca foi relatado"
+   ],
+   "marcados": 1
+  },
+  {
+   "quando": "Não prova que a",
+   "tipo": "checklist",
+   "titulo": "Leia com calma",
+   "itens": [
+    "É associação, não causa",
+    "Estudo em uma clínica só",
+    "O tipo de cueca foi relatado"
+   ],
+   "marcados": 3
+  },
+  {
+   "quando": "Uma explicação possível",
+   "tipo": "cartao",
+   "emoji": "🌡️",
+   "cor": "azul",
+   "rotulo": "O calor é o suspeito"
+  },
+  {
+   "quando": "Então, o veredito",
+   "tipo": "etiqueta",
+   "texto": "Verdade, em parte",
+   "sub": "quem responde é o espermograma",
+   "cor": "azul"
+  }
+ ],
+ "fonte": {
+  "quando": "Pesquisadores de Harvard",
+  "ate": "cueca justa",
+  "texto": "Mínguez-Alarcón et al., Human Reproduction 2018"
+ },
+ "fim": {
+  "marca": "FERTILIDADE A DOIS",
+  "frase": "Investigar o casal é o primeiro passo.",
+  "ref": "Mínguez-Alarcón et al., Hum Reprod 2018 · doi 10.1093/humrep/dey259"
+ },
+ "trilha": "moment_of_peace",
+ "caixa_pergunta": {
+  "cab": "Faça uma pergunta",
+  "res": "Fertilidade a Dois responde..."
+ }
+}

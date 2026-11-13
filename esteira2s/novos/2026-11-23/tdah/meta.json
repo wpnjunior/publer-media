@@ -1,0 +1,27 @@
+{
+ "marca": "Tdah Adulto Real",
+ "tema": "TDAH e o peso: o que uma revisão com 728 mil pessoas viu",
+ "fontes": [
+  "Cortese et al., Am J Psychiatry 2016, PMID 26315982, doi 10.1176/appi.ajp.2015.15020266"
+ ],
+ "molde": "carrossel Papo News",
+ "status": "agendado",
+ "metricool_id": 427556661,
+ "uuid": "-6445484303942006210",
+ "horario": "2026-11-23T07:33 America/Sao_Paulo",
+ "sha": "ad696aa6ade41f05a9d566dbab36e2ce75a59e57",
+ "agendado_em": "2026-11-13",
+ "redes": [
+  "instagram"
+ ],
+ "stories": [
+  {
+   "metricool_id": 427557199,
+   "horario": "09:04"
+  },
+  {
+   "metricool_id": 427557209,
+   "horario": "22:06"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+  "tema": "O óvulo escolhe o espermatozoide? (react)",
+  "molde": "react",
+  "linguagem": "react_dividido",
+  "edicao": "react em TELA DIVIDIDA (modelo do react do peido) + mapeamento pele clinico",
+  "midia": "final.mp4",
+  "viral": "https://www.tiktok.com/@fatosdesconhecidos/video/7492767354649365765 (trecho de 8,6 s a partir de 4,4 s, crédito @fatosdesconhecidos na tela; citar também na legenda)",
+  "rostos": [
+    "ouvindo_01",
+    "virada_04",
+    "troca_06",
+    "fecho_10"
+  ],
+  "fontes": [
+    "Fitzpatrick e col., Proc Biol Sci 2020, PMID 32517615, doi 10.1098/rspb.2020.0805: em laboratório, o líquido folicular de mulheres diferentes atraiu de forma consistente mais espermatozoides de homens específicos; a preferência não acompanhou a escolha do parceiro"
+  ],
+  "status": "agendado",
+  "custo_estimado": 10,
+  "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+  "nota": "Produzido em 11/11 a pedido do Wagner (5 reacts por perfil). Entrou no lugar do tema anabolizante, que ficou sem vídeo viral adequado e volta para a fila. Sem promessa de gravidez e sem culpa. Rodada da véspera escreve a legenda com crédito ao @fatosdesconhecidos e agenda.",
+  "agendamento": {
+    "metricool_id": 425043840,
+    "uuid": "7054995287034512338",
+    "horario": "2026-11-24T20:27:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-24/fertilidade/final.mp4",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+    ]
+  }
+}

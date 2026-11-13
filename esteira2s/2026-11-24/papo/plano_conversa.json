@@ -1,0 +1,16 @@
+{"arroba":"@dr.wagnernovaesjr","marca":"PAPO DE MÉDICO","contato":"Pergunta do dia","iniciais":"?","status":"online",
+ "aviso":["Nova mensagem","Doutor, café quebra o jejum?"],
+ "mensagens":[
+  {"quando":"Doutor, café quebra","lado":"ele","texto":"Doutor, café quebra o jejum?"},
+  {"quando":"café puro, sem","lado":"eu","texto":"Café puro, sem açúcar e sem leite"},
+  {"quando":"tem perto de","lado":"eu","texto":"Perto de 2 calorias por xícara"},
+  {"quando":"E um estudo pequeno","lado":"eu","texto":"Um estudo de 2021 foi medir"},
+  {"quando":"Dez pessoas","lado":"eu","texto":"10 pessoas, 10 horas de jejum"},
+  {"quando":"Um dia tomaram","lado":"eu","texto":"Água num dia, café preto no outro"},
+  {"quando":"A glicose e","lado":"eu","texto":"Glicose e triglicerídeo: iguais"},
+  {"quando":"Agora, cuidado","lado":"ele","texto":"E com leite?"},
+  {"quando":"Açúcar, leite, creme","lado":"eu","texto":"Açúcar, leite, creme: já é comida"},
+  {"quando":"E o estudo é","lado":"eu","texto":"Estudo pequeno, gente jovem e saudável"},
+  {"quando":"Se o café te","lado":"eu","texto":"Deu azia? Seu corpo já respondeu"}],
+ "seguir":"curte + segue","trilha":"educacional",
+ "fim":{"frase":"Café puro: quase zero.","ref":"Sciarrillo et al., Clin Nutr ESPEN 2021\ndoi 10.1016/j.clnesp.2020.11.020\nCalorias do café: tabela USDA"}}

@@ -1,0 +1,131 @@
+{
+ "formato": "mapeamento",
+ "titulo": "Pular o café da manhã engorda?",
+ "destaques": [
+  "engorda",
+  "treze estudos",
+  "calorias",
+  "meio quilo",
+  "Mito",
+  "relógio"
+ ],
+ "cenas": [
+  {
+   "quando": "Café da manhã é a",
+   "tipo": "citacao",
+   "texto": "Café da manhã é a refeição mais importante do dia.",
+   "destaque": "mais importante",
+   "autor": "o que você cresceu ouvindo"
+  },
+  {
+   "quando": "Uma revisão juntou",
+   "tipo": "cartao",
+   "emoji": "📚",
+   "cor": "azul",
+   "rotulo": "13 estudos com sorteio"
+  },
+  {
+   "quando": "Um grupo tomava",
+   "tipo": "foto",
+   "emoji": "☕",
+   "cor": "amarelo",
+   "legenda": "um grupo tomava café, o outro pulava"
+  },
+  {
+   "quando": "Quem tomava café comeu",
+   "tipo": "etiqueta",
+   "texto": "+260 kcal",
+   "sub": "a mais por dia",
+   "cor": "vermelho"
+  },
+  {
+   "quando": "E quem pulava ficou",
+   "tipo": "etiqueta",
+   "texto": "0,44 kg",
+   "sub": "mais leve quem pulava",
+   "cor": "azul"
+  },
+  {
+   "quando": "Pronto, a minha parte",
+   "tipo": "rosto"
+  },
+  {
+   "quando": "Os estudos eram curtos",
+   "tipo": "checklist",
+   "titulo": "Leia com cuidado",
+   "itens": [
+    "Estudos curtos, de semanas",
+    "Qualidade baixa",
+    "Não manda parar de comer"
+   ],
+   "marcados": 1
+  },
+  {
+   "quando": "e de qualidade baixa",
+   "tipo": "checklist",
+   "titulo": "Leia com cuidado",
+   "itens": [
+    "Estudos curtos, de semanas",
+    "Qualidade baixa",
+    "Não manda parar de comer"
+   ],
+   "marcados": 2
+  },
+  {
+   "quando": "Isso não manda ninguém",
+   "tipo": "checklist",
+   "titulo": "Leia com cuidado",
+   "itens": [
+    "Estudos curtos, de semanas",
+    "Qualidade baixa",
+    "Não manda parar de comer"
+   ],
+   "marcados": 3
+  },
+  {
+   "quando": "Se você tem diabetes",
+   "tipo": "cartao",
+   "emoji": "🩺",
+   "cor": "vermelho",
+   "rotulo": "Diabetes, remédio ou gravidez: fale com o médico"
+  },
+  {
+   "quando": "Veredito? Mito",
+   "tipo": "etiqueta",
+   "texto": "MITO",
+   "sub": "pular o café não engorda sozinho",
+   "cor": "vermelho"
+  },
+  {
+   "quando": "Cada caso é um",
+   "tipo": "rosto"
+  }
+ ],
+ "fonte": {
+  "quando": "Uma revisão juntou",
+  "ate": "meio quilo mais leve",
+  "texto": "Sievert et al., BMJ 2019"
+ },
+ "fim": {
+  "frase": "O que pesa é o dia inteiro, não o relógio.",
+  "ref": "Sievert et al., BMJ 2019 · doi 10.1136/bmj.l42"
+ },
+ "trilha": "educacional",
+ "pele": "noite",
+ "broll": [
+  "px_prato_5870870.jpg",
+  "px_pao_1586947.jpg",
+  "px_calendario_9052846.jpg",
+  "px_homemmedico_6129444.jpg",
+  "frutas.jpg"
+ ],
+ "seguir": {
+  "quando": "Pronto, a minha parte",
+  "texto": "curte + segue",
+  "arroba": "@dr.wagnernovaesjr"
+ },
+ "caixa_pergunta": {
+  "cab": "Faça uma pergunta",
+  "res": "Dr. Wagner responde..."
+ }
+}

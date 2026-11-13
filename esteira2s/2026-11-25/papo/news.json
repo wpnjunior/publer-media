@@ -1,0 +1,49 @@
+{
+ "marca": [
+  "PAPO",
+  "NEWS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_pao_1555813.jpg",
+   "editoria": "Intestino",
+   "manchete": "O vilão pode<br>não ser o <span class=\"hl\">glúten</span>",
+   "sub": "Estudo norueguês testou <b>59 pessoas</b> que diziam não tolerar glúten.",
+   "fonte": "Fonte: Skodje et al., Gastroenterology, 2018"
+  },
+  {
+   "foto": "px_pao_166021.jpg",
+   "numero": "01",
+   "manchete": "Cortou o pão<br>e <span class=\"hl\">melhorou</span>",
+   "corpo": "Acontece muito, e a melhora é real. A pergunta é: foi o glúten que saiu, ou outra coisa que saiu junto com o trigo?"
+  },
+  {
+   "foto": "px_lab_8851548.jpg",
+   "numero": "02",
+   "manchete": "O teste<br><span class=\"hl\">às cegas</span>",
+   "corpo": "Cada pessoa comeu barrinhas com glúten, com frutanos ou sem nenhum dos dois, uma semana cada, sem saber qual era qual. Doença celíaca já estava descartada."
+  },
+  {
+   "foto": "px_barriga_3807733.jpg",
+   "numero": "03",
+   "manchete": "<span class=\"hl\">Frutanos</span><br>estufaram mais",
+   "corpo": "Os sintomas e o estufamento foram maiores na semana dos frutanos, um carboidrato do trigo que fermenta no intestino.",
+   "destaque": "Glúten e placebo deram resultado parecido."
+  },
+  {
+   "foto": "px_pao_960662.jpg",
+   "numero": "04",
+   "manchete": "Defendi o seu<br><span class=\"hl\">pãozinho</span>",
+   "corpo": "Um pouco, pelo menos. Curte aí e me segue, que amanhã tem mais."
+  },
+  {
+   "foto": "px_sangue_1350560.jpg",
+   "numero": "05",
+   "manchete": "Antes de cortar,<br><span class=\"hl\">investiga</span>",
+   "corpo": "Tirar o glúten antes dos exames pode esconder a doença celíaca no resultado. Primeiro o diagnóstico, depois a dieta. Converse com seu médico.",
+   "destaque": "Manda pra quem cortou o pão.",
+   "fonte": "Fonte: Skodje et al., Gastroenterology 2018 · doi 10.1053/j.gastro.2017.10.040 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

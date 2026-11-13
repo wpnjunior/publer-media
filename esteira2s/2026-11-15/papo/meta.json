@@ -1,0 +1,40 @@
+{
+ "status": "agendado",
+ "tema": "Pular o café da manhã engorda? (mito)",
+ "molde": "mito_ou_verdade",
+ "edicao": "mapeamento, pele noite, gancho em caixinha de pergunta",
+ "midia": "final.mp4",
+ "voz_s_bruta": 56.0,
+ "custo_estimado": 11,
+ "fontes": [
+  "Sievert et al., BMJ 2019, PMID 30700403, doi 10.1136/bmj.l42: 13 ensaios; +259,79 kcal/dia em quem tomava café; 0,44 kg a favor de quem pulava; seguimento curto, qualidade baixa"
+ ],
+ "cta_meio": {
+  "tipo": "cobranca",
+  "frase": "Pronto, a minha parte eu fiz. A sua é curtir e me seguir.",
+  "clipe": "troca_01"
+ },
+ "cta_fim": {
+  "tipo": "medico",
+  "clipe": "fecho_07"
+ },
+ "rostos": [
+  "abertura_03",
+  "troca_01",
+  "fecho_07"
+ ],
+ "linguagem": "mapeamento",
+ "metricool_id": 424206894,
+ "uuid": "295364660937838171",
+ "horario": "2026-11-15T12:23 America/Sao_Paulo",
+ "sha": "f03c2b55283fcea70b8212a7c2c1bf0adc073361",
+ "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/f03c2b55283fcea70b8212a7c2c1bf0adc073361/esteira2s/2026-11-15/papo/final.mp4",
+ "tamanho_bytes": 13397710,
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
+}

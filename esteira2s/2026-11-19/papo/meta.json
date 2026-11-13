@@ -1,0 +1,28 @@
+{
+  "tema": "Teste de intolerância por IgG: vale o que custa?",
+  "fontes": [
+    "Stapel et al. (EAACI Task Force), Allergy 2008, PMID 18489614, doi 10.1111/j.1398-9995.2008.01705.x: IgG4 a alimentos indica exposição e tolerância; teste não recomendado como diagnóstico"
+  ],
+  "status": "agendado",
+  "molde": "carrossel",
+  "cta_meio": {
+    "tipo": "cobranca",
+    "frase": "Economizei seu dinheiro. Curte aí e me segue."
+  },
+  "cta_fim": {
+    "tipo": "mandar",
+    "frase": "Manda pra quem ia fazer."
+  },
+  "nota": "Produzido em 11/11 (lote 2).",
+  "agendamento": {
+    "metricool_id": 425044444,
+    "uuid": "-8009454578813286146",
+    "horario": "2026-11-19T11:52:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-19/papo/01.jpg",
+    "redes": [
+      "instagram"
+    ]
+  }
+}

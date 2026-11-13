@@ -1,0 +1,41 @@
+{
+ "status": "agendado",
+ "tema": "Testosterona de fora desliga a fábrica de espermatozoides",
+ "molde": "noticia_famoso",
+ "edicao": "mapeamento, pele jornal, manchete no celular",
+ "voz_s": 46.1,
+ "rostos": [
+  "abertura_04",
+  "seguir_05",
+  "fecho_04"
+ ],
+ "noticia": "Metrópoles, 15/03/2026: Zé Felipe abre o jogo e revela uso de hormônios após ficar \"inofensivo\" (https://www.metropoles.com/celebridades/ze-felipe-abre-o-jogo-e-revela-uso-de-hormonios-apos-ficar-inofensivo). O vídeo não comenta o caso dele.",
+ "cta_meio": {
+  "tipo": "cobranca",
+  "frase": "Contei o que a propaganda não conta. Segue a gente aqui, e curte pra ajudar outro casal."
+ },
+ "cta_fim": {
+  "tipo": "orientar",
+  "frase": "Os dois vão juntos na consulta."
+ },
+ "fontes": [
+  "Liu et al., Lancet 2006, PMID 16650651, doi 10.1016/S0140-6736(06)68614-5"
+ ],
+ "porteiro": "aprovado",
+ "nota": "Produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories.",
+ "linguagem": "mapeamento",
+ "midia": "final.mp4",
+ "metricool_id": 424206869,
+ "uuid": "7277186323835339640",
+ "horario": "2026-11-17T20:08 America/Sao_Paulo",
+ "sha": "f03c2b55283fcea70b8212a7c2c1bf0adc073361",
+ "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/f03c2b55283fcea70b8212a7c2c1bf0adc073361/esteira2s/2026-11-17/fertilidade/final.mp4",
+ "tamanho_bytes": 6340635,
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram",
+  "tiktok",
+  "youtube"
+ ],
+ "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11"
+}
