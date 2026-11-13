@@ -13,11 +13,11 @@ Horas de Brasília. React = Reels em tela dividida, produzido na conversa do cas
 
 ## TDAH Adulto Real (Metricool 8026030)
 - seg 16/11 07:48 carrossel "TDAH não é só coisa de criança" + stories 09:31 e 21:43 (AGENDADO)
-- qua 18/11 21:06 react "não sente saudade"
+- qua 18/11 21:06 react "TDAH é invenção?"
 - sex 20/11 08:14 carrossel "Metade dos vídeos de TDAH engana" + stories 10:12 e 21:18 (AGENDADO)
-- sáb 21/11 20:52 react T3ddy
+- sáb 21/11 20:52 react (viral a definir, T3ddy só existe no YouTube)
 - seg 23/11 07:33 carrossel "TDAH também aparece na balança" + stories 09:04 e 22:06 (AGENDADO)
-- ter 24/11 21:27 react Tatá Werneck e Maria Beltrão
+- ter 24/11 21:27 react (viral a definir, Tatá só existe no YouTube)
 
 ## Papo de Médico (7510655)
 - 14 a 25/11: tudo agendado (um post por dia), stories feitos na véspera
@@ -30,3 +30,5 @@ Horas de Brasília. React = Reels em tela dividida, produzido na conversa do cas
 - dom 29/11 18:41 react Claudia Raia (no lugar do ácido fólico, que vai para dezembro)
 
 Em cada dia de post entram 2 stories do perfil. Se um react atrasar, o dia é coberto com carrossel e o react desce para a vaga seguinte.
+
+Nota de 13/11 à noite: a conversa dos reacts trocou os virais do TDAH (as vagas ficam). O Cariani (Caneta 23/11) usa o número de massa magra, então o tema do Papo de 07/12 (caneta e músculo) precisa ser trocado quando essa vaga for produzida.
