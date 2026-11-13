@@ -1,12 +1,32 @@
 {
-  "marca": "Caneta com Músculo",
-  "metricool_blog": 8026015,
-  "tema": "Quanto do peso perdido com caneta é massa magra (25 a 39%) e o que protege o músculo",
-  "fontes": [
-    "Nobakht et al., Cardiorenal Med 2026, doi 10.1159/000553166",
-    "Mollero et al., Nutrients 2026, doi 10.3390/nu18162654"
-  ],
-  "molde": "carrossel Papo News",
-  "status": "aguardando_ok_wagner",
-  "nota": "1º carrossel do perfil novo; agendar só depois da resposta do Wagner no cartão de 12/11."
+ "marca": "Caneta com Músculo",
+ "metricool_blog": 8026015,
+ "tema": "Quanto do peso perdido com caneta é massa magra (25 a 39%) e o que protege o músculo",
+ "fontes": [
+  "Nobakht et al., Cardiorenal Med 2026, doi 10.1159/000553166",
+  "Mollero et al., Nutrients 2026, doi 10.3390/nu18162654"
+ ],
+ "molde": "carrossel Papo News",
+ "status": "agendado",
+ "nota": "Agendado em 13/11 depois do pedido do Wagner de organizar os 4 perfis (reels, stories e carrossel). Veto continua valendo.",
+ "metricool_id": 427553219,
+ "uuid": "6492644545557972089",
+ "horario": "2026-11-16T12:37 America/Sao_Paulo",
+ "sha": "a491ea8327e31fc20bd540ad8c8a8beb39cc99d4",
+ "agendado_em": "2026-11-13",
+ "redes": [
+  "instagram"
+ ],
+ "stories": [
+  {
+   "metricool_id": 427553550,
+   "uuid": "8034105853049523479",
+   "horario": "13:52"
+  },
+  {
+   "metricool_id": 427553568,
+   "uuid": "5295951229978037557",
+   "horario": "20:14"
+  }
+ ]
 }

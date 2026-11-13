@@ -1,11 +1,31 @@
 {
-  "marca": "TDAH Adulto Real",
-  "metricool_blog": 8026030,
-  "tema": "TDAH não é só coisa de criança: 2,58% dos adultos (persistente) e 6,76% (sintomático)",
-  "fontes": [
-    "Song et al., J Glob Health 2021, doi 10.7189/jogh.11.04009"
-  ],
-  "molde": "carrossel Papo News",
-  "status": "aguardando_ok_wagner",
-  "nota": "1º carrossel do perfil novo; agendar só depois da resposta do Wagner no cartão de 12/11."
+ "marca": "TDAH Adulto Real",
+ "metricool_blog": 8026030,
+ "tema": "TDAH não é só coisa de criança: 2,58% dos adultos (persistente) e 6,76% (sintomático)",
+ "fontes": [
+  "Song et al., J Glob Health 2021, doi 10.7189/jogh.11.04009"
+ ],
+ "molde": "carrossel Papo News",
+ "status": "agendado",
+ "nota": "Agendado em 13/11 depois do pedido do Wagner de organizar os 4 perfis (reels, stories e carrossel). Veto continua valendo.",
+ "metricool_id": 427553235,
+ "uuid": "-6201834482322749816",
+ "horario": "2026-11-16T07:48 America/Sao_Paulo",
+ "sha": "a491ea8327e31fc20bd540ad8c8a8beb39cc99d4",
+ "agendado_em": "2026-11-13",
+ "redes": [
+  "instagram"
+ ],
+ "stories": [
+  {
+   "metricool_id": 427553578,
+   "uuid": "3961949423504082735",
+   "horario": "09:31"
+  },
+  {
+   "metricool_id": 427553595,
+   "uuid": "-5151107450350122135",
+   "horario": "21:43"
+  }
+ ]
 }
