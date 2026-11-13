@@ -1,0 +1,472 @@
+{
+ "id": "b_henrietta",
+ "dur": 17.9,
+ "seed": 7,
+ "fundo": "#efe4c9",
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 17.9,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "mapa",
+   "t": 0,
+   "d": 17.9,
+   "tema": "papel",
+   "area": [
+    0,
+    560,
+    1080,
+    300
+   ],
+   "camera": [
+    [
+     0,
+     25,
+     10,
+     0.55,
+     0
+    ],
+    [
+     9.7,
+     39.3,
+     -76.6,
+     4.2,
+     1.8
+    ]
+   ],
+   "pinos": [
+    {
+     "ll": [
+      51.5,
+      -0.13
+     ],
+     "t": 1.9,
+     "fs": 22,
+     "txt": ""
+    },
+    {
+     "ll": [
+      35.7,
+      139.7
+     ],
+     "t": 1.99,
+     "fs": 22,
+     "txt": ""
+    },
+    {
+     "ll": [
+      -23.5,
+      -46.6
+     ],
+     "t": 2.08,
+     "fs": 22,
+     "txt": ""
+    },
+    {
+     "ll": [
+      55.7,
+      37.6
+     ],
+     "t": 2.17,
+     "fs": 22,
+     "txt": ""
+    },
+    {
+     "ll": [
+      -33.9,
+      151.2
+     ],
+     "t": 2.26,
+     "fs": 22,
+     "txt": ""
+    },
+    {
+     "ll": [
+      -33.9,
+      18.4
+     ],
+     "t": 2.3499999999999996,
+     "fs": 22,
+     "txt": ""
+    },
+    {
+     "ll": [
+      19.1,
+      72.9
+     ],
+     "t": 2.44,
+     "fs": 22,
+     "txt": ""
+    },
+    {
+     "ll": [
+      48.9,
+      2.35
+     ],
+     "t": 2.53,
+     "fs": 22,
+     "txt": ""
+    },
+    {
+     "ll": [
+      39.3,
+      -76.6
+     ],
+     "t": 12.0,
+     "txt": "Johns Hopkins · Baltimore",
+     "fs": 8,
+     "stroke": "#fff",
+     "sw": 1.5
+    }
+   ],
+   "rotas": [
+    {
+     "de": [
+      39.3,
+      -76.6
+     ],
+     "para": [
+      51.5,
+      -0.13
+     ],
+     "t": 1.0,
+     "dur": 1.1,
+     "lw": 3,
+     "aviao": true
+    },
+    {
+     "de": [
+      39.3,
+      -76.6
+     ],
+     "para": [
+      35.7,
+      139.7
+     ],
+     "t": 1.12,
+     "dur": 1.1,
+     "lw": 3,
+     "aviao": true
+    },
+    {
+     "de": [
+      39.3,
+      -76.6
+     ],
+     "para": [
+      -23.5,
+      -46.6
+     ],
+     "t": 1.24,
+     "dur": 1.1,
+     "lw": 3,
+     "aviao": true
+    },
+    {
+     "de": [
+      39.3,
+      -76.6
+     ],
+     "para": [
+      55.7,
+      37.6
+     ],
+     "t": 1.3599999999999999,
+     "dur": 1.1,
+     "lw": 3,
+     "aviao": false
+    },
+    {
+     "de": [
+      39.3,
+      -76.6
+     ],
+     "para": [
+      -33.9,
+      151.2
+     ],
+     "t": 1.48,
+     "dur": 1.1,
+     "lw": 3,
+     "aviao": false
+    },
+    {
+     "de": [
+      39.3,
+      -76.6
+     ],
+     "para": [
+      -33.9,
+      18.4
+     ],
+     "t": 1.6,
+     "dur": 1.1,
+     "lw": 3,
+     "aviao": false
+    },
+    {
+     "de": [
+      39.3,
+      -76.6
+     ],
+     "para": [
+      19.1,
+      72.9
+     ],
+     "t": 1.72,
+     "dur": 1.1,
+     "lw": 3,
+     "aviao": false
+    },
+    {
+     "de": [
+      39.3,
+      -76.6
+     ],
+     "para": [
+      48.9,
+      2.35
+     ],
+     "t": 1.8399999999999999,
+     "dur": 1.1,
+     "lw": 3,
+     "aviao": false
+    }
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 0,
+   "d": 0.25
+  },
+  {
+   "tipo": "gigante",
+   "t": 0,
+   "d": 2.6,
+   "txt": "MILHÕES DE VIDAS",
+   "y": 330,
+   "tam": 300,
+   "cor": "#ff2d3d",
+   "x": [
+    700,
+    -2300
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 3.3,
+   "d": 1.7,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "US$ BILHÕES",
+   "entra": "zoom",
+   "z": 45,
+   "css": "text-shadow:6px 6px 0 #f2c230"
+  },
+  {
+   "tipo": "numero",
+   "t": 5.1,
+   "d": 3.9,
+   "xy": [
+    0,
+    190
+   ],
+   "pre": "R$ ",
+   "de": 999,
+   "valor": 0,
+   "conta": 1.4,
+   "rotulo": "para a família",
+   "tam": 230,
+   "cor": "#ff2d3d",
+   "sombra": "#5a0d10",
+   "z": 45
+  },
+  {
+   "tipo": "carimbo",
+   "t": 8.3,
+   "d": 0.85,
+   "xy": [
+    150,
+    640
+   ],
+   "txt": "NINGUÉM AVISOU",
+   "tam": 110,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "flash",
+   "t": 9.12,
+   "d": 0.25,
+   "max": 0.6
+  },
+  {
+   "tipo": "regua",
+   "t": 9.12,
+   "d": 4.6,
+   "y": 80,
+   "anos": [
+    [
+     9.12,
+     2026,
+     "hoje"
+    ],
+    [
+     11.0,
+     1951,
+     "Baltimore, EUA"
+    ]
+   ],
+   "de": 1940,
+   "ate": 2030,
+   "px_ano": 38,
+   "cor": "#1c1a17",
+   "cor_ano": "#ff2d3d",
+   "z": 46
+  },
+  {
+   "tipo": "artigo",
+   "t": 13.8,
+   "d": 4.099999999999998,
+   "box": [
+    70,
+    150,
+    940,
+    690
+   ],
+   "revista": "Johns Hopkins Hospital · 1951",
+   "titulo": "Paciente: Henrietta Lacks",
+   "autores": "Ficha reconstituída para ilustrar",
+   "linhas": [
+    {
+     "txt": "Mulher negra, 30 anos, mãe de cinco"
+    },
+    {
+     "txt": "Internada na ala separada para negros"
+    },
+    {
+     "txt": "Diagnóstico: câncer do colo do útero",
+     "grifo": 15.8
+    },
+    {
+     "txt": "Amostra do tumor retirada sem pedir"
+    }
+   ],
+   "rola": -30,
+   "rodape": "reconstituição ilustrativa",
+   "z": 48
+  },
+  {
+   "tipo": "recorte",
+   "t": 0,
+   "d": 17.9,
+   "src": "assets/midia/henrietta_r.webm",
+   "box": [
+    0,
+    880,
+    1080,
+    1040
+   ],
+   "pos": "center 12%",
+   "z": 50
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ],
+ "legenda": {
+  "estilo": "serif",
+  "y": 1700
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/henrietta.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 17.4,
+    "palavras": "assets/midia/henrietta.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 0,
+    "ms": 0,
+    "d": 17.9,
+    "gain": 0.3
+   }
+  ],
+  "sfx": [
+   {
+    "src": "whoosh",
+    "t": 0.05,
+    "gain": 0.7
+   },
+   {
+    "src": "boom",
+    "t": 1.86,
+    "pico": 0.3,
+    "gain": 0.6,
+    "d": 2
+   },
+   {
+    "src": "notif",
+    "t": 3.32,
+    "gain": 0.5
+   },
+   {
+    "src": "riser",
+    "t": 4.8,
+    "pico": 1.0,
+    "gain": 0.4,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 8.3,
+    "pico": 0.3,
+    "gain": 0.8,
+    "d": 2
+   },
+   {
+    "src": "scratch",
+    "t": 9.12,
+    "gain": 0.6
+   },
+   {
+    "src": "whoosh2",
+    "t": 11.0,
+    "gain": 0.6
+   },
+   {
+    "src": "pagina",
+    "t": 13.8,
+    "gain": 0.6
+   },
+   {
+    "src": "papel",
+    "t": 15.8,
+    "gain": 0.5
+   }
+  ]
+ }
+}

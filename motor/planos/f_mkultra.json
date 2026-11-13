@@ -1,0 +1,414 @@
+{
+ "id": "f_mkultra",
+ "dur": 22.6,
+ "seed": 9,
+ "fundo": "#14110d",
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 22.6,
+   "cor": "#14110d",
+   "textura": "grade"
+  },
+  {
+   "tipo": "manchete",
+   "t": 0,
+   "d": 5.6,
+   "xy": [
+    50,
+    150
+   ],
+   "w": 980,
+   "jornal": "Arquivo da História",
+   "data": "1953–1973",
+   "txt": "CIA DROGOU CIDADÃOS SEM ELES SABEREM",
+   "rot": -2,
+   "z": 30
+  },
+  {
+   "tipo": "numero",
+   "t": 4.2,
+   "d": 1.5,
+   "xy": [
+    0,
+    560
+   ],
+   "valor": 20,
+   "suf": " ANOS",
+   "tam": 200,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 5.7,
+   "d": 0.25,
+   "cor": "#ff2d3d",
+   "max": 0.5
+  },
+  {
+   "tipo": "artigo",
+   "t": 5.7,
+   "d": 2.2,
+   "box": [
+    90,
+    140,
+    900,
+    680
+   ],
+   "revista": "Memorando · Confidencial",
+   "titulo": "Destruir os arquivos do programa",
+   "autores": "ordem interna, 1973",
+   "linhas": [
+    {
+     "txt": "█████ ██████ ███ ████"
+    },
+    {
+     "txt": "████ ███████ ██ █████ ███"
+    },
+    {
+     "txt": "██████ ███ ████████"
+    }
+   ],
+   "rola": 0,
+   "rodape": "reconstituição ilustrativa",
+   "z": 32
+  },
+  {
+   "tipo": "carimbo",
+   "t": 6.5,
+   "d": 1.4,
+   "xy": [
+    170,
+    380
+   ],
+   "txt": "QUEIMADO",
+   "tam": 150,
+   "rot": -12,
+   "z": 60
+  },
+  {
+   "tipo": "glitch",
+   "t": 7.9,
+   "d": 0.3
+  },
+  {
+   "tipo": "texto",
+   "t": 7.9,
+   "d": 2.4,
+   "xy": [
+    60,
+    300
+   ],
+   "w": 960,
+   "fonte": "700 110px 'Courier Prime'",
+   "cor": "#f6efdc",
+   "alinha": "center",
+   "txt": "PROJETO MKULTRA",
+   "anim": "digita",
+   "vel": 0.05,
+   "z": 40
+  },
+  {
+   "tipo": "carimbo",
+   "t": 8.9,
+   "d": 1.4,
+   "xy": [
+    300,
+    520
+   ],
+   "txt": "SECRETO",
+   "tam": 120,
+   "rot": 8,
+   "z": 60
+  },
+  {
+   "tipo": "mapa",
+   "t": 10.3,
+   "d": 6.0,
+   "tema": "escuro",
+   "area": [
+    0,
+    420,
+    1080,
+    460
+   ],
+   "destaque": {
+    "United States of America": "#2f6fdd",
+    "Russia": "#c0262d"
+   },
+   "camera": [
+    [
+     10.3,
+     50,
+     -100,
+     1.0,
+     0
+    ],
+    [
+     12.3,
+     52,
+     -20,
+     0.62,
+     1.4
+    ]
+   ],
+   "z": 20
+  },
+  {
+   "tipo": "regua",
+   "t": 10.3,
+   "d": 2.2,
+   "y": 80,
+   "anos": [
+    [
+     10.3,
+     2026,
+     "hoje"
+    ],
+    [
+     10.9,
+     1953,
+     "começo do programa"
+    ]
+   ],
+   "de": 1945,
+   "ate": 2030,
+   "px_ano": 38,
+   "cor": "#f6efdc",
+   "z": 46
+  },
+  {
+   "tipo": "texto",
+   "t": 12.4,
+   "d": 3.9,
+   "xy": [
+    40,
+    170
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#f6efdc",
+   "alinha": "center",
+   "txt": "GUERRA FRIA",
+   "entra": "zoom",
+   "z": 45
+  },
+  {
+   "tipo": "texto",
+   "t": 13.5,
+   "d": 2.8,
+   "xy": [
+    60,
+    360
+   ],
+   "w": 960,
+   "fonte": "700 54px 'Courier Prime'",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "objetivo: controlar a mente",
+   "anim": "digita",
+   "vel": 0.04,
+   "z": 45
+  },
+  {
+   "tipo": "pergunta",
+   "t": 16.3,
+   "d": 1.2,
+   "xy": [
+    160,
+    260
+   ],
+   "w": 760,
+   "topo": "Pergunta 👇",
+   "txt": "O método?",
+   "vel": 0.05,
+   "z": 45
+  },
+  {
+   "tipo": "flash",
+   "t": 17.45,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "gigante",
+   "t": 17.45,
+   "d": 2.4,
+   "txt": "LSD · LSD · LSD",
+   "y": 200,
+   "tam": 380,
+   "cor": "#c6ff3d",
+   "x": [
+    1000,
+    -2600
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "texto",
+   "t": 19.9,
+   "d": 2.700000000000003,
+   "xy": [
+    60,
+    240
+   ],
+   "w": 960,
+   "fonte": "700 64px 'Courier Prime'",
+   "cor": "#f6efdc",
+   "alinha": "center",
+   "txt": "em quem não fazia ideia do que estava acontecendo",
+   "anim": "digita",
+   "vel": 0.03,
+   "z": 40
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 22.6,
+   "ms": 0,
+   "src": "assets/midia/mkultra.mp4",
+   "box": [
+    0,
+    880,
+    1080,
+    1040
+   ],
+   "pos": "center 15%",
+   "zoom": [
+    [
+     0,
+     1.0,
+     0.01
+    ],
+    [
+     5.7,
+     1.12,
+     0.2
+    ],
+    [
+     10.3,
+     1.0,
+     0.3
+    ],
+    [
+     17.45,
+     1.15,
+     0.15
+    ],
+    [
+     19.9,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 50
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.1
+  }
+ ],
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1700
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/mkultra.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 22.1,
+    "palavras": "assets/midia/mkultra.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 0,
+    "ms": 0,
+    "d": 22.6,
+    "gain": 0.3
+   }
+  ],
+  "sfx": [
+   {
+    "src": "papel",
+    "t": 0.1,
+    "gain": 0.6
+   },
+   {
+    "src": "teclado",
+    "t": 4.2,
+    "gain": 0.3,
+    "d": 1
+   },
+   {
+    "src": "boom",
+    "t": 6.5,
+    "pico": 0.3,
+    "gain": 0.8,
+    "d": 2
+   },
+   {
+    "src": "glitch",
+    "t": 7.9,
+    "gain": 0.6
+   },
+   {
+    "src": "teclado",
+    "t": 7.9,
+    "gain": 0.5,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 8.9,
+    "pico": 0.3,
+    "gain": 0.6,
+    "d": 2
+   },
+   {
+    "src": "scratch",
+    "t": 10.3,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 12.4,
+    "gain": 0.6
+   },
+   {
+    "src": "teclado",
+    "t": 13.5,
+    "gain": 0.4,
+    "d": 1.2
+   },
+   {
+    "src": "notif",
+    "t": 16.3,
+    "gain": 0.6
+   },
+   {
+    "src": "boom",
+    "t": 17.45,
+    "pico": 0.3,
+    "gain": 0.8,
+    "d": 2
+   },
+   {
+    "src": "teclado",
+    "t": 19.9,
+    "gain": 0.4,
+    "d": 2
+   }
+  ]
+ }
+}

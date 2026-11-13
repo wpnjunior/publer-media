@@ -1,0 +1,925 @@
+{
+ "id": "react_gluten",
+ "dur": 83.3,
+ "seed": 13,
+ "fundo": "#0b1512",
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 83.3,
+   "cor": "#0b1512",
+   "textura": "grade"
+  },
+  {
+   "tipo": "cartao",
+   "t": 0,
+   "d": 12.05,
+   "box": [
+    40,
+    100,
+    1000,
+    1150
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 12.05,
+   "ms": 16.92,
+   "src": "assets/midia/g_katia.mp4",
+   "box": [
+    70,
+    140,
+    940,
+    1080
+   ],
+   "raio": 14,
+   "pos": "center 30%",
+   "arroba": "via @aprendaevivamelhor",
+   "pausa": 11.6,
+   "respira": false,
+   "zoom": [
+    [
+     0,
+     1.0,
+     0.01
+    ],
+    [
+     10.9,
+     1.12,
+     0.3
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 0.1,
+   "d": 11.9,
+   "xy": [
+    110,
+    1310
+   ],
+   "w": 860,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Cortar glúten desinfla a barriga?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 11.0
+  },
+  {
+   "tipo": "carimbo",
+   "t": 10.9,
+   "d": 1.15,
+   "xy": [
+    230,
+    620
+   ],
+   "txt": "SERÁ?",
+   "tam": 170,
+   "rot": -10,
+   "z": 60
+  },
+  {
+   "tipo": "glitch",
+   "t": 12.0,
+   "d": 0.3
+  },
+  {
+   "tipo": "foto",
+   "t": 12.05,
+   "d": 0.9,
+   "src": "assets/midia/katia_frame.jpg",
+   "box": [
+    70,
+    140,
+    940,
+    1080
+   ],
+   "raio": 14,
+   "pos": "center 30%",
+   "entra": "nada",
+   "sai": true,
+   "kb": {
+    "s": [
+     1.0,
+     0.92
+    ]
+   },
+   "z": 31
+  },
+  {
+   "tipo": "checklist",
+   "t": 12.6,
+   "d": 5.7,
+   "box": [
+    140,
+    90,
+    800,
+    700
+   ],
+   "titulo": "Cortou:",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "o pão",
+     "t": 13.58,
+     "marca": 14.1
+    },
+    {
+     "txt": "a massa",
+     "t": 15.16,
+     "marca": 15.6
+    },
+    {
+     "txt": "a pizza",
+     "t": 16.56,
+     "marca": 17.05
+    }
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "flash",
+   "t": 18.3,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 18.3,
+   "d": 2.9,
+   "xy": [
+    40,
+    260
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "A BARRIGA MELHOROU?",
+   "anim": "palavras",
+   "vel": 0.15,
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 21.2,
+   "d": 3.5,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "150px Caveat",
+   "cor": "#c6ff3d",
+   "alinha": "center",
+   "txt": "melhorou mesmo!",
+   "entra": "zoom",
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 23.0,
+   "d": 1.7,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      540,
+      600
+     ],
+     "s": 60
+    }
+   ],
+   "cor": "#c6ff3d",
+   "espessura": 14,
+   "z": 41
+  },
+  {
+   "tipo": "texto",
+   "t": 24.7,
+   "d": 2.4,
+   "xy": [
+    60,
+    250
+   ],
+   "w": 960,
+   "fonte": "120px Caveat",
+   "cor": "#f6efdc",
+   "alinha": "center",
+   "txt": "deixa eu te contar uma história...",
+   "anim": "palavras",
+   "vel": 0.12,
+   "z": 40
+  },
+  {
+   "tipo": "gigante",
+   "t": 27.1,
+   "d": 2.9,
+   "txt": "GLÚTEN · GLÚTEN",
+   "y": 980,
+   "tam": 460,
+   "cor": "#c6ff3d",
+   "contorno": true,
+   "x": [
+    800,
+    -3200
+   ],
+   "z": 20
+  },
+  {
+   "tipo": "carimbo",
+   "t": 27.8,
+   "d": 2.2,
+   "xy": [
+    230,
+    300
+   ],
+   "txt": "É O VILÃO?",
+   "tam": 150,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "numero",
+   "t": 30.1,
+   "d": 5.4,
+   "xy": [
+    0,
+    220
+   ],
+   "valor": 1,
+   "suf": " EM 100",
+   "rotulo": "tem doença celíaca de verdade",
+   "tam": 220,
+   "z": 40
+  },
+  {
+   "tipo": "pergunta",
+   "t": 35.6,
+   "d": 3.6,
+   "xy": [
+    110,
+    220
+   ],
+   "w": 860,
+   "topo": "E o resto? 👇",
+   "txt": "Juro que não tolero glúten!",
+   "vel": 0.03,
+   "z": 45
+  },
+  {
+   "tipo": "cartao",
+   "t": 39.2,
+   "d": 5.7,
+   "box": [
+    40,
+    100,
+    1000,
+    760
+   ],
+   "aba": "teste cego",
+   "entra": "whip"
+  },
+  {
+   "tipo": "texto",
+   "t": 39.4,
+   "d": 5.5,
+   "xy": [
+    90,
+    190
+   ],
+   "w": 900,
+   "fonte": "110px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "3 BARRINHAS IGUAIS",
+   "entra": "zoom",
+   "z": 41
+  },
+  {
+   "tipo": "texto",
+   "t": 40.6,
+   "d": 4.3,
+   "xy": [
+    90,
+    360
+   ],
+   "w": 900,
+   "fonte": "190px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "A · B · C",
+   "anim": "palavras",
+   "vel": 0.3,
+   "z": 41
+  },
+  {
+   "tipo": "texto",
+   "t": 42.4,
+   "d": 2.5,
+   "xy": [
+    90,
+    620
+   ],
+   "w": 900,
+   "fonte": "62px Caveat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "ninguém sabia qual tinha glúten",
+   "anim": "palavras",
+   "vel": 0.1,
+   "z": 42
+  },
+  {
+   "tipo": "flash",
+   "t": 44.9,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 44.9,
+   "d": 4.4,
+   "xy": [
+    40,
+    220
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "MUITA GENTE NEM SENTIU NADA",
+   "anim": "palavras",
+   "vel": 0.25,
+   "z": 40
+  },
+  {
+   "tipo": "carimbo",
+   "t": 48.0,
+   "d": 1.3,
+   "xy": [
+    300,
+    560
+   ],
+   "txt": "NADA",
+   "tam": 150,
+   "rot": -6,
+   "z": 60
+  },
+  {
+   "tipo": "regua",
+   "t": 49.3,
+   "d": 5.0,
+   "y": 80,
+   "anos": [
+    [
+     49.3,
+     2026,
+     "hoje"
+    ],
+    [
+     50.2,
+     2018,
+     "Oslo, Noruega"
+    ]
+   ],
+   "de": 2005,
+   "ate": 2032,
+   "px_ano": 60,
+   "z": 40
+  },
+  {
+   "tipo": "artigo",
+   "t": 54.3,
+   "d": 5.7,
+   "box": [
+    70,
+    110,
+    940,
+    760
+   ],
+   "revista": "Gastroenterology · 2018",
+   "titulo": "Fructan, Rather Than Gluten, Induces Symptoms in Self-Reported Non-Celiac Gluten Sensitivity",
+   "autores": "Skodje GI et al. · Oslo University Hospital",
+   "linhas": [
+    {
+     "txt": "59 pessoas que diziam não tolerar glúten"
+    },
+    {
+     "txt": "Duplo-cego: glúten, frutano ou placebo"
+    },
+    {
+     "txt": "Mais sintomas com: frutano 24 · placebo 22 · glúten 13",
+     "grifo": 55.9
+    },
+    {
+     "txt": "Glúten x placebo: sem diferença",
+     "grifo": 57.9
+    }
+   ],
+   "rola": -20,
+   "rodape": "doi 10.1053/j.gastro.2017.10.040",
+   "z": 45
+  },
+  {
+   "tipo": "flash",
+   "t": 60.0,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 60.0,
+   "d": 3.0,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "220px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "FRUTANO",
+   "entra": "zoom",
+   "z": 40,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 61.4,
+   "d": 1.6,
+   "xy": [
+    260,
+    560
+   ],
+   "txt": "ESTUFA!",
+   "tam": 140,
+   "rot": -10,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 63.0,
+   "d": 4.1,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "EFEITO NOCEBO",
+   "entra": "whip",
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 64.3,
+   "d": 2.8,
+   "xy": [
+    60,
+    450
+   ],
+   "w": 960,
+   "fonte": "78px Caveat",
+   "cor": "#c6ff3d",
+   "alinha": "center",
+   "txt": "só de achar que comeu glúten...",
+   "anim": "palavras",
+   "vel": 0.1,
+   "z": 41
+  },
+  {
+   "tipo": "checklist",
+   "t": 67.1,
+   "d": 9.0,
+   "box": [
+    100,
+    90,
+    880,
+    720
+   ],
+   "titulo": "Antes de cortar",
+   "entra": "desliza",
+   "itens": [
+    {
+     "txt": "investigar primeiro",
+     "t": 69.5,
+     "marca": 70.8
+    },
+    {
+     "txt": "exame com glúten na dieta",
+     "t": 72.0,
+     "marca": 73.1
+    }
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "carimbo",
+   "t": 75.4,
+   "d": 0.75,
+   "xy": [
+    110,
+    500
+   ],
+   "txt": "FALSO NEGATIVO",
+   "tam": 110,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 76.15,
+   "d": 3.95,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SEM PÃO E SEM DIAGNÓSTICO",
+   "anim": "palavras",
+   "vel": 0.3,
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 79.0,
+   "d": 1.1,
+   "formas": [
+    {
+     "k": "sublinhado",
+     "de": [
+      160,
+      700
+     ],
+     "ate": 920,
+     "t": 0
+    }
+   ],
+   "cor": "#ff2d3d",
+   "z": 41
+  },
+  {
+   "tipo": "recorte",
+   "t": 12.1,
+   "d": 68.0,
+   "src": "assets/midia/gluten_r.webm",
+   "box": [
+    0,
+    900,
+    1080,
+    1020
+   ],
+   "pos": "center 12%",
+   "zoom": [
+    [
+     12.1,
+     1.0,
+     0.01
+    ],
+    [
+     21.32,
+     1.12,
+     0.25
+    ],
+    [
+     24.7,
+     1.0,
+     0.4
+    ],
+    [
+     30.1,
+     1.1,
+     0.25
+    ],
+    [
+     35.6,
+     1.0,
+     0.4
+    ],
+    [
+     49.3,
+     1.08,
+     0.3
+    ],
+    [
+     54.3,
+     1.0,
+     0.4
+    ],
+    [
+     69.5,
+     1.12,
+     0.25
+    ],
+    [
+     76.15,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 50
+  },
+  {
+   "tipo": "flash",
+   "t": 80.1,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "fundo",
+   "t": 80.1,
+   "d": 3.200000000000003,
+   "cor": "#c6ff3d",
+   "z": 55
+  },
+  {
+   "tipo": "texto",
+   "t": 80.17999999999999,
+   "d": 3.1200000000000028,
+   "xy": [
+    40,
+    260
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#0b1512",
+   "alinha": "center",
+   "txt": "CURTE + SEGUE",
+   "anim": "palavras",
+   "vel": 0.25,
+   "z": 61
+  },
+  {
+   "tipo": "texto",
+   "t": 80.39999999999999,
+   "d": 2.900000000000003,
+   "xy": [
+    60,
+    700
+   ],
+   "w": 960,
+   "fonte": "600 30px Montserrat",
+   "cor": "#0b1512",
+   "alinha": "center",
+   "txt": "Skodje et al. Gastroenterology 2018 · doi 10.1053/j.gastro.2017.10.040",
+   "z": 61
+  },
+  {
+   "tipo": "video",
+   "t": 80.1,
+   "d": 3.200000000000003,
+   "src": "assets/midia/seguir_03.mp4",
+   "box": [
+    0,
+    960,
+    1080,
+    960
+   ],
+   "pos": "center 22%",
+   "z": 60
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ],
+ "legenda": {
+  "estilo": "lima",
+  "y": 1700
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/gluten.mp4",
+    "t": 12.1,
+    "ms": 0,
+    "d": 68.0,
+    "palavras": "assets/midia/gluten.words.json"
+   },
+   {
+    "src": "assets/midia/seguir_03.mp4",
+    "t": 80.1,
+    "ms": 0,
+    "d": 2.69,
+    "palavras": "assets/midia/seguir_03.words.json"
+   }
+  ],
+  "viral": [
+   {
+    "src": "assets/midia/g_katia.mp4",
+    "t": 0,
+    "ms": 16.92,
+    "d": 12.0,
+    "gain": 1.0
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_tensao",
+    "t": 0,
+    "ms": 0,
+    "d": 12.1,
+    "gain": 0.22
+   },
+   {
+    "src": "m_humor",
+    "t": 12.1,
+    "ms": 0,
+    "d": 15.0,
+    "gain": 0.28
+   },
+   {
+    "src": "m_investiga",
+    "t": 27.1,
+    "ms": 0,
+    "d": 56.199999999999996,
+    "gain": 0.26
+   }
+  ],
+  "sfx": [
+   {
+    "src": "whoosh",
+    "t": 0.0,
+    "gain": 0.7,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.6
+   },
+   {
+    "src": "boom",
+    "t": 10.9,
+    "gain": 0.8,
+    "pico": 0.3,
+    "d": 2
+   },
+   {
+    "src": "glitch",
+    "t": 12.0,
+    "gain": 0.6
+   },
+   {
+    "src": "papel",
+    "t": 12.6,
+    "gain": 0.6
+   },
+   {
+    "src": "boing",
+    "t": 14.1,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 15.6,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 17.05,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 18.3,
+    "gain": 0.6
+   },
+   {
+    "src": "boing",
+    "t": 23.0,
+    "gain": 0.5
+   },
+   {
+    "src": "pagina",
+    "t": 24.7,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 27.1,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 27.8,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 2
+   },
+   {
+    "src": "teclado",
+    "t": 30.1,
+    "gain": 0.35,
+    "d": 1.2
+   },
+   {
+    "src": "notif",
+    "t": 35.6,
+    "gain": 0.6
+   },
+   {
+    "src": "whoosh2",
+    "t": 39.2,
+    "gain": 0.6
+   },
+   {
+    "src": "whoosh",
+    "t": 44.9,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 48.0,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 2
+   },
+   {
+    "src": "scratch",
+    "t": 49.3,
+    "gain": 0.5
+   },
+   {
+    "src": "pagina",
+    "t": 54.3,
+    "gain": 0.6
+   },
+   {
+    "src": "papel",
+    "t": 55.9,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 60.0,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 2
+   },
+   {
+    "src": "boing",
+    "t": 61.4,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 63.0,
+    "gain": 0.6
+   },
+   {
+    "src": "papel",
+    "t": 67.1,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 75.4,
+    "gain": 0.8,
+    "pico": 0.3,
+    "d": 2
+   },
+   {
+    "src": "riser",
+    "t": 76.15,
+    "gain": 0.35,
+    "pico": 1.0,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh",
+    "t": 80.1,
+    "gain": 0.7,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 80.39999999999999,
+    "gain": 0.6
+   }
+  ]
+ }
+}

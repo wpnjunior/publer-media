@@ -1,0 +1,474 @@
+{
+ "id": "d_noticia",
+ "dur": 16.6,
+ "seed": 4,
+ "fundo": "#0b1512",
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 16.6,
+   "cor": "#0b1512",
+   "textura": "grade"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 1.44,
+   "src": "assets/midia/abertura_07.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "zoom": [
+    [
+     0,
+     1.12,
+     1.4
+    ]
+   ]
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.15,
+   "d": 1.29,
+   "xy": [
+    50,
+    170
+   ],
+   "w": 980,
+   "jornal": "Fofoca do Dia",
+   "data": "nov 2026",
+   "txt": "IVETE “IRRECONHECÍVEL” POR CAUSA DA CANETA?",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.44,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.44,
+   "d": 6.8,
+   "box": [
+    40,
+    120,
+    1000,
+    800
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.44,
+   "d": 6.8,
+   "ms": 0,
+   "src": "assets/midia/tt_ivete.mp4",
+   "box": [
+    70,
+    160,
+    940,
+    730
+   ],
+   "raio": 14,
+   "pos": "center 35%",
+   "arroba": "@natal.noticias",
+   "z": 30
+  },
+  {
+   "tipo": "numero",
+   "t": 2.2,
+   "d": 6.0,
+   "xy": [
+    0,
+    1130
+   ],
+   "valor": 7.4,
+   "dec": 1,
+   "suf": " MI",
+   "rotulo": "de visualizações nesse vídeo",
+   "tam": 250
+  },
+  {
+   "tipo": "pergunta",
+   "t": 4.6,
+   "d": 3.64,
+   "xy": [
+    110,
+    1480
+   ],
+   "w": 860,
+   "topo": "Responde aí 👇",
+   "txt": "Dá pra saber pela foto?",
+   "botoes": [
+    "SIM",
+    "NÃO"
+   ],
+   "vel": 0.035,
+   "escolha": 1,
+   "t_escolha": 7.2
+  },
+  {
+   "tipo": "texto",
+   "t": 12.6,
+   "d": 0.77,
+   "xy": [
+    90,
+    660
+   ],
+   "w": 900,
+   "fonte": "60px Caveat",
+   "cor": "#1c1a17",
+   "txt": "Diagnóstico pela foto = chute.",
+   "anim": "palavras",
+   "vel": 0.08,
+   "z": 43
+  },
+  {
+   "tipo": "glitch",
+   "t": 8.24,
+   "d": 0.3
+  },
+  {
+   "tipo": "cartao",
+   "t": 8.24,
+   "d": 2.34,
+   "box": [
+    40,
+    120,
+    1000,
+    800
+   ],
+   "aba": "pausa",
+   "entra": "nada"
+  },
+  {
+   "tipo": "foto",
+   "t": 8.24,
+   "d": 2.34,
+   "src": "assets/midia/ivete_frame.jpg",
+   "box": [
+    70,
+    160,
+    940,
+    730
+   ],
+   "raio": 14,
+   "pos": "center 35%",
+   "entra": "nada",
+   "sombra": false,
+   "kb": {
+    "s": [
+     1.0,
+     1.15
+    ]
+   },
+   "z": 31
+  },
+  {
+   "tipo": "carimbo",
+   "t": 8.7,
+   "d": 1.88,
+   "xy": [
+    190,
+    380
+   ],
+   "txt": "SEM PROVA",
+   "tam": 150,
+   "rot": -10
+  },
+  {
+   "tipo": "video",
+   "t": 8.24,
+   "d": 2.34,
+   "src": "assets/midia/virada_03.mp4",
+   "box": [
+    0,
+    960,
+    1080,
+    960
+   ],
+   "pos": "center 22%",
+   "zoom": [
+    [
+     8.24,
+     1.0,
+     0.01
+    ],
+    [
+     8.9,
+     1.18,
+     0.25
+    ]
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 10.58,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "cartao",
+   "t": 10.58,
+   "d": 2.79,
+   "box": [
+    40,
+    120,
+    1000,
+    800
+   ],
+   "aba": "a real",
+   "entra": "whip"
+  },
+  {
+   "tipo": "texto",
+   "t": 10.75,
+   "d": 2.6,
+   "xy": [
+    90,
+    230
+   ],
+   "w": 900,
+   "fonte": "64px Caveat",
+   "cor": "#1c1a17",
+   "txt": "Remédio? Doença? Dieta? Luz? Ângulo?",
+   "anim": "palavras",
+   "vel": 0.2,
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 11.9,
+   "d": 1.47,
+   "xy": [
+    90,
+    480
+   ],
+   "w": 900,
+   "fonte": "900 86px Montserrat",
+   "cor": "#ff2d3d",
+   "txt": "A FOTO NÃO DIZ.",
+   "entra": "zoom",
+   "z": 41
+  },
+  {
+   "tipo": "desenho",
+   "t": 12.3,
+   "d": 1.0,
+   "formas": [
+    {
+     "k": "sublinhado",
+     "de": [
+      100,
+      600
+     ],
+     "ate": 900,
+     "t": 0
+    }
+   ],
+   "cor": "#1c1a17",
+   "z": 42
+  },
+  {
+   "tipo": "video",
+   "t": 10.58,
+   "d": 2.79,
+   "src": "assets/midia/fecho_04.mp4",
+   "box": [
+    0,
+    960,
+    1080,
+    960
+   ],
+   "pos": "center 22%",
+   "zoom": [
+    [
+     10.58,
+     1.1,
+     0.01
+    ],
+    [
+     10.6,
+     1.0,
+     2.6
+    ]
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 13.37,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "fundo",
+   "t": 13.37,
+   "d": 3.23,
+   "cor": "#c6ff3d",
+   "z": 55
+  },
+  {
+   "tipo": "texto",
+   "t": 13.45,
+   "d": 3.15,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#0b1512",
+   "alinha": "center",
+   "txt": "CURTE + SEGUE",
+   "anim": "palavras",
+   "vel": 0.25,
+   "z": 61
+  },
+  {
+   "tipo": "video",
+   "t": 13.37,
+   "d": 3.23,
+   "src": "assets/midia/seguir_03.mp4",
+   "box": [
+    0,
+    960,
+    1080,
+    960
+   ],
+   "pos": "center 22%",
+   "z": 60
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.08
+  }
+ ],
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1690
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/abertura_07.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 1.44,
+    "palavras": "assets/midia/abertura_07.words.json"
+   },
+   {
+    "src": "assets/midia/virada_03.mp4",
+    "t": 8.24,
+    "ms": 0,
+    "d": 1.84,
+    "palavras": "assets/midia/virada_03.words.json"
+   },
+   {
+    "src": "assets/midia/fecho_04.mp4",
+    "t": 10.58,
+    "ms": 0,
+    "d": 2.29,
+    "palavras": "assets/midia/fecho_04.words.json"
+   },
+   {
+    "src": "assets/midia/seguir_03.mp4",
+    "t": 13.37,
+    "ms": 0,
+    "d": 2.69,
+    "palavras": "assets/midia/seguir_03.words.json"
+   }
+  ],
+  "viral": [
+   {
+    "src": "assets/midia/tt_ivete.mp4",
+    "t": 1.44,
+    "ms": 0,
+    "d": 6.8,
+    "gain": 1.0
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_noticia",
+    "t": 0,
+    "ms": 8,
+    "d": 16.6,
+    "gain": 0.32
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.2,
+    "gain": 0.8
+   },
+   {
+    "src": "whoosh",
+    "t": 1.44,
+    "pico": 0.45,
+    "gain": 0.8
+   },
+   {
+    "src": "pagina",
+    "t": 2.2,
+    "gain": 0.5
+   },
+   {
+    "src": "glitch",
+    "t": 8.24,
+    "gain": 0.6
+   },
+   {
+    "src": "boom",
+    "t": 8.7,
+    "pico": 0.3,
+    "gain": 0.9,
+    "d": 2
+   },
+   {
+    "src": "whoosh2",
+    "t": 10.58,
+    "gain": 0.8
+   },
+   {
+    "src": "papel",
+    "t": 12.3,
+    "pico": 0.8,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 13.37,
+    "pico": 0.45,
+    "gain": 0.7
+   },
+   {
+    "src": "boing",
+    "t": 13.6,
+    "gain": 0.6
+   },
+   {
+    "src": "notif",
+    "t": 4.6,
+    "gain": 0.6
+   },
+   {
+    "src": "boing",
+    "t": 7.2,
+    "gain": 0.5
+   }
+  ]
+ }
+}
