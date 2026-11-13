@@ -5,18 +5,18 @@ Horas de Brasília. React = Reels em tela dividida, produzido na conversa do cas
 ## Caneta com Músculo (Metricool 8026015)
 - seg 16/11 12:37 carrossel "Emagreceu na caneta. E o músculo?" + stories 13:52 e 20:14 (AGENDADO)
 - ter 17/11 18:47 react Ivete
-- qui 19/11 carrossel (a produzir)
+- qui 19/11 13:08 carrossel "Vesícula: o risco que pouca gente comenta" + stories 14:41 e 20:37 (AGENDADO)
 - sex 20/11 19:13 react Paraguai
-- dom 22/11 carrossel (a produzir)
+- dom 22/11 12:26 carrossel "Parou a caneta. O peso volta?" + stories 13:19 e 19:52 (AGENDADO)
 - seg 23/11 18:34 react Cariani "é seguro usar?"
 - qua 25/11 carrossel (a produzir)
 
 ## TDAH Adulto Real (Metricool 8026030)
 - seg 16/11 07:48 carrossel "TDAH não é só coisa de criança" + stories 09:31 e 21:43 (AGENDADO)
 - qua 18/11 21:06 react "não sente saudade"
-- sex 20/11 carrossel (a produzir)
+- sex 20/11 08:14 carrossel "Metade dos vídeos de TDAH engana" + stories 10:12 e 21:18 (AGENDADO)
 - sáb 21/11 20:52 react T3ddy
-- seg 23/11 carrossel (a produzir)
+- seg 23/11 07:33 carrossel "TDAH também aparece na balança" + stories 09:04 e 22:06 (AGENDADO)
 - ter 24/11 21:27 react Tatá Werneck e Maria Beltrão
 
 ## Papo de Médico (7510655)

@@ -5,5 +5,23 @@
   "Wilding et al., Diabetes Obes Metab 2022, PMID 35441470, doi 10.1111/dom.14725"
  ],
  "molde": "carrossel Papo News",
- "status": "pronto"
+ "status": "agendado",
+ "metricool_id": 427556523,
+ "uuid": "-6628108748175882730",
+ "horario": "2026-11-22T12:26 America/Sao_Paulo",
+ "sha": "ad696aa6ade41f05a9d566dbab36e2ce75a59e57",
+ "agendado_em": "2026-11-13",
+ "redes": [
+  "instagram"
+ ],
+ "stories": [
+  {
+   "metricool_id": 427557126,
+   "horario": "13:19"
+  },
+  {
+   "metricool_id": 427557148,
+   "horario": "19:52"
+  }
+ ]
 }
