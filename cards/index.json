@@ -572,9 +572,10 @@
   {
    "id": "sedentario-com-hobby",
    "tema": "Passos no dia",
-   "published": false,
-   "slot": null,
-   "caption": "Dá pra treinar todo dia e ainda assim passar o dia inteiro parado. São dois problemas diferentes, e cada um cobra do seu jeito.\nEste conteúdo é educativo e não substitui a consulta médica.\n#movimento #sedentarismo #habitos #treino #saude"
+   "published": true,
+   "slot": "2026-11-13T20:00:01Z",
+   "caption": "Dá pra treinar todo dia e ainda assim passar o dia inteiro parado. São dois problemas diferentes, e cada um cobra do seu jeito.\nEste conteúdo é educativo e não substitui a consulta médica.\n#movimento #sedentarismo #habitos #treino #saude",
+   "ig_media": "18111201107252881"
   },
   {
    "id": "orgulho-da-sua-jornada",
