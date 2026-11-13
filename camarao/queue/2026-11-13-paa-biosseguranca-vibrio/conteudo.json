@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Biossegurança",
+   "manchete": "A dose que desinfeta <span class=\"hl\">não é a dose que machuca</span>",
+   "sub": "Ácido peracético travou 7 cepas de Vibrio na menor dose testada. O dano no camarão só apareceu bem mais na frente.",
+   "fonte": "Fonte: Tuttle et al., Journal of Fish Diseases, 2026. doi:10.1111/jfd.70236"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "01",
+   "manchete": "Pouco <span class=\"hl\">já resolve</span>",
+   "corpo": "Em laboratório, só <b>0,03125 mg/L</b> de ácido peracético (PAA) já travou o crescimento das <b>7 cepas de Vibrio</b> testadas, em <b>45 minutos</b>.",
+   "destaque": "Desinfetar não exige dose alta. Exige dose certa.",
+   "fonte": "Tuttle et al., J Fish Dis, 2026"
+  },
+  {
+   "foto": "camarao-agua-doce-detalhe.jpg",
+   "numero": "02",
+   "manchete": "A brânquia sente <span class=\"hl\">antes na água mais doce</span>",
+   "corpo": "Em salinidade de <b>4 g/L</b>, brânquia e hepatopâncreas já mostraram dano a partir de <b>40,5 mg/L</b> de PAA. Em <b>30 g/L</b>, o limite subiu para <b>75 mg/L</b>.",
+   "destaque": "Berçário em água mais doce pede dose de desinfecção mais conservadora.",
+   "fonte": "Tuttle et al., J Fish Dis, 2026"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "03",
+   "manchete": "A letal também <span class=\"hl\">mudou com a água</span>",
+   "corpo": "A concentração letal em 24h (CL50) variou de <b>29,09</b> a <b>82,40 mg/L</b> de PAA, cruzando fase (pós-larva e juvenil) e as duas salinidades testadas.",
+   "destaque": "Antes de aplicar PAA no tanque, confira a salinidade do dia — a margem de segurança não é fixa.",
+   "fonte": "Tuttle et al., J Fish Dis, 2026"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "Mais de <span class=\"hl\">1.000 vezes</span> de distância",
+   "corpo": "Entre a dose que já derruba o Vibrio (<b>0,03 mg/L</b>) e a dose que começa a machucar o tecido (<b>40,5 a 75 mg/L</b>), a margem passa de <b>1.000 vezes</b>.",
+   "destaque": "Margem grande não é desculpa para exagerar — é espaço para acertar o protocolo.",
+   "fonte": "Tuttle et al., J Fish Dis, 2026"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta o protocolo de biossegurança do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
