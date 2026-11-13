@@ -141,8 +141,37 @@ def L_foto(c, L):
         c.tw(f'tl.to("#{i}",{{x:-1300,filter:"blur(20px)",duration:.25,ease:"power3.in"}},{L["t"] + L["d"] - .25:.3f});')
 
 
+_DUR = {}
+
+
+def dur_midia(src):
+    if src not in _DUR:
+        import subprocess
+        r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src], capture_output=True, text=True)
+        try:
+            _DUR[src] = float(r.stdout.strip())
+        except ValueError:
+            _DUR[src] = None
+    return _DUR[src]
+
+
+def trava_congelada(L):
+    """Regra do Wagner (13/11): clipe nunca fica na tela depois de acabar (rosto congelado de boca aberta).
+    Se o slot passa do fim do arquivo, encurta e avisa; o plano deve pôr o corte com efeito ali."""
+    md = dur_midia(L["src"])
+    if md is None:
+        return L
+    sobra = md - L.get("ms", 0)
+    # até 0,12 s (3 quadros) segurando o último quadro some debaixo do flash/glitch do corte; mais que isso congela
+    if L["d"] > sobra + 0.12:
+        print(f"AVISO congelaria: {L['src']} t={L['t']} slot {L['d']:.2f}s > arquivo {sobra:.2f}s; encurtado", file=sys.stderr)
+        L = dict(L, d=round(sobra, 3))
+    return L
+
+
 def L_video(c, L):
     """vídeo (viral ou rosto). Tempo no próprio <video>; transform num wrapper sem tempo."""
+    L = trava_congelada(L)
     x, y, w, h = box_style(L)
     i = c.nid("v")
     z = L.get("z") or c.next_z()

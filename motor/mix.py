@@ -56,6 +56,15 @@ def mix(plano, out):
     fl.append(f"{''.join(parts)}amix=inputs={len(parts)}:normalize=0,apad,atrim=duration={dur},alimiter=limit=0.9,loudnorm=I=-14:TP=-1.5:LRA=11[out]")
     cmd = ["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fl), "-map", "[out]", "-ar", "44100", "-c:a", "aac", "-b:a", "256k", out]
     subprocess.run(cmd, check=True)
+    # 2ª passada: loudnorm de uma passada pode ficar abaixo do alvo; corrige o ganho até -14 LUFS
+    import re, shutil
+    r = subprocess.run(["ffmpeg", "-nostats", "-i", out, "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
+    lu = re.findall(r"I:\s+(-?[0-9.]+) LUFS", r)
+    if lu and abs(float(lu[-1]) + 14) > 0.7:
+        g = -14 - float(lu[-1])
+        tmp = out + ".tmp.m4a"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", out, "-af", f"volume={g:.2f}dB,alimiter=limit=0.84", "-c:a", "aac", "-b:a", "256k", tmp], check=True)
+        shutil.move(tmp, out)
     print("ok", out)
 
 
