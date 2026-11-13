@@ -1,0 +1,48 @@
+{
+ "marca": [
+  "CANETA",
+  "COM MÚSCULO"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_calendario_5239918.jpg",
+   "editoria": "Reganho",
+   "manchete": "Parou a caneta.<br>O peso <span class=\"hl\">volta</span>?",
+   "sub": "Um estudo acompanhou <b>327 pessoas</b> por um ano depois de parar.",
+   "fonte": "Fonte: Wilding et al., Diabetes, Obesity and Metabolism, 2022"
+  },
+  {
+   "foto": "px_academia_3763115.jpg",
+   "numero": "01",
+   "manchete": "<span class=\"hl\">17,3%</span> a menos<br>em 68 semanas",
+   "corpo": "No estudo, quem usou o remédio junto com mudança de hábitos perdeu em média 17,3% do peso. Depois disso, o remédio e o acompanhamento foram suspensos."
+  },
+  {
+   "foto": "px_barriga_7298668.jpg",
+   "numero": "02",
+   "manchete": "Um ano depois:<br><span class=\"hl\">dois terços</span> de volta",
+   "corpo": "Em um ano sem tratamento, voltaram em média 11,6 dos 17,3 pontos perdidos. Sobrou uma perda de 5,6% em relação ao começo."
+  },
+  {
+   "foto": "px_academia_5327508.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Aqui a gente torce para você voltar. O peso, não. Um curtir e um seguir já ajudam."
+  },
+  {
+   "foto": "px_sangue_6285344.jpg",
+   "numero": "04",
+   "manchete": "Não foi só<br>a <span class=\"hl\">balança</span>",
+   "corpo": "As melhoras nos marcadores do coração e do metabolismo também voltaram em direção ao ponto de partida na maioria das medidas."
+  },
+  {
+   "foto": "px_homemmedico_6749742.jpg",
+   "numero": "05",
+   "manchete": "Obesidade é<br><span class=\"hl\">crônica</span>",
+   "corpo": "Para os autores, o resultado confirma que a obesidade é uma condição crônica e que o cuidado precisa continuar. Como continuar é conversa para a sua consulta.",
+   "destaque": "Salva e manda para quem pensa em parar por conta própria.",
+   "fonte": "Fonte: Wilding et al., Diabetes Obes Metab 2022 · doi 10.1111/dom.14725 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

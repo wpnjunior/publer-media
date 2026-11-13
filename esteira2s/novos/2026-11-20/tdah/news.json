@@ -1,0 +1,48 @@
+{
+ "marca": [
+  "TDAH",
+  "ADULTO REAL"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_homemso_6756359.jpg",
+   "editoria": "Redes",
+   "manchete": "Metade dos<br>vídeos de TDAH<br><span class=\"hl\">engana</span>",
+   "sub": "Pesquisadores avaliaram os <b>100 vídeos mais populares</b> do TikTok sobre o tema.",
+   "fonte": "Fonte: Yeung et al., Canadian Journal of Psychiatry, 2022"
+  },
+  {
+   "foto": "px_homemso_6756358.jpg",
+   "numero": "01",
+   "manchete": "<span class=\"hl\">52%</span><br>enganosos",
+   "corpo": "Segundo o estudo, dos 100 vídeos mais populares sobre TDAH, 52 foram classificados como enganosos pelos médicos que avaliaram."
+  },
+  {
+   "foto": "px_homemso_10379552.jpg",
+   "numero": "02",
+   "manchete": "Só <span class=\"hl\">21%</span><br>úteis",
+   "corpo": "Outros 27% eram relatos de experiência pessoal. Só 21 dos 100 vídeos foram considerados úteis."
+  },
+  {
+   "foto": "px_homemso_32482920.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Se você chegou até aqui sem abrir outro aplicativo, merece um troféu. Retribui com um curtir e um seguir."
+  },
+  {
+   "foto": "px_homemmedico_7579831.jpg",
+   "numero": "04",
+   "manchete": "Quem <span class=\"hl\">postou</span><br>importa",
+   "corpo": "A maior parte dos vídeos enganosos veio de quem não é profissional de saúde. Os vídeos de profissionais tiveram mais qualidade e utilidade."
+  },
+  {
+   "foto": "px_homemmedico_8413217.jpg",
+   "numero": "05",
+   "manchete": "Se identificar não<br>é <span class=\"hl\">diagnóstico</span>",
+   "corpo": "Os vídeos eram fáceis de entender, mas pouco diziam o que fazer depois. Se você se reconheceu em algum, o próximo passo é uma avaliação com profissional.",
+   "destaque": "Manda para quem vive te mandando vídeo de TDAH.",
+   "fonte": "Fonte: Yeung et al., Can J Psychiatry 2022 · doi 10.1177/07067437221082854 · Fotos: Pexels. Conteúdo educativo — não substitui avaliação profissional."
+  }
+ ]
+}
