@@ -22,5 +22,17 @@
  "agendado_em": "2026-11-11",
  "redes": [
   "instagram"
+ ],
+ "stories": [
+  {
+   "metricool_id": 427189793,
+   "uuid": "7800736279759373038",
+   "horario": "13:08"
+  },
+  {
+   "metricool_id": 427189818,
+   "uuid": "1067477593944508961",
+   "horario": "21:17"
+  }
  ]
 }
