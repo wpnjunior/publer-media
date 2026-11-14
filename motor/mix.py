@@ -36,7 +36,12 @@ def mix(plano, out):
     for m in A.get("musica", []):
         add(som(m["src"]), m["t"], m.get("ms", 0), m["d"], m.get("gain", .5), fade=m.get("fade", .4), bus=mus)
     for s in A.get("sfx", []):
-        add(som(s["src"]), max(0, s["t"] - s.get("pico", 0)), 0, s.get("d", 0), s.get("gain", .7), bus=fx)
+        # efeito cortado no meio (boom de 8 s aparado em 1,2 s com 30 ms de fade) soava como áudio travando
+        # (Wagner, 13/11 23h38: "segundo 22 do vídeo 7 dá uma travada"). Agora o rabo do efeito some devagar
+        # e o boom fica mais baixo que a voz.
+        d = s.get("d", 0)
+        g = s.get("gain", .7) * (.6 if s["src"] == "boom" else 1)
+        add(som(s["src"]), max(0, s["t"] - s.get("pico", 0)), 0, d, g, fade=min(.6, d * .45) if d else .03, bus=fx)
     parts = []
     if fala:
         fl.append(f"{''.join(fala)}amix=inputs={len(fala)}:normalize=0,asplit=2[fala][sc]")

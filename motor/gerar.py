@@ -82,6 +82,12 @@ def L_fundo(c, L):
               f"linear-gradient(90deg, rgba(255,255,255,.05) 2px, transparent 2px) 0 0/90px 90px, {cor}")
     elif tex == "gradiente":
         bg = f"radial-gradient(circle at 30% 20%, {L.get('cor2', '#1d3b2f')} 0%, {cor} 70%)"
+    elif tex == "lousa":
+        # quarta edição (14/11): lousa verde de sala de aula, com borrões de giz apagado
+        bg = ("radial-gradient(ellipse 520px 260px at 25% 30%, rgba(255,255,255,.07) 0%, transparent 70%),"
+              "radial-gradient(ellipse 600px 300px at 75% 72%, rgba(255,255,255,.06) 0%, transparent 70%),"
+              "radial-gradient(ellipse 380px 180px at 60% 12%, rgba(255,255,255,.05) 0%, transparent 70%),"
+              "radial-gradient(ellipse at 50% 45%, #2f5242 0%, #22392f 60%, #16261f 100%)")
     i = c.nid("f")
     if tex == "grade":
         # fundo vivo: a grade corre na diagonal sem emenda (anda exatamente 1 período de 90 px por volta).
@@ -296,6 +302,8 @@ def L_texto(c, L):
     i = c.nid("t")
     x, y = L.get("xy", [60, 200])
     w = L.get("w", W - 120)
+    if [x, w] == [40, 1000]:  # cartela de largura cheia: 70 px de folga de cada lado (não encostar na borda)
+        x, w = 70, 940
     fonte = L.get("fonte", "900 70px Montserrat")
     cor = L.get("cor", "#fff")
     al = L.get("alinha", "left")
@@ -353,8 +361,17 @@ def L_numero(c, L):
     x, y = L.get("xy", [0, 300])
     cor = L.get("cor", PAL["amarelo"])
     tam = L.get("tam", 300)
-    sh = ",".join(f"{k}px {k}px 0 {L.get('sombra', '#7a5a00')}" for k in range(1, 22))
     pre, suf = L.get("pre", ""), L.get("suf", "")
+    # cabe na tela: o 3D gira e cresce ~15%, então o número inteiro fica em até 800 px (Claudia 14/11: "QUASE 100%" vazou)
+    try:
+        from PIL import ImageFont
+        txt_final = f'{pre}{L["valor"]:.{L.get("dec", 0)}f}{suf}'.replace(".", ",")
+        larg = ImageFont.truetype(str(AQUI / "assets/fonts/Anton-Regular.ttf"), tam).getlength(txt_final) + 21
+        if larg > 800:
+            tam = int(tam * 800 / larg)
+    except Exception:
+        pass
+    sh = ",".join(f"{k}px {k}px 0 {L.get('sombra', '#7a5a00')}" for k in range(1, 22))
     inner = (f'<div id="{i}w" style="position:absolute;left:{x}px;top:{y}px;width:{L.get("w", W)}px;text-align:center;perspective:900px">'
              f'<div id="{i}" style="display:inline-block;font:{tam}px Anton;color:{cor};text-shadow:{sh},0 40px 60px rgba(0,0,0,.6)">'
              f'{esc(pre)}<span id="{i}v">0</span>{esc(suf)}</div>'

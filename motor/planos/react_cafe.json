@@ -200,6 +200,18 @@
     "gain": 0.7,
     "pico": 0.3,
     "d": 1.5
+   },
+   {
+    "src": "teclado",
+    "t": 2.75,
+    "d": 2.59,
+    "gain": 0.55
+   },
+   {
+    "src": "riser",
+    "t": 3.9,
+    "d": 1.8,
+    "gain": 0.35
    }
   ]
  },
@@ -793,7 +805,7 @@
     860
    ],
    "w": 1000,
-   "fonte": "140px Anton",
+   "fonte": "118px Anton",
    "cor": "#ffffff",
    "alinha": "center",
    "txt": "MAIS CAFÉ À NOITE",
@@ -827,7 +839,7 @@
     440
    ],
    "w": 1000,
-   "fonte": "190px Anton",
+   "fonte": "168px Anton",
    "cor": "#f2c230",
    "alinha": "center",
    "txt": "DORMIA PIOR",
