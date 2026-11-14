@@ -1,0 +1,2916 @@
+{
+ "id": "react_l4_corpo",
+ "dur": 96.1,
+ "seed": 1114,
+ "fundo": "#14070a",
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.07
+   ]
+  ],
+  "ys": [
+   [
+    2.07,
+    6.07,
+    1720
+   ],
+   [
+    6.07,
+    13.55,
+    1440
+   ],
+   [
+    13.55,
+    17.25,
+    1000
+   ],
+   [
+    17.25,
+    86.03,
+    1730
+   ],
+   [
+    86.03,
+    90.15,
+    1640
+   ],
+   [
+    90.15,
+    96.1,
+    1730
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/rk_ent.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.07,
+    "palavras": "assets/midia/rk_ent.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/ne_viral.mp4",
+    "t": 2.07,
+    "ms": 0,
+    "d": 11.48,
+    "palavras": "assets/midia/ne_viral.words.json",
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/ne_dub_voz.wav",
+    "t": 2.07,
+    "ms": 0,
+    "d": 11.48,
+    "gain": 1.0
+   },
+   {
+    "src": "assets/midia/ne_rosto.mp4",
+    "t": 13.55,
+    "ms": 0,
+    "d": 3.7,
+    "palavras": "assets/midia/ne_rosto.words.json"
+   },
+   {
+    "src": "assets/midia/ne_a_voz.wav",
+    "t": 17.4,
+    "ms": 0,
+    "d": 12.48,
+    "palavras": "assets/midia/ne_a_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ne_b_voz.wav",
+    "t": 30.58,
+    "ms": 0,
+    "d": 18.773,
+    "palavras": "assets/midia/ne_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ne_c_voz.wav",
+    "t": 50.1,
+    "ms": 0,
+    "d": 18.884,
+    "palavras": "assets/midia/ne_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ne_o_voz.wav",
+    "t": 69.63,
+    "ms": 0,
+    "d": 10.169,
+    "palavras": "assets/midia/ne_o_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ne_e_voz.wav",
+    "t": 80.4,
+    "ms": 0,
+    "d": 5.481,
+    "palavras": "assets/midia/ne_e_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cta6.mp4",
+    "t": 86.03,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/cta6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/ne_d_voz.wav",
+    "t": 90.3,
+    "ms": 0,
+    "d": 4.596,
+    "palavras": "assets/midia/ne_d_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_noticia",
+    "t": 13.35,
+    "ms": 0,
+    "d": 17.63,
+    "gain": 0.2,
+    "fade": 0.6
+   },
+   {
+    "src": "m_investiga",
+    "t": 30.18,
+    "ms": 0,
+    "d": 39.85,
+    "gain": 0.16,
+    "fade": 0.6
+   },
+   {
+    "src": "m_emocao",
+    "t": 69.23,
+    "ms": 0,
+    "d": 26.87,
+    "gain": 0.15,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.07,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.37,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.37,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 13.5,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 13.6,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 15.0,
+    "gain": 0.25
+   },
+   {
+    "src": "glitch",
+    "t": 17.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 17.3,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 17.9,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 19.673,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 21.186,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 23.073,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 23.834,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 25.173,
+    "gain": 0.22
+   },
+   {
+    "src": "whoosh",
+    "t": 26.78,
+    "gain": 0.35,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 27.174,
+    "gain": 0.4,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "notif",
+    "t": 28.378,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 30.53,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 30.63,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 30.83,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 31.768,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 33.129,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 34.486,
+    "gain": 0.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 35.39,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 36.647,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 38.104,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 38.606,
+    "gain": 0.22
+   },
+   {
+    "src": "boom",
+    "t": 40.066,
+    "gain": 0.38,
+    "pico": 0.3,
+    "d": 1.0
+   },
+   {
+    "src": "whoosh2",
+    "t": 41.17,
+    "gain": 0.3
+   },
+   {
+    "src": "notif",
+    "t": 42.731,
+    "gain": 0.45
+   },
+   {
+    "src": "riser",
+    "t": 43.834,
+    "gain": 0.16,
+    "d": 1.0
+   },
+   {
+    "src": "whoosh",
+    "t": 45.541,
+    "gain": 0.3,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 46.697,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 48.206,
+    "gain": 0.25
+   },
+   {
+    "src": "glitch",
+    "t": 50.05,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 50.15,
+    "gain": 0.35,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 50.22,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 51.551,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 57.046,
+    "gain": 0.25
+   },
+   {
+    "src": "boing",
+    "t": 58.724,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 60.198,
+    "gain": 0.3
+   },
+   {
+    "src": "riser",
+    "t": 59.027,
+    "gain": 0.16,
+    "d": 1.0
+   },
+   {
+    "src": "boom",
+    "t": 59.927,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 62.077,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 63.433,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 64.483,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 66.706,
+    "gain": 0.4,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 69.58,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 69.68,
+    "gain": 0.35,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 69.78,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 71.706,
+    "gain": 0.22
+   },
+   {
+    "src": "whoosh2",
+    "t": 72.965,
+    "gain": 0.3
+   },
+   {
+    "src": "papel",
+    "t": 75.482,
+    "gain": 0.4
+   },
+   {
+    "src": "notif",
+    "t": 77.493,
+    "gain": 0.25
+   },
+   {
+    "src": "notif",
+    "t": 78.603,
+    "gain": 0.25
+   },
+   {
+    "src": "notif",
+    "t": 79.106,
+    "gain": 0.25
+   },
+   {
+    "src": "glitch",
+    "t": 80.35,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 80.45,
+    "gain": 0.35,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 82.468,
+    "gain": 0.28
+   },
+   {
+    "src": "notif",
+    "t": 84.157,
+    "gain": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 85.98,
+    "gain": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 86.23,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 90.1,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 92.568,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 94.505,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 96.1,
+   "cor": "#14070a",
+   "textura": "gradiente",
+   "cor2": "#5a0d10"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.07,
+   "ms": 0,
+   "src": "assets/midia/rk_ent.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.07
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.95,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "“MEU CORPO NÃO ESCUTA”?",
+   "sub": "a frase de uma famosa num programa de TV inglês",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.07,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.07,
+   "d": 15.18,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.07,
+   "d": 11.48,
+   "ms": 0,
+   "src": "assets/midia/ne_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center",
+   "arroba": "via @goodmorningbritain",
+   "respira": false,
+   "zoom": [
+    [
+     2.07,
+     1.0,
+     0.01
+    ],
+    [
+     6.07,
+     1.06,
+     0.4
+    ],
+    [
+     11.05,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.17,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade?",
+   "txt": "O corpo para de escutar?",
+   "botoes": [
+    "MITO",
+    "VERDADE",
+    "DEPENDE"
+   ],
+   "vel": 0.025,
+   "escolha": 2,
+   "t_escolha": 5.37
+  },
+  {
+   "tipo": "numero",
+   "t": 6.37,
+   "d": 7.13,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 7.9,
+   "dec": 1,
+   "suf": " MI DE VIEWS",
+   "tam": 120
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.5,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 13.55,
+   "d": 3.7,
+   "src": "assets/midia/ne_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 13.57,
+   "d": 3.68,
+   "xy": [
+    70,
+    190
+   ],
+   "w": 940,
+   "fonte": "200px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "ESCUTA,\\nSIM.",
+   "z": 55,
+   "entra": "pop",
+   "fixo": true,
+   "css": "background:#2a0a10;border-radius:14px;height:909px;box-sizing:border-box;line-height:1.05;text-shadow:6px 6px 0 rgba(0,0,0,.35);padding:90px 30px 0"
+  },
+  {
+   "tipo": "texto",
+   "t": 15.0,
+   "d": 2.25,
+   "xy": [
+    110,
+    700
+   ],
+   "w": 860,
+   "fonte": "110px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PRECISA DO RECADO CERTO",
+   "z": 56,
+   "entra": "zoom",
+   "fixo": true,
+   "css": "text-shadow:6px 6px 0 rgba(0,0,0,.35)"
+  },
+  {
+   "tipo": "fisio",
+   "t": 15.15,
+   "d": 2.1,
+   "z": 57,
+   "orgaos": [
+    {
+     "k": "raio",
+     "xy": [
+      915,
+      610
+     ],
+     "s": 0.42
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.9
+    }
+   ]
+  },
+  {
+   "tipo": "video",
+   "t": 13.55,
+   "d": 3.7,
+   "ms": 0,
+   "src": "assets/midia/ne_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 17.2,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 17.25,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.6,
+   "d": 12.93,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 17.4,
+   "d": 3.786,
+   "txt": "FRASE",
+   "y": 1260,
+   "tam": 460,
+   "cor": "rgba(255,212,0,.30)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    1100,
+    -1150
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.42,
+   "d": 3.72,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "NÃO EXAMINEI NINGUÉM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 rgba(0,0,0,.35)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.9,
+   "d": 3.236,
+   "xy": [
+    110,
+    640
+   ],
+   "w": 860,
+   "fonte": "italic 700 84px 'Source Serif 4'",
+   "cor": "#111111",
+   "alinha": "center",
+   "txt": "“Meu corpo não escuta.”",
+   "z": 42,
+   "entra": "cai",
+   "fixo": true,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:22px;padding:26px 30px 30px;box-shadow:0 20px 50px rgba(0,0,0,.5);transform:rotate(-2deg)"
+  },
+  {
+   "tipo": "texto",
+   "t": 19.286,
+   "d": 1.85,
+   "xy": [
+    240,
+    1060
+   ],
+   "w": 600,
+   "fonte": "120px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "SÓ DA FRASE",
+   "z": 47,
+   "entra": "pop",
+   "fixo": true,
+   "css": "border:7px solid #ffd400;border-radius:30px;padding:2px 0 8px;background:rgba(20,7,10,.9)"
+  },
+  {
+   "tipo": "flash",
+   "t": 21.186,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 21.186,
+   "d": 2.648,
+   "txt": "RITMO",
+   "y": 1300,
+   "tam": 460,
+   "cor": "rgba(255,255,255,.07)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    -1035,
+    900
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 21.21,
+   "d": 2.62,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PESO: CADA CORPO, SEU RITMO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 rgba(0,0,0,.35)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 21.236,
+   "d": 2.598,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "balanca",
+     "xy": [
+      330,
+      1000
+     ],
+     "s": 0.85,
+     "t": 0.1
+    },
+    {
+     "k": "cy_relogio",
+     "xy": [
+      770,
+      1000
+     ],
+     "s": 0.95,
+     "t": 1.887
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 2.231
+    }
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 23.834,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 23.85,
+   "d": 2.88,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CORPO QUE NÃO ESCUTA?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 rgba(0,0,0,.35)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 25.173,
+   "d": 1.557,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "640px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "?",
+   "z": 42,
+   "entra": "zoom",
+   "fixo": true,
+   "css": "text-shadow:14px 14px 0 rgba(0,0,0,.35)"
+  },
+  {
+   "tipo": "flash",
+   "t": 26.78,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 26.78,
+   "d": 3.8,
+   "txt": "QUALQUER IDADE",
+   "y": 1420,
+   "tam": 380,
+   "cor": "rgba(61,220,132,.35)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    1100,
+    -2660
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 26.8,
+   "d": 3.75,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "O MÚSCULO ESCUTA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 rgba(0,0,0,.35)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 26.83,
+   "d": 3.75,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      900
+     ],
+     "s": 1.25,
+     "t": 0.1
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.828
+    },
+    {
+     "o": 0,
+     "t": 2.491
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 28.328,
+   "d": 2.202,
+   "xy": [
+    170,
+    1180
+   ],
+   "w": 740,
+   "fonte": "104px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "EM QUALQUER IDADE",
+   "z": 47,
+   "entra": "pop",
+   "fixo": true,
+   "css": "border:7px solid #3ddc84;border-radius:30px;padding:2px 0 8px;background:rgba(20,7,10,.9)"
+  },
+  {
+   "tipo": "glitch",
+   "t": 30.53,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 30.58,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 30.78,
+   "d": 19.27,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#1a0508",
+   "alinha": "center",
+   "txt": "● AULA RÁPIDA",
+   "css": "letter-spacing:3px;background:#ffd400;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 30.58,
+   "d": 14.981,
+   "src": "assets/midia/ne_cel_dia.png",
+   "box": [
+    90,
+    210,
+    900,
+    1770
+   ],
+   "fit": "contain",
+   "raio": 100,
+   "sombra": true,
+   "entra": "desliza",
+   "dy": 1300,
+   "z": 30,
+   "fixo": true
+  },
+  {
+   "t": 30.68,
+   "d": 2.429,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "MÚSCULO É COMO PLANTA",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 30.68,
+   "d": 2.429,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · AGORA",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.718,
+   "d": 2.718,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "ne_planta_em_pe",
+     "xy": [
+      540,
+      1290
+     ],
+     "s": 1.35
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "t": 33.129,
+   "d": 2.241,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#b3121f",
+   "alinha": "left",
+   "txt": "SEM ÁGUA: MURCHA",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 33.129,
+   "d": 2.241,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · AGORA",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 34.436,
+   "d": 0.954,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "ne_planta_murcha",
+     "xy": [
+      540,
+      1290
+     ],
+     "s": 1.35
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "t": 35.39,
+   "d": 2.694,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#16803c",
+   "alinha": "left",
+   "txt": "COM ÁGUA: CRESCE",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 35.39,
+   "d": 2.694,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · AGORA",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 35.39,
+   "d": 1.257,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "ne_planta_murcha",
+     "xy": [
+      400,
+      1370
+     ],
+     "s": 1.1
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 36.597,
+   "d": 1.959,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "ne_planta_em_pe",
+     "xy": [
+      400,
+      1370
+     ],
+     "s": 1.1
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 35.49,
+   "d": 4.496,
+   "z": 41,
+   "orgaos": [
+    {
+     "k": "ne_regador",
+     "xy": [
+      720,
+      1010
+     ],
+     "s": 0.78
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      575,
+      1050
+     ],
+     "para": [
+      440,
+      1200
+     ],
+     "curva": 10,
+     "cor": "#7fd3ff",
+     "t": 0.3,
+     "d": 1.9,
+     "n": 6,
+     "r": 12,
+     "viagem": 0.6
+    }
+   ]
+  },
+  {
+   "t": 38.104,
+   "d": 3.046,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "PRO MÚSCULO, ÁGUA = ESFORÇO",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 38.104,
+   "d": 3.046,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · AGORA",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 38.556,
+   "d": 2.614,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      400,
+      1350
+     ],
+     "s": 1.0,
+     "rotulo": "MÚSCULO",
+     "rot_y": 190
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 39.986,
+   "d": 1.184,
+   "z": 43,
+   "orgaos": [
+    {
+     "k": "ne_regador_haltere",
+     "xy": [
+      720,
+      1010
+     ],
+     "s": 0.82
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.5
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      585,
+      1130
+     ],
+     "para": [
+      450,
+      1280
+     ],
+     "curva": 10,
+     "cor": "#7fd3ff",
+     "t": 0.25,
+     "d": 1.2,
+     "n": 4,
+     "r": 12,
+     "viagem": 0.55
+    }
+   ]
+  },
+  {
+   "t": 41.17,
+   "d": 4.351,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "TREINO DE FORÇA DÁ O RECADO",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 41.17,
+   "d": 4.351,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · AGORA",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 41.27,
+   "d": 4.271,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "ne_fibra",
+     "xy": [
+      540,
+      1300
+     ],
+     "s": 1.3,
+     "rotulo": "FIBRA DO MÚSCULO",
+     "rot_y": 175,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 3.364
+    },
+    {
+     "o": 0,
+     "t": 3.719
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      900,
+      840
+     ],
+     "para": [
+      760,
+      1230
+     ],
+     "curva": -90,
+     "cor": "#ffd400",
+     "t": 2.864,
+     "d": 1.3,
+     "n": 4,
+     "r": 15,
+     "viagem": 0.55,
+     "rotulo": "RECADO"
+    }
+   ]
+  },
+  {
+   "t": 42.731,
+   "d": 2.76,
+   "entra": "desliza",
+   "dy": -300,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    130,
+    262
+   ],
+   "w": 820,
+   "fonte": "100px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "FICA MAIS FORTE!",
+   "z": 48,
+   "css": "box-sizing:border-box;background:rgba(250,250,252,.97);border-radius:34px;padding:54px 30px 18px;box-shadow:0 14px 34px rgba(0,0,0,.45);line-height:1.04"
+  },
+  {
+   "t": 42.731,
+   "d": 2.76,
+   "entra": "desliza",
+   "dy": -300,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    160,
+    280
+   ],
+   "w": 700,
+   "fonte": "800 24px Montserrat",
+   "cor": "#777777",
+   "alinha": "left",
+   "txt": "Treino de força · agora",
+   "z": 49,
+   "css": "letter-spacing:1px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 44.487,
+   "d": 1.054,
+   "z": 44,
+   "orgaos": [
+    {
+     "k": "raio",
+     "xy": [
+      830,
+      1110
+     ],
+     "s": 0.42
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 45.541,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 45.541,
+   "d": 4.559,
+   "src": "assets/midia/ne_cel_noite.png",
+   "box": [
+    90,
+    210,
+    900,
+    1770
+   ],
+   "fit": "contain",
+   "raio": 100,
+   "sombra": true,
+   "entra": "nada",
+   "dy": 1300,
+   "z": 30,
+   "fixo": true
+  },
+  {
+   "t": 45.591,
+   "d": 2.467,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "DESCANSO + PROTEÍNA",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 45.591,
+   "d": 2.467,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#2a3a8a",
+   "alinha": "left",
+   "txt": "MODO NOITE · 23:40",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 45.741,
+   "d": 4.359,
+   "z": 39,
+   "orgaos": [
+    {
+     "k": "cf_lua",
+     "xy": [
+      840,
+      990
+     ],
+     "s": 0.3
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 45.591,
+   "d": 2.765,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "ne_fibra",
+     "xy": [
+      540,
+      1320
+     ],
+     "s": 1.15,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      230,
+      1660
+     ],
+     "para": [
+      440,
+      1330
+     ],
+     "curva": -80,
+     "cor": "#f0a640",
+     "t": 1.056,
+     "d": 1.4,
+     "n": 4,
+     "r": 16,
+     "viagem": 0.6,
+     "rotulo": "PROTEÍNA"
+    },
+    {
+     "de": [
+      850,
+      1660
+     ],
+     "para": [
+      640,
+      1330
+     ],
+     "curva": -80,
+     "cor": "#f0a640",
+     "t": 1.256,
+     "d": 1.4,
+     "n": 4,
+     "r": 16,
+     "viagem": 0.6
+    }
+   ]
+  },
+  {
+   "tipo": "fisio",
+   "t": 48.206,
+   "d": 1.894,
+   "z": 41,
+   "orgaos": [
+    {
+     "k": "ne_fibra_tijolos",
+     "xy": [
+      540,
+      1320
+     ],
+     "s": 1.22,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.5
+    }
+   ]
+  },
+  {
+   "t": 48.008,
+   "d": 2.072,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#16803c",
+   "alinha": "left",
+   "txt": "UM POUCO MAIOR",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 48.008,
+   "d": 2.072,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#2a3a8a",
+   "alinha": "left",
+   "txt": "MODO NOITE · 23:40",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "desenho",
+   "t": 48.559,
+   "d": 1.541,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      890,
+      1640
+     ],
+     "para": [
+      890,
+      1470
+     ],
+     "curva": 0
+    }
+   ],
+   "cor": "#3ddc84",
+   "espessura": 16,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 50.05,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 50.1,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 50.1,
+   "d": 19.55,
+   "src": "assets/midia/ne_cel_dia.png",
+   "box": [
+    90,
+    210,
+    900,
+    1770
+   ],
+   "fit": "contain",
+   "raio": 100,
+   "sombra": true,
+   "entra": "nada",
+   "dy": 1300,
+   "z": 30,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 50.3,
+   "d": 19.28,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 51.501,
+   "d": 18.129,
+   "xy": [
+    40,
+    214
+   ],
+   "w": 1000,
+   "fonte": "600 26px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Fiatarone e col., JAMA 1990 · 10 idosos, estudo pequeno e sem grupo de comparação · doi 10.1001/jama.1990.03440220053029",
+   "z": 70,
+   "fixo": true,
+   "css": "text-shadow:0 2px 6px #000;background:rgba(0,0,0,.45);border-radius:10px;padding:4px 10px"
+  },
+  {
+   "t": 50.2,
+   "d": 9.978,
+   "entra": "desliza",
+   "dy": -300,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    130,
+    300
+   ],
+   "w": 820,
+   "fonte": "100px Anton",
+   "cor": "#b3121f",
+   "alinha": "left",
+   "txt": "ARQUIVO DE 1990",
+   "z": 48,
+   "css": "box-sizing:border-box;background:rgba(250,250,252,.97);border-radius:34px;padding:54px 30px 18px;box-shadow:0 14px 34px rgba(0,0,0,.45);line-height:1.04"
+  },
+  {
+   "t": 50.2,
+   "d": 9.978,
+   "entra": "desliza",
+   "dy": -300,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    160,
+    318
+   ],
+   "w": 700,
+   "fonte": "800 24px Montserrat",
+   "cor": "#777777",
+   "alinha": "left",
+   "txt": "Arquivo · agora",
+   "z": 49,
+   "css": "letter-spacing:1px"
+  },
+  {
+   "tipo": "artigo",
+   "t": 51.501,
+   "d": 8.677,
+   "box": [
+    150,
+    500,
+    780,
+    790
+   ],
+   "z": 36,
+   "fixo": true,
+   "revista": "JAMA · Boston · 1990",
+   "titulo": "Treino de força pesado aos 90 anos",
+   "autores": "Fiatarone e col. · casa de repouso",
+   "rola": 0,
+   "linhas": [
+    {
+     "txt": "10 idosos frágeis.",
+     "grifo": 56.18
+    },
+    {
+     "txt": "Média de 90 anos.",
+     "grifo": 57.046
+    },
+    {
+     "txt": "8 semanas de treino de perna.",
+     "grifo": 58.924
+    }
+   ],
+   "rodape": "doi 10.1001/jama.1990.03440220053029"
+  },
+  {
+   "tipo": "texto",
+   "t": 56.996,
+   "d": 3.182,
+   "xy": [
+    300,
+    1330
+   ],
+   "w": 480,
+   "fonte": "110px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "90 ANOS",
+   "z": 47,
+   "entra": "pop",
+   "fixo": true,
+   "css": "border:7px solid #ffd400;border-radius:30px;padding:2px 0 8px;background:rgba(20,7,10,.9)"
+  },
+  {
+   "tipo": "texto",
+   "t": 58.674,
+   "d": 1.504,
+   "xy": [
+    270,
+    1490
+   ],
+   "w": 540,
+   "fonte": "104px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "8 SEMANAS",
+   "z": 47,
+   "entra": "pop",
+   "fixo": true,
+   "css": "border:7px solid #ffffff;border-radius:30px;padding:2px 0 8px;background:rgba(20,7,10,.9)"
+  },
+  {
+   "tipo": "flash",
+   "t": 60.198,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "t": 60.218,
+   "d": 1.839,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "FORÇA DA PERNA",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 60.218,
+   "d": 1.839,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "RESULTADO · 8 SEMANAS",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "numero",
+   "t": 59.927,
+   "d": 2.18,
+   "xy": [
+    0,
+    720
+   ],
+   "valor": 3,
+   "pre": "QUASE ",
+   "suf": "x",
+   "tam": 250,
+   "cor": "#ffd400",
+   "sombra": "#5a0d10",
+   "rotulo": "+174%",
+   "z": 46,
+   "fixo": true,
+   "conta": 0.6,
+   "de": 1
+  },
+  {
+   "tipo": "fisio",
+   "t": 60.298,
+   "d": 1.779,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "haltere",
+     "xy": [
+      540,
+      1340
+     ],
+     "s": 0.6
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.9
+    }
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 62.077,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "t": 62.097,
+   "d": 2.366,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#16803c",
+   "alinha": "left",
+   "txt": "MÚSCULO DA COXA CRESCEU",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 62.097,
+   "d": 2.366,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "RESULTADO · 8 SEMANAS",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 62.177,
+   "d": 1.356,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1230
+     ],
+     "s": 0.95
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 63.433,
+   "d": 1.05,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1230
+     ],
+     "s": 1.12
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.45
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 63.483,
+   "d": 0.95,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      870,
+      1520
+     ],
+     "para": [
+      870,
+      1320
+     ],
+     "curva": 0
+    }
+   ],
+   "cor": "#3ddc84",
+   "espessura": 16,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 64.483,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "t": 64.503,
+   "d": 5.107,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "NUM TESTE DE CAMINHADA",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 64.503,
+   "d": 5.107,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "RESULTADO · 8 SEMANAS",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "numero",
+   "t": 66.656,
+   "d": 2.954,
+   "xy": [
+    0,
+    830
+   ],
+   "valor": 48,
+   "pre": "+",
+   "suf": "%",
+   "tam": 250,
+   "cor": "#3ddc84",
+   "sombra": "#0b3d22",
+   "rotulo": "mais rápidos",
+   "z": 46,
+   "fixo": true,
+   "conta": 0.7,
+   "de": 0
+  },
+  {
+   "tipo": "fisio",
+   "t": 64.583,
+   "d": 5.047,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "cy_relogio",
+     "xy": [
+      540,
+      1440
+     ],
+     "s": 0.7
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 69.58,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 69.63,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 69.63,
+   "d": 10.79,
+   "src": "assets/midia/ne_cel_dia.png",
+   "box": [
+    90,
+    210,
+    900,
+    1770
+   ],
+   "fit": "contain",
+   "raio": 100,
+   "sombra": true,
+   "entra": "nada",
+   "dy": 1300,
+   "z": 30,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 69.83,
+   "d": 10.52,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#06220f",
+   "alinha": "center",
+   "txt": "● O QUE FAZER",
+   "css": "letter-spacing:3px;background:#3ddc84;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "t": 69.68,
+   "d": 3.265,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "EMAGRECEU MUITO?",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 69.68,
+   "d": 3.265,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · AGORA",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "texto",
+   "t": 71.656,
+   "d": 3.756,
+   "xy": [
+    120,
+    826
+   ],
+   "w": 840,
+   "fonte": "100px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "COM OU SEM CANETA",
+   "z": 47,
+   "entra": "pop",
+   "fixo": true,
+   "css": "border:7px solid #ffd400;border-radius:30px;padding:2px 0 8px;background:rgba(20,7,10,.9)"
+  },
+  {
+   "t": 72.965,
+   "d": 2.447,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "GANHAR PESO COM SAÚDE?",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 72.965,
+   "d": 2.447,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · AGORA",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "fisio",
+   "t": 73.065,
+   "d": 2.367,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "ne_planta_em_pe",
+     "xy": [
+      540,
+      1400
+     ],
+     "s": 1.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 75.432,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "checklist",
+   "t": 75.432,
+   "d": 4.948,
+   "box": [
+    150,
+    500,
+    780,
+    520
+   ],
+   "z": 36,
+   "fixo": true,
+   "entra": "desliza",
+   "titulo": "Com seu médico:",
+   "itens": [
+    {
+     "t": 77.143,
+     "txt": "músculo",
+     "marca": 77.493
+    },
+    {
+     "t": 78.149,
+     "txt": "treino de força",
+     "marca": 78.603
+    },
+    {
+     "t": 79.005,
+     "txt": "proteína",
+     "marca": 79.106
+    }
+   ]
+  },
+  {
+   "tipo": "fisio",
+   "t": 77.143,
+   "d": 3.257,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1330
+     ],
+     "s": 0.7
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.6
+    }
+   ]
+  },
+  {
+   "tipo": "glitch",
+   "t": 80.35,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 80.4,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 80.4,
+   "d": 5.65,
+   "src": "assets/midia/ne_cel_dia.png",
+   "box": [
+    90,
+    210,
+    900,
+    1770
+   ],
+   "fit": "contain",
+   "raio": 100,
+   "sombra": true,
+   "entra": "nada",
+   "dy": 1300,
+   "z": 30,
+   "fixo": true
+  },
+  {
+   "t": 80.45,
+   "d": 5.6,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    490
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#111111",
+   "alinha": "left",
+   "txt": "SE AOS 90 O MÚSCULO ESCUTA...",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 80.45,
+   "d": 5.6,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    510
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · AGORA",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "t": 82.268,
+   "d": 3.782,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    150,
+    924
+   ],
+   "w": 780,
+   "fonte": "104px Anton",
+   "cor": "#b3121f",
+   "alinha": "left",
+   "txt": "...O SEU DEDÃO TAMBÉM ESCUTA",
+   "z": 36,
+   "css": "box-sizing:border-box;background:#ffffff;border-radius:28px;padding:60px 30px 26px;box-shadow:0 10px 26px rgba(0,0,0,.28);line-height:1.04"
+  },
+  {
+   "t": 82.268,
+   "d": 3.782,
+   "entra": "desliza",
+   "dy": -150,
+   "dx": 0,
+   "fixo": true,
+   "tipo": "texto",
+   "xy": [
+    180,
+    944
+   ],
+   "w": 700,
+   "fonte": "800 26px Montserrat",
+   "cor": "#c8102e",
+   "alinha": "left",
+   "txt": "PLANTÃO DO CORPO · URGENTE",
+   "z": 37,
+   "css": "letter-spacing:2px"
+  },
+  {
+   "tipo": "texto",
+   "t": 82.468,
+   "d": 1.689,
+   "xy": [
+    270,
+    1266
+   ],
+   "w": 540,
+   "fonte": "900 84px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SEGUIR",
+   "z": 40,
+   "entra": "pop",
+   "fixo": true,
+   "css": "background:#1f6fe5;border-radius:30px;padding:16px 0 24px;box-shadow:0 12px 26px rgba(0,0,0,.3)"
+  },
+  {
+   "tipo": "texto",
+   "t": 84.157,
+   "d": 1.893,
+   "xy": [
+    210,
+    1266
+   ],
+   "w": 660,
+   "fonte": "900 84px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SEGUINDO",
+   "z": 40,
+   "entra": "pop",
+   "fixo": true,
+   "css": "background:#16a34a;border-radius:30px;padding:16px 0 24px;box-shadow:0 12px 26px rgba(0,0,0,.3)"
+  },
+  {
+   "tipo": "desenho",
+   "t": 84.007,
+   "d": 0.55,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      540,
+      1332
+     ],
+     "r": [
+      330,
+      100
+     ]
+    }
+   ],
+   "cor": "#ffd400",
+   "espessura": 12,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 84.307,
+   "d": 1.743,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      540,
+      1486
+     ],
+     "s": 46
+    }
+   ],
+   "cor": "#3ddc84",
+   "espessura": 20,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 85.98,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 86.03,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/cta6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     86.03,
+     1.0,
+     0.01
+    ],
+    [
+     88.03,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40,
+   "fixo": true
+  },
+  {
+   "tipo": "barra",
+   "t": 86.23,
+   "d": 3.87,
+   "y": 215,
+   "txt": "SEGUE + CURTE = TREINO DO DEDÃO",
+   "cor": "#ffd400",
+   "cor_txt": "#1a0508",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 90.1,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 90.15,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 90.15,
+   "d": 2.418,
+   "txt": "PESO",
+   "y": 1300,
+   "tam": 520,
+   "cor": "rgba(255,255,255,.07)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    -936,
+    900
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 90.18,
+   "d": 2.38,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PESO NEM SEMPRE ESCUTA.",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 rgba(0,0,0,.35)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 90.35,
+   "d": 2.218,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "balanca",
+     "xy": [
+      540,
+      960
+     ],
+     "s": 0.95,
+     "t": 0.1
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 92.568,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 92.568,
+   "d": 3.532,
+   "txt": "TREINO",
+   "y": 1320,
+   "tam": 480,
+   "cor": "rgba(61,220,132,.35)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    1100,
+    -1440
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 92.59,
+   "d": 3.51,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "O MÚSCULO ESCUTA O TREINO.",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 rgba(0,0,0,.35)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 92.618,
+   "d": 3.482,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      860
+     ],
+     "s": 1.0,
+     "t": 0.1
+    },
+    {
+     "k": "haltere",
+     "xy": [
+      540,
+      1120
+     ],
+     "s": 0.55,
+     "t": 1.163
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.463
+    }
+   ]
+  },
+  {
+   "tipo": "carimbo",
+   "t": 94.505,
+   "d": 1.595,
+   "xy": [
+    190,
+    1360
+   ],
+   "txt": "MEIA VERDADE",
+   "tam": 110,
+   "rot": -6,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 90.15,
+   "d": 5.95,
+   "xy": [
+    40,
+    214
+   ],
+   "w": 1000,
+   "fonte": "600 26px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Fiatarone e col., JAMA 1990 · Peterson e col., Med Sci Sports Exerc 2011: 49 estudos, +1,1 kg de massa magra com treino de força depois dos 50 · Conteúdo educativo. Converse com o seu médico.",
+   "z": 70,
+   "fixo": true,
+   "css": "text-shadow:0 2px 6px #000;background:rgba(0,0,0,.45);border-radius:10px;padding:4px 10px"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ]
+}

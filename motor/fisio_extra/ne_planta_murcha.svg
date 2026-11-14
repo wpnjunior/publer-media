@@ -1,0 +1,13 @@
+<g>
+  <path d="M-130 40 L130 40 L100 192 L-100 192 Z" fill="#2f8f9d" stroke="#0f3c44" stroke-width="10" stroke-linejoin="round"/>
+  <rect x="-150" y="16" width="300" height="44" rx="12" fill="#3aa7b6" stroke="#0f3c44" stroke-width="10"/>
+  <path d="M-80 120 L80 120" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity=".35"/>
+  <path d="M-128 20 C-70 4 70 4 128 20" fill="#b08a5a" stroke="#5e3f1a" stroke-width="8"/>
+  <path d="M-70 14 L-52 6 L-62 0 M10 12 L26 4 L16 -2 M70 12 L86 6" fill="none" stroke="#5e3f1a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M0 14 C-2 -40 4 -86 30 -104 C62 -124 104 -98 118 -50" fill="none" stroke="#8c8a3a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M118 -50 C124 -30 120 -10 110 4" fill="none" stroke="#8c8a3a" stroke-width="15" stroke-linecap="round"/>
+  <path d="M108 2 C84 -2 70 22 80 48 C100 42 114 22 108 2 Z" fill="#c9a43a" stroke="#6b5310" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M2 -40 C-30 -30 -62 0 -72 40 C-42 30 -12 0 2 -40 Z" fill="#b5a64a" stroke="#5e5214" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M10 -76 C42 -62 60 -30 62 6 C38 -14 18 -42 10 -76 Z" fill="#a89842" stroke="#5e5214" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M30 -104 C4 -122 -34 -114 -50 -86 C-20 -82 10 -88 30 -104 Z" fill="#b5a64a" stroke="#5e5214" stroke-width="8" stroke-linejoin="round"/>
+</g>

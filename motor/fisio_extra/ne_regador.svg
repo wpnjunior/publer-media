@@ -1,0 +1,10 @@
+<g transform="rotate(-24)">
+  <path d="M-60 20 L-178 -52" stroke="#0f3c44" stroke-width="30" stroke-linecap="round"/>
+  <path d="M-60 20 L-178 -52" stroke="#5ec4d6" stroke-width="15" stroke-linecap="round"/>
+  <path d="M-170 -80 L-210 -34 C-206 -18 -192 -12 -178 -18 L-156 -62 Z" fill="#5ec4d6" stroke="#0f3c44" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M-60 -60 L120 -60 L130 100 C130 116 120 122 104 122 L-44 122 C-60 122 -70 116 -70 100 Z" fill="#5ec4d6" stroke="#0f3c44" stroke-width="10" stroke-linejoin="round"/>
+  <ellipse cx="30" cy="-60" rx="90" ry="20" fill="#3aa7b6" stroke="#0f3c44" stroke-width="8"/>
+  <path d="M100 -50 C186 -60 196 60 126 72" fill="none" stroke="#0f3c44" stroke-width="18" stroke-linecap="round"/>
+  <path d="M-40 -30 L-40 92" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".35"/>
+</g>
+<path d="M-196 40 C-186 58 -186 70 -196 76 C-206 70 -206 58 -196 40 Z M-160 92 C-150 110 -150 122 -160 128 C-170 122 -170 110 -160 92 Z M-210 132 C-200 150 -200 162 -210 168 C-220 162 -220 150 -210 132 Z" fill="#7fd3ff" stroke="#1d5f8a" stroke-width="5"/>
