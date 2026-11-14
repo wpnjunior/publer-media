@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "editoria": "Berçário",
+   "manchete": "Berçário não é gasto a mais. <span class=\"hl\">É lucro que falta contar.</span>",
+   "sub": "Um ciclo de berçário comercial de 23 dias fechou com 95% de sobrevivência e 30% de retorno sobre o investimento.",
+   "fonte": "Fonte: Eliver, Parana & Aziz, Sains Akuakultur Tropis, 2026"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "200 mil PL, <span class=\"hl\">23 dias</span>",
+   "corpo": "Um berçário intensivo nas Filipinas estocou <b>200 mil pós-larvas PL10</b> num tanque de <b>102 m³</b>, a 2 por litro. Em <b>23 dias</b>, virou <b>190 mil juvenis</b>.",
+   "destaque": "95% de sobrevivência não foi sorte: foi densidade controlada e água monitorada duas vezes por dia.",
+   "fonte": "Eliver et al., Sains Akuakultur Tropis, 2026"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "A ração <span class=\"hl\">não é o maior custo</span>",
+   "corpo": "No berçário, a ração ficou em só <b>7%</b> do custo operacional. A pós-larva sozinha pesou <b>68%</b> do custo total do ciclo.",
+   "destaque": "Se a semente é 68% da sua conta, a qualidade da pós-larva decide o resultado antes do primeiro arraçoamento.",
+   "fonte": "Eliver et al., Sains Akuakultur Tropis, 2026 — Tabela 2"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "03",
+   "manchete": "A conta <span class=\"hl\">fechou no azul</span>",
+   "corpo": "Custo do ciclo: <b>US$ 1.981,94</b>. Receita com os juvenis: <b>US$ 2.577,14</b>. Lucro líquido: <b>US$ 595,20</b> em 23 dias — <b>ROI de 30%</b>.",
+   "destaque": "Com 12 ciclos possíveis por ano, o estudo projetou lucro anual de US$ 7.142,40 pro berçário.",
+   "fonte": "Eliver et al., Sains Akuakultur Tropis, 2026 — Tabela 3"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "O teste de estresse <span class=\"hl\">antes da despesca</span>",
+   "corpo": "Antes de ir pro viveiro de engorda, o lote passou por exposição ao ar e água doce. Sobreviveu <b>96%</b> — sinal de juvenil robusto pra próxima fase.",
+   "destaque": "Berçário bom entrega juvenil testado, não só juvenil contado.",
+   "fonte": "Eliver et al., Sains Akuakultur Tropis, 2026"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está o seu berçário.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
