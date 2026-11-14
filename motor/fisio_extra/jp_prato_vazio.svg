@@ -1,0 +1,7 @@
+<g>
+  <path d="M-196 -90 L-196 -10 M-212 -150 L-212 -100 M-196 -150 L-196 -100 M-180 -150 L-180 -100 M-212 -100 C-212 -80 -180 -80 -180 -100" fill="none" stroke="#6b6f78" stroke-width="10" stroke-linecap="round" transform="translate(16 40)"/>
+  <path d="M190 -110 C206 -80 206 -40 192 -20 L192 70" fill="none" stroke="#6b6f78" stroke-width="12" stroke-linecap="round" transform="translate(-8 0)"/>
+  <ellipse cx="0" cy="20" rx="160" ry="120" fill="#f4f1e8" stroke="#555" stroke-width="9"/>
+  <ellipse cx="0" cy="20" rx="108" ry="78" fill="none" stroke="#c9c4b6" stroke-width="6"/>
+  <ellipse cx="-50" cy="-30" rx="40" ry="14" fill="#fff" opacity=".9" transform="rotate(-20 -50 -30)"/>
+</g>
