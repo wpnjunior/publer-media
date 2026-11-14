@@ -1,0 +1,20 @@
+<g>
+  <path d="M-150 -60 L-150 -84 L150 -84 L150 -60" fill="#3c9a4a" stroke="#1d4f24" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M-178 -70 C-120 -98 120 -98 178 -70 C200 -20 200 60 178 104 C120 132 -120 132 -178 104 C-200 60 -200 -20 -178 -70 Z" fill="#f7cf3a" stroke="#7a5a00" stroke-width="8" stroke-linejoin="round"/>
+  <ellipse cx="-110" cy="-30" rx="18" ry="13" fill="#d9a91c" stroke="#7a5a00" stroke-width="4"/>
+  <ellipse cx="-40" cy="10" rx="13" ry="10" fill="#d9a91c" stroke="#7a5a00" stroke-width="4"/>
+  <ellipse cx="40" cy="-34" rx="16" ry="12" fill="#d9a91c" stroke="#7a5a00" stroke-width="4"/>
+  <ellipse cx="112" cy="18" rx="20" ry="14" fill="#d9a91c" stroke="#7a5a00" stroke-width="4"/>
+  <ellipse cx="-130" cy="60" rx="14" ry="10" fill="#d9a91c" stroke="#7a5a00" stroke-width="4"/>
+  <ellipse cx="0" cy="70" rx="18" ry="12" fill="#d9a91c" stroke="#7a5a00" stroke-width="4"/>
+  <ellipse cx="130" cy="78" rx="12" ry="9" fill="#d9a91c" stroke="#7a5a00" stroke-width="4"/>
+  <ellipse cx="-75" cy="38" rx="9" ry="7" fill="#d9a91c" stroke="#7a5a00" stroke-width="3"/>
+  <ellipse cx="80" cy="56" rx="9" ry="7" fill="#d9a91c" stroke="#7a5a00" stroke-width="3"/>
+  <path d="M-178 70 C-120 96 120 96 178 70 L178 104 C120 132 -120 132 -178 104 Z" fill="#7fd3ff" opacity=".55"/>
+  <ellipse cx="-90" cy="-62" rx="60" ry="12" fill="#fff" opacity=".45"/>
+  <path d="M-90 128 C-80 148 -72 160 -72 172 C-72 184 -81 192 -90 192 C-99 192 -108 184 -108 172 C-108 160 -100 148 -90 128 Z" fill="#7fd3ff" stroke="#0d4f78" stroke-width="6"/>
+  <path d="M10 132 C18 148 25 158 25 168 C25 178 18 185 10 185 C2 185 -5 178 -5 168 C-5 158 2 148 10 132 Z" fill="#7fd3ff" stroke="#0d4f78" stroke-width="6"/>
+  <path d="M110 128 C120 148 128 160 128 172 C128 184 119 192 110 192 C101 192 92 184 92 172 C92 160 100 148 110 128 Z" fill="#7fd3ff" stroke="#0d4f78" stroke-width="6"/>
+  <path d="M-150 -20 C-145 -5 -142 4 -142 11 C-142 19 -147 24 -152 24 C-157 24 -162 19 -162 11 C-162 4 -158 -5 -150 -20 Z" fill="#7fd3ff" stroke="#0d4f78" stroke-width="4"/>
+  <path d="M155 -30 C160 -15 163 -6 163 1 C163 9 158 14 153 14 C148 14 143 9 143 1 C143 -6 147 -15 155 -30 Z" fill="#7fd3ff" stroke="#0d4f78" stroke-width="4"/>
+</g>

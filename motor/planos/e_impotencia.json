@@ -1,0 +1,323 @@
+{
+ "id": "e_impotencia",
+ "dur": 18.4,
+ "seed": 5,
+ "fundo": "#f3ead6",
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 18.4,
+   "cor": "#f3ead6",
+   "textura": "papel"
+  },
+  {
+   "tipo": "checklist",
+   "t": 0,
+   "d": 5.0,
+   "box": [
+    150,
+    90,
+    780,
+    640
+   ],
+   "titulo": "Tentativas",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "Falhou 1x",
+     "t": 0.2,
+     "marca": 0.9
+    },
+    {
+     "txt": "Falhou 2x",
+     "t": 2.0,
+     "marca": 2.4
+    },
+    {
+     "txt": "Falhou 3x",
+     "t": 3.4,
+     "marca": 4.1
+    }
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "flash",
+   "t": 5.0,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "celular",
+   "t": 5.0,
+   "d": 4.5,
+   "xy": [
+    300,
+    60
+   ],
+   "wh": [
+    480,
+    780
+   ],
+   "notif": [
+    {
+     "t": 5.6,
+     "app": "Farmácia",
+     "txt": "Pedido confirmado: comprimido azul 💊"
+    },
+    {
+     "t": 7.4,
+     "app": "Farmácia",
+     "txt": "Saiu para entrega 🛵"
+    }
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "carimbo",
+   "t": 9.5,
+   "d": 2.9,
+   "xy": [
+    230,
+    300
+   ],
+   "txt": "CALMA!",
+   "tam": 180,
+   "rot": -9,
+   "z": 60
+  },
+  {
+   "tipo": "gigante",
+   "t": 9.5,
+   "d": 2.9,
+   "txt": "CALMA, RAPAZ",
+   "y": 560,
+   "tam": 220,
+   "cor": "#1c1a17",
+   "contorno": true,
+   "x": [
+    900,
+    -1700
+   ],
+   "z": 20
+  },
+  {
+   "tipo": "texto",
+   "t": 12.4,
+   "d": 2.0,
+   "xy": [
+    80,
+    330
+   ],
+   "w": 920,
+   "fonte": "92px Caveat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "deixa eu te contar uma história...",
+   "anim": "palavras",
+   "vel": 0.12,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 14.4,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 14.4,
+   "d": 3.9999999999999982,
+   "xy": [
+    40,
+    180
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "NEM É ALI EMBAIXO",
+   "anim": "palavras",
+   "vel": 0.18,
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 16.3,
+   "d": 2.099999999999998,
+   "xy": [
+    60,
+    560
+   ],
+   "w": 960,
+   "fonte": "900 54px Montserrat",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "o aviso pode vir do coração",
+   "entra": "zoom",
+   "z": 41
+  },
+  {
+   "tipo": "desenho",
+   "t": 16.7,
+   "d": 1.6999999999999993,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      540,
+      600
+     ],
+     "r": [
+      470,
+      90
+     ],
+     "t": 0
+    }
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 18.4,
+   "ms": 1.2,
+   "src": "assets/midia/impotencia.mp4",
+   "box": [
+    0,
+    880,
+    1080,
+    1040
+   ],
+   "pos": "center 18%",
+   "zoom": [
+    [
+     0,
+     1.0,
+     0.01
+    ],
+    [
+     9.5,
+     1.15,
+     0.2
+    ],
+    [
+     14.4,
+     1.0,
+     0.3
+    ]
+   ],
+   "z": 50
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ],
+ "legenda": {
+  "estilo": "manuscrita",
+  "y": 1700
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/impotencia.mp4",
+    "t": 0,
+    "ms": 1.2,
+    "d": 17.9,
+    "palavras": "assets/midia/impotencia.words.json",
+    "desloca": -1.2
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_humor",
+    "t": 0,
+    "ms": 0,
+    "d": 14.4,
+    "gain": 0.3
+   },
+   {
+    "src": "m_tensao",
+    "t": 14.4,
+    "ms": 0,
+    "d": 3.9999999999999982,
+    "gain": 0.3
+   }
+  ],
+  "sfx": [
+   {
+    "src": "papel",
+    "t": 0.05,
+    "gain": 0.6
+   },
+   {
+    "src": "boing",
+    "t": 0.9,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 2.4,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 4.1,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 5.0,
+    "pico": 0.45,
+    "gain": 0.7
+   },
+   {
+    "src": "notif",
+    "t": 5.6,
+    "gain": 0.6
+   },
+   {
+    "src": "notif",
+    "t": 7.4,
+    "gain": 0.6
+   },
+   {
+    "src": "boom",
+    "t": 9.5,
+    "pico": 0.3,
+    "gain": 0.8,
+    "d": 2
+   },
+   {
+    "src": "scratch",
+    "t": 9.5,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 12.4,
+    "gain": 0.5
+   },
+   {
+    "src": "riser",
+    "t": 14.4,
+    "pico": 1.0,
+    "gain": 0.4,
+    "d": 1.2
+   },
+   {
+    "src": "papel",
+    "t": 16.7,
+    "gain": 0.5
+   }
+  ]
+ }
+}

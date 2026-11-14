@@ -1,0 +1,2069 @@
+{
+ "id": "react_claudia_aula",
+ "dur": 77.96,
+ "seed": 97,
+ "fundo": "#14070a",
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.1
+   ],
+   [
+    2.1,
+    6.2
+   ]
+  ],
+  "ys": [
+   [
+    6.2,
+    7.27,
+    1440
+   ],
+   [
+    7.27,
+    10.27,
+    1000
+   ],
+   [
+    12.83,
+    39.27,
+    1730
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/fe_entA.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.1,
+    "palavras": "assets/midia/fe_entA.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/cr_viral.mp4",
+    "t": 2.1,
+    "ms": 0,
+    "d": 5.17,
+    "palavras": "assets/midia/cr_viral.words.json"
+   },
+   {
+    "src": "assets/midia/cr_voz.wav",
+    "t": 7.27,
+    "ms": 0,
+    "d": 2.72,
+    "palavras": "assets/midia/cr_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cr_aula_a_voz.wav",
+    "t": 10.27,
+    "ms": 0,
+    "d": 2.4,
+    "gain": 0.871,
+    "palavras": "assets/midia/cr_aula_a_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cr_aula_b_voz.wav",
+    "t": 12.83,
+    "ms": 0,
+    "d": 25.943,
+    "gain": 1.084,
+    "palavras": "assets/midia/cr_aula_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cr_aula_c_voz.wav",
+    "t": 39.27,
+    "ms": 0,
+    "d": 23.31,
+    "gain": 1.072,
+    "palavras": "assets/midia/cr_aula_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cr_voz.wav",
+    "t": 62.88,
+    "ms": 24.6,
+    "d": 5.06,
+    "palavras": "assets/midia/cr_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cr_aula_d_voz.wav",
+    "t": 68.15,
+    "ms": 0,
+    "d": 8.963,
+    "gain": 0.944,
+    "palavras": "assets/midia/cr_aula_d_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_emocao",
+    "t": 9.97,
+    "ms": 0,
+    "d": 29.7,
+    "gain": 0.26,
+    "fade": 0.8
+   },
+   {
+    "src": "m_investiga",
+    "t": 38.97,
+    "ms": 0,
+    "d": 22.9,
+    "gain": 0.26,
+    "fade": 0.8
+   },
+   {
+    "src": "m_noticia",
+    "t": 61.17,
+    "ms": 0,
+    "d": 16.79,
+    "gain": 0.22,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.1,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.4,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 7.22,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 7.27,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 10.22,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 11.72,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 12.78,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 12.83,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 12.93,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 14.12,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 14.17,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 17.58,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 17.63,
+    "gain": 0.3
+   },
+   {
+    "src": "notif",
+    "t": 19.794,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 21.28,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 21.33,
+    "gain": 0.25
+   },
+   {
+    "src": "boing",
+    "t": 23.842,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 25.6,
+    "gain": 0.35
+   },
+   {
+    "src": "pagina",
+    "t": 25.8,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 28.87,
+    "gain": 0.35,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 31.82,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 31.87,
+    "gain": 0.3
+   },
+   {
+    "src": "riser",
+    "t": 33.54,
+    "gain": 0.18,
+    "d": 1.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 34.74,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 15.45,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 36.75,
+    "gain": 0.35,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 39.22,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 39.27,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 42.53,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 42.63,
+    "gain": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 46.04,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 50.43,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 53.65,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 57.31,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 59.87,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 62.83,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 63.08,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 66.23,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 66.38,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 68.1,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 69.904,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 71.352,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 73.633,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 75.513,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 77.96,
+   "cor": "#14070a",
+   "textura": "gradiente",
+   "cor2": "#5a0d10"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.1,
+   "ms": 0,
+   "src": "assets/midia/fe_entA.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.1
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.98,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "GRÁVIDA DEPOIS DOS 50?",
+   "sub": "entrevista na TV reacendeu o assunto",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.1,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.1,
+   "d": 8.17,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.1,
+   "d": 5.17,
+   "ms": 0,
+   "src": "assets/midia/cr_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 17%",
+   "arroba": "via @canalgnt",
+   "respira": false,
+   "zoom": [
+    [
+     2.1,
+     1.0,
+     0.01
+    ],
+    [
+     6.1,
+     1.06,
+     0.4
+    ],
+    [
+     4.77,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.2,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Responde aí 👇",
+   "txt": "Engravidar depois dos 50 é...",
+   "botoes": [
+    "RARO",
+    "COMUM"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.4
+  },
+  {
+   "tipo": "glitch",
+   "t": 7.22,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 7.27,
+   "d": 3.0,
+   "src": "assets/midia/cr_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "video",
+   "t": 7.27,
+   "d": 3.0,
+   "ms": 0,
+   "src": "assets/midia/cr_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 10.27,
+   "d": 2.56,
+   "ms": 0.5,
+   "src": "assets/midia/cr_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     10.27,
+     1.0,
+     0.01
+    ],
+    [
+     10.62,
+     1.16,
+     0.5
+    ],
+    [
+     11.67,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 10.27,
+   "d": 2.56,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 10.22,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 10.27,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 10.3,
+   "d": 2.55,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ELA ACERTA: É RARO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "gigante",
+   "t": 11.72,
+   "d": 0.6,
+   "txt": "RARO",
+   "y": 1180,
+   "tam": 300,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -1500
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "glitch",
+   "t": 12.78,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 12.83,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 12.93,
+   "d": 26.34,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#111",
+   "alinha": "center",
+   "txt": "● AULA RÁPIDA · POR QUE É RARO?",
+   "css": "letter-spacing:3px;background:#ffd400;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 12.88,
+   "d": 1.49,
+   "xy": [
+    40,
+    640
+   ],
+   "w": 1000,
+   "fonte": "230px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "POR QUÊ?",
+   "z": 45,
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 12.83,
+   "d": 1.29,
+   "txt": "POR QUÊ?",
+   "y": 1250,
+   "tam": 460,
+   "cor": "rgba(255,212,0,.30)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    1100,
+    -1840
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 14.12,
+   "d": 3.46,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "ovario_cheio",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 1.6,
+     "t": 0.0,
+     "rotulo": "OVÁRIO"
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.455
+    },
+    {
+     "o": 0,
+     "t": 2.21
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 14.37,
+   "d": 3.21,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "JÁ NASCE COM TODOS",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 14.12,
+   "d": 3.46,
+   "txt": "ÓVULOS",
+   "y": 1380,
+   "tam": 420,
+   "cor": "rgba(140,24,34,.55)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    -1134,
+    900
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 17.58,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 17.58,
+   "d": 3.7,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "cr_cofrinho",
+     "xy": [
+      480,
+      1100
+     ],
+     "s": 1.5,
+     "t": 0.0,
+     "rotulo": "POUPANÇA",
+     "rot_y": 225
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      470,
+      900
+     ],
+     "para": [
+      930,
+      760
+     ],
+     "curva": -100,
+     "cor": "#ffe08a",
+     "t": 2.2140000000000004,
+     "d": 1.4,
+     "n": 6,
+     "r": 18,
+     "viagem": 0.9,
+     "rotulo": "SÓ SAI"
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 2.4140000000000006,
+     "para": 1.25,
+     "d": 1.2
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.6
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 17.63,
+   "d": 3.65,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "POUPANÇA SEM DEPÓSITO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 17.58,
+   "d": 3.7,
+   "txt": "SAQUE",
+   "y": 1420,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.30)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    1100,
+    -1100
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "flash",
+   "t": 21.28,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 21.28,
+   "d": 4.32,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "ovario_pouco",
+     "xy": [
+      330,
+      1110
+     ],
+     "s": 1.15,
+     "t": 0.0,
+     "rotulo": "SOBRA POUCO"
+    },
+    {
+     "k": "ovulo",
+     "xy": [
+      790,
+      860
+     ],
+     "s": 0.8,
+     "t": 2.562000000000001,
+     "rotulo": "1 ÓVULO",
+     "rot_y": 235
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      420,
+      1040
+     ],
+     "para": [
+      780,
+      870
+     ],
+     "curva": -170,
+     "cor": "#ffe08a",
+     "t": 1.962000000000001,
+     "d": 1.1,
+     "n": 1,
+     "r": 22,
+     "viagem": 1.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 3.0180000000000007
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 21.33,
+   "d": 4.27,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "AINDA ESCAPA UMA OVULAÇÃO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 21.28,
+   "d": 4.32,
+   "txt": "MENOPAUSA",
+   "y": 1440,
+   "tam": 380,
+   "cor": "rgba(140,24,34,.55)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    1100,
+    -1710
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 25.6,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 25.6,
+   "d": 3.27,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "ovulo",
+     "xy": [
+      320,
+      1060
+     ],
+     "s": 0.95,
+     "t": 0.0,
+     "rotulo": "ÓVULO",
+     "rot_y": 235
+    },
+    {
+     "k": "calendario",
+     "xy": [
+      790,
+      1060
+     ],
+     "s": 0.95,
+     "t": 0.2,
+     "rotulo": "OS ANOS",
+     "rot_y": 210
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 1.1609999999999996
+    },
+    {
+     "o": 1,
+     "t": 1.7609999999999997
+    },
+    {
+     "o": 1,
+     "t": 2.4700000000000006
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 1.1609999999999996,
+     "para": 0.72,
+     "d": 1.6
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 25.65,
+   "d": 3.22,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "O ÓVULO ENVELHECE JUNTO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 25.6,
+   "d": 3.27,
+   "txt": "ENVELHECE",
+   "y": 1440,
+   "tam": 380,
+   "cor": "rgba(255,255,255,.22)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    -1539,
+    900
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "flash",
+   "t": 28.87,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fundo",
+   "t": 28.87,
+   "d": 2.95,
+   "cor": "rgba(255,79,130,.10)",
+   "z": 13,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 28.87,
+   "d": 2.95,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 1.35,
+     "t": 0.05
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.6030000000000015
+    },
+    {
+     "o": 0,
+     "t": 1.2070000000000007
+    },
+    {
+     "o": 0,
+     "t": 1.9540000000000006
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 28.92,
+   "d": 2.9,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "NINGUÉM TEM CULPA",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 28.87,
+   "d": 2.95,
+   "txt": "NINGUÉM",
+   "y": 1440,
+   "tam": 380,
+   "cor": "rgba(140,24,34,.55)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    1100,
+    -1710
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 31.82,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.82,
+   "d": 2.92,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "utero",
+     "xy": [
+      540,
+      1050
+     ],
+     "s": 1.5,
+     "t": 0.05,
+     "rotulo": "ÚTERO",
+     "rot_y": 235
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.45300000000000296
+    },
+    {
+     "o": 0,
+     "t": 2.064
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 31.87,
+   "d": 2.87,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ÚTERO ENVELHECE BEM MENOS",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 31.82,
+   "d": 2.92,
+   "txt": "ÚTERO",
+   "y": 1440,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.30)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    -990,
+    900
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "flash",
+   "t": 34.74,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 34.74,
+   "d": 4.53,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "utero",
+     "xy": [
+      730,
+      1180
+     ],
+     "s": 1.2,
+     "t": 0.0,
+     "rotulo": "ÚTERO",
+     "rot_y": 235
+    },
+    {
+     "k": "ovulo",
+     "xy": [
+      280,
+      880
+     ],
+     "s": 0.72,
+     "t": 2.62
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      340,
+      940
+     ],
+     "para": [
+      715,
+      1150
+     ],
+     "curva": -60,
+     "cor": "#ffe08a",
+     "t": 3.22,
+     "d": 1.4,
+     "n": 3,
+     "r": 16,
+     "viagem": 1.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 3.0700000000000003
+    },
+    {
+     "o": 0,
+     "t": 4.220000000000001
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 34.79,
+   "d": 1.96,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "GRAVIDEZ TÃO TARDE",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 36.75,
+   "d": 2.52,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "ÓVULO MAIS JOVEM",
+   "z": 45,
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 34.74,
+   "d": 4.53,
+   "txt": "JOVEM",
+   "y": 1440,
+   "tam": 460,
+   "cor": "rgba(140,24,34,.55)",
+   "z": 12,
+   "fixo": true,
+   "x": [
+    1100,
+    -1150
+   ]
+  },
+  {
+   "tipo": "video",
+   "t": 39.27,
+   "d": 23.61,
+   "ms": 3.5,
+   "src": "assets/midia/cr_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     39.27,
+     1.0,
+     0.01
+    ],
+    [
+     39.62,
+     1.16,
+     0.5
+    ],
+    [
+     40.67,
+     1.02,
+     0.5
+    ],
+    [
+     41.72,
+     1.16,
+     0.5
+    ],
+    [
+     42.77,
+     1.02,
+     0.5
+    ],
+    [
+     43.82,
+     1.16,
+     0.5
+    ],
+    [
+     44.87,
+     1.02,
+     0.5
+    ],
+    [
+     45.92,
+     1.16,
+     0.5
+    ],
+    [
+     46.97,
+     1.02,
+     0.5
+    ],
+    [
+     48.02,
+     1.16,
+     0.5
+    ],
+    [
+     49.07,
+     1.02,
+     0.5
+    ],
+    [
+     50.12,
+     1.16,
+     0.5
+    ],
+    [
+     51.17,
+     1.02,
+     0.5
+    ],
+    [
+     52.22,
+     1.16,
+     0.5
+    ],
+    [
+     53.27,
+     1.02,
+     0.5
+    ],
+    [
+     54.32,
+     1.16,
+     0.5
+    ],
+    [
+     55.37,
+     1.02,
+     0.5
+    ],
+    [
+     56.42,
+     1.16,
+     0.5
+    ],
+    [
+     57.47,
+     1.02,
+     0.5
+    ],
+    [
+     58.52,
+     1.16,
+     0.5
+    ],
+    [
+     59.57,
+     1.02,
+     0.5
+    ],
+    [
+     60.62,
+     1.16,
+     0.5
+    ],
+    [
+     61.67,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 39.27,
+   "d": 23.61,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 39.22,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 39.27,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 39.3,
+   "d": 3.23,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "NÃO EXAMINEI NINGUÉM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "gigante",
+   "t": 39.27,
+   "d": 3.26,
+   "txt": "NÚMERO",
+   "y": 1180,
+   "tam": 380,
+   "cor": "#4a1016",
+   "x": [
+    1100,
+    -2300
+   ],
+   "z": 12
+  },
+  {
+   "tipo": "flash",
+   "t": 42.53,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "artigo",
+   "t": 42.53,
+   "d": 3.51,
+   "box": [
+    110,
+    320,
+    860,
+    500
+   ],
+   "z": 34,
+   "revista": "Human Reproduction · 2014",
+   "titulo": "Quando a fertilidade da mulher termina",
+   "autores": "Eijkemans e col. · seis populações sem anticoncepção",
+   "rola": 0,
+   "linhas": [
+    {
+     "txt": "58.051 mulheres acompanhadas",
+     "grifo": 43.014
+    },
+    {
+     "txt": "sem nenhum anticoncepcional",
+     "grifo": 44.555
+    }
+   ],
+   "rodape": "doi 10.1093/humrep/deu056"
+  },
+  {
+   "tipo": "texto",
+   "t": 42.58,
+   "d": 3.46,
+   "xy": [
+    40,
+    880
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "58 MIL MULHERES",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 46.04,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 46.06,
+   "d": 4.370000000000001,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 90,
+   "suf": "%",
+   "tam": 300,
+   "cor": "#f2c230",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 47.49,
+   "d": 2.94,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SEM FILHO DEPOIS DOS 45",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 50.43,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 50.45,
+   "d": 3.2000000000000006,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 100,
+   "pre": "QUASE ",
+   "suf": "%",
+   "tam": 190,
+   "cor": "#ff2d3d",
+   "sombra": "#5a0d10",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 50.45,
+   "d": 3.2,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "DEPOIS DOS 50",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 42.53,
+   "d": 11.12,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Eijkemans et al., Hum Reprod 2014",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 53.65,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 53.67,
+   "d": 3.64,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "COM TRATAMENTO, AOS 45",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "gigante",
+   "t": 53.65,
+   "d": 3.6599999999999984,
+   "txt": "TRATAMENTO",
+   "y": 1180,
+   "tam": 340,
+   "cor": "#4a1016",
+   "x": [
+    1100,
+    -2600
+   ],
+   "z": 12
+  },
+  {
+   "tipo": "flash",
+   "t": 57.31,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 57.33,
+   "d": 2.5400000000000023,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 5,
+   "suf": " EM 100",
+   "tam": 240,
+   "cor": "#f2c230",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 57.33,
+   "d": 2.54,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "TIVERAM BEBÊ",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 53.65,
+   "d": 6.22,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Seifer et al., Reprod Biol Endocrinol 2023",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 59.89,
+   "d": 2.99,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "É MÉDIA, NÃO SENTENÇA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "gigante",
+   "t": 59.87,
+   "d": 3.009999999999998,
+   "txt": "MÉDIA",
+   "y": 1180,
+   "tam": 420,
+   "cor": "#4a1016",
+   "x": [
+    -1300,
+    900
+   ],
+   "z": 12
+  },
+  {
+   "tipo": "glitch",
+   "t": 62.83,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 62.88,
+   "d": 3.4000000000000057,
+   "ms": 3.15,
+   "src": "assets/midia/cr_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     62.88,
+     1.0,
+     0.01
+    ],
+    [
+     65.48,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 63.08,
+   "d": 3.15,
+   "y": 215,
+   "txt": "COMBINADO: CURTE + SEGUE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "video",
+   "t": 66.28,
+   "d": 11.68,
+   "ms": 24.5,
+   "src": "assets/midia/cr_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     66.28,
+     1.0,
+     0.01
+    ],
+    [
+     66.63,
+     1.16,
+     0.5
+    ],
+    [
+     67.68,
+     1.02,
+     0.5
+    ],
+    [
+     68.73,
+     1.16,
+     0.5
+    ],
+    [
+     69.78,
+     1.02,
+     0.5
+    ],
+    [
+     70.83,
+     1.16,
+     0.5
+    ],
+    [
+     71.88,
+     1.02,
+     0.5
+    ],
+    [
+     72.93,
+     1.16,
+     0.5
+    ],
+    [
+     73.98,
+     1.02,
+     0.5
+    ],
+    [
+     75.03,
+     1.16,
+     0.5
+    ],
+    [
+     76.08,
+     1.02,
+     0.5
+    ],
+    [
+     77.13,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 66.28,
+   "d": 11.68,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 66.23,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 66.28,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 66.3,
+   "d": 1.85,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CURTE E SEGUE",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:10px 10px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 68.15,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 68.25,
+   "d": 5.38,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "200px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "DÚVIDA?",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom"
+  },
+  {
+   "tipo": "texto",
+   "t": 69.9,
+   "d": 3.73,
+   "xy": [
+    40,
+    700
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "VOCÊS DOIS, JUNTOS, NO MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "gigante",
+   "t": 71.352,
+   "d": 0.6,
+   "txt": "JUNTOS",
+   "y": 1180,
+   "tam": 300,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -1900
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "flash",
+   "t": 73.633,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 73.65,
+   "d": 4.31,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "122px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "MANCHETE MOSTRA A EXCEÇÃO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "carimbo",
+   "t": 75.513,
+   "d": 2.447,
+   "xy": [
+    40,
+    760
+   ],
+   "txt": "EXCEÇÃO, NÃO REGRA",
+   "tam": 100,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 75.51,
+   "d": 2.45,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Eijkemans, Hum Reprod 2014 · doi 10.1093/humrep/deu056 · Seifer, Reprod Biol Endocrinol 2023 · doi 10.1186/s12958-023-01144-z",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  },
+  {
+   "tipo": "texto",
+   "t": 10.57,
+   "d": 2.26,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 39.57,
+   "d": 23.31,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 66.58,
+   "d": 11.38,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+<g>
+  <path d="M-170 -10 C-120 -90 -40 -70 0 -50 C40 -70 120 -90 170 -10 C120 110 -120 110 -170 -10 Z" fill="#d9363e" stroke="#5c0f14" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M-130 -5 C-60 -30 60 -30 130 -5 C90 70 -90 70 -130 -5 Z" fill="#3a0a10"/>
+  <path d="M-100 -12 L100 -12 L95 8 L-95 8 Z" fill="#fff"/>
+  <ellipse cx="0" cy="40" rx="50" ry="18" fill="#e86a7a"/>
+  <ellipse cx="-80" cy="-50" rx="30" ry="10" fill="#fff" opacity=".35"/>
+</g>

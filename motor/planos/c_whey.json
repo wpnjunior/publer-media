@@ -1,0 +1,350 @@
+{
+ "id": "c_whey",
+ "dur": 21.5,
+ "seed": 11,
+ "fundo": "#0b1512",
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 21.5,
+   "cor": "#0b1512",
+   "cor2": "#1d3b2f",
+   "textura": "gradiente"
+  },
+  {
+   "tipo": "pergunta",
+   "t": 0,
+   "d": 4.4,
+   "xy": [
+    110,
+    120
+   ],
+   "w": 860,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Whey todo dia segura o músculo do idoso?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "z": 40
+  },
+  {
+   "tipo": "numero",
+   "t": 1.4,
+   "d": 3.0,
+   "xy": [
+    0,
+    600
+   ],
+   "valor": 70,
+   "suf": " ANOS",
+   "rotulo": "e whey todo dia",
+   "tam": 200,
+   "z": 41
+  },
+  {
+   "tipo": "flash",
+   "t": 4.6,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "celular",
+   "t": 4.6,
+   "d": 3.7,
+   "xy": [
+    300,
+    60
+   ],
+   "wh": [
+    480,
+    800
+   ],
+   "notif": [
+    {
+     "t": 5.0,
+     "app": "Lembrete",
+     "txt": "Whey do pai 🥛 08:00"
+    },
+    {
+     "t": 6.4,
+     "app": "Lembrete",
+     "txt": "Whey do pai 🥛 20:00"
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 8.5,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 8.6,
+   "d": 3.9,
+   "xy": [
+    40,
+    200
+   ],
+   "w": 1000,
+   "fonte": "230px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "TOMAR",
+   "entra": "zoom",
+   "z": 42
+  },
+  {
+   "tipo": "texto",
+   "t": 10.6,
+   "d": 1.9,
+   "xy": [
+    40,
+    470
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#c6ff3d",
+   "alinha": "center",
+   "txt": "NÃO É CONSTRUIR",
+   "entra": "whip",
+   "z": 42
+  },
+  {
+   "tipo": "desenho",
+   "t": 11.9,
+   "d": 0.6,
+   "formas": [
+    {
+     "k": "sublinhado",
+     "de": [
+      120,
+      640
+     ],
+     "ate": 960,
+     "t": 0
+    }
+   ],
+   "z": 43,
+   "cor": "#c6ff3d"
+  },
+  {
+   "tipo": "mapa",
+   "t": 12.6,
+   "d": 5.6,
+   "tema": "escuro",
+   "area": [
+    0,
+    80,
+    1080,
+    780
+   ],
+   "camera": [
+    [
+     12.6,
+     45,
+     -40,
+     0.9,
+     0
+    ],
+    [
+     13.3,
+     43.26,
+     -79.92,
+     5.0,
+     1.4
+    ]
+   ],
+   "pinos": [
+    {
+     "ll": [
+      43.26,
+      -79.92
+     ],
+     "t": 14.0,
+     "txt": "McMaster · Canadá",
+     "fs": 9,
+     "cor_txt": "#c6ff3d",
+     "stroke": "#000",
+     "sw": 1.5
+    }
+   ],
+   "z": 20
+  },
+  {
+   "tipo": "numero",
+   "t": 15.6,
+   "d": 2.6,
+   "xy": [
+    0,
+    520
+   ],
+   "valor": 74,
+   "suf": "",
+   "rotulo": "estudos de proteína e músculo",
+   "tam": 260,
+   "z": 44
+  },
+  {
+   "tipo": "flash",
+   "t": 18.2,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "artigo",
+   "t": 18.2,
+   "d": 3.3000000000000007,
+   "box": [
+    70,
+    110,
+    940,
+    760
+   ],
+   "revista": "J Cachexia Sarcopenia Muscle · 2022",
+   "titulo": "Protein intake to support muscle mass and function in healthy adults",
+   "autores": "Nunes EA, ... Phillips SM · McMaster University",
+   "linhas": [
+    {
+     "txt": "74 ensaios randomizados"
+    },
+    {
+     "txt": "Massa magra: ganho pequeno, em quem fazia treino de força",
+     "grifo": 19.8
+    },
+    {
+     "txt": "Força da mão: efeito incerto"
+    }
+   ],
+   "rola": -20,
+   "rodape": "doi 10.1002/jcsm.12922 (resumo)",
+   "z": 45
+  },
+  {
+   "tipo": "recorte",
+   "t": 0,
+   "d": 21.5,
+   "src": "assets/midia/whey_r.webm",
+   "box": [
+    0,
+    860,
+    1080,
+    1060
+   ],
+   "pos": "center 10%",
+   "z": 50
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ],
+ "legenda": {
+  "estilo": "gigante",
+  "y": 1560
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/whey.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 21.0,
+    "palavras": "assets/midia/whey.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_humor",
+    "t": 0,
+    "ms": 0,
+    "d": 8.4,
+    "gain": 0.3
+   },
+   {
+    "src": "m_tensao",
+    "t": 8.4,
+    "ms": 0,
+    "d": 13.1,
+    "gain": 0.28
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.1,
+    "gain": 0.7
+   },
+   {
+    "src": "boing",
+    "t": 1.4,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 4.6,
+    "pico": 0.45,
+    "gain": 0.7
+   },
+   {
+    "src": "notif",
+    "t": 5.0,
+    "gain": 0.6
+   },
+   {
+    "src": "notif",
+    "t": 6.4,
+    "gain": 0.6
+   },
+   {
+    "src": "boom",
+    "t": 8.6,
+    "pico": 0.3,
+    "gain": 0.8,
+    "d": 2
+   },
+   {
+    "src": "whoosh2",
+    "t": 10.6,
+    "gain": 0.7
+   },
+   {
+    "src": "glitch",
+    "t": 11.9,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 12.6,
+    "pico": 0.45,
+    "gain": 0.6
+   },
+   {
+    "src": "teclado",
+    "t": 15.6,
+    "gain": 0.4,
+    "d": 1.2
+   },
+   {
+    "src": "pagina",
+    "t": 18.2,
+    "gain": 0.6
+   },
+   {
+    "src": "papel",
+    "t": 19.8,
+    "gain": 0.5
+   }
+  ]
+ }
+}

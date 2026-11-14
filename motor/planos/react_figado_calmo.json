@@ -1,0 +1,1609 @@
+{
+ "id": "react_figado_calmo",
+ "dur": 68.211,
+ "seed": 127,
+ "fundo": "#16261f",
+ "legenda": {
+  "estilo": "manuscrita",
+  "y": 1340,
+  "esconde": [
+   [
+    0.0,
+    1.88
+   ],
+   [
+    1.88,
+    6.08
+   ]
+  ],
+  "ys": [
+   [
+    6.08,
+    15.63,
+    1400
+   ],
+   [
+    15.63,
+    20.339,
+    1000
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/fig_ent.mp4",
+    "t": 0.0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/fig_ent.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/fig_viral.mp4",
+    "t": 1.88,
+    "ms": 67.6,
+    "d": 1.65,
+    "palavras": "assets/midia/fig_viral.words.json"
+   },
+   {
+    "src": "assets/midia/fig_viral.mp4",
+    "t": 3.53,
+    "ms": 0.0,
+    "d": 2.55,
+    "palavras": "assets/midia/fig_viral.words.json"
+   },
+   {
+    "src": "assets/midia/fig_viral.mp4",
+    "t": 6.08,
+    "ms": 3.0,
+    "d": 5.55,
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/fig_ctx_voz.wav",
+    "t": 6.18,
+    "ms": 0,
+    "d": 5.35,
+    "palavras": "assets/midia/fig_ctx_voz.words.json"
+   },
+   {
+    "src": "assets/midia/fig_viral.mp4",
+    "t": 11.63,
+    "ms": 51.3,
+    "d": 4.0,
+    "palavras": "assets/midia/fig_viral.words.json"
+   },
+   {
+    "src": "assets/midia/fig2_voz_calmo.wav",
+    "t": 15.63,
+    "ms": 0.0,
+    "d": 4.559,
+    "palavras": "assets/midia/fig2_voz_calmo.words.json"
+   },
+   {
+    "src": "assets/midia/fig2_voz_calmo.wav",
+    "t": 20.339,
+    "ms": 4.616,
+    "d": 43.462,
+    "palavras": "assets/midia/fig2_voz_calmo.words.json"
+   },
+   {
+    "src": "assets/midia/fig_cta.mp4",
+    "t": 64.091,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/fig_cta.mp4.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 3.53,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 5.28,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 6.08,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 11.63,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 15.58,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 17.38,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 20.289,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 20.396,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "riser",
+    "t": 22.826,
+    "gain": 0.25,
+    "pico": 1.0,
+    "d": 1.646
+   },
+   {
+    "src": "whoosh2",
+    "t": 27.937,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 32.608,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 35.999,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 37.442,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh",
+    "t": 39.702,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 41.285,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 45.644,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 46.435,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 47.679,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 49.397,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 2.007
+   },
+   {
+    "src": "whoosh",
+    "t": 52.738,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 54.859,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.827
+   },
+   {
+    "src": "whoosh2",
+    "t": 56.12,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 59.308,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 60.614,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 62.581,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.63
+   },
+   {
+    "src": "glitch",
+    "t": 64.041,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 64.291,
+    "gain": 0.4
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0.0,
+   "d": 68.211,
+   "cor": "#22392f",
+   "textura": "lousa"
+  },
+  {
+   "tipo": "video",
+   "t": 0.0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/fig_ent.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0.0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "“LIMPEZA DO FÍGADO” SOLTA PEDRAS?",
+   "sub": "o vídeo passou de 2,8 milhões de views",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 18.459,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 1.65,
+   "ms": 67.6,
+   "src": "assets/midia/fig_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 55%",
+   "arroba": "via @oficialaandressa",
+   "arroba_pos": "topo",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     1.98,
+     1.07,
+     1.45
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "video",
+   "t": 3.53,
+   "d": 2.55,
+   "ms": 0.0,
+   "src": "assets/midia/fig_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 12%",
+   "arroba": "via @oficialaandressa",
+   "arroba_pos": "topo",
+   "respira": false,
+   "zoom": [
+    [
+     3.53,
+     1.0,
+     0.01
+    ],
+    [
+     3.63,
+     1.07,
+     2.35
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "video",
+   "t": 6.08,
+   "d": 5.55,
+   "ms": 3.0,
+   "src": "assets/midia/fig_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 25%",
+   "arroba": "via @oficialaandressa",
+   "arroba_pos": "topo",
+   "respira": false,
+   "zoom": [
+    [
+     6.08,
+     1.0,
+     0.01
+    ],
+    [
+     6.18,
+     1.07,
+     5.35
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "video",
+   "t": 11.63,
+   "d": 4.0,
+   "ms": 51.3,
+   "src": "assets/midia/fig_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 42%",
+   "arroba": "via @oficialaandressa",
+   "arroba_pos": "topo",
+   "respira": false,
+   "zoom": [
+    [
+     11.63,
+     1.0,
+     0.01
+    ],
+    [
+     11.73,
+     1.07,
+     3.8
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 4.05,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "O que é isso? 👇",
+   "txt": "Isso saiu do fígado?",
+   "botoes": [
+    "PEDRA",
+    "OUTRA COISA"
+   ],
+   "vel": 0.025,
+   "escolha": 1,
+   "t_escolha": 5.28
+  },
+  {
+   "tipo": "glitch",
+   "t": 15.58,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 15.63,
+   "d": 4.709,
+   "src": "assets/midia/fig2_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "video",
+   "t": 15.63,
+   "d": 4.24,
+   "ms": 0,
+   "src": "assets/midia/fig2_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "foto",
+   "t": 19.85,
+   "d": 0.489,
+   "src": "assets/midia/fig2_rosto_fim.jpg",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "sombra": false,
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 6.33,
+   "d": 5.2,
+   "xy": [
+    40,
+    1170
+   ],
+   "w": 1000,
+   "fonte": "96px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "SAL AMARGO · JEJUM · AZEITE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.6,
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 14.08,
+   "d": 1.55,
+   "xy": [
+    40,
+    1170
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PEDRA AMARELA?",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 17.38,
+   "d": 2.909,
+   "xy": [
+    150,
+    420
+   ],
+   "txt": "NÃO É PEDRA",
+   "tam": 130,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "video",
+   "t": 20.339,
+   "d": 7.598,
+   "ms": 0.0,
+   "src": "assets/midia/fig2_b_sangue.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     20.339,
+     1.0,
+     0.011
+    ],
+    [
+     20.735,
+     1.16,
+     0.565
+    ],
+    [
+     21.922,
+     1.02,
+     0.565
+    ],
+    [
+     23.398,
+     1.16,
+     0.565
+    ],
+    [
+     24.585,
+     1.02,
+     0.565
+    ],
+    [
+     25.772,
+     1.16,
+     0.565
+    ],
+    [
+     26.959,
+     1.02,
+     0.565
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 20.339,
+   "d": 7.598,
+   "cor": "rgba(16,30,24,.55)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 27.937,
+   "d": 4.67,
+   "ms": 0,
+   "src": "assets/midia/fig2_b_azeite.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     27.937,
+     1.0,
+     0.011
+    ],
+    [
+     28.333,
+     1.16,
+     0.565
+    ],
+    [
+     29.52,
+     1.02,
+     0.888
+    ],
+    [
+     31.03,
+     1.16,
+     0.565
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 27.937,
+   "d": 4.67,
+   "cor": "rgba(16,30,24,.55)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 32.608,
+   "d": 4.834,
+   "ms": 0,
+   "src": "assets/midia/fig2_b_limao.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     32.608,
+     1.0,
+     0.011
+    ],
+    [
+     33.004,
+     1.16,
+     0.565
+    ],
+    [
+     34.191,
+     1.02,
+     0.565
+    ],
+    [
+     35.378,
+     1.16,
+     0.565
+    ],
+    [
+     36.565,
+     1.02,
+     0.565
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 32.608,
+   "d": 4.834,
+   "cor": "rgba(16,30,24,.55)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 37.442,
+   "d": 3.844,
+   "ms": 0,
+   "src": "assets/midia/fig2_b_agua.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     37.442,
+     1.0,
+     0.011
+    ],
+    [
+     37.837,
+     1.16,
+     0.565
+    ],
+    [
+     39.024,
+     1.02,
+     0.565
+    ],
+    [
+     40.211,
+     1.16,
+     0.565
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 37.442,
+   "d": 3.844,
+   "cor": "rgba(16,30,24,.55)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 41.285,
+   "d": 7.524,
+   "ms": 0,
+   "src": "assets/midia/fig2_b_lab.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     41.285,
+     1.0,
+     0.011
+    ],
+    [
+     41.681,
+     1.16,
+     0.565
+    ],
+    [
+     42.868,
+     1.02,
+     0.565
+    ],
+    [
+     44.055,
+     1.16,
+     0.565
+    ],
+    [
+     45.418,
+     1.02,
+     0.565
+    ],
+    [
+     46.605,
+     1.16,
+     0.565
+    ],
+    [
+     47.792,
+     1.02,
+     0.565
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 41.285,
+   "d": 7.524,
+   "cor": "rgba(16,30,24,.55)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 48.809,
+   "d": 7.311,
+   "ms": 0,
+   "src": "assets/midia/fig2_b_micro.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     48.809,
+     1.0,
+     0.011
+    ],
+    [
+     49.205,
+     1.16,
+     0.877
+    ],
+    [
+     50.703,
+     1.02,
+     0.565
+    ],
+    [
+     51.89,
+     1.16,
+     0.565
+    ],
+    [
+     53.077,
+     1.02,
+     0.565
+    ],
+    [
+     54.264,
+     1.16,
+     0.877
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 48.809,
+   "d": 7.311,
+   "cor": "rgba(16,30,24,.55)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 56.12,
+   "d": 7.851,
+   "ms": 0,
+   "src": "assets/midia/fig2_b_medico.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     56.12,
+     1.0,
+     0.011
+    ],
+    [
+     56.516,
+     1.16,
+     0.565
+    ],
+    [
+     57.703,
+     1.02,
+     0.565
+    ],
+    [
+     58.89,
+     1.16,
+     0.565
+    ],
+    [
+     60.275,
+     1.02,
+     0.565
+    ],
+    [
+     61.462,
+     1.16,
+     0.565
+    ],
+    [
+     62.649,
+     1.02,
+     0.565
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 56.12,
+   "d": 7.851,
+   "cor": "rgba(16,30,24,.55)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 20.289,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 20.339,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 20.52,
+   "d": 3.047,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "O FÍGADO JÁ FAZ FAXINA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "fisio",
+   "t": 20.396,
+   "d": 7.542,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "figado",
+     "xy": [
+      560,
+      800
+     ],
+     "s": 1.25,
+     "t": 0.17,
+     "rotulo": "FÍGADO",
+     "rot_y": 200
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      40,
+      470
+     ],
+     "para": [
+      400,
+      720
+     ],
+     "curva": -120,
+     "cor": "#ff4d5a",
+     "t": 3.24,
+     "d": 2.939,
+     "n": 8,
+     "rotulo": "SANGUE",
+     "r": 14
+    },
+    {
+     "de": [
+      700,
+      900
+     ],
+     "para": [
+      1010,
+      1220
+     ],
+     "curva": -60,
+     "cor": "#ffd400",
+     "t": 4.981,
+     "d": 2.148,
+     "n": 6,
+     "rotulo": "LIXO FORA",
+     "r": 14
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 3.285
+    },
+    {
+     "o": 0,
+     "t": 5.094
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 26.281,
+   "d": 1.883,
+   "xy": [
+    40,
+    1150
+   ],
+   "w": 1000,
+   "fonte": "90px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "URINA E BILE",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 27.937,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 28.164,
+   "d": 2.132,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "A RECEITA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "fisio",
+   "t": 28.051,
+   "d": 13.235,
+   "z": 40,
+   "orgaos": [
+    {
+     "k": "intestino",
+     "xy": [
+      540,
+      800
+     ],
+     "s": 1.05,
+     "t": 0.226,
+     "rotulo": "INTESTINO",
+     "rot_y": 250
+    },
+    {
+     "k": "sabao",
+     "xy": [
+      540,
+      820
+     ],
+     "s": 0.75,
+     "t": 7.949,
+     "rotulo": "BOLINHA MOLE",
+     "rot_y": 175,
+     "cor_rotulo": "#e8f26a"
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      540,
+      300
+     ],
+     "para": [
+      540,
+      600
+     ],
+     "curva": 0,
+     "cor": "#d8c234",
+     "t": 2.154,
+     "d": 2.426,
+     "n": 8,
+     "rotulo": "AZEITE",
+     "r": 16
+    },
+    {
+     "de": [
+      40,
+      560
+     ],
+     "para": [
+      330,
+      760
+     ],
+     "curva": -90,
+     "cor": "#fff04a",
+     "t": 6.253,
+     "d": 1.809,
+     "n": 6,
+     "rotulo": "LIMÃO",
+     "r": 13
+    },
+    {
+     "de": [
+      1040,
+      520
+     ],
+     "para": [
+      760,
+      740
+     ],
+     "curva": -90,
+     "cor": "#5ab8ff",
+     "t": 10.657,
+     "d": 1.47,
+     "n": 6,
+     "rotulo": "ÁGUA",
+     "r": 14
+    },
+    {
+     "de": [
+      700,
+      980
+     ],
+     "para": [
+      1000,
+      1250
+     ],
+     "curva": -40,
+     "cor": "#b9c94a",
+     "t": 11.652,
+     "d": 1.244,
+     "n": 5,
+     "rotulo": "PRA FORA",
+     "r": 22
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 3.262
+    },
+    {
+     "o": 1,
+     "t": 8.401
+    },
+    {
+     "o": 0,
+     "t": 11.652
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 32.721,
+   "d": 2.826,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "100px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "A GORDURA SE QUEBRA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 37.668,
+   "d": 3.504,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "100px Anton",
+   "cor": "#5ab8ff",
+   "alinha": "center",
+   "txt": "SAL AMARGO PUXA ÁGUA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 41.285,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 41.534,
+   "d": 4.11,
+   "xy": [
+    40,
+    470
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "2005: A LANCET ANALISOU",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "texto",
+   "t": 41.534,
+   "d": 14.473,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Sies & Brooker, The Lancet 2005",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "checklist",
+   "t": 45.644,
+   "d": 3.674,
+   "box": [
+    120,
+    260,
+    840,
+    400
+   ],
+   "titulo": "Tinha na bolinha?",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "colesterol",
+     "t": 45.983
+    },
+    {
+     "txt": "cálcio",
+     "t": 47.226
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 46.435,
+   "d": 2.883,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      412
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "cor": "#d61f2c",
+   "z": 45
+  },
+  {
+   "tipo": "desenho",
+   "t": 47.679,
+   "d": 1.639,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      506
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "cor": "#d61f2c",
+   "z": 45
+  },
+  {
+   "tipo": "texto",
+   "t": 48.131,
+   "d": 2.064,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "90px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PEDRA É FEITA DISSO",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 49.374,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 49.397,
+   "d": 3.228,
+   "xy": [
+    40,
+    430
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "75% ERA GORDURA",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 52.693,
+   "d": 2.166,
+   "xy": [
+    40,
+    430
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "10 MIN A 40 °C",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "gigante",
+   "t": 52.738,
+   "d": 2.234,
+   "txt": "DERRETEU",
+   "y": 900,
+   "tam": 300,
+   "cor": "#ff2d3d",
+   "x": [
+    1000,
+    -2400
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "carimbo",
+   "t": 54.859,
+   "d": 2.166,
+   "xy": [
+    170,
+    700
+   ],
+   "txt": "ERA SABÃO",
+   "tam": 160,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "flash",
+   "t": 56.12,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 56.256,
+   "d": 1.673,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "DOR DEPOIS DE GORDURA?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "texto",
+   "t": 57.929,
+   "d": 2.686,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "MÉDICO E ULTRASSOM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 59.308,
+   "d": 1.307,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "NÃO AZEITE",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 60.614,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 60.682,
+   "d": 3.289,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PEDRA DE VERDADE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "texto",
+   "t": 61.519,
+   "d": 2.453,
+   "xy": [
+    40,
+    640
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "SE VÊ NO EXAME",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 62.581,
+   "d": 1.39,
+   "xy": [
+    40,
+    900
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "NÃO NO VASO",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "glitch",
+   "t": 64.041,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 64.091,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/fig_cta.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     64.091,
+     1.0,
+     0.01
+    ],
+    [
+     66.091,
+     1.08,
+     1.5
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 64.291,
+   "d": 3.82,
+   "y": 215,
+   "txt": "VALEU A AULA? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "texto",
+   "t": 64.391,
+   "d": 3.72,
+   "xy": [
+    60,
+    370
+   ],
+   "w": 960,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Sies & Brooker, The Lancet 2005 · doi 10.1016/S0140-6736(05)66373-8",
+   "css": "text-shadow:0 2px 6px #000",
+   "z": 70
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ]
+}

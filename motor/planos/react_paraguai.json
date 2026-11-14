@@ -1,0 +1,1014 @@
+{
+ "id": "react_paraguai",
+ "dur": 48.7,
+ "seed": 41,
+ "fundo": "#0b1512",
+ "legenda": {
+  "estilo": "lima",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.1
+   ],
+   [
+    2.1,
+    6.2
+   ]
+  ],
+  "ys": [
+   [
+    6.2,
+    11.1,
+    1430
+   ],
+   [
+    11.1,
+    14.25,
+    985
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 48.7,
+   "cor": "#0b1512",
+   "textura": "grade"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.1,
+   "ms": 0,
+   "src": "assets/midia/ca_entA.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.1
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.98,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "CANETA DO PARAGUAI: MESMA COISA, MAIS BARATA?",
+   "sub": "a reportagem passou de 5 milhões de views",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.1,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 14.25,
+   "d": 22.25,
+   "ms": 3.5,
+   "src": "assets/midia/pg_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     14.25,
+     1.0,
+     0.01
+    ],
+    [
+     14.6,
+     1.16,
+     0.5
+    ],
+    [
+     15.65,
+     1.02,
+     0.5
+    ],
+    [
+     16.7,
+     1.16,
+     0.5
+    ],
+    [
+     17.75,
+     1.02,
+     0.5
+    ],
+    [
+     18.8,
+     1.16,
+     0.5
+    ],
+    [
+     19.85,
+     1.02,
+     0.5
+    ],
+    [
+     20.9,
+     1.16,
+     0.5
+    ],
+    [
+     21.95,
+     1.02,
+     0.5
+    ],
+    [
+     23.0,
+     1.16,
+     0.5
+    ],
+    [
+     24.05,
+     1.02,
+     0.5
+    ],
+    [
+     25.1,
+     1.16,
+     0.5
+    ],
+    [
+     26.15,
+     1.02,
+     0.5
+    ],
+    [
+     27.2,
+     1.16,
+     0.5
+    ],
+    [
+     28.25,
+     1.02,
+     0.5
+    ],
+    [
+     29.3,
+     1.16,
+     0.5
+    ],
+    [
+     30.35,
+     1.02,
+     0.5
+    ],
+    [
+     31.4,
+     1.16,
+     0.5
+    ],
+    [
+     32.45,
+     1.02,
+     0.5
+    ],
+    [
+     33.5,
+     1.16,
+     0.5
+    ],
+    [
+     34.55,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 14.25,
+   "d": 22.25,
+   "cor": "rgba(6,14,11,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 41.1,
+   "d": 7.6,
+   "ms": 13.0,
+   "src": "assets/midia/pg_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     41.1,
+     1.0,
+     0.01
+    ],
+    [
+     41.45,
+     1.16,
+     0.5
+    ],
+    [
+     42.5,
+     1.02,
+     0.5
+    ],
+    [
+     43.55,
+     1.16,
+     0.5
+    ],
+    [
+     44.6,
+     1.02,
+     0.5
+    ],
+    [
+     45.65,
+     1.16,
+     0.5
+    ],
+    [
+     46.7,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 41.1,
+   "d": 7.6,
+   "cor": "rgba(6,14,11,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.1,
+   "d": 12.15,
+   "box": [
+    40,
+    150,
+    1000,
+    940
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.1,
+   "d": 9.0,
+   "ms": 20.42,
+   "src": "assets/midia/pg_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    860
+   ],
+   "raio": 14,
+   "pos": "center 38%",
+   "arroba": "via @g1",
+   "arroba_pos": "topo",
+   "respira": false,
+   "zoom": [
+    [
+     2.1,
+     1.0,
+     0.01
+    ],
+    [
+     2.3,
+     1.12,
+     3.5
+    ],
+    [
+     7.1,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "foto",
+   "t": 11.1,
+   "d": 3.15,
+   "src": "assets/midia/pg_filha.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    860
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "texto",
+   "t": 11.1,
+   "d": 3.15,
+   "xy": [
+    94,
+    212
+   ],
+   "w": 170,
+   "fonte": "800 30px Montserrat",
+   "cor": "#fff",
+   "alinha": "left",
+   "txt": "via @g1",
+   "css": "padding:10px 20px;border-radius:40px;background:rgba(0,0,0,.65);display:inline-block",
+   "z": 31
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.2,
+   "d": 3.95,
+   "xy": [
+    110,
+    1045
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Caneta do Paraguai: mesma coisa, mais barata?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.4
+  },
+  {
+   "tipo": "numero",
+   "t": 6.4,
+   "d": 4.6,
+   "xy": [
+    0,
+    1000
+   ],
+   "valor": 5.9,
+   "dec": 1,
+   "suf": " MI",
+   "rotulo": "de visualizações nessa reportagem",
+   "tam": 190
+  },
+  {
+   "tipo": "glitch",
+   "t": 11.05,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 11.1,
+   "d": 3.15,
+   "ms": 0,
+   "src": "assets/midia/pg_rosto.mp4",
+   "box": [
+    0,
+    1090,
+    1080,
+    830
+   ],
+   "pos": "center 35%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "glitch",
+   "t": 14.2,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 14.25,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 14.3,
+   "d": 2.55,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "NÃO SEI A CAUSA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "checklist",
+   "t": 16.85,
+   "d": 5.9,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "Quem garante?",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "o que tem dentro",
+     "t": 19.5
+    },
+    {
+     "txt": "quanto tem",
+     "t": 20.5
+    },
+    {
+     "txt": "se viajou no frio",
+     "t": 21.6
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 19.85,
+   "d": 2.9,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      412
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45
+  },
+  {
+   "tipo": "desenho",
+   "t": 20.9,
+   "d": 1.85,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      506
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45
+  },
+  {
+   "tipo": "desenho",
+   "t": 22.05,
+   "d": 0.7,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      600
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45
+  },
+  {
+   "tipo": "flash",
+   "t": 22.75,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "desenho",
+   "t": 24.5,
+   "d": 2.0,
+   "formas": [
+    {
+     "k": "sublinhado",
+     "de": [
+      95,
+      560
+     ],
+     "ate": 960
+    }
+   ],
+   "espessura": 10,
+   "z": 45
+  },
+  {
+   "tipo": "flash",
+   "t": 26.55,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 26.57,
+   "d": 2.78,
+   "xy": [
+    0,
+    300
+   ],
+   "valor": 99,
+   "suf": "%",
+   "rotulo": "pureza no rótulo",
+   "tam": 260,
+   "cor": "#3ddc84",
+   "sombra": "#0d5a2c",
+   "z": 44
+  },
+  {
+   "tipo": "flash",
+   "t": 30.95,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "flash",
+   "t": 33.75,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 33.8,
+   "d": 2.7,
+   "xy": [
+    40,
+    480
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SÓ 3 FRASCOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.14
+  },
+  {
+   "tipo": "glitch",
+   "t": 36.45,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 36.5,
+   "d": 4.55,
+   "ms": 3.55,
+   "src": "assets/midia/pg_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     36.5,
+     1.0,
+     0.01
+    ],
+    [
+     38.9,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 36.7,
+   "d": 4.3,
+   "y": 215,
+   "txt": "COMBINADO: SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "glitch",
+   "t": 41.05,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 41.1,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 41.15,
+   "d": 2.75,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "200px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "CANETA?",
+   "z": 40,
+   "entra": "zoom"
+  },
+  {
+   "tipo": "texto",
+   "t": 41.7,
+   "d": 2.2,
+   "xy": [
+    40,
+    700
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "CONVERSA COM SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "gigante",
+   "t": 43.9,
+   "d": 1.25,
+   "txt": "PROCEDÊNCIA",
+   "y": 700,
+   "tam": 300,
+   "cor": "#c6ff3d",
+   "x": [
+    1000,
+    -2600
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "texto",
+   "t": 45.05,
+   "d": 3.65,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "NÃO É TRATAMENTO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "carimbo",
+   "t": 46.3,
+   "d": 2.4,
+   "xy": [
+    200,
+    760
+   ],
+   "txt": "LOTERIA",
+   "tam": 190,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 46.5,
+   "d": 2.2,
+   "xy": [
+    60,
+    215
+   ],
+   "w": 960,
+   "fonte": "600 30px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Ashraf et al., J Med Internet Res 2024 · doi 10.2196/65440",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 22.79,
+   "d": 3.75,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "COMPRARAM NA INTERNET SEM RECEITA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "texto",
+   "t": 22.79,
+   "d": 3.75,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Ashraf et al., J Med Internet Res 2024 (compra-teste na Hungria)",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 29.37,
+   "d": 4.33,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "DEU 8 A 14%",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #5a0d10"
+  },
+  {
+   "tipo": "texto",
+   "t": 30.99,
+   "d": 2.71,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "DOSE: ATÉ 39% A MAIS",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 34.7,
+   "d": 1.8,
+   "xy": [
+    40,
+    900
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "NENHUM DO PARAGUAI",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ],
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ca_entA.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.1,
+    "palavras": "assets/midia/ca_entA.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/pg_viral.mp4",
+    "t": 2.1,
+    "ms": 20.42,
+    "d": 9.0,
+    "palavras": "assets/midia/pg_viral.words.json"
+   },
+   {
+    "src": "assets/midia/pg_voz.wav",
+    "t": 11.1,
+    "ms": 0,
+    "d": 3.15,
+    "palavras": "assets/midia/pg_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pg_voz.wav",
+    "t": 14.25,
+    "ms": 3.54,
+    "d": 22.2,
+    "palavras": "assets/midia/pg_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pg_voz.wav",
+    "t": 36.5,
+    "ms": 26.1,
+    "d": 4.55,
+    "palavras": "assets/midia/pg_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pg_voz.wav",
+    "t": 41.1,
+    "ms": 31.4,
+    "d": 6.3,
+    "palavras": "assets/midia/pg_voz.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.1,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.4,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.4,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 11.05,
+    "gain": 0.5
+   },
+   {
+    "src": "glitch",
+    "t": 14.2,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 14.25,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 16.85,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 19.85,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 20.9,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 22.05,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 22.8,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 26.57,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 29.37,
+    "gain": 0.5,
+    "d": 1.2,
+    "pico": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 30.99,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 33.8,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 36.45,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 36.7,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 41.05,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 41.7,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 43.9,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 46.3,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "boing",
+    "t": 34.7,
+    "gain": 0.35
+   }
+  ]
+ }
+}
