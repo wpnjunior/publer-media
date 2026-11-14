@@ -1,0 +1,3286 @@
+{
+ "id": "react_l4_corrida",
+ "dur": 90.78,
+ "seed": 214,
+ "fundo": "#0b1512",
+ "legenda": {
+  "estilo": "serif",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.07
+   ]
+  ],
+  "ys": [
+   [
+    2.07,
+    6.17,
+    1720
+   ],
+   [
+    6.17,
+    13.75,
+    1440
+   ],
+   [
+    13.75,
+    17.28,
+    1000
+   ],
+   [
+    17.28,
+    81.58,
+    1700
+   ],
+   [
+    81.58,
+    85.7,
+    1500
+   ],
+   [
+    85.7,
+    91.78,
+    1700
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/rk_ent.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.07,
+    "palavras": "assets/midia/rk_ent.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/ce_viral.mp4",
+    "t": 2.07,
+    "ms": 0,
+    "d": 11.68,
+    "palavras": "assets/midia/ce_viral.words.json",
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/ce_dub_voz.wav",
+    "t": 2.07,
+    "ms": 0,
+    "d": 11.68,
+    "gain": 1.0
+   },
+   {
+    "src": "assets/midia/ce_r1.mp4",
+    "t": 13.75,
+    "ms": 0,
+    "d": 3.53,
+    "palavras": "assets/midia/ce_r1.words.json"
+   },
+   {
+    "src": "assets/midia/ce_a_voz.wav",
+    "t": 17.43,
+    "ms": 0,
+    "d": 6.109,
+    "palavras": "assets/midia/ce_a_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ce_b_voz.wav",
+    "t": 24.24,
+    "ms": 0,
+    "d": 15.041,
+    "palavras": "assets/midia/ce_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ce_c_voz.wav",
+    "t": 40.03,
+    "ms": 0,
+    "d": 23.096,
+    "palavras": "assets/midia/ce_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ce_o_voz.wav",
+    "t": 63.83,
+    "ms": 0,
+    "d": 12.623,
+    "palavras": "assets/midia/ce_o_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ce_e_voz.wav",
+    "t": 77.05,
+    "ms": 0,
+    "d": 4.381,
+    "palavras": "assets/midia/ce_e_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cta6.mp4",
+    "t": 81.58,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/cta6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/ce_d_voz.wav",
+    "t": 85.7,
+    "ms": 0,
+    "d": 4.484,
+    "palavras": "assets/midia/ce_d_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 17.18,
+    "ms": 0,
+    "d": 22.9,
+    "gain": 0.17,
+    "fade": 0.8
+   },
+   {
+    "src": "m_viagem",
+    "t": 39.58,
+    "ms": 0,
+    "d": 24.65,
+    "gain": 0.16,
+    "fade": 0.8
+   },
+   {
+    "src": "m_emocao",
+    "t": 63.43,
+    "ms": 0,
+    "d": 13.92,
+    "gain": 0.16,
+    "fade": 0.8
+   },
+   {
+    "src": "m_humor",
+    "t": 76.75,
+    "ms": 0,
+    "d": 5.13,
+    "gain": 0.17,
+    "fade": 0.5
+   },
+   {
+    "src": "m_noticia",
+    "t": 85.6,
+    "ms": 0,
+    "d": 5.18,
+    "gain": 0.15,
+    "fade": 0.6
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.07,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.37,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.37,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 13.7,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 13.8,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "boing",
+    "t": 14.85,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 17.23,
+    "gain": 0.5
+   },
+   {
+    "src": "papel",
+    "t": 17.28,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 19.23,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 19.63,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 20.48,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 20.63,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 22.91,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "glitch",
+    "t": 24.19,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 24.24,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 25.29,
+    "gain": 0.3
+   },
+   {
+    "src": "papel",
+    "t": 25.54,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 27.09,
+    "gain": 0.35
+   },
+   {
+    "src": "teclado",
+    "t": 27.79,
+    "gain": 0.3,
+    "d": 1.7
+   },
+   {
+    "src": "papel",
+    "t": 27.84,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 29.54,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 30.19,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.0
+   },
+   {
+    "src": "whoosh2",
+    "t": 31.69,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 33.29,
+    "gain": 0.22
+   },
+   {
+    "src": "boing",
+    "t": 34.84,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 36.14,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 37.19,
+    "gain": 0.2
+   },
+   {
+    "src": "boom",
+    "t": 38.54,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 39.98,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 40.03,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 41.43,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 44.28,
+    "gain": 0.35
+   },
+   {
+    "src": "pagina",
+    "t": 44.93,
+    "gain": 0.45
+   },
+   {
+    "src": "riser",
+    "t": 46.13,
+    "gain": 0.18,
+    "d": 1.9
+   },
+   {
+    "src": "whoosh2",
+    "t": 50.93,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 53.23,
+    "gain": 0.25
+   },
+   {
+    "src": "boing",
+    "t": 53.83,
+    "gain": 0.25
+   },
+   {
+    "src": "papel",
+    "t": 55.53,
+    "gain": 0.4
+   },
+   {
+    "src": "riser",
+    "t": 56.03,
+    "gain": 0.16,
+    "d": 2.2
+   },
+   {
+    "src": "boom",
+    "t": 57.43,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 59.28,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 61.63,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 63.78,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 63.98,
+    "gain": 0.25
+   },
+   {
+    "src": "boing",
+    "t": 64.33,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 68.78,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 72.43,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 73.43,
+    "gain": 0.3
+   },
+   {
+    "src": "papel",
+    "t": 77.05,
+    "gain": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 81.53,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 81.78,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 85.65,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 86.7,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 90.78,
+   "cor": "#0b1512",
+   "textura": "grade"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.07,
+   "ms": 0,
+   "src": "assets/midia/rk_ent.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.07
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.95,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "CORRIDA DE ESPERMATOZOIDE VALENDO 100 MIL DÓLARES?",
+   "sub": "notícia que viralizou com 3,4 milhões de views",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.07,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.07,
+   "d": 15.21,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.07,
+   "d": 11.68,
+   "ms": 0,
+   "src": "assets/midia/ce_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center",
+   "arroba": "via @dailymail",
+   "respira": false,
+   "zoom": [
+    [
+     2.07,
+     1.0,
+     0.01
+    ],
+    [
+     6.07,
+     1.06,
+     0.4
+    ],
+    [
+     11.25,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.17,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "A contagem de espermatozoides está caindo?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 1,
+   "t_escolha": 5.37
+  },
+  {
+   "tipo": "numero",
+   "t": 6.37,
+   "d": 7.33,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 3.4,
+   "dec": 1,
+   "suf": " MI DE VIEWS",
+   "tam": 120
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.7,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 13.75,
+   "d": 3.53,
+   "src": "assets/midia/ce_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "video",
+   "t": 13.75,
+   "d": 3.53,
+   "ms": 0,
+   "src": "assets/midia/ce_r1.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "texto",
+   "t": 13.8,
+   "d": 3.48,
+   "xy": [
+    40,
+    400
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "VERDADE",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 14.85,
+   "d": 2.43,
+   "xy": [
+    40,
+    640
+   ],
+   "w": 1000,
+   "fonte": "115px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "A QUEDA É REAL",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:8px 8px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 17.23,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 17.28,
+   "d": 0.22,
+   "max": 0.6
+  },
+  {
+   "tipo": "fundo",
+   "t": 17.28,
+   "d": 64.3,
+   "cor": "#efe4c9",
+   "textura": "papel",
+   "z": 2,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.28,
+   "d": 64.3,
+   "xy": [
+    0,
+    1590
+   ],
+   "w": 1080,
+   "fonte": "100px Anton",
+   "cor": "#fff",
+   "alinha": "center",
+   "txt": " ",
+   "z": 86,
+   "entra": "nada",
+   "fixo": true,
+   "css": "height:250px;overflow:hidden;background:linear-gradient(180deg,rgba(28,20,12,0) 0%,rgba(28,20,12,.66) 28%,rgba(28,20,12,.66) 72%,rgba(28,20,12,0) 100%)"
+  },
+  {
+   "tipo": "mapa",
+   "t": 17.28,
+   "d": 6.96,
+   "tema": "papel",
+   "area": [
+    0,
+    560,
+    1080,
+    900
+   ],
+   "camera": [
+    [
+     17.28,
+     30,
+     15,
+     0.95,
+     0
+    ],
+    [
+     19.03,
+     15,
+     10,
+     0.58,
+     1.4
+    ]
+   ],
+   "pinos": [
+    {
+     "ll": [
+      40,
+      -100
+     ],
+     "t": 19.18,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      45,
+      -75
+     ],
+     "t": 19.24,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -15,
+      -50
+     ],
+     "t": 19.3,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -34,
+      -60
+     ],
+     "t": 19.36,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      52,
+      10
+     ],
+     "t": 19.42,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      45,
+      2
+     ],
+     "t": 19.48,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      60,
+      15
+     ],
+     "t": 19.54,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      5,
+      20
+     ],
+     "t": 19.6,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -25,
+      25
+     ],
+     "t": 19.66,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      30,
+      31
+     ],
+     "t": 19.72,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      35,
+      105
+     ],
+     "t": 19.78,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      21,
+      78
+     ],
+     "t": 19.84,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      36,
+      138
+     ],
+     "t": 19.9,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      55,
+      80
+     ],
+     "t": 19.96,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -25,
+      135
+     ],
+     "t": 20.02,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      32,
+      50
+     ],
+     "t": 20.08,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    }
+   ],
+   "z": 3,
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 17.28,
+   "d": 6.96,
+   "cor": "rgba(239,228,201,0.38)",
+   "z": 4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.48,
+   "d": 3.0,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A CONTAGEM CAIU NO MUNDO TODO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.37,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 19.63,
+   "d": 0.9,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      150,
+      640
+     ],
+     "para": [
+      930,
+      1180
+     ],
+     "curva": -40
+    }
+   ],
+   "espessura": 16,
+   "cor": "#b3121f",
+   "vel": 0.6,
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 20.48,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "texto",
+   "t": 20.5,
+   "d": 2.4,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CAIU = INFÉRTIL?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 20.5,
+   "d": 2.4,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "gota_espermatozoides",
+     "xy": [
+      540,
+      1050
+     ],
+     "s": 1.25,
+     "t": 0.1
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 22.91,
+   "d": 1.28,
+   "xy": [
+    300,
+    900
+   ],
+   "txt": "NÃO",
+   "tam": 300,
+   "rot": -9,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,250,235,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 24.19,
+   "d": 0.2
+  },
+  {
+   "tipo": "flash",
+   "t": 24.24,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "texto",
+   "t": 24.34,
+   "d": 2.75,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "TESTÍCULO = FÁBRICA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 24.29,
+   "d": 2.8,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "testiculo_corte",
+     "xy": [
+      300,
+      1010
+     ],
+     "s": 1.05,
+     "t": 0.05
+    },
+    {
+     "k": "dn_fabrica",
+     "xy": [
+      810,
+      1030
+     ],
+     "s": 0.85,
+     "t": 1.0
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17",
+   "fluxos": [
+    {
+     "de": [
+      345,
+      1015
+     ],
+     "para": [
+      490,
+      780
+     ],
+     "curva": -40,
+     "cor": "#ffffff",
+     "t": 0.4,
+     "d": 2.35,
+     "n": 12,
+     "r": 15,
+     "viagem": 0.9,
+     "fica": true
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 1.5
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 25.24,
+   "d": 1.85,
+   "xy": [
+    500,
+    900
+   ],
+   "w": 110,
+   "fonte": "160px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "=",
+   "z": 40,
+   "fixo": true,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 25.54,
+   "d": 1.55,
+   "xy": [
+    320,
+    1330
+   ],
+   "w": 440,
+   "fonte": "100px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "NÃO PARA",
+   "z": 56,
+   "entra": "cai",
+   "rot": -4,
+   "fixo": true,
+   "css": "background:#fffaf0;border:5px solid #1c1a17;border-radius:6px;padding:6px 0 0;box-shadow:9px 11px 0 rgba(0,0,0,.18);letter-spacing:2px"
+  },
+  {
+   "tipo": "texto",
+   "t": 25.54,
+   "d": 1.55,
+   "xy": [
+    465,
+    1304
+   ],
+   "w": 150,
+   "fonte": "100px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": " ",
+   "z": 57,
+   "entra": "cai",
+   "rot": -9,
+   "fixo": true,
+   "css": "height:46px;overflow:hidden;background:rgba(226,203,120,.82);box-shadow:0 2px 4px rgba(0,0,0,.15)"
+  },
+  {
+   "tipo": "gigante",
+   "t": 24.29,
+   "d": 2.8,
+   "txt": "FÁBRICA",
+   "y": 1480,
+   "tam": 360,
+   "cor": "rgba(28,26,23,.07)",
+   "x": [
+    700,
+    -1260
+   ],
+   "z": 12,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 27.09,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "texto",
+   "t": 27.14,
+   "d": 2.4,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O EXAME CONTA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 27.09,
+   "d": 2.45,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "gota_espermatozoides",
+     "xy": [
+      540,
+      1010
+     ],
+     "s": 1.75,
+     "t": 0.05
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "desenho",
+   "t": 27.09,
+   "d": 2.45,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      531,
+      963
+     ],
+     "r": [
+      34,
+      28
+     ],
+     "t": 0.75
+    },
+    {
+     "k": "circulo",
+     "c": [
+      717,
+      1045
+     ],
+     "r": [
+      34,
+      28
+     ],
+     "t": 1.02
+    },
+    {
+     "k": "circulo",
+     "c": [
+      358,
+      1052
+     ],
+     "r": [
+      34,
+      28
+     ],
+     "t": 1.29
+    },
+    {
+     "k": "circulo",
+     "c": [
+      410,
+      1166
+     ],
+     "r": [
+      34,
+      28
+     ],
+     "t": 1.56
+    },
+    {
+     "k": "circulo",
+     "c": [
+      731,
+      1187
+     ],
+     "r": [
+      34,
+      28
+     ],
+     "t": 1.83
+    },
+    {
+     "k": "circulo",
+     "c": [
+      559,
+      1190
+     ],
+     "r": [
+      34,
+      28
+     ],
+     "t": 2.1
+    },
+    {
+     "k": "circulo",
+     "c": [
+      433,
+      1286
+     ],
+     "r": [
+      34,
+      28
+     ],
+     "t": 2.37
+    }
+   ],
+   "espessura": 8,
+   "cor": "#b3121f",
+   "vel": 0.22,
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 27.84,
+   "d": 1.7,
+   "xy": [
+    193,
+    1395
+   ],
+   "w": 694,
+   "fonte": "100px Anton",
+   "cor": "#1f5fa8",
+   "alinha": "center",
+   "txt": "ESPERMOGRAMA",
+   "z": 56,
+   "entra": "cai",
+   "rot": 3,
+   "fixo": true,
+   "css": "background:#fffaf0;border:5px solid #1c1a17;border-radius:6px;padding:6px 0 0;box-shadow:9px 11px 0 rgba(0,0,0,.18);letter-spacing:2px"
+  },
+  {
+   "tipo": "texto",
+   "t": 27.84,
+   "d": 1.7,
+   "xy": [
+    465,
+    1369
+   ],
+   "w": 150,
+   "fonte": "100px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": " ",
+   "z": 57,
+   "entra": "cai",
+   "rot": -2,
+   "fixo": true,
+   "css": "height:46px;overflow:hidden;background:rgba(226,203,120,.82);box-shadow:0 2px 4px rgba(0,0,0,.15)"
+  },
+  {
+   "tipo": "flash",
+   "t": 29.54,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "texto",
+   "t": 29.59,
+   "d": 2.1,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "EM CADA MILILITRO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 29.54,
+   "d": 2.15,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "gota_espermatozoides",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 2.15,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 30.19,
+   "d": 1.5,
+   "xy": [
+    610,
+    1290
+   ],
+   "txt": "1 ML",
+   "tam": 150,
+   "rot": -10,
+   "z": 60,
+   "cor": "#1f5fa8",
+   "blend": "normal",
+   "css": "background:rgba(255,250,235,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 31.69,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "texto",
+   "t": 31.74,
+   "d": 2.6,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O PÚBLICO CAIU",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.69,
+   "d": 4.45,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "estadio",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 2.05,
+     "t": 0.05
+    },
+    {
+     "k": "estadio_torcida_4",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 2.05,
+     "t": 0.05
+    },
+    {
+     "k": "estadio_torcida_5",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 2.05,
+     "t": 0.05
+    },
+    {
+     "k": "estadio_torcida_6",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 2.05,
+     "t": 0.05
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.69,
+   "d": 1.65,
+   "z": 31,
+   "orgaos": [
+    {
+     "k": "estadio_torcida_1",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 2.05,
+     "t": 0.05
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.69,
+   "d": 1.95,
+   "z": 32,
+   "orgaos": [
+    {
+     "k": "estadio_torcida_2",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 2.05,
+     "t": 0.05
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.69,
+   "d": 2.25,
+   "z": 33,
+   "orgaos": [
+    {
+     "k": "estadio_torcida_3",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 2.05,
+     "t": 0.05
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "gigante",
+   "t": 31.74,
+   "d": 4.35,
+   "txt": "ESTÁDIO",
+   "y": 1500,
+   "tam": 360,
+   "cor": "rgba(28,26,23,.07)",
+   "x": [
+    700,
+    -1260
+   ],
+   "z": 12,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.29,
+   "d": 1.85,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#2e7d32",
+   "alinha": "center",
+   "txt": "AINDA TEM JOGO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 34.84,
+   "d": 1.3,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      880,
+      560
+     ],
+     "s": 60
+    }
+   ],
+   "espessura": 16,
+   "cor": "#2e7d32",
+   "vel": 0.45,
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 36.14,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "texto",
+   "t": 36.19,
+   "d": 3.79,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O PROBLEMA: QUASE VAZIA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.6,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 36.14,
+   "d": 3.84,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "estadio",
+     "xy": [
+      760,
+      1260
+     ],
+     "s": 3.3,
+     "t": 0.0
+    },
+    {
+     "k": "estadio_torcida_6",
+     "xy": [
+      760,
+      1260
+     ],
+     "s": 3.3,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "fisio",
+   "t": 36.14,
+   "d": 1.2,
+   "z": 31,
+   "orgaos": [
+    {
+     "k": "estadio_torcida_4",
+     "xy": [
+      760,
+      1260
+     ],
+     "s": 3.3,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "fisio",
+   "t": 36.14,
+   "d": 1.6,
+   "z": 32,
+   "orgaos": [
+    {
+     "k": "estadio_torcida_5",
+     "xy": [
+      760,
+      1260
+     ],
+     "s": 3.3,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 38.54,
+   "d": 1.44,
+   "xy": [
+    160,
+    1290
+   ],
+   "txt": "INVESTIGAR",
+   "tam": 125,
+   "rot": -7,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,250,235,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 39.98,
+   "d": 0.2
+  },
+  {
+   "tipo": "flash",
+   "t": 40.03,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "mapa",
+   "t": 40.03,
+   "d": 15.5,
+   "tema": "papel",
+   "area": [
+    0,
+    480,
+    1080,
+    1000
+   ],
+   "camera": [
+    [
+     40.03,
+     30,
+     10,
+     0.62,
+     0
+    ],
+    [
+     41.43,
+     55.0,
+     19.5,
+     3.6,
+     1.8
+    ],
+    [
+     44.88,
+     37.0,
+     19.5,
+     3.6,
+     0.7
+    ],
+    [
+     50.93,
+     15,
+     10,
+     0.58,
+     1.4
+    ]
+   ],
+   "pinos": [
+    {
+     "ll": [
+      55.68,
+      12.57
+     ],
+     "t": 44.28,
+     "txt": "COPENHAGUE",
+     "cor": "#b3121f",
+     "fs": 17,
+     "stroke": "#fff",
+     "sw": 4,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      40,
+      -100
+     ],
+     "t": 53.23,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      45,
+      -75
+     ],
+     "t": 53.3,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -15,
+      -50
+     ],
+     "t": 53.37,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -34,
+      -60
+     ],
+     "t": 53.44,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      52,
+      10
+     ],
+     "t": 53.51,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      45,
+      2
+     ],
+     "t": 53.58,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      60,
+      15
+     ],
+     "t": 53.65,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      5,
+      20
+     ],
+     "t": 53.72,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -25,
+      25
+     ],
+     "t": 53.79,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      30,
+      31
+     ],
+     "t": 53.86,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      35,
+      105
+     ],
+     "t": 53.93,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      21,
+      78
+     ],
+     "t": 54.0,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      36,
+      138
+     ],
+     "t": 54.07,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      55,
+      80
+     ],
+     "t": 54.14,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -25,
+      135
+     ],
+     "t": 54.21,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      32,
+      50
+     ],
+     "t": 54.28,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    }
+   ],
+   "z": 3,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 40.08,
+   "d": 4.8,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "210px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "1992",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 44.93,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "fundo",
+   "t": 44.93,
+   "d": 6.0,
+   "cor": "rgba(239,228,201,0.82)",
+   "z": 4,
+   "fixo": true
+  },
+  {
+   "tipo": "manchete",
+   "t": 44.93,
+   "d": 6.0,
+   "xy": [
+    60,
+    230
+   ],
+   "w": 960,
+   "jornal": "BMJ · Copenhague",
+   "data": "1992",
+   "txt": "A média de espermatozoides caiu",
+   "sub": "61 estudos, quase 15 mil homens, de 1940 a 1990",
+   "rot": -2,
+   "z": 40,
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 46.13,
+   "d": 4.8,
+   "xy": [
+    0,
+    700
+   ],
+   "valor": 66,
+   "de": 113,
+   "conta": 1.9,
+   "tam": 330,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "rotulo": "milhões por ml",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 49.03,
+   "d": 1.9,
+   "xy": [
+    40,
+    1295
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "EM 50 ANOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.93,
+   "d": 6.0,
+   "xy": [
+    40,
+    1462
+   ],
+   "w": 1000,
+   "fonte": "700 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Carlsen e col., BMJ 1992 · média de 113 para 66 milhões/ml (1940-1990)",
+   "z": 70,
+   "fixo": true,
+   "css": "background:rgba(255,250,235,.88);border-radius:12px;padding:6px 10px"
+  },
+  {
+   "tipo": "flash",
+   "t": 50.93,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "texto",
+   "t": 50.98,
+   "d": 4.55,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "210px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "2023",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 53.13,
+   "d": 2.4,
+   "xy": [
+    0,
+    960
+   ],
+   "valor": 223,
+   "tam": 260,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "rotulo": "estudos",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 50.98,
+   "d": 4.55,
+   "xy": [
+    40,
+    1462
+   ],
+   "w": 1000,
+   "fonte": "700 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Levine e col., Hum Reprod Update 2023 · 223 estudos, amostras de 1973 a 2018",
+   "z": 70,
+   "fixo": true,
+   "css": "background:rgba(255,250,235,.88);border-radius:12px;padding:6px 10px"
+  },
+  {
+   "tipo": "flash",
+   "t": 55.53,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "cartao",
+   "t": 55.53,
+   "d": 8.25,
+   "box": [
+    80,
+    560,
+    920,
+    640
+   ],
+   "aba": "contagem média no mundo",
+   "entra": "pop",
+   "z": 30,
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 55.63,
+   "d": 8.15,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       150,
+       615
+      ],
+      [
+       150,
+       1130
+      ],
+      [
+       960,
+       1130
+      ]
+     ],
+     "j": 2
+    }
+   ],
+   "espessura": 7,
+   "cor": "#1c1a17",
+   "vel": 0.4,
+   "z": 35,
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 56.03,
+   "d": 7.75,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       175,
+       698
+      ],
+      [
+       238,
+       703
+      ],
+      [
+       302,
+       716
+      ],
+      [
+       365,
+       728
+      ],
+      [
+       428,
+       741
+      ],
+      [
+       492,
+       754
+      ],
+      [
+       555,
+       771
+      ],
+      [
+       618,
+       788
+      ],
+      [
+       682,
+       814
+      ],
+      [
+       745,
+       848
+      ],
+      [
+       808,
+       882
+      ],
+      [
+       872,
+       908
+      ],
+      [
+       935,
+       921
+      ]
+     ],
+     "j": 2
+    }
+   ],
+   "espessura": 14,
+   "cor": "#b3121f",
+   "vel": 2.2,
+   "z": 36,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 55.73,
+   "d": 8.05,
+   "xy": [
+    95,
+    1142
+   ],
+   "w": 160,
+   "fonte": "800 32px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "1973",
+   "z": 37,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 55.73,
+   "d": 8.05,
+   "xy": [
+    855,
+    1142
+   ],
+   "w": 160,
+   "fonte": "800 32px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "2018",
+   "z": 37,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 55.58,
+   "d": 3.7,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "115px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "EM 45 ANOS, CAIU MAIS DA METADE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.42,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 57.43,
+   "d": 1.85,
+   "xy": [
+    0,
+    1190
+   ],
+   "valor": 51.6,
+   "dec": 1,
+   "pre": "-",
+   "suf": "%",
+   "tam": 190,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 55.58,
+   "d": 3.7,
+   "xy": [
+    40,
+    1462
+   ],
+   "w": 1000,
+   "fonte": "700 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Levine e col., Hum Reprod Update 2023 · queda de 51,6% na concentração média",
+   "z": 70,
+   "fixo": true,
+   "css": "background:rgba(255,250,235,.88);border-radius:12px;padding:6px 10px"
+  },
+  {
+   "tipo": "flash",
+   "t": 59.28,
+   "d": 0.22,
+   "max": 0.25
+  },
+  {
+   "tipo": "texto",
+   "t": 59.33,
+   "d": 4.45,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "115px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "VALOR DE REFERÊNCIA DO EXAME",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.25,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 60.53,
+   "d": 3.25,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       175,
+       1062
+      ],
+      [
+       209,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.0
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       231,
+       1062
+      ],
+      [
+       265,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.04
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       287,
+       1062
+      ],
+      [
+       321,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.08
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       343,
+       1062
+      ],
+      [
+       377,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.12
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       399,
+       1062
+      ],
+      [
+       433,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.16
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       455,
+       1062
+      ],
+      [
+       489,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.2
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       511,
+       1062
+      ],
+      [
+       545,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.24
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       567,
+       1062
+      ],
+      [
+       601,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.28
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       623,
+       1062
+      ],
+      [
+       657,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.32
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       679,
+       1062
+      ],
+      [
+       713,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.36
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       735,
+       1062
+      ],
+      [
+       769,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.4
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       791,
+       1062
+      ],
+      [
+       825,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.44
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       847,
+       1062
+      ],
+      [
+       881,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.48
+    },
+    {
+     "k": "linha",
+     "pts": [
+      [
+       903,
+       1062
+      ],
+      [
+       937,
+       1062
+      ]
+     ],
+     "j": 1,
+     "t": 0.52
+    }
+   ],
+   "espessura": 10,
+   "cor": "#1f5fa8",
+   "vel": 0.25,
+   "z": 38,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.63,
+   "d": 2.15,
+   "xy": [
+    175,
+    942
+   ],
+   "w": 700,
+   "fonte": "100px Anton",
+   "cor": "#1f5fa8",
+   "alinha": "left",
+   "txt": "16 MILHÕES/ML",
+   "z": 40,
+   "entra": "desliza",
+   "dy": 40,
+   "fixo": true,
+   "css": "text-shadow:4px 4px 0 rgba(255,250,235,.9)"
+  },
+  {
+   "tipo": "texto",
+   "t": 59.33,
+   "d": 4.45,
+   "xy": [
+    40,
+    1462
+   ],
+   "w": 1000,
+   "fonte": "700 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Campbell e col., Andrology 2021 (OMS) · 16 milhões/ml é referência, não linha de corte",
+   "z": 70,
+   "fixo": true,
+   "css": "background:rgba(255,250,235,.88);border-radius:12px;padding:6px 10px"
+  },
+  {
+   "tipo": "glitch",
+   "t": 63.78,
+   "d": 0.2
+  },
+  {
+   "tipo": "flash",
+   "t": 63.83,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "fisio",
+   "t": 63.88,
+   "d": 4.9,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      420,
+      1030
+     ],
+     "s": 0.95,
+     "t": 0.1
+    },
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      660,
+      1060
+     ],
+     "s": 0.95,
+     "t": 0.45
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17",
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.1
+    },
+    {
+     "o": 1,
+     "t": 1.55
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 64.83,
+   "d": 3.95,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "VOCÊS DOIS: A MÉDIA NÃO DECIDE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.5,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 68.78,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "fisio",
+   "t": 68.78,
+   "d": 4.6,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "gota_espermatozoides",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.45,
+     "t": 0.1
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "texto",
+   "t": 69.33,
+   "d": 2.1,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#1f5fa8",
+   "alinha": "center",
+   "txt": "ESPERMOGRAMA DELE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 71.43,
+   "d": 1.95,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#2e7d32",
+   "alinha": "center",
+   "txt": "EXAME SIMPLES",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 72.43,
+   "d": 0.95,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      800,
+      1250
+     ],
+     "s": 70
+    }
+   ],
+   "espessura": 18,
+   "cor": "#2e7d32",
+   "vel": 0.45,
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 73.43,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "fisio",
+   "t": 73.43,
+   "d": 3.57,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "calendario",
+     "xy": [
+      540,
+      1000
+     ],
+     "s": 1.35,
+     "t": 0.1
+    },
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      250,
+      1250
+     ],
+     "s": 0.55,
+     "t": 0.6
+    },
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      830,
+      1250
+     ],
+     "s": 0.55,
+     "t": 0.8
+    }
+   ],
+   "fixo": true,
+   "cor_rotulo": "#1c1a17"
+  },
+  {
+   "tipo": "texto",
+   "t": 73.73,
+   "d": 3.27,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CONSULTA COM OS DOIS JUNTOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.3,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 77.05,
+   "d": 0.22,
+   "max": 0.35
+  },
+  {
+   "tipo": "foto",
+   "t": 77.05,
+   "d": 4.53,
+   "src": "assets/midia/ce_still.jpg",
+   "box": [
+    150,
+    700,
+    780,
+    760
+   ],
+   "raio": 6,
+   "rot": -2,
+   "borda": "border:18px solid #fffaf0;",
+   "credito": "via @dailymail",
+   "entra": "cai",
+   "z": 30,
+   "fixo": true,
+   "kb": {
+    "s": [
+     1.0,
+     1.1
+    ]
+   }
+  },
+  {
+   "tipo": "texto",
+   "t": 77.1,
+   "d": 4.48,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "115px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "QUEM NÃO SEGUIR VAI EXPLICAR PRO SOGRO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.33,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 81.53,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 81.58,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/cta6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     81.58,
+     1.0,
+     0.01
+    ],
+    [
+     84.18,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 81.78,
+   "d": 3.87,
+   "y": 215,
+   "txt": "AULA VALEU? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "glitch",
+   "t": 85.65,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 85.7,
+   "d": 0.22,
+   "max": 0.5
+  },
+  {
+   "tipo": "fundo",
+   "t": 85.7,
+   "d": 5.08,
+   "cor": "#efe4c9",
+   "textura": "papel",
+   "z": 2,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 85.7,
+   "d": 5.08,
+   "xy": [
+    0,
+    1590
+   ],
+   "w": 1080,
+   "fonte": "100px Anton",
+   "cor": "#fff",
+   "alinha": "center",
+   "txt": " ",
+   "z": 86,
+   "entra": "nada",
+   "fixo": true,
+   "css": "height:250px;overflow:hidden;background:linear-gradient(180deg,rgba(28,20,12,0) 0%,rgba(28,20,12,.66) 28%,rgba(28,20,12,.66) 72%,rgba(28,20,12,0) 100%)"
+  },
+  {
+   "tipo": "mapa",
+   "t": 85.7,
+   "d": 5.08,
+   "tema": "papel",
+   "area": [
+    0,
+    560,
+    1080,
+    900
+   ],
+   "camera": [
+    [
+     85.7,
+     20,
+     10,
+     0.6,
+     0
+    ],
+    [
+     87.7,
+     20,
+     10,
+     0.66,
+     3.0
+    ]
+   ],
+   "pinos": [
+    {
+     "ll": [
+      40,
+      -100
+     ],
+     "t": 85.8,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      45,
+      -75
+     ],
+     "t": 85.84,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -15,
+      -50
+     ],
+     "t": 85.88,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -34,
+      -60
+     ],
+     "t": 85.92,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      52,
+      10
+     ],
+     "t": 85.96,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      45,
+      2
+     ],
+     "t": 86.0,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      60,
+      15
+     ],
+     "t": 86.04,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      5,
+      20
+     ],
+     "t": 86.08,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -25,
+      25
+     ],
+     "t": 86.12,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      30,
+      31
+     ],
+     "t": 86.16,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      35,
+      105
+     ],
+     "t": 86.2,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      21,
+      78
+     ],
+     "t": 86.24,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      36,
+      138
+     ],
+     "t": 86.28,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      55,
+      80
+     ],
+     "t": 86.32,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      -25,
+      135
+     ],
+     "t": 86.36,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    },
+    {
+     "ll": [
+      32,
+      50
+     ],
+     "t": 86.4,
+     "txt": "",
+     "fs": 36,
+     "stroke": "#fff",
+     "sw": 8,
+     "cor_txt": "#1c1a17"
+    }
+   ],
+   "z": 3,
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 85.7,
+   "d": 5.08,
+   "cor": "rgba(239,228,201,0.45)",
+   "z": 4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 85.75,
+   "d": 5.03,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "115px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A MÉDIA CAIU. A RESPOSTA ESTÁ NO EXAME",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.45,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 86.7,
+   "d": 4.08,
+   "xy": [
+    80,
+    990
+   ],
+   "txt": "VERDADE, COM PORÉM",
+   "tam": 84,
+   "rot": -6,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,250,235,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 85.75,
+   "d": 5.03,
+   "xy": [
+    40,
+    1462
+   ],
+   "w": 1000,
+   "fonte": "700 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Levine e col., Hum Reprod Update 2023 · doi 10.1093/humupd/dmac035",
+   "z": 70,
+   "fixo": true,
+   "css": "background:rgba(255,250,235,.88);border-radius:12px;padding:6px 10px"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ]
+}
