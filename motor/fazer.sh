@@ -1,7 +1,7 @@
 #!/bin/bash
-# fazer.sh <id>: gera, renderiza, mixa e junta -> motor/saida/<id>.mp4
+# fazer.sh <id>: gera, renderiza, mixa e junta -> saida/<id>.mp4
 set -e
-cd "$(dirname "$0")"; mkdir -p saida amostras
+cd "$(dirname "$0")"
 id=$1
 python3 gerar.py planos/$id.json amostras/$id > /dev/null
 python3 mix.py planos/$id.json saida/$id.m4a

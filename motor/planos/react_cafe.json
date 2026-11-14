@@ -1,0 +1,987 @@
+{
+ "id": "react_cafe",
+ "dur": 53.767,
+ "seed": 91,
+ "fundo": "#14070a",
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.567
+   ],
+   [
+    2.567,
+    6.667
+   ],
+   [
+    13.467,
+    15.667
+   ]
+  ],
+  "ys": [
+   [
+    6.667,
+    13.817,
+    1440
+   ],
+   [
+    13.817,
+    17.717,
+    1000
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/td_entB.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.567,
+    "palavras": "assets/midia/td_entB.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/cf_viral.mp4",
+    "t": 2.567,
+    "ms": 0,
+    "d": 11.25,
+    "palavras": "assets/midia/cf_viral.words.json"
+   },
+   {
+    "src": "assets/midia/cf_voz.wav",
+    "t": 13.817,
+    "ms": 0,
+    "d": 3.9,
+    "palavras": "assets/midia/cf_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cf_voz.wav",
+    "t": 17.717,
+    "ms": 4.2,
+    "d": 36.05,
+    "palavras": "assets/midia/cf_voz.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.567,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.867,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.867,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 13.767,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 13.867,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh",
+    "t": 15.617,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 17.667,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 18.717,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 19.997,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 23.417,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 26.167,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 26.417,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 30.917,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 31.867,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 36.117,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 35.937,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 40.037,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 41.517,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 45.497,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 48.417,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 42.117,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 51.237,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 53.767,
+   "cor": "#14070a",
+   "textura": "gradiente",
+   "cor2": "#5a0d10"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.567,
+   "ms": 0,
+   "src": "assets/midia/td_entB.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.567
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 2.447,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "“CAFÉ ME DÁ SONO, ENTÃO TENHO TDAH”?",
+   "sub": "o vídeo passou de 800 mil views",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.567,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.567,
+   "d": 15.15,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.567,
+   "d": 11.25,
+   "ms": 0,
+   "src": "assets/midia/cf_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 34%",
+   "arroba": "via @psi.walace",
+   "respira": false,
+   "zoom": [
+    [
+     2.567,
+     1.0,
+     0.01
+    ],
+    [
+     6.567,
+     1.06,
+     0.4
+    ],
+    [
+     11.317,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.667,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? ☕",
+   "txt": "Café dá sono? Então é TDAH?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.867
+  },
+  {
+   "tipo": "numero",
+   "t": 6.867,
+   "d": 6.9,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 821.8,
+   "dec": 1,
+   "suf": " MIL VIEWS",
+   "tam": 120
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.767,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 13.817,
+   "d": 3.9,
+   "src": "assets/midia/cf_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "texto",
+   "t": 13.867,
+   "d": 1.75,
+   "xy": [
+    40,
+    1330
+   ],
+   "w": 1000,
+   "fonte": "220px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "CALMA.",
+   "z": 40,
+   "entra": "zoom",
+   "css": "text-shadow:10px 10px 0 #000"
+  },
+  {
+   "tipo": "video",
+   "t": 15.617,
+   "d": 2.1000000000000005,
+   "ms": 1.8,
+   "src": "assets/midia/cf_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 17.717,
+   "d": 8.5,
+   "ms": 0.5,
+   "src": "assets/midia/cf_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     17.717,
+     1.0,
+     0.01
+    ],
+    [
+     18.067,
+     1.16,
+     0.5
+    ],
+    [
+     19.117,
+     1.02,
+     0.5
+    ],
+    [
+     20.167,
+     1.16,
+     0.5
+    ],
+    [
+     21.217,
+     1.02,
+     0.5
+    ],
+    [
+     22.267,
+     1.16,
+     0.5
+    ],
+    [
+     23.317,
+     1.02,
+     0.5
+    ],
+    [
+     24.367,
+     1.16,
+     0.5
+    ],
+    [
+     25.417,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 17.717,
+   "d": 8.5,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 30.967,
+   "d": 22.8,
+   "ms": 20.0,
+   "src": "assets/midia/cf_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     30.967,
+     1.0,
+     0.01
+    ],
+    [
+     31.317,
+     1.16,
+     0.5
+    ],
+    [
+     32.367,
+     1.02,
+     0.5
+    ],
+    [
+     33.417,
+     1.16,
+     0.5
+    ],
+    [
+     34.467,
+     1.02,
+     0.5
+    ],
+    [
+     35.517,
+     1.16,
+     0.5
+    ],
+    [
+     36.567,
+     1.02,
+     0.5
+    ],
+    [
+     37.617,
+     1.16,
+     0.5
+    ],
+    [
+     38.667,
+     1.02,
+     0.5
+    ],
+    [
+     39.717,
+     1.16,
+     0.5
+    ],
+    [
+     40.767,
+     1.02,
+     0.5
+    ],
+    [
+     41.817,
+     1.16,
+     0.5
+    ],
+    [
+     42.867,
+     1.02,
+     0.5
+    ],
+    [
+     43.917,
+     1.16,
+     0.5
+    ],
+    [
+     44.967,
+     1.02,
+     0.5
+    ],
+    [
+     46.017,
+     1.16,
+     0.5
+    ],
+    [
+     47.067,
+     1.02,
+     0.5
+    ],
+    [
+     48.117,
+     1.16,
+     0.5
+    ],
+    [
+     49.167,
+     1.02,
+     0.5
+    ],
+    [
+     50.217,
+     1.16,
+     0.5
+    ],
+    [
+     51.267,
+     1.02,
+     0.5
+    ],
+    [
+     52.317,
+     1.16,
+     0.5
+    ],
+    [
+     53.367,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 30.967,
+   "d": 22.8,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 17.667,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 17.717,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 17.767,
+   "d": 2.2,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "CAFÉ NÃO VIROU CALMANTE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "gigante",
+   "t": 18.717,
+   "d": 0.6,
+   "txt": "CALMANTE?",
+   "y": 1180,
+   "tam": 240,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -2200
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "flash",
+   "t": 19.967,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 19.997,
+   "d": 3.3999999999999986,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 7,
+   "rotulo": "estudos com crianças",
+   "tam": 300,
+   "z": 44
+  },
+  {
+   "tipo": "flash",
+   "t": 23.397,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 23.417,
+   "d": 2.8,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "CAFÉ NÃO MELHOROU OS SINTOMAS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 19.997,
+   "d": 6.22,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Perrotte et al., Brain Sci 2023 (7 estudos, crianças de 5 a 15 anos)",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "glitch",
+   "t": 26.167,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 26.217,
+   "d": 4.75,
+   "ms": 4.2,
+   "src": "assets/midia/cf_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     26.217,
+     1.0,
+     0.01
+    ],
+    [
+     28.817,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 26.417,
+   "d": 4.5,
+   "y": 215,
+   "txt": "GORJETA: SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "flash",
+   "t": 30.967,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 31.867,
+   "d": 4.05,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "300 ADOLESCENTES COM TDAH",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "flash",
+   "t": 35.917,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 35.937,
+   "d": 4.079999999999998,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 2.5,
+   "dec": 1,
+   "suf": "x",
+   "tam": 300,
+   "cor": "#f2c230",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 36.117,
+   "d": 3.9,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "MAIS CAFÉ À NOITE",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 31.867,
+   "d": 8.15,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Cusick et al., J Pediatr Psychol 2020",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 40.037,
+   "d": 2.08,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "DORMIA PIOR",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "gigante",
+   "t": 41.517,
+   "d": 0.6,
+   "txt": "SONO",
+   "y": 700,
+   "tam": 320,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -1600
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "texto",
+   "t": 42.117,
+   "d": 3.35,
+   "xy": [
+    40,
+    480
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "ESTUDOS COM JOVENS",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "checklist",
+   "t": 45.497,
+   "d": 2.9199999999999946,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "Vale consulta?",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "sono demais",
+     "t": 45.537
+    },
+    {
+     "txt": "foco que não vem",
+     "t": 46.717
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 48.417,
+   "d": 2.8,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CONVERSA COM SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 51.237,
+   "d": 2.530000000000001,
+   "xy": [
+    60,
+    760
+   ],
+   "txt": "CAFÉ NÃO É EXAME",
+   "tam": 118,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 51.237,
+   "d": 2.53,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Perrotte, Brain Sci 2023 · doi 10.3390/brainsci13091304 · Cusick, J Pediatr Psychol 2020 · doi 10.1093/jpepsy/jsaa033",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  },
+  {
+   "tipo": "texto",
+   "t": 18.017,
+   "d": 8.2,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 31.267,
+   "d": 22.5,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  }
+ ]
+}

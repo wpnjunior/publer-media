@@ -1,0 +1,1071 @@
+{
+ "id": "react_mel",
+ "dur": 54.64,
+ "seed": 101,
+ "fundo": "#e9dcbc",
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    1.44
+   ],
+   [
+    1.44,
+    5.54
+   ]
+  ],
+  "ys": [
+   [
+    5.54,
+    10.7,
+    1440
+   ],
+   [
+    10.7,
+    13.5,
+    1000
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/abertura_07.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 1.44,
+    "palavras": "assets/midia/abertura_07.words.json"
+   },
+   {
+    "src": "assets/midia/mg_viral.mp4",
+    "t": 1.44,
+    "ms": 0,
+    "d": 9.26,
+    "palavras": "assets/midia/mg_viral.words.json"
+   },
+   {
+    "src": "assets/midia/mg_voz.wav",
+    "t": 10.7,
+    "ms": 0,
+    "d": 2.8,
+    "palavras": "assets/midia/mg_voz.words.json"
+   },
+   {
+    "src": "assets/midia/mg_voz.wav",
+    "t": 13.5,
+    "ms": 2.85,
+    "d": 41.14,
+    "palavras": "assets/midia/mg_voz.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.44,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 4.74,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 10.65,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 10.7,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 13.45,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 13.65,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 17.82,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 19.62,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "papel",
+    "t": 21.15,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 21.6,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 22.5,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 24.71,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 26.63,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 28.7,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 28.95,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 32.85,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 33.85,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 36.77,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 39.27,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 41.77,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 46.27,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 47.97,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 53.09,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 54.64,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 1.44,
+   "ms": 0,
+   "src": "assets/midia/abertura_07.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     1.44
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.32,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "VERMÍFUGO CONTRA CÂNCER?",
+   "sub": "a fala de um podcast fez as receitas dobrarem",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.44,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.44,
+   "d": 12.06,
+   "box": [
+    40,
+    150,
+    1000,
+    934
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.44,
+   "d": 9.26,
+   "ms": 0,
+   "src": "assets/midia/mg_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    853
+   ],
+   "raio": 14,
+   "pos": "center 21%",
+   "arroba": "via @medpagetoday",
+   "respira": false,
+   "zoom": [
+    [
+     1.44,
+     1.0,
+     0.01
+    ],
+    [
+     5.44,
+     1.06,
+     0.4
+    ],
+    [
+     8.2,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.54,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Vermífugo cura câncer em estágio 4?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 4.74
+  },
+  {
+   "tipo": "texto",
+   "t": 5.74,
+   "d": 4.91,
+   "xy": [
+    40,
+    1150
+   ],
+   "w": 1000,
+   "fonte": "110px Caveat",
+   "cor": "#c6ff3d",
+   "alinha": "center",
+   "txt": "podcast, jan/2025",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.08
+  },
+  {
+   "tipo": "glitch",
+   "t": 10.65,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 10.7,
+   "d": 2.8,
+   "src": "assets/midia/mg_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    853
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "video",
+   "t": 10.7,
+   "d": 2.8000000000000007,
+   "ms": 0,
+   "src": "assets/midia/mg_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 13.5,
+   "d": 15.25,
+   "ms": 0.5,
+   "src": "assets/midia/mg_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    2400
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     13.5,
+     1.0,
+     0.01
+    ],
+    [
+     13.85,
+     1.16,
+     0.5
+    ],
+    [
+     14.9,
+     1.02,
+     0.5
+    ],
+    [
+     15.95,
+     1.16,
+     0.5
+    ],
+    [
+     17.0,
+     1.02,
+     0.5
+    ],
+    [
+     18.05,
+     1.16,
+     0.5
+    ],
+    [
+     19.1,
+     1.02,
+     0.5
+    ],
+    [
+     20.15,
+     1.16,
+     0.5
+    ],
+    [
+     21.2,
+     1.02,
+     0.5
+    ],
+    [
+     22.25,
+     1.16,
+     0.5
+    ],
+    [
+     23.3,
+     1.02,
+     0.5
+    ],
+    [
+     24.35,
+     1.16,
+     0.5
+    ],
+    [
+     25.4,
+     1.02,
+     0.5
+    ],
+    [
+     26.45,
+     1.16,
+     0.5
+    ],
+    [
+     27.5,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 13.5,
+   "d": 15.25,
+   "cor": "rgba(239,228,201,.68)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 32.9,
+   "d": 21.74,
+   "ms": 20.0,
+   "src": "assets/midia/mg_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    2400
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     32.9,
+     1.0,
+     0.01
+    ],
+    [
+     33.25,
+     1.16,
+     0.5
+    ],
+    [
+     34.3,
+     1.02,
+     0.5
+    ],
+    [
+     35.35,
+     1.16,
+     0.5
+    ],
+    [
+     36.4,
+     1.02,
+     0.5
+    ],
+    [
+     37.45,
+     1.16,
+     0.5
+    ],
+    [
+     38.5,
+     1.02,
+     0.5
+    ],
+    [
+     39.55,
+     1.16,
+     0.5
+    ],
+    [
+     40.6,
+     1.02,
+     0.5
+    ],
+    [
+     41.65,
+     1.16,
+     0.5
+    ],
+    [
+     42.7,
+     1.02,
+     0.5
+    ],
+    [
+     43.75,
+     1.16,
+     0.5
+    ],
+    [
+     44.8,
+     1.02,
+     0.5
+    ],
+    [
+     45.85,
+     1.16,
+     0.5
+    ],
+    [
+     46.9,
+     1.02,
+     0.5
+    ],
+    [
+     47.95,
+     1.16,
+     0.5
+    ],
+    [
+     49.0,
+     1.02,
+     0.5
+    ],
+    [
+     50.05,
+     1.16,
+     0.5
+    ],
+    [
+     51.1,
+     1.02,
+     0.5
+    ],
+    [
+     52.15,
+     1.16,
+     0.5
+    ],
+    [
+     53.2,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 32.9,
+   "d": 21.74,
+   "cor": "rgba(239,228,201,.68)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.45,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 13.5,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 13.65,
+   "d": 4.0,
+   "xy": [
+    40,
+    480
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "DEPOIS DO PODCAST",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12,
+   "css": ""
+  },
+  {
+   "tipo": "flash",
+   "t": 17.8,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 17.65,
+   "d": 1.9499999999999993,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 2,
+   "suf": "x",
+   "tam": 300,
+   "cor": "#b3121f",
+   "z": 44,
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "texto",
+   "t": 17.65,
+   "d": 1.95,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "RECEITAS DOBRARAM",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 13.65,
+   "d": 5.95,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Rockwell et al., JAMA Netw Open 2026",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 19.62,
+   "d": 1.51,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "180px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "SEM PROVA.",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "checklist",
+   "t": 21.15,
+   "d": 5.449999999999999,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "Onde já freou tumor?",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "célula",
+     "t": 21.35
+    },
+    {
+     "txt": "bicho",
+     "t": 22.27
+    },
+    {
+     "txt": "gente",
+     "t": 24.53
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 21.6,
+   "d": 5.0,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      412
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#b3121f"
+  },
+  {
+   "tipo": "desenho",
+   "t": 22.5,
+   "d": 4.099999999999998,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      506
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#b3121f"
+  },
+  {
+   "tipo": "desenho",
+   "t": 24.71,
+   "d": 1.889999999999997,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      600
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#b3121f"
+  },
+  {
+   "tipo": "texto",
+   "t": 26.63,
+   "d": 2.12,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "NENHUMA CURA COMPROVADA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "glitch",
+   "t": 28.7,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 28.75,
+   "d": 4.149999999999999,
+   "ms": 3.05,
+   "src": "assets/midia/mg_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     28.75,
+     1.0,
+     0.01
+    ],
+    [
+     31.35,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 28.95,
+   "d": 3.8999999999999986,
+   "y": 215,
+   "txt": "COMBINADO: SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "flash",
+   "t": 32.9,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 33.85,
+   "d": 2.9,
+   "xy": [
+    40,
+    480
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "ESTUDO DE YALE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12,
+   "css": ""
+  },
+  {
+   "tipo": "flash",
+   "t": 36.75,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 36.77,
+   "d": 2.480000000000004,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 840,
+   "rotulo": "com câncer curável",
+   "tam": 280,
+   "z": 44,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "texto",
+   "t": 39.27,
+   "d": 2.48,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "TROCOU O TRATAMENTO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": ""
+  },
+  {
+   "tipo": "flash",
+   "t": 41.75,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 41.77,
+   "d": 2.5800000000000054,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 2.5,
+   "dec": 1,
+   "suf": "x",
+   "rotulo": "risco de morrer",
+   "tam": 300,
+   "cor": "#ff2d3d",
+   "sombra": "#5a0d10",
+   "z": 44,
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "texto",
+   "t": 33.85,
+   "d": 10.5,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Johnson et al. (Yale), J Natl Cancer Inst 2018",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 44.37,
+   "d": 3.58,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "NÃO TESTOU VERMÍFUGO",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": ""
+  },
+  {
+   "tipo": "texto",
+   "t": 46.15,
+   "d": 1.8,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "TESTOU LARGAR TRATAMENTO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 47.97,
+   "d": 3.5,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "DÚVIDA? LEVA PRO ONCOLOGISTA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 51.49,
+   "d": 3.15,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "ESPERANÇA SE RESPEITA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": ""
+  },
+  {
+   "tipo": "carimbo",
+   "t": 53.09,
+   "d": 1.5500000000000043,
+   "xy": [
+    50,
+    760
+   ],
+   "txt": "NÃO COMPROVADO",
+   "tam": 110,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 53.09,
+   "d": 1.55,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Johnson, J Natl Cancer Inst 2018 · doi 10.1093/jnci/djx145 · Rockwell, JAMA Netw Open 2026 · doi 10.1001/jamanetworkopen.2026.16780",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.12
+  }
+ ]
+}

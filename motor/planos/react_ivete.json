@@ -1,0 +1,1136 @@
+{
+ "id": "react_ivete",
+ "dur": 53.2,
+ "seed": 107,
+ "fundo": "#14070a",
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.1
+   ],
+   [
+    2.1,
+    6.2
+   ]
+  ],
+  "ys": [
+   [
+    6.2,
+    10.95,
+    1440
+   ],
+   [
+    10.95,
+    13.65,
+    1000
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ca_entA.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.1,
+    "palavras": "assets/midia/ca_entA.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/iv_viral.mp4",
+    "t": 2.1,
+    "ms": 0,
+    "d": 8.85,
+    "palavras": "assets/midia/iv_viral.words.json"
+   },
+   {
+    "src": "assets/midia/iv_voz.wav",
+    "t": 10.95,
+    "ms": 0,
+    "d": 2.7,
+    "palavras": "assets/midia/iv_voz.words.json"
+   },
+   {
+    "src": "assets/midia/iv_voz.wav",
+    "t": 13.65,
+    "ms": 3.3,
+    "d": 39.55,
+    "palavras": "assets/midia/iv_voz.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.1,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.4,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.4,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 10.9,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 10.95,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 13.6,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 15.35,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 16.5,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 20.07,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 24.73,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 28.19,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "papel",
+    "t": 32.53,
+    "gain": 0.5
+   },
+   {
+    "src": "glitch",
+    "t": 34.25,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 35.1,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 36.2,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 36.45,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 38.9,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 39.05,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 43.85,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 44.95,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 45.8,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 46.85,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 47.77,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 50.55,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 51.67,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 53.2,
+   "cor": "#14070a",
+   "textura": "gradiente",
+   "cor2": "#5a0d10"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.1,
+   "ms": 0,
+   "src": "assets/midia/ca_entA.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.1
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.98,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Fofoca do Dia",
+   "data": "nov 2026",
+   "txt": "IRRECONHECÍVEL POR CAUSA DA CANETA?",
+   "sub": "a fofoca passou de 7 milhões de views",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.1,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.1,
+   "d": 11.55,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.1,
+   "d": 8.85,
+   "ms": 0,
+   "src": "assets/midia/iv_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 34%",
+   "arroba": "via @natal.noticias",
+   "respira": false,
+   "zoom": [
+    [
+     2.1,
+     1.0,
+     0.01
+    ],
+    [
+     6.1,
+     1.06,
+     0.4
+    ],
+    [
+     8.45,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.2,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Dá para saber por foto se alguém usou caneta?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.4
+  },
+  {
+   "tipo": "numero",
+   "t": 6.4,
+   "d": 4.5,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 7.4,
+   "dec": 1,
+   "suf": " MI VIEWS",
+   "tam": 120
+  },
+  {
+   "tipo": "glitch",
+   "t": 10.9,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 10.95,
+   "d": 2.7,
+   "src": "assets/midia/iv_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "video",
+   "t": 10.95,
+   "d": 2.700000000000001,
+   "ms": 0,
+   "src": "assets/midia/iv_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 13.65,
+   "d": 22.6,
+   "ms": 10.0,
+   "src": "assets/midia/iv_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    2600
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     13.65,
+     1.0,
+     0.01
+    ],
+    [
+     14.0,
+     1.16,
+     0.5
+    ],
+    [
+     15.05,
+     1.02,
+     0.5
+    ],
+    [
+     16.1,
+     1.16,
+     0.5
+    ],
+    [
+     17.15,
+     1.02,
+     0.5
+    ],
+    [
+     18.2,
+     1.16,
+     0.5
+    ],
+    [
+     19.25,
+     1.02,
+     0.5
+    ],
+    [
+     20.3,
+     1.16,
+     0.5
+    ],
+    [
+     21.35,
+     1.02,
+     0.5
+    ],
+    [
+     22.4,
+     1.16,
+     0.5
+    ],
+    [
+     23.45,
+     1.02,
+     0.5
+    ],
+    [
+     24.5,
+     1.16,
+     0.5
+    ],
+    [
+     25.55,
+     1.02,
+     0.5
+    ],
+    [
+     26.6,
+     1.16,
+     0.5
+    ],
+    [
+     27.65,
+     1.02,
+     0.5
+    ],
+    [
+     28.7,
+     1.16,
+     0.5
+    ],
+    [
+     29.75,
+     1.02,
+     0.5
+    ],
+    [
+     30.8,
+     1.16,
+     0.5
+    ],
+    [
+     31.85,
+     1.02,
+     0.5
+    ],
+    [
+     32.9,
+     1.16,
+     0.5
+    ],
+    [
+     33.95,
+     1.02,
+     0.5
+    ],
+    [
+     35.0,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 13.65,
+   "d": 22.6,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 38.95,
+   "d": 14.25,
+   "ms": 35.0,
+   "src": "assets/midia/iv_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    2600
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     38.95,
+     1.0,
+     0.01
+    ],
+    [
+     39.3,
+     1.16,
+     0.5
+    ],
+    [
+     40.35,
+     1.02,
+     0.5
+    ],
+    [
+     41.4,
+     1.16,
+     0.5
+    ],
+    [
+     42.45,
+     1.02,
+     0.5
+    ],
+    [
+     43.5,
+     1.16,
+     0.5
+    ],
+    [
+     44.55,
+     1.02,
+     0.5
+    ],
+    [
+     45.6,
+     1.16,
+     0.5
+    ],
+    [
+     46.65,
+     1.02,
+     0.5
+    ],
+    [
+     47.7,
+     1.16,
+     0.5
+    ],
+    [
+     48.75,
+     1.02,
+     0.5
+    ],
+    [
+     49.8,
+     1.16,
+     0.5
+    ],
+    [
+     50.85,
+     1.02,
+     0.5
+    ],
+    [
+     51.9,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 38.95,
+   "d": 14.25,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.6,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 13.65,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 13.85,
+   "d": 2.62,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "145px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "NINGUÉM SABE POR FOTO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "gigante",
+   "t": 15.35,
+   "d": 0.6,
+   "txt": "POR FOTO?",
+   "y": 1060,
+   "tam": 250,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -2200
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "texto",
+   "t": 16.5,
+   "d": 3.55,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "FOFOCA CORRE MAIS QUE A VERDADE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 20.05,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 20.07,
+   "d": 4.64,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ESTUDO DO MIT: 126 MIL NOTÍCIAS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "flash",
+   "t": 24.71,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 24.73,
+   "d": 3.4399999999999977,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 70,
+   "suf": "%",
+   "rotulo": "no compartilhamento",
+   "tam": 300,
+   "cor": "#ff2d3d",
+   "sombra": "#5a0d10",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 24.95,
+   "d": 3.22,
+   "xy": [
+    40,
+    960
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "A MENTIRA É MAIS REPASSADA",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 28.17,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 28.19,
+   "d": 4.309999999999999,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 6,
+   "suf": "x",
+   "rotulo": "para alcançar 1.500 pessoas",
+   "tam": 300,
+   "cor": "#f2c230",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 28.45,
+   "d": 4.05,
+   "xy": [
+    40,
+    960
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "A VERDADE DEMORA 6X MAIS",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 20.07,
+   "d": 12.43,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Vosoughi, Roy e Aral (MIT), Science 2018",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "checklist",
+   "t": 32.53,
+   "d": 3.719999999999999,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "Quem mais espalhou?",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "robô",
+     "t": 33.95
+    },
+    {
+     "txt": "gente",
+     "t": 34.85
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 34.25,
+   "d": 2.0,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      412
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#ffd400"
+  },
+  {
+   "tipo": "desenho",
+   "t": 35.1,
+   "d": 1.1499999999999986,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      506
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#ffd400"
+  },
+  {
+   "tipo": "glitch",
+   "t": 36.2,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 36.25,
+   "d": 2.700000000000003,
+   "ms": 3.05,
+   "src": "assets/midia/iv_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     36.25,
+     1.0,
+     0.01
+    ],
+    [
+     38.85,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 36.45,
+   "d": 2.450000000000003,
+   "y": 215,
+   "txt": "COMBINADO: CURTE + SEGUE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "glitch",
+   "t": 38.9,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 38.95,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 38.97,
+   "d": 2.58,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CURTE E SEGUE",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:10px 10px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 41.55,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 41.57,
+   "d": 2.28,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PENSANDO EM CANETA?",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom"
+  },
+  {
+   "tipo": "checklist",
+   "t": 43.85,
+   "d": 3.8999999999999986,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "Isso se decide com:",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "consulta",
+     "t": 44.65
+    },
+    {
+     "txt": "exame",
+     "t": 45.55
+    },
+    {
+     "txt": "foto de show",
+     "t": 46.55
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 44.95,
+   "d": 2.799999999999997,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      412
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#ffd400"
+  },
+  {
+   "tipo": "desenho",
+   "t": 45.8,
+   "d": 1.9499999999999957,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      506
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#ffd400"
+  },
+  {
+   "tipo": "desenho",
+   "t": 46.85,
+   "d": 0.8999999999999986,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      600
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#ffd400"
+  },
+  {
+   "tipo": "texto",
+   "t": 47.77,
+   "d": 2.76,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "TREINO DE FORÇA E PROTEÍNA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 50.55,
+   "d": 2.65,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "FOFOCA CORRE.",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 51.67,
+   "d": 1.5300000000000011,
+   "xy": [
+    40,
+    760
+   ],
+   "txt": "CIÊNCIA CONFERE",
+   "tam": 115,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 51.67,
+   "d": 1.53,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Vosoughi, Roy e Aral, Science 2018 · doi 10.1126/science.aap9559",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  },
+  {
+   "tipo": "texto",
+   "t": 13.95,
+   "d": 22.3,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 39.25,
+   "d": 13.95,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  }
+ ]
+}

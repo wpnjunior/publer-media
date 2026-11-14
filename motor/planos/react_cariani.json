@@ -1,0 +1,896 @@
+{
+ "id": "react_cariani",
+ "dur": 46.067,
+ "seed": 83,
+ "fundo": "#e9dcbc",
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.567
+   ],
+   [
+    2.567,
+    6.667
+   ]
+  ],
+  "ys": [
+   [
+    6.667,
+    14.157,
+    1440
+   ],
+   [
+    14.157,
+    17.157,
+    1000
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ca_entB.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.567,
+    "palavras": "assets/midia/ca_entB.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/ca_viral.mp4",
+    "t": 2.567,
+    "ms": 0,
+    "d": 11.59,
+    "palavras": "assets/midia/ca_viral.words.json"
+   },
+   {
+    "src": "assets/midia/ca_voz.wav",
+    "t": 14.157,
+    "ms": 0,
+    "d": 3.0,
+    "palavras": "assets/midia/ca_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ca_voz.wav",
+    "t": 17.157,
+    "ms": 3.7,
+    "d": 17.81,
+    "palavras": "assets/midia/ca_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ca_voz.wav",
+    "t": 34.967,
+    "ms": 22.16,
+    "d": 4.65,
+    "palavras": "assets/midia/ca_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ca_voz.wav",
+    "t": 39.617,
+    "ms": 27.05,
+    "d": 6.45,
+    "palavras": "assets/midia/ca_voz.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.567,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.867,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.867,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 14.107,
+    "gain": 0.5
+   },
+   {
+    "src": "glitch",
+    "t": 17.107,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 17.157,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 17.297,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 18.957,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 19.757,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 21.017,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 23.357,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 28.657,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 32.357,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 27.917,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh",
+    "t": 31.017,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 34.917,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 35.167,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 39.567,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 39.767,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 44.407,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 44.727,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 46.067,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.567,
+   "ms": 0,
+   "src": "assets/midia/ca_entB.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.567
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 2.447,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "“SÓ PERDE MÚSCULO QUEM NÃO TREINA”?",
+   "sub": "o corte de podcast passou de 766 mil views",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.567,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.567,
+   "d": 14.59,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.567,
+   "d": 11.59,
+   "ms": 0,
+   "src": "assets/midia/ca_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 11%",
+   "arroba": "via @flowpdc",
+   "respira": false,
+   "zoom": [
+    [
+     2.567,
+     1.0,
+     0.01
+    ],
+    [
+     6.567,
+     1.06,
+     0.4
+    ],
+    [
+     11.657,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.667,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Na caneta, só perde músculo quem não treina?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.867
+  },
+  {
+   "tipo": "numero",
+   "t": 6.867,
+   "d": 7.2,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 766,
+   "suf": " MIL VIEWS",
+   "tam": 120,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "glitch",
+   "t": 14.107,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 14.157,
+   "d": 3.0,
+   "src": "assets/midia/ca_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "video",
+   "t": 14.157,
+   "d": 3.0,
+   "ms": 0,
+   "src": "assets/midia/ca_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 17.157,
+   "d": 17.81,
+   "ms": 0.5,
+   "src": "assets/midia/ca_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     17.157,
+     1.0,
+     0.01
+    ],
+    [
+     17.507,
+     1.16,
+     0.5
+    ],
+    [
+     18.557,
+     1.02,
+     0.5
+    ],
+    [
+     19.607,
+     1.16,
+     0.5
+    ],
+    [
+     20.657,
+     1.02,
+     0.5
+    ],
+    [
+     21.707,
+     1.16,
+     0.5
+    ],
+    [
+     22.757,
+     1.02,
+     0.5
+    ],
+    [
+     23.807,
+     1.16,
+     0.5
+    ],
+    [
+     24.857,
+     1.02,
+     0.5
+    ],
+    [
+     25.907,
+     1.16,
+     0.5
+    ],
+    [
+     26.957,
+     1.02,
+     0.5
+    ],
+    [
+     28.007,
+     1.16,
+     0.5
+    ],
+    [
+     29.057,
+     1.02,
+     0.5
+    ],
+    [
+     30.107,
+     1.16,
+     0.5
+    ],
+    [
+     31.157,
+     1.02,
+     0.5
+    ],
+    [
+     32.207,
+     1.16,
+     0.5
+    ],
+    [
+     33.257,
+     1.02,
+     0.5
+    ],
+    [
+     34.307,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 17.157,
+   "d": 17.81,
+   "cor": "rgba(239,228,201,.68)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 39.617,
+   "d": 6.45,
+   "ms": 25.0,
+   "src": "assets/midia/ca_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     39.617,
+     1.0,
+     0.01
+    ],
+    [
+     39.967,
+     1.16,
+     0.5
+    ],
+    [
+     41.017,
+     1.02,
+     0.5
+    ],
+    [
+     42.067,
+     1.16,
+     0.5
+    ],
+    [
+     43.117,
+     1.02,
+     0.5
+    ],
+    [
+     44.167,
+     1.16,
+     0.5
+    ],
+    [
+     45.217,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 39.617,
+   "d": 6.45,
+   "cor": "rgba(239,228,201,.68)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 17.107,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 17.157,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "checklist",
+   "t": 17.297,
+   "d": 3.66,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "Protege o músculo?",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "proteína",
+     "t": 18.677
+    },
+    {
+     "txt": "treino de força",
+     "t": 19.457
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 18.957,
+   "d": 2.0,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      412
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#b3121f"
+  },
+  {
+   "tipo": "desenho",
+   "t": 19.757,
+   "d": 1.1999999999999993,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      506
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#b3121f"
+  },
+  {
+   "tipo": "texto",
+   "t": 21.017,
+   "d": 2.29,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "PERDE MESMO COM MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 23.307,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 23.357,
+   "d": 4.52,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "35 ESTUDOS, COM MÉDICO DO LADO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12,
+   "css": ""
+  },
+  {
+   "tipo": "flash",
+   "t": 27.877,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 27.917,
+   "d": 3.04,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "3 EM CADA 10 QUILOS",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 28.657,
+   "d": 2.3,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "NÃO ERA GORDURA",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 31.017,
+   "d": 3.95,
+   "xy": [
+    40,
+    480
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "NEM TUDO É MÚSCULO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": ""
+  },
+  {
+   "tipo": "texto",
+   "t": 32.357,
+   "d": 2.61,
+   "xy": [
+    40,
+    900
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "TEM ÁGUA NA CONTA",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 23.357,
+   "d": 11.61,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Batsis et al., Ann Intern Med 2026 (revisão de 35 estudos)",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "glitch",
+   "t": 34.917,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 34.967,
+   "d": 4.65,
+   "ms": 3.56,
+   "src": "assets/midia/ca_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     34.967,
+     1.0,
+     0.01
+    ],
+    [
+     37.567,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 35.167,
+   "d": 4.4,
+   "y": 215,
+   "txt": "COMBINADO: SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "flash",
+   "t": 39.617,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 39.767,
+   "d": 3.1,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "TREINO? COMBINA COM SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 42.907,
+   "d": 3.16,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A BALANÇA CONTA O PESO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": ""
+  },
+  {
+   "tipo": "gigante",
+   "t": 44.407,
+   "d": 0.6,
+   "txt": "TREINO",
+   "y": 700,
+   "tam": 300,
+   "cor": "#c9b48a",
+   "x": [
+    1000,
+    -1800
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "carimbo",
+   "t": 44.727,
+   "d": 1.3400000000000034,
+   "xy": [
+    60,
+    760
+   ],
+   "txt": "O TREINO ESCOLHE",
+   "tam": 120,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 44.727,
+   "d": 1.34,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Batsis et al., Ann Intern Med 2026 · doi 10.7326/ANNALS-25-00478",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.12
+  }
+ ]
+}

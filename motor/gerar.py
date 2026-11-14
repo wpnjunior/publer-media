@@ -35,6 +35,8 @@ class Comp:
     def clip(self, inner, t0, d, z=None, style="", cls=""):
         i = self.nid()
         z = z if z is not None else self.next_z()
+        if self.p.get("camera") and z < 85:
+            cls = (cls + " cam").strip()
         self.html.append(
             f'<div id="{i}" class="clip {cls}" data-start="{t0:.3f}" data-duration="{d:.3f}" data-track-index="{z}" '
             f'style="position:absolute;left:0;top:0;width:{W}px;height:{H}px;z-index:{z};{style}">{inner}</div>')
@@ -81,6 +83,21 @@ def L_fundo(c, L):
     elif tex == "gradiente":
         bg = f"radial-gradient(circle at 30% 20%, {L.get('cor2', '#1d3b2f')} 0%, {cor} 70%)"
     i = c.nid("f")
+    if tex == "grade":
+        # fundo vivo: a grade corre na diagonal sem emenda (anda exatamente 1 período de 90 px por volta).
+        # Motivo (13/11): fundo escuro parado deixava a narração com cara de tela congelada.
+        bg = (f"linear-gradient(rgba(255,255,255,.075) 2px, transparent 2px) 0 0/90px 90px,"
+              f"linear-gradient(90deg, rgba(255,255,255,.075) 2px, transparent 2px) 0 0/90px 90px, {cor}")
+        g = c.nid("fl")
+        inner = (f'<div id="{i}" style="position:absolute;inset:-190px;background:{bg}"></div>'
+                 f'<div id="{g}" style="position:absolute;left:-300px;top:200px;width:1100px;height:1100px;border-radius:50%;'
+                 f'background:radial-gradient(circle,rgba(198,255,61,.16) 0%,rgba(198,255,61,0) 65%)"></div>')
+        c.clip(inner, L["t"], L["d"], z=L.get("z", 1))
+        volta = 3.2
+        n = max(1, math.ceil(L["d"] / volta))
+        c.tw(f'tl.fromTo("#{i}",{{x:0,y:0}},{{x:-90,y:-90,duration:{volta},ease:"none",repeat:{n - 1}}},{L["t"]:.3f});')
+        c.tw(f'tl.fromTo("#{g}",{{x:0,y:0}},{{x:700,y:500,duration:{max(L["d"] / max(1, round(L["d"] / 5)), 1):.2f},ease:"sine.inOut",repeat:{max(1, round(L["d"] / 5)) - 1},yoyo:true}},{L["t"]:.3f});')
+        return
     inner = f'<div id="{i}" style="position:absolute;inset:-80px;background:{bg}"></div>'
     c.clip(inner, L["t"], L["d"], z=L.get("z", 1))
     # leve deriva para nunca ficar parado
@@ -200,7 +217,8 @@ def L_video(c, L):
         c.tw(f'tl.fromTo("#{pid}",{{scale:2,opacity:0}},{{scale:1,opacity:1,duration:.25,ease:"back.out(2)"}},{tp:.3f});')
     if L.get("arroba"):
         aid = c.nid("at")
-        c.clip(f'<div id="{aid}" style="position:absolute;left:{x + 24}px;top:{y + h - 86}px;padding:10px 20px;border-radius:40px;background:rgba(0,0,0,.65);font:800 30px Montserrat;color:#fff">{esc(L["arroba"])}</div>',
+        atop = y + 22 if L.get("arroba_pos") == "topo" else y + h - 86
+        c.clip(f'<div id="{aid}" style="position:absolute;left:{x + 24}px;top:{atop}px;padding:10px 20px;border-radius:40px;background:rgba(0,0,0,.65);font:800 30px Montserrat;color:#fff">{esc(L["arroba"])}</div>',
                L["t"], L["d"], z=z + 1)
         c.tw(f'tl.fromTo("#{aid}",{{x:-300,opacity:0}},{{x:0,opacity:1,duration:.35,ease:"power3.out"}},{L["t"] + .2:.3f});')
     return i
@@ -340,7 +358,7 @@ def L_numero(c, L):
     inner = (f'<div id="{i}w" style="position:absolute;left:{x}px;top:{y}px;width:{L.get("w", W)}px;text-align:center;perspective:900px">'
              f'<div id="{i}" style="display:inline-block;font:{tam}px Anton;color:{cor};text-shadow:{sh},0 40px 60px rgba(0,0,0,.6)">'
              f'{esc(pre)}<span id="{i}v">0</span>{esc(suf)}</div>'
-             + (f'<div style="font:800 44px Montserrat;color:#fff;margin-top:6px;text-shadow:0 3px 8px #000">{esc(L["rotulo"])}</div>' if L.get("rotulo") else "")
+             + (f'<div style="font:800 44px Montserrat;color:{L.get("cor_rotulo", "#fff")};margin-top:6px;text-shadow:{L.get("sombra_rotulo", "0 3px 8px #000")}">{esc(L["rotulo"])}</div>' if L.get("rotulo") else "")
              + '</div>')
     c.clip(inner, L["t"], L["d"], z=L.get("z"))
     v = L["valor"]
@@ -646,11 +664,25 @@ def legendas(c, P):
             if w["s"] >= a - .05 and w["e"] <= b + .2:
                 words.append(dict(w=w["w"], s=w["s"] - a + seg["t"], e=min(w["e"], b) - a + seg["t"]))
     words = [w for w in words if w["w"]]
+    juntas = []  # o "%" que o transcritor solta sozinho volta para o número
+    for w in words:
+        if juntas and w["w"].strip().rstrip(".,") == "%":
+            juntas[-1] = dict(juntas[-1], w=juntas[-1]["w"] + w["w"].strip(), e=w["e"])
+        else:
+            juntas.append(w)
+    words = juntas
     for (a, b) in LG.get("esconde", []):
         words = [w for w in words if not (a <= w["s"] < b)]
     estilo = LG.get("estilo", "lima")
     chave = set(k.lower() for k in LG.get("chave", []))
     y = LG.get("y", 1500)
+    y_base, ys = y, LG.get("ys", [])  # ys: [[t0, t1, y], ...] muda a altura da legenda por trecho
+
+    def y_em(t):
+        for (a, b, yy) in ys:
+            if a <= t < b:
+                return yy
+        return y_base
     if estilo == "gigante":
         cores = [PAL["lima"], PAL["amarelo"], PAL["ciano"], "#ffffff", PAL["rosa"]]
         for k, w in enumerate(words):
@@ -670,13 +702,15 @@ def legendas(c, P):
         grp = 3
     grupos, cur = [], []
     for w in words:
-        if cur and (len(cur) >= grp or w["s"] - cur[-1]["e"] > .45):
+        # grupo novo: encheu, houve pausa, ou a palavra anterior fechou a frase (a legenda não adianta a frase seguinte)
+        if cur and (len(cur) >= grp or w["s"] - cur[-1]["e"] > .45 or cur[-1]["w"].strip().endswith((".", "?", "!", "…"))):
             grupos.append(cur); cur = []
         cur.append(w)
     if cur:
         grupos.append(cur)
     for gi, g in enumerate(grupos):
         t0 = g[0]["s"]
+        y = y_em(t0)
         t1 = grupos[gi + 1][0]["s"] if gi + 1 < len(grupos) else g[-1]["e"] + .4
         t1 = min(t1, g[-1]["e"] + .6)
         i = c.nid("lg")
@@ -714,6 +748,29 @@ def legendas(c, P):
             c.tw(f'tl.to(".{i}c",{{opacity:1,duration:.01,stagger:{min(.04, (g[-1]["e"] - t0) / max(n, 1)):.4f}}},{t0:.3f});')
 
 
+def camera(c, P):
+    """Câmera na mão: deriva lenta de escala/posição/giro em tudo abaixo da legenda.
+    Motivo (13/11): telas de narração paradas reprovavam no portão (37% parado no react da cúrcuma)."""
+    cam = P.get("camera")
+    if not cam:
+        return
+    amp = cam.get("amp", 1.0) if isinstance(cam, dict) else 1.0
+    r = random.Random(P.get("seed", 7) + 99)
+    c.tw('gsap.set(".cam",{transformOrigin:"50% 45%",scale:1.08});')
+    # cada eixo no seu período: a velocidade nunca zera em todos ao mesmo tempo (câmera na mão, não vai e volta)
+    for prop, lo, hi, p0, p1 in (("scale", 1.06, 1.12, 2.6, 3.4), ("x", -18 * amp, 18 * amp, 2.1, 2.9),
+                                 ("y", -16 * amp, 16 * amp, 1.7, 2.5), ("rotation", -.55 * amp, .55 * amp, 3.1, 3.9)):
+        t, lado = 0.0, r.choice([0, 1])
+        while t < c.dur:
+            d = r.uniform(p0, p1)
+            alvo = (hi if lado else lo) * 1.0
+            if prop != "scale":
+                alvo *= r.uniform(.6, 1.0)
+            c.tw(f'tl.to(".cam",{{{prop}:{alvo:.3f},duration:{min(d, c.dur - t):.2f},ease:"sine.inOut"}},{t:.2f});')
+            t += d
+            lado = 1 - lado
+
+
 TIPOS = dict(fundo=L_fundo, foto=L_foto, video=L_video, recorte=L_recorte, cartao=L_cartao, desenho=L_desenho,
              texto=L_texto, gigante=L_gigante, carimbo=L_carimbo, numero=L_numero, celular=L_celular, mapa=L_mapa,
              regua=L_regua, artigo=L_artigo, pergunta=L_pergunta, comentario=L_comentario, manchete=L_manchete,
@@ -727,6 +784,7 @@ def gerar(plano_path, out):
     for L in P["camadas"]:
         TIPOS[L["tipo"]](c, L)
     legendas(c, P)
+    camera(c, P)
     out = Path(out)
     out.mkdir(parents=True, exist_ok=True)
     fontes = "".join(f"@font-face{{font-family:'{n}';src:url('assets/fonts/{f}.ttf')}}" for n, f in
