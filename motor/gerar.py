@@ -348,7 +348,7 @@ def L_carimbo(c, L):
     rot = L.get("rot", -12)
     tam = L.get("tam", 120)
     inner = (f'<div id="{i}" style="position:absolute;left:{x}px;top:{y}px;padding:10px 34px;border:12px solid {cor};border-radius:18px;color:{cor};'
-             f'font:{tam}px Anton;letter-spacing:4px;text-transform:uppercase;transform:rotate({rot}deg);mix-blend-mode:multiply;'
+             f'font:{tam}px Anton;letter-spacing:4px;text-transform:uppercase;transform:rotate({rot}deg);mix-blend-mode:{L.get("blend", "multiply")};{L.get("css", "")};'
              f'mask-image:repeating-radial-gradient(circle at 30% 40%,#000 0 3px,rgba(0,0,0,.78) 3px 5px)">{esc(L["txt"])}</div>')
     c.clip(inner, L["t"], L["d"], z=L.get("z", 80))
     c.tw(f'tl.fromTo("#{i}",{{scale:3,opacity:0}},{{scale:1,opacity:1,duration:.18,ease:"power4.in"}},{L["t"]:.3f});')
@@ -793,6 +793,8 @@ TIPOS = dict(fundo=L_fundo, foto=L_foto, video=L_video, recorte=L_recorte, carta
              regua=L_regua, artigo=L_artigo, pergunta=L_pergunta, comentario=L_comentario, manchete=L_manchete,
              checklist=L_checklist, barra=L_barra, flash=L_flash, glitch=L_glitch, progresso=L_progresso,
              vinheta=L_vinheta, grao=L_grao, cta=L_cta)
+from fisio import L_fisio
+TIPOS['fisio'] = L_fisio
 
 
 def gerar(plano_path, out):
