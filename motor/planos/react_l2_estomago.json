@@ -1,0 +1,2067 @@
+{
+ "id": "react_l2_estomago",
+ "dur": 97.61,
+ "seed": 331,
+ "fundo": "#14070a",
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    1.88
+   ],
+   [
+    1.88,
+    5.88
+   ]
+  ],
+  "ys": [
+   [
+    5.88,
+    17.18,
+    1440
+   ],
+   [
+    17.18,
+    20.6,
+    1600
+   ],
+   [
+    20.6,
+    83.06,
+    1730
+   ],
+   [
+    87.23,
+    97.61,
+    1730
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ent6.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/ent6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/ep_viral.mp4",
+    "t": 1.88,
+    "ms": 0,
+    "d": 15.3,
+    "palavras": "assets/midia/ep_viral.words.json",
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/ep_dub_voz.wav",
+    "t": 1.88,
+    "ms": 0,
+    "d": 15.3,
+    "gain": 1.0
+   },
+   {
+    "src": "assets/midia/ep_r1.webm",
+    "t": 17.18,
+    "ms": 0,
+    "d": 3.42,
+    "palavras": "assets/midia/ep_r1.words.json"
+   },
+   {
+    "src": "assets/midia/ep_a_voz.wav",
+    "t": 20.6,
+    "ms": 0,
+    "d": 10.33,
+    "palavras": "assets/midia/ep_a_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ep_b_voz.wav",
+    "t": 31.53,
+    "ms": 0,
+    "d": 22.27,
+    "palavras": "assets/midia/ep_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/ep_c_voz.wav",
+    "t": 54.4,
+    "ms": 0,
+    "d": 28.26,
+    "palavras": "assets/midia/ep_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cta6.mp4",
+    "t": 83.06,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/cta6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/ep_d_voz.wav",
+    "t": 87.23,
+    "ms": 0,
+    "d": 9.78,
+    "palavras": "assets/midia/ep_d_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 17.18,
+    "ms": 0,
+    "d": 65.88,
+    "gain": 0.24,
+    "fade": 0.8
+   },
+   {
+    "src": "m_emocao",
+    "t": 87.23,
+    "ms": 0,
+    "d": 10.38,
+    "gain": 0.22,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.18,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.18,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 17.13,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 17.18,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 18.78,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 20.55,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 20.6,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 20.7,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 24.55,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 25.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 28.65,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 29.05,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 31.53,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 31.63,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 34.53,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 36.28,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 36.58,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 40.48,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 43.28,
+    "gain": 0.3
+   },
+   {
+    "src": "notif",
+    "t": 43.43,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 44.98,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 48.03,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 49.53,
+    "gain": 0.4,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh",
+    "t": 51.43,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 51.93,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 54.4,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 56.0,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 58.0,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 60.25,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 61.75,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 62.3,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 65.6,
+    "gain": 0.35
+   },
+   {
+    "src": "riser",
+    "t": 65.8,
+    "gain": 0.22,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 67.35,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 71.7,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 72.9,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh",
+    "t": 75.35,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 75.4,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 80.65,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 80.75,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "glitch",
+    "t": 83.01,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 83.26,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 87.18,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 89.23,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 90.53,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 92.1,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 92.88,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 94.68,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 95.53,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 97.61,
+   "cor": "#14070a",
+   "textura": "gradiente",
+   "cor2": "#5a0d10"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/ent6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "“ESTÔMAGO PARALISADO” PELA CANETA?",
+   "sub": "reportagem da TV francesa (France 2)",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 15.3,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 15.3,
+   "ms": 0,
+   "src": "assets/midia/ep_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 30%",
+   "arroba": "via @france.tv (Envoyé Spécial)",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.06,
+     0.4
+    ],
+    [
+     14.68,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 3.95,
+   "xy": [
+    70,
+    1150
+   ],
+   "w": 940,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "A caneta paralisa o estômago?",
+   "botoes": [
+    "MITO",
+    "VERDADE",
+    "DEPENDE"
+   ],
+   "vel": 0.025,
+   "escolha": 2,
+   "t_escolha": 5.18
+  },
+  {
+   "tipo": "numero",
+   "t": 6.18,
+   "d": 10.950000000000001,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 872.7,
+   "dec": 1,
+   "suf": " MIL VIEWS",
+   "tam": 120
+  },
+  {
+   "tipo": "glitch",
+   "t": 17.13,
+   "d": 0.25
+  },
+  {
+   "tipo": "glitch",
+   "t": 17.13,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 17.18,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 17.18,
+   "d": 3.42,
+   "txt": "PARALISADO?",
+   "y": 760,
+   "tam": 360,
+   "cor": "rgba(255,212,0,.85)",
+   "z": 12,
+   "x": [
+    1100,
+    -1980
+   ]
+  },
+  {
+   "tipo": "recorte",
+   "t": 17.18,
+   "d": 3.42,
+   "ms": 0,
+   "src": "assets/midia/ep_r1.webm",
+   "box": [
+    0,
+    250,
+    1080,
+    1670
+   ],
+   "pos": "center top",
+   "zoom": [
+    [
+     17.18,
+     1.0,
+     0.01
+    ],
+    [
+     18.78,
+     1.07,
+     0.4
+    ]
+   ],
+   "z": 45,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 18.78,
+   "d": 1.82,
+   "xy": [
+    40,
+    210
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#f39c12",
+   "alinha": "center",
+   "txt": "MEIA VERDADE",
+   "z": 50,
+   "entra": "zoom",
+   "css": "text-shadow:10px 10px 0 #000"
+  },
+  {
+   "tipo": "glitch",
+   "t": 20.55,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 20.6,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 20.7,
+   "d": 62.36,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "gigante",
+   "t": 20.6,
+   "d": 3.9,
+   "txt": "RESPEITO",
+   "y": 1380,
+   "tam": 400,
+   "cor": "rgba(255,212,0,.45)",
+   "z": 12,
+   "x": [
+    1100,
+    -1600
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "foto",
+   "t": 20.65,
+   "d": 3.85,
+   "src": "assets/midia/ep_rosto_viral.jpg",
+   "box": [
+    250,
+    640,
+    580,
+    604
+   ],
+   "rot": -3,
+   "raio": 20,
+   "entra": "pop",
+   "z": 30
+  },
+  {
+   "tipo": "texto",
+   "t": 20.7,
+   "d": 3.85,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "O QUE ELA SENTE É SÉRIO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "texto",
+   "t": 22.7,
+   "d": 1.85,
+   "xy": [
+    40,
+    1320
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "E MERECE RESPEITO",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)",
+   "entra": "zoom"
+  },
+  {
+   "tipo": "flash",
+   "t": 24.55,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 24.55,
+   "d": 4.1,
+   "txt": "A FRASE",
+   "y": 1350,
+   "tam": 420,
+   "cor": "rgba(255,255,255,.10)",
+   "z": 12,
+   "x": [
+    -1323,
+    900
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 24.6,
+   "d": 4.05,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "124px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "NÃO EXAMINEI ELA: FALO DA FRASE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "texto",
+   "t": 25.2,
+   "d": 3.45,
+   "xy": [
+    110,
+    760
+   ],
+   "w": 860,
+   "fonte": "700 92px Caveat",
+   "cor": "#111",
+   "alinha": "center",
+   "txt": "“desenvolvi uma paralisia do estômago”",
+   "entra": "pop",
+   "z": 44,
+   "css": "background:#fff;border-radius:26px;padding:40px 30px;transform:rotate(-2deg);box-shadow:0 30px 60px rgba(0,0,0,.5)"
+  },
+  {
+   "tipo": "flash",
+   "t": 28.65,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 28.65,
+   "d": 2.88,
+   "txt": "PARADO?",
+   "y": 1380,
+   "tam": 440,
+   "cor": "rgba(255,77,79,.55)",
+   "z": 12,
+   "x": [
+    1100,
+    -1540
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 28.7,
+   "d": 2.83,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "A CANETA PARA O ESTÔMAGO?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "fisio",
+   "t": 29.0,
+   "d": 2.53,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "caneta",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 1.25,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.2
+    }
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 31.53,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.53,
+   "d": 4.75,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "estomago",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 1.7,
+     "t": 0.05
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.4
+    }
+   ]
+  },
+  {
+   "tipo": "gigante",
+   "t": 31.53,
+   "d": 4.75,
+   "txt": "LIQUIDIFICADOR",
+   "y": 1420,
+   "tam": 330,
+   "cor": "rgba(255,255,255,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -2310
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 31.6,
+   "d": 2.85,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ESTÔMAGO = LIQUIDIFICADOR",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "texto",
+   "t": 34.48,
+   "d": 1.8,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "COM UMA PORTEIRA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "desenho",
+   "t": 34.53,
+   "d": 1.75,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      795,
+      1046
+     ],
+     "r": [
+      62,
+      62
+     ]
+    }
+   ],
+   "cor": "#ffd400",
+   "espessura": 14,
+   "z": 45
+  },
+  {
+   "tipo": "texto",
+   "t": 34.73,
+   "d": 1.55,
+   "xy": [
+    640,
+    1150
+   ],
+   "w": 360,
+   "fonte": "700 84px Caveat",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "porteira",
+   "entra": "pop",
+   "z": 46,
+   "css": "text-shadow:3px 3px 0 #000;transform:rotate(-6deg)"
+  },
+  {
+   "tipo": "flash",
+   "t": 36.28,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 36.28,
+   "d": 4.2,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "estomago",
+     "xy": [
+      430,
+      900
+     ],
+     "s": 1.3,
+     "t": 0.05
+    },
+    {
+     "k": "intestino",
+     "xy": [
+      640,
+      1440
+     ],
+     "s": 0.62,
+     "t": 0.3,
+     "rotulo": "INTESTINO",
+     "rot_y": 215
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      625,
+      890
+     ],
+     "para": [
+      600,
+      1330
+     ],
+     "curva": 70,
+     "cor": "#ffd400",
+     "t": 1.0,
+     "d": 3.0,
+     "n": 6,
+     "r": 15,
+     "rotulo": "COMIDA",
+     "viagem": 1.0
+    }
+   ]
+  },
+  {
+   "tipo": "gigante",
+   "t": 36.28,
+   "d": 4.2,
+   "txt": "AOS POUQUINHOS",
+   "y": 1560,
+   "tam": 300,
+   "cor": "rgba(255,212,0,.40)",
+   "z": 12,
+   "x": [
+    -1890,
+    900
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 36.39,
+   "d": 4.05,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "BATE E SOLTA AOS POUQUINHOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "flash",
+   "t": 40.48,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 40.48,
+   "d": 4.5,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "caneta",
+     "xy": [
+      300,
+      1180
+     ],
+     "s": 0.95,
+     "t": 0.1
+    },
+    {
+     "k": "cerebro",
+     "xy": [
+      770,
+      900
+     ],
+     "s": 0.8,
+     "t": 2.8,
+     "rotulo": "CÉREBRO",
+     "rot_y": 190
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      380,
+      1080
+     ],
+     "para": [
+      700,
+      1010
+     ],
+     "curva": -60,
+     "cor": "#3ddc84",
+     "t": 2.95,
+     "d": 1.4,
+     "n": 5,
+     "r": 15,
+     "viagem": 0.7
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 3.7
+    }
+   ]
+  },
+  {
+   "tipo": "gigante",
+   "t": 40.48,
+   "d": 4.5,
+   "txt": "AVISO",
+   "y": 1500,
+   "tam": 460,
+   "cor": "rgba(255,255,255,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -1150
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 40.57,
+   "d": 2.8,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "A CANETA IMITA UM AVISO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "texto",
+   "t": 43.41,
+   "d": 1.57,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "“CHEGOU COMIDA”",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)",
+   "entra": "zoom"
+  },
+  {
+   "tipo": "flash",
+   "t": 44.98,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 44.98,
+   "d": 3.05,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "estomago",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.7,
+     "t": 0.05
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      795,
+      1006
+     ],
+     "para": [
+      880,
+      1500
+     ],
+     "curva": 40,
+     "cor": "#ffd400",
+     "t": 0.6,
+     "d": 2.4,
+     "n": 2,
+     "r": 16,
+     "rotulo": "DEVAGAR",
+     "viagem": 2.2
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.0
+    }
+   ]
+  },
+  {
+   "tipo": "gigante",
+   "t": 44.98,
+   "d": 3.05,
+   "txt": "DEVAGAR",
+   "y": 1560,
+   "tam": 420,
+   "cor": "rgba(255,255,255,.35)",
+   "z": 12,
+   "x": [
+    1100,
+    -1470
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 45.08,
+   "d": 2.95,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "A PORTEIRA ABRE MAIS DEVAGAR",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "flash",
+   "t": 48.03,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 48.03,
+   "d": 3.4,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "prato",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 1.6,
+     "t": 0.05
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 1.5,
+     "para": 0.85,
+     "d": 1.4
+    }
+   ]
+  },
+  {
+   "tipo": "gigante",
+   "t": 48.03,
+   "d": 3.4,
+   "txt": "MENOS",
+   "y": 1440,
+   "tam": 480,
+   "cor": "rgba(255,255,255,.10)",
+   "z": 12,
+   "x": [
+    -1080,
+    900
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 48.03,
+   "d": 1.5,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ENCHE RÁPIDO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "texto",
+   "t": 49.53,
+   "d": 1.9,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "E COME MENOS",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)",
+   "entra": "zoom"
+  },
+  {
+   "tipo": "flash",
+   "t": 51.43,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 51.43,
+   "d": 2.97,
+   "txt": "FUNCIONANDO",
+   "y": 1460,
+   "tam": 340,
+   "cor": "rgba(61,220,132,.5)",
+   "z": 12,
+   "x": [
+    1100,
+    -1870
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 51.49,
+   "d": 2.91,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "É O REMÉDIO FUNCIONANDO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "desenho",
+   "t": 51.93,
+   "d": 2.47,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      500,
+      1000
+     ],
+     "s": 150
+    }
+   ],
+   "cor": "#3ddc84",
+   "espessura": 30,
+   "z": 45
+  },
+  {
+   "tipo": "flash",
+   "t": 54.4,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fisio",
+   "t": 54.4,
+   "d": 3.6,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "estomago",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 1.7,
+     "t": 0.05
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 56.0,
+   "d": 2.0,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      795,
+      1066
+     ],
+     "s": 70
+    }
+   ],
+   "cor": "#ff4d4f",
+   "espessura": 20,
+   "z": 45
+  },
+  {
+   "tipo": "gigante",
+   "t": 54.4,
+   "d": 3.6,
+   "txt": "PROBLEMA",
+   "y": 1480,
+   "tam": 400,
+   "cor": "rgba(255,77,79,.55)",
+   "z": 12,
+   "x": [
+    1100,
+    -1600
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.54,
+   "d": 3.4,
+   "xy": [
+    40,
+    290
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "O PROBLEMA: A PORTEIRA QUASE NÃO ABRE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "flash",
+   "t": 58.0,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fundo",
+   "t": 58.0,
+   "d": 3.75,
+   "cor": "rgba(255,40,40,.20)",
+   "z": 13
+  },
+  {
+   "tipo": "fisio",
+   "t": 58.0,
+   "d": 3.75,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "estomago",
+     "xy": [
+      540,
+      1120
+     ],
+     "s": 1.5,
+     "t": 0.05
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.7
+    },
+    {
+     "o": 0,
+     "t": 1.5
+    },
+    {
+     "o": 0,
+     "t": 2.3
+    }
+   ]
+  },
+  {
+   "tipo": "gigante",
+   "t": 58.0,
+   "d": 3.75,
+   "txt": "DOR",
+   "y": 1450,
+   "tam": 520,
+   "cor": "rgba(255,77,79,.35)",
+   "z": 12,
+   "x": [
+    -702,
+    900
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 58.1,
+   "d": 3.65,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "VÔMITO QUE NÃO PARA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "texto",
+   "t": 60.25,
+   "d": 1.5,
+   "xy": [
+    40,
+    640
+   ],
+   "w": 1000,
+   "fonte": "220px Anton",
+   "cor": "#ff4d4f",
+   "alinha": "center",
+   "txt": "E DOR",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)",
+   "entra": "zoom"
+  },
+  {
+   "tipo": "flash",
+   "t": 61.75,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 61.75,
+   "d": 3.85,
+   "txt": "ESTUDO",
+   "y": 1400,
+   "tam": 440,
+   "cor": "rgba(255,255,255,.30)",
+   "z": 12,
+   "x": [
+    1100,
+    -1320
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.85,
+   "d": 3.75,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "UM ESTUDO GRANDE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "numero",
+   "t": 62.3,
+   "d": 3.3,
+   "xy": [
+    0,
+    620
+   ],
+   "valor": 5,
+   "pre": "+",
+   "suf": " MIL",
+   "rotulo": "pessoas acompanhadas",
+   "tam": 300,
+   "cor": "#ffd400",
+   "z": 44
+  },
+  {
+   "tipo": "flash",
+   "t": 65.6,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 65.6,
+   "d": 6.1,
+   "txt": "POR ANO",
+   "y": 1450,
+   "tam": 400,
+   "cor": "rgba(255,255,255,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -1400
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 65.7,
+   "d": 6.0,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ESTÔMAGO PARADO DE VERDADE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "numero",
+   "t": 67.35,
+   "d": 4.35,
+   "xy": [
+    0,
+    620
+   ],
+   "valor": 9,
+   "pre": "7 A ",
+   "rotulo": "por mil pessoas/ano",
+   "tam": 280,
+   "cor": "#ff4d4f",
+   "sombra": "#5a0d10",
+   "z": 44
+  },
+  {
+   "tipo": "flash",
+   "t": 71.7,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 71.8,
+   "d": 3.55,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "COM OUTRO REMÉDIO DE EMAGRECER",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "numero",
+   "t": 72.9,
+   "d": 2.45,
+   "xy": [
+    0,
+    660
+   ],
+   "valor": 3,
+   "rotulo": "em cada mil",
+   "tam": 300,
+   "cor": "#ffffff",
+   "sombra": "#555",
+   "z": 44
+  },
+  {
+   "tipo": "gigante",
+   "t": 71.7,
+   "d": 3.65,
+   "txt": "3",
+   "y": 1400,
+   "tam": 520,
+   "cor": "rgba(255,255,255,.10)",
+   "z": 12,
+   "x": [
+    -234,
+    900
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 75.35,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "artigo",
+   "t": 75.35,
+   "d": 5.3,
+   "box": [
+    100,
+    330,
+    880,
+    760
+   ],
+   "z": 34,
+   "revista": "JAMA · 2023",
+   "titulo": "Remédios da caneta e problemas no estômago e no intestino",
+   "autores": "Sodhi e col. · 5.411 pacientes · planos de saúde dos EUA",
+   "rola": 0,
+   "linhas": [
+    {
+     "txt": "Estômago parado: raro.",
+     "grifo": 76.0
+    },
+    {
+     "txt": "Mais que com outro remédio de emagrecer.",
+     "grifo": 77.0
+    },
+    {
+     "txt": "Mostra ligação, não prova a causa em cada pessoa.",
+     "grifo": 78.3
+    }
+   ],
+   "rodape": "doi 10.1001/jama.2023.19574"
+  },
+  {
+   "tipo": "texto",
+   "t": 75.5,
+   "d": 5.1,
+   "xy": [
+    40,
+    1210
+   ],
+   "w": 1000,
+   "fonte": "100px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "UMA DAS MAIORES REVISTAS DE MEDICINA",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)",
+   "entra": "zoom"
+  },
+  {
+   "tipo": "gigante",
+   "t": 75.35,
+   "d": 5.3,
+   "txt": "2023",
+   "y": 1450,
+   "tam": 420,
+   "cor": "rgba(255,212,0,.35)",
+   "z": 12,
+   "x": [
+    1100,
+    -840
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "flash",
+   "t": 80.65,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 80.65,
+   "d": 2.41,
+   "txt": "RARO",
+   "y": 1300,
+   "tam": 560,
+   "cor": "rgba(255,212,0,.25)",
+   "z": 12,
+   "x": [
+    1100,
+    -1120
+   ]
+  },
+  {
+   "tipo": "carimbo",
+   "t": 80.75,
+   "d": 2.31,
+   "xy": [
+    115,
+    720
+   ],
+   "txt": "RARO, MAS EXISTE",
+   "tam": 105,
+   "rot": -7,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92);white-space:nowrap"
+  },
+  {
+   "tipo": "texto",
+   "t": 61.75,
+   "d": 21.31,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Sodhi e col., JAMA 2023 · 5.411 pacientes · doi 10.1001/jama.2023.19574",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "glitch",
+   "t": 83.01,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 83.06,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/cta6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     83.06,
+     1.0,
+     0.01
+    ],
+    [
+     85.66,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 83.26,
+   "d": 3.87,
+   "y": 215,
+   "txt": "AULA VALEU? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "glitch",
+   "t": 87.18,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 87.23,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 87.23,
+   "d": 3.3,
+   "txt": "COMUM",
+   "y": 1400,
+   "tam": 480,
+   "cor": "rgba(61,220,132,.45)",
+   "z": 12,
+   "x": [
+    1100,
+    -1200
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "texto",
+   "t": 87.33,
+   "d": 3.2,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ENJOO LEVE NO COMEÇO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "texto",
+   "t": 89.03,
+   "d": 1.5,
+   "xy": [
+    40,
+    720
+   ],
+   "w": 1000,
+   "fonte": "200px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "É COMUM",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)",
+   "entra": "zoom"
+  },
+  {
+   "tipo": "desenho",
+   "t": 89.23,
+   "d": 1.3,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      500,
+      1180
+     ],
+     "s": 110
+    }
+   ],
+   "cor": "#3ddc84",
+   "espessura": 26,
+   "z": 45
+  },
+  {
+   "tipo": "flash",
+   "t": 90.53,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "gigante",
+   "t": 90.53,
+   "d": 4.15,
+   "txt": "ALERTA",
+   "y": 1420,
+   "tam": 440,
+   "cor": "rgba(255,77,79,.35)",
+   "z": 12,
+   "x": [
+    -1188,
+    900
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 90.63,
+   "d": 4.05,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "VÔMITO QUE NÃO PASSA OU DOR FORTE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "texto",
+   "t": 92.88,
+   "d": 1.8,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#ff4d4f",
+   "alinha": "center",
+   "txt": "NÃO É NORMAL",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)",
+   "entra": "zoom"
+  },
+  {
+   "tipo": "flash",
+   "t": 94.68,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 94.73,
+   "d": 2.88,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "PROCURA O SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000,0 0 18px rgba(0,0,0,.7)"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 95.53,
+   "d": 2.08,
+   "xy": [
+    95,
+    860
+   ],
+   "txt": "DEVAGAR NÃO É PARADO",
+   "tam": 88,
+   "rot": -7,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92);white-space:nowrap"
+  },
+  {
+   "tipo": "texto",
+   "t": 87.23,
+   "d": 10.38,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Sodhi e col., JAMA 2023 · 5.411 pacientes · doi 10.1001/jama.2023.19574",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ]
+}

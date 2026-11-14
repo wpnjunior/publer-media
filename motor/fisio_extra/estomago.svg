@@ -1,0 +1,9 @@
+<g>
+  <path d="M-60 -175 C-62 -120 -70 -95 -95 -70 C-170 -5 -165 110 -80 150 C10 190 120 150 150 70 C165 30 160 0 140 -15" fill="#e98a8f" stroke="#6b1f26" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M-60 -175 L-20 -175 C-22 -125 -15 -100 10 -85 C60 -55 120 -55 140 -15" fill="none" stroke="#6b1f26" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M140 -15 C165 -5 185 15 200 40" fill="none" stroke="#6b1f26" stroke-width="26" stroke-linecap="round"/>
+  <path d="M140 -15 C165 -5 185 15 200 40" fill="none" stroke="#e98a8f" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="150" cy="-8" r="16" fill="#ffd400" stroke="#6b1f26" stroke-width="6"/>
+  <path d="M-110 40 C-60 10 0 20 40 60" fill="none" stroke="#f6b5b8" stroke-width="7" opacity=".8"/>
+  <path d="M-100 85 C-50 60 20 70 70 100" fill="none" stroke="#f6b5b8" stroke-width="7" opacity=".7"/>
+</g>

@@ -1,0 +1,9 @@
+<g>
+  <rect x="-160" y="-85" width="290" height="170" rx="26" fill="#f4f6f8" stroke="#2b2b2b" stroke-width="9"/>
+  <rect x="130" y="-38" width="34" height="76" rx="10" fill="#2b2b2b"/>
+  <rect x="-136" y="-61" width="64" height="122" rx="10" fill="#ff3b30"/>
+  <path d="M-52 -40 L-52 40 M-20 -40 L-20 40 M12 -40 L12 40 M44 -40 L44 40 M76 -40 L76 40" stroke="#d9dde2" stroke-width="10" stroke-linecap="round"/>
+  <path d="M-10 -190 L50 -100 L-70 -100 Z" fill="#ffd400" stroke="#2b2b2b" stroke-width="8" stroke-linejoin="round" transform="translate(10,0)"/>
+  <path d="M0 -168 L0 -128" stroke="#2b2b2b" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="0" cy="-112" r="6" fill="#2b2b2b"/>
+</g>

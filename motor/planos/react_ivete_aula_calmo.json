@@ -1,0 +1,1804 @@
+{
+ "id": "react_ivete_aula_calmo",
+ "dur": 71.221,
+ "seed": 107,
+ "fundo": "#14070a",
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1340,
+  "esconde": [
+   [
+    0.0,
+    2.1
+   ],
+   [
+    2.1,
+    6.2
+   ]
+  ],
+  "ys": [
+   [
+    6.2,
+    10.95,
+    1440
+   ],
+   [
+    10.95,
+    13.65,
+    1000
+   ],
+   [
+    17.02,
+    36.166,
+    1730
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ca_entA.mp4",
+    "t": 0.0,
+    "ms": 0,
+    "d": 2.1,
+    "palavras": "assets/midia/ca_entA.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/iv_viral_bip.wav",
+    "t": 2.1,
+    "ms": 0,
+    "d": 8.85,
+    "palavras": "assets/midia/iv_viral.words.json"
+   },
+   {
+    "src": "assets/midia/iv_voz.wav",
+    "t": 10.95,
+    "ms": 0,
+    "d": 2.7,
+    "palavras": "assets/midia/iv_voz.words.json"
+   },
+   {
+    "src": "assets/midia/iv_voz_calmo.wav",
+    "t": 13.65,
+    "ms": 3.731,
+    "d": 3.17,
+    "palavras": "assets/midia/iv_voz_calmo.words.json"
+   },
+   {
+    "src": "assets/midia/iv_aula_voz_calmo.wav",
+    "t": 17.02,
+    "ms": 0.0,
+    "d": 18.646,
+    "palavras": "assets/midia/iv_aula_voz_calmo.words.json"
+   },
+   {
+    "src": "assets/midia/iv_voz_calmo.wav",
+    "t": 36.166,
+    "ms": 6.9,
+    "d": 18.729,
+    "palavras": "assets/midia/iv_voz_calmo.words.json"
+   },
+   {
+    "src": "assets/midia/iv_voz_calmo.wav",
+    "t": 54.894,
+    "ms": 29.868,
+    "d": 12.853,
+    "palavras": "assets/midia/iv_voz_calmo.words.json"
+   },
+   {
+    "src": "assets/midia/iv_voz_calmo.wav",
+    "t": 67.747,
+    "ms": 45.943,
+    "d": 3.014,
+    "palavras": "assets/midia/iv_voz_calmo.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 17.02,
+    "ms": 0,
+    "d": 19.146,
+    "gain": 0.32,
+    "fade": 0.8
+   },
+   {
+    "src": "m_emocao",
+    "t": 36.166,
+    "ms": 0,
+    "d": 31.6,
+    "gain": 0.13,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.1,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.4,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.4,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 10.9,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 10.95,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 13.6,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 15.572,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 16.97,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 17.02,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 17.189,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 20.248,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 20.474,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 22.108,
+    "gain": 0.35
+   },
+   {
+    "src": "riser",
+    "t": 24.03,
+    "gain": 0.22,
+    "d": 1.696
+   },
+   {
+    "src": "whoosh",
+    "t": 25.782,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 27.292,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 27.349,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 27.914,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 29.741,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 31.432,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh",
+    "t": 33.037,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 33.093,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 34.275,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 36.116,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 36.279,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 40.411,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 45.889,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.696
+   },
+   {
+    "src": "boom",
+    "t": 50.022,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.357
+   },
+   {
+    "src": "glitch",
+    "t": 54.838,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 55.094,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 57.544,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 57.707,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 63.298,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 64.542,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 65.502,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 66.689,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 67.747,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 69.529,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.642
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0.0,
+   "d": 71.221,
+   "cor": "#14070a",
+   "textura": "gradiente",
+   "cor2": "#5a0d10"
+  },
+  {
+   "tipo": "video",
+   "t": 0.0,
+   "d": 2.1,
+   "ms": 0,
+   "src": "assets/midia/ca_entA.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0.0,
+     1.12,
+     2.1
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.98,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Fofoca do Dia",
+   "data": "nov 2026",
+   "txt": "IRRECONHECÍVEL POR CAUSA DA CANETA?",
+   "sub": "a fofoca passou de 7 milhões de views",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.1,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.1,
+   "d": 11.55,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.1,
+   "d": 8.85,
+   "ms": 0,
+   "src": "assets/midia/iv_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 34%",
+   "arroba": "via @natal.noticias",
+   "respira": false,
+   "zoom": [
+    [
+     2.1,
+     1.0,
+     0.01
+    ],
+    [
+     6.1,
+     1.06,
+     0.4
+    ],
+    [
+     8.45,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.2,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Dá para saber por foto se alguém usou caneta?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.4
+  },
+  {
+   "tipo": "numero",
+   "t": 6.4,
+   "d": 4.5,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 7.4,
+   "dec": 1,
+   "suf": " MI VIEWS",
+   "tam": 120
+  },
+  {
+   "tipo": "glitch",
+   "t": 10.9,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 10.95,
+   "d": 2.7,
+   "src": "assets/midia/iv_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "video",
+   "t": 10.95,
+   "d": 2.7,
+   "ms": 0,
+   "src": "assets/midia/iv_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 13.65,
+   "d": 3.37,
+   "ms": 10.0,
+   "src": "assets/midia/iv_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    2600
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     13.65,
+     1.0,
+     0.011
+    ],
+    [
+     14.046,
+     1.16,
+     0.565
+    ],
+    [
+     15.233,
+     1.02,
+     0.565
+    ],
+    [
+     16.42,
+     1.16,
+     0.6
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 13.65,
+   "d": 3.37,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.6,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 13.65,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 13.876,
+   "d": 3.013,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "145px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "NINGUÉM SABE POR FOTO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "gigante",
+   "t": 15.572,
+   "d": 0.678,
+   "txt": "POR FOTO?",
+   "y": 1060,
+   "tam": 250,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -2200
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "glitch",
+   "t": 16.97,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 17.02,
+   "d": 0.2,
+   "max": 0.6,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 17.02,
+   "d": 5.089,
+   "ms": 0.3,
+   "src": "assets/midia/iv_br_50756.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     17.02,
+     1.04,
+     0.011
+    ],
+    [
+     22.108,
+     1.14,
+     5.241
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 17.02,
+   "d": 5.089,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 22.108,
+   "d": 5.184,
+   "ms": 2.0,
+   "src": "assets/midia/iv_br_46085.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     22.108,
+     1.04,
+     0.011
+    ],
+    [
+     27.292,
+     1.14,
+     5.405
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 22.108,
+   "d": 5.184,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 17.02,
+   "d": 8.763,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "rosto",
+     "xy": [
+      540,
+      900
+     ],
+     "s": 1.5,
+     "t": 0.17
+    },
+    {
+     "k": "coxim",
+     "xy": [
+      420,
+      960
+     ],
+     "s": 1.5,
+     "t": 3.228
+    },
+    {
+     "k": "coxim",
+     "xy": [
+      660,
+      960
+     ],
+     "s": 1.5,
+     "t": 3.454
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 4.02
+    },
+    {
+     "o": 2,
+     "t": 4.246
+    },
+    {
+     "o": 1,
+     "t": 5.484
+    },
+    {
+     "o": 2,
+     "t": 5.484
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 1,
+     "t": 7.858,
+     "para": 0.7,
+     "d": 0.791
+    },
+    {
+     "o": 2,
+     "t": 7.858,
+     "para": 0.7,
+     "d": 0.791
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      420,
+      990
+     ],
+     "para": [
+      330,
+      1330
+     ],
+     "curva": -30,
+     "cor": "#f6d26b",
+     "t": 7.858,
+     "d": 0.848,
+     "n": 4,
+     "r": 10,
+     "viagem": 0.6
+    },
+    {
+     "de": [
+      660,
+      990
+     ],
+     "para": [
+      750,
+      1330
+     ],
+     "curva": 30,
+     "cor": "#f6d26b",
+     "t": 7.858,
+     "d": 0.848,
+     "n": 4,
+     "r": 10,
+     "viagem": 0.6
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 25.782,
+   "d": 0.15,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 25.782,
+   "d": 1.51,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "rosto_fino",
+     "xy": [
+      540,
+      900
+     ],
+     "s": 1.5,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.133,
+   "d": 2.211,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "POR QUE AFINA?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 19.344,
+   "d": 2.765,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#f6d26b",
+   "alinha": "center",
+   "txt": "ALMOFADINHAS DE GORDURA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 22.108,
+   "d": 2.6,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PERDEU PESO RÁPIDO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 24.708,
+   "d": 2.584,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#f6d26b",
+   "alinha": "center",
+   "txt": "MURCHAM. PELE SOBRA.",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 27.292,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 27.292,
+   "d": 2.448,
+   "ms": 2.0,
+   "src": "assets/midia/iv_br_4513.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     27.292,
+     1.04,
+     0.011
+    ],
+    [
+     29.741,
+     1.14,
+     2.29
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 27.292,
+   "d": 2.448,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 27.292,
+   "d": 2.448,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "almofada",
+     "xy": [
+      300,
+      930
+     ],
+     "s": 1.15,
+     "t": 0.057,
+     "rotulo": "NOVA"
+    },
+    {
+     "k": "almofada_murcha",
+     "xy": [
+      780,
+      950
+     ],
+     "s": 1.15,
+     "t": 0.622,
+     "rotulo": "VELHA"
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 27.292,
+   "d": 2.448,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "IGUAL ALMOFADA VELHA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 29.741,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 29.741,
+   "d": 3.296,
+   "ms": 1.0,
+   "src": "assets/midia/iv_br_52112.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     29.741,
+     1.04,
+     0.011
+    ],
+    [
+     33.037,
+     1.14,
+     3.231
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 29.741,
+   "d": 3.296,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 29.741,
+   "d": 3.296,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1000
+     ],
+     "s": 1.1,
+     "t": 0.057,
+     "rotulo": "MÚSCULO",
+     "rot_y": 175
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 1.691,
+     "para": 0.72,
+     "d": 1.244
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 29.741,
+   "d": 3.296,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ff5a5f",
+   "alinha": "center",
+   "txt": "SEM MÚSCULO:\\nPELE E OSSO",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 33.037,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 33.037,
+   "d": 3.129,
+   "ms": 1.0,
+   "src": "assets/midia/iv_br_50635.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     33.037,
+     1.04,
+     0.011
+    ],
+    [
+     36.166,
+     1.14,
+     2.973
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 33.037,
+   "d": 3.129,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 33.059,
+   "d": 3.106,
+   "formas": [
+    {
+     "k": "caixa",
+     "b": [
+      250,
+      580,
+      580,
+      720
+     ]
+    }
+   ],
+   "espessura": 14,
+   "cor": "#ffffff",
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 33.037,
+   "d": 3.129,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "rosto_fino",
+     "xy": [
+      540,
+      940
+     ],
+     "s": 1.25,
+     "t": 0.334
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.275,
+   "d": 1.89,
+   "xy": [
+    790,
+    470
+   ],
+   "w": 240,
+   "fonte": "220px Anton",
+   "cor": "#f6d26b",
+   "alinha": "center",
+   "txt": "?",
+   "z": 45,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 33.037,
+   "d": 3.129,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "FOTO NÃO CONTA\\nO MOTIVO",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 36.116,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 36.166,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "video",
+   "t": 36.166,
+   "d": 18.729,
+   "ms": 13.0,
+   "src": "assets/midia/iv_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    2600
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     36.166,
+     1.0,
+     0.011
+    ],
+    [
+     36.561,
+     1.16,
+     0.565
+    ],
+    [
+     37.748,
+     1.02,
+     0.565
+    ],
+    [
+     38.935,
+     1.16,
+     0.565
+    ],
+    [
+     40.219,
+     1.02,
+     0.565
+    ],
+    [
+     41.406,
+     1.16,
+     0.565
+    ],
+    [
+     42.593,
+     1.02,
+     0.565
+    ],
+    [
+     43.78,
+     1.16,
+     0.565
+    ],
+    [
+     44.967,
+     1.02,
+     0.775
+    ],
+    [
+     46.364,
+     1.16,
+     0.565
+    ],
+    [
+     47.551,
+     1.02,
+     0.565
+    ],
+    [
+     48.738,
+     1.16,
+     0.565
+    ],
+    [
+     50.146,
+     1.02,
+     0.565
+    ],
+    [
+     51.333,
+     1.16,
+     0.565
+    ],
+    [
+     52.52,
+     1.02,
+     0.565
+    ],
+    [
+     53.707,
+     1.16,
+     0.565
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 36.166,
+   "d": 18.729,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 57.594,
+   "d": 13.627,
+   "ms": 35.0,
+   "src": "assets/midia/iv_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    2600
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     57.594,
+     1.0,
+     0.011
+    ],
+    [
+     57.99,
+     1.16,
+     0.565
+    ],
+    [
+     59.177,
+     1.02,
+     0.565
+    ],
+    [
+     60.364,
+     1.16,
+     0.565
+    ],
+    [
+     61.551,
+     1.02,
+     0.565
+    ],
+    [
+     62.902,
+     1.16,
+     0.565
+    ],
+    [
+     64.089,
+     1.02,
+     0.565
+    ],
+    [
+     65.276,
+     1.16,
+     0.565
+    ],
+    [
+     66.463,
+     1.02,
+     0.565
+    ],
+    [
+     67.917,
+     1.16,
+     0.565
+    ],
+    [
+     69.449,
+     1.02,
+     0.565
+    ],
+    [
+     70.636,
+     1.16,
+     0.514
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 57.594,
+   "d": 13.627,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "texto",
+   "t": 36.279,
+   "d": 4.11,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "FOFOCA CORRE MAIS QUE A VERDADE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 40.389,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 40.411,
+   "d": 5.455,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ESTUDO DO MIT: 126 MIL NOTÍCIAS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "flash",
+   "t": 45.867,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 45.889,
+   "d": 4.11,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 70,
+   "suf": "%",
+   "rotulo": "no compartilhamento",
+   "tam": 300,
+   "cor": "#ff2d3d",
+   "sombra": "#5a0d10",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 46.138,
+   "d": 3.861,
+   "xy": [
+    40,
+    960
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "A MENTIRA É MAIS REPASSADA",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 49.999,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 50.022,
+   "d": 4.872,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 6,
+   "suf": "x",
+   "rotulo": "para alcançar 1.500 pessoas",
+   "tam": 300,
+   "cor": "#f2c230",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 50.316,
+   "d": 4.578,
+   "xy": [
+    40,
+    960
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "A VERDADE DEMORA 6X MAIS",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 40.411,
+   "d": 14.483,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Vosoughi, Roy e Aral (MIT), Science 2018",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "glitch",
+   "t": 54.838,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 54.894,
+   "d": 2.7,
+   "ms": 3.05,
+   "src": "assets/midia/iv_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     54.894,
+     1.0,
+     0.01
+    ],
+    [
+     57.494,
+     1.1,
+     0.326
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 55.094,
+   "d": 2.45,
+   "y": 215,
+   "txt": "COMBINADO: CURTE + SEGUE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "glitch",
+   "t": 57.544,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 57.594,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 57.617,
+   "d": 2.917,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CURTE E SEGUE",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:10px 10px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 60.533,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 60.556,
+   "d": 2.742,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PENSANDO EM CANETA?",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom"
+  },
+  {
+   "tipo": "checklist",
+   "t": 63.298,
+   "d": 4.449,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "Isso se decide com:",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "consulta",
+     "t": 64.202
+    },
+    {
+     "txt": "exame",
+     "t": 65.22
+    },
+    {
+     "txt": "foto de show",
+     "t": 66.35
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 64.542,
+   "d": 3.206,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      412
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#ffd400"
+  },
+  {
+   "tipo": "desenho",
+   "t": 65.502,
+   "d": 2.245,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      262,
+      506
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#ffd400"
+  },
+  {
+   "tipo": "desenho",
+   "t": 66.689,
+   "d": 1.058,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      600
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45,
+   "cor": "#ffd400"
+  },
+  {
+   "tipo": "texto",
+   "t": 67.77,
+   "d": 3.451,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "FOFOCA CORRE.",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 69.529,
+   "d": 1.692,
+   "xy": [
+    40,
+    760
+   ],
+   "txt": "CIÊNCIA CONFERE",
+   "tam": 115,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 69.529,
+   "d": 1.692,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Vosoughi, Roy e Aral, Science 2018 · doi 10.1126/science.aap9559",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  },
+  {
+   "tipo": "texto",
+   "t": 13.989,
+   "d": 3.03,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 36.505,
+   "d": 18.389,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 57.933,
+   "d": 13.288,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  }
+ ]
+}

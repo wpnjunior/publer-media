@@ -1,0 +1,2028 @@
+{
+ "id": "react_l2_banho",
+ "dur": 92.17,
+ "seed": 131,
+ "fundo": "#e9dcbc",
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    1.88
+   ],
+   [
+    1.88,
+    5.88
+   ]
+  ],
+  "ys": [
+   [
+    5.88,
+    13.69,
+    1440
+   ],
+   [
+    13.69,
+    18.49,
+    1000
+   ],
+   [
+    25.972,
+    46.008,
+    1730
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ent6.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/ent6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/bh_viral.mp4",
+    "t": 1.88,
+    "ms": 0,
+    "d": 11.81,
+    "palavras": "assets/midia/bh_viral.words.json",
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/bh_dub_voz.wav",
+    "t": 1.88,
+    "ms": 0,
+    "d": 11.81,
+    "gain": 1.0
+   },
+   {
+    "src": "assets/midia/bh_rosto.mp4",
+    "t": 13.69,
+    "ms": 0,
+    "d": 4.8,
+    "palavras": "assets/midia/bh_rosto.words.json"
+   },
+   {
+    "src": "assets/midia/bh_a_voz.wav",
+    "t": 18.49,
+    "ms": 0,
+    "d": 7.032,
+    "palavras": "assets/midia/bh_a_voz.words.json"
+   },
+   {
+    "src": "assets/midia/bh_b_voz.wav",
+    "t": 25.972,
+    "ms": 0,
+    "d": 20.036,
+    "palavras": "assets/midia/bh_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/bh_c_voz.wav",
+    "t": 46.558,
+    "ms": 0,
+    "d": 37.345,
+    "palavras": "assets/midia/bh_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cta6.mp4",
+    "t": 84.2,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/cta6.mp4.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 13.69,
+    "d": 70.81,
+    "gain": 0.15,
+    "fade": 0.8
+   },
+   {
+    "src": "m_investiga",
+    "t": 88.17,
+    "d": 4.0,
+    "gain": 0.3,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.18,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.18,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 13.64,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 13.79,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 15.74,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 18.44,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 18.49,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 19.39,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 22.49,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 23.59,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 25.922,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 26.022,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 26.122,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 27.672,
+    "gain": 0.3
+   },
+   {
+    "src": "pagina",
+    "t": 29.692,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 33.672,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 34.072,
+    "gain": 0.3
+   },
+   {
+    "src": "pagina",
+    "t": 36.632,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 37.972,
+    "gain": 0.3
+   },
+   {
+    "src": "pagina",
+    "t": 39.732,
+    "gain": 0.4
+   },
+   {
+    "src": "scratch",
+    "t": 41.322,
+    "gain": 0.3
+   },
+   {
+    "src": "pagina",
+    "t": 43.152,
+    "gain": 0.4
+   },
+   {
+    "src": "notif",
+    "t": 44.872,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 46.508,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 49.408,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 51.158,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 54.508,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 58.758,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "pagina",
+    "t": 63.108,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 66.358,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 68.408,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 70.858,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 74.008,
+    "gain": 0.4
+   },
+   {
+    "src": "notif",
+    "t": 77.158,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 80.008,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 80.558,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "glitch",
+    "t": 84.15,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 84.4,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 88.32,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 89.87,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 92.17,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/ent6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "ÁGUA GELADA = COCAÍNA?",
+   "sub": "podcast britânico no TikTok",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 16.61,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 11.81,
+   "ms": 0,
+   "src": "assets/midia/bh_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 30%",
+   "arroba": "via @talktwenties (TikTok)",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.06,
+     0.4
+    ],
+    [
+     11.19,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Água gelada dá a mesma onda da cocaína?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.18
+  },
+  {
+   "tipo": "numero",
+   "t": 6.18,
+   "d": 7.460000000000001,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 5.2,
+   "dec": 1,
+   "suf": " MI VIEWS",
+   "tam": 120,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.64,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 13.69,
+   "d": 4.8,
+   "src": "assets/midia/bh_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "carimbo",
+   "t": 13.79,
+   "d": 1.9,
+   "xy": [
+    250,
+    470
+   ],
+   "txt": "MITO",
+   "tam": 170,
+   "rot": -7,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 15.74,
+   "d": 2.72,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "SOBE, SIM. NO LUGAR ERRADO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 13.69,
+   "d": 4.799999999999999,
+   "ms": 0,
+   "src": "assets/midia/bh_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 18.49,
+   "d": 7.48,
+   "ms": 20.0,
+   "src": "assets/midia/bh_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     18.49,
+     1.0,
+     0.01
+    ],
+    [
+     18.84,
+     1.16,
+     0.5
+    ],
+    [
+     19.89,
+     1.02,
+     0.5
+    ],
+    [
+     20.94,
+     1.16,
+     0.5
+    ],
+    [
+     21.99,
+     1.02,
+     0.5
+    ],
+    [
+     23.04,
+     1.16,
+     0.5
+    ],
+    [
+     24.09,
+     1.02,
+     0.5
+    ],
+    [
+     25.14,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 18.49,
+   "d": 7.48,
+   "cor": "rgba(239,228,201,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 18.44,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 18.49,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 18.79,
+   "d": 3.68,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "136px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "SOBE NO SANGUE, NÃO NO CÉREBRO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "gigante",
+   "t": 19.39,
+   "d": 2.4,
+   "txt": "SANGUE",
+   "y": 1050,
+   "tam": 280,
+   "cor": "#ff5a5f",
+   "x": [
+    1000,
+    -1900
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "flash",
+   "t": 22.49,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 22.51,
+   "d": 3.41,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "136px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "IGUAL COCAÍNA? NÃO FAZ SENTIDO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "gigante",
+   "t": 23.59,
+   "d": 1.9,
+   "txt": "NÃO",
+   "y": 1050,
+   "tam": 340,
+   "cor": "rgba(255,255,255,.16)",
+   "x": [
+    1000,
+    -1200
+   ],
+   "z": 20
+  },
+  {
+   "tipo": "glitch",
+   "t": 25.922,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 25.972,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fundo",
+   "t": 25.972,
+   "d": 20.036,
+   "cor": "#0e1012",
+   "textura": "gradiente",
+   "cor2": "#1d2a33",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 25.972,
+   "d": 20.036,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "1 · susto",
+   "z": 30,
+   "fixo": true,
+   "abas": [
+    [
+     29.692,
+     "2 · sangue"
+    ],
+    [
+     33.672,
+     "3 · dopamina"
+    ],
+    [
+     36.632,
+     "4 · o muro"
+    ],
+    [
+     39.732,
+     "5 · não passa"
+    ],
+    [
+     43.152,
+     "6 · lá dentro"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 26.172,
+   "d": 19.836,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#111",
+   "alinha": "center",
+   "txt": "● AULA RÁPIDA · FRIO E DOPAMINA",
+   "css": "letter-spacing:3px;background:#ffd400;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 26.122,
+   "d": 3.52,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "ÁGUA GELADA = SUSTO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 26.222,
+   "d": 3.42,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "bh_gota",
+     "xy": [
+      330,
+      1090
+     ],
+     "s": 1.1,
+     "t": 0.0
+    },
+    {
+     "k": "raio",
+     "xy": [
+      770,
+      1060
+     ],
+     "s": 0.85,
+     "t": 1.45
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 1.9
+    },
+    {
+     "o": 1,
+     "t": 2.6
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 27.722,
+   "d": 1.92,
+   "xy": [
+    560,
+    1330
+   ],
+   "w": 420,
+   "fonte": "700 120px Caveat",
+   "cor": "#c0392b",
+   "alinha": "center",
+   "txt": "susto!",
+   "z": 46,
+   "entra": "pop",
+   "css": "transform:rotate(-6deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 29.742,
+   "d": 3.88,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "108px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "HORMÔNIOS DO ALERTA NO SANGUE",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 29.792,
+   "d": 3.83,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "bh_vaso",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 2.0,
+     "t": 0.0,
+     "rotulo": "SANGUE",
+     "rot_y": 190
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      190,
+      1080
+     ],
+     "para": [
+      900,
+      1080
+     ],
+     "curva": 0,
+     "cor": "#ffd400",
+     "t": 0.9799999999999983,
+     "d": 2.8,
+     "n": 9,
+     "r": 16,
+     "viagem": 1.2
+    },
+    {
+     "de": [
+      190,
+      1060
+     ],
+     "para": [
+      900,
+      1100
+     ],
+     "curva": 0,
+     "cor": "#4dd8ff",
+     "t": 1.3800000000000003,
+     "d": 2.4,
+     "n": 6,
+     "r": 14,
+     "viagem": 1.3
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 33.722,
+   "d": 2.86,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "124px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A DOPAMINA É UM DELES",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 33.772,
+   "d": 2.81,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "bh_vaso",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 2.0,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      190,
+      1080
+     ],
+     "para": [
+      900,
+      1080
+     ],
+     "curva": 0,
+     "cor": "#ffd400",
+     "t": 0.1,
+     "d": 2.7,
+     "n": 6,
+     "r": 20,
+     "viagem": 1.4
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 33.972,
+   "d": 2.61,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      800,
+      800
+     ],
+     "para": [
+      640,
+      1010
+     ],
+     "curva": -60
+    }
+   ],
+   "cor": "#1f6fb2",
+   "espessura": 13,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.072,
+   "d": 2.51,
+   "xy": [
+    560,
+    680
+   ],
+   "w": 440,
+   "fonte": "700 110px Caveat",
+   "cor": "#b8860b",
+   "alinha": "center",
+   "txt": "dopamina",
+   "z": 46,
+   "entra": "pop",
+   "css": "transform:rotate(-4deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 36.682,
+   "d": 3.0,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "124px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O CÉREBRO TEM UM MURO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 36.732,
+   "d": 2.95,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "cerebro",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 0.78,
+     "t": 0.0
+    },
+    {
+     "k": "bh_muro",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 0.95,
+     "t": 1.1399999999999948
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 1.5400000000000005
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 38.172,
+   "d": 1.51,
+   "xy": [
+    690,
+    1360
+   ],
+   "w": 330,
+   "fonte": "700 120px Caveat",
+   "cor": "#8a4a1c",
+   "alinha": "center",
+   "txt": "muro",
+   "z": 46,
+   "entra": "pop",
+   "css": "transform:rotate(-5deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 39.782,
+   "d": 3.32,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "130px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A DO SANGUE NÃO PASSA",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 39.832,
+   "d": 3.27,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "cerebro",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 0.78,
+     "t": 0.0
+    },
+    {
+     "k": "bh_muro",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 0.95,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      540,
+      1560
+     ],
+     "para": [
+      540,
+      1335
+     ],
+     "curva": 0,
+     "cor": "#ffd400",
+     "t": 0.3,
+     "d": 2.8,
+     "n": 7,
+     "r": 16,
+     "viagem": 0.8
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 41.322,
+   "d": 1.78,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      1440
+     ],
+     "s": 70
+    }
+   ],
+   "cor": "#e0322b",
+   "espessura": 18,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 43.202,
+   "d": 2.756,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "130px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A DO PRAZER: LÁ DENTRO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 43.252,
+   "d": 2.706,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "cerebro",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 0.78,
+     "t": 0.0
+    },
+    {
+     "k": "bh_muro",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 0.95,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      450,
+      1110
+     ],
+     "para": [
+      640,
+      1080
+     ],
+     "curva": -50,
+     "cor": "#ffd400",
+     "t": 0.4,
+     "d": 2.2,
+     "n": 6,
+     "r": 12,
+     "viagem": 0.7
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.6
+    },
+    {
+     "o": 0,
+     "t": 1.6
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 44.872,
+   "d": 1.116,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      840,
+      860
+     ],
+     "s": 60
+    }
+   ],
+   "cor": "#1f9e4f",
+   "espessura": 18,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 46.558,
+   "d": 37.64,
+   "ms": 5.0,
+   "src": "assets/midia/bh_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     46.558,
+     1.0,
+     0.01
+    ],
+    [
+     46.91,
+     1.16,
+     0.5
+    ],
+    [
+     47.96,
+     1.02,
+     0.5
+    ],
+    [
+     49.01,
+     1.16,
+     0.5
+    ],
+    [
+     50.06,
+     1.02,
+     0.5
+    ],
+    [
+     51.11,
+     1.16,
+     0.5
+    ],
+    [
+     52.16,
+     1.02,
+     0.5
+    ],
+    [
+     53.21,
+     1.16,
+     0.5
+    ],
+    [
+     54.26,
+     1.02,
+     0.5
+    ],
+    [
+     55.31,
+     1.16,
+     0.5
+    ],
+    [
+     56.36,
+     1.02,
+     0.5
+    ],
+    [
+     57.41,
+     1.16,
+     0.5
+    ],
+    [
+     58.46,
+     1.02,
+     0.5
+    ],
+    [
+     59.51,
+     1.16,
+     0.5
+    ],
+    [
+     60.56,
+     1.02,
+     0.5
+    ],
+    [
+     61.61,
+     1.16,
+     0.5
+    ],
+    [
+     62.66,
+     1.02,
+     0.5
+    ],
+    [
+     63.71,
+     1.16,
+     0.5
+    ],
+    [
+     64.76,
+     1.02,
+     0.5
+    ],
+    [
+     65.81,
+     1.16,
+     0.5
+    ],
+    [
+     66.86,
+     1.02,
+     0.5
+    ],
+    [
+     67.91,
+     1.16,
+     0.5
+    ],
+    [
+     68.96,
+     1.02,
+     0.5
+    ],
+    [
+     70.01,
+     1.16,
+     0.5
+    ],
+    [
+     71.06,
+     1.02,
+     0.5
+    ],
+    [
+     72.11,
+     1.16,
+     0.5
+    ],
+    [
+     73.16,
+     1.02,
+     0.5
+    ],
+    [
+     74.21,
+     1.16,
+     0.5
+    ],
+    [
+     75.26,
+     1.02,
+     0.5
+    ],
+    [
+     76.31,
+     1.16,
+     0.5
+    ],
+    [
+     77.36,
+     1.02,
+     0.5
+    ],
+    [
+     78.41,
+     1.16,
+     0.5
+    ],
+    [
+     79.46,
+     1.02,
+     0.5
+    ],
+    [
+     80.51,
+     1.16,
+     0.5
+    ],
+    [
+     81.56,
+     1.02,
+     0.5
+    ],
+    [
+     82.61,
+     1.16,
+     0.5
+    ],
+    [
+     83.66,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 46.558,
+   "d": 37.64,
+   "cor": "rgba(239,228,201,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 46.508,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 46.558,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 46.58,
+   "d": 2.8,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "DE ONDE VEIO ESSE NÚMERO?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 49.408,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 49.43,
+   "d": 5.04,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "ESTUDO DE 2000: POUCOS RAPAZES JOVENS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "gigante",
+   "t": 51.158,
+   "d": 2.6,
+   "txt": "2000",
+   "y": 1050,
+   "tam": 320,
+   "cor": "rgba(255,255,255,.18)",
+   "x": [
+    1000,
+    -1500
+   ],
+   "z": 20
+  },
+  {
+   "tipo": "flash",
+   "t": 54.508,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 54.528,
+   "d": 4.21,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 14,
+   "suf": " °C",
+   "rotulo": "1 hora na água",
+   "tam": 300,
+   "cor": "#4dd8ff",
+   "z": 44,
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "flash",
+   "t": 58.758,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 58.778,
+   "d": 4.310000000000001,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 250,
+   "pre": "+",
+   "suf": "%",
+   "rotulo": "dopamina NO SANGUE",
+   "tam": 300,
+   "cor": "#3ddc84",
+   "z": 44,
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "gigante",
+   "t": 59.058,
+   "d": 2.6,
+   "txt": "SANGUE",
+   "y": 1050,
+   "tam": 280,
+   "cor": "rgba(255,90,95,.35)",
+   "x": [
+    1000,
+    -1900
+   ],
+   "z": 20
+  },
+  {
+   "tipo": "texto",
+   "t": 49.41,
+   "d": 13.68,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Šrámek et al., Eur J Appl Physiol 2000 · 1 h na água a 14 °C · no sangue: dopamina +250%, noradrenalina +530%",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 63.108,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 63.13,
+   "d": 3.01,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "136px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "OS NÚMEROS DA COCAÍNA: EM RATO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 66.16,
+   "d": 2.21,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "146px Anton",
+   "cor": "#ff5a5f",
+   "alinha": "center",
+   "txt": "MEDIDOS DENTRO DO CÉREBRO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "gigante",
+   "t": 66.358,
+   "d": 1.9,
+   "txt": "≠",
+   "y": 1000,
+   "tam": 420,
+   "cor": "#c9b48a",
+   "x": [
+    1000,
+    -700
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "texto",
+   "t": 63.11,
+   "d": 5.28,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Di Chiara & Imperato, PNAS 1988 · ratos, medida dentro do cérebro",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 68.408,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 68.43,
+   "d": 2.41,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "ACORDA, SIM ✓",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 70.86,
+   "d": 3.11,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "146px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "É O CORPO REAGINDO AO SUSTO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 74.008,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 74.03,
+   "d": 3.11,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "146px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "CORAÇÃO OU PRESSÃO ALTA?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "fisio",
+   "t": 74.108,
+   "d": 5.85,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 0.95,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.7
+    },
+    {
+     "o": 0,
+     "t": 1.5
+    },
+    {
+     "o": 0,
+     "t": 2.3
+    },
+    {
+     "o": 0,
+     "t": 3.1
+    },
+    {
+     "o": 0,
+     "t": 3.9
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 77.16,
+   "d": 2.81,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "146px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "FALE COM SEU MÉDICO ANTES",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 80.008,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 80.03,
+   "d": 4.13,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "ÁGUA GELADA DE RIO OU MAR?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 80.558,
+   "d": 3.581999999999996,
+   "xy": [
+    90,
+    860
+   ],
+   "txt": "NUNCA SOZINHO",
+   "tam": 130,
+   "rot": -7,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)"
+  },
+  {
+   "tipo": "glitch",
+   "t": 84.15,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 84.2,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/cta6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     84.2,
+     1.0,
+     0.01
+    ],
+    [
+     86.2,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 84.4,
+   "d": 3.87,
+   "y": 215,
+   "txt": "SEGUE + CURTE = TREINO DO DEDÃO",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "video",
+   "t": 88.37,
+   "d": 3.8,
+   "ms": 30.0,
+   "src": "assets/midia/bh_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     88.37,
+     1.0,
+     0.01
+    ],
+    [
+     88.72,
+     1.16,
+     0.5
+    ],
+    [
+     89.77,
+     1.02,
+     0.5
+    ],
+    [
+     90.82,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 88.37,
+   "d": 3.8,
+   "cor": "rgba(239,228,201,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 88.32,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 88.37,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 88.42,
+   "d": 1.5,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "ACORDA, SIM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 89.87,
+   "d": 2.3000000000000114,
+   "xy": [
+    70,
+    860
+   ],
+   "txt": "SUSTO, NÃO DROGA",
+   "tam": 120,
+   "rot": -7,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 89.92,
+   "d": 2.25,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "MAS NÃO É DROGA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 88.37,
+   "d": 3.8,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Šrámek et al., Eur J Appl Physiol 2000 · doi 10.1007/s004210050065",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.2
+  }
+ ]
+}

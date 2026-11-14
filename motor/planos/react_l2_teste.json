@@ -1,0 +1,1721 @@
+{
+ "id": "react_l2_teste",
+ "dur": 89.78,
+ "seed": 92,
+ "fundo": "#e9dcbc",
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    1.88
+   ]
+  ],
+  "ys": [
+   [
+    1.88,
+    5.88,
+    1720
+   ],
+   [
+    5.88,
+    16.28,
+    1440
+   ],
+   [
+    16.28,
+    19.56,
+    1000
+   ],
+   [
+    19.56,
+    89.78,
+    1745
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ent6.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/ent6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/tk_viral.mp4",
+    "t": 1.88,
+    "ms": 0,
+    "d": 14.4,
+    "palavras": "assets/midia/tk_viral.words.json"
+   },
+   {
+    "src": "assets/midia/tk_rosto.mp4",
+    "t": 16.28,
+    "ms": 0,
+    "d": 3.28,
+    "palavras": "assets/midia/tk_rosto.words.json"
+   },
+   {
+    "src": "assets/midia/tk_voz.wav",
+    "t": 19.66,
+    "ms": 0,
+    "d": 56.39,
+    "palavras": "assets/midia/tk_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cta6.mp4",
+    "t": 76.35,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/cta6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/tk_fecho_voz.wav",
+    "t": 80.52,
+    "ms": 0,
+    "d": 8.66,
+    "palavras": "assets/midia/tk_fecho_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 19.56,
+    "d": 56.79,
+    "gain": 0.14,
+    "fade": 0.8
+   },
+   {
+    "src": "m_investiga",
+    "t": 80.52,
+    "d": 9.26,
+    "gain": 0.12,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.18,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.18,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 16.23,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 16.38,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 19.51,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 19.61,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 23.16,
+    "gain": 0.35
+   },
+   {
+    "src": "notif",
+    "t": 24.36,
+    "gain": 0.3
+   },
+   {
+    "src": "notif",
+    "t": 25.56,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 27.06,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 27.26,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 30.36,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 30.46,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 32.96,
+    "gain": 0.3
+   },
+   {
+    "src": "pagina",
+    "t": 34.91,
+    "gain": 0.35
+   },
+   {
+    "src": "notif",
+    "t": 37.28,
+    "gain": 0.4
+   },
+   {
+    "src": "notif",
+    "t": 38.58,
+    "gain": 0.4
+   },
+   {
+    "src": "notif",
+    "t": 39.74,
+    "gain": 0.4
+   },
+   {
+    "src": "notif",
+    "t": 40.94,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 41.96,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 46.76,
+    "gain": 0.3
+   },
+   {
+    "src": "pagina",
+    "t": 48.06,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 50.16,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 52.06,
+    "gain": 0.25
+   },
+   {
+    "src": "pagina",
+    "t": 53.56,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 56.86,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 59.06,
+    "gain": 0.5
+   },
+   {
+    "src": "pagina",
+    "t": 59.41,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 65.86,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "papel",
+    "t": 68.96,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 76.3,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 76.55,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 80.47,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 81.92,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 83.82,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 86.82,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 89.78,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/ent6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "TESTE DO TIKTOK “DÁ” TDAH?",
+   "sub": "9 perguntas: abaixe o dedo para positivo",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 17.68,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 14.4,
+   "ms": 0,
+   "src": "assets/midia/tk_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 55%",
+   "arroba": "@opaiokia",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.06,
+     0.4
+    ],
+    [
+     13.78,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Vale como laudo? 👇",
+   "txt": "Teste do TikTok dá diagnóstico de TDAH?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.18
+  },
+  {
+   "tipo": "numero",
+   "t": 6.18,
+   "d": 10.05,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 2.5,
+   "dec": 1,
+   "suf": " MI DE VIEWS",
+   "tam": 120,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "glitch",
+   "t": 16.23,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 16.28,
+   "d": 3.28,
+   "src": "assets/midia/tk_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "carimbo",
+   "t": 16.38,
+   "d": 3.1299999999999994,
+   "xy": [
+    140,
+    480
+   ],
+   "txt": "NÃO É LAUDO",
+   "tam": 150,
+   "rot": -7,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 16.28,
+   "d": 3.2799999999999994,
+   "ms": 0,
+   "src": "assets/midia/tk_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 19.56,
+   "d": 56.79,
+   "ms": 2.0,
+   "src": "assets/midia/tk_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     19.56,
+     1.04,
+     0.01
+    ],
+    [
+     19.61,
+     1.16,
+     0.9
+    ],
+    [
+     20.51,
+     1.04,
+     0.9
+    ],
+    [
+     21.41,
+     1.16,
+     0.9
+    ],
+    [
+     22.31,
+     1.04,
+     0.9
+    ],
+    [
+     23.21,
+     1.16,
+     0.9
+    ],
+    [
+     24.11,
+     1.04,
+     0.9
+    ],
+    [
+     25.01,
+     1.16,
+     0.9
+    ],
+    [
+     25.91,
+     1.04,
+     0.9
+    ],
+    [
+     26.81,
+     1.16,
+     0.9
+    ],
+    [
+     27.71,
+     1.04,
+     0.9
+    ],
+    [
+     28.61,
+     1.16,
+     0.9
+    ],
+    [
+     29.51,
+     1.04,
+     0.9
+    ],
+    [
+     30.41,
+     1.16,
+     0.9
+    ],
+    [
+     31.31,
+     1.04,
+     0.9
+    ],
+    [
+     32.21,
+     1.16,
+     0.9
+    ],
+    [
+     33.11,
+     1.04,
+     0.9
+    ],
+    [
+     34.01,
+     1.16,
+     0.9
+    ],
+    [
+     34.91,
+     1.04,
+     0.9
+    ],
+    [
+     35.81,
+     1.16,
+     0.9
+    ],
+    [
+     36.71,
+     1.04,
+     0.9
+    ],
+    [
+     37.61,
+     1.16,
+     0.9
+    ],
+    [
+     38.51,
+     1.04,
+     0.9
+    ],
+    [
+     39.41,
+     1.16,
+     0.9
+    ],
+    [
+     40.31,
+     1.04,
+     0.9
+    ],
+    [
+     41.21,
+     1.16,
+     0.9
+    ],
+    [
+     42.11,
+     1.04,
+     0.9
+    ],
+    [
+     43.01,
+     1.16,
+     0.9
+    ],
+    [
+     43.91,
+     1.04,
+     0.9
+    ],
+    [
+     44.81,
+     1.16,
+     0.9
+    ],
+    [
+     45.71,
+     1.04,
+     0.9
+    ],
+    [
+     46.61,
+     1.16,
+     0.9
+    ],
+    [
+     47.51,
+     1.04,
+     0.9
+    ],
+    [
+     48.41,
+     1.16,
+     0.9
+    ],
+    [
+     49.31,
+     1.04,
+     0.9
+    ],
+    [
+     50.21,
+     1.16,
+     0.9
+    ],
+    [
+     51.11,
+     1.04,
+     0.9
+    ],
+    [
+     52.01,
+     1.16,
+     0.9
+    ],
+    [
+     52.91,
+     1.04,
+     0.9
+    ],
+    [
+     53.81,
+     1.16,
+     0.9
+    ],
+    [
+     54.71,
+     1.04,
+     0.9
+    ],
+    [
+     55.61,
+     1.16,
+     0.9
+    ],
+    [
+     56.51,
+     1.04,
+     0.9
+    ],
+    [
+     57.41,
+     1.16,
+     0.9
+    ],
+    [
+     58.31,
+     1.04,
+     0.9
+    ],
+    [
+     59.21,
+     1.16,
+     0.9
+    ],
+    [
+     60.11,
+     1.04,
+     0.9
+    ],
+    [
+     61.01,
+     1.16,
+     0.9
+    ],
+    [
+     61.91,
+     1.04,
+     0.9
+    ],
+    [
+     62.81,
+     1.16,
+     0.9
+    ],
+    [
+     63.71,
+     1.04,
+     0.9
+    ],
+    [
+     64.61,
+     1.16,
+     0.9
+    ],
+    [
+     65.51,
+     1.04,
+     0.9
+    ],
+    [
+     66.41,
+     1.16,
+     0.9
+    ],
+    [
+     67.31,
+     1.04,
+     0.9
+    ],
+    [
+     68.21,
+     1.16,
+     0.9
+    ],
+    [
+     69.11,
+     1.04,
+     0.9
+    ],
+    [
+     70.01,
+     1.16,
+     0.9
+    ],
+    [
+     70.91,
+     1.04,
+     0.9
+    ],
+    [
+     71.81,
+     1.16,
+     0.9
+    ],
+    [
+     72.71,
+     1.04,
+     0.9
+    ],
+    [
+     73.61,
+     1.16,
+     0.9
+    ],
+    [
+     74.51,
+     1.04,
+     0.9
+    ],
+    [
+     75.41,
+     1.16,
+     0.9
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 19.56,
+   "d": 56.79,
+   "cor": "rgba(239,228,201,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 19.51,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 19.56,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "celular",
+   "t": 19.56,
+   "d": 10.85,
+   "z": 30,
+   "xy": [
+    240,
+    560
+   ],
+   "wh": [
+    600,
+    1100
+   ],
+   "video": {
+    "src": "assets/midia/tk_cel_teste.mp4",
+    "ms": 0
+   }
+  },
+  {
+   "tipo": "texto",
+   "t": 19.66,
+   "d": 3.15,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "AS PERGUNTAS PARECEM REAIS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 22.86,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 22.86,
+   "d": 4.15,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CONTAR DEDO NÃO É DIAGNÓSTICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 27.06,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 27.06,
+   "d": 3.3,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "DIA RUIM? TODO MUNDO ABAIXA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "glitch",
+   "t": 30.36,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 30.41,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "celular",
+   "t": 30.41,
+   "d": 28.7,
+   "z": 30,
+   "xy": [
+    240,
+    560
+   ],
+   "wh": [
+    600,
+    1100
+   ],
+   "video": {
+    "src": "assets/midia/tk_cel_aula.mp4",
+    "ms": 0
+   }
+  },
+  {
+   "tipo": "texto",
+   "t": 30.61,
+   "d": 28.5,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#111",
+   "alinha": "center",
+   "txt": "● AULA RÁPIDA · DE ONDE VEM A DISTRAÇÃO",
+   "css": "letter-spacing:3px;background:#ffd400;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 30.51,
+   "d": 4.35,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O GERENTE DA ATENÇÃO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "fisio",
+   "t": 30.71,
+   "d": 4.15,
+   "z": 50,
+   "orgaos": [
+    {
+     "k": "cerebro_lado",
+     "xy": [
+      560,
+      1060
+     ],
+     "s": 1.25,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.6
+    },
+    {
+     "o": 0,
+     "t": 3.6
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 32.56,
+   "d": 2.3,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      330,
+      1420
+     ],
+     "para": [
+      380,
+      1180
+     ],
+     "curva": 30
+    }
+   ],
+   "cor": "#b3121f",
+   "espessura": 13,
+   "z": 51,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.56,
+   "d": 2.3,
+   "xy": [
+    300,
+    1440
+   ],
+   "w": 500,
+   "fonte": "700 84px Caveat",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "a frente do cérebro",
+   "z": 52,
+   "entra": "pop",
+   "css": "transform:rotate(-4deg);background:rgba(255,255,255,.92);border-radius:18px;padding:4px 10px",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 34.91,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 34.96,
+   "d": 6.95,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "MUITA COISA ATRAPALHA O GERENTE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 41.96,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 42.01,
+   "d": 6.0,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "NO TDAH, O CAMINHO FUNCIONA DIFERENTE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "fisio",
+   "t": 42.06,
+   "d": 5.95,
+   "z": 50,
+   "orgaos": [
+    {
+     "k": "neuronio",
+     "xy": [
+      545,
+      1060
+     ],
+     "s": 1.1,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      420,
+      1060
+     ],
+     "para": [
+      738,
+      1050
+     ],
+     "curva": -50,
+     "cor": "#ffd400",
+     "t": 1.6,
+     "d": 1.4,
+     "n": 3,
+     "r": 13,
+     "viagem": 1.1,
+     "rotulo": "DOPAMINA"
+    },
+    {
+     "de": [
+      420,
+      1060
+     ],
+     "para": [
+      738,
+      1050
+     ],
+     "curva": -50,
+     "cor": "#ffd400",
+     "t": 3.4,
+     "d": 2.2,
+     "n": 4,
+     "r": 11,
+     "viagem": 0.8
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 46.16,
+   "d": 1.85,
+   "xy": [
+    320,
+    1400
+   ],
+   "w": 440,
+   "fonte": "700 96px Caveat",
+   "cor": "#1f6fb2",
+   "alinha": "center",
+   "txt": "desde criança",
+   "z": 52,
+   "entra": "pop",
+   "css": "transform:rotate(-3deg);background:rgba(255,255,255,.92);border-radius:18px;padding:4px 10px",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 48.06,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 48.11,
+   "d": 5.4,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O TERMÔMETRO MOSTRA A FEBRE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "fisio",
+   "t": 48.16,
+   "d": 5.35,
+   "z": 50,
+   "orgaos": [
+    {
+     "k": "termometro",
+     "xy": [
+      540,
+      1040
+     ],
+     "s": 1.25,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.1
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 50.16,
+   "d": 3.35,
+   "xy": [
+    600,
+    900
+   ],
+   "w": 200,
+   "fonte": "700 96px Caveat",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "38,5°",
+   "z": 52,
+   "entra": "pop",
+   "css": "transform:rotate(6deg);background:rgba(255,255,255,.92);border-radius:18px;padding:4px 10px",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 51.56,
+   "d": 1.95,
+   "xy": [
+    290,
+    1400
+   ],
+   "w": 240,
+   "fonte": "700 96px Caveat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "gripe?",
+   "z": 52,
+   "entra": "pop",
+   "css": "transform:rotate(-5deg);background:rgba(255,255,255,.92);border-radius:18px;padding:4px 10px",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 51.86,
+   "d": 1.65,
+   "xy": [
+    560,
+    1400
+   ],
+   "w": 260,
+   "fonte": "700 96px Caveat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "dengue?",
+   "z": 52,
+   "entra": "pop",
+   "css": "transform:rotate(4deg);background:rgba(255,255,255,.92);border-radius:18px;padding:4px 10px",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 53.56,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 53.61,
+   "d": 3.2,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O TESTE DO DEDO É IGUAL",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 56.86,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 56.86,
+   "d": 2.25,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ff5a5f",
+   "alinha": "center",
+   "txt": "NÃO ACHA A CAUSA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "glitch",
+   "t": 59.06,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 59.11,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "celular",
+   "t": 59.11,
+   "d": 17.24,
+   "z": 30,
+   "xy": [
+    240,
+    560
+   ],
+   "wh": [
+    600,
+    1100
+   ],
+   "video": {
+    "src": "assets/midia/tk_cel_estudo.mp4",
+    "ms": 0
+   }
+  },
+  {
+   "tipo": "texto",
+   "t": 59.21,
+   "d": 6.6,
+   "xy": [
+    40,
+    262
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "50 VÍDEOS DE TESTE DE TDAH",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "numero",
+   "t": 65.86,
+   "d": 3.1000000000000014,
+   "xy": [
+    0,
+    165
+   ],
+   "valor": 92,
+   "suf": "%",
+   "tam": 220,
+   "cor": "#ff5a5f",
+   "sombra": "#5c0f14",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 66.26,
+   "d": 2.65,
+   "xy": [
+    40,
+    432
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#ff5a5f",
+   "alinha": "center",
+   "txt": "ENGANOSOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 68.96,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 68.96,
+   "d": 7.34,
+   "xy": [
+    40,
+    262
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "NEM QUESTIONÁRIO OFICIAL BASTA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 59.41,
+   "d": 9.55,
+   "xy": [
+    40,
+    132
+   ],
+   "w": 1000,
+   "fonte": "600 26px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Verma e Sinha, 2024 · doi 10.1177/10398562241291956",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000;background:rgba(0,0,0,.55);border-radius:10px;padding:4px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 68.96,
+   "d": 7.37,
+   "xy": [
+    40,
+    132
+   ],
+   "w": 1000,
+   "fonte": "600 26px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Faraone e col., 2021 · doi 10.1016/j.neubiorev.2021.01.022",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000;background:rgba(0,0,0,.55);border-radius:10px;padding:4px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 76.3,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 76.35,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/cta6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     76.35,
+     1.0,
+     0.01
+    ],
+    [
+     78.35,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 76.55,
+   "d": 3.87,
+   "y": 215,
+   "txt": "SEGUE + CURTE = TREINO DO DEDÃO",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "video",
+   "t": 80.52,
+   "d": 9.26,
+   "ms": 40.0,
+   "src": "assets/midia/tk_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     80.52,
+     1.04,
+     0.01
+    ],
+    [
+     80.57,
+     1.16,
+     0.9
+    ],
+    [
+     81.47,
+     1.04,
+     0.9
+    ],
+    [
+     82.37,
+     1.16,
+     0.9
+    ],
+    [
+     83.27,
+     1.04,
+     0.9
+    ],
+    [
+     84.17,
+     1.16,
+     0.9
+    ],
+    [
+     85.07,
+     1.04,
+     0.9
+    ],
+    [
+     85.97,
+     1.16,
+     0.9
+    ],
+    [
+     86.87,
+     1.04,
+     0.9
+    ],
+    [
+     87.77,
+     1.16,
+     0.9
+    ],
+    [
+     88.67,
+     1.04,
+     0.9
+    ],
+    [
+     89.57,
+     1.16,
+     0.21
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 80.52,
+   "d": 9.26,
+   "cor": "rgba(239,228,201,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 80.47,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 80.52,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "celular",
+   "t": 80.52,
+   "d": 9.26,
+   "z": 30,
+   "xy": [
+    240,
+    560
+   ],
+   "wh": [
+    600,
+    1100
+   ],
+   "img": "assets/midia/tk_cel_fim.jpg"
+  },
+  {
+   "tipo": "texto",
+   "t": 80.52,
+   "d": 3.3,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "DEU POSITIVO? LEVA AO MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "flash",
+   "t": 83.82,
+   "d": 0.2,
+   "max": 0.4
+  },
+  {
+   "tipo": "texto",
+   "t": 83.82,
+   "d": 2.75,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "TESTE LEVANTA A DÚVIDA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "texto",
+   "t": 86.57,
+   "d": 3.21,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "AVALIAÇÃO RESPONDE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 86.82,
+   "d": 2.960000000000008,
+   "xy": [
+    150,
+    1180
+   ],
+   "txt": "SÓ COM AVALIAÇÃO",
+   "tam": 92,
+   "rot": -6,
+   "z": 60,
+   "cor": "#1f9e4f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.2
+  }
+ ]
+}

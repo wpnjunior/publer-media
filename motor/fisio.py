@@ -165,3 +165,10 @@ ART["sabao"] = '''<g>
       <circle cx="10" cy="60" r="64" fill="#a9bb3c" stroke="#5d6a12" stroke-width="6"/>
       <circle cx="110" cy="50" r="38" fill="#c8d65a" stroke="#5d6a12" stroke-width="6"/>
       <circle cx="-88" cy="-40" r="14" fill="#fff" opacity=".5"/><circle cx="40" cy="-62" r="11" fill="#fff" opacity=".5"/><circle cx="-8" cy="38" r="15" fill="#fff" opacity=".5"/></g>'''
+
+
+# Órgãos extras sem editar este arquivo (vários ajudantes trabalham ao mesmo tempo):
+# cada fisio_extra/<nome>.svg contém só o <g>...</g> do desenho (centro em 0,0; cabe em ±200).
+import glob as _glob, os as _os
+for _f in _glob.glob(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "fisio_extra", "*.svg")):
+    ART[_os.path.splitext(_os.path.basename(_f))[0]] = open(_f, encoding="utf-8").read()

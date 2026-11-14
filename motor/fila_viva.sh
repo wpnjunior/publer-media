@@ -1,6 +1,6 @@
 #!/bin/bash
 # fila_viva.sh: processa ids de saida/fila.txt um por vez (uma linha = um id), sem rodar dois renders juntos
-cd "$(dirname "$0")"
+cd /tmp/claude-0/motor
 touch saida/fila.txt saida/feitos.txt
 while true; do
   while pgrep -f "fila.sh react_" > /dev/null; do sleep 10; done

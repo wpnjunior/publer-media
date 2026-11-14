@@ -1,0 +1,1984 @@
+{
+ "id": "react_l2_protetor",
+ "dur": 94.13,
+ "seed": 214,
+ "fundo": "#16261f",
+ "legenda": {
+  "estilo": "manuscrita",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    1.88
+   ],
+   [
+    1.88,
+    5.98
+   ]
+  ],
+  "ys": [
+   [
+    5.98,
+    13.06,
+    1360
+   ],
+   [
+    13.06,
+    16.46,
+    1010
+   ],
+   [
+    16.46,
+    78.66,
+    1720
+   ],
+   [
+    82.78,
+    94.13,
+    1720
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/pv_ent6.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/pv_ent6.words.json"
+   },
+   {
+    "src": "assets/midia/pv_viral.mp4",
+    "t": 1.88,
+    "ms": 0,
+    "d": 11.18,
+    "palavras": "assets/midia/pv_viral.words.json"
+   },
+   {
+    "src": "assets/midia/pv_r1.mp4",
+    "t": 13.06,
+    "ms": 0,
+    "d": 3.4,
+    "palavras": "assets/midia/pv_r1.words.json"
+   },
+   {
+    "src": "assets/midia/pv_a_voz.wav",
+    "t": 16.46,
+    "ms": 0,
+    "d": 7.96,
+    "palavras": "assets/midia/pv_a_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pv_b_voz.wav",
+    "t": 25.02,
+    "ms": 0,
+    "d": 30.37,
+    "palavras": "assets/midia/pv_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pv_c_voz.wav",
+    "t": 55.99,
+    "ms": 0,
+    "d": 22.27,
+    "palavras": "assets/midia/pv_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pv_cta6.mp4",
+    "t": 78.66,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/pv_cta6.words.json"
+   },
+   {
+    "src": "assets/midia/pv_d_voz.wav",
+    "t": 82.78,
+    "ms": 0,
+    "d": 10.75,
+    "palavras": "assets/midia/pv_d_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 16.46,
+    "ms": 0,
+    "d": 62.2,
+    "gain": 0.3,
+    "fade": 0.8
+   },
+   {
+    "src": "m_emocao",
+    "t": 82.78,
+    "ms": 0,
+    "d": 11.35,
+    "gain": 0.26,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.18,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 5.98,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 13.01,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 13.11,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 16.41,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 16.46,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 17.41,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 18.76,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 20.31,
+    "gain": 0.4
+   },
+   {
+    "src": "scratch",
+    "t": 21.46,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 22.46,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh",
+    "t": 25.02,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 25.17,
+    "gain": 0.3
+   },
+   {
+    "src": "riser",
+    "t": 28.02,
+    "gain": 0.22,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 29.87,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 29.92,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 32.27,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 34.02,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 34.92,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 35.72,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 37.47,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 38.12,
+    "gain": 0.22
+   },
+   {
+    "src": "boing",
+    "t": 39.42,
+    "gain": 0.22
+   },
+   {
+    "src": "boom",
+    "t": 40.32,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh",
+    "t": 42.07,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 42.17,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 46.87,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 47.02,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 49.82,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 49.92,
+    "gain": 0.3
+   },
+   {
+    "src": "riser",
+    "t": 52.02,
+    "gain": 0.2,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh",
+    "t": 55.99,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 56.09,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 64.39,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 67.39,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 70.19,
+    "gain": 0.4
+   },
+   {
+    "src": "riser",
+    "t": 72.39,
+    "gain": 0.25,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 73.89,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "glitch",
+    "t": 78.61,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 78.86,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 82.73,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 84.18,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 87.33,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 89.58,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 91.83,
+    "gain": 0.35
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 94.13,
+   "cor": "#22392f",
+   "textura": "lousa"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/pv_ent6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "PROTETOR BLOQUEIA A VITAMINA D?",
+   "sub": "falaram isso num programa de TV",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 14.58,
+   "box": [
+    40,
+    150,
+    1000,
+    640
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 11.18,
+   "ms": 0,
+   "src": "assets/midia/pv_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    553
+   ],
+   "raio": 14,
+   "pos": "center",
+   "arroba": "via @programapanico",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.06,
+     0.4
+    ],
+    [
+     10.56,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 3.95,
+   "xy": [
+    110,
+    870
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Protetor solar bloqueia a vitamina D?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.18
+  },
+  {
+   "tipo": "texto",
+   "t": 5.98,
+   "d": 7.08,
+   "xy": [
+    40,
+    880
+   ],
+   "w": 1000,
+   "fonte": "105px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "O QUE FOI DITO NA TV",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:6px 6px 0 #000"
+  },
+  {
+   "tipo": "gigante",
+   "t": 5.98,
+   "d": 7.08,
+   "txt": "UVB",
+   "y": 1500,
+   "tam": 420,
+   "cor": "rgba(198,255,61,.35)",
+   "z": 12,
+   "x": [
+    1100,
+    -655
+   ],
+   "contorno": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.01,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 13.06,
+   "d": 3.4,
+   "src": "assets/midia/pv_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    553
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 13.11,
+   "d": 3.3500000000000005,
+   "xy": [
+    40,
+    830
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "MITO.",
+   "z": 50,
+   "entra": "zoom",
+   "css": "text-shadow:10px 10px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 13.06,
+   "d": 3.4000000000000004,
+   "ms": 0,
+   "src": "assets/midia/pv_r1.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 16.41,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 16.46,
+   "d": 0.2,
+   "max": 0.6,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 16.46,
+   "d": 3.85,
+   "txt": "UVB",
+   "y": 1000,
+   "tam": 560,
+   "cor": "rgba(244,241,232,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -873
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 16.51,
+   "d": 3.8,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "“UVB NÃO DÁ CÂNCER”",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 17.41,
+   "d": 2.9,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      440
+     ],
+     "s": 95
+    }
+   ],
+   "espessura": 16,
+   "cor": "#ff6b6b",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 18.76,
+   "d": 1.55,
+   "xy": [
+    40,
+    820
+   ],
+   "w": 1000,
+   "fonte": "240px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "DÁ, SIM.",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 20.31,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 20.31,
+   "d": 4.71,
+   "txt": "VITAMINA D",
+   "y": 1050,
+   "tam": 380,
+   "cor": "rgba(255,226,122,.30)",
+   "z": 12,
+   "x": [
+    -1710,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 20.33,
+   "d": 4.69,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "“PROTETOR BLOQUEIA A VITAMINA D”",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 21.46,
+   "d": 3.56,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      420
+     ],
+     "s": 110
+    }
+   ],
+   "espessura": 16,
+   "cor": "#ff6b6b",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 22.46,
+   "d": 2.56,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "NO DIA A DIA,\\nNÃO.",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 25.02,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 25.02,
+   "d": 4.85,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pv_sol",
+     "xy": [
+      540,
+      860
+     ],
+     "s": 1.9,
+     "t": 0.1
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      540,
+      1240
+     ],
+     "para": [
+      540,
+      1640
+     ],
+     "curva": 0,
+     "cor": "#ff6b6b",
+     "t": 3.4,
+     "d": 1.3,
+     "n": 6,
+     "rotulo": "UVB",
+     "viagem": 0.8
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.5
+    },
+    {
+     "o": 0,
+     "t": 3.7
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 25.02,
+   "d": 4.85,
+   "txt": "SOL",
+   "y": 1180,
+   "tam": 520,
+   "cor": "rgba(244,241,232,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -811
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 26.32,
+   "d": 3.55,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "O SOL MANDA UM RAIO INVISÍVEL",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 29.87,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 29.87,
+   "d": 4.15,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pv_dna",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 2.3,
+     "t": 0.05
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      640,
+      520
+     ],
+     "para": [
+      640,
+      900
+     ],
+     "curva": 0,
+     "cor": "#ff6b6b",
+     "t": 0.3,
+     "d": 1.2,
+     "n": 5,
+     "rotulo": "UVB",
+     "viagem": 0.7
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.5
+    },
+    {
+     "o": 0,
+     "t": 2.9
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 29.87,
+   "d": 4.15,
+   "txt": "DNA",
+   "y": 1450,
+   "tam": 480,
+   "cor": "rgba(77,216,255,.30)",
+   "z": 12,
+   "x": [
+    -648,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 29.92,
+   "d": 2.3,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "BATE NO DNA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 32.27,
+   "d": 1.75,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      655,
+      1220
+     ],
+     "r": [
+      75,
+      75
+     ],
+     "t": 0
+    }
+   ],
+   "espessura": 16,
+   "cor": "#ff6b6b",
+   "z": 35,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.22,
+   "d": 1.8,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#ff9fb4",
+   "alinha": "center",
+   "txt": "DEIXA UM DEFEITINHO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 34.02,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 34.02,
+   "d": 3.45,
+   "cor": "rgba(255,60,60,.22)",
+   "z": 13,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 34.02,
+   "d": 3.45,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pv_pele",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 2.1,
+     "t": 0.05,
+     "rotulo": "PELE",
+     "rot_y": 205
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.9
+    },
+    {
+     "o": 0,
+     "t": 1.7
+    },
+    {
+     "o": 0,
+     "t": 2.5
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 34.02,
+   "d": 3.45,
+   "txt": "ALARME",
+   "y": 1480,
+   "tam": 380,
+   "cor": "rgba(255,159,180,.40)",
+   "z": 12,
+   "x": [
+    1100,
+    -1185
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.04,
+   "d": 3.43,
+   "xy": [
+    40,
+    340
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#ff9fb4",
+   "alinha": "center",
+   "txt": "VERMELHIDÃO = ALARME",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 37.47,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 37.47,
+   "d": 4.6,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pv_dna",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 2.3,
+     "t": 0.05
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 37.62,
+   "d": 4.45,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      264,
+      1178
+     ],
+     "r": [
+      48,
+      48
+     ],
+     "t": 0.0
+    },
+    {
+     "k": "circulo",
+     "c": [
+      632,
+      904
+     ],
+     "r": [
+      48,
+      48
+     ],
+     "t": 0.6
+    },
+    {
+     "k": "circulo",
+     "c": [
+      402,
+      1207
+     ],
+     "r": [
+      48,
+      48
+     ],
+     "t": 1.3
+    },
+    {
+     "k": "circulo",
+     "c": [
+      839,
+      913
+     ],
+     "r": [
+      48,
+      48
+     ],
+     "t": 1.9
+    },
+    {
+     "k": "circulo",
+     "c": [
+      540,
+      1060
+     ],
+     "r": [
+      48,
+      48
+     ],
+     "t": 2.4
+    },
+    {
+     "k": "circulo",
+     "c": [
+      172,
+      925
+     ],
+     "r": [
+      48,
+      48
+     ],
+     "t": 2.8
+    },
+    {
+     "k": "circulo",
+     "c": [
+      908,
+      1195
+     ],
+     "r": [
+      48,
+      48
+     ],
+     "t": 3.1
+    }
+   ],
+   "espessura": 14,
+   "cor": "#ff6b6b",
+   "z": 35,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 37.47,
+   "d": 4.6,
+   "txt": "ANO APÓS ANO",
+   "y": 1460,
+   "tam": 330,
+   "cor": "rgba(244,241,232,.10)",
+   "z": 12,
+   "x": [
+    -1782,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 37.52,
+   "d": 2.85,
+   "xy": [
+    40,
+    340
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "ANO APÓS ANO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 40.27,
+   "d": 1.8,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ff6b6b",
+   "alinha": "center",
+   "txt": "PODE VIRAR CÂNCER",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 42.07,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 42.07,
+   "d": 4.8,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pv_vitd",
+     "xy": [
+      540,
+      1150
+     ],
+     "s": 1.8,
+     "t": 0.1
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      540,
+      520
+     ],
+     "para": [
+      540,
+      780
+     ],
+     "curva": 0,
+     "cor": "#ff6b6b",
+     "t": 1.6,
+     "d": 2.6,
+     "n": 5,
+     "rotulo": "UVB",
+     "viagem": 0.8
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.6
+    },
+    {
+     "o": 0,
+     "t": 3.6
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 42.07,
+   "d": 4.8,
+   "txt": "VITAMINA D",
+   "y": 1480,
+   "tam": 360,
+   "cor": "rgba(255,226,122,.35)",
+   "z": 12,
+   "x": [
+    1100,
+    -1872
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 42.09,
+   "d": 1.5,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "VITAMINA D?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 43.59,
+   "d": 3.28,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "NASCE NA PELE COM O UVB",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 46.87,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 46.87,
+   "d": 2.95,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pv_sol",
+     "xy": [
+      540,
+      1250
+     ],
+     "s": 1.4,
+     "t": 0.1
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.0
+    },
+    {
+     "o": 0,
+     "t": 2.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 46.87,
+   "d": 2.95,
+   "txt": "POUQUINHO",
+   "y": 1560,
+   "tam": 330,
+   "cor": "rgba(244,241,232,.30)",
+   "z": 12,
+   "x": [
+    -1336,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 46.89,
+   "d": 2.93,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "165px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "PRECISA DE POUQUINHO",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 49.82,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 49.82,
+   "d": 6.17,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pv_peneira",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 2.3,
+     "t": 0.1
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      540,
+      560
+     ],
+     "para": [
+      540,
+      950
+     ],
+     "curva": 0,
+     "cor": "#ff6b6b",
+     "t": 2.7,
+     "d": 2.6,
+     "n": 10,
+     "rotulo": "UVB",
+     "viagem": 0.7
+    },
+    {
+     "de": [
+      540,
+      1170
+     ],
+     "para": [
+      540,
+      1600
+     ],
+     "curva": 0,
+     "cor": "#ffe27a",
+     "t": 3.9,
+     "d": 2.2,
+     "n": 3,
+     "rotulo": "UM POUCO PASSA",
+     "viagem": 0.9,
+     "fica": true
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 3.2
+    },
+    {
+     "o": 0,
+     "t": 4.2
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 49.82,
+   "d": 6.17,
+   "txt": "PENEIRA",
+   "y": 1560,
+   "tam": 400,
+   "cor": "rgba(244,241,232,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -1456
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 49.87,
+   "d": 2.75,
+   "xy": [
+    40,
+    270
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "PROTETOR = PENEIRA, NÃO PAREDE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 52.62,
+   "d": 3.37,
+   "xy": [
+    40,
+    270
+   ],
+   "w": 1000,
+   "fonte": "105px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "SEGURA A QUEIMADURA,\\nDEIXA PASSAR UM POUCO",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 55.99,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "artigo",
+   "t": 55.99,
+   "d": 14.2,
+   "box": [
+    100,
+    300,
+    880,
+    640
+   ],
+   "z": 34,
+   "revista": "British Journal of Dermatology · 2019",
+   "titulo": "Protetor bem passado no sol forte: a vitamina D sobe, sem queimar",
+   "autores": "Young e col. · ensaio randomizado, férias em Tenerife",
+   "rola": 0,
+   "linhas": [
+    {
+     "txt": "Uma semana de férias, sol fortíssimo.",
+     "grifo": 57.29
+    },
+    {
+     "txt": "Protetor passado do jeito certo.",
+     "grifo": 61.39
+    },
+    {
+     "txt": "Ninguém queimou.",
+     "grifo": 63.96
+    },
+    {
+     "txt": "A vitamina D subiu mesmo assim.",
+     "grifo": 67.09
+    }
+   ],
+   "rodape": "doi 10.1111/bjd.17888",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 55.99,
+   "d": 14.2,
+   "txt": "ESTUDO",
+   "y": 1420,
+   "tam": 420,
+   "cor": "rgba(244,241,232,.25)",
+   "z": 12,
+   "x": [
+    1100,
+    -1310
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 63.94,
+   "d": 3.1,
+   "xy": [
+    40,
+    1080
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "NINGUÉM QUEIMOU",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 64.39,
+   "d": 2.6,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      540,
+      1560
+     ],
+     "s": 60
+    }
+   ],
+   "espessura": 18,
+   "cor": "#3ddc84",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 67.04,
+   "d": 3.15,
+   "xy": [
+    40,
+    1080
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "VITAMINA D SUBIU",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 67.39,
+   "d": 2.8,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      540,
+      1660
+     ],
+     "para": [
+      540,
+      1470
+     ],
+     "curva": 0
+    }
+   ],
+   "espessura": 18,
+   "cor": "#3ddc84",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 55.99,
+   "d": 14.2,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Young e col., Br J Dermatol 2019 · doi 10.1111/bjd.17888",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 70.19,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 70.19,
+   "d": 8.47,
+   "txt": "AUSTRÁLIA",
+   "y": 1450,
+   "tam": 380,
+   "cor": "rgba(255,226,122,.30)",
+   "z": 12,
+   "x": [
+    -1539,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 70.24,
+   "d": 3.6,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "AUSTRÁLIA: PROTETOR TODO DIA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 73.89,
+   "d": 4.77,
+   "xy": [
+    0,
+    560
+   ],
+   "valor": 39,
+   "pre": "-",
+   "suf": "%",
+   "rotulo": "em 4,5 anos",
+   "tam": 330,
+   "cor": "#ffe27a",
+   "sombra": "#0e1a14",
+   "cor_rotulo": "#f4f1e8",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 73.94,
+   "d": 4.72,
+   "xy": [
+    40,
+    1200
+   ],
+   "w": 1000,
+   "fonte": "105px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "MENOS TUMORES DE UM TIPO DE CÂNCER DE PELE",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 70.19,
+   "d": 8.47,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Green e col., Lancet 1999 · 1.621 moradores, 4,5 anos · doi 10.1016/S0140-6736(98)12168-2",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 78.61,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 78.66,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/pv_cta6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     78.66,
+     1.0,
+     0.01
+    ],
+    [
+     81.26,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40,
+   "fixo": true
+  },
+  {
+   "tipo": "barra",
+   "t": 78.86,
+   "d": 3.87,
+   "y": 215,
+   "txt": "AULA VALEU? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 82.73,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 82.78,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 82.78,
+   "d": 11.35,
+   "txt": "PROTETOR",
+   "y": 1480,
+   "tam": 400,
+   "cor": "rgba(244,241,232,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -1664
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 82.83,
+   "d": 4.5,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "PROTETOR NO QUE FICA DE FORA, TODO DIA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 87.33,
+   "d": 2.25,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#ff9fb4",
+   "alinha": "center",
+   "txt": "VITAMINA D BAIXA?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 89.58,
+   "d": 2.25,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "EXAME DE SANGUE",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 91.83,
+   "d": 2.3,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "CONVERSA COM SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 84.18,
+   "d": 9.95,
+   "xy": [
+    110,
+    900
+   ],
+   "txt": "PENEIRA, NÃO PAREDE",
+   "tam": 100,
+   "rot": -8,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 82.78,
+   "d": 11.35,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Young e col., Br J Dermatol 2019 · Green e col., Lancet 1999",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000",
+   "fixo": true
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ]
+}
