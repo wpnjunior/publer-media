@@ -588,9 +588,10 @@
   {
    "id": "antes-de-rotular-ansiedade",
    "tema": "diagnóstico de ansiedade",
-   "published": false,
-   "slot": null,
-   "caption": "Ansiedade existe, é comum e merece tratamento. Só não merece ser o primeiro rótulo antes de alguém olhar o resto.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ansiedade #tireoide #ferritina #b12 #investigacaoclinica"
+   "published": true,
+   "slot": "2026-11-15T19:05:27Z",
+   "caption": "Ansiedade existe, é comum e merece tratamento. Só não merece ser o primeiro rótulo antes de alguém olhar o resto.\nEste conteúdo é educativo e não substitui a consulta médica.\n#ansiedade #tireoide #ferritina #b12 #investigacaoclinica",
+   "ig_media": "18118668161116064"
   },
   {
    "id": "o-que-o-pedido-nao-pergunta",
