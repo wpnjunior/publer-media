@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Pós-larva",
+   "manchete": "2 gramas no povoamento. <span class=\"hl\">O lucro quase triplica.</span>",
+   "sub": "240 lotes comerciais no Equador: passar de 2g ao transferir pro viveiro de engorda decide o ciclo e o bolso.",
+   "fonte": "Fontes: Valle-Masson et al., AquaTechnica, 2025. doi:10.33936/at.v7i3.7845"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "01",
+   "manchete": "O peso que <span class=\"hl\">decide o ciclo</span>",
+   "corpo": "Em 240 lotes de <b>L. vannamei</b> no Equador, povoar o viveiro de engorda com camarão <b>acima de 2g</b> deu ciclo de <b>57 dias</b>. Abaixo de 2g, o ciclo durou <b>79 dias</b>.",
+   "destaque": "22 dias de diferença é 22 dias de ração e energia que você não paga.",
+   "fonte": "Valle-Masson et al., AquaTechnica, 2025"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "02",
+   "manchete": "O lucro <span class=\"hl\">quase triplicou</span>",
+   "corpo": "Com transferência acima de 2g, o lucro foi de <b>US$ 2.321/ha</b> e <b>US$ 0,70/kg</b>. Abaixo de 2g, caiu para <b>US$ 879/ha</b> e <b>US$ 0,22/kg</b>.",
+   "destaque": "O crescimento semanal também subiu: de 2,73 para 3,14 g/semana.",
+   "fonte": "Valle-Masson et al., AquaTechnica, 2025"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "03",
+   "manchete": "Alimentar <span class=\"hl\">por demanda</span> também pesa",
+   "corpo": "Com alimentador acústico (a demanda), a colheita foi de <b>3.137 kg/ha</b> contra <b>2.886 kg/ha</b> do temporizado, conversão alimentar melhor (<b>1,43</b> vs <b>1,53</b>) e ciclo <b>4,7 dias</b> mais curto.",
+   "destaque": "Não é só a pós-larva: o manejo da ração junto decide o resultado.",
+   "fonte": "Valle-Masson et al., AquaTechnica, 2025"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "numero": "04",
+   "manchete": "A época da despesca <span class=\"hl\">também conta</span>",
+   "corpo": "Ciclos fechados no 2º semestre duraram <b>66 dias</b> (contra <b>85</b> no 1º) e tiveram conversão melhor (<b>1,40-1,48</b> vs <b>1,56-1,64</b>).",
+   "destaque": "Planejar o povoamento pra colher no 2º semestre pesa a favor do seu bolso.",
+   "fonte": "Valle-Masson et al., AquaTechnica, 2025"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta o peso que você quer povoar.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
