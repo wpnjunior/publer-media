@@ -1,0 +1,3569 @@
+{
+ "id": "react_l5_probio",
+ "dur": 92.38,
+ "seed": 515,
+ "fundo": "#0b1512",
+ "legenda": {
+  "estilo": "lima",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.18
+   ]
+  ],
+  "ys": [
+   [
+    2.18,
+    6.23,
+    1720
+   ],
+   [
+    6.23,
+    13.26,
+    1440
+   ],
+   [
+    13.26,
+    17.13,
+    1060
+   ],
+   [
+    17.13,
+    27.078,
+    1700
+   ],
+   [
+    27.078,
+    44.173,
+    1735
+   ],
+   [
+    44.173,
+    92.38,
+    1700
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/pb_ent.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.18,
+    "palavras": "assets/midia/pb_ent.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/pb_viral.mp4",
+    "t": 2.18,
+    "ms": 0,
+    "d": 11.08,
+    "palavras": "assets/midia/pb_viral.words.json",
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/pb_dub_voz.wav",
+    "t": 2.18,
+    "ms": 0,
+    "d": 11.08,
+    "gain": 1.0
+   },
+   {
+    "src": "assets/midia/pb_r1.mp4",
+    "t": 13.26,
+    "ms": 0,
+    "d": 3.87,
+    "palavras": "assets/midia/pb_r1.words.json"
+   },
+   {
+    "src": "assets/midia/pb_ab_voz.wav",
+    "t": 17.28,
+    "ms": 0,
+    "d": 9.298,
+    "palavras": "assets/midia/pb_ab_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pb_au_voz.wav",
+    "t": 27.078,
+    "ms": 0,
+    "d": 16.445,
+    "palavras": "assets/midia/pb_au_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pb_es_voz.wav",
+    "t": 44.223,
+    "ms": 0,
+    "d": 24.425,
+    "palavras": "assets/midia/pb_es_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pb_oq_voz.wav",
+    "t": 69.248,
+    "ms": 0,
+    "d": 10.213,
+    "palavras": "assets/midia/pb_oq_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pb_co_voz.wav",
+    "t": 79.961,
+    "ms": 0,
+    "d": 4.087,
+    "palavras": "assets/midia/pb_co_voz.words.json"
+   },
+   {
+    "src": "assets/midia/pb_cta.mp4",
+    "t": 84.148,
+    "ms": 0,
+    "d": 3.01,
+    "palavras": "assets/midia/pb_cta.words.json"
+   },
+   {
+    "src": "assets/midia/pb_fe_voz.wav",
+    "t": 87.308,
+    "ms": 0,
+    "d": 4.218,
+    "palavras": "assets/midia/pb_fe_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 16.83,
+    "d": 63.43,
+    "gain": 0.16,
+    "fade": 0.8
+   },
+   {
+    "src": "m_humor",
+    "t": 79.66,
+    "d": 4.79,
+    "gain": 0.13,
+    "fade": 0.6
+   },
+   {
+    "src": "m_emocao",
+    "t": 86.96,
+    "d": 5.42,
+    "gain": 0.15,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.18,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.48,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.48,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 4.36,
+    "gain": 0.22
+   },
+   {
+    "src": "glitch",
+    "t": 13.21,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 13.71,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 17.08,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 17.18,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 17.43,
+    "gain": 0.3
+   },
+   {
+    "src": "notif",
+    "t": 19.026,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 20.03,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 20.13,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 22.342,
+    "gain": 0.35
+   },
+   {
+    "src": "teclado",
+    "t": 22.642,
+    "gain": 0.22,
+    "d": 1.2
+   },
+   {
+    "src": "boing",
+    "t": 23.455,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh",
+    "t": 25.546,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 25.985,
+    "gain": 0.32
+   },
+   {
+    "src": "boom",
+    "t": 26.085,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "glitch",
+    "t": 27.028,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 27.128,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 27.328,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 27.578,
+    "gain": 0.25
+   },
+   {
+    "src": "papel",
+    "t": 28.439,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 28.639,
+    "gain": 0.25
+   },
+   {
+    "src": "scratch",
+    "t": 28.739,
+    "gain": 0.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 29.794,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 29.994,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 30.244,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 32.709,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 32.909,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 34.369,
+    "gain": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 34.619,
+    "gain": 0.2
+   },
+   {
+    "src": "boom",
+    "t": 36.03,
+    "gain": 0.4,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 36.686,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 36.886,
+    "gain": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 38.85,
+    "gain": 0.4
+   },
+   {
+    "src": "scratch",
+    "t": 39.15,
+    "gain": 0.2
+   },
+   {
+    "src": "whoosh",
+    "t": 39.151,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 40.456,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 40.656,
+    "gain": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 42.066,
+    "gain": 0.4
+   },
+   {
+    "src": "scratch",
+    "t": 42.316,
+    "gain": 0.2
+   },
+   {
+    "src": "boing",
+    "t": 42.766,
+    "gain": 0.25
+   },
+   {
+    "src": "boing",
+    "t": 42.971,
+    "gain": 0.25
+   },
+   {
+    "src": "glitch",
+    "t": 44.123,
+    "gain": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 44.273,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 44.723,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 48.135,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 48.419,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 48.919,
+    "gain": 0.25
+   },
+   {
+    "src": "riser",
+    "t": 50.841,
+    "gain": 0.16,
+    "d": 1.0
+   },
+   {
+    "src": "boom",
+    "t": 51.741,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 54.465,
+    "gain": 0.35
+   },
+   {
+    "src": "notif",
+    "t": 55.337,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 56.322,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 56.422,
+    "gain": 0.14
+   },
+   {
+    "src": "boing",
+    "t": 56.542,
+    "gain": 0.14
+   },
+   {
+    "src": "boing",
+    "t": 56.662,
+    "gain": 0.14
+   },
+   {
+    "src": "boing",
+    "t": 56.761,
+    "gain": 0.12
+   },
+   {
+    "src": "boing",
+    "t": 56.961,
+    "gain": 0.12
+   },
+   {
+    "src": "boing",
+    "t": 57.161,
+    "gain": 0.12
+   },
+   {
+    "src": "whoosh",
+    "t": 59.273,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 61.021,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 61.89,
+    "gain": 0.18
+   },
+   {
+    "src": "papel",
+    "t": 62.09,
+    "gain": 0.18
+   },
+   {
+    "src": "papel",
+    "t": 62.29,
+    "gain": 0.18
+   },
+   {
+    "src": "papel",
+    "t": 62.49,
+    "gain": 0.18
+   },
+   {
+    "src": "boom",
+    "t": 64.103,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "scratch",
+    "t": 64.642,
+    "gain": 0.25
+   },
+   {
+    "src": "boing",
+    "t": 66.513,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 69.248,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 69.248,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 69.398,
+    "gain": 0.28
+   },
+   {
+    "src": "whoosh2",
+    "t": 72.274,
+    "gain": 0.35
+   },
+   {
+    "src": "notif",
+    "t": 72.424,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 74.534,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 75.842,
+    "gain": 0.28
+   },
+   {
+    "src": "boing",
+    "t": 76.497,
+    "gain": 0.28
+   },
+   {
+    "src": "boing",
+    "t": 77.151,
+    "gain": 0.28
+   },
+   {
+    "src": "whoosh2",
+    "t": 77.454,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 77.654,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 79.961,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 79.961,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 80.111,
+    "gain": 0.3
+   },
+   {
+    "src": "notif",
+    "t": 80.861,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 82.256,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 82.356,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 83.175,
+    "gain": 0.25
+   },
+   {
+    "src": "boing",
+    "t": 83.221,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 84.098,
+    "gain": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 84.348,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 87.108,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 87.208,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 87.308,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 89.798,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 89.898,
+    "gain": 0.25
+   },
+   {
+    "src": "boom",
+    "t": 90.248,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 92.38,
+   "cor": "#0b1512",
+   "textura": "grade"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.18,
+   "ms": 0,
+   "src": "assets/midia/pb_ent.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.18
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 2.06,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "PROBIÓTICO É DINHEIRO JOGADO FORA?",
+   "sub": "a resposta que viralizou num podcast gringo",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.18,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.18,
+   "d": 14.95,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.18,
+   "d": 11.08,
+   "ms": 0,
+   "src": "assets/midia/pb_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 50%",
+   "arroba": "",
+   "respira": false,
+   "zoom": [
+    [
+     2.18,
+     1.0,
+     0.01
+    ],
+    [
+     6.18,
+     1.06,
+     0.4
+    ],
+    [
+     10.76,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.28,
+   "d": 3.95,
+   "xy": [
+    90,
+    1150
+   ],
+   "w": 900,
+   "topo": "Mito ou verdade? 🍎",
+   "txt": "Probiótico em cápsula é dinheiro jogado fora?",
+   "botoes": [
+    "MITO",
+    "VERDADE",
+    "DEPENDE"
+   ],
+   "vel": 0.025,
+   "escolha": 2,
+   "t_escolha": 5.48
+  },
+  {
+   "tipo": "texto",
+   "t": 2.23,
+   "d": 1.95,
+   "xy": [
+    96,
+    212
+   ],
+   "w": 640,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "left",
+   "txt": "🎤 APRESENTADORA PERGUNTA",
+   "z": 36,
+   "entra": "desliza",
+   "dx": -300,
+   "dy": 0,
+   "css": "display:inline-block;width:auto;background:rgba(0,0,0,.72);border-radius:30px;padding:10px 22px;letter-spacing:1px"
+  },
+  {
+   "tipo": "texto",
+   "t": 4.18,
+   "d": 2.54,
+   "xy": [
+    96,
+    212
+   ],
+   "w": 640,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "left",
+   "txt": "🩺 MÉDICA CONVIDADA RESPONDE",
+   "z": 36,
+   "entra": "pop",
+   "dx": -300,
+   "dy": 0,
+   "css": "display:inline-block;width:auto;background:rgba(0,0,0,.72);border-radius:30px;padding:10px 22px;letter-spacing:1px"
+  },
+  {
+   "tipo": "texto",
+   "t": 6.72,
+   "d": 2.3,
+   "xy": [
+    96,
+    212
+   ],
+   "w": 640,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "left",
+   "txt": "🩺 FALA A MÉDICA · APRESENTADORA OUVE",
+   "z": 36,
+   "entra": "pop",
+   "dx": -300,
+   "dy": 0,
+   "css": "display:inline-block;width:auto;background:rgba(0,0,0,.72);border-radius:30px;padding:10px 22px;letter-spacing:1px"
+  },
+  {
+   "tipo": "texto",
+   "t": 9.02,
+   "d": 4.22,
+   "xy": [
+    96,
+    212
+   ],
+   "w": 640,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "left",
+   "txt": "🩺 MÉDICA CONVIDADA RESPONDE",
+   "z": 36,
+   "entra": "pop",
+   "dx": -300,
+   "dy": 0,
+   "css": "display:inline-block;width:auto;background:rgba(0,0,0,.72);border-radius:30px;padding:10px 22px;letter-spacing:1px"
+  },
+  {
+   "tipo": "texto",
+   "t": 2.18,
+   "d": 4.54,
+   "xy": [
+    140,
+    1002
+   ],
+   "w": 300,
+   "fonte": "800 30px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "@melrobbins",
+   "z": 36,
+   "entra": "nada",
+   "css": "background:rgba(8,8,8,.97);border-radius:16px;padding:15px 0"
+  },
+  {
+   "tipo": "texto",
+   "t": 6.72,
+   "d": 2.3,
+   "xy": [
+    130,
+    897
+   ],
+   "w": 300,
+   "fonte": "800 30px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "@melrobbins",
+   "z": 36,
+   "entra": "nada",
+   "css": "background:rgba(8,8,8,.97);border-radius:16px;padding:18px 0"
+  },
+  {
+   "tipo": "texto",
+   "t": 9.02,
+   "d": 4.24,
+   "xy": [
+    140,
+    1002
+   ],
+   "w": 300,
+   "fonte": "800 30px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "@melrobbins",
+   "z": 36,
+   "entra": "nada",
+   "css": "background:rgba(8,8,8,.97);border-radius:16px;padding:15px 0"
+  },
+  {
+   "tipo": "numero",
+   "t": 6.48,
+   "d": 6.73,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 488.5,
+   "dec": 1,
+   "suf": " MIL VIEWS",
+   "tam": 120
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.21,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 13.26,
+   "d": 3.87,
+   "src": "assets/midia/pb_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 13.28,
+   "d": 3.85,
+   "xy": [
+    70,
+    190
+   ],
+   "w": 940,
+   "fonte": "112px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ACERTOU O\\nPRINCIPAL.\\nERROU NA\\nMEIA HORA.",
+   "z": 55,
+   "entra": "pop",
+   "css": "background:rgba(6,14,11,.93);border-radius:14px;height:909px;box-sizing:border-box;padding:56px 30px 0;line-height:1.12;text-shadow:6px 6px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 13.71,
+   "d": 3.42,
+   "xy": [
+    165,
+    765
+   ],
+   "txt": "MEIA VERDADE",
+   "tam": 110,
+   "rot": -6,
+   "z": 60,
+   "cor": "#d97a00",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 13.26,
+   "d": 3.87,
+   "ms": 0,
+   "src": "assets/midia/pb_r1.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 17.08,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 17.13,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.3,
+   "d": 2.73,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SAUDÁVEL? ELA ACERTOU O PRINCIPAL",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 17.33,
+   "d": 2.7,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jp_pessoa",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 1.35,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.59
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 18.976,
+   "d": 1.054,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      800,
+      860
+     ],
+     "s": 95
+    }
+   ],
+   "cor": "#3ddc84",
+   "espessura": 26,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 20.03,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 20.03,
+   "d": 2.312,
+   "txt": "POUCO",
+   "y": 1250,
+   "tam": 430,
+   "cor": "rgba(255,212,0,.45)",
+   "z": 12,
+   "x": [
+    1100,
+    -1118
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 20.05,
+   "d": 2.29,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "A CÁPSULA MUDA POUCO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 20.08,
+   "d": 2.262,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_capsula",
+     "xy": [
+      540,
+      1010
+     ],
+     "s": 1.55,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.33
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 22.342,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 22.36,
+   "d": 3.18,
+   "xy": [
+    40,
+    290
+   ],
+   "w": 1000,
+   "fonte": "111px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "VIVE SÓ MEIA HORA?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 22.392,
+   "d": 4.636,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_relogio",
+     "xy": [
+      540,
+      1010
+     ],
+     "s": 1.55,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.32
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 23.405,
+   "d": 2.141,
+   "z": 31,
+   "orgaos": [
+    {
+     "k": "pb_bact_solo",
+     "xy": [
+      890,
+      1300
+     ],
+     "s": 0.55,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 25.57,
+   "d": 1.51,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "230px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "AÍ NÃO.",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 25.985,
+   "d": 1.043,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      1010
+     ],
+     "s": 230
+    }
+   ],
+   "cor": "#ff2d3d",
+   "espessura": 34,
+   "z": 45,
+   "vel": 0.3,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 27.028,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 27.078,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 27.078,
+   "d": 17.095,
+   "src": "assets/midia/pb_cortica.jpg",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "raio": 0,
+   "sombra": false,
+   "entra": "mascara",
+   "kb": {
+    "s": [
+     1.02,
+     1.08
+    ],
+    "x": [
+     20,
+     -30
+    ],
+    "y": [
+     0,
+     -40
+    ]
+   },
+   "z": 14,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 27.278,
+   "d": 16.895,
+   "xy": [
+    110,
+    122
+   ],
+   "w": 860,
+   "fonte": "700 32px 'Courier Prime'",
+   "cor": "#3a2414",
+   "alinha": "center",
+   "txt": "ARQUIVO · O CASO DA BACTÉRIA DA CÁPSULA",
+   "z": 69,
+   "entra": "desliza",
+   "dy": -200,
+   "css": "letter-spacing:2px;background:#e8d29a;border:3px solid #a8894a;border-radius:10px 10px 4px 4px;padding:12px 0;box-shadow:0 8px 16px rgba(0,0,0,.35);transform:rotate(-1deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 27.128,
+   "d": 2.666,
+   "xy": [
+    70,
+    212
+   ],
+   "w": 940,
+   "fonte": "104px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "INTESTINO = PRÉDIO LOTADO",
+   "z": 44,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "background:#fffdf3;padding:18px 22px 12px;border-radius:6px;box-shadow:0 16px 30px rgba(0,0,0,.45);transform:rotate(-1.2deg);background-image:repeating-linear-gradient(0deg,transparent 0 62px,rgba(40,90,160,.13) 62px 64px);line-height:1.08",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 27.178,
+   "d": 2.616,
+   "xy": [
+    80,
+    560
+   ],
+   "w": 400,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "INTESTINO",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": -5,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/360px 360px no-repeat,#fbf9f2;padding:386px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(-5deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 27.578,
+   "d": 2.216,
+   "xy": [
+    261,
+    546
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 28.189,
+   "d": 1.605,
+   "xy": [
+    495,
+    830
+   ],
+   "w": 540,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "PRÉDIO LOTADO",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": 4,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/500px 500px no-repeat,#fbf9f2;padding:526px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(4deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 28.589,
+   "d": 1.205,
+   "xy": [
+    746,
+    816
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 27.528,
+   "d": 2.266,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "intestino",
+     "xy": [
+      280,
+      760
+     ],
+     "s": 0.78,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 28.539,
+   "d": 1.255,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "pb_predio",
+     "xy": [
+      765,
+      1100
+     ],
+     "s": 1.15,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.45
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 28.739,
+   "d": 1.055,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       280,
+       565
+      ],
+      [
+       522.5,
+       750.0
+      ],
+      [
+       765,
+       835
+      ]
+     ],
+     "j": 1.5
+    }
+   ],
+   "cor": "#c81e1e",
+   "espessura": 7,
+   "z": 37,
+   "vel": 0.55,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 29.794,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 29.824,
+   "d": 2.885,
+   "xy": [
+    70,
+    212
+   ],
+   "w": 940,
+   "fonte": "104px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "MORADORES = BACTÉRIAS DA CASA",
+   "z": 44,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "background:#fffdf3;padding:18px 22px 12px;border-radius:6px;box-shadow:0 16px 30px rgba(0,0,0,.45);transform:rotate(-1.2deg);background-image:repeating-linear-gradient(0deg,transparent 0 62px,rgba(40,90,160,.13) 62px 64px);line-height:1.08",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 29.794,
+   "d": 2.915,
+   "xy": [
+    210,
+    560
+   ],
+   "w": 660,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "OS MORADORES",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": -2,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/620px 620px no-repeat,#fbf9f2;padding:646px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(-2deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 30.194,
+   "d": 2.515,
+   "xy": [
+    521,
+    546
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 30.194,
+   "d": 2.515,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "pb_moradores",
+     "xy": [
+      540,
+      890
+     ],
+     "s": 1.45,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.26
+    },
+    {
+     "o": 0,
+     "t": 2.11
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 32.709,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.739,
+   "d": 3.947,
+   "xy": [
+    70,
+    212
+   ],
+   "w": 940,
+   "fonte": "104px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "VISITA: PASSA VIVA",
+   "z": 44,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "background:#fffdf3;padding:18px 22px 12px;border-radius:6px;box-shadow:0 16px 30px rgba(0,0,0,.45);transform:rotate(-1.2deg);background-image:repeating-linear-gradient(0deg,transparent 0 62px,rgba(40,90,160,.13) 62px 64px);line-height:1.08",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.709,
+   "d": 3.977,
+   "xy": [
+    690,
+    540
+   ],
+   "w": 320,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "CÁPSULA",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": 6,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/280px 280px no-repeat,#fbf9f2;padding:306px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(6deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 33.109,
+   "d": 3.577,
+   "xy": [
+    831,
+    526
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.119,
+   "d": 2.567,
+   "xy": [
+    90,
+    640
+   ],
+   "w": 580,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "A VISITA",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": -3,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/540px 540px no-repeat,#fbf9f2;padding:566px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(-3deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.519,
+   "d": 2.167,
+   "xy": [
+    361,
+    626
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 33.109,
+   "d": 3.577,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "pb_capsula",
+     "xy": [
+      850,
+      700
+     ],
+     "s": 0.62,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 34.469,
+   "d": 2.217,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "pb_visita",
+     "xy": [
+      380,
+      930
+     ],
+     "s": 1.25,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 34.619,
+   "d": 2.067,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       850,
+       545
+      ],
+      [
+       615.0,
+       635.0
+      ],
+      [
+       380,
+       645
+      ]
+     ],
+     "j": 1.5
+    }
+   ],
+   "cor": "#c81e1e",
+   "espessura": 7,
+   "z": 37,
+   "vel": 0.55,
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 35.98,
+   "d": 0.706,
+   "xy": [
+    700,
+    1010
+   ],
+   "txt": "VIVA",
+   "tam": 110,
+   "rot": -10,
+   "z": 46,
+   "cor": "#14964a",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 36.686,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 36.686,
+   "d": 3.77,
+   "txt": "SEM VAGA",
+   "y": 1420,
+   "tam": 330,
+   "cor": "rgba(70,35,10,.22)",
+   "z": 15,
+   "x": [
+    1100,
+    -1372
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 36.716,
+   "d": 3.74,
+   "xy": [
+    70,
+    212
+   ],
+   "w": 940,
+   "fonte": "104px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "SEM VAGA: SAI NO COCÔ",
+   "z": 44,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "background:#fffdf3;padding:18px 22px 12px;border-radius:6px;box-shadow:0 16px 30px rgba(0,0,0,.45);transform:rotate(-1.2deg);background-image:repeating-linear-gradient(0deg,transparent 0 62px,rgba(40,90,160,.13) 62px 64px);line-height:1.08",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 36.686,
+   "d": 3.77,
+   "xy": [
+    70,
+    560
+   ],
+   "w": 560,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "SEM VAGA",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": -4,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/520px 520px no-repeat,#fbf9f2;padding:546px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(-4deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 37.086,
+   "d": 3.37,
+   "xy": [
+    331,
+    546
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 38.65,
+   "d": 1.806,
+   "xy": [
+    560,
+    960
+   ],
+   "w": 460,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "SAÍDA",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": 5,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/420px 420px no-repeat,#fbf9f2;padding:446px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(5deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 39.05,
+   "d": 1.406,
+   "xy": [
+    771,
+    946
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 37.086,
+   "d": 3.37,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "pb_semvaga",
+     "xy": [
+      350,
+      840
+     ],
+     "s": 1.24,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.66
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 39.0,
+   "d": 1.456,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "pb_vaso",
+     "xy": [
+      790,
+      1190
+     ],
+     "s": 0.98,
+     "t": 0.0
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      500,
+      960
+     ],
+     "para": [
+      730,
+      1230
+     ],
+     "curva": -120,
+     "cor": "#ffd400",
+     "t": 0.35,
+     "d": 1.4,
+     "n": 4,
+     "r": 17
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 39.15,
+   "d": 1.306,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       350,
+       565
+      ],
+      [
+       570.0,
+       835.0
+      ],
+      [
+       790,
+       965
+      ]
+     ],
+     "j": 1.5
+    }
+   ],
+   "cor": "#c81e1e",
+   "espessura": 7,
+   "z": 37,
+   "vel": 0.55,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 40.456,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 40.486,
+   "d": 3.687,
+   "xy": [
+    70,
+    212
+   ],
+   "w": 940,
+   "fonte": "104px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "FIBRA = COMIDA DOS MORADORES",
+   "z": 44,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "background:#fffdf3;padding:18px 22px 12px;border-radius:6px;box-shadow:0 16px 30px rgba(0,0,0,.45);transform:rotate(-1.2deg);background-image:repeating-linear-gradient(0deg,transparent 0 62px,rgba(40,90,160,.13) 62px 64px);line-height:1.08",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 40.456,
+   "d": 3.717,
+   "xy": [
+    55,
+    600
+   ],
+   "w": 480,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "FIBRA",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": -4,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/440px 440px no-repeat,#fbf9f2;padding:466px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(-4deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 40.856,
+   "d": 3.317,
+   "xy": [
+    276,
+    586
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 41.866,
+   "d": 2.307,
+   "xy": [
+    560,
+    930
+   ],
+   "w": 480,
+   "fonte": "700 80px Caveat",
+   "cor": "#2a2320",
+   "alinha": "center",
+   "txt": "MORADORES",
+   "z": 32,
+   "entra": "desliza",
+   "dx": 1150,
+   "dy": 0,
+   "rot": 4,
+   "css": "background:radial-gradient(circle at 50% 38%,#fffaf0 0%,#dfe7ea 100%) 20px 20px/440px 440px no-repeat,#fbf9f2;padding:466px 10px 6px;box-shadow:0 24px 44px rgba(0,0,0,.5);transform:rotate(4deg);line-height:1;white-space:nowrap",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 42.266,
+   "d": 1.907,
+   "xy": [
+    781,
+    916
+   ],
+   "w": 38,
+   "fonte": "10px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": " ",
+   "z": 38,
+   "entra": "pop",
+   "css": "height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ff9a9a 0%,#d11d1d 55%,#6a0808 100%);box-shadow:0 6px 7px rgba(0,0,0,.55)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 40.856,
+   "d": 3.317,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "pb_maca",
+     "xy": [
+      295,
+      840
+     ],
+     "s": 1.02,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 42.216,
+   "d": 1.957,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "pb_comendo",
+     "xy": [
+      800,
+      1170
+     ],
+     "s": 1.0,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.8
+    },
+    {
+     "o": 0,
+     "t": 1.6
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      415,
+      980
+     ],
+     "para": [
+      680,
+      1180
+     ],
+     "curva": -110,
+     "cor": "#3ddc84",
+     "t": 0.3,
+     "d": 1.4,
+     "n": 5,
+     "r": 15
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 42.316,
+   "d": 1.857,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       295,
+       605
+      ],
+      [
+       547.5,
+       830.0
+      ],
+      [
+       800,
+       935
+      ]
+     ],
+     "j": 1.5
+    }
+   ],
+   "cor": "#c81e1e",
+   "espessura": 7,
+   "z": 37,
+   "vel": 0.55,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 44.123,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 44.173,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.423,
+   "d": 24.775,
+   "xy": [
+    60,
+    128
+   ],
+   "w": 960,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● O QUE OS ESTUDOS ACHARAM",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "mapa",
+   "t": 44.223,
+   "d": 4.246,
+   "tema": "escuro",
+   "area": [
+    50,
+    490,
+    980,
+    980
+   ],
+   "camera": [
+    [
+     44.223,
+     25,
+     20,
+     0.9,
+     0
+    ],
+    [
+     44.723,
+     31.6,
+     37.2,
+     3.0,
+     2.2
+    ]
+   ],
+   "pinos": [
+    {
+     "ll": [
+      31.9,
+      34.8
+     ],
+     "t": 45.223,
+     "txt": "ISRAEL",
+     "fs": 24,
+     "stroke": "#000",
+     "sw": 8,
+     "cor_txt": "#ffffff",
+     "cor": "#ff2d3d"
+    }
+   ],
+   "z": 20,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.223,
+   "d": 4.246,
+   "xy": [
+    50,
+    490
+   ],
+   "w": 980,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": " ",
+   "z": 25,
+   "entra": "nada",
+   "css": "height:980px;border-radius:12px;border:6px solid #3d6b5c;box-shadow:0 0 0 2400px rgba(6,14,11,.88)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.24,
+   "d": 4.18,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "CIENTISTAS DE ISRAEL, 2018",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.42,
+   "d": 10.04,
+   "xy": [
+    40,
+    1592
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Zmora e col., Cell 2018 · Instituto Weizmann, Israel · doi 10.1016/j.cell.2018.08.041",
+   "z": 86,
+   "css": "text-shadow:0 2px 6px #000",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 48.419,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 48.44,
+   "d": 3.3,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "OLHARAM O INTESTINO POR DENTRO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 48.469,
+   "d": 3.272,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "intestino",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.6,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 48.869,
+   "d": 2.872,
+   "z": 32,
+   "orgaos": [
+    {
+     "k": "pb_lupa",
+     "xy": [
+      650,
+      930
+     ],
+     "s": 1.0,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.9
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 51.741,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 51.741,
+   "d": 2.724,
+   "xy": [
+    0,
+    330
+   ],
+   "valor": 11,
+   "tam": 330,
+   "rotulo": "TIPOS NA CÁPSULA",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 52.041,
+   "d": 2.424,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_capsula",
+     "xy": [
+      540,
+      1260
+     ],
+     "s": 1.25,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.2
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 54.465,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.48,
+   "d": 1.84,
+   "xy": [
+    40,
+    280
+   ],
+   "w": 1000,
+   "fonte": "142px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "CHEGAVAM VIVAS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 54.515,
+   "d": 1.807,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_bact",
+     "xy": [
+      520,
+      1050
+     ],
+     "s": 1.5,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 55.337,
+   "d": 0.985,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      850,
+      760
+     ],
+     "s": 80
+    }
+   ],
+   "cor": "#3ddc84",
+   "espessura": 24,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.46,
+   "d": 6.56,
+   "xy": [
+    40,
+    1592
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Zmora e col., Cell 2018 · Instituto Weizmann, Israel · doi 10.1016/j.cell.2018.08.041",
+   "z": 86,
+   "css": "text-shadow:0 2px 6px #000",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 56.322,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 56.34,
+   "d": 2.83,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CADA PESSOA, UM JEITO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 56.372,
+   "d": 4.649,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jp_pessoa",
+     "xy": [
+      200,
+      700
+     ],
+     "s": 0.5,
+     "t": 0.0
+    },
+    {
+     "k": "jp_pessoa",
+     "xy": [
+      540,
+      700
+     ],
+     "s": 0.5,
+     "t": 0.12
+    },
+    {
+     "k": "jp_pessoa",
+     "xy": [
+      880,
+      700
+     ],
+     "s": 0.5,
+     "t": 0.24
+    },
+    {
+     "k": "pb_parede",
+     "xy": [
+      200,
+      1000
+     ],
+     "s": 0.62,
+     "t": 0.3
+    },
+    {
+     "k": "pb_parede",
+     "xy": [
+      540,
+      1000
+     ],
+     "s": 0.62,
+     "t": 0.4
+    },
+    {
+     "k": "pb_parede",
+     "xy": [
+      880,
+      1000
+     ],
+     "s": 0.62,
+     "t": 0.5
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 56.711,
+   "d": 2.462,
+   "z": 31,
+   "orgaos": [
+    {
+     "k": "pb_bact_solo",
+     "xy": [
+      130,
+      912
+     ],
+     "s": 0.28,
+     "t": 0.0
+    },
+    {
+     "k": "pb_bact_solo",
+     "xy": [
+      200,
+      912
+     ],
+     "s": 0.28,
+     "t": 0.1
+    },
+    {
+     "k": "pb_bact_solo",
+     "xy": [
+      270,
+      912
+     ],
+     "s": 0.28,
+     "t": 0.2
+    },
+    {
+     "k": "pb_bact_solo",
+     "xy": [
+      540,
+      912
+     ],
+     "s": 0.28,
+     "t": 0.3
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 57.626,
+   "d": 1.547,
+   "z": 32,
+   "orgaos": [
+    {
+     "k": "uq_vazio",
+     "xy": [
+      200,
+      1110
+     ],
+     "s": 1.0,
+     "t": 0.0,
+     "rotulo": "MUITO",
+     "rot_y": 20,
+     "cor_rotulo": "#3ddc84"
+    },
+    {
+     "k": "uq_vazio",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 1.0,
+     "t": 0.15,
+     "rotulo": "POUCO",
+     "rot_y": 20,
+     "cor_rotulo": "#ffd400"
+    },
+    {
+     "k": "uq_vazio",
+     "xy": [
+      880,
+      1110
+     ],
+     "s": 1.0,
+     "t": 0.3,
+     "rotulo": "NADA",
+     "rot_y": 20,
+     "cor_rotulo": "#ff2d3d"
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 59.173,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 59.19,
+   "d": 1.83,
+   "xy": [
+    40,
+    270
+   ],
+   "w": 1000,
+   "fonte": "133px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "O EFEITO PASSOU",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 59.223,
+   "d": 1.798,
+   "z": 31,
+   "orgaos": [],
+   "fluxos": [
+    {
+     "de": [
+      200,
+      925
+     ],
+     "para": [
+      1160,
+      820
+     ],
+     "curva": -160,
+     "cor": "#ffd400",
+     "t": 0.1,
+     "d": 1.3,
+     "n": 3,
+     "r": 15
+    },
+    {
+     "de": [
+      540,
+      925
+     ],
+     "para": [
+      1160,
+      860
+     ],
+     "curva": -120,
+     "cor": "#ffd400",
+     "t": 0.3,
+     "d": 1.1,
+     "n": 1,
+     "r": 15
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 61.021,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.04,
+   "d": 3.06,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "7 ESTUDOS COM ADULTOS SAUDÁVEIS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 61.89,
+   "d": 2.263,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_estudo",
+     "xy": [
+      195,
+      760
+     ],
+     "s": 0.62,
+     "t": 0.0
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      425,
+      760
+     ],
+     "s": 0.62,
+     "t": 0.1
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      655,
+      760
+     ],
+     "s": 0.62,
+     "t": 0.2
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      885,
+      760
+     ],
+     "s": 0.62,
+     "t": 0.3
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      310,
+      1010
+     ],
+     "s": 0.62,
+     "t": 0.4
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      540,
+      1010
+     ],
+     "s": 0.62,
+     "t": 0.5
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      770,
+      1010
+     ],
+     "s": 0.62,
+     "t": 0.6
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.02,
+   "d": 8.18,
+   "xy": [
+    40,
+    1592
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Kristensen e col., Genome Med 2016 · 7 ensaios com placebo, adultos saudáveis · doi 10.1186/s13073-016-0300-5",
+   "z": 86,
+   "css": "text-shadow:0 2px 6px #000",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 64.103,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 64.103,
+   "d": 5.095,
+   "xy": [
+    0,
+    300
+   ],
+   "valor": 0,
+   "suf": " DE 7",
+   "tam": 260,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 64.353,
+   "d": 4.845,
+   "xy": [
+    70,
+    668
+   ],
+   "w": 940,
+   "fonte": "100px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "MUDARAM A VARIEDADE DA FLORA",
+   "z": 44,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 64.153,
+   "d": 5.045,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_estudo",
+     "xy": [
+      130,
+      1060
+     ],
+     "s": 0.48,
+     "t": 0.0
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      267,
+      1060
+     ],
+     "s": 0.48,
+     "t": 0.05
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      404,
+      1060
+     ],
+     "s": 0.48,
+     "t": 0.1
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      541,
+      1060
+     ],
+     "s": 0.48,
+     "t": 0.15
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      678,
+      1060
+     ],
+     "s": 0.48,
+     "t": 0.2
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      815,
+      1060
+     ],
+     "s": 0.48,
+     "t": 0.25
+    },
+    {
+     "k": "pb_estudo",
+     "xy": [
+      952,
+      1060
+     ],
+     "s": 0.48,
+     "t": 0.3
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.54
+    },
+    {
+     "o": 1,
+     "t": 0.66
+    },
+    {
+     "o": 2,
+     "t": 0.78
+    },
+    {
+     "o": 3,
+     "t": 0.9
+    },
+    {
+     "o": 4,
+     "t": 1.02
+    },
+    {
+     "o": 5,
+     "t": 1.14
+    },
+    {
+     "o": 6,
+     "t": 1.26
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 66.513,
+   "d": 2.685,
+   "xy": [
+    110,
+    1250
+   ],
+   "w": 860,
+   "fonte": "100px Anton",
+   "cor": "#111",
+   "alinha": "center",
+   "txt": "VS. CÁPSULA DE MENTIRA",
+   "z": 45,
+   "entra": "pop",
+   "css": "background:#ffffff;border-radius:26px;padding:14px 0;box-shadow:0 14px 30px rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 69.198,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 69.248,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 69.27,
+   "d": 3.01,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "TEM USO EM CASOS ESPECÍFICOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 69.298,
+   "d": 2.976,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_capsula",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 1.4,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 72.274,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 72.29,
+   "d": 2.24,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "QUEM INDICA? SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 72.374,
+   "d": 2.16,
+   "xy": [
+    360,
+    760
+   ],
+   "w": 360,
+   "fonte": "300px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": "🩺",
+   "z": 38,
+   "entra": "pop",
+   "css": "filter:drop-shadow(0 10px 12px rgba(0,0,0,.35))",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 74.534,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 74.55,
+   "d": 2.9,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "FRUTA, VERDURA E FEIJÃO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 75.742,
+   "d": 4.169,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_maca",
+     "xy": [
+      210,
+      820
+     ],
+     "s": 0.62,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 76.397,
+   "d": 3.514,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "alface",
+     "xy": [
+      540,
+      820
+     ],
+     "s": 0.62,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 77.051,
+   "d": 2.86,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_feijao",
+     "xy": [
+      870,
+      830
+     ],
+     "s": 0.62,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 77.47,
+   "d": 2.49,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "ALIMENTAM OS MORADORES",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 77.504,
+   "d": 2.407,
+   "z": 31,
+   "orgaos": [
+    {
+     "k": "pb_comendo",
+     "xy": [
+      540,
+      1230
+     ],
+     "s": 1.25,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.8
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 79.911,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 79.961,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 79.98,
+   "d": 2.27,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "DINHEIRO ECONOMIZADO 😉",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 80.011,
+   "d": 2.245,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "cr_cofrinho",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 1.5,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.9
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 82.256,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 82.28,
+   "d": 1.87,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "153px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "MAIS BARATO 😉",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 82.356,
+   "d": 1.792,
+   "xy": [
+    240,
+    900
+   ],
+   "w": 600,
+   "fonte": "900 120px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Seguir",
+   "z": 44,
+   "entra": "pop",
+   "css": "background:#0095f6;border-radius:34px;padding:26px 0;box-shadow:0 20px 50px rgba(0,0,0,.5)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 83.175,
+   "d": 0.973,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      540,
+      985
+     ],
+     "r": [
+      370,
+      150
+     ]
+    }
+   ],
+   "cor": "#ffd400",
+   "espessura": 14,
+   "z": 45,
+   "vel": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 82.556,
+   "d": 1.592,
+   "xy": [
+    425,
+    1180
+   ],
+   "w": 230,
+   "fonte": "170px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": "👆",
+   "z": 38,
+   "entra": "pop",
+   "css": "filter:drop-shadow(0 10px 12px rgba(0,0,0,.35))",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 84.098,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 84.148,
+   "d": 3.01,
+   "ms": 0,
+   "src": "assets/midia/pb_cta.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     84.148,
+     1.0,
+     0.01
+    ],
+    [
+     85.948,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 84.348,
+   "d": 2.76,
+   "y": 215,
+   "txt": "TE AJUDOU? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "glitch",
+   "t": 87.108,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 87.158,
+   "d": 0.2,
+   "max": 0.45
+  },
+  {
+   "tipo": "gigante",
+   "t": 87.158,
+   "d": 2.64,
+   "txt": "VISITA",
+   "y": 1300,
+   "tam": 420,
+   "cor": "rgba(255,212,0,.16)",
+   "z": 12,
+   "x": [
+    1100,
+    -1310
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 87.19,
+   "d": 2.61,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "CÁPSULA É VISITA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000"
+  },
+  {
+   "tipo": "fisio",
+   "t": 87.238,
+   "d": 2.56,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_visita",
+     "xy": [
+      540,
+      1000
+     ],
+     "s": 1.35,
+     "t": 0.0
+    }
+   ]
+  },
+  {
+   "tipo": "flash",
+   "t": 89.798,
+   "d": 0.2,
+   "max": 0.45
+  },
+  {
+   "tipo": "texto",
+   "t": 89.82,
+   "d": 2.56,
+   "xy": [
+    40,
+    230
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "FIBRA ALIMENTA QUEM MORA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:7px 7px 0 #000"
+  },
+  {
+   "tipo": "fisio",
+   "t": 89.848,
+   "d": 2.532,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "pb_comendo",
+     "xy": [
+      540,
+      820
+     ],
+     "s": 1.05,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.8
+    }
+   ]
+  },
+  {
+   "tipo": "carimbo",
+   "t": 90.248,
+   "d": 2.132,
+   "xy": [
+    140,
+    1110
+   ],
+   "txt": "MEIA VERDADE",
+   "tam": 130,
+   "rot": -6,
+   "z": 60,
+   "cor": "#d97a00",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)"
+  },
+  {
+   "tipo": "texto",
+   "t": 87.16,
+   "d": 5.22,
+   "xy": [
+    40,
+    1560
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Zmora 2018 doi 10.1016/j.cell.2018.08.041 · Kristensen 2016 doi 10.1186/s13073-016-0300-5 · Conteúdo educativo",
+   "z": 86,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ]
+}
