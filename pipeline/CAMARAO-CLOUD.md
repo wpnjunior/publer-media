@@ -69,3 +69,47 @@ cozinha, receita ou fofura de bicho.
    `Fontes: <autor et al., revista, ano>` e 5-7 hashtags (#carcinicultura #camarao #vannamei
    #poslarva #aquicultura + 1-2 do tema).
 9. **Reportar** em 3 linhas: tema, fonte (com DOI), pasta enviada (ou motivo de não postar).
+
+## Reels (clone do Wagner + edição do motor) — `.github/workflows/camarao-reels.yml`
+
+Desde 16/11/2026 o perfil também recebe **Reels** feitos a partir dos carrosséis (gancho do clone,
+caixinha "Mito ou verdade?", narração na voz do Wagner, número com fonte, CTA leve). Os roteiros ficam
+em `/mnt/project-files/camarao-reels/<slug>/roteiro.json`. A nuvem NÃO gera voz nem vídeo: o mp4 sai do
+motor e chega aqui só como **link**. O GitHub publica pela mesma API e token do carrossel
+(`IG_TOKEN_CAMARAO`, conta 17841452090508191, `graph.instagram.com/v25.0`) com `pipeline/publish_reels_ig.py`.
+
+**Horário:** 18h07 BRT, reserva 20h37 BRT (o cron deste repo atrasa horas). Cada execução publica **um**
+Reels: o item vencido mais antigo. Item publicado não volta; com menos de 3 h desde o último Reels,
+espera a próxima execução; item com mais de 48 h de atraso **não sai sozinho** (mude `publicar_em`).
+
+**Como pôr um Reels na fila:**
+1. Criar `camarao/reels_queue/<AAAA-MM-DD>-<slug>/meta.json` (o mp4 **não** vai para o git):
+   ```json
+   {"slug": "temperatura-alimentacao",
+    "video_url": "https://resource2.heygen.ai/.../video.mp4?Expires=...",
+    "caption": "<legenda do roteiro.json, com Fonte e 'Conteúdo educativo'>",
+    "cover_ms": 1500,
+    "share_to_feed": true,
+    "publicar_em": "2026-11-20 18:00",
+    "published": false}
+   ```
+   - `video_url`: https público que a Meta consiga baixar (MP4 H.264 + AAC, vertical 9:16, como sai do motor).
+     **Link assinado expira** (o do HeyGen traz `Expires=` na URL): o script recusa link vencido e mostra até
+     quando ele vale. Ponha na fila perto da data ou hospede o mp4 num endereço fixo.
+   - `publicar_em`: hora de **Brasília** (`AAAA-MM-DD HH:MM`; sem fuso = -03:00). Até 18:00 sai no primeiro horário.
+   - `cover_ms` (opcional): quadro da capa em milissegundos (vira `thumb_offset`). `share_to_feed`: aparece no feed.
+2. Conferir sem rede: `FILA_REELS=camarao/reels_queue python pipeline/publish_reels_ig.py checar`.
+3. Ensaio sem publicar: `python pipeline/publish_reels_ig.py publicar --seco` (simula as respostas da API;
+   no GitHub: Actions → camarao-reels → Run workflow → seco = true).
+4. `git add camarao/reels_queue/<pasta>/meta.json` (só esse arquivo) → commit → push em `master`.
+
+**O que o script faz:** POST `/{ig}/media` (media_type=REELS, video_url, caption, share_to_feed,
+thumb_offset) → consulta `status_code` a cada 15 s até FINISHED (ERROR/EXPIRED ou ~10 min = erro claro) →
+POST `/{ig}/media_publish` → grava no meta.json `published`, `status`, `ig_media`, `published_at`, `permalink`.
+- Se o vídeo ainda processa após ~10 min, o `container_id` fica no meta.json e a próxima execução
+  **retoma o mesmo container** (não cria outro).
+- Se a Meta recusa o vídeo (`status: erro_error`/`erro_expired`), o item trava e a fila segue para o próximo;
+  para tentar de novo, corrija o mp4/link e apague `container_id`, `status` e `erro` do meta.json.
+- Antes de publicar, confere se a mesma legenda já está no ar na conta (caso um commit do meta.json
+  tenha falhado): se estiver, só marca publicado.
+- O token nunca aparece no log.

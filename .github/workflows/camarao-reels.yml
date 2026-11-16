@@ -1,0 +1,53 @@
+name: camarao-reels
+# Reels do @aquacultivonovaes (clone do Wagner + edicao do motor) publicado pela API do Instagram com login
+# do Instagram (token IG_TOKEN_CAMARAO, conta 17841452090508191). O carrossel continua no camarao.yml (12h).
+# Fila: camarao/reels_queue/<AAAA-MM-DD>-<slug>/meta.json com video_url (mp4 publico, fora do git) e
+# publicar_em (hora de Brasilia). O cron do GitHub atrasa horas neste repo: o script publica o item VENCIDO
+# mais antigo, um por execucao, e nunca duplica. Como pôr um Reels na fila: pipeline/CAMARAO-CLOUD.md (Reels).
+on:
+  schedule:
+    - cron: "7 21 * * *"    # 18h07 BRT
+    - cron: "37 23 * * *"   # 20h37 BRT - RESERVA: cobre o dia se o primeiro falhar ou atrasar (o script nao duplica)
+  workflow_dispatch:
+    inputs:
+      seco:
+        description: "true = ensaio: simula a API, nada e publicado nem gravado"
+        required: false
+        default: "false"
+concurrency:
+  group: camarao-reels
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      FILA_REELS: camarao/reels_queue
+      IG_ID: "17841452090508191"
+      GRAPH_URL: https://graph.instagram.com/v25.0
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            camarao/reels_queue
+            pipeline
+      - name: publicar o Reels vencido (um por execucao)
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_CAMARAO }}
+          SECO: ${{ github.event.inputs.seco }}
+        run: |
+          if [ "$SECO" = "true" ]; then
+            python pipeline/publish_reels_ig.py publicar --seco
+          else
+            python pipeline/publish_reels_ig.py publicar
+          fi
+      - name: gravar o estado da fila (publicado, ou container para retomar)
+        if: always()
+        run: |
+          [ -d camarao/reels_queue ] || exit 0
+          git config user.name "esteira-bot"
+          git config user.email "esteira@users.noreply.github.com"
+          git add -- 'camarao/reels_queue/*/meta.json'
+          git diff --cached --quiet || git commit -m "camarao: reels publicado [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q origin master && git push -q && break; sleep 5; done
