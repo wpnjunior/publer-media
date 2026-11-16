@@ -6,9 +6,12 @@ Roda no GitHub Actions (.github/workflows/camarao-reels.yml). O carrossel contin
   python pipeline/publish_reels_ig.py publicar --seco     -> ensaio: simula as respostas da API, nada sai
   python pipeline/publish_reels_ig.py checar              -> confere a fila (campos, datas, URL) sem rede
 
-Fila: camarao/reels_queue/<AAAA-MM-DD>-<slug>/meta.json (o mp4 NAO vai para o git):
-  {"video_url": "https://...mp4", "caption": "...", "publicar_em": "2026-11-20 18:00",
-   "share_to_feed": true, "cover_ms": 1500, "published": false}
+Fila: camarao/reels_queue/<AAAA-MM-DD>-<slug>/meta.json (o mp4 NAO vai para o git; fica como asset
+de Release do GitHub neste repo, link permanente):
+  {"video_url": "https://github.com/wpnjunior/publer-media/releases/download/camarao-reels/2026-11-20-slug-v1.mp4",
+   "caption": "...", "publicar_em": "2026-11-20 18:00", "share_to_feed": true, "cover_ms": 1500, "published": false}
+No lugar de video_url pode ir "release_tag" + "release_arquivo" (o script monta o link com GITHUB_REPOSITORY).
+Link assinado (HeyGen/S3) tambem serve; so ele tem Expires, e so ele e conferido quanto a validade.
 publicar_em e hora de Brasilia (sem fuso = BRT, -03:00). O cron do GitHub atrasa horas neste repo,
 por isso o script publica o item vencido mais antigo, um por execucao. Item com mais de ATRASO_MAX_H
 de atraso nao sai sozinho (em 23/10 um carrossel velho foi ao ar por falta dessa trava).
@@ -34,6 +37,7 @@ import urllib.request
 IG = os.environ.get("IG_ID", "17841452090508191")
 GRAPH = os.environ.get("GRAPH_URL", "https://graph.instagram.com/v25.0")
 FILA = os.environ.get("FILA_REELS", "camarao/reels_queue")
+REPO = os.environ.get("GITHUB_REPOSITORY", "wpnjunior/publer-media")   # dono/repo dos assets de Release
 ATRASO_MAX_H = float(os.environ.get("ATRASO_MAX_H", "48"))
 INTERVALO_MIN_H = float(os.environ.get("INTERVALO_MIN_H", "3"))   # entre dois Reels da mesma conta
 ESPERA_S = 15                 # intervalo entre consultas do container
@@ -169,12 +173,41 @@ def expira_em(url):
     return None
 
 
+def url_do_video(meta):
+    """video_url; sem ele, o link do asset de Release montado de release_tag + release_arquivo."""
+    url = str(meta.get("video_url") or "").strip()
+    if url:
+        return url
+    tag = str(meta.get("release_tag") or "").strip()
+    arq = str(meta.get("release_arquivo") or "").strip()
+    if tag and arq:
+        return "https://github.com/%s/releases/download/%s/%s" % (
+            REPO, urllib.parse.quote(tag, safe=""), urllib.parse.quote(arq, safe=""))
+    return ""
+
+
+def link_release(url):
+    """(e_do_github, e_asset_de_release). Asset: https://github.com/<dono>/<repo>/releases/download/<tag>/<arquivo>.
+    O asset redireciona (302) para o armazenamento do GitHub e nao expira enquanto a Release existir."""
+    u = urllib.parse.urlparse(url)
+    if u.netloc.lower() not in ("github.com", "www.github.com"):
+        return False, False
+    partes = [x for x in u.path.split("/") if x]
+    return True, len(partes) >= 6 and partes[2:4] == ["releases", "download"]
+
+
 def problemas(meta):
     """Lista o que impede a publicacao (sem rede)."""
     p = []
-    url = str(meta.get("video_url") or "")
+    url = url_do_video(meta)
     if not url.startswith("https://"):
-        p.append("video_url precisa ser https publica (o mp4 nao vai para o git)")
+        p.append("video_url precisa ser https publica (o mp4 nao vai para o git: suba como asset de Release)")
+    do_github, asset = link_release(url)
+    if do_github and not asset:
+        p.append("link do GitHub precisa ser o do asset: https://github.com/<dono>/<repo>/releases/download/<tag>/<arquivo>.mp4"
+                 " (nao a pagina da Release nem um /blob/)")
+    if asset and not urllib.parse.urlparse(url).path.lower().endswith((".mp4", ".mov")):
+        p.append("asset de Release precisa ser .mp4 ou .mov")
     cap = meta.get("caption")
     if not isinstance(cap, str) or not cap.strip():
         p.append("caption vazia")
@@ -317,20 +350,25 @@ def publicar(api, pasta, gravar_meta=True, conferir_url=True):
                published_at=agora_utc().strftime("%Y-%m-%dT%H:%M:%SZ"), obs="achado ja no ar pela checagem de duplicata")
         return 0
 
+    url = url_do_video(meta)
     if conferir_url and not api.seco:
-        ok, info = video_acessivel(meta["video_url"])
+        ok, info = video_acessivel(url)
         if not ok:
-            log("ERRO: a URL do video nao abre (%s). Gere o link de novo; nada foi enviado ao Instagram." % info)
+            log("ERRO: a URL do video nao abre (%s). Confira o link (Release publicada, nao rascunho; repo publico;"
+                " link assinado vencido?); nada foi enviado ao Instagram." % info)
             return 1
-    exp = expira_em(meta["video_url"])
-    if exp:
-        log("  link do video vale ate %s UTC" % exp.strftime("%d/%m %H:%M"))
+    if link_release(url)[1]:
+        log("  link permanente (asset de Release do GitHub):", url)
+    else:
+        exp = expira_em(url)
+        if exp:
+            log("  link do video vale ate %s UTC" % exp.strftime("%d/%m %H:%M"))
 
     cid = meta.get("container_id")
     if cid:
         log("retomando container ja criado:", cid)
     else:
-        params = {"media_type": "REELS", "video_url": meta["video_url"], "caption": meta["caption"],
+        params = {"media_type": "REELS", "video_url": url, "caption": meta["caption"],
                   "share_to_feed": "true" if meta.get("share_to_feed", True) else "false"}
         if isinstance(meta.get("cover_ms"), int):
             params["thumb_offset"] = str(meta["cover_ms"])
@@ -439,6 +477,8 @@ def cmd_checar(a):
             log("AVISO", nome, "atrasado mais de %g h: NAO sai sozinho; mude publicar_em para reagendar" % ATRASO_MAX_H)
         else:
             extra = " (" + m["status"] + ", container " + m.get("container_id", "?") + ")" if m.get("status") else ""
+            if link_release(url_do_video(m))[1]:
+                extra += " | link permanente (Release)"
             log("OK  ", nome, "sai a partir de", t.astimezone(BRT).strftime("%d/%m %H:%M"), "BRT" + extra)
     return 1 if ruim else 0
 

@@ -73,20 +73,36 @@ cozinha, receita ou fofura de bicho.
 ## Reels (clone do Wagner + edição do motor) — `.github/workflows/camarao-reels.yml`
 
 Desde 16/11/2026 o perfil também recebe **Reels** feitos a partir dos carrosséis (gancho do clone,
-caixinha "Mito ou verdade?", narração na voz do Wagner, número com fonte, CTA leve). Os roteiros ficam
-em `/mnt/project-files/camarao-reels/<slug>/roteiro.json`. A nuvem NÃO gera voz nem vídeo: o mp4 sai do
-motor e chega aqui só como **link**. O GitHub publica pela mesma API e token do carrossel
-(`IG_TOKEN_CAMARAO`, conta 17841452090508191, `graph.instagram.com/v25.0`) com `pipeline/publish_reels_ig.py`.
+caixinha "Mito ou verdade?", narração na voz do Wagner, número com fonte e, no fim, um convite pra seguir
+ou salvar). **Sem venda** (Wagner, 16/11: "vender nada, só trazer o conteúdo"): nem a fala nem a legenda
+oferecem pós-larva, juvenil, berçário, direct ou link na bio. Os roteiros ficam em
+`/mnt/project-files/camarao-reels/<slug>/roteiro.json`. A nuvem NÃO gera voz nem vídeo: o mp4 sai do
+motor pronto (com som) e fica como **asset de Release do GitHub** neste repo, que dá um link permanente.
+O GitHub publica pela mesma API e token do carrossel (`IG_TOKEN_CAMARAO`, conta 17841452090508191, `graph.instagram.com/v25.0`) com `pipeline/publish_reels_ig.py`.
 
 **Horário:** 18h07 BRT, reserva 20h37 BRT (o cron deste repo atrasa horas). Cada execução publica **um**
 Reels: o item vencido mais antigo. Item publicado não volta; com menos de 3 h desde o último Reels,
 espera a próxima execução; item com mais de 48 h de atraso **não sai sozinho** (mude `publicar_em`).
 
 **Como pôr um Reels na fila:**
-1. Criar `camarao/reels_queue/<AAAA-MM-DD>-<slug>/meta.json` (o mp4 **não** vai para o git):
+0. Subir o mp4 final como asset da Release `camarao-reels`. Ele **não** vai para o git, e a Release se
+   cria uma vez só:
+   ```bash
+   gh release create camarao-reels --repo wpnjunior/publer-media --title "Reels do camarão" \
+     --notes "mp4 finais dos Reels do @aquacultivonovaes (links usados nos meta.json)"   # só na 1ª vez
+   gh release upload camarao-reels 2026-11-20-temperatura-alimentacao-v1.mp4 --repo wpnjunior/publer-media
+   ```
+   O link fica `https://github.com/wpnjunior/publer-media/releases/download/camarao-reels/<arquivo>.mp4`.
+   - Use um **nome único por versão** (`<AAAA-MM-DD>-<slug>-v1.mp4`, depois `-v2`) e nunca `--clobber` num
+     arquivo que já está num meta.json: vídeo novo = nome novo + `video_url` novo.
+   - A Release tem de estar **publicada** (rascunho dá 404 para a Meta) e o repo tem de continuar
+     **público**. O link redireciona (302) para o armazenamento do GitHub. O 1º Reels por esse caminho
+     vale conferir no log do Actions (`status_code=FINISHED`). Se a Meta não buscar o vídeo, o item fica
+     `erro_error` e a fila segue para o próximo.
+1. Criar `camarao/reels_queue/<AAAA-MM-DD>-<slug>/meta.json`:
    ```json
    {"slug": "temperatura-alimentacao",
-    "video_url": "https://resource2.heygen.ai/.../video.mp4?Expires=...",
+    "video_url": "https://github.com/wpnjunior/publer-media/releases/download/camarao-reels/2026-11-20-temperatura-alimentacao-v1.mp4",
     "caption": "<legenda do roteiro.json, com Fonte e 'Conteúdo educativo'>",
     "cover_ms": 1500,
     "share_to_feed": true,
@@ -94,8 +110,11 @@ espera a próxima execução; item com mais de 48 h de atraso **não sai sozinho
     "published": false}
    ```
    - `video_url`: https público que a Meta consiga baixar (MP4 H.264 + AAC, vertical 9:16, como sai do motor).
-     **Link assinado expira** (o do HeyGen traz `Expires=` na URL): o script recusa link vencido e mostra até
-     quando ele vale. Ponha na fila perto da data ou hospede o mp4 num endereço fixo.
+     O padrão é o link do asset de Release (permanente: o script **não** confere validade e o log diz
+     "link permanente"). No lugar de `video_url` pode ir `"release_tag": "camarao-reels"` +
+     `"release_arquivo": "<arquivo>.mp4"`, e o script monta o link. Link do GitHub que não seja
+     `/releases/download/...` (página da Release, `/blob/`) é recusado. Um link assinado (HeyGen, `Expires=`)
+     ainda é aceito: só ele tem prazo, e o script recusa o vencido.
    - `publicar_em`: hora de **Brasília** (`AAAA-MM-DD HH:MM`; sem fuso = -03:00). Até 18:00 sai no primeiro horário.
    - `cover_ms` (opcional): quadro da capa em milissegundos (vira `thumb_offset`). `share_to_feed`: aparece no feed.
 2. Conferir sem rede: `FILA_REELS=camarao/reels_queue python pipeline/publish_reels_ig.py checar`.
