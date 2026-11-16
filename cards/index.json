@@ -596,9 +596,10 @@
   {
    "id": "o-que-o-pedido-nao-pergunta",
    "tema": "O que o exame não mede",
-   "published": false,
-   "slot": null,
-   "caption": "Sono, bebida, turno e sofrimento aparecem nos exames sem se identificar. Contar isso ao médico evita que um número circunstancial vire um rótulo permanente.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #sono #estresse #medicinapreventiva #saude"
+   "published": true,
+   "slot": "2026-11-16T22:29:25Z",
+   "caption": "Sono, bebida, turno e sofrimento aparecem nos exames sem se identificar. Contar isso ao médico evita que um número circunstancial vire um rótulo permanente.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #sono #estresse #medicinapreventiva #saude",
+   "ig_media": "18047529794684877"
   },
   {
    "id": "historico-familiar-e-aviso-com-data",
