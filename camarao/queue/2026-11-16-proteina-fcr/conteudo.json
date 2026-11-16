@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "editoria": "Alimentação",
+   "manchete": "Cortar proteína da ração <span class=\"hl\">não economiza</span> o que promete",
+   "sub": "Camarão comeu 60% mais ração barata para crescer igual — e a conversão alimentar quase dobrou: de 1,24 para 1,73.",
+   "fonte": "Fontes: Araujo et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "camarao-cru-no-gelo.jpg",
+   "numero": "01",
+   "manchete": "Proteína baixa, <span class=\"hl\">ração dobrada</span>",
+   "corpo": "Camarões na dieta de <b>25% de proteína</b> precisaram de <b>60% a mais de ração</b> para atingir o mesmo peso dos de <b>40%</b>. A conversão alimentar foi de <b>1,24</b> para <b>1,73</b>.",
+   "destaque": "Achou que estava economizando proteína? Tá pagando mais saco de ração pro mesmo quilo de camarão.",
+   "fonte": "Araujo et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "02",
+   "manchete": "O melhor <span class=\"hl\">FCR</span> do teste",
+   "corpo": "A dieta de <b>40% de proteína</b>, com <b>87,5%</b> da ração padrão, deu a melhor conversão do estudo: <b>1,01</b> de ração por quilo de camarão, com <b>96,66%</b> de sobrevivência.",
+   "destaque": "Ração de qualidade, na medida certa, rende mais que ração barata em dose dobrada.",
+   "fonte": "Araujo et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "03",
+   "manchete": "Crescer mais <span class=\"hl\">custa mais</span>",
+   "corpo": "O maior camarão do teste veio da dieta de <b>30% de proteína</b> com <b>33% a mais de ração</b>: peso final de <b>32,66 g</b>, mas FCR de <b>1,37</b> — pior que o <b>1,08</b> do grupo de referência (40% de proteína).",
+   "destaque": "Peso final recorde não é lucro recorde. O que conta é o custo de ração por quilo produzido.",
+   "fonte": "Araujo et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "numero": "04",
+   "manchete": "A faixa que <span class=\"hl\">fecha a conta</span>",
+   "corpo": "Os autores apontam dietas de <b>30% a 35%</b> de proteína bruta como a alternativa mais indicada para o produtor comercial — o equilíbrio entre crescimento e custo de ração.",
+   "destaque": "Antes de trocar de ração achando que é economia, pergunte o FCR do saco novo, não só o preço do saco.",
+   "fonte": "Araujo et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a conversão alimentar do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
