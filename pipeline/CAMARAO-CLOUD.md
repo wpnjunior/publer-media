@@ -53,8 +53,15 @@ cozinha, receita ou fofura de bicho.
      produz." + "A Aqua Cultivo Novaes produz pós-larva de Litopenaeus vannamei em Jaguaripe-BA.
      Chama no direct..." ligando ao tema do dia. Nunca prometer o que a fazenda não declarou
      (prazo, preço, sobrevivência garantida, certificação).
-   - **Fotos:** só do banco `camarao/fotos/` (viveiros, camarão, água, tanques). Não repetir a mesma
-     foto em slides seguidos; a capa deve ser a mais forte (vista aérea de viveiro ou camarão vivo).
+   - **Fotos (regra de 16/11/2026, a mesma dos carrosséis Papo News):** só do banco `camarao/fotos/`
+     (viveiros, camarão, água, tanques), cada uma escolhida pelo ASSUNTO do seu slide, nunca pela posição;
+     a capa deve ser a mais forte (vista aérea de viveiro ou camarão vivo). Nenhuma foto repete dentro do
+     carrossel, nem foto quase igual. Como o banco tem só 12 fotos, a janela do camarão é 1: nenhuma foto do
+     carrossel ANTERIOR (por isso no máximo 6 slides com foto). Quando entrarem fotos novas no banco, a janela
+     sobe (campo `janela` da marca `camarao` em `esteira2s/fotos-usadas.json`).
+     Antes do push: `python pipeline/checar_fundos.py camarao/queue/<pasta> --marca camarao`.
+     REPROVADO = troque a foto daquele slide e renderize de novo. Passou: rode o mesmo comando com
+     `--registrar` e inclua `esteira2s/fotos-usadas.json` no commit do carrossel.
 6. **Render:** para cada HTML: `npx playwright screenshot --viewport-size=1080,1350 slide_01.html slide_01.png`.
    Abra 2 PNG e confira se nenhum texto vazou do quadro antes de subir.
 7. **Entrega:** criar `camarao/queue/YYYY-MM-DD-<slug>/` (data de HOJE) com `slide_01..0N.png`,

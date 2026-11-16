@@ -1,0 +1,51 @@
+{
+ "marca": "Fertilidade a Dois",
+ "blogId": 8012127,
+ "metricool_id": 425043398,
+ "horario": "2026-11-23 19:36 America/Sao_Paulo",
+ "rede": "instagram",
+ "texto": "idêntico ao agendado (só a foto de fundo mudou)",
+ "slides_total": 6,
+ "slides_trocados": [
+  {
+   "slide": 1,
+   "foto_antiga": "px_homemso_6756358.jpg",
+   "foto_nova": "px_relogio_8217888.jpg",
+   "descricao_nova": "relógio de pulso (\"O relógio dele\")",
+   "motivo": "mesma sessão de px_homemso_6756351 (Fertilidade 16/11, slide 01)",
+   "fonte": "https://www.pexels.com/photo/8217888/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 2,
+   "foto_antiga": "px_casal_8559990.jpg",
+   "foto_nova": "px_casalconversa_4045426.jpg",
+   "descricao_nova": "casal conversando",
+   "motivo": "mesma foto que saiu em 14/11 e em 18/11",
+   "fonte": "https://www.pexels.com/photo/4045426/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 5,
+   "foto_antiga": "px_lab_9574415.jpg",
+   "foto_nova": "px_ampulheta_7224866.jpg",
+   "descricao_nova": "ampulheta (\"Mais de 1 ano tentando\")",
+   "motivo": "mesma sessão de px_lab_9574324 (Fertilidade 14/11, slide 03)",
+   "fonte": "https://www.pexels.com/photo/7224866/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 6,
+   "foto_antiga": "px_casal_3958822.jpg",
+   "foto_nova": "px_casalidade_5425093.jpg",
+   "descricao_nova": "casal maduro, testa com testa (\"A idade é dos dois\")",
+   "motivo": "mesma foto que saiu em 14/11 e em 18/11",
+   "fonte": "https://www.pexels.com/photo/5425093/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  }
+ ],
+ "slides_iguais_ao_agendado": [
+  3,
+  4
+ ]
+}

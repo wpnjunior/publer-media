@@ -1,0 +1,43 @@
+{
+ "marca": "Fertilidade a Dois",
+ "blogId": 8012127,
+ "metricool_id": 424179965,
+ "horario": "2026-11-18 12:38 America/Sao_Paulo",
+ "rede": "instagram",
+ "texto": "idêntico ao agendado (só a foto de fundo mudou)",
+ "slides_total": 6,
+ "slides_trocados": [
+  {
+   "slide": 2,
+   "foto_antiga": "px_casal_8559990.jpg",
+   "foto_nova": "px_casalnotebook_7218514.jpg",
+   "descricao_nova": "casal no sofá com notebook (\"planilha\")",
+   "motivo": "mesma foto que saiu em 14/11 (slide 02) e voltaria em 23/11",
+   "fonte": "https://www.pexels.com/photo/7218514/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 5,
+   "foto_antiga": "px_homemmedico_6129647.jpg",
+   "foto_nova": "px_casaldanca_8933678.jpg",
+   "descricao_nova": "casal rindo",
+   "motivo": "mesma sessão de px_homemmedico_6129444 (Fertilidade 16/11, slide 04)",
+   "fonte": "https://www.pexels.com/photo/8933678/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 6,
+   "foto_antiga": "px_casal_3958822.jpg",
+   "foto_nova": "px_casalcama_3756346.jpg",
+   "descricao_nova": "casal na cama sorrindo (\"Sem cronômetro\")",
+   "motivo": "mesma foto que saiu em 14/11 (slide 06) e voltaria em 23/11",
+   "fonte": "https://www.pexels.com/photo/3756346/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  }
+ ],
+ "slides_iguais_ao_agendado": [
+  1,
+  3,
+  4
+ ]
+}

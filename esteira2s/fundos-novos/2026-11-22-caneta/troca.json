@@ -1,0 +1,27 @@
+{
+ "marca": "Caneta com Músculo",
+ "blogId": 8026015,
+ "metricool_id": 427556523,
+ "horario": "2026-11-22 12:26 America/Sao_Paulo",
+ "rede": "instagram",
+ "texto": "idêntico ao agendado (só a foto de fundo mudou)",
+ "slides_total": 6,
+ "slides_trocados": [
+  {
+   "slide": 4,
+   "foto_antiga": "px_academia_5327508.jpg",
+   "foto_nova": "px_balanca_7801352.jpg",
+   "descricao_nova": "pés na balança (\"Não foi só a balança\")",
+   "motivo": "mesmo homem/mesma sessão de px_academia_5327487 (Caneta 16/11, slide 04)",
+   "fonte": "https://www.pexels.com/photo/7801352/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  }
+ ],
+ "slides_iguais_ao_agendado": [
+  1,
+  2,
+  3,
+  5,
+  6
+ ]
+}

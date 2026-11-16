@@ -31,6 +31,19 @@ Playwright está pré-instalado, (c) git push FUNCIONA. Use exatamente isso.
      no rodapé; manchete curta 2-3 linhas com a palavra-chave em `<span class="hl">dourado</span>`;
      subtítulo com o dado forte; linha de fonte.
    - **INTERNOS**: `numero` ("01","02"...) + manchete + corpo; use `destaque` para o dado/critério.
+   - **FOTOS DE FUNDO (regra de 16/11/2026, o Wagner reclamou de foto repetida):** escolha cada foto pelo
+     ASSUNTO daquele slide (o que o texto dele diz), nunca pela posição ("o do meio é curte e segue, então
+     rosto"; "o último é médico"). Nenhuma foto, nenhuma foto da MESMA SESSÃO (mesma pessoa ou mesmo
+     cenário: ids do Pexels vizinhos, ex. 5327487 e 5327508) e nenhuma imagem quase igual pode repetir no
+     carrossel nem nos últimos 30 carrosséis do Instagram. Os carrosséis desta esteira e os da esteira2s
+     (Metricool) saem no mesmo perfil e ficam juntos em `esteira2s/fotos-usadas.json`, marca `papo`.
+     O que ainda está livre: `python pipeline/checar_fundos.py --marca papo --data <dia do post> --livres`.
+     Nada livre que combine com o slide? Busque foto NOVA em vez de repetir: WebSearch
+     `site:pexels.com <assunto em inglês>`, pegue o id e baixe
+     `https://images.pexels.com/photos/<id>/pexels-photo-<id>.jpeg?auto=compress&w=1400` pelo Playwright
+     (o curl é bloqueado: `r = page.goto(url); open(arq, "wb").write(r.body())`) para
+     `bg_bank/px_<tema>_<id>.jpg`. Confira a foto a olho (rosto acima do número e da manchete). Não conseguiu
+     foto nova? Não poste com foto repetida: encerre reportando "sem foto inédita".
    - **SLIDE "A FONTE" (fazer SEMPRE que houver estudo/diretriz nomeada):** print REAL do artigo.
      Como capturar: `chrome --headless=new --window-size=1400,1000 --screenshot=raw.png
      "https://europepmc.org/article/MED/<PMID>"` (Europe PMC não tem captcha), depois recortar a
@@ -46,7 +59,11 @@ Playwright está pré-instalado, (c) git push FUNCIONA. Use exatamente isso.
    {"topic":"...","source":"...","caption":"<legenda humana>","schedule_at":"<AMANHÃ>T23:00:00Z","published":false}
    ```
    (23:00Z = 20h de Brasília. O Actions publica uma pasta por dia, a mais antiga com schedule_at vencido; se o dia já teve carrossel, a sua sai no dia seguinte.)
-   `git add queue/... && git commit -m "esteira: <tema>" && git push`.
+   **Antes do commit, o portão das fotos:**
+   `python pipeline/checar_fundos.py seu.json --slides queue/<pasta> --marca papo --data <dia do schedule_at>`.
+   REPROVADO = troque a foto daquele slide (pelo assunto dele), renderize de novo e rode de novo.
+   Passou: rode o MESMO comando com `--registrar` e ponha o registro no commit:
+   `git add queue/... esteira2s/fotos-usadas.json && git commit -m "esteira: <tema>" && git push`.
 7. **Legenda HUMANA obrigatória:** cena de consultório/reflexão + dado com fonte + convite suave +
    "Fontes: Medscape · <diretriz>. Conteúdo educativo — não substitui consulta." + 4-5 hashtags.
 8. **Reportar** em 3 linhas: tema, fonte, pasta enviada (ou motivo de não postar).
