@@ -1,0 +1,49 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bg_03.jpg",
+   "editoria": "Endocrinologia",
+   "manchete": "O remédio que te<br>protege do câncer<br>pode cobrar um<br><span class=\"hl\">preço no osso</span>",
+   "sub": "Revisão com <b>quase 12 mil pacientes</b> liga a supressão prolongada do TSH — feita de propósito após cirurgia de tireoide — a perda óssea e mais risco de fratura.",
+   "fonte": "Fonte: Thyroid, 2026 (Esttaifo &amp; Jay)"
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "01",
+   "manchete": "Por que o TSH<br>fica tão <span class=\"hl\">baixo</span>",
+   "corpo": "Depois da cirurgia por câncer de tireoide, a levotiroxina costuma ser usada em dose mais alta de propósito — pra manter o TSH suprimido e reduzir a chance de o câncer voltar.",
+   "destaque": "Suprimir o TSH é uma estratégia de tratamento, não um erro de dose. Mas tem um custo que nem sempre entra na conversa."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "O osso que<br>paga a <span class=\"hl\">conta</span>",
+   "corpo": "Uma revisão juntou <b>35 estudos</b> e quase <b>12 mil pacientes</b>, publicados entre 2011 e fevereiro de 2026, sobre os efeitos desse tratamento no corpo.",
+   "destaque": "Quanto maior a supressão do TSH e quanto mais longo o tratamento, maior a chance de menor densidade óssea, osteoporose e fratura."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_07.jpg",
+   "editoria": "A fonte",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">revisão</span>.",
+   "sub": "Publicada na revista <b>Thyroid</b>, reuniu estudos de 2011 a fevereiro de 2026 sobre levotiroxina após câncer de tireoide.",
+   "corpo": "Esttaifo F, Jay M. <b>Thyroid</b>, 2026.<br>DOI 10.1177/10507256261499041"
+  },
+  {
+   "foto": "bmi_doctor.jpg",
+   "numero": "03",
+   "manchete": "Isso não é motivo<br>pra <span class=\"hl\">parar</span> o remédio",
+   "corpo": "A revisão não avaliou se metas diferentes de TSH mudam o risco de o câncer voltar — ela olhou só os efeitos no osso, não o benefício contra o câncer.",
+   "destaque": "Os próprios autores pedem mais pesquisa e defendem que a meta de TSH seja reavaliada aos poucos, conforme a evolução de cada paciente — nunca fixada de uma vez para sempre."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "04",
+   "manchete": "O que perguntar<br>na próxima <span class=\"hl\">consulta</span>",
+   "corpo": "Se você trata câncer de tireoide há anos com levotiroxina em dose alta, vale perguntar ao seu médico se já é hora de avaliar a densidade óssea — e se a meta de TSH de hoje ainda é a mesma de quando o tratamento começou.",
+   "fonte": "Fontes: Thyroid, 2026, DOI 10.1177/10507256261499041 · Healio (03/nov/2026). Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
