@@ -604,9 +604,10 @@
   {
    "id": "historico-familiar-e-aviso-com-data",
    "tema": "histórico familiar",
-   "published": false,
-   "slot": null,
-   "caption": "Histórico de família serve para antecipar a investigação, não para se conformar. Este conteúdo é educativo e não substitui a consulta médica. #familia #prevencao #coracao #saude #medicina"
+   "published": true,
+   "slot": "2026-11-17T21:18:27Z",
+   "caption": "Histórico de família serve para antecipar a investigação, não para se conformar. Este conteúdo é educativo e não substitui a consulta médica. #familia #prevencao #coracao #saude #medicina",
+   "ig_media": "17992803345115806"
   },
   {
    "id": "idoso-nao-reclama-ele-adapta",
