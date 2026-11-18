@@ -612,9 +612,10 @@
   {
    "id": "idoso-nao-reclama-ele-adapta",
    "tema": "Adaptação esconde perda",
-   "published": false,
-   "slot": null,
-   "caption": "Idoso não reclama, adapta. E adaptação esconde perda de função. Se alguém parou de fazer algo, pergunte por quê. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #idosos #funcionalidade #familia #prevencao"
+   "published": true,
+   "slot": "2026-11-18T20:52:31Z",
+   "caption": "Idoso não reclama, adapta. E adaptação esconde perda de função. Se alguém parou de fazer algo, pergunte por quê. Este conteúdo é educativo e não substitui a consulta médica. #longevidade #idosos #funcionalidade #familia #prevencao",
+   "ig_media": "17878777302582679"
   },
   {
    "id": "glicemia-normal-com-insulina-alta",
