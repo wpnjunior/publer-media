@@ -1,0 +1,49 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_capa.jpg",
+   "editoria": "Gastroenterologia",
+   "manchete": "Dormir tarde<br>pode abrir uma<br><span class=\"hl\">porta</span> no intestino",
+   "sub": "Estudo com pessoas com obesidade liga <b>cronotipo noturno</b> e refeições tardias a mais inflamação e uma barreira intestinal mais permeável.",
+   "fonte": "Fonte: iScience, 2026 (Khoshaba, Bishehsari et al. — Rush University)"
+  },
+  {
+   "foto": "peri_awake.jpg",
+   "numero": "01",
+   "manchete": "O relógio que<br>também é <span class=\"hl\">intestinal</span>",
+   "corpo": "Pesquisadores avaliaram <b>87 adultos com obesidade</b> e cruzaram o cronotipo — se a pessoa rende mais de dia ou de noite — e o horário das refeições com marcadores de inflamação e permeabilidade intestinal.",
+   "destaque": "Mais de 2 em cada 3 participantes tinham cronotipo tardio — e ele era mais comum em quem já carregava mais componentes da síndrome metabólica."
+  },
+  {
+   "foto": "bg_01_alt.jpg",
+   "numero": "02",
+   "manchete": "Quando o<br>intestino vira<br><span class=\"hl\">porta aberta</span>",
+   "corpo": "A parede do intestino filtra o que entra na circulação: deixa passar nutrientes, barra toxinas. Quando essa barreira fica mais permeável, substâncias inflamatórias escapam para o sangue.",
+   "destaque": "No estudo, o desalinhamento do relógio biológico só se associou a mais inflamação em quem já tinha a barreira intestinal mais permeável — como se a 'porta' precisasse estar destravada pra o efeito aparecer."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_07.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">estudo</span>.",
+   "print": "/tmp/claude-0/-home-user-publer-media/126faf89-9ac8-5b66-afa1-a351ce354ec4/scratchpad/esteira_build/ficha.png",
+   "sub": "Publicado na revista <b>iScience</b> (Cell Press/Elsevier), com pesquisadores da Rush University.",
+   "corpo": "Khoshaba E, Bishehsari F et al. <b>iScience</b>, 2026;29(11):117892.<br>DOI 10.1016/j.isci.2026.117892 · PMID 42927177"
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "03",
+   "manchete": "O que isso<br><span class=\"hl\">não</span> prova",
+   "corpo": "O desenho é transversal: não dá pra saber se é o horário tardio que altera o intestino, ou o intestino alterado que muda o sono. A amostra é pequena (87 pessoas) e o sono foi autorrelatado, sem medir o relógio biológico direto.",
+   "destaque": "Os próprios autores pedem réplica em estudos maiores antes de qualquer recomendação prática."
+  },
+  {
+   "foto": "bg_02.jpg",
+   "numero": "04",
+   "manchete": "Um motivo<br>a mais pra<br><span class=\"hl\">horário</span>",
+   "corpo": "Dormir e comer sempre tarde já era ligado a mais peso e pior controle de açúcar. Esse estudo sugere que o intestino pode ser um dos caminhos por trás dessa conta.",
+   "fonte": "Fontes: iScience, 2026, DOI 10.1016/j.isci.2026.117892 · PMID 42927177. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
