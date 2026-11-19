@@ -1,0 +1,8 @@
+<g>
+  <path d="M-185 40 C-200 -20 -150 -75 -80 -88 C-10 -102 70 -110 130 -90 C185 -72 205 -25 190 20 C175 65 120 85 50 92 C-20 100 -95 105 -140 92 C-168 84 -180 66 -185 40 Z" fill="#8a5a32" stroke="#3e2410" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M-130 -40 C-110 -50 -95 -45 -88 -38 M-30 -70 C-12 -78 6 -74 14 -66 M60 -60 C80 -66 96 -60 104 -52 M-60 40 C-40 30 -25 34 -18 42 M40 30 C60 22 76 26 84 34 M130 0 C146 -6 158 0 162 8" fill="none" stroke="#3e2410" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-180 60 L-200 92 M-120 98 L-128 132 M-40 102 L-40 140 M50 94 L62 128 M140 72 L166 100 M190 10 L222 22" stroke="#3e2410" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="160" cy="-20" rx="38" ry="62" fill="#f3ead2" stroke="#3e2410" stroke-width="7" transform="rotate(-12 160 -20)"/>
+  <circle cx="150" cy="-40" r="5" fill="#c9b78e"/><circle cx="168" cy="-8" r="5" fill="#c9b78e"/><circle cx="155" cy="12" r="4" fill="#c9b78e"/>
+  <ellipse cx="-70" cy="-58" rx="60" ry="12" fill="#fff" opacity=".18"/>
+</g>

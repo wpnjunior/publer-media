@@ -1,0 +1,2954 @@
+{
+ "id": "react_l5_testo",
+ "dur": 88.1,
+ "seed": 515,
+ "fundo": "#0b1512",
+ "legenda": {
+  "estilo": "lima",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.28
+   ],
+   [
+    2.28,
+    6.38
+   ]
+  ],
+  "ys": [
+   [
+    6.38,
+    11.07,
+    1640
+   ],
+   [
+    11.07,
+    14.23,
+    1060
+   ],
+   [
+    14.23,
+    24.862,
+    1720
+   ],
+   [
+    24.862,
+    43.81,
+    1735
+   ],
+   [
+    43.81,
+    78.26,
+    1720
+   ],
+   [
+    78.26,
+    81.27,
+    1560
+   ],
+   [
+    81.27,
+    88.1,
+    1720
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/jt_ent.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.28,
+    "palavras": "assets/midia/jt_ent.words.json"
+   },
+   {
+    "src": "assets/midia/jt_viral.mp4",
+    "t": 2.28,
+    "ms": 0,
+    "d": 8.79,
+    "palavras": "assets/midia/jt_viral.words.json",
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/jt_dub_voz.wav",
+    "t": 2.28,
+    "ms": 0,
+    "d": 8.79,
+    "gain": 1.0
+   },
+   {
+    "src": "assets/midia/jt_rosto.mp4",
+    "t": 11.07,
+    "ms": 0,
+    "d": 3.16,
+    "palavras": "assets/midia/jt_r1.words.json"
+   },
+   {
+    "src": "assets/midia/jt_ab_voz.wav",
+    "t": 14.23,
+    "ms": 0,
+    "d": 10.082,
+    "palavras": "assets/midia/jt_ab_voz.words.json"
+   },
+   {
+    "src": "assets/midia/jt_au_voz.wav",
+    "t": 24.862,
+    "ms": 0,
+    "d": 18.398,
+    "palavras": "assets/midia/jt_au_voz.words.json"
+   },
+   {
+    "src": "assets/midia/jt_es_voz.wav",
+    "t": 43.81,
+    "ms": 0,
+    "d": 21.468,
+    "palavras": "assets/midia/jt_es_voz.words.json"
+   },
+   {
+    "src": "assets/midia/jt_oq_voz.wav",
+    "t": 65.828,
+    "ms": 0,
+    "d": 5.89,
+    "palavras": "assets/midia/jt_oq_voz.words.json"
+   },
+   {
+    "src": "assets/midia/jt_co_voz.wav",
+    "t": 72.218,
+    "ms": 0,
+    "d": 5.688,
+    "palavras": "assets/midia/jt_co_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cta6_serio.mp4",
+    "t": 78.26,
+    "ms": 0,
+    "d": 3.01,
+    "palavras": "assets/midia/cta6_serio.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/jt_fe_voz.wav",
+    "t": 81.27,
+    "ms": 0,
+    "d": 6.229,
+    "palavras": "assets/midia/jt_fe_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_tensao",
+    "t": 10.87,
+    "ms": 0,
+    "d": 14.49,
+    "gain": 0.22,
+    "fade": 0.6
+   },
+   {
+    "src": "m_emocao",
+    "t": 24.46,
+    "ms": 0,
+    "d": 19.85,
+    "gain": 0.26,
+    "fade": 0.6
+   },
+   {
+    "src": "m_investiga",
+    "t": 43.51,
+    "ms": 0,
+    "d": 22.92,
+    "gain": 0.24,
+    "fade": 0.6
+   },
+   {
+    "src": "m_emocao",
+    "t": 65.33,
+    "ms": 20.0,
+    "d": 7.29,
+    "gain": 0.26,
+    "fade": 0.6
+   },
+   {
+    "src": "m_humor",
+    "t": 71.92,
+    "ms": 0,
+    "d": 6.64,
+    "gain": 0.24,
+    "fade": 0.5
+   },
+   {
+    "src": "m_emocao",
+    "t": 78.06,
+    "ms": 2.0,
+    "d": 10.04,
+    "gain": 0.24,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.28,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 6.48,
+    "gain": 0.4,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 7.78,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 11.02,
+    "gain": 0.5
+   },
+   {
+    "src": "scratch",
+    "t": 12.73,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 12.83,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 14.18,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 14.23,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 15.827,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 17.787,
+    "gain": 0.4
+   },
+   {
+    "src": "scratch",
+    "t": 18.287,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 19.044,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 20.174,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 20.274,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 23.091,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 23.434,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 23.634,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "whoosh",
+    "t": 24.862,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 24.862,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 24.982,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 28.396,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 28.516,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 32.227,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 32.347,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 34.7,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 34.82,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 37.122,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 37.242,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 38.986,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 39.106,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 41.501,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 41.621,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 27.38,
+    "gain": 0.3
+   },
+   {
+    "src": "riser",
+    "t": 30.309,
+    "gain": 0.2,
+    "d": 1.4
+   },
+   {
+    "src": "boing",
+    "t": 35.001,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 39.736,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 42.401,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh",
+    "t": 43.81,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 44.11,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 47.168,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 48.896,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 50.807,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 51.507,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 52.411,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "whoosh",
+    "t": 54.856,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 54.956,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 56.685,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 58.17,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh",
+    "t": 61.428,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 62.95,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 64.4,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "whoosh",
+    "t": 65.828,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 67.852,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 68.452,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 70.268,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 70.868,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 72.218,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 74.4,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 75.287,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 75.687,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 78.21,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 78.46,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 81.22,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 82.07,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 85.06,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 86.699,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 88.1,
+   "cor": "#0b1512",
+   "textura": "grade"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.28,
+   "ms": 0,
+   "src": "assets/midia/jt_ent.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.28
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 2.16,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "“1.300% MAIS TESTOSTERONA” COM 14 HORAS DE JEJUM?",
+   "sub": "a fala que viralizou num podcast gringo",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.28,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.28,
+   "d": 11.95,
+   "box": [
+    40,
+    150,
+    1000,
+    933
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.28,
+   "d": 8.79,
+   "ms": 0,
+   "src": "assets/midia/jt_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    853
+   ],
+   "raio": 14,
+   "pos": "center top",
+   "arroba": "via @steven",
+   "arroba_pos": "topo",
+   "respira": false,
+   "zoom": [
+    [
+     2.28,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.06,
+     0.4
+    ],
+    [
+     8.67,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.38,
+   "d": 3.95,
+   "xy": [
+    110,
+    1120
+   ],
+   "w": 860,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Jejum de 14 horas multiplica a testosterona?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.02
+  },
+  {
+   "tipo": "texto",
+   "t": 6.48,
+   "d": 4.59,
+   "xy": [
+    40,
+    1090
+   ],
+   "w": 1000,
+   "fonte": "250px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "1.300%",
+   "z": 44,
+   "css": "text-shadow:1px 1px 0 #7a5a00,2px 2px 0 #7a5a00,3px 3px 0 #7a5a00,4px 4px 0 #7a5a00,5px 5px 0 #7a5a00,6px 6px 0 #7a5a00,7px 7px 0 #7a5a00,8px 8px 0 #7a5a00,9px 9px 0 #7a5a00,10px 10px 0 #7a5a00,11px 11px 0 #7a5a00,12px 12px 0 #7a5a00,13px 13px 0 #7a5a00,14px 14px 0 #7a5a00,15px 15px 0 #7a5a00,16px 16px 0 #7a5a00,17px 17px 0 #7a5a00,0 30px 50px rgba(0,0,0,.6)",
+   "entra": "zoom"
+  },
+  {
+   "tipo": "texto",
+   "t": 7.78,
+   "d": 3.29,
+   "xy": [
+    40,
+    1400
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "EM 13 A 15 HORAS?",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "desliza"
+  },
+  {
+   "tipo": "glitch",
+   "t": 11.02,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 11.07,
+   "d": 3.16,
+   "src": "assets/midia/jt_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    853
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 11.12,
+   "d": 3.11,
+   "xy": [
+    110,
+    800
+   ],
+   "w": 860,
+   "fonte": "100px Anton",
+   "cor": "#111111",
+   "alinha": "center",
+   "txt": "“1.300% EM 14 HORAS”",
+   "z": 50,
+   "css": "background:#ffffff;border-radius:16px;padding:12px 20px;box-shadow:0 14px 34px rgba(0,0,0,.45)",
+   "entra": "pop",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 12.83,
+   "d": 1.4,
+   "xy": [
+    350,
+    740
+   ],
+   "txt": "MITO",
+   "tam": 170,
+   "rot": -9,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 11.07,
+   "d": 3.16,
+   "ms": 0,
+   "src": "assets/midia/jt_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 14.18,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 14.23,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 14.23,
+   "d": 3.557,
+   "txt": "×14",
+   "y": 1380,
+   "tam": 520,
+   "cor": "rgba(255,212,0,.25)",
+   "z": 12,
+   "x": [
+    1100,
+    -811
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 14.28,
+   "d": 3.507,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "240px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "1.300%",
+   "z": 44,
+   "css": "text-shadow:1px 1px 0 #7a5a00,2px 2px 0 #7a5a00,3px 3px 0 #7a5a00,4px 4px 0 #7a5a00,5px 5px 0 #7a5a00,6px 6px 0 #7a5a00,7px 7px 0 #7a5a00,8px 8px 0 #7a5a00,9px 9px 0 #7a5a00,10px 10px 0 #7a5a00,11px 11px 0 #7a5a00,12px 12px 0 #7a5a00,13px 13px 0 #7a5a00,14px 14px 0 #7a5a00,15px 15px 0 #7a5a00,16px 16px 0 #7a5a00,17px 17px 0 #7a5a00,0 30px 50px rgba(0,0,0,.6)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 15.827,
+   "d": 1.96,
+   "xy": [
+    40,
+    820
+   ],
+   "w": 1000,
+   "fonte": "300px Anton",
+   "cor": "#ff4d4d",
+   "alinha": "center",
+   "txt": "= ×14",
+   "z": 44,
+   "css": "text-shadow:1px 1px 0 #6b0f1a,2px 2px 0 #6b0f1a,3px 3px 0 #6b0f1a,4px 4px 0 #6b0f1a,5px 5px 0 #6b0f1a,6px 6px 0 #6b0f1a,7px 7px 0 #6b0f1a,8px 8px 0 #6b0f1a,9px 9px 0 #6b0f1a,10px 10px 0 #6b0f1a,11px 11px 0 #6b0f1a,12px 12px 0 #6b0f1a,13px 13px 0 #6b0f1a,14px 14px 0 #6b0f1a,15px 15px 0 #6b0f1a,16px 16px 0 #6b0f1a,17px 17px 0 #6b0f1a,0 30px 50px rgba(0,0,0,.6)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 16.702,
+   "d": 1.085,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      540,
+      990
+     ],
+     "r": [
+      300,
+      170
+     ]
+    }
+   ],
+   "espessura": 12,
+   "cor": "#ffffff",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 17.787,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 17.787,
+   "d": 2.387,
+   "txt": "TOURO",
+   "y": 1450,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    -990,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.84,
+   "d": 2.34,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "VIROU TOURO?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 17.837,
+   "d": 1.157,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "xicara",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.3,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 18.287,
+   "d": 0.657,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      1020
+     ],
+     "s": 150
+    }
+   ],
+   "espessura": 20,
+   "cor": "#ff2d3d",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 18.944,
+   "d": 1.23,
+   "z": 32,
+   "orgaos": [
+    {
+     "k": "jt_touro",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 1.5,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.5
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 20.174,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 20.174,
+   "d": 2.917,
+   "txt": "ESTUDOS",
+   "y": 1450,
+   "tam": 400,
+   "cor": "rgba(127,211,255,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -1456
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 20.22,
+   "d": 2.87,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PROCUREI NOS ESTUDOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 20.224,
+   "d": 2.867,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_lupa",
+     "xy": [
+      540,
+      1050
+     ],
+     "s": 1.4,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.4
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 23.091,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 23.091,
+   "d": 1.771,
+   "txt": "NADA",
+   "y": 1450,
+   "tam": 460,
+   "cor": "rgba(255,77,77,.16)",
+   "z": 12,
+   "x": [
+    -828,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 23.141,
+   "d": 1.721,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "260px Anton",
+   "cor": "#ff4d4d",
+   "alinha": "center",
+   "txt": "1.300%",
+   "z": 44,
+   "css": "text-shadow:1px 1px 0 #6b0f1a,2px 2px 0 #6b0f1a,3px 3px 0 #6b0f1a,4px 4px 0 #6b0f1a,5px 5px 0 #6b0f1a,6px 6px 0 #6b0f1a,7px 7px 0 #6b0f1a,8px 8px 0 #6b0f1a,9px 9px 0 #6b0f1a,10px 10px 0 #6b0f1a,11px 11px 0 #6b0f1a,12px 12px 0 #6b0f1a,13px 13px 0 #6b0f1a,14px 14px 0 #6b0f1a,15px 15px 0 #6b0f1a,16px 16px 0 #6b0f1a,17px 17px 0 #6b0f1a,0 30px 50px rgba(0,0,0,.6)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 23.434,
+   "d": 1.428,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      560
+     ],
+     "s": 170
+    }
+   ],
+   "espessura": 20,
+   "cor": "#ffffff",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 23.634,
+   "d": 1.228,
+   "xy": [
+    150,
+    930
+   ],
+   "txt": "NÃO APARECE",
+   "tam": 130,
+   "rot": -7,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 24.812,
+   "d": 19.048,
+   "cor": "#22392f",
+   "textura": "lousa",
+   "z": 9,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 24.862,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 24.91,
+   "d": 18.85,
+   "xy": [
+    40,
+    150
+   ],
+   "w": 1000,
+   "fonte": "100px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "COMO NASCE A TESTOSTERONA?",
+   "z": 48,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 24.862,
+   "d": 3.534,
+   "txt": "PADARIA",
+   "y": 1480,
+   "tam": 400,
+   "cor": "rgba(244,241,232,.20)",
+   "z": 12,
+   "x": [
+    1100,
+    -1456
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 24.962,
+   "d": 3.434,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_padaria",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.5,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.518
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 25.98,
+   "d": 2.42,
+   "xy": [
+    40,
+    400
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "PADARIA DO CORPO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 28.396,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 28.396,
+   "d": 3.831,
+   "txt": "BILHETE",
+   "y": 1560,
+   "tam": 300,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    -945,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 28.446,
+   "d": 3.781,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_gerente",
+     "xy": [
+      540,
+      745
+     ],
+     "s": 0.85,
+     "t": 0.0
+    },
+    {
+     "k": "jt_forno",
+     "xy": [
+      540,
+      1440
+     ],
+     "s": 0.5,
+     "t": 1.7130000000000005
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      540,
+      925
+     ],
+     "para": [
+      540,
+      1345
+     ],
+     "curva": 0,
+     "cor": "#f4f1e8",
+     "t": 2.1630000000000003,
+     "d": 1.7,
+     "n": 6,
+     "r": 21,
+     "viagem": 0.8,
+     "fica": true
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.6
+    },
+    {
+     "o": 1,
+     "t": 3.3130000000000006
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 30.259,
+   "d": 1.968,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       540,
+       925
+      ],
+      [
+       516,
+       1000
+      ],
+      [
+       562,
+       1075
+      ],
+      [
+       516,
+       1150
+      ],
+      [
+       562,
+       1225
+      ],
+      [
+       522,
+       1290
+      ],
+      [
+       540,
+       1345
+      ]
+     ],
+     "j": 2
+    }
+   ],
+   "espessura": 30,
+   "cor": "#ff6b6b",
+   "z": 26,
+   "vel": 0.6,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 28.45,
+   "d": 1.96,
+   "xy": [
+    40,
+    400
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ff9fb4",
+   "alinha": "center",
+   "txt": "CÉREBRO = GERENTE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 30.41,
+   "d": 1.82,
+   "xy": [
+    40,
+    405
+   ],
+   "w": 1000,
+   "fonte": "106px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "BILHETE PELO SANGUE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 32.227,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 32.227,
+   "d": 2.473,
+   "txt": "FORNO",
+   "y": 1520,
+   "tam": 420,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    1100,
+    -1092
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 32.277,
+   "d": 2.423,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_forno",
+     "xy": [
+      540,
+      1000
+     ],
+     "s": 1.35,
+     "t": 0.0,
+     "rotulo": "TESTÍCULO",
+     "rot_y": 225,
+     "cor_rotulo": "#ffe27a"
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.33,
+   "d": 2.37,
+   "xy": [
+    40,
+    400
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "FORNO = TESTÍCULO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 34.7,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 34.7,
+   "d": 2.422,
+   "txt": "PÃO",
+   "y": 1560,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    -594,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 34.75,
+   "d": 2.372,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_forno",
+     "xy": [
+      540,
+      880
+     ],
+     "s": 0.95,
+     "t": 0.0
+    },
+    {
+     "k": "jt_paes6",
+     "xy": [
+      540,
+      1280
+     ],
+     "s": 0.95,
+     "t": 0.3010000000000016,
+     "rotulo": "TESTOSTERONA",
+     "rot_y": 175,
+     "cor_rotulo": "#ffe27a"
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 1.3010000000000015
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.8,
+   "d": 2.32,
+   "xy": [
+    40,
+    405
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "PÃO = TESTOSTERONA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 37.122,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 37.122,
+   "d": 1.864,
+   "txt": "DIAS",
+   "y": 1540,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    1100,
+    -915
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 37.172,
+   "d": 1.814,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_despensa",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.4,
+     "t": 0.0,
+     "rotulo": "VAZIA",
+     "rot_y": 240,
+     "cor_rotulo": "#ff9fb4"
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.2
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 37.22,
+   "d": 1.76,
+   "xy": [
+    40,
+    400
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ff9fb4",
+   "alinha": "center",
+   "txt": "SEM COMIDA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 38.986,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 38.986,
+   "d": 2.515,
+   "txt": "APERTO",
+   "y": 1540,
+   "tam": 400,
+   "cor": "rgba(255,159,180,.16)",
+   "z": 12,
+   "x": [
+    -1080,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 39.036,
+   "d": 2.465,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_gerente",
+     "xy": [
+      540,
+      960
+     ],
+     "s": 1.15,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.8
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 39.736,
+   "d": 1.765,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      742,
+      1075
+     ],
+     "s": 62
+    }
+   ],
+   "espessura": 16,
+   "cor": "#ff6b6b",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 39.09,
+   "d": 2.41,
+   "xy": [
+    40,
+    400
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "TEMPO DE APERTO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 41.501,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 41.501,
+   "d": 2.309,
+   "txt": "MENOS",
+   "y": 1540,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    1100,
+    -1144
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 41.551,
+   "d": 2.259,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_forno_fraco",
+     "xy": [
+      500,
+      880
+     ],
+     "s": 0.95,
+     "t": 0.0
+    },
+    {
+     "k": "jt_paes4",
+     "xy": [
+      500,
+      1280
+     ],
+     "s": 0.95,
+     "t": 0.35
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 42.401,
+   "d": 1.409,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      920,
+      960
+     ],
+     "para": [
+      920,
+      1320
+     ],
+     "curva": 0
+    }
+   ],
+   "espessura": 18,
+   "cor": "#ffe27a",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 41.6,
+   "d": 2.21,
+   "xy": [
+    40,
+    400
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffe27a",
+   "alinha": "center",
+   "txt": "MENOS PÃO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:0 0 3px rgba(255,255,255,.45),5px 6px 0 rgba(0,0,0,.4)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 43.81,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 43.91,
+   "d": 21.918,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE OS ESTUDOS MEDIRAM",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "artigo",
+   "t": 44.01,
+   "d": 10.796,
+   "box": [
+    100,
+    290,
+    880,
+    640
+   ],
+   "z": 34,
+   "revista": "Hormone Research · 1987",
+   "titulo": "Jejum curto e o eixo cérebro-testículo em homens saudáveis",
+   "autores": "Röjdmark · 10 homens, antes e depois do jejum",
+   "rola": 0,
+   "linhas": [
+    {
+     "txt": "10 homens saudáveis, de peso normal.",
+     "grifo": 47.368
+    },
+    {
+     "txt": "Mais de 2 dias sem comer (56 horas).",
+     "grifo": 49.246
+    },
+    {
+     "txt": "Testosterona: de 8,7 para 5,7 µg/L.",
+     "grifo": 53.249
+    }
+   ],
+   "rodape": "doi 10.1159/000180645",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 43.81,
+   "d": 2.886,
+   "txt": "1987",
+   "y": 1450,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    1100,
+    -915
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.71,
+   "d": 1.99,
+   "xy": [
+    40,
+    1060
+   ],
+   "w": 1000,
+   "fonte": "200px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "1987",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 46.696,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 46.696,
+   "d": 2.15,
+   "xy": [
+    0,
+    1010
+   ],
+   "valor": 10,
+   "tam": 280,
+   "cor": "#ffd400",
+   "sombra": "#7a5a00",
+   "z": 44,
+   "rotulo": "homens saudáveis",
+   "conta": 0.6,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 48.846,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 48.846,
+   "d": 1.961,
+   "txt": "2 DIAS",
+   "y": 1450,
+   "tam": 420,
+   "cor": "rgba(127,211,255,.22)",
+   "z": 12,
+   "x": [
+    -1134,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 48.846,
+   "d": 1.961,
+   "xy": [
+    0,
+    1040
+   ],
+   "valor": 2,
+   "tam": 300,
+   "cor": "#7fd3ff",
+   "sombra": "#0d4f78",
+   "z": 44,
+   "suf": " DIAS",
+   "conta": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 50.807,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 50.807,
+   "d": 1.604,
+   "txt": "SUBIU?",
+   "y": 1450,
+   "tam": 400,
+   "cor": "rgba(255,212,0,.25)",
+   "z": 12,
+   "x": [
+    -1080,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 50.86,
+   "d": 1.55,
+   "xy": [
+    40,
+    1050
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "NÃO SUBIU",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 51.007,
+   "d": 1.404,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      540,
+      1480
+     ],
+     "para": [
+      540,
+      1290
+     ],
+     "curva": 0
+    }
+   ],
+   "espessura": 18,
+   "cor": "#3ddc84",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 51.507,
+   "d": 0.904,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      1385
+     ],
+     "s": 85
+    }
+   ],
+   "espessura": 20,
+   "cor": "#ff2d3d",
+   "z": 47,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 52.411,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 52.411,
+   "d": 2.445,
+   "txt": "CAIU",
+   "y": 1450,
+   "tam": 460,
+   "cor": "rgba(255,77,77,.18)",
+   "z": 12,
+   "x": [
+    1100,
+    -956
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 52.411,
+   "d": 2.445,
+   "xy": [
+    0,
+    1000
+   ],
+   "valor": 5.7,
+   "tam": 280,
+   "cor": "#ff4d4d",
+   "sombra": "#6b0f1a",
+   "z": 44,
+   "dec": 1,
+   "de": 8.7,
+   "conta": 1.3,
+   "rotulo": "caiu um terço",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.01,
+   "d": 10.846,
+   "xy": [
+    40,
+    210
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Röjdmark, Horm Res 1987 · doi 10.1159/000180645",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000;background:rgba(0,0,0,.35);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 54.856,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "artigo",
+   "t": 54.856,
+   "d": 10.972,
+   "box": [
+    100,
+    290,
+    880,
+    640
+   ],
+   "z": 34,
+   "revista": "Journal of Translational Medicine · 2016",
+   "titulo": "Jejum de 16 horas por 8 semanas em homens que treinam",
+   "autores": "Moro e col. · ensaio randomizado, 17 + 17 homens",
+   "rola": 0,
+   "linhas": [
+    {
+     "txt": "34 homens treinados: 17 em jejum, 17 sem.",
+     "grifo": 56.885
+    },
+    {
+     "txt": "Comiam em 8 horas: 16 horas de jejum.",
+     "grifo": 58.57
+    },
+    {
+     "txt": "Testosterona caiu no grupo do jejum.",
+     "grifo": 61.728
+    },
+    {
+     "txt": "Músculo e força: mantidos.",
+     "grifo": 63.4
+    }
+   ],
+   "rodape": "doi 10.1186/s12967-016-1044-0",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 54.856,
+   "d": 3.314,
+   "txt": "2016",
+   "y": 1450,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    -792,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.91,
+   "d": 3.26,
+   "xy": [
+    40,
+    1060
+   ],
+   "w": 1000,
+   "fonte": "200px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "2016",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 56.685,
+   "d": 4.743,
+   "xy": [
+    70,
+    1440
+   ],
+   "w": 940,
+   "fonte": "100px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "17 EM JEJUM × 17 SEM",
+   "css": "letter-spacing:1px;background:#ffd400;border-radius:18px;padding:8px 0;box-shadow:0 8px 24px rgba(0,0,0,.6)",
+   "z": 62,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 58.17,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 58.17,
+   "d": 3.258,
+   "txt": "16 HORAS",
+   "y": 1450,
+   "tam": 380,
+   "cor": "rgba(127,211,255,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -1580
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 58.22,
+   "d": 3.21,
+   "xy": [
+    40,
+    1010
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#7fd3ff",
+   "alinha": "center",
+   "txt": "16 H DE JEJUM\\nPOR 8 SEMANAS",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 61.428,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 61.428,
+   "d": 1.522,
+   "txt": "CAIU",
+   "y": 1450,
+   "tam": 460,
+   "cor": "rgba(255,77,77,.18)",
+   "z": 12,
+   "x": [
+    -828,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.43,
+   "d": 1.52,
+   "xy": [
+    40,
+    1040
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#ff4d4d",
+   "alinha": "center",
+   "txt": "CAIU TAMBÉM",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 61.728,
+   "d": 1.222,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      985,
+      1230
+     ],
+     "para": [
+      985,
+      1480
+     ],
+     "curva": 0
+    }
+   ],
+   "espessura": 18,
+   "cor": "#ff4d4d",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 62.95,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 62.95,
+   "d": 2.878,
+   "txt": "FORÇA",
+   "y": 1450,
+   "tam": 440,
+   "cor": "rgba(61,220,132,.25)",
+   "z": 12,
+   "x": [
+    1100,
+    -1144
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 63.0,
+   "d": 2.83,
+   "xy": [
+    40,
+    985
+   ],
+   "w": 1000,
+   "fonte": "128px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "MÚSCULO E FORÇA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 63.05,
+   "d": 2.778,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "bb_giz_musculo",
+     "xy": [
+      540,
+      1270
+     ],
+     "s": 0.75,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 64.4,
+   "d": 1.428,
+   "xy": [
+    300,
+    1440
+   ],
+   "txt": "MANTIDOS",
+   "tam": 110,
+   "rot": -6,
+   "z": 60,
+   "cor": "#138a3e",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.856,
+   "d": 10.972,
+   "xy": [
+    40,
+    210
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Moro e col., J Transl Med 2016 · doi 10.1186/s12967-016-1044-0",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000;background:rgba(0,0,0,.35);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 65.828,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 65.828,
+   "d": 2.024,
+   "txt": "CANSAÇO",
+   "y": 1450,
+   "tam": 400,
+   "cor": "rgba(255,212,0,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -1456
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 65.88,
+   "d": 1.97,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "CANSAÇO? POUCA VONTADE?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 65.928,
+   "d": 1.924,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "cf_bateria",
+     "xy": [
+      540,
+      1050
+     ],
+     "s": 1.3,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.9
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 67.852,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 67.852,
+   "d": 2.416,
+   "txt": "EXAME",
+   "y": 1450,
+   "tam": 440,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    -990,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 67.9,
+   "d": 2.37,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CONSULTA E EXAME",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 67.952,
+   "d": 2.316,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "cx_exame",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 1.25,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 68.452,
+   "d": 1.816,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      820,
+      800
+     ],
+     "s": 70
+    }
+   ],
+   "espessura": 20,
+   "cor": "#3ddc84",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 70.268,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 70.268,
+   "d": 1.95,
+   "txt": "RELÓGIO",
+   "y": 1450,
+   "tam": 400,
+   "cor": "rgba(255,77,77,.16)",
+   "z": 12,
+   "x": [
+    1100,
+    -1456
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 70.32,
+   "d": 1.9,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "RELÓGIO? NÃO.",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 70.368,
+   "d": 1.85,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "cy_relogio",
+     "xy": [
+      560,
+      1060
+     ],
+     "s": 1.3,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 70.868,
+   "d": 1.35,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      590,
+      1060
+     ],
+     "s": 170
+    }
+   ],
+   "espessura": 20,
+   "cor": "#ff2d3d",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 72.218,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 72.218,
+   "d": 3.069,
+   "txt": "FOME",
+   "y": 1450,
+   "tam": 460,
+   "cor": "rgba(255,212,0,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -956
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 72.27,
+   "d": 3.02,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "TE POUPEI DA FOME",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 72.318,
+   "d": 2.969,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_touro",
+     "xy": [
+      540,
+      1040
+     ],
+     "s": 1.35,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 74.4,
+   "d": 0.887,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      1040
+     ],
+     "s": 190
+    }
+   ],
+   "espessura": 20,
+   "cor": "#ff2d3d",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 75.287,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 75.287,
+   "d": 2.973,
+   "txt": "SEGUE",
+   "y": 1450,
+   "tam": 460,
+   "cor": "rgba(255,212,0,.12)",
+   "z": 12,
+   "x": [
+    -1035,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 75.34,
+   "d": 2.92,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "JEJUM DE JUÍZO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 75.687,
+   "d": 2.573,
+   "xy": [
+    340,
+    1000
+   ],
+   "w": 400,
+   "fonte": "800 80px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Seguir",
+   "z": 45,
+   "css": "background:#0095f6;border-radius:24px;padding:18px 0;box-shadow:0 12px 30px rgba(0,0,0,.45)",
+   "entra": "pop",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 78.21,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 78.26,
+   "d": 3.01,
+   "ms": 0,
+   "src": "assets/midia/cta6_serio.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     78.26,
+     1.0,
+     0.01
+    ],
+    [
+     80.26,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40,
+   "fixo": true
+  },
+  {
+   "tipo": "barra",
+   "t": 78.46,
+   "d": 2.76,
+   "y": 215,
+   "txt": "TE AJUDOU? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 81.22,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 81.27,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 81.27,
+   "d": 3.79,
+   "txt": "GORDURA",
+   "y": 1450,
+   "tam": 400,
+   "cor": "rgba(255,212,0,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -1456
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 81.32,
+   "d": 3.74,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PODE AJUDAR A EMAGRECER",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 81.37,
+   "d": 3.69,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "balanca",
+     "xy": [
+      540,
+      1060
+     ],
+     "s": 1.2,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 82.07,
+   "d": 2.99,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      860,
+      830
+     ],
+     "s": 70
+    }
+   ],
+   "espessura": 20,
+   "cor": "#3ddc84",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 85.06,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 85.06,
+   "d": 3.04,
+   "txt": "MITO",
+   "y": 1450,
+   "tam": 460,
+   "cor": "rgba(255,77,77,.16)",
+   "z": 12,
+   "x": [
+    -828,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 85.11,
+   "d": 2.99,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "TESTOSTERONA: NÃO TURBINA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 85.21,
+   "d": 2.89,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jt_touro",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 1.15,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 86.699,
+   "d": 1.401,
+   "xy": [
+    330,
+    1150
+   ],
+   "txt": "MITO",
+   "tam": 190,
+   "rot": -8,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 81.27,
+   "d": 6.83,
+   "xy": [
+    40,
+    210
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Röjdmark, Horm Res 1987 · Moro e col., J Transl Med 2016 · conteúdo educativo",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000;background:rgba(0,0,0,.35);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ]
+}

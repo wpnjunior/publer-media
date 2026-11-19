@@ -1,0 +1,35 @@
+{
+ "marca": "Caneta com Músculo",
+ "blogId": 8026015,
+ "metricool_id": 427556464,
+ "horario": "2026-11-19 13:08 America/Sao_Paulo",
+ "rede": "instagram",
+ "texto": "idêntico ao agendado (só a foto de fundo mudou)",
+ "slides_total": 6,
+ "slides_trocados": [
+  {
+   "slide": 4,
+   "foto_antiga": "px_academia_4164759.jpg",
+   "foto_nova": "px_estudos_7054757.jpg",
+   "descricao_nova": "pilha de papéis/estudos",
+   "motivo": "homem de academia de novo no \"Curte e segue\" (foto escolhida pela posição); o texto fala dos 76 estudos",
+   "fonte": "https://www.pexels.com/photo/7054757/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 6,
+   "foto_antiga": "px_homemmedico_6129647.jpg",
+   "foto_nova": "px_medicotelefone_5214952.jpg",
+   "descricao_nova": "médica ao telefone (\"Avise\")",
+   "motivo": "mesma sessão de fotos de px_homemmedico_6129444 (Caneta 16/11, slide 06)",
+   "fonte": "https://www.pexels.com/photo/5214952/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  }
+ ],
+ "slides_iguais_ao_agendado": [
+  1,
+  2,
+  3,
+  5
+ ]
+}

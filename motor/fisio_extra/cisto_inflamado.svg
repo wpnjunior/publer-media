@@ -1,0 +1,10 @@
+<g>
+  <circle r="190" fill="#ff5a5f" fill-opacity=".35" stroke="#ff2d3d" stroke-width="10" stroke-dasharray="26 14"/>
+  <circle r="120" fill="#d8d2c4" stroke="#6b6355" stroke-width="8"/>
+  <path d="M15 25 C-20 30 -30 5 -15 -12 C0 -25 20 -15 18 0" fill="none" stroke="#9c9484" stroke-width="16" stroke-linecap="round"/>
+  <g fill="#a9e3c7" stroke="#1f5c42" stroke-width="5">
+    <circle cx="0" cy="-158" r="20"/><circle cx="112" cy="-112" r="20"/><circle cx="158" cy="0" r="20"/><circle cx="112" cy="112" r="20"/>
+    <circle cx="0" cy="158" r="20"/><circle cx="-112" cy="112" r="20"/><circle cx="-158" cy="0" r="20"/><circle cx="-112" cy="-112" r="20"/>
+  </g>
+  <g fill="#4f9c7a"><circle cx="0" cy="-158" r="7"/><circle cx="112" cy="-112" r="7"/><circle cx="158" cy="0" r="7"/><circle cx="112" cy="112" r="7"/><circle cx="0" cy="158" r="7"/><circle cx="-112" cy="112" r="7"/><circle cx="-158" cy="0" r="7"/><circle cx="-112" cy="-112" r="7"/></g>
+</g>

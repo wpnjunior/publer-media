@@ -53,8 +53,15 @@ cozinha, receita ou fofura de bicho.
      produz." + "A Aqua Cultivo Novaes produz pós-larva de Litopenaeus vannamei em Jaguaripe-BA.
      Chama no direct..." ligando ao tema do dia. Nunca prometer o que a fazenda não declarou
      (prazo, preço, sobrevivência garantida, certificação).
-   - **Fotos:** só do banco `camarao/fotos/` (viveiros, camarão, água, tanques). Não repetir a mesma
-     foto em slides seguidos; a capa deve ser a mais forte (vista aérea de viveiro ou camarão vivo).
+   - **Fotos (regra de 16/11/2026, a mesma dos carrosséis Papo News):** só do banco `camarao/fotos/`
+     (viveiros, camarão, água, tanques), cada uma escolhida pelo ASSUNTO do seu slide, nunca pela posição;
+     a capa deve ser a mais forte (vista aérea de viveiro ou camarão vivo). Nenhuma foto repete dentro do
+     carrossel, nem foto quase igual. Como o banco tem só 12 fotos, a janela do camarão é 1: nenhuma foto do
+     carrossel ANTERIOR (por isso no máximo 6 slides com foto). Quando entrarem fotos novas no banco, a janela
+     sobe (campo `janela` da marca `camarao` em `esteira2s/fotos-usadas.json`).
+     Antes do push: `python pipeline/checar_fundos.py camarao/queue/<pasta> --marca camarao`.
+     REPROVADO = troque a foto daquele slide e renderize de novo. Passou: rode o mesmo comando com
+     `--registrar` e inclua `esteira2s/fotos-usadas.json` no commit do carrossel.
 6. **Render:** para cada HTML: `npx playwright screenshot --viewport-size=1080,1350 slide_01.html slide_01.png`.
    Abra 2 PNG e confira se nenhum texto vazou do quadro antes de subir.
 7. **Entrega:** criar `camarao/queue/YYYY-MM-DD-<slug>/` (data de HOJE) com `slide_01..0N.png`,
@@ -69,3 +76,66 @@ cozinha, receita ou fofura de bicho.
    `Fontes: <autor et al., revista, ano>` e 5-7 hashtags (#carcinicultura #camarao #vannamei
    #poslarva #aquicultura + 1-2 do tema).
 9. **Reportar** em 3 linhas: tema, fonte (com DOI), pasta enviada (ou motivo de não postar).
+
+## Reels (clone do Wagner + edição do motor) — `.github/workflows/camarao-reels.yml`
+
+Desde 16/11/2026 o perfil também recebe **Reels** feitos a partir dos carrosséis (gancho do clone,
+caixinha "Mito ou verdade?", narração na voz do Wagner, número com fonte e, no fim, um convite pra seguir
+ou salvar). **Sem venda** (Wagner, 16/11: "vender nada, só trazer o conteúdo"): nem a fala nem a legenda
+oferecem pós-larva, juvenil, berçário, direct ou link na bio. Os roteiros ficam em
+`/mnt/project-files/camarao-reels/<slug>/roteiro.json`. A nuvem NÃO gera voz nem vídeo: o mp4 sai do
+motor pronto (com som) e fica como **asset de Release do GitHub** neste repo, que dá um link permanente.
+O GitHub publica pela mesma API e token do carrossel (`IG_TOKEN_CAMARAO`, conta 17841452090508191, `graph.instagram.com/v25.0`) com `pipeline/publish_reels_ig.py`.
+
+**Horário:** 18h07 BRT, reserva 20h37 BRT (o cron deste repo atrasa horas). Cada execução publica **um**
+Reels: o item vencido mais antigo. Item publicado não volta; com menos de 3 h desde o último Reels,
+espera a próxima execução; item com mais de 48 h de atraso **não sai sozinho** (mude `publicar_em`).
+
+**Como pôr um Reels na fila:**
+0. Subir o mp4 final como asset da Release `camarao-reels`. Ele **não** vai para o git, e a Release se
+   cria uma vez só:
+   ```bash
+   gh release create camarao-reels --repo wpnjunior/publer-media --title "Reels do camarão" \
+     --notes "mp4 finais dos Reels do @aquacultivonovaes (links usados nos meta.json)"   # só na 1ª vez
+   gh release upload camarao-reels 2026-11-20-temperatura-alimentacao-v1.mp4 --repo wpnjunior/publer-media
+   ```
+   O link fica `https://github.com/wpnjunior/publer-media/releases/download/camarao-reels/<arquivo>.mp4`.
+   - Use um **nome único por versão** (`<AAAA-MM-DD>-<slug>-v1.mp4`, depois `-v2`) e nunca `--clobber` num
+     arquivo que já está num meta.json: vídeo novo = nome novo + `video_url` novo.
+   - A Release tem de estar **publicada** (rascunho dá 404 para a Meta) e o repo tem de continuar
+     **público**. O link redireciona (302) para o armazenamento do GitHub. O 1º Reels por esse caminho
+     vale conferir no log do Actions (`status_code=FINISHED`). Se a Meta não buscar o vídeo, o item fica
+     `erro_error` e a fila segue para o próximo.
+1. Criar `camarao/reels_queue/<AAAA-MM-DD>-<slug>/meta.json`:
+   ```json
+   {"slug": "temperatura-alimentacao",
+    "video_url": "https://github.com/wpnjunior/publer-media/releases/download/camarao-reels/2026-11-20-temperatura-alimentacao-v1.mp4",
+    "caption": "<legenda do roteiro.json, com Fonte e 'Conteúdo educativo'>",
+    "cover_ms": 1500,
+    "share_to_feed": true,
+    "publicar_em": "2026-11-20 18:00",
+    "published": false}
+   ```
+   - `video_url`: https público que a Meta consiga baixar (MP4 H.264 + AAC, vertical 9:16, como sai do motor).
+     O padrão é o link do asset de Release (permanente: o script **não** confere validade e o log diz
+     "link permanente"). No lugar de `video_url` pode ir `"release_tag": "camarao-reels"` +
+     `"release_arquivo": "<arquivo>.mp4"`, e o script monta o link. Link do GitHub que não seja
+     `/releases/download/...` (página da Release, `/blob/`) é recusado. Um link assinado (HeyGen, `Expires=`)
+     ainda é aceito: só ele tem prazo, e o script recusa o vencido.
+   - `publicar_em`: hora de **Brasília** (`AAAA-MM-DD HH:MM`; sem fuso = -03:00). Até 18:00 sai no primeiro horário.
+   - `cover_ms` (opcional): quadro da capa em milissegundos (vira `thumb_offset`). `share_to_feed`: aparece no feed.
+2. Conferir sem rede: `FILA_REELS=camarao/reels_queue python pipeline/publish_reels_ig.py checar`.
+3. Ensaio sem publicar: `python pipeline/publish_reels_ig.py publicar --seco` (simula as respostas da API;
+   no GitHub: Actions → camarao-reels → Run workflow → seco = true).
+4. `git add camarao/reels_queue/<pasta>/meta.json` (só esse arquivo) → commit → push em `master`.
+
+**O que o script faz:** POST `/{ig}/media` (media_type=REELS, video_url, caption, share_to_feed,
+thumb_offset) → consulta `status_code` a cada 15 s até FINISHED (ERROR/EXPIRED ou ~10 min = erro claro) →
+POST `/{ig}/media_publish` → grava no meta.json `published`, `status`, `ig_media`, `published_at`, `permalink`.
+- Se o vídeo ainda processa após ~10 min, o `container_id` fica no meta.json e a próxima execução
+  **retoma o mesmo container** (não cria outro).
+- Se a Meta recusa o vídeo (`status: erro_error`/`erro_expired`), o item trava e a fila segue para o próximo;
+  para tentar de novo, corrija o mp4/link e apague `container_id`, `status` e `erro` do meta.json.
+- Antes de publicar, confere se a mesma legenda já está no ar na conta (caso um commit do meta.json
+  tenha falhado): se estiver, só marca publicado.
+- O token nunca aparece no log.

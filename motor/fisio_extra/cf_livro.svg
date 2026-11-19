@@ -1,0 +1,6 @@
+<g>
+  <path d="M0 -110 C-60 -140 -140 -140 -190 -115 L-190 125 C-140 100 -60 100 0 130 Z" fill="#f4f1e8" stroke="#2b2b2b" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M0 -110 C60 -140 140 -140 190 -115 L190 125 C140 100 60 100 0 130 Z" fill="#f4f1e8" stroke="#2b2b2b" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M-160 -70 L-40 -62 M-160 -30 L-40 -22 M-160 10 L-40 18 M-160 50 L-70 56 M40 -62 L160 -70 M40 -22 L160 -30 M40 18 L160 10 M40 56 L130 50" stroke="#9aa3ad" stroke-width="7" stroke-linecap="round"/>
+  <path d="M0 -110 L0 130" stroke="#2b2b2b" stroke-width="7"/>
+</g>

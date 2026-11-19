@@ -1,0 +1,2569 @@
+{
+ "id": "react_l3_carnivora",
+ "dur": 118.91,
+ "seed": 317,
+ "fundo": "#e9dcbc",
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    1.88
+   ],
+   [
+    1.88,
+    5.98
+   ]
+  ],
+  "ys": [
+   [
+    5.98,
+    13.09,
+    1480
+   ],
+   [
+    13.09,
+    18.21,
+    1010
+   ],
+   [
+    18.21,
+    99.34,
+    1720
+   ],
+   [
+    99.34,
+    103.46,
+    1560
+   ],
+   [
+    103.46,
+    118.91,
+    1720
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ent6.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/ent6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/cv_viral.mp4",
+    "t": 1.88,
+    "ms": 0,
+    "d": 11.21,
+    "palavras": "assets/midia/cv_viral.words.json",
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/cv_dub_voz.wav",
+    "t": 1.88,
+    "ms": 0,
+    "d": 11.21,
+    "gain": 1.0
+   },
+   {
+    "src": "assets/midia/cv_rosto.mp4",
+    "t": 13.09,
+    "ms": 0,
+    "d": 5.12,
+    "palavras": "assets/midia/cv_r1.words.json"
+   },
+   {
+    "src": "assets/midia/cv_a_voz.wav",
+    "t": 18.21,
+    "ms": 0,
+    "d": 18.435,
+    "palavras": "assets/midia/cv_a_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cv_b_voz.wav",
+    "t": 37.195,
+    "ms": 0,
+    "d": 22.554,
+    "palavras": "assets/midia/cv_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cv_c_voz.wav",
+    "t": 60.299,
+    "ms": 0,
+    "d": 38.69,
+    "palavras": "assets/midia/cv_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cta6.mp4",
+    "t": 99.34,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/cta6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/cv_d_voz.wav",
+    "t": 103.46,
+    "ms": 0,
+    "d": 14.854,
+    "palavras": "assets/midia/cv_d_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 13.09,
+    "ms": 0,
+    "d": 86.55,
+    "gain": 0.22,
+    "fade": 0.8
+   },
+   {
+    "src": "m_emocao",
+    "t": 99.14,
+    "ms": 0,
+    "d": 19.77,
+    "gain": 0.24,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 6.18,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 8.43,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 13.04,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 13.19,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 15.69,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 18.16,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 18.21,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 18.31,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 19.06,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 21.41,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 23.21,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 25.41,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 29.71,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 31.16,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 31.36,
+    "gain": 0.25
+   },
+   {
+    "src": "boom",
+    "t": 34.81,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh",
+    "t": 37.195,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 40.195,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 40.395,
+    "gain": 0.25
+   },
+   {
+    "src": "riser",
+    "t": 41.595,
+    "gain": 0.2,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 44.245,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 44.395,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 47.495,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 50.145,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 51.195,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 52.795,
+    "gain": 0.35
+   },
+   {
+    "src": "pagina",
+    "t": 53.095,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 54.995,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 56.045,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 58.045,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 58.795,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 60.299,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 61.699,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "pagina",
+    "t": 63.899,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 67.999,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 69.799,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 73.599,
+    "gain": 0.35
+   },
+   {
+    "src": "scratch",
+    "t": 75.699,
+    "gain": 0.3
+   },
+   {
+    "src": "riser",
+    "t": 77.199,
+    "gain": 0.22,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 78.699,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 82.499,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 84.149,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 87.199,
+    "gain": 0.35
+   },
+   {
+    "src": "pagina",
+    "t": 87.399,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 90.899,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 91.399,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 94.199,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 95.899,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 99.29,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 99.54,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 103.41,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 105.31,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 110.01,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh",
+    "t": 112.61,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 115.71,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 118.91,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/ent6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "SÓ CARNE DERRETE A BARRIGA?",
+   "sub": "Joe Rogan, num vídeo que viralizou no TikTok",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 16.33,
+   "box": [
+    40,
+    150,
+    1000,
+    1100
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 11.21,
+   "ms": 0,
+   "src": "assets/midia/cv_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    1027
+   ],
+   "raio": 14,
+   "pos": "center top",
+   "arroba": "via @carnivorenutrition · vídeo do Joe Rogan",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.05,
+     0.4
+    ],
+    [
+     10.59,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 3.95,
+   "xy": [
+    110,
+    1190
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Só carne derrete a barriga em um mês?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025
+  },
+  {
+   "tipo": "numero",
+   "t": 6.18,
+   "d": 6.86,
+   "xy": [
+    0,
+    1265
+   ],
+   "valor": 3,
+   "suf": " MI VIEWS",
+   "tam": 120,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.04,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 13.09,
+   "d": 5.12,
+   "src": "assets/midia/cv_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    1027
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 13.19,
+   "d": 5.0,
+   "xy": [
+    150,
+    470
+   ],
+   "txt": "MEIA VERDADE",
+   "tam": 130,
+   "rot": -7,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 15.69,
+   "d": 2.5,
+   "xy": [
+    40,
+    790
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "O QUE SAI PRIMEIRO?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 13.09,
+   "d": 5.12,
+   "ms": 0,
+   "src": "assets/midia/cv_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 32%",
+   "entra": "desliza",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 18.16,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 18.21,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 18.21,
+   "d": 3.2,
+   "txt": "MEIA",
+   "y": 1350,
+   "tam": 520,
+   "cor": "rgba(179,18,31,.28)",
+   "z": 12,
+   "x": [
+    1100,
+    -1081
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "pergunta",
+   "t": 18.21,
+   "d": 3.2,
+   "xy": [
+    110,
+    360
+   ],
+   "w": 860,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Só carne derrete a barriga em um mês?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.012,
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 19.06,
+   "d": 2.35,
+   "xy": [
+    120,
+    980
+   ],
+   "txt": "MEIA VERDADE",
+   "tam": 150,
+   "rot": -6,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 21.41,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 21.41,
+   "d": 4.0,
+   "txt": "FRASE",
+   "y": 1380,
+   "tam": 480,
+   "cor": "rgba(28,26,23,.08)",
+   "z": 12,
+   "x": [
+    1100,
+    -1248
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 21.46,
+   "d": 3.5,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "EU NÃO EXAMINEI NINGUÉM.",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 22.81,
+   "d": 2.6,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "“PERDI TODA A MINHA GORDURA”",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 23.21,
+   "d": 2.2,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      540,
+      990
+     ],
+     "r": [
+      470,
+      190
+     ]
+    }
+   ],
+   "espessura": 12,
+   "cor": "#b3121f",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 25.41,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 25.41,
+   "d": 5.75,
+   "txt": "5 QUILOS",
+   "y": 1380,
+   "tam": 400,
+   "cor": "rgba(28,26,23,.22)",
+   "z": 12,
+   "x": [
+    -1440,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 25.41,
+   "d": 5.75,
+   "xy": [
+    0,
+    330
+   ],
+   "valor": 5,
+   "tam": 330,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "pre": "-",
+   "suf": " KG",
+   "rotulo": "no primeiro mês",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 27.41,
+   "d": 2.2,
+   "xy": [
+    40,
+    920
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CORTANDO PÃO E ARROZ",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 29.61,
+   "d": 1.55,
+   "xy": [
+    40,
+    920
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#2e7d32",
+   "alinha": "center",
+   "txt": "ACONTECE.",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 29.71,
+   "d": 1.45,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      540,
+      1250
+     ],
+     "s": 70
+    }
+   ],
+   "espessura": 18,
+   "cor": "#2e7d32",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 31.16,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 31.16,
+   "d": 3.6,
+   "txt": "GORDURA",
+   "y": 1380,
+   "tam": 440,
+   "cor": "rgba(28,26,23,.08)",
+   "z": 12,
+   "x": [
+    1100,
+    -1601
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 31.21,
+   "d": 3.55,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "TODA A GORDURA EM UM MÊS?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.16,
+   "d": 3.6,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "calendario",
+     "xy": [
+      540,
+      1000
+     ],
+     "s": 1.25,
+     "t": 0.15
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.6
+    },
+    {
+     "o": 0,
+     "t": 2.6
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 34.76,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 34.76,
+   "d": 2.435,
+   "txt": "NÃO",
+   "y": 1300,
+   "tam": 560,
+   "cor": "rgba(179,18,31,.30)",
+   "z": 12,
+   "x": [
+    -756,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.81,
+   "d": 2.38,
+   "xy": [
+    40,
+    700
+   ],
+   "w": 1000,
+   "fonte": "280px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "AÍ, NÃO.",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 37.195,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 37.195,
+   "d": 7.05,
+   "txt": "RESERVA",
+   "y": 1420,
+   "tam": 420,
+   "cor": "rgba(154,100,0,.30)",
+   "z": 12,
+   "x": [
+    1100,
+    -1528
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 37.25,
+   "d": 2.8,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "FUNCIONA ASSIM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 40.04,
+   "d": 4.2,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O CORPO GUARDA AÇÚCAR",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 37.195,
+   "d": 7.05,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "figado",
+     "xy": [
+      330,
+      1000
+     ],
+     "s": 1.0,
+     "t": 2.95,
+     "rotulo": "FÍGADO",
+     "rot_y": 175
+    },
+    {
+     "k": "musculo",
+     "xy": [
+      770,
+      1230
+     ],
+     "s": 0.95,
+     "t": 3.15,
+     "rotulo": "MÚSCULO",
+     "rot_y": 175
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      540,
+      620
+     ],
+     "para": [
+      330,
+      900
+     ],
+     "curva": -60,
+     "cor": "#f2c230",
+     "t": 4.4,
+     "d": 2.4,
+     "n": 6,
+     "rotulo": "AÇÚCAR",
+     "viagem": 0.9
+    },
+    {
+     "de": [
+      560,
+      620
+     ],
+     "para": [
+      770,
+      1120
+     ],
+     "curva": 60,
+     "cor": "#f2c230",
+     "t": 4.7,
+     "d": 2.2,
+     "n": 6,
+     "viagem": 1.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 5.2
+    },
+    {
+     "o": 1,
+     "t": 5.9
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 44.245,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 44.245,
+   "d": 5.9,
+   "txt": "ESPONJA",
+   "y": 1480,
+   "tam": 400,
+   "cor": "rgba(31,95,168,.16)",
+   "z": 12,
+   "x": [
+    -1260,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.29,
+   "d": 1.8,
+   "xy": [
+    40,
+    290
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "COMO UMA ESPONJA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 46.1,
+   "d": 4.05,
+   "xy": [
+    40,
+    290
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CADA 1 g DE AÇÚCAR SEGURA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 44.245,
+   "d": 5.9,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "esponja_cheia",
+     "xy": [
+      540,
+      820
+     ],
+     "s": 1.25,
+     "t": 0.15
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.0
+    },
+    {
+     "o": 0,
+     "t": 4.6
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 47.495,
+   "d": 2.65,
+   "xy": [
+    0,
+    1110
+   ],
+   "valor": 4,
+   "tam": 300,
+   "cor": "#1f5fa8",
+   "sombra": "#9fb7d6",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "pre": "3 A ",
+   "suf": " g",
+   "de": 4,
+   "conta": 0.01,
+   "rotulo": "de água",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.245,
+   "d": 5.9,
+   "xy": [
+    40,
+    196
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Kreitzman e col., Am J Clin Nutr 1992 · doi 10.1093/ajcn/56.1.292S",
+   "z": 70,
+   "css": "background:rgba(255,255,255,.55);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 50.145,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 50.145,
+   "d": 2.65,
+   "txt": "PÃO E ARROZ",
+   "y": 1450,
+   "tam": 360,
+   "cor": "rgba(28,26,23,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -2059
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 50.19,
+   "d": 2.6,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CORTOU PÃO E ARROZ?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 50.145,
+   "d": 2.65,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "cv_prato",
+     "xy": [
+      540,
+      1000
+     ],
+     "s": 1.6,
+     "t": 0.05
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 51.195,
+   "d": 1.6,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      1010
+     ],
+     "s": 170
+    }
+   ],
+   "espessura": 18,
+   "cor": "#b3121f",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 52.795,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 52.795,
+   "d": 3.25,
+   "txt": "POUCOS DIAS",
+   "y": 1450,
+   "tam": 340,
+   "cor": "rgba(28,26,23,.08)",
+   "z": 12,
+   "x": [
+    -1683,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 52.85,
+   "d": 3.2,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "EM POUCOS DIAS, A ESPONJA SECA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 52.795,
+   "d": 2.2,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "esponja_cheia",
+     "xy": [
+      540,
+      980
+     ],
+     "s": 1.25,
+     "t": 0.0
+    },
+    {
+     "k": "calendario",
+     "xy": [
+      860,
+      690
+     ],
+     "s": 0.55,
+     "t": 0.3
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 0.7,
+     "para": 0.85,
+     "d": 1.3
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 0.9
+    },
+    {
+     "o": 1,
+     "t": 1.5
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 54.995,
+   "d": 1.05,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "esponja_seca",
+     "xy": [
+      540,
+      990
+     ],
+     "s": 1.15,
+     "t": 0.0
+    },
+    {
+     "k": "calendario",
+     "xy": [
+      860,
+      690
+     ],
+     "s": 0.55,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 56.045,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 56.045,
+   "d": 4.254,
+   "txt": "ÁGUA",
+   "y": 1440,
+   "tam": 480,
+   "cor": "rgba(31,95,168,.18)",
+   "z": 12,
+   "x": [
+    1100,
+    -998
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 56.1,
+   "d": 4.2,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "SAI NO XIXI, A BALANÇA CAI",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 56.045,
+   "d": 4.254,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "bh_gota",
+     "xy": [
+      270,
+      880
+     ],
+     "s": 0.75,
+     "t": 0.1,
+     "rotulo": "XIXI",
+     "rot_y": 250
+    },
+    {
+     "k": "balanca",
+     "xy": [
+      690,
+      1080
+     ],
+     "s": 1.05,
+     "t": 2.0
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      270,
+      1060
+     ],
+     "para": [
+      270,
+      1420
+     ],
+     "curva": 0,
+     "cor": "#7fd3ff",
+     "t": 0.8,
+     "d": 2.2,
+     "n": 6,
+     "viagem": 0.8
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 2.9
+    },
+    {
+     "o": 1,
+     "t": 3.4
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 58.795,
+   "d": 1.504,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      960,
+      860
+     ],
+     "para": [
+      960,
+      1330
+     ],
+     "curva": 0
+    }
+   ],
+   "espessura": 20,
+   "cor": "#b3121f",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 60.299,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 60.299,
+   "d": 3.5,
+   "txt": "ÁGUA",
+   "y": 1440,
+   "tam": 480,
+   "cor": "rgba(31,95,168,.30)",
+   "z": 12,
+   "x": [
+    1100,
+    -998
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 60.35,
+   "d": 3.45,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "BOA PARTE É ÁGUA, NÃO GORDURA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 61.699,
+   "d": 2.1,
+   "xy": [
+    250,
+    860
+   ],
+   "txt": "É ÁGUA",
+   "tam": 190,
+   "rot": -8,
+   "z": 60,
+   "cor": "#1f5fa8",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 63.799,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "artigo",
+   "t": 63.799,
+   "d": 9.8,
+   "box": [
+    100,
+    300,
+    880,
+    640
+   ],
+   "z": 34,
+   "revista": "Journal of Clinical Investigation · 1976",
+   "titulo": "Do que é feito o peso que some nos primeiros dias de dieta",
+   "autores": "Yang e Van Itallie · 6 pessoas, 10 dias em cada dieta",
+   "rola": 0,
+   "linhas": [
+    {
+     "txt": "As mesmas calorias, duas dietas.",
+     "grifo": 67.799
+    },
+    {
+     "txt": "Uma quase sem carboidrato.",
+     "grifo": 69.799
+    },
+    {
+     "txt": "Outra com comida comum.",
+     "grifo": 71.299
+    }
+   ],
+   "rodape": "doi 10.1172/JCI108519",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 63.799,
+   "d": 9.8,
+   "txt": "1976",
+   "y": 1480,
+   "tam": 420,
+   "cor": "rgba(28,26,23,.10)",
+   "z": 12,
+   "x": [
+    -756,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 64.2,
+   "d": 3.8,
+   "xy": [
+    40,
+    1040
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "1976: SEIS PESSOAS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 68.0,
+   "d": 1.8,
+   "xy": [
+    40,
+    1040
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "MESMAS CALORIAS",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 69.8,
+   "d": 3.8,
+   "xy": [
+    40,
+    1040
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "QUASE SEM CARBOIDRATO OU COMIDA COMUM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 73.599,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 73.599,
+   "d": 4.3,
+   "txt": "MAIS RÁPIDO",
+   "y": 1450,
+   "tam": 360,
+   "cor": "rgba(28,26,23,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -2059
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 73.65,
+   "d": 4.25,
+   "xy": [
+    40,
+    270
+   ],
+   "w": 1000,
+   "fonte": "105px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "QUASE SEM CARBOIDRATO, A BALANÇA CAIU MAIS RÁPIDO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 73.599,
+   "d": 4.3,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "balanca",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 1.15,
+     "t": 0.1
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.6
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 75.699,
+   "d": 2.2,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      880,
+      880
+     ],
+     "para": [
+      880,
+      1330
+     ],
+     "curva": 0
+    }
+   ],
+   "espessura": 20,
+   "cor": "#b3121f",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 77.899,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 77.899,
+   "d": 4.6,
+   "txt": "ÁGUA",
+   "y": 1440,
+   "tam": 480,
+   "cor": "rgba(31,95,168,.18)",
+   "z": 12,
+   "x": [
+    -864,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 77.95,
+   "d": 4.55,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "DO PESO QUE SAIU",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 78.699,
+   "d": 3.8,
+   "xy": [
+    0,
+    520
+   ],
+   "valor": 61,
+   "tam": 360,
+   "cor": "#1f5fa8",
+   "sombra": "#9fb7d6",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "suf": "%",
+   "rotulo": "era água",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 77.899,
+   "d": 4.6,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "bh_gota",
+     "xy": [
+      540,
+      1310
+     ],
+     "s": 0.8,
+     "t": 0.6
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.2
+    },
+    {
+     "o": 0,
+     "t": 3.4
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 82.499,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 82.499,
+   "d": 4.7,
+   "txt": "GORDURA",
+   "y": 1440,
+   "tam": 440,
+   "cor": "rgba(154,100,0,.18)",
+   "z": 12,
+   "x": [
+    1100,
+    -1601
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 82.55,
+   "d": 4.65,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "COM COMIDA COMUM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 84.149,
+   "d": 3.05,
+   "xy": [
+    0,
+    580
+   ],
+   "valor": 60,
+   "tam": 300,
+   "cor": "#9a6400",
+   "sombra": "#e0c98f",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "pre": "QUASE ",
+   "suf": "%",
+   "de": 50,
+   "rotulo": "era gordura",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 82.499,
+   "d": 4.7,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "gordura",
+     "xy": [
+      540,
+      1230
+     ],
+     "s": 0.9,
+     "t": 1.6
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 3.5
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 87.199,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 87.199,
+   "d": 3.7,
+   "txt": "PEQUENO",
+   "y": 1440,
+   "tam": 420,
+   "cor": "rgba(179,18,31,.26)",
+   "z": 12,
+   "x": [
+    -1323,
+    900
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 87.25,
+   "d": 3.65,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "ESTUDO PEQUENO: 6 PESSOAS, 10 DIAS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 87.199,
+   "d": 3.7,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "calendario",
+     "xy": [
+      540,
+      1050
+     ],
+     "s": 1.15,
+     "t": 0.2
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.9
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 63.799,
+   "d": 27.1,
+   "xy": [
+    40,
+    196
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Yang e Van Itallie, J Clin Invest 1976 · doi 10.1172/JCI108519",
+   "z": 70,
+   "css": "background:rgba(255,255,255,.55);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 90.899,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 90.899,
+   "d": 8.441,
+   "txt": "32 ESTUDOS",
+   "y": 1460,
+   "tam": 360,
+   "cor": "rgba(28,26,23,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -1872
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 90.95,
+   "d": 3.25,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "UMA REVISÃO GRANDE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 91.399,
+   "d": 4.45,
+   "xy": [
+    0,
+    650
+   ],
+   "valor": 32,
+   "tam": 280,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "suf": " ESTUDOS",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 94.2,
+   "d": 1.7,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "MESMAS CALORIAS",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 95.9,
+   "d": 3.44,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CORTAR CARBOIDRATO NÃO QUEIMA MAIS GORDURA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 95.899,
+   "d": 3.441,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "gordura",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.1,
+     "t": 0.1
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.8
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 90.899,
+   "d": 8.441,
+   "xy": [
+    40,
+    196
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Hall e Guo, Gastroenterology 2017 · doi 10.1053/j.gastro.2017.01.052",
+   "z": 70,
+   "css": "background:rgba(255,255,255,.55);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 99.29,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 99.34,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/cta6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     99.34,
+     1.0,
+     0.01
+    ],
+    [
+     101.94,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40,
+   "fixo": true
+  },
+  {
+   "tipo": "barra",
+   "t": 99.54,
+   "d": 3.87,
+   "y": 215,
+   "txt": "AULA VALEU? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 103.41,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 103.46,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 103.46,
+   "d": 1.85,
+   "txt": "EMAGRECER",
+   "y": 1400,
+   "tam": 380,
+   "cor": "rgba(28,26,23,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -1778
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 103.51,
+   "d": 1.8,
+   "xy": [
+    40,
+    620
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "QUER EMAGRECER?",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 105.31,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 105.31,
+   "d": 4.7,
+   "txt": "ANOS",
+   "y": 1380,
+   "tam": 520,
+   "cor": "rgba(46,125,50,.16)",
+   "z": 12,
+   "x": [
+    -936,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 105.36,
+   "d": 4.65,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "UM JEITO DE COMER QUE VOCÊ AGUENTA POR ANOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 105.31,
+   "d": 4.7,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "calendario",
+     "xy": [
+      540,
+      1180
+     ],
+     "s": 0.95,
+     "t": 1.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.6
+    },
+    {
+     "o": 0,
+     "t": 3.6
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 110.01,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 110.01,
+   "d": 2.6,
+   "txt": "MÉDICO",
+   "y": 1380,
+   "tam": 460,
+   "cor": "rgba(28,26,23,.22)",
+   "z": 12,
+   "x": [
+    1100,
+    -1435
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 110.01,
+   "d": 2.6,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "E ACOMPANHA COM SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 112.61,
+   "d": 0.2,
+   "max": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 112.61,
+   "d": 6.3,
+   "txt": "DIAS × MESES",
+   "y": 1500,
+   "tam": 300,
+   "cor": "rgba(28,26,23,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -1872
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 112.66,
+   "d": 6.25,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1f5fa8",
+   "alinha": "center",
+   "txt": "ÁGUA SAI EM DIAS.",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 112.61,
+   "d": 6.3,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "bh_gota",
+     "xy": [
+      540,
+      700
+     ],
+     "s": 0.55,
+     "t": 0.2
+    },
+    {
+     "k": "gordura",
+     "xy": [
+      540,
+      1320
+     ],
+     "s": 0.7,
+     "t": 3.2
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 115.71,
+   "d": 3.2,
+   "xy": [
+    40,
+    900
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#9a6400",
+   "alinha": "center",
+   "txt": "GORDURA SAI EM MESES.",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 103.46,
+   "d": 15.45,
+   "xy": [
+    40,
+    196
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Yang e Van Itallie, J Clin Invest 1976 · Hall e Guo, Gastroenterology 2017",
+   "z": 70,
+   "css": "background:rgba(255,255,255,.55);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.2
+  }
+ ]
+}

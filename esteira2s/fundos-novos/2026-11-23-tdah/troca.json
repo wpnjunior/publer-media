@@ -1,0 +1,35 @@
+{
+ "marca": "TDAH Adulto Real",
+ "blogId": 8026030,
+ "metricool_id": 427556661,
+ "horario": "2026-11-23 07:33 America/Sao_Paulo",
+ "rede": "instagram",
+ "texto": "idêntico ao agendado (só a foto de fundo mudou)",
+ "slides_total": 6,
+ "slides_trocados": [
+  {
+   "slide": 4,
+   "foto_antiga": "px_homemso_6756351.jpg",
+   "foto_nova": "px_chaves_27522902.jpg",
+   "descricao_nova": "mão com chaves (\"achar a chave de casa\")",
+   "motivo": "mesma foto do TDAH 16/11, slide 01",
+   "fonte": "https://www.pexels.com/photo/27522902/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 6,
+   "foto_antiga": "px_homemmedico_8413300.jpg",
+   "foto_nova": "px_consulta_7176291.jpg",
+   "descricao_nova": "consulta com prancheta",
+   "motivo": "mesma sessão de px_homemmedico_8413217 (TDAH 20/11, slide 06)",
+   "fonte": "https://www.pexels.com/photo/7176291/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  }
+ ],
+ "slides_iguais_ao_agendado": [
+  1,
+  2,
+  3,
+  5
+ ]
+}

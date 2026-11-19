@@ -1,0 +1,424 @@
+{
+ "sobre": "Fotos de fundo já usadas nos carrosséis, por marca (só nome, id do Pexels, sessão aproximada, dHash e data; nenhuma imagem). Atualizado por pipeline/checar_fundos.py --registrar. Começou em 16/11/2026 com os carrosséis de 12 a 25/11.",
+ "limites": {"janela": 30, "sessao_pexels": 1500, "dhash_foto": 40, "dhash_faixa": 36, "mesma_imagem": 12},
+ "marcas": {
+  "papo": {
+   "nota": "Mesmo Instagram (dr.wagnernovaesjr): entram os carrosséis Papo News da esteira2s (Metricool 7510655) e os da esteira da nuvem (queue/ no master).",
+   "carrosseis": [
+    {"id": "2026-10-24-orforglipron-pilula-oral", "data": "2026-10-24", "origem": "queue/2026-10-24-orforglipron-pilula-oral (master)", "fotos": [
+     {"slide": 1, "foto": "bg_02.jpg", "dhash_foto": "010820c8e1040224e8c0e1b0c3b27804b006606c6021e186d1c8efc16f806940", "dhash_faixa": "859006080148414841484148604840c88080808441246124e1246124e2406244"},
+     {"slide": 2, "foto": "bmi_doctor.jpg", "dhash_foto": "014b014b010b800f8a0f0ac709c309d1009908cc04cf008701870247024b00cf", "dhash_faixa": "010b004b084b0d4b354b0d4b0d4b014b010b010b010b890b800b800f880f300f"},
+     {"slide": 3, "foto": "bg_05.jpg", "dhash_foto": "c475f56ab508f529fd29dd28dd29f368d3e996c996c9b6c9f2699248da48da48", "dhash_faixa": "c4b244b4cd340d7034680d2acd22f562f528b549b549b549b2a8f4a8f569f549"},
+     {"slide": 4, "foto": "bg_07.jpg", "dhash_foto": "000b000b00034015b00d6565c567c461b9cc89d0c8d8ecd9e1d17325f325e1c1", "dhash_faixa": "0800b2010c250d003d140d250d01b2010c0000001000000000a55221a88069a0"},
+     {"slide": 5, "foto": "bmi_scale.jpg", "dhash_foto": "0c680c680c690cea8ce28cd284cd4673423c838f00c9185b84c6301d0e3301ce", "dhash_faixa": "0c680c680c600c683c680c680ce80c680c680c680c680ce80ce80ce40ce21ce0"},
+     {"slide": 6, "foto": "bg_07.jpg", "dhash_foto": "000b000b00034015b00d6565c567c461b9cc89d0c8d8ecd9e1d17325f325e1c1", "dhash_faixa": "00012001cc01cd0334050d09cc09b00b081300030003000b00030003000a000b"}
+    ]},
+    {"id": "2026-10-27-fezolinetanto-menopausa", "data": "2026-10-27", "origem": "queue/2026-10-27-fezolinetanto-menopausa (master)", "fotos": [
+     {"slide": 1, "foto": "peri_capa.jpg", "dhash_foto": "ceb48ea018603070e530e79864c8e230e230c230d8603c609cd84e484c066e02", "dhash_faixa": "58a498a4a8a0e6b4d6749e211ea09b804cc0486038603a603030343024706470"},
+     {"slide": 2, "foto": "peri_awake.jpg", "dhash_foto": "8115f9157ed5fcede367c7739e60aecf2e873372f132e93377774737d127d1c7", "dhash_faixa": "050431050c540d153d150d05dd05f9050e5516155e15fc85ecc5fcc5fca1f9e9"},
+     {"slide": 3, "foto": "peri_brain.jpg", "dhash_foto": "2d0224b02e496b4924b369ed25ed1fb2ab496fccec9267492ecd07f800772271", "dhash_faixa": "6d6ded2a0d520d133cb20cb10db424e8244d2f4d2e492e490a4d0b4d4b4d6f48"},
+     {"slide": 4, "foto": "peri_consult.jpg", "dhash_foto": "bb0ab70ab64e771e3f1877302778217c765c33db799f1d8c1d9816f41ec50b85", "dhash_faixa": "bb4abb4a8f0a8f0a371a8f0acf0ab70ab64ab64a364a360e360e360e171c731c"},
+     {"slide": 5, "foto": "peri_doctor2.jpg", "dhash_foto": "db00d300990c9a320a790a710870b25a727e426e176e784af94676e67fd27fd3", "dhash_faixa": "190030000c000d003d000d004d00320030003100890018008000133012321232"},
+     {"slide": 6, "foto": "peri_calm.jpg", "dhash_foto": "c09fa09fae9fc99fc89f9897388a698ff313253390f4407246f266622361a1f1", "dhash_faixa": "c497e09f8c9f0c97349f0d9f0c97b09fbc97be9fb69fac97ac9fca1fc91fd98f"}
+    ]},
+    {"id": "2026-10-29-survodutida-figado-masld", "data": "2026-10-29", "origem": "queue/2026-10-29-survodutida-figado-masld (master)", "fotos": [
+     {"slide": 1, "dhash_faixa": "0c6708cf09ef09ef184f185f18df18df18df18df18ff09bf197f197f197f197f"},
+     {"slide": 2, "dhash_faixa": "20c030c390800d8134000c008c10a010a4209426d0294022402c20102020a000"},
+     {"slide": 3, "dhash_faixa": "190c310411060d0c350c0d0ccd0c610e49068907a9072907218f219b62994735"},
+     {"slide": 4, "dhash_faixa": "c430f0344d340d603d680d280d02b1203528b509b509b540b2a8f428f549f509"},
+     {"slide": 5, "dhash_faixa": "0c680c680c600c683c680c680ce80c680c680c680c680ce80ce80ce40ce20ce0"},
+     {"slide": 6, "dhash_faixa": "00012001cc01cd0334050d09cc09b00b081300030003000b00030003000a000b"}
+    ]},
+    {"id": "2026-10-31-menopausa-intestino-jci", "data": "2026-10-31", "origem": "queue/2026-10-31-menopausa-intestino-jci (master)", "fotos": [
+     {"slide": 1, "foto": "peri_capa.jpg", "dhash_foto": "ceb48ea018603070e530e79864c8e230e230c230d8603c609cd84e484c066e02", "dhash_faixa": "58a498a4a8a0e6b4d6749e211ea09b804cc0486038603a603030343024706470"},
+     {"slide": 2, "foto": "peri_doctor2.jpg", "dhash_foto": "db00d300990c9a320a790a710870b25a727e426e176e784af94676e67fd27fd3", "dhash_faixa": "9b003b0099000d0035000d00c900e3000900190099001b00c9081b3232323232"},
+     {"slide": 3, "foto": "bg_05.jpg", "dhash_foto": "c475f56ab508f529fd29dd28dd29f368d3e996c996c9b6c9f2699248da48da48", "dhash_faixa": "c4b244b4cd340d7034680d2acd22f562f528b549b549b549b2a8f4a8f5697549"},
+     {"slide": 4, "foto": "peri_brain.jpg", "dhash_foto": "2d0224b02e496b4924b369ed25ed1fb2ab496fccec9267492ecd07f800772271", "dhash_faixa": "6d6ce12a0d520d033db20cb14db034a8344d3e4d2e492e490a4d0b4d0b4d6f48"},
+     {"slide": 5, "foto": "peri_awake.jpg", "dhash_foto": "8115f9157ed5fcede367c7739e60aecf2e873372f132e93377774737d127d1c7", "dhash_faixa": "050431050c540d153d150d05dd05f9050e5516155e157c85ecc55cc57ca159e9"},
+     {"slide": 6, "foto": "peri_calm.jpg", "dhash_foto": "c09fa09fae9fc99fc89f9897388a698ff313253390f4407246f266622361a1f1", "dhash_faixa": "c497e09f8c9f0c97349f0d9f0c97b09fbc97be9fb69fac97ac9fca1fc91fd98f"}
+    ]},
+    {"id": "2026-11-02-mash-resmetirom-semaglutida-diretriz", "data": "2026-11-02", "origem": "queue/2026-11-02-mash-resmetirom-semaglutida-diretriz (master)", "fotos": [
+     {"slide": 1, "dhash_faixa": "0c6708cf09ef09ef184f185f18df18df18df18df18ff09bf197f197f197f197f"},
+     {"slide": 2, "dhash_faixa": "190c310411060d0c350c0d0ccd0c610e49068907a9072907218f219b62994735"},
+     {"slide": 3, "dhash_faixa": "0d90a2080d480d483d480d480d48a0c80c804000412441244124412462405244"},
+     {"slide": 4, "dhash_faixa": "c4b244b4cd340d7034680d2acd22f562f528b549b549b549b2a8f4a8f569f549"},
+     {"slide": 5, "dhash_faixa": "102272000c000d003d000d020d1280100c08001000200210029010d40ce44d63"},
+     {"slide": 6, "dhash_faixa": "00012001cc01cd0334050d09cc09b00b081300030003000b00030003000a000b"}
+    ]},
+    {"id": "2026-11-05-cgm-diabetes-sem-insulina", "data": "2026-11-05", "origem": "queue/2026-11-05-cgm-diabetes-sem-insulina (master)", "fotos": [
+     {"slide": 1, "foto": "bg_05.jpg", "dhash_foto": "c475f56ab508f529fd29dd28dd29f368d3e996c996c9b6c9f2699248da48da48", "dhash_faixa": "c4b144b4c534c471c668ca2ae722f562f528b549b549b549b2a8f4a8f569f549"},
+     {"slide": 2, "foto": "bg_07.jpg", "dhash_foto": "000b000b00034015b00d6565c567c461b9cc89d0c8d8ecd9e1d17325f325e1c1", "dhash_faixa": "00012001cc01cd0334050d09cc09b00b081300030003000b00030003000a000b"},
+     {"slide": 3, "foto": "peri_consult.jpg", "dhash_foto": "bb0ab70ab64e771e3f1877302778217c765c33db799f1d8c1d9816f41ec50b85", "dhash_faixa": "bb4abb4a8f0a8f0a371a8f0acf0ab70ab64ab64a364a360e360e360e171c731c"},
+     {"slide": 4, "foto": "bg_05.jpg", "dhash_foto": "c475f56ab508f529fd29dd28dd29f368d3e996c996c9b6c9f2699248da48da48", "dhash_faixa": "c4b244b4cd340d7034680d2acd22f562f528b549b549b549b2a8f4a8f569f549"},
+     {"slide": 5, "foto": "bmi_doctor.jpg", "dhash_foto": "014b014b010b800f8a0f0ac709c309d1009908cc04cf008701870247024b00cf", "dhash_faixa": "010b004b084b0d4b354b0d4b0d4b014b010b010b010b890b800b800f880f800f"},
+     {"slide": 6, "foto": "bg_03.jpg", "dhash_foto": "0000004000a20df6c9f7f1f73bf71ff783c743fd001c04000018000100000000", "dhash_faixa": "102272000c000d003d000d020d1280100c08001000200210029010d40ce44d63"}
+    ]},
+    {"id": "2026-11-07-ht-tirzepatida-menopausa", "data": "2026-11-07", "origem": "queue/2026-11-07-ht-tirzepatida-menopausa (master)", "fotos": [
+     {"slide": 1, "foto": "peri_calm.jpg", "dhash_foto": "c09fa09fae9fc99fc89f9897388a698ff313253390f4407246f266622361a1f1", "dhash_faixa": "c49fec9fbc9fe09fc09f809fa497b49fb49fbe97be9fac9fac9fca1fc91fd98f"},
+     {"slide": 2, "foto": "bmi_scale.jpg", "dhash_foto": "0c680c680c690cea8ce28cd284cd4673423c838f00c9185b84c6301d0e3301ce", "dhash_faixa": "0c680c680c600c683c680c680ce80c680c680c680c680ce80ce80ce40ce20ce0"},
+     {"slide": 3, "foto": "peri_consult.jpg", "dhash_foto": "bb0ab70ab64e771e3f1877302778217c765c33db799f1d8c1d9816f41ec50b85", "dhash_faixa": "bb4abb4a8f0a8f0a371a8f0acf0ab70ab64ab64a364a360e360e360e371c131c"},
+     {"slide": 4, "foto": "bg_05.jpg", "dhash_foto": "c475f56ab508f529fd29dd28dd29f368d3e996c996c9b6c9f2699248da48da48", "dhash_faixa": "c4b244b4cd340d7034680d2acd22f562f528b549b549b549b2a8f4a8f569f549"},
+     {"slide": 5, "foto": "peri_doctor2.jpg", "dhash_foto": "db00d300990c9a320a790a710870b25a727e426e176e784af94676e67fd27fd3", "dhash_faixa": "9b003b0099000d0035000d00c900e3000900190099001b00c9081b325a325a32"},
+     {"slide": 6, "foto": "bg_07.jpg", "dhash_foto": "000b000b00034015b00d6565c567c461b9cc89d0c8d8ecd9e1d17325f325e1c1", "dhash_faixa": "00012001cc01cd0334050d09cc09b00b081300030003000b00030003000a000b"}
+    ]},
+    {"id": "2026-11-09-tsh-obesidade-ese", "data": "2026-11-09", "origem": "queue/2026-11-09-tsh-obesidade-ese (master)", "fotos": [
+     {"slide": 1, "foto": "bmi_scale.jpg", "dhash_foto": "0c680c680c690cea8ce28cd284cd4673423c838f00c9185b84c6301d0e3301ce", "dhash_faixa": "0c6d0c680c680c680c680c680ce90c690c680c680c680ce80ce80ce80ce20ce0"},
+     {"slide": 2, "foto": "bg_01_top.jpg", "dhash_foto": "014b014b010b800f8a0f0ac709c309d1009908cc04cf008701870247024b00cf", "dhash_faixa": "010b004b084b0d4b354b0d4b0d4b014b010b010b010b010b800b000f300f300f"},
+     {"slide": 3, "foto": "bg_05.jpg", "dhash_foto": "c475f56ab508f529fd29dd28dd29f368d3e996c996c9b6c9f2699248da48da48", "dhash_faixa": "c4b244b4cd340d7034680d2acd22f562f528b549b549b549b2a8f4a8f5697549"},
+     {"slide": 4, "foto": "bg_07.jpg", "dhash_foto": "000b000b00034015b00d6565c567c461b9cc89d0c8d8ecd9e1d17325f325e1c1", "dhash_faixa": "0800b2010c250d003d140d254d013201340030008000000000a500a100000000"},
+     {"slide": 5, "foto": "bmi_tape.jpg", "dhash_foto": "c3f8c61ecf0ff08738c398e19c61cc3066bc330e195e8cf22168016df16789a5", "dhash_faixa": "c3f8e3f8c1fc0cfc347c0d1ecd0ec70ecd0ecd0fc90fc30fc287c087e0877083"},
+     {"slide": 6, "foto": "bg_07.jpg", "dhash_foto": "000b000b00034015b00d6565c567c461b9cc89d0c8d8ecd9e1d17325f325e1c1", "dhash_faixa": "00012001cc01cd0334050d09cc09b00b081300030003000b00030003000a000b"}
+    ]},
+    {"id": "2026-11-11-easo-tirzepatida-semaglutida", "data": "2026-11-11", "origem": "queue/2026-11-11-easo-tirzepatida-semaglutida (master)", "fotos": [
+     {"slide": 1, "foto": "bmi_capa.jpg", "dhash_foto": "f01ef00b734a7248614861c0294494c013620d628ce289b218125e90da12de82", "dhash_faixa": "f06ef037b09ef08de04de04bf00b700e720e734c72cc734a72cc72c862496348"},
+     {"slide": 2, "foto": "bmi_tape.jpg", "dhash_foto": "c3f8c61ecf0ff08738c398e19c61cc3066bc330e195e8cf22168016df16789a5", "dhash_faixa": "c3f8e3f8c1fc0cfc347c0d1ecd0ec70ecd0ecd0fc90fc30fc287748734873083"},
+     {"slide": 3, "foto": "bmi_scale.jpg", "dhash_foto": "0c680c680c690cea8ce28cd284cd4673423c838f00c9185b84c6301d0e3301ce", "dhash_faixa": "0c680c680c600c683c680c680ce80c680c680c680c680ce80ce80ce48ce21ce0"},
+     {"slide": 4, "foto": "bg_05.jpg", "dhash_foto": "c475f56ab508f529fd29dd28dd29f368d3e996c996c9b6c9f2699248da48da48", "dhash_faixa": "c430f0344d340d603d680d280d02b1203528b509b509b540b2a8f428f549f509"},
+     {"slide": 5, "foto": "bg_01.jpg", "dhash_foto": "08ef18df18ff197f187f2cff0c6f9d3f9d3784bf696fa967a932aa72ce694e73", "dhash_faixa": "0c6128cb09e70dee3c4d0c5a0ccfb0df18df18df08eb19bf897f596f596f597f"},
+     {"slide": 6, "foto": "bg_07.jpg", "dhash_foto": "000b000b00034015b00d6565c567c461b9cc89d0c8d8ecd9e1d17325f325e1c1", "dhash_faixa": "00012001cc01cd0334050d09cc09b00b081300030003000b00030003000a000b"}
+    ]},
+    {"id": "2026-11-13-acog-menopausa-diretriz", "data": "2026-11-13", "origem": "queue/2026-11-13-acog-menopausa-diretriz (master)", "fotos": [
+     {"slide": 1, "foto": "peri_capa.jpg", "dhash_foto": "ceb48ea018603070e530e79864c8e230e230c230d8603c609cd84e484c066e02", "dhash_faixa": "58a498a4a8a0e6b4d6749e211ea09b804cc0486038603a603030343024706470"},
+     {"slide": 2, "foto": "peri_awake.jpg", "dhash_foto": "8115f9157ed5fcede367c7739e60aecf2e873372f132e93377774737d127d1c7", "dhash_faixa": "050431050c540d153d150d05dd05f9050e551615ce157c853cc53cc57ca171e9"},
+     {"slide": 3, "foto": "peri_consult.jpg", "dhash_foto": "bb0ab70ab64e771e3f1877302778217c765c33db799f1d8c1d9816f41ec50b85", "dhash_faixa": "bb4abb4a8f0a8f0a371a8f0acf0ab70a364ab64a364a7e0e560e360e1f1cc31c"},
+     {"slide": 4, "foto": "peri_doctor2.jpg", "dhash_foto": "db00d300990c9a320a790a710870b25a727e426e176e784af94676e67fd27fd3", "dhash_faixa": "190030000c000d003d000d000d4028a069c032d036d0560065a81d607c726232"},
+     {"slide": 5, "foto": "bg_07.jpg", "dhash_foto": "000b000b00034015b00d6565c567c461b9cc89d0c8d8ecd9e1d17325f325e1c1", "dhash_faixa": "00012001cc01cd0334050d09cc09a00b541378035003580b5803860b490a4acb"},
+     {"slide": 6, "foto": "peri_calm.jpg", "dhash_foto": "c09fa09fae9fc99fc89f9897388a698ff313253390f4407246f266622361a1f1", "dhash_faixa": "c497e09f8c9f0c97349f0d9f0c97b09fbc97be9fb69fac97ac9f5a1f591f198f"}
+    ]},
+    {"id": "2026-11-15-cushing-rastreio-obesidade-diabetes", "data": "2026-11-15", "origem": "queue/2026-11-15-cushing-rastreio-obesidade-diabetes (master)", "fotos": [
+     {"slide": 1, "dhash_faixa": "010b024b024b014b014b014b014b014b010b010b010b810b800f800f880f820f"},
+     {"slide": 2, "dhash_faixa": "0d90a2080d480d483d480d480d48a0c80c804000412441244124412442404244"},
+     {"slide": 3, "dhash_faixa": "c4b244b4cd340d7034680d2acd22f562f528b549b549b549b2a8f4a8f569f549"},
+     {"slide": 4, "dhash_faixa": "0800b2010c250d003d140d254d013201340030008000000000a500a100000000"},
+     {"slide": 5, "dhash_faixa": "20c030c390800d8134000c008c10a010a4209426d0294022402c501010207800"},
+     {"slide": 6, "dhash_faixa": "00012001cc01cd0334050d09cc09b00b081300030003000b00030003000a000b"}
+    ]},
+    {"id": "2026-11-18-papo", "data": "2026-11-18", "origem": "esteira2s/2026-11-18/papo (commit ab29a299)", "metricool_id": 424179993, "fotos": [
+     {"slide": 1, "foto": "leite.jpg", "dhash_foto": "000000000000003000300070025c005c095c275c0c9c0cdc4edc0edd1fcf0000", "dhash_faixa": "0000000000000000000000000000000000000000000000000020002000300030"},
+     {"slide": 2, "foto": "px_prato_5870870.jpg", "pexels": 5870870, "sessao": "pexels 5870xxx", "dhash_foto": "18d83a5862e0f1d070d0e0fa00ff04f7063b0d8b0c8d1a495b1938333c478e0e", "dhash_faixa": "1958184c1cc00cd03cd80c582c48327072c062e042c063c061c8b0c8b0c170d0"},
+     {"slide": 3, "foto": "px_laticinio_4198114.jpg", "pexels": 4198114, "sessao": "pexels 4198xxx", "dhash_foto": "7cafb91c917213198da618923719ac4d2d8d358919328c69d70d4993e8d3e745", "dhash_faixa": "0c247008cc878d8535640d14cd1cb332145311529372a1321166953225312909"},
+     {"slide": 4, "foto": "px_homemmedico_6129444.jpg", "pexels": 6129444, "sessao": "pexels 6129xxx", "dhash_foto": "f1df6cd76c9b64ffe9b7e18bf2e5f26db27b24ee66eca6ccc1ecf3dcdfb6df76", "dhash_faixa": "0bdf93dff3dfcd9f3cdf0cb7ccdf6c9b6c936cdb6c9b6c9fec9f649fe4bf74ef"},
+     {"slide": 5, "foto": "px_barriga_7298905.jpg", "pexels": 7298905, "sessao": "pexels 7298xxx", "dhash_foto": "9fcf9fd39f805d8067f266df1cd3364239063bdf6d7f7b7f7e967ff07ff07ff0", "dhash_faixa": "9fcf9f479fc30d813dc10da31da29ac29ec09f809f009e409d405d007e003f00"},
+     {"slide": 6, "foto": "px_sangue_6285360.jpg", "pexels": 6285360, "sessao": "pexels 6285xxx", "dhash_foto": "35c00e402c108e18c31d4b960687cccb3909db001e421e428cd386091249a041", "dhash_faixa": "0d0023048c008d0034a80c40ce40ae200c000c300c308c106c1896188698cf18"}
+    ]},
+    {"id": "2026-11-19-papo", "data": "2026-11-19", "origem": "esteira2s/fundos-novos/2026-11-19-papo (fotos trocadas em 16/11)", "metricool_id": 425044444, "fotos": [
+     {"slide": 1, "foto": "px_sangue_12227661.jpg", "pexels": 12227661, "sessao": "pexels 12227xxx", "dhash_foto": "003c0163615a9f1f852fc95e63f00323043301f3f07cf89819807830c1f903f7", "dhash_faixa": "0098009d011c013f013301630163014f00ca011a013a013b613ef10d99238f2f"},
+     {"slide": 2, "foto": "frutas.jpg", "dhash_foto": "ffb7ffa5ffa5fdc5fd89faa3ddacfb26b44afce7d8f4fcc6fcccdcd1f643e707", "dhash_faixa": "bb337336cfb4ceb436a28fa3cfa5f3c5dfb5bf25ff65bff57cc5bda5fdb1ed95"},
+     {"slide": 3, "foto": "px_lab_4033300.jpg", "pexels": 4033300, "sessao": "pexels 4033xxx", "dhash_foto": "bc7b78b9c1f9a338219e10985a39596c4d8d7cc49f30c72cc34c9ba01f218b7c", "dhash_faixa": "fa71fa739e7b0c3934b90cb9ccb9e1f9c979c879d1f9d3d991f9a1b9a138a33e"},
+     {"slide": 4, "foto": "px_homemmedico_6749742.jpg", "pexels": 6749742, "sessao": "pexels 6749xxx", "dhash_foto": "c4182c38e4349444b650e2d9f0d833ca31c71397f390f3cc3fc0bdf4dfc84ef4", "dhash_faixa": "40003000cc100d0634390c398cb134b06cb4642c642ce46c9474947494649644"},
+     {"slide": 5, "foto": "bg_06.jpg", "dhash_foto": "448e8c8620ca2d518d1c9b40d85961cc64e330e666cfcf1a38692373997b3c65", "dhash_faixa": "c8c660c64c8e0c163c960dbc0c84a0c624c6a0ca219865d325d368d14a511410"},
+     {"slide": 6, "foto": "px_consulta_39192335.jpg", "pexels": 39192335, "sessao": "pexels 39192xxx", "dhash_foto": "00650072e9232e6f2e692f592d4d1c6d15e4700c70bc72b51304ec0800000000", "dhash_faixa": "001220110cd60c663c630c634c343032c433c832c925612b2c632e632e622e63"}
+    ]},
+    {"id": "2026-11-22-papo", "data": "2026-11-22", "origem": "esteira2s/fundos-novos/2026-11-22-papo (fotos trocadas em 16/11)", "metricool_id": 425044540, "fotos": [
+     {"slide": 1, "foto": "px_academia_5327508.jpg", "pexels": 5327508, "sessao": "pexels 5327xxx", "dhash_foto": "0e640630427666296c217c23d464a46425846cec78b67316631e618ee38e270e", "dhash_faixa": "86c40e440e641e2016248624c62036301e708e74623372616c2663316238642d"},
+     {"slide": 2, "foto": "px_balanca_6551401.jpg", "pexels": 6551401, "sessao": "pexels 6551xxx", "dhash_foto": "1ce534a234e43ce738e2b8e08c601c40638f0800000000000000000000000000", "dhash_faixa": "1ce41ce79ce50ce434e40ce6dd22333234f234e138e438e538e43ce43ce63ce3"},
+     {"slide": 3, "foto": "px_academia_7289233.jpg", "pexels": 7289233, "sessao": "pexels 7289xxx", "dhash_foto": "38571ad3d273e5272537a42666366f396ce0edd4cd8ecf8cbcf69cf8bcd7c9cd", "dhash_faixa": "38772cd718570c533c530c531ed31ad31ad3d273c233c433d627c52761276136"},
+     {"slide": 4, "foto": "px_checkup_7659564.jpg", "pexels": 7659564, "sessao": "pexels 7659xxx", "dhash_foto": "00790001031b8c7101b3e362cc72b06733db167e7e7ed80f38206420401000c0", "dhash_faixa": "185b305b0c190d1d3c1d0c090c01b2810c530003008b00990031024104570433"},
+     {"slide": 5, "foto": "px_academia_3836878.jpg", "pexels": 3836878, "sessao": "pexels 3836xxx", "dhash_foto": "3f7f0350f0b13f8d4bc86dcf29c929a42f862b9d2b9c8bbc8968c9e4cbf197ec", "dhash_faixa": "3e7b37bb4c7d0d7e355c0d5d4d14c270a071f0b178393c3d3e9e2edc2fcd2bcd"},
+     {"slide": 6, "foto": "px_academia_4164759.jpg", "pexels": 4164759, "sessao": "pexels 4164xxx", "dhash_foto": "01390b780b3009ba0daa91a61066de649b0619ee01fa18d208d203913c007034", "dhash_faixa": "112b212b05390d9937710f700fb003200f680f680b780b70093209ba09ba09ba"}
+    ]},
+    {"id": "2026-11-25-papo", "data": "2026-11-25", "origem": "esteira2s/2026-11-25/papo (commit ab29a299)", "metricool_id": 425045034, "fotos": [
+     {"slide": 1, "foto": "px_pao_1555813.jpg", "pexels": 1555813, "sessao": "pexels 1555xxx", "dhash_foto": "ca3e710b3f94471e91c369f065c061c37bcfc39d8fd113330e5ecc6c7a751feb", "dhash_faixa": "f27bc232c21e6206e213610871013509330cbb943f940e940f164b126709448d"},
+     {"slide": 2, "foto": "px_pao_166021.jpg", "pexels": 166021, "sessao": "pexels 166xxx", "dhash_foto": "0000000040c0e0300d06a44195c8d4d452b540c9714bc656e5d2f180f800e000", "dhash_faixa": "00003000cc000d0035000d00cd00b2000c00000000000e007000e48094402120"},
+     {"slide": 3, "foto": "px_lab_8851548.jpg", "pexels": 8851548, "sessao": "pexels 8851xxx", "dhash_foto": "701fe00fd617200e80b3c233f98fe1cb742c343c3878da702e320bf0c9c2e2d3", "dhash_faixa": "b2003004702f4c0f3c0f0c0fcc0ff017b40fe00fd20ea20e720f504d2017a086"},
+     {"slide": 4, "foto": "px_barriga_3807733.jpg", "pexels": 3807733, "sessao": "pexels 3807xxx", "dhash_foto": "032303032b2b0b131b8356c9564117011712171017397e607ae466a4fd4c00d9", "dhash_faixa": "032323230b230d2337230f238f2333230b232323232323232323232323230393"},
+     {"slide": 5, "foto": "px_pao_960662.jpg", "pexels": 960662, "sessao": "pexels 960xxx", "dhash_foto": "25f1f348cc4abcf988bbe4f8f298f27ef671d0e8f8e4fa61fc71fa70f062c163", "dhash_faixa": "042322498d22cdf1359c8d1ccb68da4ace4acc4b8c668ce78c6b8c5b9c8dbc8d"},
+     {"slide": 6, "foto": "px_sangue_1350560.jpg", "pexels": 1350560, "sessao": "pexels 1350xxx", "dhash_foto": "74d37cc75ccf1ede9e1e9f38965882dae59cc7684cdf9c72876e4e060ba62753", "dhash_faixa": "60c370d37cd34cc334c70cc74cc778c77cc76cc74ccf1ccf1ccf0ccf0ede9ede"}
+    ]}
+   ]
+  },
+  "fertilidade": {
+   "nota": "12/11 \"Relaxa que vem\" (Metricool 423487549) ficou fora: não há arquivos dele.",
+   "carrosseis": [
+    {"id": "2026-11-14-fertilidade", "data": "2026-11-14", "origem": "esteira2s/2026-11-14/fertilidade (commit ab29a299)", "metricool_id": 424179909, "fotos": [
+     {"slide": 1, "foto": "px_sangue_8460347.jpg", "pexels": 8460347, "sessao": "pexels 8460xxx", "dhash_foto": "7fc3e72787c619ce067dc6f7f9e173e0e783cc188b911b1a391aa6380c431801", "dhash_faixa": "7ff1ffd3ffd3ffe3fbe7f7a7e7e5e6e3c72b8b4603c605ce08ce42de21de213e"},
+     {"slide": 2, "foto": "px_casal_8559990.jpg", "pexels": 8559990, "sessao": "pexels 8559xxx", "dhash_foto": "0b408b4449e459c818c8b858bc6b300f191c9c309c3c2369d640c097bc391c3d", "dhash_faixa": "2b602b60936033c42d8413848344898409a449e449e4598c5988798839c839c8"},
+     {"slide": 3, "foto": "px_lab_9574324.jpg", "pexels": 9574324, "sessao": "pexels 9574xxx", "dhash_foto": "6d117e211e4b1881ba62765a6c723f819f18fa9c2e380e680ec207b018700fb0", "dhash_faixa": "ff10e818632633212d211321f32158015e015e415e491a49193318a19c219c01"},
+     {"slide": 4, "foto": "px_homemmedico_7578803.jpg", "pexels": 7578803, "sessao": "pexels 7578xxx", "dhash_foto": "3a4b3a4b3bc73b872b873f0bd70a636a64ae64e0978a724e3ec11f861fe01c79", "dhash_faixa": "324a3a4af24b334b2dca134bf34b2e4b3acb3bcb3b873ba73ba73ba73b873b97"},
+     {"slide": 5, "foto": "px_lab_3938022.jpg", "pexels": 3938022, "sessao": "pexels 3938xxx", "dhash_foto": "0d009e087c80e1c2fcc23fe2edc3fdd03924e931f0d9f0f041e6818c9b98841a", "dhash_faixa": "00000cc0d34033002d801310d390fe80fe08dc00b88071c0e1c0c9c2c1c2c1c2"},
+     {"slide": 6, "foto": "px_casal_3958822.jpg", "pexels": 3958822, "sessao": "pexels 3958xxx", "dhash_foto": "cc3fc61f6c1f781f703f724ffa6fd8437960cf9899c23a62fa70d91dbdcdfcec", "dhash_faixa": "cc1fcc2fc41fb31f2d9f933fc31fcc1f661f6e1f681f681f783f783f781f781f"}
+    ]},
+    {"id": "2026-11-16-fertilidade", "data": "2026-11-16", "origem": "esteira2s/2026-11-16/fertilidade (commit ab29a299)", "metricool_id": 424179933, "fotos": [
+     {"slide": 1, "foto": "px_homemso_6756351.jpg", "pexels": 6756351, "sessao": "pexels 6756xxx", "dhash_foto": "2e7f2e7f2e7f2e7b2e6f1a5e1a5e1a3caa75bae83adc0dfd99f8d96879f973d9", "dhash_faixa": "2e7f3e7f3e7f2a7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f"},
+     {"slide": 2, "foto": "px_casal_8560477.jpg", "pexels": 8560477, "sessao": "pexels 8560xxx", "dhash_foto": "1837838be781e792b1f2f164e1b6dcb238635965532b9129c41ce41c6491f993", "dhash_faixa": "600f3843313b33032da31303c383e781e7c5a741e7e366c2e6d3e6b3e592e592"},
+     {"slide": 3, "foto": "px_lab_4033300.jpg", "pexels": 4033300, "sessao": "pexels 4033xxx", "dhash_foto": "bc7b78b9c1f9a338219e10985a39596c4d8d7cc49f30c72cc34c9ba01f218b7c", "dhash_faixa": "fc71fa73f27b33392db913b9e139e8f9c979c879d1f9d3d991f9a1b9a138a33e"},
+     {"slide": 4, "foto": "px_homemmedico_6129444.jpg", "pexels": 6129444, "sessao": "pexels 6129xxx", "dhash_foto": "f1df6cd76c9b64ffe9b7e18bf2e5f26db27b24ee66eca6ccc1ecf3dcdfb6df76", "dhash_faixa": "03df8edff3dfb39f2dbf13b7e0df6c9b6c936cdb6c9b6c9fec9f649fe4bf74ef"},
+     {"slide": 5, "foto": "px_lab_7448009.jpg", "pexels": 7448009, "sessao": "pexels 7448xxx", "dhash_foto": "3264c067f261d471d07ce07e18ed316738b38d0cc7061b012d8425ce51fa6278", "dhash_faixa": "f2643264f26433642de513678367c063e0637061326192719271c671d4f19cf9"},
+     {"slide": 6, "foto": "px_casal_6249006.jpg", "pexels": 6249006, "sessao": "pexels 6249xxx", "dhash_foto": "291829181b30921894b091b8c906e266706d7159298c223e804f4003b129d122", "dhash_faixa": "2d182918291833182d1813183332699a49911bb01b1c1b38b2388e1c96989698"}
+    ]},
+    {"id": "2026-11-18-fertilidade", "data": "2026-11-18", "origem": "esteira2s/fundos-novos/2026-11-18-fertilidade (fotos trocadas em 16/11)", "metricool_id": 424179965, "fotos": [
+     {"slide": 1, "foto": "px_calendario_6170652.jpg", "pexels": 6170652, "sessao": "pexels 6170xxx", "dhash_foto": "0132027304d189d5d3c4c394e5025c631a60da40de5b3e087c004c8002230000", "dhash_faixa": "01300136013202730272027302730273007204d004d084d181f109f5c9d4e9d4"},
+     {"slide": 2, "foto": "px_casalnotebook_7218514.jpg", "pexels": 7218514, "sessao": "pexels 7218xxx", "dhash_foto": "1800788072647c90ec8bf367d306ce5ce1c6fc924f1a7399b19931d9dbd9ddb0", "dhash_faixa": "31002c00d10033002d801380f10060007200624036403240b644be90ec916d84"},
+     {"slide": 3, "foto": "px_calendario_5239918.jpg", "pexels": 5239918, "sessao": "pexels 5239xxx", "dhash_foto": "23cbc1878396339d539fd33613880785b5a43c80db91d24f2620ceb8628f11c1", "dhash_faixa": "22da22cb63cb33cf2d8713874387c08681969396139403942396239b329b129d"},
+     {"slide": 4, "foto": "px_lab_8325940.jpg", "pexels": 8325940, "sessao": "pexels 8325xxx", "dhash_foto": "33c81b143b4991cf980c9163698139803680c4e061f27262e4c45d990338e25e", "dhash_faixa": "73c872c8338033842d881390f3147a007b483b481b491b4933c9a5cbc9cf19c6"},
+     {"slide": 5, "foto": "px_casaldanca_8933678.jpg", "pexels": 8933678, "sessao": "pexels 8933xxx", "dhash_foto": "c66b672b752b31213527f60e70c6f0f270e278e24cf219f23be27de08d0c2d58", "dhash_faixa": "669a461bc22b336a2d291325672a672b272b670b752d75253125310531293122"},
+     {"slide": 6, "foto": "px_casalcama_3756346.jpg", "pexels": 3756346, "sessao": "pexels 3756xxx", "dhash_foto": "939235817733de723d7967a9209601fcc37ec07ffc0f3b040b9f01f007308c4e", "dhash_faixa": "b3c29381d39233932db113a1b3493fdb359377357733373356375677de599e59"}
+    ]},
+    {"id": "2026-11-21-fertilidade", "data": "2026-11-21", "origem": "esteira2s/fundos-novos/2026-11-21-fertilidade (fotos trocadas em 16/11)", "metricool_id": 425043258, "fotos": [
+     {"slide": 1, "foto": "px_casalhabitos_8551073.jpg", "pexels": 8551073, "sessao": "pexels 8551xxx", "dhash_foto": "43ff21ffd0ffcb7fca1fc8f36563666d620ccd0ccd64f33a336a3160f1c4fa51", "dhash_faixa": "13fe03df03df05ff21af03ef03bf21ff90ff90ffd5ffcaffcb7fc9bfcb7f497f"},
+     {"slide": 2, "foto": "px_homemso_10379552.jpg", "pexels": 10379552, "sessao": "pexels 10379xxx", "dhash_foto": "30092f292f8936076663474b2db32da72da667a631e61ef407f45e613ccb7cdf", "dhash_faixa": "32893409330933a12da913a963292c292f292e0926093d8d3d87260726073647"},
+     {"slide": 3, "foto": "px_cigarro_14549484.jpg", "pexels": 14549484, "sessao": "pexels 14549xxx", "dhash_foto": "1c44dc6ed87ac434826402c707874f1f133c1e5883dbf2d2f338f260f8147826", "dhash_faixa": "11040c04134c33c42dac13ec536adc6ac87bd87bd858d85ae01ac432c034c334"},
+     {"slide": 4, "foto": "px_casalouvindo_1044488.jpg", "pexels": 1044488, "sessao": "pexels 1044xxx", "dhash_foto": "9a040a5b4a1af3dbd9daf4dbb189799431612af930e47764d26891a0d324d2ac", "dhash_faixa": "0100c038d10f33812df8135b135b4a5b4b5b4b5a4a5af81b5b3960da72cbd3c8"},
+     {"slide": 5, "foto": "px_lab_5726714.jpg", "pexels": 5726714, "sessao": "pexels 5726xxx", "dhash_foto": "61046b2eec26c46008f0926484e2adaaab5b899899c881c063cce248cb111e48", "dhash_faixa": "91948804c30433042d04132473247826fa1ecc32cf26cc04c0e4838481208160"},
+     {"slide": 6, "foto": "px_casalcorrida_5038843.jpg", "pexels": 5038843, "sessao": "pexels 5038xxx", "dhash_foto": "9cb7acb9e4b1fcb3ece3e5c4c9e4d8e0f0fbb36891680c920040000000000000", "dhash_faixa": "ece5bc67bcb533092dbb13f3b529a4b9a5b3a59364d3ec31e093e533b5b3bcf3"}
+    ]},
+    {"id": "2026-11-23-fertilidade", "data": "2026-11-23", "origem": "esteira2s/fundos-novos/2026-11-23-fertilidade (fotos trocadas em 16/11)", "metricool_id": 425043398, "fotos": [
+     {"slide": 1, "foto": "px_relogio_8217888.jpg", "pexels": 8217888, "sessao": "pexels 8217xxx", "dhash_foto": "40172c37678793e5963d0e0ffc0b6841d810b8f1fc83c607806f83e3c4f9ccce", "dhash_faixa": "001300174017401740174017b01738174d174467279753cd43ed92e593658131"},
+     {"slide": 2, "foto": "px_casalconversa_4045426.jpg", "pexels": 4045426, "sessao": "pexels 4045xxx", "dhash_foto": "706561656325e625aca52c251c6f4cad6c216b191d1b4c184c484cc66cc96ccc", "dhash_faixa": "30653065f16533652de51365e165606769656369662566256625662566a5d4a5"},
+     {"slide": 3, "foto": "px_calendario_9052846.jpg", "pexels": 9052846, "sessao": "pexels 9052xxx", "dhash_foto": "082225a021988857b712e282c3ab10a3e406c4fdc37dc75c923c0c7c0a788d78", "dhash_faixa": "01000800c30233202d98138ea32324a061a281998198004c284f48d384548422"},
+     {"slide": 4, "foto": "px_homemmedico_8413300.jpg", "pexels": 8413300, "sessao": "pexels 8413xxx", "dhash_foto": "c7ff85b607a70f270f571fef67e572e568e3d9cddadcb6f8defa9af2daf7e5cd", "dhash_faixa": "494dcc4ac36633262dad13a643168c93278705250785073707060f220f090e25"},
+     {"slide": 5, "foto": "px_ampulheta_7224866.jpg", "pexels": 7224866, "sessao": "pexels 7224xxx", "dhash_foto": "40bdc8fe847ec24ec07dc03ec2b7e29dc0fcc0ddc0fdd07dd0399859c05dfc05", "dhash_faixa": "009d40bd407a33ba2dfe13fd117cc87640f544f584edc46f824cc25e824ec256"},
+     {"slide": 6, "foto": "px_casalidade_5425093.jpg", "pexels": 5425093, "sessao": "pexels 5425xxx", "dhash_foto": "bf2190899198838c03c926c1329131934cd0db64946699f36363cff9d7ba07bc", "dhash_faixa": "eb40bd21b33133a92da913993188988d91991398939a919a839a934c93cd83cd"}
+    ]},
+    {"id": "2026-11-25-fertilidade", "data": "2026-11-25", "origem": "esteira2s/fundos-novos/2026-11-25-fertilidade (fotos trocadas em 16/11)", "metricool_id": 425043856, "fotos": [
+     {"slide": 1, "foto": "px_homemso_32482920.jpg", "pexels": 32482920, "sessao": "pexels 32482xxx", "dhash_foto": "1927092799275927d92fc93f492f992f192f192fb12fb13f993f990f990f992f", "dhash_faixa": "1927192709274927092709271927092719279927492749275927892759274927"},
+     {"slide": 2, "foto": "px_termometro_3873171.jpg", "pexels": 3873171, "sessao": "pexels 3873xxx", "dhash_foto": "c00fc00fc01beddd61cf61b35625950a8b02c208d607e660f61cf61ffa3efa33", "dhash_faixa": "410c8c0b130e338f2d8d138d330f8c0f410fc01b800fe01ff65bf65be6dba48d"},
+     {"slide": 3, "foto": "px_calendario_19915774.jpg", "pexels": 19915774, "sessao": "pexels 19915xxx", "dhash_foto": "709318c31c470c173f073fc33f587cb8ff4e3fce4fee3fe63fe63ff03ff43ff8", "dhash_faixa": "71037893519333932d83138353c31ccb19471b071d4f38070e970c170c170d17"},
+     {"slide": 4, "foto": "px_casallago_340566.jpg", "pexels": 340566, "sessao": "pexels 340xxx", "dhash_foto": "f30f5f04990ce30177cb15dd8b7b4b5c017b8a7f8b778a6791633d33c0d301e0", "dhash_faixa": "b109d90bf34fb34d2d8d1305d3069c0499109b18c91cc18ca109e008ec88e700"},
+     {"slide": 5, "foto": "px_notebookcolo_6633593.jpg", "pexels": 6633593, "sessao": "pexels 6633xxx", "dhash_foto": "017204733dc7c64f8307319ef84dbc7beb1279127512a812fed2fd96ff467ff7", "dhash_faixa": "01720c72837233b22df313f193210ca60507042767c72f4f91cfc90fc70fc647"},
+     {"slide": 6, "foto": "px_mesa_5198249.jpg", "pexels": 5198249, "sessao": "pexels 5198xxx", "dhash_foto": "b19de46dc6e512b507bf27e731c3187b8a7e9e7cc6cdf70d3f2fe08873c2f2f3", "dhash_faixa": "636db0ddb15f335f2d9d13fdc35dce6dc4e5c1c5d2c512c534f546b552b583b7"}
+    ]}
+   ]
+  },
+  "caneta": {
+   "carrosseis": [
+    {"id": "2026-11-16-caneta", "data": "2026-11-16", "origem": "esteira2s/novos/2026-11-13/caneta", "metricool_id": 427553219, "fotos": [
+     {"slide": 1, "foto": "px_academia_3836878.jpg", "pexels": 3836878, "sessao": "pexels 3836xxx", "dhash_foto": "3f7f0350f0b13f8d4bc86dcf29c929a42f862b9d2b9c8bbc8968c9e4cbf197ec", "dhash_faixa": "7f7b3ffb3efd3f7e3b5e1b5f8314c070a071f0b178393c3d3e9e2edc2fcd2bcd"},
+     {"slide": 2, "foto": "px_academia_7289233.jpg", "pexels": 7289233, "sessao": "pexels 7289xxx", "dhash_foto": "38571ad3d273e5272537a42666366f396ce0edd4cd8ecf8cbcf69cf8bcd7c9cd", "dhash_faixa": "38772cd738d704d338d326d302d31a531ad3d273c233c433d627c52761276136"},
+     {"slide": 3, "foto": "px_lab_7448009.jpg", "pexels": 7448009, "sessao": "pexels 7448xxx", "dhash_foto": "3264c067f261d471d07ce07e18ed316738b38d0cc7061b012d8425ce51fa6278", "dhash_faixa": "f264b264e26404e438e526e780e7c063e0637061326192719271c671d4f19cf9"},
+     {"slide": 4, "foto": "px_academia_5327487.jpg", "pexels": 5327487, "sessao": "pexels 5327xxx", "dhash_foto": "19c0271d436061bd658e71b253b2d99c9d141cc43a203506399228e01ce0c0f9", "dhash_faixa": "06e00cc0098105d538d406d527d527348724c728430043c963646b306db8659c"},
+     {"slide": 5, "foto": "px_whey_13779116.jpg", "pexels": 13779116, "sessao": "pexels 13779xxx", "dhash_foto": "17358f411b1810380038003a003a803e803fc038e034e0d931c30e0107000383", "dhash_faixa": "04901420c3a804d138d106cac5c0be0009c81b80178813191038103810388038"},
+     {"slide": 6, "foto": "px_homemmedico_6129444.jpg", "pexels": 6129444, "sessao": "pexels 6129xxx", "dhash_foto": "f1df6cd76c9b64ffe9b7e18bf2e5f26db27b24ee66eca6ccc1ecf3dcdfb6df76", "dhash_faixa": "03df9f5ff3dfc0df38df02d7ecdf6c1b6c936cdb6c9b6c9fec9f649fe4bf74ef"}
+    ]},
+    {"id": "2026-11-19-caneta", "data": "2026-11-19", "origem": "esteira2s/fundos-novos/2026-11-19-caneta (fotos trocadas em 16/11)", "metricool_id": 427556464, "fotos": [
+     {"slide": 1, "foto": "px_barriga_3807733.jpg", "pexels": 3807733, "sessao": "pexels 3807xxx", "dhash_foto": "032303032b2b0b131b8356c9564117011712171017397e607ae466a4fd4c00d9", "dhash_faixa": "0323032b032b2b232b2b2b2b2b2b2b2b2b2b2b232b232b232b232b2323230b93"},
+     {"slide": 2, "foto": "px_lab_3938022.jpg", "pexels": 3938022, "sessao": "pexels 3938xxx", "dhash_foto": "0d009e087c80e1c2fcc23fe2edc3fdd03924e931f0d9f0f041e6818c9b98841a", "dhash_faixa": "00001040c6c084c038c006d0c990fe00fe08dc00b88071c0e1c0c9c2c1c2c1c2"},
+     {"slide": 3, "foto": "px_barriga_5938362.jpg", "pexels": 5938362, "sessao": "pexels 5938xxx", "dhash_foto": "10b9474b4e1b7c1ef4fcf989f307f02ff06ff0cfd0f10c710f3373b633fc16ee", "dhash_faixa": "00b9083908b904d938db02cf47cf4e0fce4b9e0b3e1b7e937c937c9efd4efd4c"},
+     {"slide": 4, "foto": "px_estudos_7054757.jpg", "pexels": 7054757, "sessao": "pexels 7054xxx", "dhash_foto": "34fa353b373a0cf28fb385e818368c0386376280e101822fe4fc0f4a060f3369", "dhash_faixa": "34f034f0b4ba84db38db0adac73a373a373a353a267b4f629b62297244b25a92"},
+     {"slide": 5, "foto": "px_calendario_6170652.jpg", "pexels": 6170652, "sessao": "pexels 6170xxx", "dhash_foto": "0132027304d189d5d3c4c394e5025c631a60da40de5b3e087c004c8002230000", "dhash_faixa": "03309136013205f338f206f302739073007204d084d084d181f109f589d4e9d4"},
+     {"slide": 6, "foto": "px_medicotelefone_5214952.jpg", "pexels": 5214952, "sessao": "pexels 5214xxx", "dhash_foto": "95a9978996499c219c818ea1d66594649d53b5c336a38eb3c291e271c261c01b", "dhash_faixa": "9029942881a904c938d92498879996489649962996299629942194219e219ca1"}
+    ]},
+    {"id": "2026-11-22-caneta", "data": "2026-11-22", "origem": "esteira2s/fundos-novos/2026-11-22-caneta (fotos trocadas em 16/11)", "metricool_id": 427556523, "fotos": [
+     {"slide": 1, "foto": "px_calendario_5239918.jpg", "pexels": 5239918, "sessao": "pexels 5239xxx", "dhash_foto": "23cbc1878396339d539fd33613880785b5a43c80db91d24f2620ceb8628f11c1", "dhash_faixa": "22da23cb61cb61cfe1cfc18fc28fc38681969396139403942396239b329b329d"},
+     {"slide": 2, "foto": "px_academia_3763115.jpg", "pexels": 3763115, "sessao": "pexels 3763xxx", "dhash_foto": "265f3e2f3997348e2f112f2c514cd34dd26773676b726e736cfb65b32339347d", "dhash_faixa": "240f3817a49704d738d706d7cf2fb92f392f392f399a389b3596349632963e86"},
+     {"slide": 3, "foto": "px_barriga_7298668.jpg", "pexels": 7298668, "sessao": "pexels 7298xxx", "dhash_foto": "ee5fff7f08df19dbfcf9fe3e9e98dec379981e27c05b70dbffec4fc9a7b30a53", "dhash_faixa": "645fdc6fc4df04df38df06df41dffc3f75fff8dfc8df06df18df19933b1b7b7b"},
+     {"slide": 4, "foto": "px_balanca_7801352.jpg", "pexels": 7801352, "sessao": "pexels 7801xxx", "dhash_foto": "9ddb05c352f1f9f069f0ecf69c78d8fcf87cf87cf87c706c707ff2cff949f989", "dhash_faixa": "8c49d89bc5d204ca38c706d341e1502140f170f171f871f05ab0f9b069b069f8"},
+     {"slide": 5, "foto": "px_sangue_6285344.jpg", "pexels": 6285344, "sessao": "pexels 6285xxx", "dhash_foto": "003de6fb9323c9edf667eb0c3b1837292fe62bfc6cf86cb34e121f033e116efc", "dhash_faixa": "011f103cc0f504dd38db02dbc5fbd663d3c3d3a293309bd39999d9c9ccadece6"},
+     {"slide": 6, "foto": "px_homemmedico_6749742.jpg", "pexels": 6749742, "sessao": "pexels 6749xxx", "dhash_foto": "c4182c38e4349444b650e2d9f0d833ca31c71397f390f3cc3fc0bdf4dfc84ef4", "dhash_faixa": "40003000c59004c638f906f984b1343064b4642c642ce46c9474947494649644"}
+    ]}
+   ]
+  },
+  "tdah": {
+   "carrosseis": [
+    {"id": "2026-11-16-tdah", "data": "2026-11-16", "origem": "esteira2s/novos/2026-11-13/tdah", "metricool_id": 427553235, "fotos": [
+     {"slide": 1, "foto": "px_homemso_6756351.jpg", "pexels": 6756351, "sessao": "pexels 6756xxx", "dhash_foto": "2e7f2e7f2e7f2e7b2e6f1a5e1a5e1a3caa75bae83adc0dfd99f8d96879f973d9", "dhash_faixa": "2e7f3e7f3e7f2a7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f2e7f"},
+     {"slide": 2, "foto": "px_homemso_10379552.jpg", "pexels": 10379552, "sessao": "pexels 10379xxx", "dhash_foto": "30092f292f8936076663474b2db32da72da667a631e61ef407f45e613ccb7cdf", "dhash_faixa": "3289300933094b2135a907294f292c292f292e0926093d8d3d87260726073647"},
+     {"slide": 3, "foto": "px_homemso_6756358.jpg", "pexels": 6756358, "sessao": "pexels 6756xxx", "dhash_foto": "ff8bff76fef9fdbefb7cfff9fdd9f5b9f3bce738dd93bbc6f6996c34f5bc3742", "dhash_faixa": "cda37cc587454b4d35b107a6cb56f4b15b7bff69fedcfedafddcfdba7db87dbe"},
+     {"slide": 4, "foto": "px_homemso_32482920.jpg", "pexels": 32482920, "sessao": "pexels 32482xxx", "dhash_foto": "1927092799275927d92fc93f492f992f192f192fb12fb13f993f990f990f992f", "dhash_faixa": "192798270b274b23352707274b27b82319271927892749275927892759274927"},
+     {"slide": 5, "foto": "px_calendario_19915774.jpg", "pexels": 19915774, "sessao": "pexels 19915xxx", "dhash_foto": "709318c31c470c173f073fc33f587cb8ff4e3fce4fee3fe63fe63ff03ff43ff8", "dhash_faixa": "5103789341934b13358307034bc33ccb19471b071d4f38070e970c170c170d17"},
+     {"slide": 6, "foto": "px_homemmedico_7578803.jpg", "pexels": 7578803, "sessao": "pexels 7578xxx", "dhash_foto": "3a4b3a4b3bc73b872b873f0bd70a636a64ae64e0978a724e3ec11f861fe01c79", "dhash_faixa": "2a4a3a4a8a4b4b4b354a074bcb4b3a4b3acb3bcb3b873ba73ba73ba73b873b97"}
+    ]},
+    {"id": "2026-11-20-tdah", "data": "2026-11-20", "origem": "esteira2s/fundos-novos/2026-11-20-tdah (fotos trocadas em 16/11)", "metricool_id": 427556597, "fotos": [
+     {"slide": 1, "foto": "px_celularnoite_8036661.jpg", "pexels": 8036661, "sessao": "pexels 8036xxx", "dhash_foto": "0400040006008602064c265226a60d4d4e5b96d5bb8c7ec63f441dcd4ec94781", "dhash_faixa": "0c00040804000c00840004000c00060006000600060006080600061006810681"},
+     {"slide": 2, "foto": "px_celular_5081404.jpg", "pexels": 5081404, "sessao": "pexels 5081xxx", "dhash_foto": "48510425a43176921a8798921266126c22795269506511f31b1116813f917391", "dhash_faixa": "48316851495b4b20358407244b042425a521ac1164916495e4a0b4a23c923a12"},
+     {"slide": 3, "foto": "px_gravandovideo_8993867.jpg", "pexels": 8993867, "sessao": "pexels 8993xxx", "dhash_foto": "d14f0e9ffe3fda5b0cdb3cab3533b45bb45bb45bb4dbb5d3b4f7b52fb71f35bd", "dhash_faixa": "414f304f834f4b5f35df07dfc39fae9f2c9f9a3f7a3ff27be65bce5b1e5b585b"},
+     {"slide": 4, "foto": "px_trofeu_6532362.jpg", "pexels": 6532362, "sessao": "pexels 6532xxx", "dhash_foto": "00114008963099b2b19376073c18de5ce49afe3a7e242c342e522c1c24982498", "dhash_faixa": "0000300083004b0035810701cb007480810890349034903090b290b2963299b2"},
+     {"slide": 5, "foto": "px_medicavideo_19957215.jpg", "pexels": 19957215, "sessao": "pexels 19957xxx", "dhash_foto": "05880b640b2416a596654f433e589699d7f8ff707372c2d0e0d1d4d9ecd9fc37", "dhash_faixa": "000030888330cbc835890764cb64b3650b648b240a25032506e506a516251664"},
+     {"slide": 6, "foto": "px_homemmedico_8413217.jpg", "pexels": 8413217, "sessao": "pexels 8413xxx", "dhash_foto": "0fff1fff1ffe1fff1efb0fff06fd09fd0c7e3d343024305c9018dc179c1e1e1c", "dhash_faixa": "037b34bf877b4b7735bb077fcb7f34fb1fff1ef71ff31af71fff6f7d5fff1eff"}
+    ]},
+    {"id": "2026-11-23-tdah", "data": "2026-11-23", "origem": "esteira2s/fundos-novos/2026-11-23-tdah (fotos trocadas em 16/11)", "metricool_id": 427556661, "fotos": [
+     {"slide": 1, "foto": "px_prato_5870870.jpg", "pexels": 5870870, "sessao": "pexels 5870xxx", "dhash_foto": "18d83a5862e0f1d070d0e0fa00ff04f7063b0d8b0c8d1a495b1938333c478e0e", "dhash_faixa": "19581a4c18c43ad03ad832583248327072c062e042e063c861c8b0c8b0c170d1"},
+     {"slide": 2, "foto": "px_barriga_7298905.jpg", "pexels": 7298905, "sessao": "pexels 7298xxx", "dhash_foto": "9fcf9fd39f805d8067f266df1cd3364239063bdf6d7f7b7f7e967ff07ff07ff0", "dhash_faixa": "9fcf9f479fc34b4135a107a30b229cc29fc09f809f009e409d405d007e003f00"},
+     {"slide": 3, "foto": "px_lab_4033300.jpg", "pexels": 4033300, "sessao": "pexels 4033xxx", "dhash_foto": "bc7b78b9c1f9a338219e10985a39596c4d8d7cc49f30c72cc34c9ba01f218b7c", "dhash_faixa": "fc71fa739a7b4b3935b90739c939e8f9c979c879d1f9d3d991f9a1b9a138a33e"},
+     {"slide": 4, "foto": "px_chaves_27522902.jpg", "pexels": 27522902, "sessao": "pexels 27522xxx", "dhash_foto": "18c41f60f9c0dce4616cb0ece65cc674c270c070c05ec0634047f00fc07e01ff", "dhash_faixa": "4000308083e44b6435e407f4c7f0f3605be0d9a0f9c0b8c098c098c08c6ccc6c"},
+     {"slide": 5, "foto": "px_pao_1555813.jpg", "pexels": 1555813, "sessao": "pexels 1555xxx", "dhash_foto": "ca3e710b3f94471e91c369f065c061c37bcfc39d8fd113330e5ecc6c7a751feb", "dhash_faixa": "c27bf232871e4b26351307084b013409330cbb943f940e940f164b126709448d"},
+     {"slide": 6, "foto": "px_consulta_7176291.jpg", "pexels": 7176291, "sessao": "pexels 7176xxx", "dhash_foto": "98719e60472443e198b11c3806583c8c395ca332276c19d073a24340c68096e8", "dhash_faixa": "19d318d199714b70357007300f60866846284e84c744cf24c324c360c180a1c1"}
+    ]}
+   ]
+  },
+  "camarao": {
+   "janela": 1,
+   "nota": "Banco camarao/fotos tem só 12 fotos: a janela de 30 é impossível. Enquanto o banco não crescer, a regra é: nenhuma foto do carrossel anterior e nenhuma repetida no mesmo carrossel (máx. 6 slides). Com fotos novas no banco, aumentar a janela.",
+   "carrosseis": [
+    {"id": "2026-10-23-aclimatacao-pl", "data": "2026-10-23", "origem": "camarao/queue/2026-10-23-aclimatacao-pl (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08ec486c007e063f063e063c463c423cc429e01c703c3a9c3d1cc4b962f2b194"},
+     {"slide": 2, "foto": "camarao-despesca-monte.jpg", "dhash_foto": "b24972e550c8cad6733162b964915996b122a4bad49896bad32ac6c1e710a29a", "dhash_faixa": "66d9a6c9b2cc82c529f908dd42c5f2c658e21199f599d0cd5ac4ca46ce524c96"},
+     {"slide": 3, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58744b0042d446d429dc08de42dcd02c40ec400c443440c4404cc014c02cc00e"},
+     {"slide": 4, "foto": "lago-agua-doce.jpg", "dhash_foto": "8e629ecf0adf4fff87d506909a638e076b874f848e058a43c270fc440d48801f", "dhash_faixa": "8f628ef28ef206e728e608cf06db1e9b1ecf1adf49df495f475f4fff4fdb19db"},
+     {"slide": 5, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf051f01df02df28df08df06df983f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c86cc29c808d1c3d3f181a47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-10-24-biofloco-cn-bercario", "data": "2026-10-24", "origem": "camarao/queue/2026-10-24-biofloco-cn-bercario (master)", "fotos": [
+     {"slide": 1, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "047f057f017f013f00bf003f013f003f003f013f229b08eb10f3333b269b2c4f"},
+     {"slide": 2, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 3, "foto": "camarao-despesca-monte.jpg", "dhash_foto": "b24972e550c8cad6733162b964915996b122a4bad49896bad32ac6c1e710a29a", "dhash_faixa": "66d9a649a6cc06c53cf900dd62c572c658e21199f599d0cd5ac4ca46ce524c96"},
+     {"slide": 4, "foto": "camarao-na-bandeja.jpg", "dhash_foto": "0f622f601f00edc8d97cb1255d9b9359b6bc360ed9af6cb9b6cadac796332dc1", "dhash_faixa": "0f420f234bc006c03cc002c007c09f202b400f002fd0bf80dfc1dfc5ed88f508"},
+     {"slide": 5, "foto": "lago-agua-doce.jpg", "dhash_foto": "8e629ecf0adf4fff87d506909a638e076b874f848e058a43c270fc440d48801f", "dhash_faixa": "8f628ef28ef206e73ce602cf06db1e9b1ecf1adf49df495f475f4fff4fdb19db"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-10-25-densidade-vibrio", "data": "2026-10-25", "origem": "camarao/queue/2026-10-25-densidade-vibrio (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08ec486c007e063f063e063c463c423cc429e01c703c3a9c3d1cc4b962f2b194"},
+     {"slide": 2, "foto": "camarao-despesca-monte.jpg", "dhash_foto": "b24972e550c8cad6733162b964915996b122a4bad49896bad32ac6c1e710a29a", "dhash_faixa": "66d9a649a6cc06c53cf900dd62c572c658e21199f599d0cd5ac4ca46ce525c96"},
+     {"slide": 3, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 4, "foto": "camarao-na-bandeja.jpg", "dhash_foto": "0f622f601f00edc8d97cb1255d9b9359b6bc360ed9af6cb9b6cadac796332dc1", "dhash_faixa": "0f420f234bc006c03cc002c007c09f202b400f002fd0bf80dfc1dfc5ed88f508"},
+     {"slide": 5, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-10-26-aeracao-oxigenio", "data": "2026-10-26", "origem": "camarao/queue/2026-10-26-aeracao-oxigenio (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16470ea60c2c2e6cda68db5147136181b47bb57a34f0527009a49826487660ae"},
+     {"slide": 2, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b035a0f102f03cf100f9e8e958291eeb1eeb1eeb9eeb8eeb8eea86e236c2"},
+     {"slide": 3, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 4, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 5, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f0cfa45f04"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-10-28-amonia-probioticos", "data": "2026-10-28", "origem": "camarao/queue/2026-10-28-amonia-probioticos (master)", "fotos": [
+     {"slide": 1, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "047f057f017f013f00bf003f013f003f003f013f229b08eb10f3333b269b2c4f"},
+     {"slide": 2, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f0cfa47704"},
+     {"slide": 3, "foto": "camarao-despesca-monte.jpg", "dhash_foto": "b24972e550c8cad6733162b964915996b122a4bad49896bad32ac6c1e710a29a", "dhash_faixa": "66d9a649a6cc06c53cf900dd62c572c658e21199f599d0cd5ac4ca46ce524c96"},
+     {"slide": 4, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 5, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e809e8259835c8d1685968"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-10-30-despesca-parcial", "data": "2026-10-30", "origem": "camarao/queue/2026-10-30-despesca-parcial (master)", "fotos": [
+     {"slide": 1, "foto": "camarao-despesca-monte.jpg", "dhash_foto": "b24972e550c8cad6733162b964915996b122a4bad49896bad32ac6c1e710a29a", "dhash_faixa": "66d9a6c9b64cf965f93931bd728576c658e21199f599d0cd5bc4ca46ce524c96"},
+     {"slide": 2, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 3, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b9e9e17fc87fc57f05fa46f04"},
+     {"slide": 4, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b035a0f102f03cf100f9e8e958291eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 5, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485658ae"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-10-31-alimentacao-fcr", "data": "2026-10-31", "origem": "camarao/queue/2026-10-31-alimentacao-fcr (master)", "fotos": [
+     {"slide": 1, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b0f5b0f138f038f178e978e958e91eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 2, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 3, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 4, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e809e8259835c8d1684168"},
+     {"slide": 5, "foto": "lago-agua-doce.jpg", "dhash_foto": "8e629ecf0adf4fff87d506909a638e076b874f848e058a43c270fc440d48801f", "dhash_faixa": "8f628ef28ef206e73ce602cf06db1e9b1ecf1adf49df495f475f4fff4fdb19db"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-11-01-probiotico-vibrio", "data": "2026-11-01", "origem": "camarao/queue/2026-11-01-probiotico-vibrio (master)", "fotos": [
+     {"slide": 1, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58744b50c2d4c004c01cc00ec00cc02cc02cc00c443440c4404cc814c02cc00e"},
+     {"slide": 2, "foto": "camarao-cru-no-gelo.jpg", "dhash_foto": "14a4073011e51ce5e65fe09fc1cd746996549a5a9c38dc9cca76e66366f6f8b8", "dhash_faixa": "31c1186544a547f43df400d283ca932b992f71b610a114c538c1b8699c645e47"},
+     {"slide": 3, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 4, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 5, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-11-02-baixa-salinidade-taurina", "data": "2026-11-02", "origem": "camarao/queue/2026-11-02-baixa-salinidade-taurina (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08ec486c007e063f063e063c463c423cc429e01c703c3a9c3d1cc4b962f2b194"},
+     {"slide": 2, "foto": "lago-agua-doce.jpg", "dhash_foto": "8e629ecf0adf4fff87d506909a638e076b874f848e058a43c270fc440d48801f", "dhash_faixa": "8f628ef28ef206e73ce602cf06db1e9b1ecf1adf49df495f475f4fff4fdb19db"},
+     {"slide": 3, "foto": "camarao-agua-doce-detalhe.jpg", "dhash_foto": "3038713ad25ace5306530cb34f014fa577ce445ce41f7a9fde02c7c165f4307a", "dhash_faixa": "0038103800b806d83cda00da41fa713a405ac25ac232c272c3524b534e73ce53"},
+     {"slide": 4, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 5, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e809e8259835c8d1684168"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-11-03-bercario-microalga", "data": "2026-11-03", "origem": "camarao/queue/2026-11-03-bercario-microalga (master)", "fotos": [
+     {"slide": 1, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "047f057f017f013f00bf003f013f003f003f013f229b08eb10f3333b269b2c4f"},
+     {"slide": 2, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 3, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b035a0f102f03cf100f9e8e958291eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 4, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 5, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e809e8259835c8d1684168"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-11-04-alcalinidade-caco3", "data": "2026-11-04", "origem": "camarao/queue/2026-11-04-alcalinidade-caco3 (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08ec486c007e063f063e063c463c423cc429e01c703c3a9c3d1cc4b962f2b194"},
+     {"slide": 2, "foto": "lago-agua-doce.jpg", "dhash_foto": "8e629ecf0adf4fff87d506909a638e076b874f848e058a43c270fc440d48801f", "dhash_faixa": "8f628ef28ef206e73ce602cf06db1e9b1ecf1adf49df495f475f4fff4fdb19db"},
+     {"slide": 3, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 4, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b035a0f102f03cf100f9e8e958291eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 5, "foto": "camarao-na-bandeja.jpg", "dhash_foto": "0f622f601f00edc8d97cb1255d9b9359b6bc360ed9af6cb9b6cadac796332dc1", "dhash_faixa": "0f420f234bc006c03cc002c007c09f202b400f002fd0bf80dfc1dfc5ed88f508"},
+     {"slide": 6, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f0cfa45f04"},
+     {"slide": 7, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-11-05-genetica-tolerancia-estresse", "data": "2026-11-05", "origem": "camarao/queue/2026-11-05-genetica-tolerancia-estresse (master)", "fotos": [
+     {"slide": 1, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b0f5b0f138f038f178e978e958e91eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 2, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 3, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 4, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 5, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-11-06-densidade-estocagem-biofloco", "data": "2026-11-06", "origem": "camarao/queue/2026-11-06-densidade-estocagem-biofloco (master)", "fotos": [
+     {"slide": 1, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "047f057f017f013f00bf003f013f003f003f013f229b08eb10f3333b269b2c4f"},
+     {"slide": 2, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 3, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 4, "foto": "camarao-despesca-monte.jpg", "dhash_foto": "b24972e550c8cad6733162b964915996b122a4bad49896bad32ac6c1e710a29a", "dhash_faixa": "66d9a649a6cc06c53cf900dd62c572c658e21199f599d0cd5ac4ca46ce524c96"},
+     {"slide": 5, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e809e8259835c8d1684168"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-11-07-aeracao-biofloco-dha", "data": "2026-11-07", "origem": "camarao/queue/2026-11-07-aeracao-biofloco-dha (master)", "fotos": [
+     {"slide": 1, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "047f057f017f013f00bf003f013f003f003f013f229b08eb10f3333b269b2c4f"},
+     {"slide": 2, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 3, "foto": "camarao-na-bandeja.jpg", "dhash_foto": "0f622f601f00edc8d97cb1255d9b9359b6bc360ed9af6cb9b6cadac796332dc1", "dhash_faixa": "0f420f234bc006c03cc002c007c09f202b400f002fd0bf80dfc1dfc5ed88f508"},
+     {"slide": 4, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 5, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e809e8259835c8d1685968"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-11-08-fago-vibriose", "data": "2026-11-08", "origem": "camarao/queue/2026-11-08-fago-vibriose (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16470ea60c2c2e6cda68db5147136181b47bb57a34f0527009a49826487660ae"},
+     {"slide": 2, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc814d02c700e"},
+     {"slide": 3, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f057a47f04"},
+     {"slide": 4, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013fa2df50eb78f3533b569b1c4d"},
+     {"slide": 5, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b035a0f102f03cf100f9e8e958291eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-11-09-magnesio-calcio-bercario", "data": "2026-11-09", "origem": "camarao/queue/2026-11-09-magnesio-calcio-bercario (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16470ea60c2c2e6cda68db5147136181b47bb57a34f0527009a49826487660ae"},
+     {"slide": 2, "foto": "lago-agua-doce.jpg", "dhash_foto": "8e629ecf0adf4fff87d506909a638e076b874f848e058a43c270fc440d48801f", "dhash_faixa": "8f628ef28ef206e73ce602cf06db1e9b1ecf1adf49df495f475f4fff4fdb75db"},
+     {"slide": 3, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 4, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013fa2df50eb78f3533b569b1c4d"},
+     {"slide": 5, "foto": "camarao-agua-doce-detalhe.jpg", "dhash_foto": "3038713ad25ace5306530cb34f014fa577ce445ce41f7a9fde02c7c165f4307a", "dhash_faixa": "0038103800b806d83cda00da41fa713a405ac25a52325a725b521b531e734e53"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-11-10-temperatura-alimentacao", "data": "2026-11-10", "origem": "camarao/queue/2026-11-10-temperatura-alimentacao (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08ec486c007e063f063e063c463c423cc429e01c703c3a9c3d1cc4b962f2b194"},
+     {"slide": 2, "foto": "camarao-na-bandeja.jpg", "dhash_foto": "0f622f601f00edc8d97cb1255d9b9359b6bc360ed9af6cb9b6cadac796332dc1", "dhash_faixa": "0f420f234bc006c03cc002c007c09f202b400f002fd0bf80dfc1dfc5ed88f508"},
+     {"slide": 3, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 4, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 5, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-11-11-chitosana-vibriose", "data": "2026-11-11", "origem": "camarao/queue/2026-11-11-chitosana-vibriose (master)", "fotos": [
+     {"slide": 1, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "047f057f017f013f00bf003f013f003f003f013f229b08eb10f3333b269b2c4f"},
+     {"slide": 2, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc814d02c700e"},
+     {"slide": 3, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 4, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b035a0f102f03cf100f9e8e958291eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 5, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e859e8559831c819685968"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"},
+     {"slide": 7, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-11-12-biofloco-cn-glicose", "data": "2026-11-12", "origem": "camarao/queue/2026-11-12-biofloco-cn-glicose (master)", "fotos": [
+     {"slide": 1, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b0f5b0f138f038f178e978e958e91eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 2, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 3, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 4, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 5, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"},
+     {"slide": 6, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08c4186d00ff06df3cde02dcc6dcd23cc469e01c703c3a9c3d5cc49962b2b194"}
+    ]},
+    {"id": "2026-11-13-paa-biosseguranca-vibrio", "data": "2026-11-13", "origem": "camarao/queue/2026-11-13-paa-biosseguranca-vibrio (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08ec486c007e063f063e063c463c423cc429e01c703c3a9c3d1cc4b962f2b194"},
+     {"slide": 2, "foto": "camarao-despesca-monte.jpg", "dhash_foto": "b24972e550c8cad6733162b964915996b122a4bad49896bad32ac6c1e710a29a", "dhash_faixa": "66d9a649a6cc06c53cf900dd62c572c658e21199f599d0cd5ac4ca46ce524c96"},
+     {"slide": 3, "foto": "camarao-agua-doce-detalhe.jpg", "dhash_foto": "3038713ad25ace5306530cb34f014fa577ce445ce41f7a9fde02c7c165f4307a", "dhash_faixa": "0038103800b806d83cda00da41fa713a405ac25ac232c272c3524b534e73ce53"},
+     {"slide": 4, "foto": "lago-agua-doce.jpg", "dhash_foto": "8e629ecf0adf4fff87d506909a638e076b874f848e058a43c270fc440d48801f", "dhash_faixa": "8f628ef28ef206e73ce602cf06db1e9b1ecf1adf49df495f475f4fff4fdb19db"},
+     {"slide": 5, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e809e8259835c8d1684168"},
+     {"slide": 6, "foto": "camarao-na-bandeja.jpg", "dhash_foto": "0f622f601f00edc8d97cb1255d9b9359b6bc360ed9af6cb9b6cadac796332dc1", "dhash_faixa": "0f420f234bc006c03cc002c007c09f202b400f002fd0bf80dfc1dfc5ed88f508"}
+    ]},
+    {"id": "2026-11-14-bercario-viabilidade-economica", "data": "2026-11-14", "origem": "camarao/queue/2026-11-14-bercario-viabilidade-economica (master)", "fotos": [
+     {"slide": 1, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "047f057f017f013f00bf003f013f003f003f013f229b08eb10f3333b269b2c4f"},
+     {"slide": 2, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 3, "foto": "reservatorio-agua-redondo.jpg", "dhash_foto": "1a123e469ffc4f744fe0107d409e68daa0538c892cc030d25d012dad01aa826b", "dhash_faixa": "089812108292c6d43d5e00dec3c4bf042ec61e5b1e9e07fc07fc87f05fa45f04"},
+     {"slide": 4, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b035a0f102f03cf100f9e8e958291eeb1eeb1eeb9eeb8eeb8eea86e28ec2"},
+     {"slide": 5, "foto": "lagoa-na-mata.jpg", "dhash_foto": "6458734c61ec51a8416820b8346873105805613e947cc8a774ec31e10b644e68", "dhash_faixa": "366864784cd002d03d7a06cce3cc732463f461dd71e809e8259835c8d1684168"},
+     {"slide": 6, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"}
+    ]},
+    {"id": "2026-11-15-peso-pos-larva-lucro", "data": "2026-11-15", "origem": "camarao/queue/2026-11-15-peso-pos-larva-lucro (master)", "fotos": [
+     {"slide": 1, "foto": "viveiros-por-do-sol-aereo.jpg", "dhash_foto": "007ec63cb03ca1d061dc68d480f836862b077c1bee89997ee93244be52ce5990", "dhash_faixa": "08ec486c007e063f063e063c463c423cc429e01c703c3a9c3d1cc4b962f2b194"},
+     {"slide": 2, "foto": "tanque-redondo-vista-aerea.jpg", "dhash_foto": "01ff071f10f3229f1f0632f32a296de148e148e9696b31f2198f073f10f706bf", "dhash_faixa": "04bf043f01df02df3cdf02df07df183f007f013f02df08eb10f3333b269b2c4d"},
+     {"slide": 3, "foto": "camarao-despesca-monte.jpg", "dhash_foto": "b24972e550c8cad6733162b964915996b122a4bad49896bad32ac6c1e710a29a", "dhash_faixa": "66d9a649a6cc06c53cf900dd62c572c658e21199f599d0cd5ac4ca46ce524c96"},
+     {"slide": 4, "foto": "tanques-retangulares-vista-de-cima.jpg", "dhash_foto": "4a54c00c400cc04cc00e481cc11cc36c425cc0ccc194dbbccf7cd384d2dccf7c", "dhash_faixa": "58745b00c2d406d43cdc00dec1ccd02c40acc00c443440c4404cc014c02cc00e"},
+     {"slide": 5, "foto": "viveiros-campo-verde-aereo.jpg", "dhash_foto": "0e66ca61b571c876606c63a8925b039903261e430fe627ee90d9e45ce6488c65", "dhash_faixa": "16c70ea60c2c06cc3dc804d1c3d3f181b47bb57a34f0527089a49826485660ae"},
+     {"slide": 6, "foto": "camarao-gigante-na-mao.jpg", "dhash_foto": "b8f538e91eeb8eea94d8e4d95a4d2e0e9709e3c170f0bc78ae18b78cf184d184", "dhash_faixa": "e9b5b035a0f102f03cf100f9e8e958291eeb1eeb1eeb9eeb8eeb8eea86e28ec2"}
+    ]}
+   ]
+  }
+ }
+}

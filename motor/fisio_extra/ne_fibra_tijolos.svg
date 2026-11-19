@@ -1,0 +1,11 @@
+<g>
+  <path d="M-196 -84 L156 -84 C200 -84 200 84 156 84 L-196 84 C-222 84 -222 -84 -196 -84 Z" fill="#d2414b" stroke="#5c0f14" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M-196 -46 L156 -46 M-196 -8 L156 -8 M-196 30 L156 30" stroke="#ef7c84" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+  <ellipse cx="156" cy="0" rx="38" ry="84" fill="#e86870" stroke="#5c0f14" stroke-width="8"/>
+  <circle cx="148" cy="-40" r="10" fill="#a82731"/><circle cx="164" cy="-8" r="10" fill="#a82731"/><circle cx="148" cy="26" r="10" fill="#a82731"/><circle cx="166" cy="52" r="9" fill="#a82731"/>
+  <g fill="#f0a640" stroke="#7a4a08" stroke-width="6">
+    <rect x="-180" y="-118" width="62" height="34" rx="7"/><rect x="-110" y="-118" width="62" height="34" rx="7"/><rect x="-40" y="-118" width="62" height="34" rx="7"/><rect x="30" y="-118" width="62" height="34" rx="7"/>
+    <rect x="-150" y="84" width="62" height="34" rx="7"/><rect x="-80" y="84" width="62" height="34" rx="7"/><rect x="-10" y="84" width="62" height="34" rx="7"/><rect x="60" y="84" width="62" height="34" rx="7"/>
+  </g>
+  <path d="M-170 -110 L-130 -110 M-100 -110 L-60 -110 M-30 -110 L10 -110 M40 -110 L80 -110" stroke="#fff3c4" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+</g>

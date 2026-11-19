@@ -9,7 +9,7 @@ Medido em 23/09 nos 624 webm de D:\CAMUFLADOS_FULL: TODOS quebrados. Rota morta 
 O que este script faz (tudo que os toggles do site fariam, porem offline e sem perda):
   - re-encode h264 completo (nova estrutura de quadros; muda o hash de ponta a ponta)
   - zoom 1.03 com deslocamento de 1-2 px (nenhum pixel fica no lugar de origem)
-  - velocidade 1.02x (muda duracao e forma de onda; imperceptivel)
+  - velocidade 0,97-0,995x (muda duracao e forma de onda; imperceptivel; nunca acelera)
   - corta 0.25 s do inicio (troca o quadro de capa, que e o mais comparado)
   - ruido temporal leve (alls=2) - cada quadro passa a ser unico
   - audio: tom +0.3% e ruido a -60 dB (inaudivel)
@@ -63,9 +63,8 @@ def camuflar(src, dst, crop45=False, trilha=None):
     #   Trocar fundo sonoro                   -> --trilha (so quando pedido; NAO usar em video falado)
     # O zoom com deslocamento e o ruido por quadro sao acrescimo nosso: mexem em todos os pixels.
     z = 1.03
-    vel = round(random.uniform(0.97, 1.03), 3)
-    if abs(vel - 1) < 0.005:
-        vel = 1.02
+    # 14/11: Wagner achou a fala corrida; o sabor nunca acelera (so desacelera de leve).
+    vel = round(random.uniform(0.97, 0.995), 3)
     graus = round(random.choice([-1, 1]) * random.uniform(0.25, 0.35), 3)
     dx, dy = random.choice([-2, -1, 1, 2]), random.choice([-2, -1, 1, 2])
     # a borda preta que a rotacao deixa (~10 px) some no zoom de 1,03 logo em seguida

@@ -1,0 +1,1047 @@
+{
+ "id": "react_curcuma",
+ "dur": 70.66,
+ "seed": 21,
+ "fundo": "#0b1512",
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 70.66,
+   "cor": "#0b1512",
+   "textura": "grade"
+  },
+  {
+   "tipo": "video",
+   "t": 63.2,
+   "d": 4.72,
+   "ms": 55.0,
+   "src": "assets/midia/curc_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": true,
+   "z": 10
+  },
+  {
+   "tipo": "fundo",
+   "t": 63.2,
+   "d": 4.72,
+   "cor": "rgba(6,14,11,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 50.65,
+   "d": 5.95,
+   "ms": 40.0,
+   "src": "assets/midia/curc_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": true,
+   "z": 10
+  },
+  {
+   "tipo": "fundo",
+   "t": 50.65,
+   "d": 5.95,
+   "cor": "rgba(6,14,11,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 43.82,
+   "d": 6.8,
+   "ms": 20.0,
+   "src": "assets/midia/curc_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": true,
+   "z": 10
+  },
+  {
+   "tipo": "fundo",
+   "t": 43.82,
+   "d": 6.8,
+   "cor": "rgba(6,14,11,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 21.7,
+   "d": 6.1,
+   "ms": 12.0,
+   "src": "assets/midia/curc_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": true,
+   "z": 10
+  },
+  {
+   "tipo": "fundo",
+   "t": 21.7,
+   "d": 6.1,
+   "cor": "rgba(6,14,11,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 8.24,
+   "d": 7.7,
+   "ms": 2.0,
+   "src": "assets/midia/curc_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": true,
+   "z": 10
+  },
+  {
+   "tipo": "fundo",
+   "t": 8.24,
+   "d": 7.7,
+   "cor": "rgba(6,14,11,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "cartao",
+   "t": 0,
+   "d": 5.88,
+   "box": [
+    40,
+    150,
+    1000,
+    940
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 5.88,
+   "ms": 31.0,
+   "src": "assets/midia/curc_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    860
+   ],
+   "raio": 14,
+   "pos": "center 75%",
+   "arroba": "via @fazbemdicas",
+   "pausa": 5.5,
+   "respira": false,
+   "zoom": [
+    [
+     0,
+     1.0,
+     0.01
+    ],
+    [
+     2.2,
+     1.12,
+     0.3
+    ]
+   ],
+   "z": 30,
+   "arroba_pos": "topo"
+  },
+  {
+   "tipo": "pergunta",
+   "t": 0.1,
+   "d": 3.8,
+   "xy": [
+    110,
+    1045
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Cúrcuma mata todos os vermes?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 3.3
+  },
+  {
+   "tipo": "video",
+   "t": 4.32,
+   "d": 1.56,
+   "ms": 0,
+   "src": "assets/midia/ouvindo_01.mp4",
+   "box": [
+    0,
+    1090,
+    1080,
+    830
+   ],
+   "pos": "center 45%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "glitch",
+   "t": 5.85,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 5.88,
+   "d": 2.36,
+   "ms": 0,
+   "src": "assets/midia/virada_02.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     5.88,
+     1.0,
+     0.01
+    ],
+    [
+     7.2,
+     1.12,
+     0.25
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 8.24,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 8.25,
+   "d": 1.5,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "TODOS OS VERMES?",
+   "anim": "palavras",
+   "vel": 0.14,
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 8.9,
+   "d": 0.85,
+   "formas": [
+    {
+     "k": "sublinhado",
+     "de": [
+      160,
+      860
+     ],
+     "ate": 920,
+     "t": 0
+    }
+   ],
+   "z": 41
+  },
+  {
+   "tipo": "celular",
+   "t": 9.8,
+   "d": 7.1,
+   "xy": [
+    260,
+    180
+   ],
+   "wh": [
+    560,
+    1000
+   ],
+   "notif": [
+    {
+     "t": 10.6,
+     "app": "PubMed",
+     "txt": "Buscando: cúrcuma × verme × gente…"
+    },
+    {
+     "t": 15.8,
+     "app": "PubMed",
+     "txt": "0 ensaios em gente"
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "numero",
+   "t": 16.0,
+   "d": 0.94,
+   "xy": [
+    0,
+    1040
+   ],
+   "valor": 0,
+   "de": 9,
+   "conta": 0.4,
+   "rotulo": "estudos sérios em gente",
+   "tam": 240,
+   "cor": "#ff2d3d",
+   "sombra": "#5a0d10",
+   "z": 48
+  },
+  {
+   "tipo": "carimbo",
+   "t": 16.16,
+   "d": 0.78,
+   "xy": [
+    220,
+    700
+   ],
+   "txt": "NÃO ACHEI",
+   "tam": 140,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "checklist",
+   "t": 16.94,
+   "d": 5.6,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "O que existe hoje",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "tubo de ensaio",
+     "t": 17.7,
+     "marca": 18.1
+    },
+    {
+     "txt": "animal",
+     "t": 18.8,
+     "marca": 19.2
+    },
+    {
+     "txt": "gente",
+     "t": 19.8
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "desenho",
+   "t": 20.3,
+   "d": 2.2,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      262,
+      600
+     ],
+     "s": 34
+    }
+   ],
+   "espessura": 12,
+   "z": 45
+  },
+  {
+   "tipo": "gigante",
+   "t": 21.7,
+   "d": 2.4,
+   "txt": "DISTÂNCIA ENORME",
+   "y": 620,
+   "tam": 330,
+   "cor": "#c6ff3d",
+   "x": [
+    1000,
+    -3000
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "pergunta",
+   "t": 24.0,
+   "d": 2.6,
+   "xy": [
+    110,
+    500
+   ],
+   "w": 860,
+   "topo": "Pergunta 👇",
+   "txt": "Qual planta já foi testada em gente?",
+   "vel": 0.03,
+   "z": 45
+  },
+  {
+   "tipo": "flash",
+   "t": 26.6,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 26.62,
+   "d": 1.2,
+   "xy": [
+    40,
+    700
+   ],
+   "w": 1000,
+   "fonte": "190px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "SEMENTE DE MAMÃO",
+   "entra": "zoom",
+   "z": 40,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "mapa",
+   "t": 27.82,
+   "d": 3.75,
+   "tema": "papel",
+   "area": [
+    0,
+    300,
+    1080,
+    1200
+   ],
+   "camera": [
+    [
+     27.82,
+     20,
+     10,
+     0.6,
+     0
+    ],
+    [
+     28.4,
+     9.1,
+     8.7,
+     4.5,
+     1.4
+    ]
+   ],
+   "pinos": [
+    {
+     "ll": [
+      9.1,
+      8.7
+     ],
+     "t": 29.1,
+     "txt": "Nigéria",
+     "fs": 10,
+     "stroke": "#fff",
+     "sw": 1.5
+    }
+   ],
+   "z": 20
+  },
+  {
+   "tipo": "numero",
+   "t": 30.0,
+   "d": 1.55,
+   "xy": [
+    0,
+    150
+   ],
+   "valor": 60,
+   "rotulo": "crianças · estudo piloto, 2007",
+   "tam": 240,
+   "z": 44
+  },
+  {
+   "tipo": "artigo",
+   "t": 31.55,
+   "d": 3.3,
+   "box": [
+    70,
+    240,
+    940,
+    1000
+   ],
+   "revista": "Journal of Medicinal Food · 2007",
+   "titulo": "Effectiveness of dried Carica papaya seeds against human intestinal parasitosis: a pilot study",
+   "autores": "Okeniyi JA et al. · Nigéria",
+   "linhas": [
+    {
+     "txt": "60 crianças com parasitas no exame"
+    },
+    {
+     "txt": "Semente seca de mamão com mel x só mel",
+     "grifo": 32.4
+    },
+    {
+     "txt": "Exame de fezes repetido em 7 dias"
+    }
+   ],
+   "rola": -20,
+   "rodape": "doi 10.1089/jmf.2005.065",
+   "z": 45
+  },
+  {
+   "tipo": "flash",
+   "t": 34.85,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 34.9,
+   "d": 4.6,
+   "xy": [
+    0,
+    300
+   ],
+   "valor": 76.7,
+   "dec": 1,
+   "suf": "%",
+   "rotulo": "semente + mel: exame limpo",
+   "tam": 250,
+   "cor": "#3ddc84",
+   "sombra": "#0d5a2c",
+   "z": 44
+  },
+  {
+   "tipo": "numero",
+   "t": 38.4,
+   "d": 1.1,
+   "xy": [
+    0,
+    760
+   ],
+   "valor": 16.7,
+   "dec": 1,
+   "suf": "%",
+   "rotulo": "só mel",
+   "tam": 250,
+   "cor": "#ff2d3d",
+   "sombra": "#5a0d10",
+   "z": 44
+  },
+  {
+   "tipo": "glitch",
+   "t": 39.45,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 39.5,
+   "d": 4.32,
+   "ms": 0,
+   "src": "assets/midia/troca_02.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     39.5,
+     1.0,
+     0.01
+    ],
+    [
+     41.0,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 39.7,
+   "d": 4.1,
+   "y": 215,
+   "txt": "COMBINADO: CURTE + SEGUE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "flash",
+   "t": 43.82,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 43.85,
+   "d": 1.4,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PARECE ÓTIMO, NÉ?",
+   "anim": "palavras",
+   "vel": 0.15,
+   "z": 40
+  },
+  {
+   "tipo": "checklist",
+   "t": 45.2,
+   "d": 5.4,
+   "box": [
+    100,
+    300,
+    880,
+    900
+   ],
+   "titulo": "O porém",
+   "entra": "desliza",
+   "itens": [
+    {
+     "txt": "um estudo só",
+     "t": 45.6,
+     "marca": 45.9
+    },
+    {
+     "txt": "pequeno: 60 crianças",
+     "t": 46.5,
+     "marca": 46.8
+    },
+    {
+     "txt": "só 7 dias",
+     "t": 47.4,
+     "marca": 47.7
+    },
+    {
+     "txt": "autores pedem estudo maior",
+     "t": 49.3,
+     "marca": 50.0
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 50.65,
+   "d": 4.1,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "VERME NÃO É TUDO IGUAL",
+   "anim": "palavras",
+   "vel": 0.13,
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 51.94,
+   "d": 2.8,
+   "xy": [
+    60,
+    960
+   ],
+   "w": 960,
+   "fonte": "80px Caveat",
+   "cor": "#c6ff3d",
+   "alinha": "center",
+   "txt": "cada parasita, um tratamento",
+   "anim": "palavras",
+   "vel": 0.12,
+   "z": 41
+  },
+  {
+   "tipo": "gigante",
+   "t": 54.75,
+   "d": 1.9,
+   "txt": "CHÁ NENHUM PEGA TODOS",
+   "y": 700,
+   "tam": 300,
+   "cor": "#ff2d3d",
+   "x": [
+    1000,
+    -3600
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "carimbo",
+   "t": 55.1,
+   "d": 1.5,
+   "xy": [
+    300,
+    1150
+   ],
+   "txt": "NENHUM",
+   "tam": 150,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "checklist",
+   "t": 56.64,
+   "d": 6.5,
+   "box": [
+    100,
+    300,
+    880,
+    900
+   ],
+   "titulo": "O caminho",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "exame de fezes",
+     "t": 58.3,
+     "marca": 58.7
+    },
+    {
+     "txt": "saber qual parasita",
+     "t": 59.7,
+     "marca": 60.1
+    },
+    {
+     "txt": "tratamento certo",
+     "t": 60.9,
+     "marca": 61.5
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 63.2,
+   "d": 3.1,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "NA COMIDA, PODE",
+   "entra": "zoom",
+   "z": 40,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "desenho",
+   "t": 64.9,
+   "d": 1.4,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      540,
+      960
+     ],
+     "s": 70
+    }
+   ],
+   "cor": "#3ddc84",
+   "espessura": 16,
+   "z": 41
+  },
+  {
+   "tipo": "texto",
+   "t": 66.3,
+   "d": 1.62,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SÓ NÃO TROCA O EXAME",
+   "anim": "palavras",
+   "vel": 0.12,
+   "z": 40
+  },
+  {
+   "tipo": "glitch",
+   "t": 67.92,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 67.96,
+   "d": 2.68,
+   "ms": 0,
+   "src": "assets/midia/fecho_07.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 68.2,
+   "d": 2.46,
+   "xy": [
+    60,
+    215
+   ],
+   "w": 960,
+   "fonte": "600 30px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Okeniyi et al., J Med Food 2007 · doi 10.1089/jmf.2005.065",
+   "css": "text-shadow:0 2px 6px #000",
+   "z": 70
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ],
+ "legenda": {
+  "estilo": "lima",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    5.9
+   ],
+   [
+    15.7,
+    16.92
+   ]
+  ]
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/curc_audio.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 70.66,
+    "palavras": "assets/midia/curc_audio.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "whoosh",
+    "t": 0.0,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 3.3,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 5.85,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 8.24,
+    "gain": 0.6
+   },
+   {
+    "src": "papel",
+    "t": 8.9,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 9.8,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 10.6,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 15.8,
+    "gain": 0.6
+   },
+   {
+    "src": "boom",
+    "t": 16.16,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "papel",
+    "t": 16.94,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 18.1,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 19.2,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh",
+    "t": 21.7,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 24.0,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 26.62,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 27.82,
+    "gain": 0.5
+   },
+   {
+    "src": "teclado",
+    "t": 30.0,
+    "gain": 0.3,
+    "d": 1.0
+   },
+   {
+    "src": "pagina",
+    "t": 31.55,
+    "gain": 0.5
+   },
+   {
+    "src": "riser",
+    "t": 34.9,
+    "gain": 0.35,
+    "pico": 1.0,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 34.9,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "glitch",
+    "t": 39.45,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 43.82,
+    "gain": 0.5
+   },
+   {
+    "src": "papel",
+    "t": 45.2,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 50.65,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 54.75,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 55.1,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "papel",
+    "t": 56.64,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 64.9,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 67.92,
+    "gain": 0.5
+   }
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ }
+}

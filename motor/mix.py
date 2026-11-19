@@ -1,0 +1,102 @@
+"""Mix do áudio do plano: voz + viral (barramento de fala), trilha por clima com ducking, efeitos sonoros. Master -14 LUFS.
+Uso: python3 mix.py plano.json saida.m4a"""
+import json, re, subprocess, sys
+from pathlib import Path
+
+# VOZ DO WAGNER (15/11, Wagner: "minha voz saiu um pouco baixa"): nos lotes 4-6 a voz dele (HeyGen) entrava
+# em ~-17 LUFS e a trilha/efeitos foram calibrados para isso. Do lote 7 em diante (ElevenLabs + banco el2) as
+# fontes chegam em ~-31 LUFS e a trilha/efeitos ficavam ~4 dB ACIMA da fala. Agora toda fonte da voz dele
+# abaixo de -20 LUFS sobe para -17 LUFS antes do mix (só sobe, nunca abaixa; viral e dublagem não mudam).
+WAGNER = re.compile(r"_(ent|r1|r2|cta|rosto|n_voz|i_voz|ab_voz|au_voz|a_voz|b_voz)\.")
+ALVO_VOZ = -17.0
+_cache = {}
+
+
+def lufs(src):
+    if src not in _cache:
+        r = subprocess.run(["ffmpeg", "-nostats", "-i", src, "-vn", "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
+        m = re.findall(r"I:\s+(-?[0-9.]+) LUFS", r)
+        _cache[src] = float(m[-1]) if m else None
+    return _cache[src]
+
+
+def ganho_wagner(src):
+    if not WAGNER.search(Path(src).name):
+        return 1.0
+    L = lufs(src)
+    if L is None or L >= -20:
+        return 1.0
+    return 10 ** (min(ALVO_VOZ - L, 16) / 20)
+
+AQUI = Path(__file__).resolve().parent
+
+
+def som(nome):
+    p = Path(nome)
+    if p.exists():
+        return str(p)
+    return str(AQUI / "assets" / "som" / f"{nome}.m4a")
+
+
+def mix(plano, out):
+    P = json.load(open(plano))
+    A = P["audio"]
+    dur = P["dur"]
+    ins, fl = [], []
+    fala, mus, fx = [], [], []
+
+    def add(src, t, ms, d, gain, fade=0.03, bus=None):
+        k = len(ins) // 2
+        ins.extend(["-i", src])
+        dly = int(round(t * 1000))
+        tr = f"atrim=start={ms}:duration={d}," if d else (f"atrim=start={ms}," if ms else "")
+        fo = f"afade=t=out:st={max(0, (d or 0) - fade)}:d={fade}," if d else ""
+        fl.append(f"[{k}:a]aformat=sample_rates=44100:channel_layouts=stereo,{tr}asetpts=PTS-STARTPTS,afade=t=in:d={fade},{fo}volume={gain},adelay={dly}|{dly}[a{k}]")
+        bus.append(f"[a{k}]")
+
+    for v in A.get("voz", []):
+        add(v["src"], v["t"], v.get("ms", 0), v["d"], v.get("gain", 1.0) * ganho_wagner(v["src"]), bus=fala)
+    for v in A.get("viral", []):
+        add(v["src"], v["t"], v.get("ms", 0), v["d"], v.get("gain", 1.0), bus=fala)
+    for m in A.get("musica", []):
+        add(som(m["src"]), m["t"], m.get("ms", 0), m["d"], m.get("gain", .5), fade=m.get("fade", .4), bus=mus)
+    for s in A.get("sfx", []):
+        # efeito cortado no meio (boom de 8 s aparado em 1,2 s com 30 ms de fade) soava como áudio travando
+        # (Wagner, 13/11 23h38: "segundo 22 do vídeo 7 dá uma travada"). Agora o rabo do efeito some devagar
+        # e o boom fica mais baixo que a voz.
+        d = s.get("d", 0)
+        g = s.get("gain", .7) * (.6 if s["src"] == "boom" else 1)
+        add(som(s["src"]), max(0, s["t"] - s.get("pico", 0)), 0, d, g, fade=min(.6, d * .45) if d else .03, bus=fx)
+    parts = []
+    if fala:
+        fl.append(f"{''.join(fala)}amix=inputs={len(fala)}:normalize=0,asplit=2[fala][sc]")
+        parts.append("[fala]")
+    if mus:
+        fl.append(f"{''.join(mus)}amix=inputs={len(mus)}:normalize=0[mus0]")
+        if fala:
+            fl.append("[mus0][sc]sidechaincompress=threshold=0.02:ratio=6:attack=15:release=250[mus]")
+        else:
+            fl.append("[mus0]anull[mus]")
+        parts.append("[mus]")
+    elif fala:
+        fl.append("[sc]anullsink")
+    if fx:
+        fl.append(f"{''.join(fx)}amix=inputs={len(fx)}:normalize=0[fx]")
+        parts.append("[fx]")
+    fl.append(f"{''.join(parts)}amix=inputs={len(parts)}:normalize=0,apad,atrim=duration={dur},alimiter=limit=0.9,loudnorm=I=-14:TP=-1.5:LRA=11[out]")
+    cmd = ["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fl), "-map", "[out]", "-ar", "44100", "-c:a", "aac", "-b:a", "256k", out]
+    subprocess.run(cmd, check=True)
+    # 2ª passada: loudnorm de uma passada pode ficar abaixo do alvo; corrige o ganho até -14 LUFS
+    import re, shutil
+    r = subprocess.run(["ffmpeg", "-nostats", "-i", out, "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
+    lu = re.findall(r"I:\s+(-?[0-9.]+) LUFS", r)
+    if lu and abs(float(lu[-1]) + 14) > 0.7:
+        g = -14 - float(lu[-1])
+        tmp = out + ".tmp.m4a"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", out, "-af", f"volume={g:.2f}dB,alimiter=limit=0.84", "-c:a", "aac", "-b:a", "256k", tmp], check=True)
+        shutil.move(tmp, out)
+    print("ok", out)
+
+
+if __name__ == "__main__":
+    mix(sys.argv[1], sys.argv[2])

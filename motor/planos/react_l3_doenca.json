@@ -1,0 +1,2201 @@
+{
+ "id": "react_l3_doenca",
+ "dur": 87.94,
+ "seed": 1114,
+ "fundo": "#e9dcbc",
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    1.88
+   ],
+   [
+    1.88,
+    12.71
+   ]
+  ],
+  "ys": [
+   [
+    12.71,
+    17.05,
+    1000
+   ],
+   [
+    17.05,
+    79.248,
+    1720
+   ],
+   [
+    79.248,
+    82.258,
+    1560
+   ],
+   [
+    82.258,
+    87.94,
+    1720
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ent6.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/ent6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/de_viral.mp4",
+    "t": 1.88,
+    "ms": 0,
+    "d": 10.83,
+    "palavras": "assets/midia/de_viral.words.json"
+   },
+   {
+    "src": "assets/midia/de_rosto.mp4",
+    "t": 12.71,
+    "ms": 0,
+    "d": 4.34,
+    "palavras": "assets/midia/de_rosto.words.json"
+   },
+   {
+    "src": "assets/midia/de_a_voz.wav",
+    "t": 17.2,
+    "ms": 0,
+    "d": 6.024,
+    "palavras": "assets/midia/de_a_voz.words.json"
+   },
+   {
+    "src": "assets/midia/de_b_voz.wav",
+    "t": 23.824,
+    "ms": 0,
+    "d": 20.874,
+    "palavras": "assets/midia/de_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/de_c_voz.wav",
+    "t": 45.448,
+    "ms": 0,
+    "d": 19.517,
+    "palavras": "assets/midia/de_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/de_f_voz.wav",
+    "t": 65.615,
+    "ms": 0,
+    "d": 13.533,
+    "palavras": "assets/midia/de_f_voz.words.json"
+   },
+   {
+    "src": "assets/midia/de_rosto.mp4",
+    "t": 79.248,
+    "ms": 4.67,
+    "d": 3.01,
+    "palavras": "assets/midia/de_rosto.words.json"
+   },
+   {
+    "src": "assets/midia/de_d_voz.wav",
+    "t": 82.408,
+    "ms": 0,
+    "d": 4.029,
+    "palavras": "assets/midia/de_d_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_noticia",
+    "t": 12.51,
+    "ms": 0,
+    "d": 11.71,
+    "gain": 0.24,
+    "fade": 0.6
+   },
+   {
+    "src": "m_viagem",
+    "t": 23.42,
+    "ms": 0,
+    "d": 22.42,
+    "gain": 0.15,
+    "fade": 0.6
+   },
+   {
+    "src": "m_investiga",
+    "t": 45.05,
+    "ms": 0,
+    "d": 20.97,
+    "gain": 0.24,
+    "fade": 0.6
+   },
+   {
+    "src": "m_emocao",
+    "t": 65.22,
+    "ms": 0,
+    "d": 22.73,
+    "gain": 0.2,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 6.18,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 12.66,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 12.76,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 14.53,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 17.0,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 17.05,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 17.3,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 20.036,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 21.125,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 24.074,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 25.294,
+    "gain": 0.2
+   },
+   {
+    "src": "papel",
+    "t": 26.196,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 29.618,
+    "gain": 0.3
+   },
+   {
+    "src": "papel",
+    "t": 32.382,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 36.559,
+    "gain": 0.25
+   },
+   {
+    "src": "papel",
+    "t": 38.015,
+    "gain": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 40.427,
+    "gain": 0.25
+   },
+   {
+    "src": "papel",
+    "t": 41.631,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 43.643,
+    "gain": 0.2
+   },
+   {
+    "src": "whoosh",
+    "t": 45.448,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 49.724,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 54.569,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 56.458,
+    "gain": 0.4,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 59.369,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 62.583,
+    "gain": 0.3
+   },
+   {
+    "src": "papel",
+    "t": 65.865,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 70.302,
+    "gain": 0.4
+   },
+   {
+    "src": "papel",
+    "t": 76.534,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 79.198,
+    "gain": 0.4
+   },
+   {
+    "src": "notif",
+    "t": 79.448,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 82.208,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 85.053,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 84.122,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.4
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 87.94,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/ent6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "“PEGAR DOENÇA PRA EMAGRECER”?",
+   "sub": "o alerta de uma nutricionista que viralizou",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 15.17,
+   "box": [
+    40,
+    150,
+    1000,
+    1100
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 10.83,
+   "ms": 0,
+   "src": "assets/midia/de_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    1027
+   ],
+   "raio": 14,
+   "pos": "center top",
+   "arroba": "via @isabellalacerda_nutri",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.05,
+     0.4
+    ],
+    [
+     10.21,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 3.95,
+   "xy": [
+    110,
+    1190
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Doente perde 5 kg de gordura numa semana?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.18
+  },
+  {
+   "tipo": "numero",
+   "t": 6.18,
+   "d": 6.48,
+   "xy": [
+    0,
+    1265
+   ],
+   "valor": 874,
+   "suf": " MIL VIEWS",
+   "tam": 120,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "glitch",
+   "t": 12.66,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "foto",
+   "t": 12.71,
+   "d": 4.34,
+   "src": "assets/midia/de_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    1027
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 12.73,
+   "d": 1.8,
+   "xy": [
+    70,
+    190
+   ],
+   "w": 940,
+   "fonte": "160px Anton",
+   "cor": "#2e7d32",
+   "alinha": "center",
+   "txt": "ELA ESTÁ\\nCERTA.",
+   "z": 55,
+   "entra": "pop",
+   "css": "background:rgba(239,228,201,.97);border-radius:14px;height:1027px;box-sizing:border-box;line-height:1.1;text-shadow:5px 5px 0 rgba(0,0,0,.14);padding:250px 40px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 13.26,
+   "d": 1.25,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      540,
+      840
+     ],
+     "s": 80
+    }
+   ],
+   "espessura": 18,
+   "cor": "#2e7d32",
+   "z": 56,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 14.53,
+   "d": 2.52,
+   "xy": [
+    70,
+    190
+   ],
+   "w": 940,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "OLHA O QUE\\nDESCE.",
+   "z": 55,
+   "entra": "nada",
+   "css": "background:rgba(239,228,201,.97);border-radius:14px;height:1027px;box-sizing:border-box;line-height:1.1;text-shadow:5px 5px 0 rgba(0,0,0,.14);padding:90px 40px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 14.53,
+   "d": 2.52,
+   "z": 56,
+   "orgaos": [
+    {
+     "k": "balanca",
+     "xy": [
+      470,
+      800
+     ],
+     "s": 0.75,
+     "t": 0.15
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.3
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 15.01,
+   "d": 2.04,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      800,
+      690
+     ],
+     "para": [
+      800,
+      960
+     ],
+     "curva": 0
+    }
+   ],
+   "espessura": 18,
+   "cor": "#b3121f",
+   "z": 57,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 12.71,
+   "d": 4.34,
+   "ms": 0,
+   "src": "assets/midia/de_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 17.0,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 17.05,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 17.2,
+   "d": 3.925,
+   "txt": "5 QUILOS",
+   "y": 1420,
+   "tam": 420,
+   "cor": "rgba(179,18,31,.26)",
+   "z": 12,
+   "x": [
+    1100,
+    -1747
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "pergunta",
+   "t": 17.2,
+   "d": 3.925,
+   "xy": [
+    110,
+    380
+   ],
+   "w": 860,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Doente perde 5 kg de gordura numa semana?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.012,
+   "escolha": 0,
+   "t_escolha": 20.036,
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 20.036,
+   "d": 1.089,
+   "xy": [
+    330,
+    1000
+   ],
+   "txt": "MITO",
+   "tam": 200,
+   "rot": -7,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 21.125,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 21.125,
+   "d": 2.699,
+   "txt": "ÁGUA",
+   "y": 1400,
+   "tam": 520,
+   "cor": "rgba(31,95,168,.16)",
+   "z": 12,
+   "x": [
+    -936,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 21.16,
+   "d": 2.67,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1f5fa8",
+   "alinha": "center",
+   "txt": "PRIMEIRO SAI ÁGUA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 21.125,
+   "d": 2.699,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "es_gota",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.15,
+     "t": 0.15
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.2
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 23.824,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 23.824,
+   "d": 2.672,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "1 · a imagem",
+   "entra": "cai",
+   "rot": -1.5,
+   "z": 20,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 24.17,
+   "d": 2.32,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "MÚSCULO = UVA",
+   "z": 21,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 23.824,
+   "d": 2.672,
+   "z": 22,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      300,
+      1000
+     ],
+     "s": 0.62,
+     "t": 0.45,
+     "rotulo": "MÚSCULO",
+     "rot_y": 200
+    },
+    {
+     "k": "uva",
+     "xy": [
+      770,
+      990
+     ],
+     "s": 0.75,
+     "t": 1.42,
+     "rotulo": "UVA",
+     "rot_y": 250
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.614
+    },
+    {
+     "o": 1,
+     "t": 1.92
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 25.946,
+   "d": 6.736,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "2 · dentro da uva",
+   "entra": "cai",
+   "rot": 1.2,
+   "z": 28,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 26.3,
+   "d": 6.39,
+   "xy": [
+    40,
+    400
+   ],
+   "w": 1000,
+   "fonte": "105px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "1 COLHER DE AÇÚCAR SEGURA",
+   "z": 29,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 25.946,
+   "d": 6.736,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "uva",
+     "xy": [
+      540,
+      850
+     ],
+     "s": 0.72,
+     "t": 0.4
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fluxos": [
+    {
+     "de": [
+      150,
+      760
+     ],
+     "para": [
+      470,
+      850
+     ],
+     "curva": -90,
+     "cor": "#f2c230",
+     "t": 1.004,
+     "d": 2.0,
+     "n": 5,
+     "rotulo": "AÇÚCAR",
+     "viagem": 0.8
+    },
+    {
+     "de": [
+      930,
+      760
+     ],
+     "para": [
+      610,
+      850
+     ],
+     "curva": -90,
+     "cor": "#4aa8ff",
+     "t": 3.722,
+     "d": 2.0,
+     "n": 8,
+     "rotulo": "ÁGUA",
+     "viagem": 0.8
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 29.618,
+   "d": 3.064,
+   "xy": [
+    0,
+    1090
+   ],
+   "valor": 4,
+   "tam": 230,
+   "cor": "#1f5fa8",
+   "sombra": "#9fb7d6",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 31,
+   "pre": "3 A ",
+   "de": 4,
+   "conta": 0.01,
+   "rotulo": "colheres de água",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 25.946,
+   "d": 19.502,
+   "xy": [
+    40,
+    196
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Kreitzman e col., Am J Clin Nutr 1992 · doi 10.1093/ajcn/56.1.292S",
+   "z": 70,
+   "css": "background:rgba(255,255,255,.55);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 32.132,
+   "d": 6.183,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "3 · doente",
+   "entra": "cai",
+   "rot": -1.0,
+   "z": 36,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.48,
+   "d": 1.89,
+   "xy": [
+    40,
+    410
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "DOENTE, SEM COMER",
+   "z": 37,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.37,
+   "d": 3.94,
+   "xy": [
+    40,
+    410
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#1f5fa8",
+   "alinha": "center",
+   "txt": "A ÁGUA VAI JUNTO",
+   "z": 37,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 32.132,
+   "d": 6.183,
+   "z": 38,
+   "orgaos": [
+    {
+     "k": "uva",
+     "xy": [
+      450,
+      1000
+     ],
+     "s": 0.85,
+     "t": 0.4
+    },
+    {
+     "k": "termometro",
+     "xy": [
+      850,
+      980
+     ],
+     "s": 0.5,
+     "t": 0.6
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 4.427,
+     "para": 0.74,
+     "d": 1.2
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      450,
+      1000
+     ],
+     "para": [
+      190,
+      1440
+     ],
+     "curva": 40,
+     "cor": "#f2c230",
+     "t": 2.968,
+     "d": 1.6,
+     "n": 5,
+     "viagem": 0.9
+    },
+    {
+     "de": [
+      450,
+      1000
+     ],
+     "para": [
+      800,
+      1460
+     ],
+     "curva": 60,
+     "cor": "#4aa8ff",
+     "t": 4.427,
+     "d": 1.8,
+     "n": 8,
+     "rotulo": "ÁGUA",
+     "viagem": 0.9
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 1.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 37.765,
+   "d": 4.166,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "4 · a passa",
+   "entra": "cai",
+   "rot": 1.4,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 38.11,
+   "d": 3.82,
+   "xy": [
+    40,
+    410
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A UVA VIRA PASSA",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 37.765,
+   "d": 1.255,
+   "z": 46,
+   "orgaos": [
+    {
+     "k": "uva",
+     "xy": [
+      330,
+      1000
+     ],
+     "s": 0.85,
+     "t": 0.35
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 0.954,
+     "para": 0.5,
+     "d": 0.4
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 38.97,
+   "d": 2.961,
+   "z": 46,
+   "orgaos": [
+    {
+     "k": "uva_passa",
+     "xy": [
+      330,
+      1000
+     ],
+     "s": 1.05,
+     "t": 0.0,
+     "rotulo": "PASSA",
+     "rot_y": 190
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 39.974,
+   "d": 1.957,
+   "z": 47,
+   "orgaos": [
+    {
+     "k": "balanca",
+     "xy": [
+      760,
+      1010
+     ],
+     "s": 0.62,
+     "t": 0.0
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 40.427,
+   "d": 1.504,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      950,
+      860
+     ],
+     "para": [
+      950,
+      1200
+     ],
+     "curva": 0
+    }
+   ],
+   "espessura": 18,
+   "cor": "#b3121f",
+   "z": 48,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 39.97,
+   "d": 1.96,
+   "xy": [
+    40,
+    1300
+   ],
+   "w": 1000,
+   "fonte": "105px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "A BALANÇA DESPENCA",
+   "z": 48,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 41.381,
+   "d": 4.067,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "5 · voltou a comer",
+   "entra": "cai",
+   "rot": -1.2,
+   "z": 52,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 41.73,
+   "d": 3.72,
+   "xy": [
+    40,
+    410
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "VOLTOU A COMER",
+   "z": 53,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 41.381,
+   "d": 2.262,
+   "z": 54,
+   "orgaos": [
+    {
+     "k": "uva_passa",
+     "xy": [
+      540,
+      960
+     ],
+     "s": 1.0,
+     "t": 0.35
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 43.593,
+   "d": 1.855,
+   "z": 54,
+   "orgaos": [
+    {
+     "k": "uva",
+     "xy": [
+      540,
+      950
+     ],
+     "s": 0.85,
+     "t": 0.0
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fluxos": [
+    {
+     "de": [
+      960,
+      1180
+     ],
+     "para": [
+      640,
+      990
+     ],
+     "curva": -40,
+     "cor": "#4aa8ff",
+     "t": 0.1,
+     "d": 1.3,
+     "n": 7,
+     "viagem": 0.7
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 43.59,
+   "d": 1.85,
+   "xy": [
+    40,
+    1290
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#1f5fa8",
+   "alinha": "center",
+   "txt": "A ÁGUA VOLTA",
+   "z": 55,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 45.448,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 45.448,
+   "d": 4.176,
+   "txt": "PERDA",
+   "y": 1430,
+   "tam": 500,
+   "cor": "rgba(179,18,31,.24)",
+   "z": 12,
+   "x": [
+    1100,
+    -1300
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 45.5,
+   "d": 4.13,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O QUE SE PERDE DE VERDADE?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 45.448,
+   "d": 4.176,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1020
+     ],
+     "s": 1.25,
+     "t": 3.045,
+     "rotulo": "MÚSCULO",
+     "rot_y": 190
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 3.645
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 49.624,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "artigo",
+   "t": 49.624,
+   "d": 4.945,
+   "box": [
+    100,
+    300,
+    880,
+    640
+   ],
+   "z": 34,
+   "revista": "Diabetes · 2016",
+   "titulo": "Uma semana de cama já tira músculo",
+   "autores": "Dirks e col. · 10 rapazes jovens e saudáveis",
+   "rola": 0,
+   "linhas": [
+    {
+     "txt": "10 rapazes saudáveis.",
+     "grifo": 50.983
+    },
+    {
+     "txt": "Uma semana deitados na cama.",
+     "grifo": 52.428
+    }
+   ],
+   "rodape": "doi 10.2337/db15-1661",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 49.624,
+   "d": 4.945,
+   "txt": "7 DIAS",
+   "y": 1470,
+   "tam": 420,
+   "cor": "rgba(28,26,23,.10)",
+   "z": 12,
+   "x": [
+    -1134,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 50.93,
+   "d": 3.64,
+   "xy": [
+    40,
+    1040
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "10 RAPAZES, 7 DIAS DE CAMA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 54.569,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 54.569,
+   "d": 4.8,
+   "txt": "MASSA MAGRA",
+   "y": 1470,
+   "tam": 360,
+   "cor": "rgba(28,26,23,.2)",
+   "z": 12,
+   "x": [
+    1100,
+    -2059
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.62,
+   "d": 4.75,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "PERDERAM, EM MÉDIA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 56.408,
+   "d": 2.961,
+   "xy": [
+    0,
+    520
+   ],
+   "valor": 1.4,
+   "tam": 300,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "dec": 1,
+   "suf": " KG",
+   "de": 0,
+   "rotulo": "de massa magra",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 54.569,
+   "d": 4.8,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1230
+     ],
+     "s": 0.95,
+     "t": 0.2
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 2.804,
+     "para": 0.82,
+     "d": 1.4
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 59.369,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 59.369,
+   "d": 3.214,
+   "txt": "COXA",
+   "y": 1460,
+   "tam": 480,
+   "cor": "rgba(179,18,31,.12)",
+   "z": 12,
+   "x": [
+    -864,
+    900
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 59.42,
+   "d": 3.16,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O MÚSCULO DA COXA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 59.716,
+   "d": 2.867,
+   "xy": [
+    0,
+    520
+   ],
+   "valor": 3,
+   "tam": 300,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 44,
+   "pre": "-",
+   "suf": "%",
+   "rotulo": "em 7 dias",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 59.369,
+   "d": 3.214,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1230
+     ],
+     "s": 0.95,
+     "t": 0.2
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 1.36,
+     "para": 0.86,
+     "d": 1.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 62.583,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 62.583,
+   "d": 3.032,
+   "txt": "SAUDÁVEIS",
+   "y": 1470,
+   "tam": 360,
+   "cor": "rgba(46,125,50,.14)",
+   "z": 12,
+   "x": [
+    1100,
+    -1684
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 62.63,
+   "d": 2.98,
+   "xy": [
+    40,
+    330
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "E ELES NEM ESTAVAM DOENTES.",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 62.583,
+   "d": 3.032,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "termometro",
+     "xy": [
+      460,
+      1050
+     ],
+     "s": 0.95,
+     "t": 0.2
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 64.232,
+   "d": 1.383,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      760,
+      1000
+     ],
+     "s": 80
+    }
+   ],
+   "espessura": 18,
+   "cor": "#2e7d32",
+   "z": 46,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 49.624,
+   "d": 15.991,
+   "xy": [
+    40,
+    196
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Dirks e col., Diabetes 2016 · doi 10.2337/db15-1661",
+   "z": 70,
+   "css": "background:rgba(255,255,255,.55);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 65.615,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 65.615,
+   "d": 4.987,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "cuidado",
+   "entra": "cai",
+   "rot": -1.2,
+   "z": 60,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 65.96,
+   "d": 2.78,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#2e7d32",
+   "alinha": "center",
+   "txt": "COMIDA E DESCANSO",
+   "z": 61,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 65.615,
+   "d": 3.131,
+   "z": 62,
+   "orgaos": [
+    {
+     "k": "cv_prato",
+     "xy": [
+      320,
+      1020
+     ],
+     "s": 0.75,
+     "t": 1.47
+    },
+    {
+     "k": "almofada",
+     "xy": [
+      770,
+      1020
+     ],
+     "s": 0.7,
+     "t": 1.973
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 68.75,
+   "d": 1.86,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "NÃO DE BALANÇA",
+   "z": 61,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 68.746,
+   "d": 1.856,
+   "z": 62,
+   "orgaos": [
+    {
+     "k": "balanca",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 0.95,
+     "t": 0.0
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 69.099,
+   "d": 1.503,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      1030
+     ],
+     "s": 190
+    }
+   ],
+   "espessura": 18,
+   "cor": "#b3121f",
+   "z": 63,
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 70.052,
+   "d": 6.782,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "se for com você",
+   "entra": "cai",
+   "rot": 1.0,
+   "z": 68,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 70.4,
+   "d": 6.43,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "SE ESSA VONTADE JÁ PASSOU PELA SUA CABEÇA",
+   "z": 69,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 73.82,
+   "d": 3.01,
+   "xy": [
+    40,
+    1050
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#2e7d32",
+   "alinha": "center",
+   "txt": "CONVERSA COM O SEU MÉDICO",
+   "z": 70,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 75.231,
+   "d": 1.603,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      540,
+      1130
+     ],
+     "r": [
+      460,
+      175
+     ]
+    }
+   ],
+   "espessura": 12,
+   "cor": "#2e7d32",
+   "z": 71,
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 76.284,
+   "d": 3.014,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "importante",
+   "entra": "cai",
+   "rot": -0.8,
+   "z": 76,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 76.58,
+   "d": 2.71,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "135px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "ISSO MERECE CUIDADO, NÃO VERGONHA.",
+   "z": 77,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 76.284,
+   "d": 3.014,
+   "z": 78,
+   "orgaos": [
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      540,
+      1170
+     ],
+     "s": 0.95,
+     "t": 0.5
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.6
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 79.198,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 79.248,
+   "d": 3.01,
+   "ms": 4.67,
+   "src": "assets/midia/de_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     79.248,
+     1.0,
+     0.01
+    ],
+    [
+     81.248,
+     1.08,
+     0.3
+    ]
+   ],
+   "z": 40,
+   "fixo": true
+  },
+  {
+   "tipo": "barra",
+   "t": 79.448,
+   "d": 2.76,
+   "y": 215,
+   "txt": "SE TE AJUDOU, SEGUE E CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 82.208,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 82.258,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 82.258,
+   "d": 5.682,
+   "txt": "TEMPO",
+   "y": 1480,
+   "tam": 480,
+   "cor": "rgba(28,26,23,.2)",
+   "z": 12,
+   "x": [
+    1100,
+    -1248
+   ],
+   "contorno": true,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 82.46,
+   "d": 5.48,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "DOENÇA TIRA ÁGUA E MÚSCULO.",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 82.408,
+   "d": 5.532,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "es_gota",
+     "xy": [
+      330,
+      760
+     ],
+     "s": 0.5,
+     "t": 0.734
+    },
+    {
+     "k": "musculo",
+     "xy": [
+      760,
+      760
+     ],
+     "s": 0.55,
+     "t": 1.264
+    }
+   ],
+   "cor_rotulo": "#ffffff",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 84.122,
+   "d": 3.818,
+   "xy": [
+    190,
+    880
+   ],
+   "txt": "NÃO É GORDURA",
+   "tam": 105,
+   "rot": -6,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 85.05,
+   "d": 2.89,
+   "xy": [
+    40,
+    1200
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#9a6400",
+   "alinha": "center",
+   "txt": "GORDURA SAI COM TEMPO.",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 82.408,
+   "d": 5.532,
+   "xy": [
+    40,
+    196
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Kreitzman e col., Am J Clin Nutr 1992 · Dirks e col., Diabetes 2016",
+   "z": 70,
+   "css": "background:rgba(255,255,255,.55);border-radius:12px;padding:6px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.2
+  }
+ ]
+}

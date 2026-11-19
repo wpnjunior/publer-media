@@ -1,0 +1,8 @@
+<g><g transform="rotate(-32)">
+  <rect x="-185" y="-36" width="260" height="72" rx="32" fill="#eef2f5" stroke="#2b3a44" stroke-width="7"/>
+  <path d="M-153 -36 L-110 -36 L-110 36 L-153 36 C-171 36 -185 22 -185 4 L-185 -4 C-185 -22 -171 -36 -153 -36 Z" fill="#3fb6a8" stroke="#2b3a44" stroke-width="7" stroke-linejoin="round"/>
+  <rect x="-70" y="-17" width="84" height="34" rx="9" fill="#cfe7f5" stroke="#2b3a44" stroke-width="5"/>
+  <rect x="75" y="-25" width="58" height="50" rx="10" fill="#9aa7b0" stroke="#2b3a44" stroke-width="7"/>
+  <path d="M133 0 L196 0" stroke="#2b3a44" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-96 -24 L52 -24" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+</g></g>

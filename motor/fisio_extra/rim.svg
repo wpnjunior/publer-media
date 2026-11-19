@@ -1,0 +1,10 @@
+<g>
+  <path d="M-40 -24 C-70 -24 -80 -10 -80 20 L-80 196" fill="none" stroke="#7a5a12" stroke-width="34" stroke-linecap="round"/>
+  <path d="M-40 -24 C-70 -24 -80 -10 -80 20 L-80 196" fill="none" stroke="#f0d27a" stroke-width="20" stroke-linecap="round"/>
+  <path d="M-50 -44 L-120 -70" stroke="#7a1820" stroke-width="22" stroke-linecap="round"/><path d="M-50 -44 L-120 -70" stroke="#d62839" stroke-width="12" stroke-linecap="round"/>
+  <path d="M-50 -10 L-122 -34" stroke="#1f3f7a" stroke-width="22" stroke-linecap="round"/><path d="M-50 -10 L-122 -34" stroke="#4f7fd6" stroke-width="12" stroke-linecap="round"/>
+  <path d="M10 -175 C110 -178 168 -100 162 -18 C156 70 100 135 15 135 C-55 135 -95 90 -82 48 C-74 22 -38 18 -38 -24 C-38 -62 -84 -66 -92 -104 C-100 -150 -50 -174 10 -175 Z" fill="#b84a3e" stroke="#4a1510" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M20 -128 C80 -126 116 -76 112 -18 C108 44 72 90 20 92 C-14 92 -32 70 -24 46 C-14 18 6 6 6 -24 C6 -56 -24 -70 -26 -96 C-28 -118 -6 -128 20 -128 Z" fill="#d9775f" stroke="#7a2a1e" stroke-width="5" opacity=".9"/>
+  <path d="M30 -90 L64 -60 M44 -30 L90 -26 M30 30 L66 54" stroke="#7a2a1e" stroke-width="6" stroke-linecap="round" opacity=".6"/>
+  <ellipse cx="70" cy="-130" rx="44" ry="13" fill="#fff" opacity=".25" transform="rotate(20 70 -130)"/>
+</g>

@@ -1,0 +1,128 @@
+{
+ "id": "teste_nitro",
+ "dur": 10,
+ "seed": 1,
+ "fundo": "#0b1512",
+ "legenda": {
+  "estilo": "lima",
+  "y": 1700,
+  "esconde": [
+   [
+    0,
+    10
+   ]
+  ],
+  "ys": []
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [],
+  "musica": [],
+  "sfx": []
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 10,
+   "cor": "#0b1512",
+   "textura": "lousa"
+  },
+  {
+   "tipo": "fisio",
+   "t": 0,
+   "d": 10,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "figado",
+     "xy": [
+      290,
+      1040
+     ],
+     "s": 0.72,
+     "t": 0.2,
+     "rotulo": "FÍGADO"
+    },
+    {
+     "k": "cerebro",
+     "xy": [
+      540,
+      600
+     ],
+     "s": 0.72,
+     "t": 1.0,
+     "rotulo": "CÉREBRO"
+    },
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1450
+     ],
+     "s": 0.68,
+     "t": 2.0,
+     "rotulo": "MÚSCULO"
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      600,
+      1370
+     ],
+     "para": [
+      380,
+      1110
+     ],
+     "curva": 90,
+     "cor": "#ffd400",
+     "t": 3,
+     "d": 3,
+     "n": 8,
+     "rotulo": "AMINOÁCIDOS"
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 4
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 2,
+     "t": 7,
+     "para": 0.6
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 0.3,
+   "d": 9.5,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "TESTE DO NITRO",
+   "z": 40
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ]
+}

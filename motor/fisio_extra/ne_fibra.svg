@@ -1,0 +1,8 @@
+<g>
+  <path d="M-190 -70 L150 -70 C190 -70 190 70 150 70 L-190 70 C-215 70 -215 -70 -190 -70 Z" fill="#d2414b" stroke="#5c0f14" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M-190 -38 L150 -38 M-190 -6 L150 -6 M-190 26 L150 26" stroke="#ef7c84" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+  <path d="M-150 -70 L-150 70 M-100 -70 L-100 70 M-50 -70 L-50 70 M0 -70 L0 70 M50 -70 L50 70 M100 -70 L100 70" stroke="#a82731" stroke-width="5" opacity=".6"/>
+  <ellipse cx="150" cy="0" rx="34" ry="70" fill="#e86870" stroke="#5c0f14" stroke-width="8"/>
+  <circle cx="142" cy="-32" r="9" fill="#a82731"/><circle cx="158" cy="-4" r="9" fill="#a82731"/><circle cx="142" cy="24" r="9" fill="#a82731"/><circle cx="160" cy="44" r="8" fill="#a82731"/>
+  <ellipse cx="-80" cy="-50" rx="70" ry="10" fill="#fff" opacity=".25"/>
+</g>

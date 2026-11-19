@@ -1,0 +1,10 @@
+<g>
+  <defs><clipPath id="clCerLado"><path d="M-185 20 C-200 -60 -150 -130 -70 -140 C-20 -170 70 -160 110 -125 C170 -115 200 -60 190 0 C200 50 160 95 105 100 C95 130 60 150 30 140 L20 172 L-22 172 L-25 120 C-90 130 -170 90 -185 20 Z"/></clipPath></defs>
+  <path d="M-185 20 C-200 -60 -150 -130 -70 -140 C-20 -170 70 -160 110 -125 C170 -115 200 -60 190 0 C200 50 160 95 105 100 C95 130 60 150 30 140 L20 172 L-22 172 L-25 120 C-90 130 -170 90 -185 20 Z" fill="#f2a3b3"/>
+  <path clip-path="url(#clCerLado)" d="M-240 -220 L-70 -220 L-70 -140 C-40 -100 -30 -40 -45 20 C-55 60 -80 95 -105 135 L-240 135 Z" fill="#ffd400"/>
+  <path d="M-70 -140 C-40 -100 -30 -40 -45 20 C-55 60 -80 95 -108 108" fill="none" stroke="#7a2b3e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-185 20 C-200 -60 -150 -130 -70 -140 C-20 -170 70 -160 110 -125 C170 -115 200 -60 190 0 C200 50 160 95 105 100 C95 130 60 150 30 140 L20 172 L-22 172 L-25 120 C-90 130 -170 90 -185 20 Z" fill="none" stroke="#7a2b3e" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M0 -125 C-15 -80 20 -50 50 -75 M80 -115 C70 -75 110 -55 135 -85 M45 -15 C75 -35 115 -5 95 35 M-10 35 C20 15 45 45 25 85 M135 5 C155 25 150 55 122 70" fill="none" stroke="#7a2b3e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-150 -45 C-120 -72 -92 -52 -102 -22 M-142 42 C-112 22 -88 46 -102 72" fill="none" stroke="#8a6a00" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="-118" cy="-92" rx="38" ry="11" fill="#fff" opacity=".35"/>
+</g>

@@ -1,0 +1,3210 @@
+{
+ "id": "react_l5_saudade",
+ "dur": 91.32,
+ "seed": 515,
+ "fundo": "#e9dcbc",
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.07
+   ]
+  ],
+  "ys": [
+   [
+    2.07,
+    6.07,
+    1720
+   ],
+   [
+    6.07,
+    13.29,
+    1440
+   ],
+   [
+    13.29,
+    16.75,
+    950
+   ],
+   [
+    16.75,
+    32.647,
+    1700
+   ],
+   [
+    32.647,
+    69.797,
+    1712
+   ],
+   [
+    69.797,
+    91.32,
+    1700
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/sd_ent.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.07,
+    "palavras": "assets/midia/sd_ent.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/sd_viral.mp4",
+    "t": 2.07,
+    "ms": 0,
+    "d": 11.22,
+    "palavras": "assets/midia/sd_viral.words.json",
+    "gain": 0.16
+   },
+   {
+    "src": "assets/midia/sd_dub_voz.wav",
+    "t": 2.07,
+    "ms": 0,
+    "d": 11.22,
+    "gain": 1.0
+   },
+   {
+    "src": "assets/midia/sd_r1.mp4",
+    "t": 13.29,
+    "ms": 0,
+    "d": 3.4,
+    "palavras": "assets/midia/sd_r1.words.json"
+   },
+   {
+    "src": "assets/midia/sd_i_voz.wav",
+    "t": 16.9,
+    "ms": 0,
+    "d": 15.297,
+    "palavras": "assets/midia/sd_i_voz.words.json"
+   },
+   {
+    "src": "assets/midia/sd_b_voz.wav",
+    "t": 32.647,
+    "ms": 0,
+    "d": 18.408,
+    "palavras": "assets/midia/sd_b_voz.words.json"
+   },
+   {
+    "src": "assets/midia/sd_c_voz.wav",
+    "t": 51.855,
+    "ms": 0,
+    "d": 17.242,
+    "palavras": "assets/midia/sd_c_voz.words.json"
+   },
+   {
+    "src": "assets/midia/sd_f_voz.wav",
+    "t": 69.897,
+    "ms": 0,
+    "d": 7.554,
+    "palavras": "assets/midia/sd_f_voz.words.json"
+   },
+   {
+    "src": "assets/midia/sd_e_voz.wav",
+    "t": 77.951,
+    "ms": 0,
+    "d": 4.401,
+    "palavras": "assets/midia/sd_e_voz.words.json"
+   },
+   {
+    "src": "assets/midia/sd_cta.mp4",
+    "t": 82.452,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/sd_cta.words.json"
+   },
+   {
+    "src": "assets/midia/sd_d_voz.wav",
+    "t": 86.722,
+    "ms": 0,
+    "d": 3.45,
+    "palavras": "assets/midia/sd_d_voz.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_noticia",
+    "t": 13.09,
+    "ms": 0,
+    "d": 19.96,
+    "gain": 0.2,
+    "fade": 0.6
+   },
+   {
+    "src": "m_emocao",
+    "t": 32.25,
+    "ms": 0,
+    "d": 20.01,
+    "gain": 0.17,
+    "fade": 0.6
+   },
+   {
+    "src": "m_investiga",
+    "t": 51.45,
+    "ms": 0,
+    "d": 18.84,
+    "gain": 0.2,
+    "fade": 0.6
+   },
+   {
+    "src": "m_viagem",
+    "t": 69.5,
+    "ms": 0,
+    "d": 8.85,
+    "gain": 0.16,
+    "fade": 0.6
+   },
+   {
+    "src": "m_humor",
+    "t": 77.55,
+    "ms": 0,
+    "d": 9.32,
+    "gain": 0.16,
+    "fade": 0.6
+   },
+   {
+    "src": "m_emocao",
+    "t": 86.27,
+    "ms": 22,
+    "d": 5.05,
+    "gain": 0.18,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.07,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 5.21,
+    "gain": 0.28
+   },
+   {
+    "src": "boing",
+    "t": 5.67,
+    "gain": 0.3
+   },
+   {
+    "src": "pagina",
+    "t": 6.37,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 13.24,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 13.44,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 16.7,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 16.8,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 17.11,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 17.297,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 18.672,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 18.722,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 19.013,
+    "gain": 0.25
+   },
+   {
+    "src": "scratch",
+    "t": 19.35,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 20.337,
+    "gain": 0.35
+   },
+   {
+    "src": "notif",
+    "t": 20.687,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 24.58,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 25.567,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 25.617,
+    "gain": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 27.697,
+    "gain": 0.3
+   },
+   {
+    "src": "papel",
+    "t": 28.554,
+    "gain": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 30.441,
+    "gain": 0.3
+   },
+   {
+    "src": "boom",
+    "t": 31.449,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.4
+   },
+   {
+    "src": "glitch",
+    "t": 32.597,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 32.697,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 33.147,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 33.397,
+    "gain": 0.25
+   },
+   {
+    "src": "whoosh2",
+    "t": 33.664,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 33.714,
+    "gain": 0.3
+   },
+   {
+    "src": "papel",
+    "t": 37.938,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 38.391,
+    "gain": 0.28
+   },
+   {
+    "src": "whoosh2",
+    "t": 39.696,
+    "gain": 0.35
+   },
+   {
+    "src": "notif",
+    "t": 39.946,
+    "gain": 0.3
+   },
+   {
+    "src": "notif",
+    "t": 42.106,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 42.962,
+    "gain": 0.22
+   },
+   {
+    "src": "whoosh2",
+    "t": 44.72,
+    "gain": 0.35
+   },
+   {
+    "src": "riser",
+    "t": 44.972,
+    "gain": 0.14,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 46.28,
+    "gain": 0.2
+   },
+   {
+    "src": "notif",
+    "t": 46.33,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 47.086,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 47.236,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 48.142,
+    "gain": 0.35,
+    "pico": 0.2
+   },
+   {
+    "src": "boing",
+    "t": 48.542,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 49.497,
+    "gain": 0.3
+   },
+   {
+    "src": "teclado",
+    "t": 49.797,
+    "gain": 0.22,
+    "d": 1.0
+   },
+   {
+    "src": "glitch",
+    "t": 51.755,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 51.855,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 52.005,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 54.586,
+    "gain": 0.35
+   },
+   {
+    "src": "pagina",
+    "t": 54.636,
+    "gain": 0.4
+   },
+   {
+    "src": "riser",
+    "t": 57.299,
+    "gain": 0.16,
+    "d": 1.0
+   },
+   {
+    "src": "boom",
+    "t": 58.299,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "boing",
+    "t": 60.61,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 61.596,
+    "gain": 0.35
+   },
+   {
+    "src": "papel",
+    "t": 61.646,
+    "gain": 0.4
+   },
+   {
+    "src": "riser",
+    "t": 64.569,
+    "gain": 0.16,
+    "d": 1.0
+   },
+   {
+    "src": "boom",
+    "t": 65.519,
+    "gain": 0.45,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "boing",
+    "t": 64.346,
+    "gain": 0.22
+   },
+   {
+    "src": "boing",
+    "t": 67.301,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 69.847,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 69.897,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 70.047,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 71.467,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 72.324,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 73.477,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 73.577,
+    "gain": 0.2
+   },
+   {
+    "src": "boing",
+    "t": 73.727,
+    "gain": 0.2
+   },
+   {
+    "src": "papel",
+    "t": 75.093,
+    "gain": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 75.493,
+    "gain": 0.25
+   },
+   {
+    "src": "glitch",
+    "t": 77.901,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 77.951,
+    "gain": 0.35
+   },
+   {
+    "src": "notif",
+    "t": 78.101,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 78.251,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh",
+    "t": 79.402,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 79.552,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 80.852,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 81.189,
+    "gain": 0.22
+   },
+   {
+    "src": "glitch",
+    "t": 82.402,
+    "gain": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 82.652,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 86.522,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 86.622,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "notif",
+    "t": 86.872,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 88.636,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 88.986,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "boing",
+    "t": 89.036,
+    "gain": 0.3
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 91.32,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.07,
+   "ms": 0,
+   "src": "assets/midia/sd_ent.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.07
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.95,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "TDAH NÃO SENTE SAUDADE?",
+   "sub": "ex-participante de reality afirmou nas redes",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.07,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.07,
+   "d": 14.68,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.07,
+   "d": 11.22,
+   "ms": 0,
+   "src": "assets/midia/sd_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 30%",
+   "arroba": "@yuseffarahch",
+   "respira": false,
+   "zoom": [
+    [
+     2.07,
+     1.0,
+     0.01
+    ],
+    [
+     6.07,
+     1.06,
+     0.4
+    ],
+    [
+     10.79,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.17,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 🧠",
+   "txt": "Quem tem TDAH não sente saudade?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.37
+  },
+  {
+   "tipo": "numero",
+   "t": 6.37,
+   "d": 6.87,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 1.3,
+   "dec": 1,
+   "suf": " MILHÃO",
+   "tam": 130,
+   "rotulo": "de views no TikTok",
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "glitch",
+   "t": 5.23,
+   "d": 0.18
+  },
+  {
+   "tipo": "flash",
+   "t": 5.27,
+   "d": 0.18,
+   "max": 0.35
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.24,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 13.29,
+   "d": 3.46,
+   "src": "assets/midia/sd_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 13.31,
+   "d": 3.44,
+   "xy": [
+    70,
+    190
+   ],
+   "w": 940,
+   "fonte": "118px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "TDAH NÃO\\nSENTE SAUDADE?",
+   "z": 55,
+   "entra": "pop",
+   "css": "height:909px;background:#f6efdc;border:6px solid #8a7650;border-radius:14px;padding:70px 30px 0;line-height:1.1;text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 13.41,
+   "d": 3.34,
+   "xy": [
+    300,
+    560
+   ],
+   "txt": "MITO",
+   "tam": 190,
+   "rot": -8,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.92)",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 13.29,
+   "d": 3.46,
+   "ms": 0,
+   "src": "assets/midia/sd_r1.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 16.7,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 16.75,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 16.75,
+   "d": 3.59,
+   "xy": [
+    40,
+    210
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "NÃO EXAMINEI NINGUÉM. SÓ A FRASE.",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 16.95,
+   "d": 3.387,
+   "xy": [
+    130,
+    700
+   ],
+   "w": 820,
+   "fonte": "104px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A FRASE:\\nFORA DA VISTA,\\nFORA DA CABEÇA",
+   "z": 36,
+   "entra": "pop",
+   "css": "background:#fff27a;padding:22px 18px 18px;border-radius:6px;box-shadow:0 14px 28px rgba(0,0,0,.30);transform:rotate(-3deg);line-height:1.05",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.07,
+   "d": 3.267,
+   "xy": [
+    460,
+    674
+   ],
+   "w": 160,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 37,
+   "entra": "pop",
+   "css": "height:52px;background:rgba(244,232,196,.85);box-shadow:0 2px 5px rgba(0,0,0,.25);transform:rotate(10deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 17.634,
+   "d": 2.703,
+   "xy": [
+    760,
+    1080
+   ],
+   "w": 230,
+   "fonte": "170px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": "🔍",
+   "z": 38,
+   "entra": "pop",
+   "css": "filter:drop-shadow(0 10px 12px rgba(0,0,0,.30))",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 19.35,
+   "d": 0.987,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      540,
+      890
+     ],
+     "r": [
+      470,
+      245
+     ]
+    }
+   ],
+   "cor": "#b3121f",
+   "espessura": 12,
+   "z": 45,
+   "vel": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 20.337,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 20.337,
+   "d": 5.23,
+   "txt": "SAUDADE?",
+   "y": 1330,
+   "tam": 420,
+   "cor": "rgba(179,18,31,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -1747
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 20.34,
+   "d": 5.23,
+   "xy": [
+    40,
+    210
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#1d7a3e",
+   "alinha": "center",
+   "txt": "ESQUECER? PODE ACONTECER",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 20.687,
+   "d": 4.88,
+   "xy": [
+    124,
+    700
+   ],
+   "w": 760,
+   "fonte": "700 80px Montserrat",
+   "cor": "#111",
+   "alinha": "left",
+   "txt": "Esqueci de te responder 😅",
+   "z": 36,
+   "entra": "desliza",
+   "css": "background:#d6efff;border-radius:40px 12px 40px 40px;padding:28px 34px;box-shadow:0 6px 16px rgba(0,0,0,.16);line-height:1.15",
+   "dy": 90,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 21.113,
+   "d": 4.454,
+   "xy": [
+    300,
+    1000
+   ],
+   "w": 620,
+   "fonte": "600 32px Montserrat",
+   "cor": "#6b6250",
+   "alinha": "right",
+   "txt": "visto por último: ontem",
+   "z": 36,
+   "entra": "desliza",
+   "css": "",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 24.58,
+   "d": 0.987,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      540,
+      1200
+     ],
+     "s": 90
+    }
+   ],
+   "cor": "#1d7a3e",
+   "espessura": 26,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 25.567,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 25.57,
+   "d": 7.03,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "142px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "SÃO DOIS MITOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 25.617,
+   "d": 6.98,
+   "xy": [
+    110,
+    560
+   ],
+   "w": 860,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "1. NÃO SENTE\\nSAUDADE?",
+   "z": 36,
+   "entra": "pop",
+   "css": "background:#ffb3c7;padding:22px 18px 18px;border-radius:6px;box-shadow:0 14px 28px rgba(0,0,0,.30);transform:rotate(-2deg);line-height:1.05",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 25.737,
+   "d": 6.86,
+   "xy": [
+    460,
+    534
+   ],
+   "w": 160,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 37,
+   "entra": "pop",
+   "css": "height:52px;background:rgba(244,232,196,.85);box-shadow:0 2px 5px rgba(0,0,0,.25);transform:rotate(8deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 27.697,
+   "d": 4.9,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      690
+     ],
+     "s": 105
+    }
+   ],
+   "cor": "#b3121f",
+   "espessura": 22,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 28.554,
+   "d": 4.043,
+   "xy": [
+    110,
+    960
+   ],
+   "w": 860,
+   "fonte": "112px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "2. “PERMANÊNCIA\\nDO OBJETO”?",
+   "z": 36,
+   "entra": "pop",
+   "css": "background:#fff27a;padding:22px 18px 18px;border-radius:6px;box-shadow:0 14px 28px rgba(0,0,0,.30);transform:rotate(2deg);line-height:1.05",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 28.674,
+   "d": 3.923,
+   "xy": [
+    460,
+    934
+   ],
+   "w": 160,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 37,
+   "entra": "pop",
+   "css": "height:52px;background:rgba(244,232,196,.85);box-shadow:0 2px 5px rgba(0,0,0,.25);transform:rotate(0deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 30.441,
+   "d": 2.156,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      1095
+     ],
+     "s": 105
+    }
+   ],
+   "cor": "#b3121f",
+   "espessura": 22,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 31.429,
+   "d": 1.168,
+   "xy": [
+    215,
+    1310
+   ],
+   "txt": "AÍ NÃO",
+   "tam": 170,
+   "rot": -6,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.93)",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 32.597,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 32.647,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.847,
+   "d": 18.958,
+   "xy": [
+    60,
+    128
+   ],
+   "w": 960,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● AULA RÁPIDA · SEM DIAGNÓSTICO",
+   "z": 69,
+   "entra": "desliza",
+   "css": "letter-spacing:3px;background:#b3121f;border-radius:14px;padding:12px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.647,
+   "d": 37.15,
+   "xy": [
+    150,
+    420
+   ],
+   "w": 780,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 20,
+   "entra": "desliza",
+   "css": "height:1180px;border-radius:86px;background:#15171a;box-shadow:0 40px 80px rgba(0,0,0,.42),inset 0 0 0 5px #3a3d42",
+   "dy": 1400,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.647,
+   "d": 37.15,
+   "xy": [
+    168,
+    438
+   ],
+   "w": 744,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 21,
+   "entra": "desliza",
+   "css": "height:1144px;border-radius:68px;background:#ece5dc;background-image:radial-gradient(rgba(120,100,80,.12) 2px,transparent 2px);background-size:30px 30px",
+   "dy": 1400,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.647,
+   "d": 37.15,
+   "xy": [
+    168,
+    438
+   ],
+   "w": 744,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 22,
+   "entra": "desliza",
+   "css": "height:170px;border-radius:68px 68px 0 0;background:#2d3e45",
+   "dy": 1400,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.647,
+   "d": 37.15,
+   "xy": [
+    465,
+    452
+   ],
+   "w": 150,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 24,
+   "entra": "desliza",
+   "css": "height:36px;border-radius:18px;background:#000",
+   "dy": 1400,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.647,
+   "d": 37.15,
+   "xy": [
+    190,
+    490
+   ],
+   "w": 60,
+   "fonte": "300 90px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "left",
+   "txt": "‹",
+   "z": 23,
+   "entra": "desliza",
+   "css": "",
+   "dy": 1400,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.647,
+   "d": 37.15,
+   "xy": [
+    254,
+    504
+   ],
+   "w": 84,
+   "fonte": "32px Montserrat",
+   "cor": "#e8415a",
+   "alinha": "center",
+   "txt": "❤",
+   "z": 23,
+   "entra": "desliza",
+   "css": "height:84px;padding-top:22px;border-radius:50%;background:#ffd8e0",
+   "dy": 1400,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.647,
+   "d": 37.15,
+   "xy": [
+    358,
+    504
+   ],
+   "w": 400,
+   "fonte": "800 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "left",
+   "txt": "Amor ❤",
+   "z": 23,
+   "entra": "desliza",
+   "css": "",
+   "dy": 1400,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.947,
+   "d": 16.55,
+   "xy": [
+    358,
+    550
+   ],
+   "w": 500,
+   "fonte": "500 28px Montserrat",
+   "cor": "#cfe3e8",
+   "alinha": "left",
+   "txt": "visto por último ontem",
+   "z": 23,
+   "entra": "pop",
+   "css": "",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.67,
+   "d": 2.17,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CADÊ? ACHOU!",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 34.89,
+   "d": 2.92,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "105px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "AINDA BEBÊ, JÁ SABE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 37.86,
+   "d": 1.81,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1d7a3e",
+   "alinha": "center",
+   "txt": "CONTINUA LÁ!",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 39.72,
+   "d": 2.21,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "COISA DE BEBÊ",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 41.98,
+   "d": 2.71,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "117px Anton",
+   "cor": "#1d7a3e",
+   "alinha": "center",
+   "txt": "ADULTO TAMBÉM TEM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.74,
+   "d": 2.32,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "100px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "LEMBRETE PODE FALHAR",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 47.11,
+   "d": 2.36,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "133px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "BILHETE QUE CAI",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 49.52,
+   "d": 2.26,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "117px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "O SENTIMENTO FICA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 33.147,
+   "d": 6.549,
+   "xy": [
+    196,
+    650
+   ],
+   "w": 600,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 30,
+   "entra": "desliza",
+   "css": "height:610px;border-radius:12px 36px 36px 36px;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.18)",
+   "dy": 120,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 33.147,
+   "d": 6.549,
+   "xy": [
+    212,
+    666
+   ],
+   "w": 568,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 31,
+   "entra": "desliza",
+   "css": "height:530px;border-radius:24px;background:linear-gradient(180deg,#d8efff 0%,#fff6dc 100%)",
+   "dy": 120,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 33.147,
+   "d": 6.549,
+   "xy": [
+    224,
+    1206
+   ],
+   "w": 300,
+   "fonte": "700 32px Montserrat",
+   "cor": "#5b6770",
+   "alinha": "left",
+   "txt": "▶ 0:07",
+   "z": 31,
+   "entra": "desliza",
+   "css": "",
+   "dy": 120,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 33.347,
+   "d": 6.349,
+   "z": 32,
+   "orgaos": [
+    {
+     "k": "sd_bebe",
+     "xy": [
+      350,
+      940
+     ],
+     "s": 1.0,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.27
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 33.397,
+   "d": 6.299,
+   "z": 33,
+   "orgaos": [
+    {
+     "k": "sd_brinquedo",
+     "xy": [
+      640,
+      1050
+     ],
+     "s": 0.62,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.37
+    },
+    {
+     "o": 0,
+     "t": 4.19
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 33.397,
+   "d": 0.267,
+   "z": 34,
+   "orgaos": [
+    {
+     "k": "sd_pano",
+     "xy": [
+      640,
+      1040
+     ],
+     "s": 0.7,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 33.714,
+   "d": 1.654,
+   "xy": [
+    460,
+    730
+   ],
+   "w": 330,
+   "fonte": "110px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "ACHOU!",
+   "z": 35,
+   "entra": "pop",
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 37.938,
+   "d": 1.758,
+   "z": 34,
+   "orgaos": [
+    {
+     "k": "sd_pano",
+     "xy": [
+      640,
+      1040
+     ],
+     "s": 0.7,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 38.391,
+   "d": 1.305,
+   "z": 35,
+   "orgaos": [
+    {
+     "k": "sd_balao",
+     "xy": [
+      600,
+      790
+     ],
+     "s": 0.6,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.7
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 39.696,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 39.746,
+   "d": 4.974,
+   "xy": [
+    168,
+    608
+   ],
+   "w": 744,
+   "fonte": "800 80px Montserrat",
+   "cor": "#3a3220",
+   "alinha": "center",
+   "txt": "PERMANÊNCIA\\nDO OBJETO",
+   "z": 32,
+   "entra": "desliza",
+   "css": "background:#fff8d6;border-bottom:4px solid #e2d29a;padding:22px 20px;line-height:1.08",
+   "dy": -60,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 39.946,
+   "d": 4.774,
+   "xy": [
+    196,
+    870
+   ],
+   "w": 630,
+   "fonte": "700 80px Montserrat",
+   "cor": "#111",
+   "alinha": "left",
+   "txt": "👶 Bebê tem",
+   "z": 33,
+   "entra": "desliza",
+   "css": "background:#ffffff;border-radius:12px 40px 40px 40px;padding:28px 34px;box-shadow:0 6px 16px rgba(0,0,0,.16);line-height:1.15",
+   "dy": 90,
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 41.054,
+   "d": 3.666,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      866,
+      935
+     ],
+     "s": 42
+    }
+   ],
+   "cor": "#1d7a3e",
+   "espessura": 20,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 42.056,
+   "d": 2.664,
+   "xy": [
+    244,
+    1110
+   ],
+   "w": 640,
+   "fonte": "700 80px Montserrat",
+   "cor": "#111",
+   "alinha": "left",
+   "txt": "Adulto com TDAH também ✓✓",
+   "z": 33,
+   "entra": "desliza",
+   "css": "background:#d6efff;border-radius:40px 12px 40px 40px;padding:28px 34px;box-shadow:0 6px 16px rgba(0,0,0,.16);line-height:1.15",
+   "dy": 90,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 44.72,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 44.72,
+   "d": 1.61,
+   "z": 33,
+   "orgaos": [
+    {
+     "k": "cerebro_lado",
+     "xy": [
+      560,
+      1080
+     ],
+     "s": 1.45,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.55
+    },
+    {
+     "o": 0,
+     "t": 0.8
+    },
+    {
+     "o": 0,
+     "t": 1.25
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 45.724,
+   "d": 0.606,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      235,
+      760
+     ],
+     "para": [
+      345,
+      960
+     ],
+     "curva": -30
+    }
+   ],
+   "cor": "#b3121f",
+   "espessura": 14,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 46.33,
+   "d": 0.756,
+   "z": 33,
+   "orgaos": [
+    {
+     "k": "sd_cerebro_off",
+     "xy": [
+      560,
+      1080
+     ],
+     "s": 1.45,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 45.524,
+   "d": 2.618,
+   "xy": [
+    190,
+    460
+   ],
+   "w": 700,
+   "fonte": "800 80px Montserrat",
+   "cor": "#111",
+   "alinha": "left",
+   "txt": "🔔 Lembrete:\\ndar notícia",
+   "z": 36,
+   "entra": "desliza",
+   "css": "background:rgba(250,250,250,.97);border-radius:34px;padding:22px 30px;box-shadow:0 10px 30px rgba(0,0,0,.35);line-height:1.08",
+   "dy": -300,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 47.086,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 47.086,
+   "d": 2.411,
+   "z": 32,
+   "orgaos": [
+    {
+     "k": "sd_geladeira",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 1.35,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 47.236,
+   "d": 0.906,
+   "xy": [
+    440,
+    1110
+   ],
+   "w": 200,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 34,
+   "entra": "pop",
+   "css": "height:180px;background:repeating-linear-gradient(180deg,transparent 0 44px,rgba(90,70,20,.45) 44px 50px) content-box,#fff27a;padding:40px 26px 20px;border:4px solid #b8a52a;box-shadow:0 10px 16px rgba(0,0,0,.28);transform:rotate(-4deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 47.386,
+   "d": 2.111,
+   "z": 35,
+   "orgaos": [
+    {
+     "k": "sd_ima",
+     "xy": [
+      535,
+      1128
+     ],
+     "s": 1.0,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 48.142,
+   "d": 1.355,
+   "xy": [
+    470,
+    1380
+   ],
+   "w": 200,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 34,
+   "entra": "desliza",
+   "css": "height:180px;background:repeating-linear-gradient(180deg,transparent 0 44px,rgba(90,70,20,.45) 44px 50px) content-box,#fff27a;padding:40px 26px 20px;border:4px solid #b8a52a;box-shadow:0 10px 16px rgba(0,0,0,.28);transform:rotate(24deg)",
+   "dy": -270,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 49.497,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 49.497,
+   "d": 2.308,
+   "xy": [
+    358,
+    550
+   ],
+   "w": 500,
+   "fonte": "500 28px Montserrat",
+   "cor": "#7cf0a8",
+   "alinha": "left",
+   "txt": "digitando...",
+   "z": 23,
+   "entra": "pop",
+   "css": "",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 49.547,
+   "d": 2.258,
+   "z": 33,
+   "orgaos": [
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      540,
+      1030
+     ],
+     "s": 1.3,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.35
+    },
+    {
+     "o": 0,
+     "t": 0.91
+    },
+    {
+     "o": 0,
+     "t": 1.81
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 49.797,
+   "d": 2.008,
+   "xy": [
+    196,
+    1330
+   ],
+   "w": 200,
+   "fonte": "900 32px Montserrat",
+   "cor": "#8a939c",
+   "alinha": "center",
+   "txt": "● ● ●",
+   "z": 33,
+   "entra": "desliza",
+   "css": "background:#ffffff;border-radius:12px 40px 40px 40px;padding:30px 0;letter-spacing:6px;box-shadow:0 6px 16px rgba(0,0,0,.16)",
+   "dy": 90,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 51.755,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 51.805,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 52.055,
+   "d": 17.742,
+   "xy": [
+    60,
+    128
+   ],
+   "w": 960,
+   "fonte": "900 32px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● O QUE A PESQUISA ACHOU",
+   "z": 69,
+   "entra": "desliza",
+   "css": "letter-spacing:3px;background:#b3121f;border-radius:14px;padding:12px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 51.805,
+   "d": 17.992,
+   "xy": [
+    358,
+    550
+   ],
+   "w": 500,
+   "fonte": "500 28px Montserrat",
+   "cor": "#7cf0a8",
+   "alinha": "left",
+   "txt": "online",
+   "z": 23,
+   "entra": "nada",
+   "css": "",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 51.87,
+   "d": 2.68,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "100px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "UMA PESQUISA DE 2021",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 52.005,
+   "d": 2.581,
+   "xy": [
+    196,
+    660
+   ],
+   "w": 600,
+   "fonte": "700 80px Montserrat",
+   "cor": "#111",
+   "alinha": "left",
+   "txt": "📄 Pesquisa\\nde 2021",
+   "z": 33,
+   "entra": "desliza",
+   "css": "background:#ffffff;border-radius:12px 40px 40px 40px;padding:28px 34px;box-shadow:0 6px 16px rgba(0,0,0,.16);line-height:1.15",
+   "dy": 90,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 54.586,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.61,
+   "d": 3.56,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "125px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "PESQUISA DA UFMG",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 58.2,
+   "d": 3.37,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "306 ADULTOS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.586,
+   "d": 7.01,
+   "xy": [
+    196,
+    790
+   ],
+   "w": 688,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 31,
+   "entra": "pop",
+   "css": "height:640px;border-radius:30px;background:#fff;box-shadow:0 8px 22px rgba(0,0,0,.18)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.636,
+   "d": 6.96,
+   "xy": [
+    196,
+    812
+   ],
+   "w": 688,
+   "fonte": "900 90px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "UFMG",
+   "z": 32,
+   "entra": "pop",
+   "css": "",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 58.299,
+   "d": 3.297,
+   "xy": [
+    196,
+    880
+   ],
+   "w": 688,
+   "valor": 306,
+   "tam": 230,
+   "cor": "#b3121f",
+   "sombra": "#e9c3c3",
+   "rotulo": "adultos responderam",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none",
+   "z": 33,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 58.999,
+   "d": 2.597,
+   "xy": [
+    208,
+    1302
+   ],
+   "w": 664,
+   "fonte": "800 80px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "sobre PAIXÃO",
+   "z": 33,
+   "entra": "pop",
+   "css": "background:#b3121f;border-radius:44px;padding:14px 0",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.736,
+   "d": 3.513,
+   "xy": [
+    410,
+    950
+   ],
+   "w": 260,
+   "fonte": "200px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": "🏛️",
+   "z": 33,
+   "entra": "pop",
+   "css": "filter:drop-shadow(0 10px 12px rgba(0,0,0,.30))",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.586,
+   "d": 7.01,
+   "xy": [
+    192,
+    1462
+   ],
+   "w": 696,
+   "fonte": "600 24px Montserrat",
+   "cor": "#5b6770",
+   "alinha": "center",
+   "txt": "Soares e col., Front Psychiatry 2021 · UFMG · 306 adultos · questionário de sintomas, sem diagnóstico",
+   "z": 33,
+   "entra": "pop",
+   "css": "line-height:1.25",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 61.596,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.62,
+   "d": 3.53,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "MAIS PAIXÃO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 65.18,
+   "d": 4.62,
+   "xy": [
+    40,
+    240
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "94,5 × 83,3",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.596,
+   "d": 8.201,
+   "xy": [
+    196,
+    640
+   ],
+   "w": 688,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 31,
+   "entra": "pop",
+   "css": "height:862px;border-radius:30px;background:#fff;box-shadow:0 8px 22px rgba(0,0,0,.18)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.646,
+   "d": 8.151,
+   "xy": [
+    196,
+    662
+   ],
+   "w": 688,
+   "fonte": "800 30px Montserrat",
+   "cor": "#7a8288",
+   "alinha": "center",
+   "txt": "PONTOS DE PAIXÃO",
+   "z": 32,
+   "entra": "pop",
+   "css": "letter-spacing:3px",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 62.027,
+   "d": 7.77,
+   "xy": [
+    236,
+    700
+   ],
+   "w": 608,
+   "fonte": "100px Anton",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": "COM SINTOMAS\\nDE TDAH",
+   "z": 32,
+   "entra": "pop",
+   "css": "line-height:1.0",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 62.027,
+   "d": 7.77,
+   "xy": [
+    236,
+    912
+   ],
+   "w": 608,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 32,
+   "entra": "pop",
+   "css": "height:112px;border-radius:18px;background:#e7e1d3",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 65.519,
+   "d": 4.278,
+   "xy": [
+    236,
+    912
+   ],
+   "w": 608,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 33,
+   "entra": "mascara",
+   "css": "height:112px;border-radius:18px;background:#2fbf71",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 65.869,
+   "d": 3.928,
+   "xy": [
+    236,
+    912
+   ],
+   "w": 584,
+   "fonte": "100px Anton",
+   "cor": "#ffffff",
+   "alinha": "right",
+   "txt": "94,5",
+   "z": 34,
+   "entra": "pop",
+   "css": "line-height:1.12",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 62.527,
+   "d": 7.27,
+   "xy": [
+    236,
+    1050
+   ],
+   "w": 608,
+   "fonte": "100px Anton",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": "SEM SINTOMAS",
+   "z": 32,
+   "entra": "pop",
+   "css": "line-height:1.0",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 62.527,
+   "d": 7.27,
+   "xy": [
+    236,
+    1162
+   ],
+   "w": 608,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 32,
+   "entra": "pop",
+   "css": "height:112px;border-radius:18px;background:#e7e1d3",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 67.301,
+   "d": 2.496,
+   "xy": [
+    236,
+    1162
+   ],
+   "w": 536,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 33,
+   "entra": "mascara",
+   "css": "height:112px;border-radius:18px;background:#8a939c",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 67.651,
+   "d": 2.146,
+   "xy": [
+    236,
+    1162
+   ],
+   "w": 512,
+   "fonte": "100px Anton",
+   "cor": "#ffffff",
+   "alinha": "right",
+   "txt": "83,3",
+   "z": 34,
+   "entra": "pop",
+   "css": "line-height:1.12",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.996,
+   "d": 7.801,
+   "xy": [
+    196,
+    1298
+   ],
+   "w": 688,
+   "fonte": "700 80px Montserrat",
+   "cor": "#7a8288",
+   "alinha": "center",
+   "txt": "questionário,\\nsem diagnóstico",
+   "z": 32,
+   "entra": "pop",
+   "css": "line-height:1.05;letter-spacing:-1px",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 61.596,
+   "d": 8.201,
+   "xy": [
+    192,
+    1512
+   ],
+   "w": 696,
+   "fonte": "600 24px Montserrat",
+   "cor": "#5b6770",
+   "alinha": "center",
+   "txt": "Shaw 2014 (Am J Psychiatry): em clínica, 3 a 7 em cada 10 adultos com TDAH têm emoção forte demais",
+   "z": 33,
+   "entra": "pop",
+   "css": "line-height:1.25",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 69.847,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 69.897,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 69.92,
+   "d": 3.56,
+   "xy": [
+    40,
+    210
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "VÍDEO NÃO FECHA DIAGNÓSTICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 69.997,
+   "d": 3.48,
+   "xy": [
+    395,
+    700
+   ],
+   "w": 290,
+   "fonte": "230px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": "📱",
+   "z": 38,
+   "entra": "pop",
+   "css": "filter:drop-shadow(0 10px 12px rgba(0,0,0,.30))",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 71.467,
+   "d": 2.01,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      540,
+      840
+     ],
+     "s": 125
+    }
+   ],
+   "cor": "#b3121f",
+   "espessura": 24,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 72.324,
+   "d": 1.403,
+   "xy": [
+    330,
+    1140
+   ],
+   "txt": "NEM O MEU",
+   "tam": 110,
+   "rot": -7,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.93)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 73.477,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 73.5,
+   "d": 4.35,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "105px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "PESANDO NA RELAÇÃO?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 73.527,
+   "d": 4.324,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "jp_pessoa",
+     "xy": [
+      370,
+      900
+     ],
+     "s": 0.85,
+     "t": 0.0
+    },
+    {
+     "k": "jp_pessoa",
+     "xy": [
+      710,
+      900
+     ],
+     "s": 0.85,
+     "t": 0.15
+    },
+    {
+     "k": "coracao_afeto",
+     "xy": [
+      540,
+      720
+     ],
+     "s": 0.42,
+     "t": 0.4
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 2,
+     "t": 1.0
+    },
+    {
+     "o": 2,
+     "t": 2.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 75.093,
+   "d": 2.758,
+   "xy": [
+    110,
+    1180
+   ],
+   "w": 860,
+   "fonte": "110px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CONVERSA COM\\nO SEU MÉDICO",
+   "z": 36,
+   "entra": "pop",
+   "css": "background:#9be3a8;padding:22px 18px 18px;border-radius:6px;box-shadow:0 14px 28px rgba(0,0,0,.30);transform:rotate(-2deg);line-height:1.05",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 75.213,
+   "d": 2.638,
+   "xy": [
+    460,
+    1154
+   ],
+   "w": 160,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 37,
+   "entra": "pop",
+   "css": "height:52px;background:rgba(244,232,196,.85);box-shadow:0 2px 5px rgba(0,0,0,.25);transform:rotate(8deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 75.493,
+   "d": 2.358,
+   "xy": [
+    760,
+    1470
+   ],
+   "w": 210,
+   "fonte": "150px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": "🩺",
+   "z": 40,
+   "entra": "pop",
+   "css": "filter:drop-shadow(0 10px 12px rgba(0,0,0,.30))",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 77.901,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 77.951,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 77.97,
+   "d": 1.85,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "133px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "APERTA O SEGUIR",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 79.82,
+   "d": 2.63,
+   "xy": [
+    40,
+    210
+   ],
+   "w": 1000,
+   "fonte": "116px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "O LEMBRETE QUE NÃO CAI",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 78.051,
+   "d": 4.401,
+   "xy": [
+    290,
+    520
+   ],
+   "w": 500,
+   "fonte": "900 100px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Seguir",
+   "z": 44,
+   "entra": "pop",
+   "css": "background:#0095f6;border-radius:34px;padding:22px 0;box-shadow:0 16px 40px rgba(0,0,0,.30)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 78.251,
+   "d": 1.651,
+   "xy": [
+    650,
+    600
+   ],
+   "w": 210,
+   "fonte": "150px Montserrat",
+   "cor": "#000",
+   "alinha": "center",
+   "txt": "👆",
+   "z": 45,
+   "entra": "pop",
+   "css": "filter:drop-shadow(0 10px 12px rgba(0,0,0,.30))",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 79.402,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 79.402,
+   "d": 3.05,
+   "z": 32,
+   "orgaos": [
+    {
+     "k": "sd_geladeira",
+     "xy": [
+      540,
+      1110
+     ],
+     "s": 1.35,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 79.552,
+   "d": 2.9,
+   "xy": [
+    395,
+    1030
+   ],
+   "w": 300,
+   "fonte": "10px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "left",
+   "txt": " ",
+   "z": 34,
+   "entra": "pop",
+   "css": "height:250px;background:repeating-linear-gradient(180deg,transparent 0 44px,rgba(90,70,20,.45) 44px 50px) content-box,#fff27a;padding:40px 26px 20px;border:4px solid #b8a52a;box-shadow:0 10px 16px rgba(0,0,0,.28);transform:rotate(-3deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 79.652,
+   "d": 2.8,
+   "xy": [
+    395,
+    1135
+   ],
+   "w": 300,
+   "fonte": "700 80px Caveat",
+   "cor": "#3a3220",
+   "alinha": "center",
+   "txt": "seguir ✓",
+   "z": 35,
+   "entra": "pop",
+   "css": "transform:rotate(-3deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 79.702,
+   "d": 2.75,
+   "z": 35,
+   "orgaos": [
+    {
+     "k": "sd_ima",
+     "xy": [
+      545,
+      1048
+     ],
+     "s": 1.0,
+     "t": 0.0
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 1.15
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 81.189,
+   "d": 1.263,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      800,
+      1300
+     ],
+     "s": 60
+    }
+   ],
+   "cor": "#1d7a3e",
+   "espessura": 22,
+   "z": 45,
+   "vel": 0.45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 82.402,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 82.452,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/sd_cta.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     82.452,
+     1.0,
+     0.01
+    ],
+    [
+     84.652,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40,
+   "fixo": true
+  },
+  {
+   "tipo": "barra",
+   "t": 82.652,
+   "d": 3.87,
+   "y": 215,
+   "txt": "TE AJUDOU? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 86.522,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 86.572,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 86.6,
+   "d": 2.03,
+   "xy": [
+    40,
+    260
+   ],
+   "w": 1000,
+   "fonte": "117px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "A MENSAGEM ATRASA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 86.722,
+   "d": 2.314,
+   "xy": [
+    110,
+    770
+   ],
+   "w": 760,
+   "fonte": "700 32px Montserrat",
+   "cor": "#6b6250",
+   "alinha": "left",
+   "txt": "3 dias depois",
+   "z": 40,
+   "entra": "desliza",
+   "css": "",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 86.722,
+   "d": 2.314,
+   "xy": [
+    110,
+    830
+   ],
+   "w": 860,
+   "fonte": "700 80px Montserrat",
+   "cor": "#111",
+   "alinha": "left",
+   "txt": "Foi mal a demora!",
+   "z": 40,
+   "entra": "desliza",
+   "css": "background:#ffffff;border-radius:12px 44px 44px 44px;padding:30px 36px;box-shadow:0 10px 26px rgba(0,0,0,.2)",
+   "dy": 90,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 88.636,
+   "d": 0.2,
+   "max": 0.4,
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 88.636,
+   "d": 2.684,
+   "txt": "O SENTIMENTO FICA",
+   "y": 1330,
+   "tam": 400,
+   "cor": "rgba(179,18,31,.10)",
+   "z": 12,
+   "x": [
+    1100,
+    -3536
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 88.66,
+   "d": 2.66,
+   "xy": [
+    40,
+    260
+   ],
+   "w": 1000,
+   "fonte": "117px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "O SENTIMENTO FICA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 88.986,
+   "d": 2.334,
+   "xy": [
+    300,
+    560
+   ],
+   "txt": "MITO",
+   "tam": 170,
+   "rot": -6,
+   "z": 60,
+   "cor": "#b3121f",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.93)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 89.036,
+   "d": 2.284,
+   "xy": [
+    90,
+    960
+   ],
+   "w": 900,
+   "fonte": "110px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "ESQUECER\\nNÃO É NÃO SENTIR",
+   "z": 45,
+   "entra": "pop",
+   "css": "background:#ffffff;border-radius:26px;padding:20px 0;box-shadow:0 14px 30px rgba(0,0,0,.25);line-height:1.05",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 86.57,
+   "d": 4.75,
+   "xy": [
+    40,
+    1600
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Soares 2021 doi 10.3389/fpsyt.2021.593150 · Shaw 2014 doi 10.1176/appi.ajp.2013.13070966 · Conteúdo educativo",
+   "z": 86,
+   "css": "text-shadow:0 1px 0 rgba(255,255,255,.6)",
+   "fixo": true
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.2
+  }
+ ]
+}
