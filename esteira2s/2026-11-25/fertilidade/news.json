@@ -1,0 +1,50 @@
+{
+ "marca": [
+  "FERTILIDADE",
+  "A DOIS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_homemso_32482920.jpg",
+   "editoria": "Calor",
+   "manchete": "O calor e a<br><span class=\"hl\">fábrica</span> dele",
+   "sub": "Sauna e notebook no colo: o que <b>dois estudos</b> mediram.",
+   "fonte": "Fontes: Garolla et al., 2013; Sheynkin et al., 2005"
+  },
+  {
+   "foto": "px_lab_7448009.jpg",
+   "numero": "01",
+   "manchete": "Por que fica<br>do lado de <span class=\"hl\">fora</span>",
+   "corpo": "Os testículos ficam fora do corpo porque a produção de espermatozoides funciona melhor um pouco abaixo da temperatura corporal."
+  },
+  {
+   "foto": "px_calendario_19915774.jpg",
+   "numero": "02",
+   "manchete": "<span class=\"hl\">Sauna</span> duas<br>vezes por semana",
+   "corpo": "Em 10 voluntários, três meses de sauna derrubaram a contagem e a motilidade dos espermatozoides.",
+   "destaque": "Seis meses depois de parar, tudo voltou ao normal."
+  },
+  {
+   "foto": "px_casal_8560477.jpg",
+   "numero": "03",
+   "manchete": "Esfriei a <span class=\"hl\">cabeça</span><br>de vocês",
+   "corpo": "Curte aí, casal. E segue a gente para o próximo passo."
+  },
+  {
+   "foto": "px_homemmedico_8413217.jpg",
+   "numero": "04",
+   "manchete": "<span class=\"hl\">Notebook</span><br>no colo",
+   "corpo": "Em 29 voluntários, uma hora com o notebook nas pernas subiu a temperatura da região em até <b>2,8 °C</b>. Só ficar sentado de pernas juntas já subiu 2,1 °C.",
+   "destaque": "O estudo mediu temperatura, não fertilidade."
+  },
+  {
+   "foto": "px_casal_6249006.jpg",
+   "numero": "05",
+   "manchete": "Ajuste simples,<br>sem <span class=\"hl\">pânico</span>",
+   "corpo": "São estudos pequenos. Para quem está tentando, vale usar a mesa e conversar com o médico sobre sauna e banhos muito quentes.",
+   "destaque": "Manda pro seu par.",
+   "fonte": "Fontes: Garolla et al., Hum Reprod 2013 · doi 10.1093/humrep/det020 · Sheynkin et al., Hum Reprod 2005 · doi 10.1093/humrep/deh616 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

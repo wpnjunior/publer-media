@@ -1,0 +1,38 @@
+{
+ "status": "agendado",
+ "tema": "AMH baixo não prevê se você engravida naturalmente",
+ "molde": "carrossel",
+ "fontes": [
+  "Steiner et al., JAMA 2017, PMID 29049585, doi 10.1001/jama.2017.14588"
+ ],
+ "cta_meio": {
+  "tipo": "cobranca",
+  "frase": "Um curte e o outro segue. Dividir tarefa já é o primeiro treino do casal."
+ },
+ "cta_fim": {
+  "tipo": "mandar",
+  "frase": "Manda pro seu par."
+ },
+ "nota": "Exemplo produzido em 11/11. A rodada da véspera só confere, escreve a legenda, agenda e faz os stories.",
+ "metricool_id": 424179909,
+ "uuid": "8659909153683885981",
+ "horario": "2026-11-14T11:47 America/Sao_Paulo",
+ "sha": "ab29a299ba764b1fe01b1303fa30fdb3fb6ffcc7",
+ "raw_base": "https://raw.githubusercontent.com/wpnjunior/publer-media/ab29a299ba764b1fe01b1303fa30fdb3fb6ffcc7/esteira2s/2026-11-14/fertilidade/",
+ "agendado_em": "2026-11-11",
+ "redes": [
+  "instagram"
+ ],
+ "stories": [
+  {
+   "metricool_id": 427189793,
+   "uuid": "7800736279759373038",
+   "horario": "13:08"
+  },
+  {
+   "metricool_id": 427189818,
+   "uuid": "1067477593944508961",
+   "horario": "21:17"
+  }
+ ]
+}

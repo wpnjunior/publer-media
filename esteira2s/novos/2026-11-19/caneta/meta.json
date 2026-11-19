@@ -1,0 +1,27 @@
+{
+ "marca": "Caneta Com Músculo",
+ "tema": "Vesícula: o risco que pouca gente comenta",
+ "fontes": [
+  "He et al., JAMA Intern Med 2022, PMID 35344001, doi 10.1001/jamainternmed.2022.0338"
+ ],
+ "molde": "carrossel Papo News",
+ "status": "agendado",
+ "metricool_id": 427556464,
+ "uuid": "-352331597004191950",
+ "horario": "2026-11-19T13:08 America/Sao_Paulo",
+ "sha": "ad696aa6ade41f05a9d566dbab36e2ce75a59e57",
+ "agendado_em": "2026-11-13",
+ "redes": [
+  "instagram"
+ ],
+ "stories": [
+  {
+   "metricool_id": 427557092,
+   "horario": "14:41"
+  },
+  {
+   "metricool_id": 427557113,
+   "horario": "20:37"
+  }
+ ]
+}

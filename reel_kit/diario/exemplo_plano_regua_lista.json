@@ -1,0 +1,10 @@
+{"formato":"mapeamento","titulo":"teste","destaques":["bactéria","Nobel"],
+ "cenas":[
+  {"quando":"Em 1984, Barry","tipo":"regua","marcos":[{"rotulo":"1984","texto":"acham a bactéria"},{"rotulo":"1985","texto":"Marshall bebe a cultura"},{"rotulo":"2005","texto":"Nobel de Medicina"}],"ate":0},
+  {"quando":"Aí o Marshall bebeu","tipo":"regua","marcos":[{"rotulo":"1984","texto":"acham a bactéria"},{"rotulo":"1985","texto":"Marshall bebe a cultura"},{"rotulo":"2005","texto":"Nobel de Medicina"}],"ate":1},
+  {"quando":"Então, por que a","tipo":"rosto"},
+  {"quando":"se a queimação volta","tipo":"checklist","titulo":"Procure o médico se","itens":["Queima toda semana","Acorda de noite","Fezes escuras"],"marcados":1},
+  {"quando":"acorda você de","tipo":"checklist","titulo":"Procure o médico se","itens":["Queima toda semana","Acorda de noite","Fezes escuras"],"marcados":2},
+  {"quando":"vem com fezes","tipo":"checklist","titulo":"Procure o médico se","itens":["Queima toda semana","Acorda de noite","Fezes escuras"],"marcados":3}
+ ],
+ "fim":{"frase":"teste","ref":"teste"},"trilha":"educacional"}

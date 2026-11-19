@@ -1,0 +1,48 @@
+{
+ "marca": [
+  "TDAH",
+  "ADULTO REAL"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_prato_5870870.jpg",
+   "editoria": "Corpo",
+   "manchete": "TDAH também<br>aparece na<br><span class=\"hl\">balança</span>",
+   "sub": "Uma revisão com <b>728 mil pessoas</b> comparou quem tem e quem não tem.",
+   "fonte": "Fonte: Cortese et al., American Journal of Psychiatry, 2016"
+  },
+  {
+   "foto": "px_barriga_7298905.jpg",
+   "numero": "01",
+   "manchete": "<span class=\"hl\">28,2%</span> contra<br>16,4%",
+   "corpo": "Segundo a revisão, 28,2% dos adultos com TDAH tinham obesidade, contra 16,4% dos adultos sem TDAH."
+  },
+  {
+   "foto": "px_lab_4033300.jpg",
+   "numero": "02",
+   "manchete": "42 estudos,<br><span class=\"hl\">728 mil</span> pessoas",
+   "corpo": "A ligação se manteve nos estudos que mediram peso e altura diretamente e nos que fizeram o diagnóstico por entrevista."
+  },
+  {
+   "foto": "px_homemso_6756351.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Prometo que é mais rápido que achar a chave de casa. Um curtir, um seguir e pronto."
+  },
+  {
+   "foto": "px_pao_1555813.jpg",
+   "numero": "04",
+   "manchete": "Por que <span class=\"hl\">acontece</span>?",
+   "corpo": "Os autores levantam que a impulsividade e a desatenção podem aumentar o quanto a pessoa come. O mecanismo ainda pede mais pesquisa."
+  },
+  {
+   "foto": "px_homemmedico_8413300.jpg",
+   "numero": "05",
+   "manchete": "Associação não<br>é <span class=\"hl\">destino</span>",
+   "corpo": "O estudo mostra uma ligação nos grupos, não o que vai acontecer com cada pessoa. Se peso e atenção te preocupam, leve os dois assuntos ao mesmo profissional.",
+   "destaque": "Manda para quem precisa ler isso sem culpa.",
+   "fonte": "Fonte: Cortese et al., Am J Psychiatry 2016 · doi 10.1176/appi.ajp.2015.15020266 · Fotos: Pexels. Conteúdo educativo — não substitui avaliação profissional."
+  }
+ ]
+}

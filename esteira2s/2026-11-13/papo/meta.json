@@ -1,0 +1,10 @@
+{
+ "status": "agendado",
+ "tipo": "ja_agendado",
+ "tema": "Tuskegee (Reels já agendado, Metricool 423832347)",
+ "horario": "2026-11-13T18:09 America/Sao_Paulo",
+ "stories": [
+  {"metricool_id": 425582100, "uuid": "3441001796320578265", "horario": "19:37"},
+  {"metricool_id": 425582164, "uuid": "-4308012636637934349", "horario": "21:22"}
+ ]
+}

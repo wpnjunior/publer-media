@@ -1,0 +1,50 @@
+{
+ "marca": [
+  "TDAH",
+  "ADULTO REAL"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_homemso_6756351.jpg",
+   "editoria": "Adulto",
+   "manchete": "TDAH não é<br>só coisa de<br><span class=\"hl\">criança</span>",
+   "sub": "Uma revisão global estimou <b>quantos adultos</b> convivem com ele.",
+   "fonte": "Fonte: Song et al., Journal of Global Health, 2021"
+  },
+  {
+   "foto": "px_homemso_10379552.jpg",
+   "numero": "01",
+   "manchete": "<span class=\"hl\">2,58%</span> dos<br>adultos",
+   "corpo": "Segundo uma revisão global de 2021, 2,58% dos adultos têm TDAH que começou na infância e continuou na vida adulta.",
+   "destaque": "São cerca de 140 milhões de pessoas no mundo."
+  },
+  {
+   "foto": "px_homemso_6756358.jpg",
+   "numero": "02",
+   "manchete": "<span class=\"hl\">6,76%</span> têm<br>os sintomas",
+   "corpo": "Contando quem tem sintomas na vida adulta, mesmo sem registro na infância, o número sobe para 6,76%: cerca de 366 milhões de adultos."
+  },
+  {
+   "foto": "px_homemso_32482920.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Aqui a gente fala de TDAH na vida adulta sem rótulo e com o estudo na mão."
+  },
+  {
+   "foto": "px_calendario_19915774.jpg",
+   "numero": "04",
+   "manchete": "Diminui com<br>a <span class=\"hl\">idade</span>",
+   "corpo": "A revisão viu que a frequência cai com o avanço da idade.",
+   "destaque": "Cair não é sumir: os números acima são de adultos."
+  },
+  {
+   "foto": "px_homemmedico_7578803.jpg",
+   "numero": "05",
+   "manchete": "Sintoma não é<br><span class=\"hl\">diagnóstico</span>",
+   "corpo": "Esses números vêm de pesquisas com a população. Diagnóstico é clínico, feito por profissional, olhando a sua história desde a infância.",
+   "destaque": "Manda para quem acha que é só distração.",
+   "fonte": "Fonte: Song et al., J Glob Health 2021 · doi 10.7189/jogh.11.04009 · Fotos: Pexels. Conteúdo educativo — não substitui avaliação profissional."
+  }
+ ]
+}

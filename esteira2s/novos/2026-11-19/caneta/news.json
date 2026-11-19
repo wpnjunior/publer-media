@@ -1,0 +1,49 @@
+{
+ "marca": [
+  "CANETA",
+  "COM MÚSCULO"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_barriga_3807733.jpg",
+   "editoria": "Vesícula",
+   "manchete": "O risco que<br>pouca gente<br><span class=\"hl\">comenta</span>",
+   "sub": "Uma revisão de 76 estudos olhou para a <b>vesícula</b> de quem usa esses remédios.",
+   "fonte": "Fonte: He et al., JAMA Internal Medicine, 2022"
+  },
+  {
+   "foto": "px_lab_3938022.jpg",
+   "numero": "01",
+   "manchete": "76 estudos,<br><span class=\"hl\">103 mil</span> pessoas",
+   "corpo": "Segundo uma revisão de 2022, quem recebeu esses remédios teve risco 37% maior de problema na vesícula ou nas vias biliares do que quem não recebeu."
+  },
+  {
+   "foto": "px_barriga_5938362.jpg",
+   "numero": "02",
+   "manchete": "Maior em quem<br>usa para <span class=\"hl\">emagrecer</span>",
+   "corpo": "Nos 13 estudos de emagrecimento, o risco foi mais que o dobro. Nos estudos de diabetes, o aumento foi menor, de 27%."
+  },
+  {
+   "foto": "px_academia_4164759.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Chegou na metade. Retribui com um curtir e um seguir: dá bem menos trabalho que ler 76 estudos."
+  },
+  {
+   "foto": "px_calendario_6170652.jpg",
+   "numero": "04",
+   "manchete": "Dose e <span class=\"hl\">tempo</span><br>pesam",
+   "corpo": "A revisão viu o risco maior nas doses mais altas e no uso mais longo. Com dose baixa ou pouco tempo de uso, o aumento não apareceu.",
+   "destaque": "Quem ajusta dose e tempo é o seu médico."
+  },
+  {
+   "foto": "px_homemmedico_6129647.jpg",
+   "numero": "05",
+   "manchete": "Sentiu dor?<br><span class=\"hl\">Avise</span>",
+   "corpo": "Dor forte do lado direito da barriga, enjoo ou pele amarelada durante o tratamento são motivo para falar com o seu médico. Risco maior não quer dizer que vai acontecer com você.",
+   "destaque": "Salva e manda para quem está usando.",
+   "fonte": "Fonte: He et al., JAMA Intern Med 2022 · doi 10.1001/jamainternmed.2022.0338 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

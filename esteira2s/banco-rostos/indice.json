@@ -1,0 +1,389 @@
+{
+ "clipes": [
+  {
+   "arquivo": "abertura_01.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Olha só o que esse estudo foi medir.",
+   "duracao_s": 1.68,
+   "usado_em": [
+    "2026-11-21"
+   ]
+  },
+  {
+   "arquivo": "abertura_02.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Deixa eu te contar uma história.",
+   "duracao_s": 1.44,
+   "usado_em": []
+  },
+  {
+   "arquivo": "abertura_03.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Isso aqui é mito ou é verdade?",
+   "duracao_s": 1.78,
+   "usado_em": [
+    "2026-11-15"
+   ]
+  },
+  {
+   "arquivo": "abertura_04.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Você já ouviu isso, né?",
+   "duracao_s": 1.27,
+   "usado_em": [
+    "2026-11-17"
+   ]
+  },
+  {
+   "arquivo": "abertura_05.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Vamos por partes, tá?",
+   "duracao_s": 1.38,
+   "usado_em": []
+  },
+  {
+   "arquivo": "abertura_06.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Presta atenção nisso aqui.",
+   "duracao_s": 1.28,
+   "usado_em": [
+    "2026-11-17"
+   ]
+  },
+  {
+   "arquivo": "abertura_07.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Olha só essa notícia.",
+   "duracao_s": 1.44,
+   "usado_em": [
+    "2026-11-20"
+   ]
+  },
+  {
+   "arquivo": "abertura_08.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Recebi essa pergunta, e vou responder.",
+   "duracao_s": 2.52,
+   "usado_em": [
+    "2026-11-27",
+    "2026-11-24"
+   ]
+  },
+  {
+   "arquivo": "abertura_09.mp4",
+   "tipo": "abertura",
+   "marca": "todas",
+   "frase": "Salva esse vídeo antes de continuar.",
+   "duracao_s": 1.6,
+   "usado_em": [
+    "2026-11-19"
+   ]
+  },
+  {
+   "arquivo": "virada_01.mp4",
+   "tipo": "virada",
+   "marca": "todas",
+   "frase": "Olha que coisa.",
+   "duracao_s": 1.01,
+   "usado_em": [
+    "2026-11-28"
+   ]
+  },
+  {
+   "arquivo": "abertura_10.mp4",
+   "tipo": "abertura",
+   "marca": "fertilidade",
+   "frase": "Olha só, casal.",
+   "duracao_s": 1.46,
+   "usado_em": [
+    "2026-11-15"
+   ]
+  },
+  {
+   "arquivo": "abertura_11.mp4",
+   "tipo": "abertura",
+   "marca": "fertilidade",
+   "frase": "Sem culpa, tá? Vamos entender.",
+   "duracao_s": 2.16,
+   "usado_em": [
+    "2026-11-22"
+   ]
+  },
+  {
+   "arquivo": "fecho_01.mp4",
+   "tipo": "fecho",
+   "marca": "todas",
+   "frase": "Na dúvida, conversa com o seu médico.",
+   "duracao_s": 1.96,
+   "usado_em": [
+    "2026-11-20",
+    "2026-11-28"
+   ]
+  },
+  {
+   "arquivo": "fecho_02.mp4",
+   "tipo": "fecho",
+   "marca": "todas",
+   "frase": "Salva esse vídeo, e manda pra quem precisa ouvir.",
+   "duracao_s": 2.66,
+   "usado_em": [
+    "2026-11-17",
+    "2026-11-21"
+   ]
+  },
+  {
+   "arquivo": "fecho_03.mp4",
+   "tipo": "fecho",
+   "marca": "todas",
+   "frase": "Me conta aqui embaixo, tá?",
+   "duracao_s": 1.59,
+   "usado_em": [
+    "2026-11-27",
+    "2026-11-24"
+   ]
+  },
+  {
+   "arquivo": "fecho_04.mp4",
+   "tipo": "fecho",
+   "marca": "todas",
+   "frase": "Informação boa não assusta. Orienta.",
+   "duracao_s": 2.31,
+   "usado_em": [
+    "2026-11-17",
+    "2026-12-02"
+   ]
+  },
+  {
+   "arquivo": "fecho_05.mp4",
+   "tipo": "fecho",
+   "marca": "todas",
+   "frase": "Antes de cortar qualquer coisa, investiga.",
+   "duracao_s": 2.29,
+   "usado_em": []
+  },
+  {
+   "arquivo": "fecho_06.mp4",
+   "tipo": "fecho",
+   "marca": "todas",
+   "frase": "Seu corpo avisa. Escuta ele, tá?",
+   "duracao_s": 2.36,
+   "usado_em": [
+    "2026-11-16"
+   ]
+  },
+  {
+   "arquivo": "fecho_07.mp4",
+   "tipo": "fecho",
+   "marca": "todas",
+   "frase": "Cada caso é um caso. Procura o seu médico.",
+   "duracao_s": 2.61,
+   "usado_em": [
+    "2026-11-15",
+    "2026-11-23"
+   ]
+  },
+  {
+   "arquivo": "fecho_08.mp4",
+   "tipo": "fecho",
+   "marca": "todas",
+   "frase": "E você, já passou por isso? Comenta aqui.",
+   "duracao_s": 2.66,
+   "usado_em": [
+    "2026-11-19"
+   ]
+  },
+  {
+   "arquivo": "fecho_09.mp4",
+   "tipo": "fecho",
+   "marca": "fertilidade",
+   "frase": "Vocês dois, juntos, tá?",
+   "duracao_s": 2.13,
+   "usado_em": [
+    "2026-11-22",
+    "2026-12-10"
+   ]
+  },
+  {
+   "arquivo": "fecho_10.mp4",
+   "tipo": "fecho",
+   "marca": "fertilidade",
+   "frase": "Investigar o casal é o primeiro passo.",
+   "duracao_s": 1.93,
+   "usado_em": [
+    "2026-11-15",
+    "2026-11-24"
+   ]
+  },
+  {
+   "arquivo": "virada_02.mp4",
+   "tipo": "virada",
+   "marca": "todas",
+   "frase": "Então, vamos ao que a ciência mediu.",
+   "duracao_s": 2.34,
+   "usado_em": [
+    "2026-11-23",
+    "2026-12-10"
+   ]
+  },
+  {
+   "arquivo": "ouvindo_01.mp4",
+   "tipo": "ouvindo",
+   "marca": "todas",
+   "frase": "Hum. Será?",
+   "duracao_s": 1.58,
+   "usado_em": [
+    "2026-11-16",
+    "2026-11-23",
+    "2026-11-28",
+    "2026-11-24",
+    "2026-12-10",
+    "2026-12-02"
+   ]
+  },
+  {
+   "arquivo": "virada_03.mp4",
+   "tipo": "virada",
+   "marca": "todas",
+   "frase": "Calma, que não é bem assim.",
+   "duracao_s": 1.84,
+   "usado_em": [
+    "2026-11-16",
+    "2026-12-02"
+   ]
+  },
+  {
+   "arquivo": "virada_04.mp4",
+   "tipo": "virada",
+   "marca": "todas",
+   "frase": "Agora, cá entre nós.",
+   "duracao_s": 1.73,
+   "usado_em": [
+    "2026-11-24"
+   ]
+  },
+  {
+   "arquivo": "seguir_01.mp4",
+   "tipo": "seguir",
+   "marca": "todas",
+   "frase": "Me segue aqui, e deixa o seu curtir.",
+   "duracao_s": 2.25,
+   "usado_em": [
+    "2026-11-19"
+   ]
+  },
+  {
+   "arquivo": "seguir_02.mp4",
+   "tipo": "seguir",
+   "marca": "todas",
+   "frase": "Curtiu? Então segue o perfil, que amanhã tem mais.",
+   "duracao_s": 3.27,
+   "usado_em": [
+    "2026-11-14"
+   ]
+  },
+  {
+   "arquivo": "seguir_03.mp4",
+   "tipo": "seguir",
+   "marca": "todas",
+   "frase": "Curte e me segue, pra esse vídeo chegar em mais gente.",
+   "duracao_s": 2.69,
+   "usado_em": [
+    "2026-11-17",
+    "2026-11-24"
+   ]
+  },
+  {
+   "arquivo": "seguir_04.mp4",
+   "tipo": "seguir",
+   "marca": "todas",
+   "frase": "Se te ajudou, curte e me segue, tá?",
+   "duracao_s": 2.54,
+   "usado_em": [
+    "2026-11-21"
+   ]
+  },
+  {
+   "arquivo": "seguir_05.mp4",
+   "tipo": "seguir",
+   "marca": "fertilidade",
+   "frase": "Segue a gente aqui, e curte pra ajudar outro casal.",
+   "duracao_s": 2.45,
+   "usado_em": [
+    "2026-11-17",
+    "2026-11-22",
+    "2026-12-10"
+   ]
+  },
+  {
+   "arquivo": "troca_01.mp4",
+   "tipo": "troca",
+   "marca": "todas",
+   "frase": "Pronto, a minha parte eu fiz. A sua é curtir e me seguir.",
+   "duracao_s": 3.74,
+   "usado_em": [
+    "2026-11-15",
+    "2026-11-28"
+   ]
+  },
+  {
+   "arquivo": "troca_02.mp4",
+   "tipo": "troca",
+   "marca": "todas",
+   "frase": "Combinado é combinado. Eu trago o estudo, você curte e segue.",
+   "duracao_s": 4.25,
+   "usado_em": [
+    "2026-11-15",
+    "2026-11-23"
+   ]
+  },
+  {
+   "arquivo": "troca_03.mp4",
+   "tipo": "troca",
+   "marca": "todas",
+   "frase": "Antes do final, um pedágio leve. Curte e me segue.",
+   "duracao_s": 3.39,
+   "usado_em": [
+    "2026-11-16"
+   ]
+  },
+  {
+   "arquivo": "troca_04.mp4",
+   "tipo": "troca",
+   "marca": "todas",
+   "frase": "Essa valeu um curtir, vai. E segue, que amanhã tem outra.",
+   "duracao_s": 3.51,
+   "usado_em": [
+    "2026-11-27"
+   ]
+  },
+  {
+   "arquivo": "troca_05.mp4",
+   "tipo": "troca",
+   "marca": "todas",
+   "frase": "Te contei o que quase ninguém conta, né? Então curte aí, e me segue.",
+   "duracao_s": 4.15,
+   "usado_em": [
+    "2026-11-20",
+    "2026-12-02"
+   ]
+  },
+  {
+   "arquivo": "troca_06.mp4",
+   "tipo": "troca",
+   "marca": "fertilidade",
+   "frase": "Eu trouxe o dado. Vocês dois deixam o curtir, e seguem a gente. Fechado?",
+   "duracao_s": 4.86,
+   "usado_em": [
+    "2026-11-24"
+   ]
+  }
+ ]
+}

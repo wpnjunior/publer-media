@@ -1,0 +1,27 @@
+{
+ "marca": "Tdah Adulto Real",
+ "tema": "Metade dos vídeos de TDAH do TikTok engana",
+ "fontes": [
+  "Yeung et al., Can J Psychiatry 2022, PMID 35196157, doi 10.1177/07067437221082854"
+ ],
+ "molde": "carrossel Papo News",
+ "status": "agendado",
+ "metricool_id": 427556597,
+ "uuid": "5563483681140066416",
+ "horario": "2026-11-20T08:14 America/Sao_Paulo",
+ "sha": "ad696aa6ade41f05a9d566dbab36e2ce75a59e57",
+ "agendado_em": "2026-11-13",
+ "redes": [
+  "instagram"
+ ],
+ "stories": [
+  {
+   "metricool_id": 427557170,
+   "horario": "10:12"
+  },
+  {
+   "metricool_id": 427557186,
+   "horario": "21:18"
+  }
+ ]
+}

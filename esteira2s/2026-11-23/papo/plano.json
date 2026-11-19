@@ -1,0 +1,139 @@
+{
+ "formato": "mapeamento",
+ "pele": "jornal",
+ "titulo": "",
+ "destaques": [
+  "Todos",
+  "procurar",
+  "não achei",
+  "tubo",
+  "enorme",
+  "mamão",
+  "sessenta",
+  "dezessete",
+  "pequeno",
+  "maior",
+  "igual",
+  "nenhum",
+  "Exame",
+  "tempero"
+ ],
+ "seguir": {
+  "quando": "Combinado é combinado",
+  "texto": "combinado: curte + segue",
+  "arroba": "@dr.wagnernovaesjr"
+ },
+ "cenas": [
+  {
+   "quando": "Todos os tipos",
+   "tipo": "etiqueta",
+   "texto": "TODOS?",
+   "sub": "\"todos os tipos de vermes\"",
+   "cor": "vermelho"
+  },
+  {
+   "quando": "Estudo sério",
+   "tipo": "cartao",
+   "emoji": "🔎",
+   "cor": "azul",
+   "rotulo": "Cúrcuma x verme, em gente"
+  },
+  {
+   "quando": "eu não achei",
+   "tipo": "etiqueta",
+   "texto": "0 estudos",
+   "sub": "em gente, na busca do PubMed",
+   "cor": "vermelho"
+  },
+  {
+   "quando": "O que existe",
+   "tipo": "checklist",
+   "titulo": "O que existe hoje",
+   "itens": [
+    "Tubo de ensaio",
+    "Animal",
+    "Gente"
+   ],
+   "marcados": 2
+  },
+  {
+   "quando": "Sabe qual planta",
+   "tipo": "cartao",
+   "emoji": "🌱",
+   "cor": "amarelo",
+   "rotulo": "Semente de mamão"
+  },
+  {
+   "quando": "Um estudo pequeno",
+   "tipo": "etiqueta",
+   "texto": "60 crianças",
+   "sub": "Nigéria, estudo piloto de 2007",
+   "cor": "azul"
+  },
+  {
+   "quando": "limpou o exame",
+   "tipo": "barra",
+   "barras": [
+    {
+     "rotulo": "semente de mamão + mel",
+     "valor": 76.7,
+     "texto": "76,7%",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "só o mel",
+     "valor": 16.7,
+     "texto": "16,7%",
+     "cor": "vermelho"
+    }
+   ]
+  },
+  {
+   "quando": "Só que foi",
+   "tipo": "checklist",
+   "titulo": "O porém",
+   "itens": [
+    "Um estudo só",
+    "Pequeno",
+    "Só 7 dias"
+   ],
+   "marcados": 3
+  },
+  {
+   "quando": "Verme não é tudo",
+   "tipo": "citacao",
+   "texto": "Verme não é tudo igual. Chá nenhum pega todos.",
+   "destaque": "Chá nenhum pega todos.",
+   "autor": "o que a medicina sabe"
+  },
+  {
+   "quando": "Exame de fezes",
+   "tipo": "checklist",
+   "titulo": "O caminho",
+   "itens": [
+    "Exame de fezes",
+    "Saber qual parasita",
+    "Tratamento com orientação"
+   ],
+   "marcados": 3
+  },
+  {
+   "quando": "Cúrcuma é tempero",
+   "tipo": "cartao",
+   "emoji": "🍛",
+   "cor": "verde",
+   "rotulo": "Na comida, pode"
+  }
+ ],
+ "fonte": {
+  "quando": "Um estudo pequeno",
+  "ate": "dezessete",
+  "texto": "Okeniyi e col., Journal of Medicinal Food 2007"
+ },
+ "fim": {
+  "marca": "PAPO DE MÉDICO",
+  "frase": "Cada caso é um caso.",
+  "ref": "Okeniyi e col., J Med Food 2007 · doi 10.1089/jmf.2005.065"
+ },
+ "trilha": "educacional"
+}

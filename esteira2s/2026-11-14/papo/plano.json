@@ -1,0 +1,105 @@
+{
+ "formato": "dinamica",
+ "estilo_painel": "dossie",
+ "titulo": "A CIA drogou gente comum",
+ "destaques": [
+  "CIA",
+  "drogou",
+  "20 anos",
+  "queimou",
+  "MKUltra",
+  "LSD",
+  "janela",
+  "destruir",
+  "rastro",
+  "Confiança"
+ ],
+ "paineis": [
+  {
+   "quando": "Chamava-se MKUltra",
+   "tipo": "texto",
+   "emoji": "🗂️",
+   "texto": "Projeto MKUltra"
+  },
+  {
+   "quando": "Começou nos anos",
+   "tipo": "numero",
+   "emoji": "🕰️",
+   "numero": "1953",
+   "legenda": "auge da Guerra Fria"
+  },
+  {
+   "quando": "O método",
+   "tipo": "texto",
+   "emoji": "🧪",
+   "texto": "LSD sem a pessoa saber"
+  },
+  {
+   "quando": "Pacientes, presos",
+   "tipo": "checklist",
+   "texto": "Quem foi dosado",
+   "itens": [
+    "Pacientes",
+    "Presos",
+    "Gente comum na rua"
+   ]
+  },
+  {
+   "quando": "Um dos próprios",
+   "tipo": "texto",
+   "emoji": "🧑‍🔬",
+   "texto": "Frank Olson, cientista"
+  },
+  {
+   "quando": "Até hoje ninguém",
+   "tipo": "fala",
+   "emoji": "❓",
+   "texto": "Pulou ou foi jogado?"
+  },
+  {
+   "quando": "E o mais covarde",
+   "tipo": "numero",
+   "emoji": "🔥",
+   "numero": "1973",
+   "legenda": "ordem para destruir os documentos"
+  },
+  {
+   "quando": "Quem apaga o",
+   "tipo": "texto",
+   "emoji": "👣",
+   "texto": "Quem apaga o rastro sabe que errou"
+  }
+ ],
+ "carimbos": [
+  {
+   "quando": "queimou as provas",
+   "texto": "QUEIMADO"
+  }
+ ],
+ "numeros": [
+  {
+   "quando": "por 20 anos",
+   "texto": "20 anos",
+   "legenda": "de testes escondidos"
+  }
+ ],
+ "closes": [
+  "Olha o que eu",
+  "Confiança não se impõe"
+ ],
+ "seguir": {
+  "quando": "Olha o que eu",
+  "texto": "curte + segue",
+  "arroba": "@dr.wagnernovaesjr"
+ },
+ "fonte": {
+  "quando": "Chamava-se MKUltra",
+  "ate": "provar nada",
+  "texto": "Senado dos EUA, audiência Project MKULTRA, 1977"
+ },
+ "fim": {
+  "frase": "Confiança não se impõe. Se merece.",
+  "ref": "Senado dos EUA, Project MKULTRA: audiência conjunta, 3/8/1977\nComissão Church, relatório final, 1976"
+ },
+ "trilha": "dark_cinematic"
+}

@@ -1,0 +1,49 @@
+{
+ "marca": [
+  "PAPO",
+  "NEWS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_academia_5327508.jpg",
+   "editoria": "Força",
+   "manchete": "O aperto de mão<br>que prevê a <span class=\"hl\">vida</span>",
+   "sub": "Estudo em <b>17 países</b> mediu a força da mão de quase <b>140 mil pessoas</b>.",
+   "fonte": "Fonte: Leong et al., The Lancet, 2015"
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "01",
+   "manchete": "Você olha<br>a <span class=\"hl\">balança</span>",
+   "corpo": "Peso todo mundo acompanha. A força, quase ninguém mede. E ela conta uma história que a balança não conta."
+  },
+  {
+   "foto": "px_academia_7289233.jpg",
+   "numero": "02",
+   "manchete": "<span class=\"hl\">5 kg</span> a menos<br>de força",
+   "corpo": "Cada 5 kg a menos na força do aperto de mão veio com risco de morte <b>16% maior</b> em quatro anos de acompanhamento.",
+   "destaque": "Previu melhor que a pressão arterial."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "03",
+   "manchete": "Te poupei um<br><span class=\"hl\">check-up</span>",
+   "corpo": "De curiosidade, claro. Curte aí e me segue, que amanhã tem mais."
+  },
+  {
+   "foto": "px_academia_3836878.jpg",
+   "numero": "04",
+   "manchete": "A mão é o <span class=\"hl\">termômetro</span>",
+   "corpo": "O aperto de mão reflete a força do corpo todo. Os autores avisam: ainda falta provar que ganhar força reduz esse risco."
+  },
+  {
+   "foto": "px_academia_4164759.jpg",
+   "numero": "05",
+   "manchete": "Músculo é<br><span class=\"hl\">assunto de saúde</span>",
+   "corpo": "Força se treina em qualquer idade, com orientação. Converse com seu médico antes de começar.",
+   "destaque": "Salva e testa com seu pai.",
+   "fonte": "Fonte: Leong et al., Lancet 2015 · doi 10.1016/S0140-6736(14)62000-6 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

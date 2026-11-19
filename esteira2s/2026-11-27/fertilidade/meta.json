@@ -1,0 +1,32 @@
+{
+  "tema": "Lubrificante atrapalha?",
+  "molde": "responder_comentario",
+  "edicao": "mapeamento, pele quadro, pergunta animada em comentário no 1º segundo",
+  "rostos": [
+    "abertura_08",
+    "troca_04",
+    "fecho_03"
+  ],
+  "fontes": [
+    "Steiner et al., Obstet Gynecol 2012, PMID 22914390, doi 10.1097/AOG.0b013e31825b87ae: 296 mulheres, razão de fecundabilidade 1,05 (IC 0,59-1,85)"
+  ],
+  "nota": "O comentário na tela é ilustrativo (pergunta frequente), sem nome de pessoa real.",
+  "status": "agendado",
+  "midia": "final.mp4",
+  "pendente": "Porteiro/sabor, legenda, stories e agendamento na rodada da véspera",
+  "linguagem": "mapeamento",
+  "conferencia": "porteiro e sabor ok em 11/11",
+  "agendamento": {
+    "metricool_id": 425043880,
+    "uuid": "-7872767687994945871",
+    "horario": "2026-11-27T19:48:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-27/fertilidade/final.mp4",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+    ]
+  }
+}

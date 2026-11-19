@@ -1,0 +1,35 @@
+{
+  "tema": "40 ovos por dia: o que os estudos mediram sobre ovo e coração (react)",
+  "molde": "react",
+  "linguagem": "react_dividido",
+  "edicao": "react em TELA DIVIDIDA (modelo do react do peido) + mapeamento pele noite",
+  "midia": "final.mp4",
+  "viral": "https://www.tiktok.com/@cheffotto/video/7468401368819109142 (primeiros 4,9 s, crédito @cheffotto na tela; citar também na legenda)",
+  "rostos": [
+    "ouvindo_01",
+    "virada_01",
+    "troca_01",
+    "fecho_01"
+  ],
+  "fontes": [
+    "Drouin-Chartier e col., BMJ 2020, PMID 32132002, doi 10.1136/bmj.m513: 3 coortes (83.349 + 90.214 + 42.055 = 215.618 pessoas), até 32 anos; 1 ovo ou mais por dia sem associação com doença cardiovascular (HR 0,93; IC 0,82 a 1,05); a maioria comia de 1 a menos de 5 por semana",
+    "Ovo grande: cerca de 6 g de proteína e 186 mg de colesterol (USDA FoodData Central); 40 ovos = 240 g e 7.440 mg"
+  ],
+  "status": "agendado",
+  "custo_estimado": 10,
+  "conferencia": "porteiro e sabor ok; folha de quadros olhada como espectador em 11/11",
+  "nota": "Produzido em 11/11 a pedido do Wagner (5 reacts por perfil). Não fala o nome nem avalia a saúde de quem aparece no viral. Trocado de 27/11 para 28/11 para ficar a 3 Reels do react de 23/11 (a trava da mesmice só enxerga os dias 26 e 27 depois que eles forem produzidos). Rodada da véspera escreve a legenda com crédito ao @cheffotto e agenda.",
+  "agendamento": {
+    "metricool_id": 425045070,
+    "uuid": "361225438237249136",
+    "horario": "2026-11-28T13:09:00-03:00",
+    "agendado_em": "2026-11-11",
+    "sha": "3134a24f6f4dc12752443697da4591c00716e053",
+    "raw_url": "https://raw.githubusercontent.com/wpnjunior/publer-media/3134a24f6f4dc12752443697da4591c00716e053/esteira2s/2026-11-28/papo/final.mp4",
+    "redes": [
+      "instagram",
+      "tiktok",
+      "youtube"
+    ]
+  }
+}

@@ -38,7 +38,11 @@ def teste_metadados(p):
     for l in probe(p, "format_tags").splitlines() + probe(p, "stream_tags").splitlines():
         l = l.strip()
         if l.startswith("TAG:"):
-            chave = l[4:].split("=")[0].lower()
+            chave, _, valor = l[4:].partition("=")
+            chave = chave.lower()
+            # ffprobe 6.x mostra vendor_id em todo mp4; zerado ("[0][0][0][0]") não identifica ninguém
+            if chave == "vendor_id" and valor.strip() in ("[0][0][0][0]", "", "0"):
+                continue
             if chave not in TAGS_OK:
                 fora.append(chave)
     return (not fora), ("etiquetas: " + ", ".join(sorted(set(fora))) if fora else "")

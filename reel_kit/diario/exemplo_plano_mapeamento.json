@@ -1,0 +1,19 @@
+{"formato":"mapeamento","titulo":"O médico que bebeu a bactéria",
+ "destaques":["nervoso","bactéria","bebeu","gastrite","Nobel","úlcera"],
+ "cenas":[
+  {"quando":"Mas olha só a","tipo":"cartao","emoji":"🧪","cor":"amarelo","rotulo":"Bebeu de propósito"},
+  {"quando":"Em 1984, Barry","tipo":"mapa","paises":["Austrália"],"cor":"amarelo","etiqueta":"1984 · Perth","pip":true},
+  {"quando":"examinaram o estômago","tipo":"bolinhas","valor":58,"cor":"vermelho","legenda":"58 de 100 tinham a bactéria","mini":"Marshall & Warren, Lancet 1984"},
+  {"quando":"Ninguém acreditou","tipo":"citacao","texto":"Bactéria não sobrevive no ácido do estômago.","destaque":"não sobrevive","autor":"o que se ensinava até os anos 80"},
+  {"quando":"Aí o Marshall bebeu","tipo":"cartao","emoji":"🥤","cor":"vermelho","fundo":"amarelo","rotulo":"A cultura"},
+  {"quando":"Dez dias depois","tipo":"etiqueta","texto":"10 dias","sub":"e a biópsia mostrou gastrite","cor":"vermelho"},
+  {"quando":"Então, por que a","tipo":"rosto"},
+  {"quando":"O estresse piora","tipo":"barra","barras":[{"rotulo":"sintoma","valor":80,"texto":"↑","cor":"vermelho"},{"rotulo":"causa","valor":10,"texto":"✗","cor":"azul"}]},
+  {"quando":"É como culpar","tipo":"foto","emoji":"🚗","cor":"azul","legenda":"a buzina não causa o engarrafamento"},
+  {"quando":"em 2005 os","tipo":"mapa","paises":["Suécia"],"cor":"azul","outros":{"paises":["Austrália"],"cor":"amarelo"},"setas":[["Austrália","Suécia"]],"etiqueta":"2005 · Nobel","pip":true},
+  {"quando":"Agora, cá entre nós","tipo":"rosto"}
+ ],
+ "closes":["Olha que coisa","não explica a úlcera"],
+ "fonte":{"quando":"Em 1984, Barry","ate":"dele mesmo, tá","texto":"Marshall & Warren, Lancet 1984 · Marshall et al., Med J Aust 1985"},
+ "fim":{"frase":"Nervoso explica o dia ruim. Não explica a úlcera.","ref":"Marshall & Warren, Lancet 1984 · doi 10.1016/s0140-6736(84)91816-6\nMarshall et al., Med J Aust 1985 · doi 10.5694/j.1326-5377.1985.tb113443.x"},
+ "trilha":"educacional"}

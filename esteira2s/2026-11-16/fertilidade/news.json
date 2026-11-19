@@ -1,0 +1,27 @@
+{
+"marca": ["FERTILIDADE", "A DOIS"],
+"slides": [
+{"tipo": "capa", "foto": "px_homemso_6756351.jpg", "editoria": "Casal",
+ "manchete": "O primeiro exame<br>é o <span class=\"hl\">dele</span>",
+ "sub": "O homem participa de cerca de <b>metade</b> dos casos de dificuldade para engravidar.",
+ "fonte": "Fonte: Agarwal et al., Reprod Biol Endocrinol, 2015"},
+{"foto": "px_casal_8560477.jpg", "numero": "01",
+ "manchete": "Ela faz tudo.<br>E <span class=\"hl\">ele</span>?",
+ "corpo": "Ela já fez ultrassom, hormônio, exame de sangue. Ele ainda não fez nenhum. Essa cena se repete em muito consultório."},
+{"foto": "px_lab_4033300.jpg", "numero": "02",
+ "manchete": "<span class=\"hl\">50%</span> dos casos<br>passam por ele",
+ "corpo": "Em <b>20 a 30%</b> dos casais a causa está só no homem. Somando os casos em que os dois contribuem, ele participa de cerca de <b>metade</b>.",
+ "destaque": "A dificuldade é do casal, não é dela."},
+{"foto": "px_homemmedico_6129444.jpg", "numero": "03",
+ "manchete": "Tirei um peso<br>das <span class=\"hl\">costas dela</span>",
+ "corpo": "Curte aí, casal. E segue a gente para o próximo passo dessa conversa."},
+{"foto": "px_lab_7448009.jpg", "numero": "04",
+ "manchete": "Espermograma:<br>simples e <span class=\"hl\">sem agulha</span>",
+ "corpo": "É um exame de laboratório, sem dor e sem corte. Mostra quantidade, movimento e formato dos espermatozoides, e orienta o resto da investigação."},
+{"foto": "px_casal_6249006.jpg", "numero": "05",
+ "manchete": "Investigar os dois<br>desde o <span class=\"hl\">começo</span>",
+ "corpo": "Passou de <b>12 meses</b> tentando (ou 6, se ela tem 35 anos ou mais)? Os dois procuram o médico juntos.",
+ "destaque": "Manda pro seu par.",
+ "fonte": "Fonte: Agarwal et al., Reprod Biol Endocrinol 2015 · doi 10.1186/s12958-015-0032-1 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."}
+]
+}

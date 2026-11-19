@@ -1,0 +1,178 @@
+{
+ "formato": "mapeamento",
+ "titulo": "O que acontece no corpo em 12, 16 e 24 h sem comer?",
+ "pele": "quadro",
+ "trilha": "educacional",
+ "destaques": [
+  "doze horas",
+  "troca",
+  "virada metabólica",
+  "gordura",
+  "médico"
+ ],
+ "cenas": [
+  {
+   "quando": "Presta atenção",
+   "tipo": "rosto"
+  },
+  {
+   "quando": "Com umas doze horas",
+   "tipo": "etiqueta",
+   "texto": "12 horas",
+   "sub": "o corpo troca de combustível",
+   "cor": "amarelo"
+  },
+  {
+   "quando": "Nas primeiras horas",
+   "tipo": "regua",
+   "marcos": [
+    {
+     "rotulo": "0 a 4 h",
+     "texto": "açúcar da refeição"
+    },
+    {
+     "rotulo": "4 a 12 h",
+     "texto": "açúcar do fígado"
+    },
+    {
+     "rotulo": "12 h",
+     "texto": "a troca: gordura e cetonas"
+    },
+    {
+     "rotulo": "16 a 24 h",
+     "texto": "gordura no comando"
+    }
+   ],
+   "ate": 0
+  },
+  {
+   "quando": "Depois, vai buscar",
+   "tipo": "regua",
+   "marcos": [
+    {
+     "rotulo": "0 a 4 h",
+     "texto": "açúcar da refeição"
+    },
+    {
+     "rotulo": "4 a 12 h",
+     "texto": "açúcar do fígado"
+    },
+    {
+     "rotulo": "12 h",
+     "texto": "a troca: gordura e cetonas"
+    },
+    {
+     "rotulo": "16 a 24 h",
+     "texto": "gordura no comando"
+    }
+   ],
+   "ate": 1
+  },
+  {
+   "quando": "Por volta de doze",
+   "tipo": "regua",
+   "marcos": [
+    {
+     "rotulo": "0 a 4 h",
+     "texto": "açúcar da refeição"
+    },
+    {
+     "rotulo": "4 a 12 h",
+     "texto": "açúcar do fígado"
+    },
+    {
+     "rotulo": "12 h",
+     "texto": "a troca: gordura e cetonas"
+    },
+    {
+     "rotulo": "16 a 24 h",
+     "texto": "gordura no comando"
+    }
+   ],
+   "ate": 2
+  },
+  {
+   "quando": "Os pesquisadores chamam",
+   "tipo": "citacao",
+   "texto": "A virada metabólica: do açúcar para a gordura.",
+   "destaque": "virada metabólica",
+   "autor": "Anton e colegas, revista Obesity, 2018"
+  },
+  {
+   "quando": "Com dezesseis, vinte",
+   "tipo": "regua",
+   "marcos": [
+    {
+     "rotulo": "0 a 4 h",
+     "texto": "açúcar da refeição"
+    },
+    {
+     "rotulo": "4 a 12 h",
+     "texto": "açúcar do fígado"
+    },
+    {
+     "rotulo": "12 h",
+     "texto": "a troca: gordura e cetonas"
+    },
+    {
+     "rotulo": "16 a 24 h",
+     "texto": "gordura no comando"
+    }
+   ],
+   "ate": 3
+  },
+  {
+   "quando": "Curte e me segue",
+   "tipo": "rosto"
+  },
+  {
+   "quando": "Depende do que você comeu",
+   "tipo": "cartao",
+   "emoji": "⏱️",
+   "cor": "azul",
+   "rotulo": "O relógio muda de pessoa para pessoa"
+  },
+  {
+   "quando": "E trocar de combustível",
+   "tipo": "etiqueta",
+   "texto": "Não é emagrecer",
+   "sub": "isso depende do total que você come",
+   "cor": "vermelho"
+  },
+  {
+   "quando": "Quem tem diabetes",
+   "tipo": "checklist",
+   "titulo": "Não começa por conta própria",
+   "itens": [
+    "Diabetes",
+    "Uso de remédio",
+    "Gravidez",
+    "Amamentação"
+   ],
+   "marcados": 4
+  },
+  {
+   "quando": "Salva esse vídeo",
+   "tipo": "rosto"
+  }
+ ],
+ "fonte": {
+  "quando": "Os pesquisadores chamam",
+  "ate": "virada metabólica",
+  "texto": "Anton et al., Obesity, 2018"
+ },
+ "seguir": {
+  "quando": "Curte e me segue",
+  "texto": "curte + segue",
+  "arroba": "@dr.wagnernovaesjr"
+ },
+ "caixa_pergunta": {
+  "cab": "Faça uma pergunta",
+  "res": "Papo de Médico responde..."
+ },
+ "fim": {
+  "marca": "PAPO DE MÉDICO",
+  "frase": "Com 12 horas, o corpo troca de combustível.",
+  "ref": "Anton et al., Obesity 2018 · doi 10.1002/oby.22065\nConteúdo educativo. Não substitui a consulta."
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "formato": "mapeamento",
+ "pele": "clinico",
+ "titulo": "",
+ "destaques": [
+  "mínimo",
+  "mediu",
+  "Dez",
+  "vinte",
+  "dobrou",
+  "comeu",
+  "fermentação",
+  "sangue",
+  "piada"
+ ],
+ "seguir": {
+  "quando": "Antes do final",
+  "texto": "pedágio: curte + segue",
+  "arroba": "@dr.wagnernovaesjr"
+ },
+ "cenas": [
+  {
+   "quando": "Vinte e cinco é",
+   "tipo": "etiqueta",
+   "texto": "25?",
+   "sub": "\"no mínimo\"",
+   "cor": "vermelho"
+  },
+  {
+   "quando": "Um estudo americano",
+   "tipo": "cartao",
+   "emoji": "📄",
+   "cor": "azul",
+   "rotulo": "Estudo de 1996"
+  },
+  {
+   "quando": "pegou vinte e cinco",
+   "tipo": "etiqueta",
+   "texto": "25 pessoas",
+   "sub": "saudáveis, contando cada gás por 1 semana",
+   "cor": "azul"
+  },
+  {
+   "quando": "Dez por dia",
+   "tipo": "barra",
+   "barras": [
+    {
+     "rotulo": "média medida",
+     "valor": 10,
+     "texto": "10 por dia",
+     "cor": "verde"
+    },
+    {
+     "rotulo": "\"mínimo\" do vídeo",
+     "valor": 25,
+     "texto": "25",
+     "cor": "vermelho"
+    }
+   ]
+  },
+  {
+   "quando": "Homem ou mulher",
+   "tipo": "cartao",
+   "emoji": "🚻",
+   "cor": "amarelo",
+   "rotulo": "Homem ou mulher: igual"
+  },
+  {
+   "quando": "quando colocaram na comida",
+   "tipo": "cartao",
+   "emoji": "🍬",
+   "cor": "amarelo",
+   "rotulo": "Açúcar que a bactéria fermenta"
+  },
+  {
+   "quando": "o número quase dobrou",
+   "tipo": "etiqueta",
+   "texto": "quase dobrou",
+   "sub": "de 10 para 19 por dia",
+   "cor": "vermelho"
+  },
+  {
+   "quando": "A quantidade de gás",
+   "tipo": "citacao",
+   "texto": "Gás não é nota de saúde. É o que você comeu.",
+   "destaque": "É o que você comeu.",
+   "autor": "o que o estudo mostra"
+  },
+  {
+   "quando": "Fibra, feijão",
+   "tipo": "checklist",
+   "titulo": "Dá mais gás",
+   "itens": [
+    "Fibra",
+    "Feijão",
+    "Repolho"
+   ],
+   "marcados": 3
+  },
+  {
+   "quando": "E não existe peido",
+   "tipo": "cartao",
+   "emoji": "🚫",
+   "cor": "vermelho",
+   "rotulo": "Peido não faz faxina"
+  },
+  {
+   "quando": "Se o gás vem",
+   "tipo": "checklist",
+   "titulo": "Aí procura o médico",
+   "itens": [
+    "Sangue nas fezes",
+    "Perda de peso",
+    "Diarreia que não passa"
+   ],
+   "marcados": 3
+  }
+ ],
+ "fonte": {
+  "quando": "Um estudo americano",
+  "ate": "quase dobrou",
+  "texto": "Furne & Levitt, Digestive Diseases and Sciences 1996"
+ },
+ "fim": {
+  "marca": "PAPO DE MÉDICO",
+  "frase": "Seu corpo avisa. Escuta ele.",
+  "ref": "Furne & Levitt, Dig Dis Sci 1996 · doi 10.1007/BF02087912"
+ },
+ "trilha": "moment_of_peace"
+}

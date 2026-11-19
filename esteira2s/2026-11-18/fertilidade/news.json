@@ -1,0 +1,49 @@
+{
+ "marca": [
+  "FERTILIDADE",
+  "A DOIS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_calendario_6170652.jpg",
+   "editoria": "Janela fértil",
+   "manchete": "A janela fértil<br>tem <span class=\"hl\">6 dias</span>",
+   "sub": "Um estudo acompanhou <b>221 mulheres</b> e marcou em que dias a gravidez começou.",
+   "fonte": "Fonte: Wilcox et al., N Engl J Med, 1995"
+  },
+  {
+   "foto": "px_casal_8559990.jpg",
+   "numero": "01",
+   "manchete": "Todo dia ou<br><span class=\"hl\">dia sim, dia não</span>?",
+   "corpo": "Muito casal transforma a tentativa numa planilha. Antes da frequência, vale saber quando a janela abre e fecha."
+  },
+  {
+   "foto": "px_calendario_5239918.jpg",
+   "numero": "02",
+   "manchete": "Só <span class=\"hl\">6 dias</span><br>por ciclo",
+   "corpo": "As gestações começaram em relações nos <b>5 dias antes</b> da ovulação ou <b>no dia</b> dela. Fora desse período, não houve concepção no estudo."
+  },
+  {
+   "foto": "px_lab_8325940.jpg",
+   "numero": "03",
+   "manchete": "De <span class=\"hl\">10%</span><br>a <span class=\"hl\">33%</span>",
+   "corpo": "A chance por ciclo foi de cerca de <b>10%</b> com a relação 5 dias antes da ovulação e chegou a <b>33%</b> no dia dela.",
+   "destaque": "Os dias que antecedem a ovulação também contam."
+  },
+  {
+   "foto": "px_homemmedico_6129647.jpg",
+   "numero": "04",
+   "manchete": "Poupei vocês<br>de uma <span class=\"hl\">planilha</span>",
+   "corpo": "Curte aí. E segue a gente para acompanhar o próximo passo."
+  },
+  {
+   "foto": "px_casal_3958822.jpg",
+   "numero": "05",
+   "manchete": "Sem <span class=\"hl\">cronômetro</span>",
+   "corpo": "O que conta é ter relações ao longo desses dias. O ritmo o casal combina, e o médico orienta quando o ciclo é irregular.",
+   "destaque": "Salva pro próximo ciclo.",
+   "fonte": "Fonte: Wilcox et al., N Engl J Med 1995 · doi 10.1056/NEJM199512073332301 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

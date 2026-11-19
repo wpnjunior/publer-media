@@ -1,0 +1,20 @@
+{
+ "foto": "esteira2s/banco-rostos/foto.jpg",
+ "trechos": [
+  {
+   "rosto": "esteira2s/banco-rostos/abertura_06.mp4"
+  },
+  {
+   "voz": "/tmp/e2s/p17/a.mp3"
+  },
+  {
+   "rosto": "esteira2s/banco-rostos/seguir_03.mp4"
+  },
+  {
+   "voz": "/tmp/e2s/p17/b.mp3"
+  },
+  {
+   "rosto": "esteira2s/banco-rostos/fecho_02.mp4"
+  }
+ ]
+}

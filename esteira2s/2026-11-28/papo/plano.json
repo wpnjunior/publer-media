@@ -1,0 +1,25 @@
+{
+ "formato": "mapeamento",
+ "pele": "noite",
+ "titulo": "",
+ "destaques": ["Quarenta", "conta", "proteína", "colesterol", "sete mil", "mediu", "Harvard", "infarto", "detalhe", "um ovo", "nenhum", "atleta", "Copiar", "exame"],
+ "seguir": {"quando": "Pronto, a minha parte", "texto": "sua parte: curte + segue", "arroba": "@dr.wagnernovaesjr"},
+ "cenas": [
+  {"quando": "Quarenta ovos por dia", "tipo": "etiqueta", "texto": "40 ovos", "sub": "por dia", "cor": "amarelo"},
+  {"quando": "Um ovo tem", "tipo": "cartao", "emoji": "🥚", "cor": "amarelo", "rotulo": "1 ovo: cerca de 6 g de proteína"},
+  {"quando": "Quarenta dá duzentos", "tipo": "etiqueta", "texto": "240 g", "sub": "de proteína, só de ovo", "cor": "azul"},
+  {"quando": "Cada gema tem", "tipo": "barra", "barras": [
+    {"rotulo": "1 gema", "valor": 186, "texto": "186 mg", "cor": "verde"},
+    {"rotulo": "40 gemas", "valor": 7440, "texto": "7.440 mg", "cor": "vermelho"}]},
+  {"quando": "Um estudo de Harvard", "tipo": "cartao", "emoji": "📄", "cor": "azul", "rotulo": "Estudo de 2020, na revista BMJ"},
+  {"quando": "mais de duzentas mil", "tipo": "etiqueta", "texto": "215 mil pessoas", "sub": "acompanhadas por até 32 anos", "cor": "azul"},
+  {"quando": "Quem comia um ovo", "tipo": "citacao", "texto": "1 ovo por dia: sem mais infarto nem derrame.", "destaque": "sem mais infarto nem derrame.", "autor": "o que o estudo mediu"},
+  {"quando": "O estudo mediu um ovo", "tipo": "etiqueta", "texto": "1, não 40", "sub": "a maioria comia de 1 a 5 por semana", "cor": "vermelho"},
+  {"quando": "Pra quarenta por dia", "tipo": "cartao", "emoji": "❓", "cor": "vermelho", "rotulo": "40 por dia: sem estudo"},
+  {"quando": "Rotina de atleta", "tipo": "checklist", "titulo": "Não é a mesma coisa", "itens": ["Atleta com acompanhamento", "Copiar em casa"], "marcados": 1},
+  {"quando": "Ovo é comida boa", "tipo": "cartao", "emoji": "🩸", "cor": "verde", "rotulo": "A sua dose: quem diz é o exame"}
+ ],
+ "fonte": {"quando": "Um estudo de Harvard", "ate": "quase não comia", "texto": "Drouin-Chartier e col., BMJ 2020"},
+ "fim": {"marca": "PAPO DE MÉDICO", "frase": "A dose é a do seu exame.", "ref": "Drouin-Chartier e col., BMJ 2020 · doi 10.1136/bmj.m513"},
+ "trilha": "golden_hour"
+}

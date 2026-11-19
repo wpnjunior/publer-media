@@ -149,5 +149,866 @@
    "ultrassom",
    "paciente"
   ]
+ },
+ "leite.jpg": {
+  "tags": [
+   "leite",
+   "lactose",
+   "copo",
+   "jarra"
+  ]
+ },
+ "frutas.jpg": {
+  "tags": [
+   "frutas",
+   "comida",
+   "saudavel",
+   "colorido"
+  ]
+ },
+ "px_academia_17782876.jpg": {
+  "tags": [
+   "academia",
+   "treino",
+   "musculo",
+   "homem",
+   "halter",
+   "forca"
+  ],
+  "fonte": "https://www.pexels.com/photo/17782876/"
+ },
+ "px_academia_3763115.jpg": {
+  "tags": [
+   "academia",
+   "treino",
+   "musculo",
+   "homem",
+   "halter",
+   "forca"
+  ],
+  "fonte": "https://www.pexels.com/photo/3763115/"
+ },
+ "px_academia_3836878.jpg": {
+  "tags": [
+   "academia",
+   "treino",
+   "musculo",
+   "homem",
+   "halter",
+   "forca"
+  ],
+  "fonte": "https://www.pexels.com/photo/3836878/"
+ },
+ "px_academia_4164759.jpg": {
+  "tags": [
+   "academia",
+   "treino",
+   "musculo",
+   "homem",
+   "halter",
+   "forca"
+  ],
+  "fonte": "https://www.pexels.com/photo/4164759/"
+ },
+ "px_academia_5327487.jpg": {
+  "tags": [
+   "academia",
+   "treino",
+   "musculo",
+   "homem",
+   "halter",
+   "forca"
+  ],
+  "fonte": "https://www.pexels.com/photo/5327487/"
+ },
+ "px_academia_5327508.jpg": {
+  "tags": [
+   "academia",
+   "treino",
+   "musculo",
+   "homem",
+   "halter",
+   "forca"
+  ],
+  "fonte": "https://www.pexels.com/photo/5327508/"
+ },
+ "px_academia_7289233.jpg": {
+  "tags": [
+   "academia",
+   "treino",
+   "musculo",
+   "homem",
+   "halter",
+   "forca"
+  ],
+  "fonte": "https://www.pexels.com/photo/7289233/"
+ },
+ "px_academia_7289367.jpg": {
+  "tags": [
+   "academia",
+   "treino",
+   "musculo",
+   "homem",
+   "halter",
+   "forca"
+  ],
+  "fonte": "https://www.pexels.com/photo/7289367/"
+ },
+ "px_barriga_3807733.jpg": {
+  "tags": [
+   "barriga",
+   "dor",
+   "intestino",
+   "abdomen",
+   "colica"
+  ],
+  "fonte": "https://www.pexels.com/photo/3807733/"
+ },
+ "px_barriga_5938362.jpg": {
+  "tags": [
+   "barriga",
+   "dor",
+   "intestino",
+   "abdomen",
+   "colica"
+  ],
+  "fonte": "https://www.pexels.com/photo/5938362/"
+ },
+ "px_barriga_7298668.jpg": {
+  "tags": [
+   "barriga",
+   "dor",
+   "intestino",
+   "abdomen",
+   "colica"
+  ],
+  "fonte": "https://www.pexels.com/photo/7298668/"
+ },
+ "px_barriga_7298905.jpg": {
+  "tags": [
+   "barriga",
+   "dor",
+   "intestino",
+   "abdomen",
+   "colica"
+  ],
+  "fonte": "https://www.pexels.com/photo/7298905/"
+ },
+ "px_calendario_19915774.jpg": {
+  "tags": [
+   "calendario",
+   "ciclo",
+   "datas",
+   "planejar",
+   "tempo"
+  ],
+  "fonte": "https://www.pexels.com/photo/19915774/"
+ },
+ "px_calendario_5239918.jpg": {
+  "tags": [
+   "calendario",
+   "ciclo",
+   "datas",
+   "planejar",
+   "tempo"
+  ],
+  "fonte": "https://www.pexels.com/photo/5239918/"
+ },
+ "px_calendario_6170652.jpg": {
+  "tags": [
+   "calendario",
+   "ciclo",
+   "datas",
+   "planejar",
+   "tempo"
+  ],
+  "fonte": "https://www.pexels.com/photo/6170652/"
+ },
+ "px_calendario_9052846.jpg": {
+  "tags": [
+   "calendario",
+   "ciclo",
+   "datas",
+   "planejar",
+   "tempo"
+  ],
+  "fonte": "https://www.pexels.com/photo/9052846/"
+ },
+ "px_capsulas_12474262.jpg": {
+  "tags": [
+   "capsulas",
+   "suplemento",
+   "comprimido",
+   "vitamina",
+   "mao"
+  ],
+  "fonte": "https://www.pexels.com/photo/12474262/"
+ },
+ "px_capsulas_12955610.jpg": {
+  "tags": [
+   "capsulas",
+   "suplemento",
+   "comprimido",
+   "vitamina",
+   "mao"
+  ],
+  "fonte": "https://www.pexels.com/photo/12955610/"
+ },
+ "px_capsulas_13787566.jpg": {
+  "tags": [
+   "capsulas",
+   "suplemento",
+   "comprimido",
+   "vitamina",
+   "mao"
+  ],
+  "fonte": "https://www.pexels.com/photo/13787566/"
+ },
+ "px_capsulas_1424538.jpg": {
+  "tags": [
+   "capsulas",
+   "suplemento",
+   "comprimido",
+   "vitamina",
+   "mao"
+  ],
+  "fonte": "https://www.pexels.com/photo/1424538/"
+ },
+ "px_capsulas_22253613.jpg": {
+  "tags": [
+   "capsulas",
+   "suplemento",
+   "comprimido",
+   "vitamina",
+   "mao"
+  ],
+  "fonte": "https://www.pexels.com/photo/22253613/"
+ },
+ "px_capsulas_3873168.jpg": {
+  "tags": [
+   "capsulas",
+   "suplemento",
+   "comprimido",
+   "vitamina",
+   "mao"
+  ],
+  "fonte": "https://www.pexels.com/photo/3873168/"
+ },
+ "px_casal_11364176.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos",
+   "gravida"
+  ],
+  "fonte": "https://www.pexels.com/photo/11364176/"
+ },
+ "px_casal_15010061.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos",
+   "gravida"
+  ],
+  "fonte": "https://www.pexels.com/photo/15010061/"
+ },
+ "px_casal_28337095.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos",
+   "gravida"
+  ],
+  "fonte": "https://www.pexels.com/photo/28337095/"
+ },
+ "px_casal_3958822.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos"
+  ],
+  "fonte": "https://www.pexels.com/photo/3958822/"
+ },
+ "px_casal_5424696.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos",
+   "gravida"
+  ],
+  "fonte": "https://www.pexels.com/photo/5424696/"
+ },
+ "px_casal_5427991.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos",
+   "gravida"
+  ],
+  "fonte": "https://www.pexels.com/photo/5427991/"
+ },
+ "px_casal_6249006.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos"
+  ],
+  "fonte": "https://www.pexels.com/photo/6249006/"
+ },
+ "px_casal_6463169.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos",
+   "gravida"
+  ],
+  "fonte": "https://www.pexels.com/photo/6463169/"
+ },
+ "px_casal_8559990.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos"
+  ],
+  "fonte": "https://www.pexels.com/photo/8559990/"
+ },
+ "px_casal_8559998.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos",
+   "gravida"
+  ],
+  "fonte": "https://www.pexels.com/photo/8559998/"
+ },
+ "px_casal_8560477.jpg": {
+  "tags": [
+   "casal",
+   "gravidez",
+   "fertilidade",
+   "par",
+   "juntos"
+  ],
+  "fonte": "https://www.pexels.com/photo/8560477/"
+ },
+ "px_homemmedico_6129444.jpg": {
+  "tags": [
+   "homem",
+   "medico",
+   "consulta",
+   "paciente",
+   "exame"
+  ],
+  "fonte": "https://www.pexels.com/photo/6129444/"
+ },
+ "px_homemmedico_6129647.jpg": {
+  "tags": [
+   "homem",
+   "medico",
+   "consulta",
+   "paciente",
+   "exame"
+  ],
+  "fonte": "https://www.pexels.com/photo/6129647/"
+ },
+ "px_homemmedico_6749742.jpg": {
+  "tags": [
+   "homem",
+   "medico",
+   "consulta",
+   "paciente",
+   "exame"
+  ],
+  "fonte": "https://www.pexels.com/photo/6749742/"
+ },
+ "px_homemmedico_7578803.jpg": {
+  "tags": [
+   "homem",
+   "medico",
+   "consulta",
+   "paciente",
+   "exame"
+  ],
+  "fonte": "https://www.pexels.com/photo/7578803/"
+ },
+ "px_homemmedico_7579831.jpg": {
+  "tags": [
+   "homem",
+   "medico",
+   "consulta",
+   "paciente",
+   "exame"
+  ],
+  "fonte": "https://www.pexels.com/photo/7579831/"
+ },
+ "px_homemmedico_8413217.jpg": {
+  "tags": [
+   "homem",
+   "medico",
+   "consulta",
+   "paciente",
+   "exame"
+  ],
+  "fonte": "https://www.pexels.com/photo/8413217/"
+ },
+ "px_homemmedico_8413300.jpg": {
+  "tags": [
+   "homem",
+   "medico",
+   "consulta",
+   "paciente",
+   "exame"
+  ],
+  "fonte": "https://www.pexels.com/photo/8413300/"
+ },
+ "px_homemmedico_8413410.jpg": {
+  "tags": [
+   "homem",
+   "medico",
+   "consulta",
+   "paciente",
+   "exame"
+  ],
+  "fonte": "https://www.pexels.com/photo/8413410/"
+ },
+ "px_homemso_10379552.jpg": {
+  "tags": [
+   "homem",
+   "preocupado",
+   "sozinho",
+   "pensando",
+   "tristeza"
+  ],
+  "fonte": "https://www.pexels.com/photo/10379552/"
+ },
+ "px_homemso_32482920.jpg": {
+  "tags": [
+   "homem",
+   "preocupado",
+   "sozinho",
+   "pensando",
+   "tristeza"
+  ],
+  "fonte": "https://www.pexels.com/photo/32482920/"
+ },
+ "px_homemso_6756351.jpg": {
+  "tags": [
+   "homem",
+   "preocupado",
+   "sozinho",
+   "pensando",
+   "tristeza"
+  ],
+  "fonte": "https://www.pexels.com/photo/6756351/"
+ },
+ "px_homemso_6756358.jpg": {
+  "tags": [
+   "homem",
+   "preocupado",
+   "sozinho",
+   "pensando",
+   "tristeza"
+  ],
+  "fonte": "https://www.pexels.com/photo/6756358/"
+ },
+ "px_homemso_6756359.jpg": {
+  "tags": [
+   "homem",
+   "preocupado",
+   "sozinho",
+   "pensando",
+   "tristeza"
+  ],
+  "fonte": "https://www.pexels.com/photo/6756359/"
+ },
+ "px_lab_3938022.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/3938022/"
+ },
+ "px_lab_4033300.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/4033300/"
+ },
+ "px_lab_5726714.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/5726714/"
+ },
+ "px_lab_7448009.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/7448009/"
+ },
+ "px_lab_8325940.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/8325940/"
+ },
+ "px_lab_8851548.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/8851548/"
+ },
+ "px_lab_9574324.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/9574324/"
+ },
+ "px_lab_9574397.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/9574397/"
+ },
+ "px_lab_9574415.jpg": {
+  "tags": [
+   "laboratorio",
+   "microscopio",
+   "exame",
+   "ciencia",
+   "estudo"
+  ],
+  "fonte": "https://www.pexels.com/photo/9574415/"
+ },
+ "px_laticinio_4198114.jpg": {
+  "tags": [
+   "laticinio",
+   "queijo",
+   "leite",
+   "prato"
+  ],
+  "fonte": "https://www.pexels.com/photo/4198114/"
+ },
+ "px_lavar_4963879.jpg": {
+  "tags": [
+   "lavar",
+   "verdura",
+   "fruta",
+   "agua",
+   "higiene",
+   "parasita"
+  ],
+  "fonte": "https://www.pexels.com/photo/4963879/"
+ },
+ "px_lavar_5237963.jpg": {
+  "tags": [
+   "lavar",
+   "verdura",
+   "fruta",
+   "agua",
+   "higiene",
+   "parasita"
+  ],
+  "fonte": "https://www.pexels.com/photo/5237963/"
+ },
+ "px_lavar_7592334.jpg": {
+  "tags": [
+   "lavar",
+   "verdura",
+   "fruta",
+   "agua",
+   "higiene",
+   "parasita"
+  ],
+  "fonte": "https://www.pexels.com/photo/7592334/"
+ },
+ "px_lavar_7592339.jpg": {
+  "tags": [
+   "lavar",
+   "verdura",
+   "fruta",
+   "agua",
+   "higiene",
+   "parasita"
+  ],
+  "fonte": "https://www.pexels.com/photo/7592339/"
+ },
+ "px_lavar_7964659.jpg": {
+  "tags": [
+   "lavar",
+   "verdura",
+   "fruta",
+   "agua",
+   "higiene",
+   "parasita"
+  ],
+  "fonte": "https://www.pexels.com/photo/7964659/"
+ },
+ "px_lavar_8805229.jpg": {
+  "tags": [
+   "lavar",
+   "verdura",
+   "fruta",
+   "agua",
+   "higiene",
+   "parasita"
+  ],
+  "fonte": "https://www.pexels.com/photo/8805229/"
+ },
+ "px_lavar_9016642.jpg": {
+  "tags": [
+   "lavar",
+   "verdura",
+   "fruta",
+   "agua",
+   "higiene",
+   "parasita"
+  ],
+  "fonte": "https://www.pexels.com/photo/9016642/"
+ },
+ "px_pao_1555813.jpg": {
+  "tags": [
+   "pao",
+   "trigo",
+   "gluten",
+   "comida"
+  ],
+  "fonte": "https://www.pexels.com/photo/1555813/"
+ },
+ "px_pao_1586947.jpg": {
+  "tags": [
+   "pao",
+   "trigo",
+   "gluten",
+   "comida"
+  ],
+  "fonte": "https://www.pexels.com/photo/1586947/"
+ },
+ "px_pao_166021.jpg": {
+  "tags": [
+   "pao",
+   "trigo",
+   "gluten",
+   "comida"
+  ],
+  "fonte": "https://www.pexels.com/photo/166021/"
+ },
+ "px_pao_33866861.jpg": {
+  "tags": [
+   "pao",
+   "trigo",
+   "gluten",
+   "comida"
+  ],
+  "fonte": "https://www.pexels.com/photo/33866861/"
+ },
+ "px_pao_960662.jpg": {
+  "tags": [
+   "pao",
+   "trigo",
+   "gluten",
+   "comida"
+  ],
+  "fonte": "https://www.pexels.com/photo/960662/"
+ },
+ "px_prato_5870870.jpg": {
+  "tags": [
+   "prato",
+   "vazio",
+   "jejum",
+   "mesa",
+   "comida"
+  ],
+  "fonte": "https://www.pexels.com/photo/5870870/"
+ },
+ "px_sangue_12227661.jpg": {
+  "tags": [
+   "sangue",
+   "coleta",
+   "exame",
+   "braco",
+   "laboratorio"
+  ],
+  "fonte": "https://www.pexels.com/photo/12227661/"
+ },
+ "px_sangue_1350560.jpg": {
+  "tags": [
+   "sangue",
+   "coleta",
+   "exame",
+   "braco",
+   "laboratorio"
+  ],
+  "fonte": "https://www.pexels.com/photo/1350560/"
+ },
+ "px_sangue_6285344.jpg": {
+  "tags": [
+   "sangue",
+   "coleta",
+   "exame",
+   "braco",
+   "laboratorio"
+  ],
+  "fonte": "https://www.pexels.com/photo/6285344/"
+ },
+ "px_sangue_6285360.jpg": {
+  "tags": [
+   "sangue",
+   "coleta",
+   "exame",
+   "braco",
+   "laboratorio"
+  ],
+  "fonte": "https://www.pexels.com/photo/6285360/"
+ },
+ "px_sangue_8460347.jpg": {
+  "tags": [
+   "sangue",
+   "coleta",
+   "exame",
+   "braco",
+   "laboratorio"
+  ],
+  "fonte": "https://www.pexels.com/photo/8460347/"
+ },
+ "px_teste_5722884.jpg": {
+  "tags": [
+   "teste",
+   "gravidez",
+   "mulher",
+   "resultado",
+   "fertilidade"
+  ],
+  "fonte": "https://www.pexels.com/photo/5722884/"
+ },
+ "px_teste_5982086.jpg": {
+  "tags": [
+   "teste",
+   "gravidez",
+   "mulher",
+   "resultado",
+   "fertilidade"
+  ],
+  "fonte": "https://www.pexels.com/photo/5982086/"
+ },
+ "px_teste_6149284.jpg": {
+  "tags": [
+   "teste",
+   "gravidez",
+   "mulher",
+   "resultado",
+   "fertilidade"
+  ],
+  "fonte": "https://www.pexels.com/photo/6149284/"
+ },
+ "px_teste_6149343.jpg": {
+  "tags": [
+   "teste",
+   "gravidez",
+   "mulher",
+   "resultado",
+   "fertilidade"
+  ],
+  "fonte": "https://www.pexels.com/photo/6149343/"
+ },
+ "px_teste_6461808.jpg": {
+  "tags": [
+   "teste",
+   "gravidez",
+   "mulher",
+   "resultado",
+   "fertilidade"
+  ],
+  "fonte": "https://www.pexels.com/photo/6461808/"
+ },
+ "px_teste_6462718.jpg": {
+  "tags": [
+   "teste",
+   "gravidez",
+   "mulher",
+   "resultado",
+   "fertilidade"
+  ],
+  "fonte": "https://www.pexels.com/photo/6462718/"
+ },
+ "px_teste_6462737.jpg": {
+  "tags": [
+   "teste",
+   "gravidez",
+   "mulher",
+   "resultado",
+   "fertilidade"
+  ],
+  "fonte": "https://www.pexels.com/photo/6462737/"
+ },
+ "px_teste_6991905.jpg": {
+  "tags": [
+   "teste",
+   "gravidez",
+   "mulher",
+   "resultado",
+   "fertilidade"
+  ],
+  "fonte": "https://www.pexels.com/photo/6991905/"
+ },
+ "px_whey_13779116.jpg": {
+  "tags": [
+   "whey",
+   "proteina",
+   "suplemento",
+   "po"
+  ],
+  "fonte": "https://www.pexels.com/photo/13779116/"
  }
 }

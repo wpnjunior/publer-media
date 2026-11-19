@@ -1,0 +1,49 @@
+{
+"marca": [
+"FERTILIDADE",
+"A DOIS"
+],
+"slides": [
+{
+"tipo": "capa",
+"foto": "px_sangue_8460347.jpg",
+"editoria": "Exames",
+"manchete": "AMH baixo<br>não é <span class=\"hl\">sentença</span>",
+"sub": "Estudo com <b>750 mulheres</b> acompanhou quem engravidou em até 12 ciclos.",
+"fonte": "Fonte: Steiner et al., JAMA, 2017"
+},
+{
+"foto": "px_casal_8559990.jpg",
+"numero": "01",
+"manchete": "“Sua reserva<br>está <span class=\"hl\">baixa</span>”",
+"corpo": "E o casal sai da consulta achando que a chance acabou. Calma, que não é isso que o exame mede."
+},
+{
+"foto": "px_lab_9574324.jpg",
+"numero": "02",
+"manchete": "<span class=\"hl\">84%</span> contra<br>75%",
+"corpo": "Em 12 ciclos, engravidaram <b>84%</b> das mulheres com AMH baixo e <b>75%</b> das com AMH normal, todas de 30 a 44 anos e tentando há até 3 meses.",
+"destaque": "Sem diferença estatística entre os grupos."
+},
+{
+"foto": "px_homemmedico_7578803.jpg",
+"numero": "03",
+"manchete": "Eu trouxe<br>o <span class=\"hl\">dado</span>",
+"corpo": "Um curte e o outro segue. Dividir tarefa já é o primeiro treino do casal."
+},
+{
+"foto": "px_lab_3938022.jpg",
+"numero": "04",
+"manchete": "O AMH conta óvulos.<br>Não mede a <span class=\"hl\">chance</span>",
+"corpo": "Ajuda a planejar tratamentos como a fertilização in vitro. <b>Não prevê gravidez natural</b> em quem acabou de começar a tentar."
+},
+{
+"foto": "px_casal_3958822.jpg",
+"numero": "05",
+"manchete": "Investigar o casal<br>é o <span class=\"hl\">primeiro passo</span>",
+"corpo": "Passou de <b>12 meses</b> tentando (ou 6, depois dos 35)? É hora de investigar os dois.",
+"destaque": "Manda pro seu par.",
+"fonte": "Fonte: Steiner et al., JAMA 2017 · doi 10.1001/jama.2017.14588 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+}
+]
+}

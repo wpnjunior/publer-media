@@ -1,0 +1,12 @@
+{"arroba":"@dr.wagnernovaesjr","marca":"PAPO DE MÉDICO","pasta":"ARQUIVO MKULTRA","anos":"1953 a 1973",
+ "gancho":"A CIA DROGOU GENTE COMUM","carimbo":"QUEIMADO","carimbo_quando":"queimou as provas",
+ "folhas":[
+  {"quando":"Chamava-se MK Ultra","tipo":"titulo","rotulo":"PROJETO","texto":"MKULTRA","sub":"programa secreto da CIA"},
+  {"quando":"Começou nos anos","tipo":"numero","rotulo":"INÍCIO","numero":"1953","sub":"auge da Guerra Fria"},
+  {"quando":"O método","tipo":"ficha","rotulo":"O MÉTODO","linhas":["LSD e outras drogas","sem a pessoa saber"]},
+  {"quando":"Pacientes, presos","tipo":"lista","rotulo":"QUEM FOI DOSADO","linhas":["Pacientes","Presos","Gente comum na rua"]},
+  {"quando":"Um dos próprios","tipo":"ficha","rotulo":"O CIENTISTA","linhas":["Frank Olson","dosado sem saber","caiu da janela"]},
+  {"quando":"Até hoje ninguém","tipo":"titulo","rotulo":"ATÉ HOJE","texto":"Pulou?","sub":"Ou foi jogado?"},
+  {"quando":"em setenta e três","tipo":"numero","rotulo":"A ORDEM","numero":"1973","sub":"ordem: destruir tudo","carimbo":"DESTRUÍDO"}],
+ "fonte":"Senado dos EUA, 1977 · Comissão Church, 1976","seguir":"curte + segue",
+ "fim":{"frase":"Confiança se merece.","ref":"Fonte: Senado dos EUA, audiência MKULTRA (1977)\nComissão Church (1976)"},"trilha":"dark_cinematic"}

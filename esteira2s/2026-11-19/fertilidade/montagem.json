@@ -1,0 +1,20 @@
+{
+ "foto": "esteira2s/banco-rostos/foto.jpg",
+ "trechos": [
+  {
+   "rosto": "esteira2s/banco-rostos/abertura_09.mp4"
+  },
+  {
+   "voz": "esteira2s/2026-11-19/fertilidade/voz/a.mp3"
+  },
+  {
+   "rosto": "esteira2s/banco-rostos/seguir_01.mp4"
+  },
+  {
+   "voz": "esteira2s/2026-11-19/fertilidade/voz/b.mp3"
+  },
+  {
+   "rosto": "esteira2s/banco-rostos/fecho_08.mp4"
+  }
+ ]
+}

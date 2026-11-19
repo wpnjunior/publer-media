@@ -1,0 +1,50 @@
+{
+ "marca": [
+  "FERTILIDADE",
+  "A DOIS"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_casal_8560477.jpg",
+   "editoria": "Hábitos",
+   "manchete": "Não é só ela<br>que precisa <span class=\"hl\">parar</span>",
+   "sub": "Álcool e cigarro pesam nos <b>dois lados</b> do casal, mostram duas revisões de estudos.",
+   "fonte": "Fontes: Sharma et al., 2016 · Fan et al., 2017"
+  },
+  {
+   "foto": "px_homemso_10379552.jpg",
+   "numero": "01",
+   "manchete": "Ela corta tudo.<br>E <span class=\"hl\">ele</span>?",
+   "corpo": "É comum a mudança de hábito cair só no colo dela. Os estudos mostram que a conta é do casal."
+  },
+  {
+   "foto": "px_lab_9574397.jpg",
+   "numero": "02",
+   "manchete": "Cigarro e<br><span class=\"hl\">espermatozoide</span>",
+   "corpo": "Revisão com <b>5.865 homens</b>: quem fumava tinha menos espermatozoides e menos movimento. O efeito foi maior em quem fumava mais.",
+   "destaque": "Sharma et al., European Urology, 2016"
+  },
+  {
+   "foto": "px_homemmedico_7579831.jpg",
+   "numero": "03",
+   "manchete": "Falei pros dois<br><span class=\"hl\">ouvirem</span>",
+   "corpo": "Curte aí. E segue a gente, que o assunto continua."
+  },
+  {
+   "foto": "px_lab_5726714.jpg",
+   "numero": "04",
+   "manchete": "Álcool e a<br>chance <span class=\"hl\">por ciclo</span>",
+   "corpo": "Revisão com <b>98.657 mulheres</b>: quem bebia teve chance de engravidar por ciclo cerca de <b>13% menor</b> do que quem não bebia.",
+   "destaque": "É associação: o estudo não prova a causa."
+  },
+  {
+   "foto": "px_casal_6249006.jpg",
+   "numero": "05",
+   "manchete": "Mudança <span class=\"hl\">a dois</span>",
+   "corpo": "Parar de fumar e rever o álcool é assunto para os dois, de preferência com apoio do médico.",
+   "destaque": "Manda pro seu par.",
+   "fonte": "Fontes: Sharma et al., Eur Urol 2016 · doi 10.1016/j.eururo.2016.04.010 · Fan et al., Sci Rep 2017 · doi 10.1038/s41598-017-14261-8 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
