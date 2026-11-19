@@ -620,9 +620,10 @@
   {
    "id": "glicemia-normal-com-insulina-alta",
    "tema": "Insulina antes da glicemia",
-   "published": false,
-   "slot": null,
-   "caption": "A glicemia de jejum costuma ser o último indicador a se alterar. Antes dela existem anos de insulina trabalhando dobrado para manter o número dentro da faixa. Quem tem diabetes na família ganha em olhar isso antes, e não depois. Este conteúdo é educativo e não substitui a consulta médica. #resistenciainsulinica #glicemia #saudemetabolica #prevencao #metabolismo"
+   "published": true,
+   "slot": "2026-11-19T20:57:07Z",
+   "caption": "A glicemia de jejum costuma ser o último indicador a se alterar. Antes dela existem anos de insulina trabalhando dobrado para manter o número dentro da faixa. Quem tem diabetes na família ganha em olhar isso antes, e não depois. Este conteúdo é educativo e não substitui a consulta médica. #resistenciainsulinica #glicemia #saudemetabolica #prevencao #metabolismo",
+   "ig_media": "17997737498844624"
   },
   {
    "id": "melhorei-logo-era-isso",
