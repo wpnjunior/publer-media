@@ -1,0 +1,58 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "reservatorio-agua-redondo.jpg",
+   "editoria": "Qualidade da água",
+   "manchete": "Água ruim não avisa. <span class=\"hl\">Ela só mata baixinho.</span>",
+   "sub": "Um aditivo barato no fundo do tanque levou a sobrevivência de 80% para 91,66% em água salina de poço.",
+   "fonte": "Fontes: Tachangliu et al., Scientific Reports, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "01",
+   "manchete": "O fundo do tanque <span class=\"hl\">também cria</span>",
+   "corpo": "Em água salina de poço, misturar <b>biochar</b> (carvão de palha de arroz e casca de banana) no sedimento levou a sobrevivência de <b>80% para 91,66%</b> e o peso final de <b>15,92 g para 19,23 g</b> em 60 dias.",
+   "destaque": "Camarão também cresce pelo que tem no fundo, não só pelo que cai na bandeja de ração.",
+   "fonte": "Tachangliu et al., Scientific Reports, 2025"
+  },
+  {
+   "foto": "camarao-agua-doce-detalhe.jpg",
+   "numero": "02",
+   "manchete": "Menos ração pro <span class=\"hl\">mesmo quilo</span>",
+   "corpo": "A conversão alimentar caiu de <b>1,90</b> no grupo controle para <b>1,01</b> no biochar misto. Ou seja: quase metade da ração pra produzir o mesmo tanto de camarão.",
+   "destaque": "Água estável também é economia de ração — e isso pesa na conta no fim do ciclo.",
+   "fonte": "Tachangliu et al., Scientific Reports, 2025"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "03",
+   "manchete": "Camarão <span class=\"hl\">menos estressado</span> também é dado",
+   "corpo": "No grupo com biochar, a hemocianina (defesa do sangue) subiu de <b>0,11 para 0,33 mM/L</b> e a glicose no sangue — sinal de estresse — caiu de <b>46,46 para 28,44 mg/dL</b>.",
+   "destaque": "Sobrevivência alta sem estresse alto é sinal de que o sistema está redondo, não só sorte do lote.",
+   "fonte": "Tachangliu et al., Scientific Reports, 2025"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "04",
+   "manchete": "Vale pro seu viveiro? <span class=\"hl\">Com os pés no chão</span>",
+   "corpo": "Foi em tanque, com água salina de poço — não é receita pronta pra qualquer viveiro. Mas o princípio vale: matéria orgânica estável no fundo ajuda a água a se comportar melhor.",
+   "destaque": "Antes de copiar o estudo, teste pequeno, meça amônia e sobrevivência no seu sistema."
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a água do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
