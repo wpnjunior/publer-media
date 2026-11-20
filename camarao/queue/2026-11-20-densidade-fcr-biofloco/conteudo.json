@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Densidade de estocagem",
+   "manchete": "Povoar mais apertado parece lucro. <span class=\"hl\">A conta do FCR diz outra coisa.</span>",
+   "sub": "Em biofloco, dobrar a densidade quase dobrou a conversão alimentar e derrubou a sobrevivência em 35 dias.",
+   "fonte": "Fonte: Khanjani, Ann Anim Sci, 2026"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "O FCR quase <span class=\"hl\">dobrou</span>",
+   "corpo": "Em tanques de biofloco, a densidade mais baixa testada (0,616 g/L) fechou com FCR de <b>1,27</b>. No dobro dessa densidade (1,23 g/L), o FCR subiu para <b>2,34</b> em 35 dias.",
+   "destaque": "Dobrar a densidade quase dobrou a ração pra fazer o mesmo quilo de camarão.",
+   "fonte": "Khanjani, Ann Anim Sci, 2026"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "02",
+   "manchete": "Peso final <span class=\"hl\">caiu 25%</span>",
+   "corpo": "Na densidade de 0,616 g/L, o camarão foi de 3,85 g a <b>9,34 g</b> em 35 dias, com <b>95,83%</b> de sobrevivência. No dobro da densidade, fechou em <b>7,01 g</b> e <b>88,19%</b> de sobrevivência.",
+   "destaque": "Mais camarão por metro cúbico, mas cada um bem mais magro e morrendo mais.",
+   "fonte": "Khanjani, Ann Anim Sci, 2026"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "Na prática, <span class=\"hl\">quanto por m³?</span>",
+   "corpo": "O estudo testou 12, 24, 36 e 48 camarões em tanque de 150 litros — o equivalente a <b>80, 160, 240 e 320 por m³</b>. Conversão e sobrevivência melhores vieram na faixa de 160/m³.",
+   "destaque": "Densidade ótima não é a maior que o tanque aguenta — é a que sobra lucro no FCR.",
+   "fonte": "Khanjani, Ann Anim Sci, 2026"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "04",
+   "manchete": "Densidade alta também <span class=\"hl\">baixa a defesa</span>",
+   "corpo": "No grupo mais apertado, a atividade da lisozima (defesa natural do camarão) caiu para <b>18,33 U/mL/min</b> — a mais baixa entre todas as densidades testadas.",
+   "destaque": "Camarão estressado por espaço cresce menos, converte pior e fica mais vulnerável a doença.",
+   "fonte": "Khanjani, Ann Anim Sci, 2026"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta a densidade que você está pensando pro próximo povoamento.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
