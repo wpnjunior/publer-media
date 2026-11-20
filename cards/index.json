@@ -628,9 +628,10 @@
   {
    "id": "melhorei-logo-era-isso",
    "tema": "Melhorei, logo era isso",
-   "published": false,
-   "slot": null,
-   "caption": "Melhorar e uma coisa. Saber o que fez melhorar e outra. Quando muda tudo junto, um inocente leva a culpa e a fama. Este conteudo e educativo e nao substitui a consulta medica. #nutricao #habitos #saude #medicina #evidencia"
+   "published": true,
+   "slot": "2026-11-20T20:41:57Z",
+   "caption": "Melhorar e uma coisa. Saber o que fez melhorar e outra. Quando muda tudo junto, um inocente leva a culpa e a fama. Este conteudo e educativo e nao substitui a consulta medica. #nutricao #habitos #saude #medicina #evidencia",
+   "ig_media": "18651113608050255"
   },
   {
    "id": "glicemia-da-manha-e-do-figado",
