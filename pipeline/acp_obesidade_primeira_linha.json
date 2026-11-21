@@ -1,0 +1,49 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bmi_capa.jpg",
+   "editoria": "Obesidade",
+   "manchete": "Remédio certo,<br>agora tem uma<br><span class=\"hl\">ordem</span>",
+   "sub": "Pela primeira vez, uma diretriz do <b>American College of Physicians</b> define qual remédio vem primeiro no tratamento da obesidade.",
+   "fonte": "Fonte: Annals of Internal Medicine, 2026 (ACP)"
+  },
+  {
+   "foto": "bmi_doctor.jpg",
+   "numero": "01",
+   "manchete": "A primeira<br>diretriz <span class=\"hl\">viva</span>",
+   "corpo": "O American College of Physicians, uma das maiores sociedades de clínica médica dos Estados Unidos, publicou sua primeira diretriz específica sobre remédios para sobrepeso e obesidade em adultos.",
+   "destaque": "Mais da metade da população mundial (59%) vive com sobrepeso ou obesidade — nos EUA, esse número chega a 68,5% dos adultos."
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "02",
+   "manchete": "Quem vem<br>primeiro na<br><span class=\"hl\">fila</span>",
+   "corpo": "Para quem tem obesidade (IMC acima de 30), a diretriz recomenda semaglutida e tirzepatida como primeira escolha. Depois vêm, em ordem: fentermina-topiramato, liraglutida e naltrexona-bupropiona.",
+   "destaque": "Para sobrepeso (IMC entre 27 e 30) com diabetes tipo 2, colesterol alto, pressão alta, apneia do sono ou doença cardiovascular: semaglutida ou tirzepatida também entram como primeira linha."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_07.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">diretriz</span>.",
+   "print": "/tmp/claude-0/-home-user-publer-media/3a6017a4-05f6-5401-888c-ecc700fd10f3/scratchpad/esteira_build/ficha_final.png",
+   "sub": "Publicada na <b>Annals of Internal Medicine</b>, a diretriz do <b>ACP</b> (American College of Physicians) é a referência oficial da clínica médica nos Estados Unidos.",
+   "corpo": "American College of Physicians. Annals of Internal Medicine, 2026 Aug;179(8):1177-1185.<br>DOI 10.7326/ANNALS-25-02714 · PMID 42296496"
+  },
+  {
+   "foto": "bg_06.jpg",
+   "numero": "03",
+   "manchete": "O remédio<br>não anda<br><span class=\"hl\">sozinho</span>",
+   "corpo": "Toda a lista de prioridade vale sempre junto com mudança de estilo de vida — alimentação e atividade física continuam a base do tratamento.",
+   "destaque": "A recomendação se apoia numa revisão sistemática com 69 estudos clínicos randomizados comparando os remédios entre si."
+  },
+  {
+   "foto": "bmi_tape.jpg",
+   "numero": "04",
+   "manchete": "Emagrecer<br>também pede<br><span class=\"hl\">cuidado</span>",
+   "corpo": "A diretriz pede que o médico converse sobre os efeitos indesejados do emagrecimento — perda de massa muscular e de densidade óssea, com atenção redobrada em idosos — antes de escolher ou trocar o remédio.",
+   "fonte": "Fontes: Annals of Internal Medicine · American College of Physicians (2026), DOI 10.7326/ANNALS-25-02714, PMID 42296496. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
