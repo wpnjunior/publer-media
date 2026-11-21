@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "editoria": "Berçário",
+   "manchete": "Ração de menos engorda <span class=\"hl\">igual.</span> A de mais só suja a água.",
+   "sub": "Tabela mínima de arraçoamento deu o mesmo peso e a mesma sobrevivência — com quase metade da ração gasta.",
+   "fonte": "Fontes: Padilla et al., Boletim do Instituto de Pesca, 2024"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "Quatro taxas, <span class=\"hl\">um berçário</span>",
+   "corpo": "Pós-larva de <b>0,08 g</b>, 2.000 camarões/m³ em bioflocos, 45 dias. Quatro taxas de ração testadas a partir da tabela de Van Wyk: <b>mínima</b>, mínima −10%, <b>máxima</b> e máxima +10%.",
+   "destaque": "O berçário intensivo é onde mais se desperdiça ração sem perceber.",
+   "fonte": "Padilla et al., Bol. Inst. Pesca, 2024, doi:10.20950/1678-2305/bip.2024.50.e895"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "02",
+   "manchete": "Peso e sobrevivência <span class=\"hl\">não mudaram</span>",
+   "corpo": "Peso final ficou entre <b>1,39 g e 1,55 g</b> e sobrevivência entre <b>82,8% e 87,5%</b> nos quatro grupos — sem diferença estatística entre eles.",
+   "destaque": "Alimentar acima da taxa mínima não fez o camarão crescer mais nem sobreviver mais.",
+   "fonte": "Padilla et al., Bol. Inst. Pesca, 2024"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "03",
+   "manchete": "A conversão alimentar <span class=\"hl\">disparou</span>",
+   "corpo": "FCR de <b>1,63 a 1,66</b> nos grupos de taxa mínima contra <b>2,57 a 2,77</b> nos grupos de taxa máxima — quase o dobro de ração pra engordar o mesmo tanto.",
+   "destaque": "A ração que passou do mínimo virou sobra na água, não camarão a mais.",
+   "fonte": "Padilla et al., Bol. Inst. Pesca, 2024"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "04",
+   "manchete": "Menos ração, <span class=\"hl\">água mais limpa</span>",
+   "corpo": "Amônia total caiu de <b>0,45 mg/L</b> (máxima +10%) para <b>0,16 mg/L</b> (mínima −10%); sólidos em suspensão também ficaram menores nos grupos de taxa mínima.",
+   "destaque": "Baixar a taxa de arraçoamento no berçário é manejo de água, não só economia de ração.",
+   "fonte": "Padilla et al., Bol. Inst. Pesca, 2024"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está o berçário do teu lote.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
