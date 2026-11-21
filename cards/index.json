@@ -636,9 +636,10 @@
   {
    "id": "glicemia-da-manha-e-do-figado",
    "tema": "Glicemia da manhã",
-   "published": false,
-   "slot": null,
-   "caption": "A glicemia de jejum alta raramente é culpa do que se comeu na noite anterior. Ela reflete o quanto o fígado libera açúcar de madrugada sem freio. Entender isso muda a conversa e evita culpa desnecessária. Este conteúdo é educativo e não substitui a consulta médica. #glicemiadejejum #resistenciainsulinica #figado #metabolismo #prevencao"
+   "published": true,
+   "slot": "2026-11-21T19:45:30Z",
+   "caption": "A glicemia de jejum alta raramente é culpa do que se comeu na noite anterior. Ela reflete o quanto o fígado libera açúcar de madrugada sem freio. Entender isso muda a conversa e evita culpa desnecessária. Este conteúdo é educativo e não substitui a consulta médica. #glicemiadejejum #resistenciainsulinica #figado #metabolismo #prevencao",
+   "ig_media": "18113670782621205"
   },
   {
    "id": "comprar-e-uma-decisao-so",
