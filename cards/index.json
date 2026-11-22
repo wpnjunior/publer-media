@@ -644,9 +644,10 @@
   {
    "id": "comprar-e-uma-decisao-so",
    "tema": "Pote x rotina",
-   "published": false,
-   "slot": null,
-   "caption": "O que custa não é o pote, é a repetição. E é justamente a parte repetida que muda exame, energia e o resto. Este conteúdo é educativo e não substitui a consulta médica. #suplementacao #rotina #treino #medicinapreventiva #saudemetabolica"
+   "published": true,
+   "slot": "2026-11-22T19:57:37Z",
+   "caption": "O que custa não é o pote, é a repetição. E é justamente a parte repetida que muda exame, energia e o resto. Este conteúdo é educativo e não substitui a consulta médica. #suplementacao #rotina #treino #medicinapreventiva #saudemetabolica",
+   "ig_media": "18020503130976539"
   },
   {
    "id": "sol-da-manha-nao-e-vitamina-d",
