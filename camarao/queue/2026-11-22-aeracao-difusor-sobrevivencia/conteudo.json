@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "reservatorio-agua-redondo.jpg",
+   "editoria": "Aeração",
+   "manchete": "O aerador que você compra pode estar <span class=\"hl\">custando sobrevivência</span> no berçário.",
+   "sub": "Pedra porosa deu 85,3% de sobrevivência contra 76,7% da mangueira de borracha — com o mesmo oxigênio dissolvido na água.",
+   "fonte": "Fontes: Huynh et al., Lat. Am. J. Aquat. Res., 2024"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "Dois difusores, <span class=\"hl\">mesmo oxigênio</span>",
+   "corpo": "Mangueira de borracha e pedra porosa (airstone) testadas por 60 dias num sistema de recirculação com juvenis de <b>P. vannamei</b> (100 camarões/tanque, 400 L). A taxa de transferência de oxigênio ficou igual entre os dois: <b>2,45 vs 2,51 O₂ g/h</b>.",
+   "destaque": "Na ficha técnica, os dois aeradores pareciam iguais.",
+   "fonte": "Huynh et al., Lat. Am. J. Aquat. Res., 2024, doi:10.3856/vol52-issue1-fulltext-2951"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "02",
+   "manchete": "76,7% contra <span class=\"hl\">85,3%</span> de sobrevivência",
+   "corpo": "No fim dos 60 dias, a sobrevivência foi de <b>76,7%</b> com a mangueira de borracha e <b>85,3%</b> com a pedra porosa — diferença estatisticamente significativa (p&lt;0,05).",
+   "destaque": "Quase 9 pontos de sobrevivência só trocando o tipo de difusor de ar.",
+   "fonte": "Huynh et al., Lat. Am. J. Aquat. Res., 2024"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "03",
+   "manchete": "Peso e <span class=\"hl\">conversão alimentar</span> ficaram parecidos",
+   "corpo": "Peso final: <b>10,9 g</b> (mangueira) vs <b>10,2 g</b> (pedra porosa). Conversão alimentar: <b>1,38</b> vs <b>1,34</b>. Nenhuma das duas diferenças foi estatisticamente significativa.",
+   "destaque": "A diferença não apareceu no crescimento. Apareceu em quem chegou vivo até a despesca.",
+   "fonte": "Huynh et al., Lat. Am. J. Aquat. Res., 2024"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "04",
+   "manchete": "Oxigênio <span class=\"hl\">abaixo do recomendado</span> — nos dois tanques",
+   "corpo": "O oxigênio dissolvido ficou em <b>4,48-4,49 mg/L</b> nos dois tratamentos, abaixo dos <b>5 mg/L</b> geralmente recomendados para viveiro de camarão, citados pelos próprios autores.",
+   "destaque": "Não é só quanto oxigênio tem na água — é como ele chega até o camarão.",
+   "fonte": "Huynh et al., Lat. Am. J. Aquat. Res., 2024, citando Islam et al. 2004"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta qual difusor você usa no berçário.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
