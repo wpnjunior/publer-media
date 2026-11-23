@@ -1,0 +1,106 @@
+{
+  "id": "quadro_grelina",
+  "edicao": "quadro",
+  "perfil": "papo",
+  "tema": "A fome vem em ondas: a grelina tem relógio",
+  "fonte": "Natalucci G et al. Spontaneous 24-h ghrelin secretion pattern in fasting subjects: maintenance of a meal-related pattern. Eur J Endocrinol 2005;152(6):845-50",
+  "words": "words.json",
+  "voz": "voz.wav",
+  "cta": {"src": "assets/midia/el2_cta_leve.mp4", "t": 41.0, "d": 6.16},
+  "dur": 47.6,
+  "lapis_some": 46.8,
+  "mundo": [3300, 3700],
+  "afastar": {"t": 36.0, "cx": 1650, "cy": 1810, "escala": 0.305, "mov": 1.0},
+  "cenas": [
+    {"t": 0, "origem": [0, 0], "deriva": [[1.6, 40, -30]], "elementos": [
+      {"tipo": "estomago", "cx": 280, "cy": 560, "s": 1.5, "t": 0.1},
+      {"tipo": "texto", "x": 280, "y": 760, "txt": "estômago", "t": 0.6, "tam": 44, "ancora": "c"},
+      {"tipo": "texto", "x": 120, "y": 300, "txt": "ronc!", "t": 0.7, "tam": 64, "cor": "#b4473c"},
+      {"tipo": "relogio", "cx": 720, "cy": 470, "r": 150, "t": 1.0, "horas": 12},
+      {"tipo": "texto", "x": 720, "y": 650, "txt": "12h", "t": 1.9, "tam": 130, "fonte": "num", "ancora": "c"},
+      {"tipo": "texto", "x": 500, "y": 850, "txt": "sempre na mesma hora", "t": 2.1, "tam": 58, "ancora": "c"},
+      {"tipo": "linha", "pts": [[260, 925], [740, 920]], "t": 2.9, "d": 0.35, "cor": "#2f6b55", "esp": 6}
+    ]},
+    {"t": 3.4, "origem": [1100, 0], "elementos": [
+      {"tipo": "texto", "x": 160, "y": 230, "txt": "energia", "t": 3.5, "tam": 46, "fonte": "sans"},
+      {"tipo": "bateria", "x": 200, "y": 330, "w": 520, "h": 230, "t": 3.6},
+      {"tipo": "texto", "x": 160, "y": 680, "txt": "sem energia?", "t": 4.9, "tam": 76, "fonte": "sans", "peso": 600},
+      {"tipo": "riscar", "x": 160, "y": 728, "w": 500, "t": 5.8},
+      {"tipo": "texto", "x": 560, "y": 840, "txt": "não é isso", "t": 6.0, "tam": 60, "cor": "#2f6b55", "ancora": "c", "d": 0.4}
+    ]},
+    {"t": 6.5, "origem": [2200, 0], "deriva": [[8.9, 0, 120]], "elementos": [
+      {"tipo": "etiqueta", "x": 120, "y": 180, "txt": "o hormônio da fome", "t": 6.6},
+      {"tipo": "marca", "x": 170, "y": 360, "w": 600, "h": 150, "t": 7.9},
+      {"tipo": "texto", "x": 190, "y": 350, "txt": "grelina", "t": 7.65, "tam": 140, "fonte": "sans", "peso": 700, "d": 0.5},
+      {"tipo": "circulo", "cx": 840, "cy": 330, "r": 16, "t": 8.3, "d": 0.2, "esp": 4, "fill": "#c98b80"},
+      {"tipo": "circulo", "cx": 880, "cy": 380, "r": 12, "t": 8.4, "d": 0.2, "esp": 4, "fill": "#c98b80"},
+      {"tipo": "circulo", "cx": 845, "cy": 430, "r": 14, "t": 8.5, "d": 0.2, "esp": 4, "fill": "#c98b80"},
+      {"tipo": "seta", "x0": 420, "y0": 560, "x1": 420, "y1": 700, "t": 9.1},
+      {"tipo": "relogio", "cx": 420, "cy": 860, "r": 140, "t": 9.3, "horas": 7},
+      {"tipo": "texto", "x": 600, "y": 820, "txt": "tem relógio", "t": 9.7, "tam": 66}
+    ]},
+    {"t": 10.9, "origem": [2200, 1200], "deriva": [[13.4, 0, 60]], "elementos": [
+      {"tipo": "etiqueta", "x": 60, "y": 150, "txt": "o corpo aprende", "t": 11.0},
+      {"tipo": "linha", "pts": [[60, 700], [940, 700]], "t": 11.3, "d": 0.6, "esp": 6},
+      {"tipo": "texto", "x": 200, "y": 720, "txt": "8h", "t": 11.8, "tam": 48, "fonte": "sans", "ancora": "c"},
+      {"tipo": "texto", "x": 500, "y": 720, "txt": "13h", "t": 11.95, "tam": 48, "fonte": "sans", "ancora": "c"},
+      {"tipo": "texto", "x": 800, "y": 720, "txt": "19h", "t": 12.1, "tam": 48, "fonte": "sans", "ancora": "c"},
+      {"tipo": "prato", "cx": 200, "cy": 870, "s": 0.85, "t": 12.4},
+      {"tipo": "prato", "cx": 500, "cy": 870, "s": 0.85, "t": 12.75},
+      {"tipo": "prato", "cx": 800, "cy": 870, "s": 0.85, "t": 13.1},
+      {"tipo": "seta", "x0": 150, "y0": 660, "x1": 165, "y1": 470, "t": 13.9},
+      {"tipo": "seta", "x0": 450, "y0": 660, "x1": 465, "y1": 470, "t": 14.2},
+      {"tipo": "seta", "x0": 750, "y0": 660, "x1": 765, "y1": 470, "t": 14.5},
+      {"tipo": "texto", "x": 500, "y": 340, "txt": "grelina sobe um pouco antes", "t": 14.7, "tam": 54, "cor": "#2f6b55", "ancora": "c"}
+    ]},
+    {"t": 16.1, "origem": [2200, 2350], "deriva": [[19.0, 60, 0]], "elementos": [
+      {"tipo": "linha", "pts": [[80, 760], [80, 300]], "t": 16.15, "d": 0.3, "esp": 5},
+      {"tipo": "texto", "x": 100, "y": 240, "txt": "fome", "t": 16.3, "tam": 54, "fonte": "sans", "peso": 600},
+      {"tipo": "linha", "pts": [[80, 760], [940, 760]], "t": 16.45, "d": 0.35, "esp": 5},
+      {"tipo": "onda", "x0": 80, "y0": 760, "larg": 860, "alt": 380, "picos": 1, "t": 16.7, "d": 3.4, "cor": "#b4473c", "esp": 8},
+      {"tipo": "texto", "x": 250, "y": 400, "txt": "sobe", "t": 16.8, "tam": 64},
+      {"tipo": "texto", "x": 650, "y": 420, "txt": "desce sozinha", "t": 19.6, "tam": 60, "cor": "#2f6b55"},
+      {"tipo": "check", "x": 880, "y": 380, "t": 20.4, "s": 1.3},
+      {"tipo": "prato", "cx": 500, "cy": 900, "s": 0.8, "t": 21.0},
+      {"tipo": "xis", "x": 500, "y": 900, "s": 55, "t": 21.6},
+      {"tipo": "texto", "x": 500, "y": 990, "txt": "sem comer nada", "t": 21.8, "tam": 54, "ancora": "c"}
+    ]},
+    {"t": 22.9, "origem": [1100, 1200], "deriva": [[25.0, 0, 120]], "elementos": [
+      {"tipo": "etiqueta", "x": 80, "y": 90, "txt": "o estudo", "t": 22.95},
+      {"tipo": "caixa", "x": 80, "y": 170, "w": 600, "h": 290, "t": 23.1, "d": 0.5, "esp": 4},
+      {"tipo": "texto", "x": 110, "y": 200, "txt": "Natalucci e colegas, 2005", "t": 23.4, "tam": 36, "fonte": "sans", "peso": 600},
+      {"tipo": "texto", "x": 110, "y": 260, "txt": "Eur. J. Endocrinology", "t": 23.7, "tam": 42},
+      {"tipo": "texto", "x": 110, "y": 340, "txt": "pessoas em jejum", "t": 24.0, "tam": 54, "cor": "#2f6b55"},
+      {"tipo": "linha", "pts": [[80, 1000], [940, 1000]], "t": 24.7, "d": 0.4, "esp": 5},
+      {"tipo": "texto", "x": 80, "y": 1010, "txt": "grelina", "t": 24.9, "tam": 46, "fonte": "sans"},
+      {"tipo": "onda", "x0": 80, "y0": 1000, "larg": 860, "alt": 300, "picos": 3, "t": 25.3, "d": 2.4, "cor": "#b4473c", "esp": 7},
+      {"tipo": "texto", "x": 223, "y": 640, "txt": "café", "t": 26.0, "tam": 46, "ancora": "c"},
+      {"tipo": "texto", "x": 510, "y": 640, "txt": "almoço", "t": 26.4, "tam": 46, "ancora": "c"},
+      {"tipo": "texto", "x": 797, "y": 640, "txt": "jantar", "t": 26.8, "tam": 46, "ancora": "c"},
+      {"tipo": "marca", "x": 280, "y": 1080, "w": 560, "h": 70, "t": 28.9},
+      {"tipo": "texto", "x": 300, "y": 1082, "txt": "sem comida nenhuma", "t": 28.6, "tam": 50, "fonte": "sans", "peso": 600}
+    ]},
+    {"t": 30.3, "origem": [0, 1200], "deriva": [[33.6, 0, 140]], "elementos": [
+      {"tipo": "etiqueta", "x": 80, "y": 120, "txt": "no jejum", "t": 30.4},
+      {"tipo": "linha", "pts": [[100, 820], [300, 700], [500, 560], [700, 420], [860, 300]], "t": 31.3, "d": 0.9, "esp": 7},
+      {"tipo": "texto", "x": 430, "y": 230, "txt": "cresce sem parar?", "t": 32.4, "tam": 58},
+      {"tipo": "xis", "x": 480, "y": 560, "s": 80, "t": 33.2},
+      {"tipo": "onda", "x0": 100, "y0": 1080, "larg": 800, "alt": 200, "picos": 3, "t": 34.3, "d": 1.1, "cor": "#2f6b55", "esp": 7},
+      {"tipo": "marca", "x": 300, "y": 900, "w": 420, "h": 90, "t": 35.1},
+      {"tipo": "texto", "x": 320, "y": 895, "txt": "em ondas", "t": 34.95, "tam": 76, "fonte": "sans", "peso": 700, "d": 0.4}
+    ]},
+    {"t": 37.4, "origem": [0, 2520], "mov": 1.0, "elementos": [
+      {"tipo": "texto", "x": 500, "y": 240, "txt": "espera a onda passar", "t": 37.3, "tam": 62, "ancora": "c"},
+      {"tipo": "copo", "x": 380, "y": 420, "w": 250, "h": 380, "t": 37.85},
+      {"tipo": "texto", "x": 690, "y": 640, "txt": "água", "t": 38.6, "tam": 64, "cor": "#2f6b55"},
+      {"tipo": "texto", "x": 500, "y": 920, "txt": "e ela vai embora", "t": 39.5, "tam": 66, "fonte": "sans", "peso": 600, "ancora": "c"},
+      {"tipo": "check", "x": 830, "y": 900, "t": 40.2, "s": 1.4}
+    ]},
+    {"t": 40.9, "origem": [1100, 2520], "elementos": [
+      {"tipo": "marca", "x": 545, "y": 150, "w": 235, "h": 92, "t": 41.6},
+      {"tipo": "texto", "x": 120, "y": 150, "txt": "Siga esse perfil", "t": 41.0, "tam": 72, "fonte": "sans", "peso": 600},
+      {"tipo": "foto", "x": 230, "y": 300, "w": 560, "h": 800, "t": 41.0, "video": "assets/midia/el2_cta_leve.mp4", "dur": 6.16, "legenda": "Dr. Wagner"},
+      {"tipo": "botao", "x": 340, "y": 1135, "txt": "Seguindo ✓", "t": 43.6}
+    ]}
+  ]
+}
