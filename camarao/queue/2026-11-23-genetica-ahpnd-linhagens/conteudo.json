@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "camarao-agua-doce-detalhe.jpg",
+   "editoria": "Genética e biossegurança",
+   "manchete": "Dois camarões do mesmo peso. Um resistiu <span class=\"hl\">o dobro de tempo</span> à bactéria.",
+   "sub": "Teste comparou duas linhagens comerciais de P. vannamei no desafio com a bactéria da AHPND.",
+   "fonte": "Fontes: Huang et al., Animals, 2025"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "01",
+   "manchete": "Peso igual não é <span class=\"hl\">resistência igual</span>",
+   "corpo": "Antes do desafio, as duas linhagens pesavam quase o mesmo: <b>2,10 g</b> e <b>2,14 g</b>. A diferença apareceu só quando a bactéria entrou.",
+   "destaque": "Olhar o tamanho do lote não diz nada sobre a resistência dele a doença.",
+   "fonte": "Huang et al., Animals, 2025"
+  },
+  {
+   "foto": "camarao-cru-no-gelo.jpg",
+   "numero": "02",
+   "manchete": "30 horas contra <span class=\"hl\">48</span>",
+   "corpo": "No desafio com Vibrio parahaemolyticus (causador da AHPND), uma linhagem levou <b>30 horas</b> para perder metade do lote. A outra aguentou até <b>48 horas</b>.",
+   "destaque": "Mais horas de resistência é mais tempo pra você perceber o problema e agir.",
+   "fonte": "Huang et al., Animals, 2025"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "03",
+   "manchete": "Na marca de 36h, a diferença <span class=\"hl\">dobrou</span>",
+   "corpo": "Às 36 horas de desafio, a sobrevivência foi de <b>43,65%</b> numa linhagem contra <b>63,94%</b> na outra — quase 20 pontos de distância.",
+   "destaque": "A genética do lote que você recebe pesa tanto quanto o manejo que vem depois.",
+   "fonte": "Huang et al., Animals, 2025"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "numero": "04",
+   "manchete": "Isso não é <span class=\"hl\">sorte</span>, é seleção",
+   "corpo": "A herdabilidade da sobrevivência ficou entre <b>0,3 e 0,6</b> nas duas linhagens — alta o bastante pra melhorar a resistência escolhendo os reprodutores certos, lote após lote.",
+   "destaque": "Pergunte ao seu fornecedor: de onde vêm os reprodutores da sua pós-larva?",
+   "fonte": "Huang et al., Animals, 2025"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e pergunta sobre a genética do seu próximo lote.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
