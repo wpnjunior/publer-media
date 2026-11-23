@@ -1,0 +1,50 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bmi_scale.jpg",
+   "editoria": "Obesidade",
+   "manchete": "O remédio que emagrece<br>também tira a dor<br>do <span class=\"hl\">joelho</span>",
+   "sub": "<b>2 em cada 3</b> pacientes tiveram a dor do joelho reduzida à metade — num remédio pensado pra obesidade, não pra articulação.",
+   "fonte": "Fonte: New England Journal of Medicine, 2026 (ACR Convergence)"
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "01",
+   "manchete": "Dois estudos,<br>mais de mil<br><span class=\"hl\">pacientes</span>",
+   "corpo": "A retatrutida é um remédio injetável semanal, da mesma família das canetas emagrecedoras, ainda em fase de testes. Dois estudos de fase 3 — <b>TRIUMPH-4</b> e <b>TRIUMPH-1-OA</b> — reuniram mais de 1.000 adultos com obesidade e artrose dolorosa no joelho, sem diabetes.",
+   "destaque": "Resultados apresentados no congresso ACR Convergence 2026, em Orlando, e publicados na mesma semana na New England Journal of Medicine (8 de novembro de 2026)."
+  },
+  {
+   "foto": "bmi_doctor.jpg",
+   "numero": "02",
+   "manchete": "Até <span class=\"hl\">25%</span><br>do peso<br>corporal",
+   "corpo": "Na dose mais alta testada, os participantes perderam, em média, cerca de um quarto do peso corporal — acima da faixa de 10% a 20% observada hoje com semaglutida e tirzepatida.",
+   "destaque": "Os próprios pesquisadores relataram casos de pacientes que perderam mais de 45 kg ao longo do estudo."
+  },
+  {
+   "foto": "bmi_tape.jpg",
+   "numero": "03",
+   "manchete": "A dor caiu<br>pela <span class=\"hl\">metade</span>",
+   "corpo": "Pela escala WOMAC — o questionário padrão para medir dor de osteoartrite — <b>2 em cada 3</b> pacientes em uso de retatrutida tiveram pelo menos 50% de redução na dor do joelho, contra 38% no grupo placebo.",
+   "destaque": "O estudo também registrou queda na pressão arterial, no colesterol e em marcadores de inflamação no sangue."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bmi_capa.jpg",
+   "manchete": "Não é opinião.<br>É <span class=\"hl\">estudo</span>.",
+   "print": "/tmp/claude-0/-home-user-publer-media/cd314bb1-66ea-51e3-83b9-1069bf7de039/scratchpad/esteira_build/ficha_final.png",
+   "sub": "Publicado na <b>New England Journal of Medicine</b>, com apresentação no congresso <b>ACR Convergence 2026</b>, em Orlando.",
+   "corpo": "Schnitzer TJ, Conaghan PG, et al. N Engl J Med, 2026 Nov 8.<br>DOI 10.1056/NEJMoa2610676"
+  },
+  {
+   "foto": "bmi_athlete.jpg",
+   "numero": "04",
+   "manchete": "O que ainda<br>não dá pra<br><span class=\"hl\">afirmar</span>",
+   "corpo": "O estudo não prova que o remédio trava o desgaste da cartilagem, nem que o alívio da dor vem só do emagrecimento. A retatrutida ainda é investigacional — sem aprovação de agência regulatória para tratar osteoartrite.",
+   "destaque": "Os próprios pesquisadores lembram: perder de 5% a 10% do peso, só com dieta e atividade física, já costuma aliviar os sintomas da artrose no joelho.",
+   "fonte": "Fontes: New England Journal of Medicine, 2026 · ACR Convergence 2026, DOI 10.1056/NEJMoa2610676. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
