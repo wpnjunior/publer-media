@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "camarao-gigante-na-mao.jpg",
+   "editoria": "Densidade de estocagem",
+   "manchete": "Apertou a densidade? A <span class=\"hl\">sobrevivência caiu de 98% para 64%</span> em 21 dias.",
+   "sub": "Estudo em RAS comparou 1, 2 e 4 kg/m² de Litopenaeus vannamei e mediu o preço real de lotar o tanque.",
+   "fonte": "Fontes: Gamberoni et al., Scientific Reports, 2026, doi:10.1038/s41598-026-42332-2"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "01",
+   "manchete": "O tanque <span class=\"hl\">mais cheio</span> perdeu 1 em cada 3",
+   "corpo": "Em 21 dias de RAS, a densidade de <b>1 kg/m²</b> fechou com <b>97,95%</b> de sobrevivência. Na de <b>2 kg/m²</b> caiu para <b>87,61%</b>. Na de <b>4 kg/m²</b>, foi para <b>64,19%</b>.",
+   "destaque": "Dobrar a densidade não dobra o lucro se um terço do lote morre no caminho.",
+   "fonte": "Gamberoni et al., Sci Rep, 2026"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "02",
+   "manchete": "Camarão apertado também <span class=\"hl\">cresce menos</span>",
+   "corpo": "O grupo mais lotado (4 kg/m²) ganhou só <b>0,37 g/semana</b>, contra <b>1,15 g/semana</b> na densidade baixa — partindo do mesmo peso inicial de <b>14,73 g</b>.",
+   "destaque": "Densidade alta cobra duas vezes: menos camarão vivo e cada um mais magro.",
+   "fonte": "Gamberoni et al., Sci Rep, 2026"
+  },
+  {
+   "foto": "camarao-despesca-monte.jpg",
+   "numero": "03",
+   "manchete": "O corpo <span class=\"hl\">avisa antes</span> de morrer",
+   "corpo": "No tanque mais lotado, nado anormal e perda de equilíbrio apareceram muito mais (p&lt;0,0001) que nas densidades menores — sinal visível de estresse antes da mortalidade subir.",
+   "destaque": "Camarão nadando torto ou perdendo o equilíbrio é alerta, não coincidência.",
+   "fonte": "Gamberoni et al., Sci Rep, 2026"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "04",
+   "manchete": "Baixar a densidade <span class=\"hl\">estanca a perda</span>, mas não apaga o atraso",
+   "corpo": "Reduzindo todos os tanques para 0,8 kg/m², a sobrevivência dos três grupos empatou (95,9% a 97,6%). O lote que tinha sido mais apertado cresceu mais rápido (SGR 0,92% x 0,67-0,71%), mas terminou mais leve (19,21 g x 20,95 g).",
+   "destaque": "Dá pra estancar o prejuízo despovoando a tempo — o peso perdido, nem sempre.",
+   "fonte": "Gamberoni et al., Sci Rep, 2026"
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta a densidade do teu povoamento.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
