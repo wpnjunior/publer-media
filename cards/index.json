@@ -652,9 +652,10 @@
   {
    "id": "sol-da-manha-nao-e-vitamina-d",
    "tema": "Sol e relógio biológico",
-   "published": false,
-   "slot": null,
-   "caption": "Sol de manhã e vitamina D não são a mesma conversa. Um ajusta o horário do corpo, o outro aparece no exame.\nEste conteúdo é educativo e não substitui a consulta médica.\n#vitaminad #sono #ritmocircadiano #habitos #saude"
+   "published": true,
+   "slot": "2026-11-24T22:44:38Z",
+   "caption": "Sol de manhã e vitamina D não são a mesma conversa. Um ajusta o horário do corpo, o outro aparece no exame.\nEste conteúdo é educativo e não substitui a consulta médica.\n#vitaminad #sono #ritmocircadiano #habitos #saude",
+   "ig_media": "17957626434317871"
   },
   {
    "id": "guarde-os-exames-antigos",
