@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "camarao-despesca-monte.jpg",
+   "editoria": "Despesca e custo",
+   "manchete": "Despescar tudo de uma vez é o jeito mais caro de <span class=\"hl\">tirar camarão do viveiro.</span>",
+   "sub": "Fazendas semi-intensivas no México: dividir a despesca em etapas chegou a quase triplicar o lucro por hectare frente à despesca única.",
+   "fonte": "Fonte: Ruiz-Velazco et al., Aquaculture International, 2021"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "O número que <span class=\"hl\">muda a conta</span>",
+   "corpo": "No cenário mais favorável do estudo, a despesca <b>única</b> rendeu US$ 2.451/ha. Com <b>3 despescas parciais</b> no mesmo ciclo, o lucro subiu para US$ 6.699/ha.",
+   "destaque": "Dividir a despesca em etapas não é só sobre o tamanho do camarão: é sobre lucro por hectare.",
+   "fonte": "Ruiz-Velazco et al., Aquaculture International, 2021"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "02",
+   "manchete": "Mesmo viveiro, <span class=\"hl\">mais produção</span>",
+   "corpo": "Com a despesca em 3 etapas, a produção média do ciclo subiu de <b>1.364 kg/ha</b> para <b>3.834 kg/ha</b> quando o manejo controlou melhor a densidade de estocagem e o tempo de cultivo.",
+   "destaque": "O ganho não veio de trocar a genética: veio de controlar densidade e tempo de viveiro.",
+   "fonte": "Ruiz-Velazco et al., Aquaculture International, 2021"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "03",
+   "manchete": "O que mais <span class=\"hl\">pesa</span> no lucro",
+   "corpo": "O estudo apontou quatro fatores que mais mexem no lucro: <b>peso final</b> do camarão, <b>preço do camarão grande</b>, <b>mortalidade antes da 1ª despesca parcial</b> e o quanto a conversão alimentar piora ao longo do ciclo.",
+   "destaque": "Antes de marcar a despesca, pergunte: qual desses quatro pontos está pior no seu ciclo agora?",
+   "fonte": "Ruiz-Velazco et al., Aquaculture International, 2021"
+  },
+  {
+   "foto": "camarao-na-bandeja.jpg",
+   "numero": "04",
+   "manchete": "Manejo melhor <span class=\"hl\">reduz o risco</span>",
+   "corpo": "Nos cenários simulados pelo estudo, melhorar o manejo não só aumentou o lucro médio: também reduziu a <b>variação</b> dos resultados econômicos de um ciclo para o outro.",
+   "destaque": "Despesca bem planejada protege o lucro até nos ciclos que não saem perfeitos.",
+   "fonte": "Ruiz-Velazco et al., Aquaculture International, 2021"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "manchete": "Ciclo bom começa <span class=\"hl\">na pós-larva.</span>",
+   "corpo": "Despesca bem planejada só funciona com povoamento bem feito desde o início. A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como é a despesca do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
