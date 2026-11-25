@@ -660,9 +660,10 @@
   {
    "id": "guarde-os-exames-antigos",
    "tema": "Tendência x foto",
-   "published": false,
-   "slot": null,
-   "caption": "Boa parte do que importa em um resultado só aparece na comparação com os anos anteriores. Levar a pasta velha muda a qualidade da leitura.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #saude #medicinapreventiva #prevencao"
+   "published": true,
+   "slot": "2026-11-25T21:58:14Z",
+   "caption": "Boa parte do que importa em um resultado só aparece na comparação com os anos anteriores. Levar a pasta velha muda a qualidade da leitura.\nEste conteúdo é educativo e não substitui a consulta médica.\n#exames #checkup #saude #medicinapreventiva #prevencao",
+   "ig_media": "18158909155520406"
   },
   {
    "id": "agua-nao-tem-numero-magico",
