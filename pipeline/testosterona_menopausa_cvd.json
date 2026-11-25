@@ -1,0 +1,48 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_calm.jpg",
+   "editoria": "Menopausa",
+   "manchete": "O hormônio da libido<br>pode esconder um<br><span class=\"hl\">risco no coração</span>",
+   "sub": "Mulheres na pós-menopausa em uso de testosterona tiveram risco <b>8 vezes maior</b> de infarto, AVC ou insuficiência cardíaca — estudo preliminar.",
+   "fonte": "Fonte: The Menopause Society, Encontro Anual 2026 (San Diego)"
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "01",
+   "manchete": "Mais de 6 mil<br>mulheres no<br><span class=\"hl\">raio-x</span>",
+   "corpo": "Pesquisadores da <b>Drexel University</b> cruzaram prontuários de mais de <b>6.300 mulheres</b> na pós-menopausa, com 45 anos ou mais, na base de dados <b>TriNetX</b> — metade em uso de testosterona, metade sem. Quem já tinha doença cardiovascular foi excluída.",
+   "destaque": "Apresentado no Encontro Anual 2026 da The Menopause Society, em San Diego (20 a 24 de outubro)."
+  },
+  {
+   "foto": "peri_brain.jpg",
+   "numero": "02",
+   "manchete": "Risco <span class=\"hl\">8 vezes</span><br>maior",
+   "corpo": "Em cerca de 3 anos de acompanhamento, <b>3,8%</b> das mulheres em uso de testosterona tiveram um primeiro evento cardiovascular — infarto, AVC ou insuficiência cardíaca — contra <b>0,5%</b> das que não usavam.",
+   "destaque": "Risco calculado: HR 8,08 (IC 95% 4,72–13,82). A diferença persistiu mesmo comparando só com quem já fazia reposição hormonal, sem testosterona."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É dado <span class=\"hl\">apresentado</span>.",
+   "print": "/tmp/claude-0/-home-user-publer-media/1bc5b46a-a93c-5a55-93d5-cb3b1f1b6686/scratchpad/esteira_build/ficha_final.png",
+   "sub": "Pesquisa conduzida por <b>Xuezhi (Daniel) Jiang</b>, da Drexel University College of Medicine, apresentada na reunião anual da <b>The Menopause Society</b> (2026). Cobertura: Healio, 02/nov/2026."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "03",
+   "manchete": "O que ainda<br>não dá pra<br><span class=\"hl\">afirmar</span>",
+   "corpo": "É um estudo observacional, com dado ainda não publicado em revista científica nem revisado por pares — não prova que a testosterona causa esse risco maior, só mostra uma associação. Os próprios autores pedem mais pesquisa antes de qualquer conclusão.",
+   "destaque": "A testosterona não é tratamento de rotina aprovado para mulheres no Brasil — o uso hoje é por conta própria (off-label), geralmente para queda de libido."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "04",
+   "manchete": "Antes de<br>começar,<br><span class=\"hl\">pergunte</span>",
+   "corpo": "Se você usa ou pensa em usar testosterona na menopausa — para libido ou outro motivo — essa é uma pauta nova para levar ao seu médico: pesar esse sinal de alerta junto com seu histórico pessoal de risco cardiovascular.",
+   "fonte": "Fontes: The Menopause Society, Encontro Anual 2026 · Healio, 02/nov/2026. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
