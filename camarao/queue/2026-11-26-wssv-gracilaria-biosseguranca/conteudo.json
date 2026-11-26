@@ -1,0 +1,58 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "editoria": "Biossegurança",
+   "manchete": "Mancha branca mata rápido. <span class=\"hl\">A ração pode mudar isso.</span>",
+   "sub": "Alga na dieta, 21 dias antes do desafio com o vírus: sobrevivência quase dobrou no teste de laboratório.",
+   "fonte": "Fontes: Elshopakey et al., BMC Veterinary Research, 2024"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "01",
+   "manchete": "O vírus que <span class=\"hl\">não perdoa</span>",
+   "corpo": "WSSV (mancha branca) é uma das doenças mais agressivas da carcinicultura. Em laboratório, pesquisadores desafiaram <b>L. vannamei de 15 g</b> com injeção do vírus após 21 dias de dieta.",
+   "destaque": "A mancha branca clássica (manchas de até 3 mm na carapaça) quase não dá chance de recuperação.",
+   "fonte": "Elshopakey et al., BMC Vet Res, 2024"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "02",
+   "manchete": "Alga vermelha <span class=\"hl\">na ração</span>",
+   "corpo": "Grupos de camarão receberam <b>0, 2, 4 ou 8 g</b> de alga Gracilaria verrucosa por kg de ração, durante <b>21 dias</b>, antes de serem desafiados com o vírus da mancha branca.",
+   "destaque": "Não é vacina — é suplemento na dieta, testado em condição controlada de laboratório.",
+   "fonte": "Elshopakey et al., BMC Vet Res, 2024"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "Sobrevivência <span class=\"hl\">quase dobrou</span>",
+   "corpo": "Dez dias após o desafio com o vírus, o grupo com <b>8 g/kg</b> de alga teve <b>65%</b> de sobrevivência e o de <b>4 g/kg</b>, <b>50%</b> — significativamente mais que o grupo sem suplemento (p&lt;0,05).",
+   "destaque": "A dose fez diferença: 4 e 8 g/kg protegeram mais que a dose de 2 g/kg.",
+   "fonte": "Elshopakey et al., BMC Vet Res, 2024"
+  },
+  {
+   "foto": "lagoa-na-mata.jpg",
+   "numero": "04",
+   "manchete": "O que isso muda no <span class=\"hl\">seu manejo</span>",
+   "corpo": "O teste foi em laboratório, não em viveiro comercial — o resultado não pode ser prometido pra despesca. Mas mostra que biossegurança não é só impedir a entrada do vírus: é também <b>preparar a imunidade</b> antes da crise.",
+   "destaque": "Pós-larva de origem conhecida + manejo de água + nutrição: as três pernas da biossegurança."
+  },
+  {
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a biossegurança do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
