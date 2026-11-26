@@ -1,0 +1,6 @@
+<g>
+  <path d="M-150 120 L40 -70" stroke="#3a3f47" stroke-width="58" stroke-linecap="round"/>
+  <path d="M-150 120 L40 -70" stroke="#b9c2cc" stroke-width="40" stroke-linecap="round"/>
+  <path d="M30 -60 C0 -120 40 -190 110 -180 L70 -130 L90 -90 L140 -110 C160 -40 90 0 30 -60 Z" fill="#b9c2cc" stroke="#3a3f47" stroke-width="9" stroke-linejoin="round"/>
+  <circle cx="-150" cy="120" r="12" fill="#3a3f47"/>
+</g>

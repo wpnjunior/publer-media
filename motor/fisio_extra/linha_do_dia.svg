@@ -1,0 +1,14 @@
+<g>
+  <rect x="-195" y="-58" width="390" height="94" fill="#3cb35a" opacity=".16"/>
+  <path d="M-195 -58 L195 -58" stroke="#2f8f4a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M-195 36 L195 36" stroke="#2f8f4a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M-195 92 L195 92" stroke="#5a4a35" stroke-width="8" stroke-linecap="round"/>
+  <path d="M-150 92 m-24 0 a24 24 0 0 1 48 0 Z" fill="#ffb347" stroke="#8a4b00" stroke-width="7" stroke-linejoin="round" transform="translate(0,40)"/>
+  <path d="M-182 132 L-118 132" stroke="#8a4b00" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="0" cy="124" r="22" fill="#ffd400" stroke="#8a6a00" stroke-width="7"/>
+  <path d="M0 92 L0 98 M0 150 L0 156 M-32 124 L-26 124 M26 124 L32 124 M-23 101 L-19 105 M19 143 L23 147 M23 101 L19 105 M-19 143 L-23 147" stroke="#8a6a00" stroke-width="6" stroke-linecap="round"/>
+  <path d="M158 102 C138 106 128 124 134 140 C140 156 160 162 174 154 C158 150 150 136 154 122 C156 112 160 106 158 102 Z" fill="#ffe27a" stroke="#7a5a00" stroke-width="7" stroke-linejoin="round"/>
+  <text x="-150" y="192" text-anchor="middle" font-family="Anton" font-size="34" fill="#3a2a1f">MANHÃ</text>
+  <text x="0" y="192" text-anchor="middle" font-family="Anton" font-size="34" fill="#3a2a1f">TARDE</text>
+  <text x="150" y="192" text-anchor="middle" font-family="Anton" font-size="34" fill="#3a2a1f">NOITE</text>
+</g>

@@ -1,0 +1,17 @@
+<g>
+  <path d="M-55 -150 C-75 -170 -40 -185 -60 -200 M5 -145 C-15 -168 25 -180 5 -200 M65 -150 C45 -170 85 -185 65 -200" fill="none" stroke="#f4f1e8" stroke-width="10" stroke-linecap="round" opacity=".85"/>
+  <path d="M-150 -40 L-138 120 C-136 145 -110 160 -80 160 L80 160 C110 160 136 145 138 120 L150 -40 Z" fill="#9aa3ad" stroke="#2b3a44" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M-150 -10 L-195 -10 C-210 -10 -210 20 -195 20 L-148 20" fill="#6c757f" stroke="#2b3a44" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M150 -10 L195 -10 C210 -10 210 20 195 20 L148 20" fill="#6c757f" stroke="#2b3a44" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M-120 10 L-112 120" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity=".35"/>
+  <ellipse cx="0" cy="-40" rx="160" ry="28" fill="#6c757f" stroke="#2b3a44" stroke-width="10"/>
+  <path d="M-150 -45 C-150 -95 -110 -110 -80 -90 C-70 -130 -20 -135 0 -100 C20 -140 75 -130 80 -90 C110 -112 152 -95 150 -45 Z" fill="#fbfaf5" stroke="#2b3a44" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M-150 -45 C-165 -20 -170 20 -160 60 C-155 80 -138 80 -140 55 C-142 25 -140 0 -132 -30" fill="#fbfaf5" stroke="#2b3a44" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M150 -45 C168 -15 172 30 160 80 C154 102 136 100 139 72 C142 40 142 5 132 -30" fill="#fbfaf5" stroke="#2b3a44" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M30 -30 C35 0 38 25 30 45 C25 58 12 55 14 40 C16 20 15 0 10 -25" fill="#fbfaf5" stroke="#2b3a44" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="-95" cy="-125" r="18" fill="#fbfaf5" stroke="#2b3a44" stroke-width="7"/>
+  <circle cx="40" cy="-150" r="14" fill="#fbfaf5" stroke="#2b3a44" stroke-width="7"/>
+  <circle cx="110" cy="-128" r="11" fill="#fbfaf5" stroke="#2b3a44" stroke-width="6"/>
+  <circle cx="-40" cy="-80" r="10" fill="none" stroke="#2b3a44" stroke-width="5"/>
+  <circle cx="60" cy="-75" r="12" fill="none" stroke="#2b3a44" stroke-width="5"/>
+</g>

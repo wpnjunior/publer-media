@@ -1,0 +1,51 @@
+{
+ "marca": "Fertilidade a Dois",
+ "blogId": 8012127,
+ "metricool_id": 425043258,
+ "horario": "2026-11-21 12:07 America/Sao_Paulo",
+ "rede": "instagram",
+ "texto": "idêntico ao agendado (só a foto de fundo mudou)",
+ "slides_total": 6,
+ "slides_trocados": [
+  {
+   "slide": 1,
+   "foto_antiga": "px_casal_8560477.jpg",
+   "foto_nova": "px_casalhabitos_8551073.jpg",
+   "descricao_nova": "casal: ela fuma, ele bebe cerveja (\"Álcool e cigarro\")",
+   "motivo": "mesma foto do Fertilidade 16/11, slide 02 (e de 25/11)",
+   "fonte": "https://www.pexels.com/photo/8551073/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 3,
+   "foto_antiga": "px_lab_9574397.jpg",
+   "foto_nova": "px_cigarro_14549484.jpg",
+   "descricao_nova": "fumaça de cigarro",
+   "motivo": "mesma sessão de px_lab_9574324 (Fertilidade 14/11, slide 03) e de 9574415 (23/11)",
+   "fonte": "https://www.pexels.com/photo/14549484/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 4,
+   "foto_antiga": "px_homemmedico_7579831.jpg",
+   "foto_nova": "px_casalouvindo_1044488.jpg",
+   "descricao_nova": "casal sorrindo (\"Falei pros dois ouvirem\")",
+   "motivo": "mesma sessão de px_homemmedico_7578803 (Fertilidade 14/11, slide 04)",
+   "fonte": "https://www.pexels.com/photo/1044488/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 6,
+   "foto_antiga": "px_casal_6249006.jpg",
+   "foto_nova": "px_casalcorrida_5038843.jpg",
+   "descricao_nova": "casal correndo (\"Mudança a dois\")",
+   "motivo": "mesma foto do Fertilidade 16/11, slide 06 (e de 25/11)",
+   "fonte": "https://www.pexels.com/photo/5038843/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  }
+ ],
+ "slides_iguais_ao_agendado": [
+  2,
+  5
+ ]
+}

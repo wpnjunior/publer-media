@@ -1,0 +1,20 @@
+<g>
+  <ellipse cx="-146" cy="-24" rx="15" ry="29" fill="#e9bd96" stroke="#7a4a2a" stroke-width="6"/>
+  <ellipse cx="146" cy="-24" rx="15" ry="29" fill="#e9bd96" stroke="#7a4a2a" stroke-width="6"/>
+  <path d="M0 -190 C92 -190 148 -128 146 -44 C144 0 112 30 106 76 C98 136 60 184 0 192 C-60 184 -98 136 -106 76 C-112 30 -144 0 -146 -44 C-148 -128 -92 -190 0 -190 Z" fill="#e9bd96" stroke="#7a4a2a" stroke-width="7"/>
+  <ellipse cx="-72" cy="36" rx="19" ry="14" fill="#f6d26b" stroke="#a77d12" stroke-width="5"/>
+  <ellipse cx="72" cy="36" rx="19" ry="14" fill="#f6d26b" stroke="#a77d12" stroke-width="5"/>
+  <path d="M-114 16 C-98 48 -94 84 -100 114" fill="none" stroke="#b98a62" stroke-width="10" stroke-linecap="round" opacity=".85"/>
+  <path d="M114 16 C98 48 94 84 100 114" fill="none" stroke="#b98a62" stroke-width="10" stroke-linecap="round" opacity=".85"/>
+  <path d="M-28 22 C-50 46 -56 78 -48 106" fill="none" stroke="#7a4a2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M28 22 C50 46 56 78 48 106" fill="none" stroke="#7a4a2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-78 142 C-62 158 -42 162 -26 156" fill="none" stroke="#7a4a2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M78 142 C62 158 42 162 26 156" fill="none" stroke="#7a4a2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-84 -92 C-68 -100 -46 -100 -30 -92" fill="none" stroke="#7a4a2a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M30 -92 C46 -100 68 -100 84 -92" fill="none" stroke="#7a4a2a" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="-56" cy="-56" rx="14" ry="17" fill="#2b1a10"/><ellipse cx="56" cy="-56" rx="14" ry="17" fill="#2b1a10"/>
+  <circle cx="-51" cy="-62" r="5" fill="#fff"/><circle cx="61" cy="-62" r="5" fill="#fff"/>
+  <path d="M-76 -28 C-64 -20 -48 -20 -38 -26" fill="none" stroke="#b98a62" stroke-width="5" stroke-linecap="round"/>
+  <path d="M38 -26 C48 -20 64 -20 76 -28" fill="none" stroke="#b98a62" stroke-width="5" stroke-linecap="round"/>
+  <path d="M2 -34 C-4 -6 -14 10 2 16" fill="none" stroke="#7a4a2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M-34 108 C-12 114 12 114 34 108" fill="none" stroke="#7a4a2a" stroke-width="7" stroke-linecap="round"/></g>

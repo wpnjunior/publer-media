@@ -1,0 +1,22 @@
+<g>
+  <path d="M-205 180 L205 180" stroke="#3a2a1f" stroke-width="9" stroke-linecap="round"/>
+  <path d="M-198 -26 L0 -188 L198 -26 Z" fill="#c4553a" stroke="#4a1a10" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M-118 -62 L0 -158 L118 -62" fill="none" stroke="#e8846a" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+  <rect x="-172" y="-30" width="344" height="210" fill="#d9c49a" stroke="#4a3520" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M-172 30 L-140 30 M-172 90 L-140 90 M-172 150 L-140 150 M-120 -30 L-120 2 M-50 -30 L-50 2 M40 -30 L40 2 M110 -30 L110 2 M140 150 L172 150" stroke="#b9a16f" stroke-width="5"/>
+  <rect x="-140" y="2" width="280" height="178" fill="#fff3cf" stroke="#4a3520" stroke-width="6"/>
+  <rect x="136" y="28" width="40" height="100" fill="#fff3cf"/>
+  <path d="M134 28 L178 28 M134 128 L178 128" stroke="#4a3520" stroke-width="8" stroke-linecap="round"/>
+  <path d="M-156 150 L-156 -14 L0 -14 L156 -14 L156 18" fill="none" stroke="#5c4300" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M-156 150 L-156 -14 L0 -14 L156 -14 L156 18" fill="none" stroke="#f2c230" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="-167" y="132" width="22" height="34" rx="4" fill="#6b6f78" stroke="#2b2d33" stroke-width="5"/>
+  <path d="M0 2 L0 46" stroke="#3a2a1f" stroke-width="6" stroke-linecap="round"/>
+  <rect x="-11" y="42" width="22" height="12" rx="3" fill="#6b6f78" stroke="#2b2d33" stroke-width="4"/>
+  <circle cx="0" cy="70" r="18" fill="#fff27a" stroke="#7a5a00" stroke-width="6"/>
+  <path d="M-34 70 L-50 70 M34 70 L50 70 M-24 96 L-36 108 M24 96 L36 108 M0 98 L0 114" stroke="#f2c230" stroke-width="6" stroke-linecap="round"/>
+  <rect x="-110" y="128" width="90" height="52" rx="8" fill="#7fb7ff" stroke="#1f3f7a" stroke-width="6"/>
+  <rect x="-118" y="118" width="22" height="62" rx="6" fill="#7fb7ff" stroke="#1f3f7a" stroke-width="6"/>
+  <rect x="-34" y="118" width="22" height="62" rx="6" fill="#7fb7ff" stroke="#1f3f7a" stroke-width="6"/>
+  <rect x="40" y="132" width="60" height="10" rx="4" fill="#8a5a2b" stroke="#4a2a10" stroke-width="4"/>
+  <path d="M50 142 L46 180 M90 142 L94 180" stroke="#4a2a10" stroke-width="6" stroke-linecap="round"/>
+</g>

@@ -1,0 +1,51 @@
+{
+ "marca": "Fertilidade a Dois",
+ "blogId": 8012127,
+ "metricool_id": 425043856,
+ "horario": "2026-11-25 12:41 America/Sao_Paulo",
+ "rede": "instagram",
+ "texto": "idêntico ao agendado (só a foto de fundo mudou)",
+ "slides_total": 6,
+ "slides_trocados": [
+  {
+   "slide": 2,
+   "foto_antiga": "px_lab_7448009.jpg",
+   "foto_nova": "px_termometro_3873171.jpg",
+   "descricao_nova": "mão com termômetro (\"temperatura\")",
+   "motivo": "mesma foto do Fertilidade 16/11, slide 05",
+   "fonte": "https://www.pexels.com/photo/3873171/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 4,
+   "foto_antiga": "px_casal_8560477.jpg",
+   "foto_nova": "px_casallago_340566.jpg",
+   "descricao_nova": "pessoa à beira do lago (\"Esfriei a cabeça\")",
+   "motivo": "mesma foto do Fertilidade 16/11, slide 02",
+   "fonte": "https://www.pexels.com/photo/340566/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 5,
+   "foto_antiga": "px_homemmedico_8413217.jpg",
+   "foto_nova": "px_notebookcolo_6633593.jpg",
+   "descricao_nova": "homem com notebook no colo",
+   "motivo": "mesma sessão de px_homemmedico_8413300 (Fertilidade 23/11, slide 04)",
+   "fonte": "https://www.pexels.com/photo/6633593/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 6,
+   "foto_antiga": "px_casal_6249006.jpg",
+   "foto_nova": "px_mesa_5198249.jpg",
+   "descricao_nova": "homem à mesa (\"Ajuste simples\")",
+   "motivo": "mesma foto do Fertilidade 16/11, slide 06",
+   "fonte": "https://www.pexels.com/photo/5198249/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  }
+ ],
+ "slides_iguais_ao_agendado": [
+  1,
+  3
+ ]
+}

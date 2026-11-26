@@ -1,0 +1,999 @@
+{
+ "id": "react_esperma",
+ "dur": 47.167,
+ "seed": 52,
+ "fundo": "#0b1512",
+ "legenda": {
+  "estilo": "lima",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.567
+   ],
+   [
+    2.567,
+    6.067
+   ]
+  ],
+  "ys": [
+   [
+    6.067,
+    9.517,
+    985
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 47.167,
+   "cor": "#0b1512",
+   "textura": "grade"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.567,
+   "ms": 0,
+   "src": "assets/midia/fe_entB.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.567
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 2.447,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "PERNAS PARA CIMA AJUDA A ENGRAVIDAR?",
+   "sub": "o vídeo de um casal viralizou",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.567,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 13.017,
+   "d": 20.5,
+   "ms": 1.0,
+   "src": "assets/midia/sp_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     13.017,
+     1.0,
+     0.01
+    ],
+    [
+     13.367,
+     1.16,
+     0.5
+    ],
+    [
+     14.417,
+     1.02,
+     0.5
+    ],
+    [
+     15.467,
+     1.16,
+     0.5
+    ],
+    [
+     16.517,
+     1.02,
+     0.5
+    ],
+    [
+     17.567,
+     1.16,
+     0.5
+    ],
+    [
+     18.617,
+     1.02,
+     0.5
+    ],
+    [
+     19.667,
+     1.16,
+     0.5
+    ],
+    [
+     20.717,
+     1.02,
+     0.5
+    ],
+    [
+     21.767,
+     1.16,
+     0.5
+    ],
+    [
+     22.817,
+     1.02,
+     0.5
+    ],
+    [
+     23.867,
+     1.16,
+     0.5
+    ],
+    [
+     24.917,
+     1.02,
+     0.5
+    ],
+    [
+     25.967,
+     1.16,
+     0.5
+    ],
+    [
+     27.017,
+     1.02,
+     0.5
+    ],
+    [
+     28.067,
+     1.16,
+     0.5
+    ],
+    [
+     29.117,
+     1.02,
+     0.5
+    ],
+    [
+     30.167,
+     1.16,
+     0.5
+    ],
+    [
+     31.217,
+     1.02,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 13.017,
+   "d": 20.5,
+   "cor": "rgba(6,14,11,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 37.817,
+   "d": 9.35,
+   "ms": 5.0,
+   "src": "assets/midia/sp_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     37.817,
+     1.0,
+     0.01
+    ],
+    [
+     38.167,
+     1.16,
+     0.5
+    ],
+    [
+     39.217,
+     1.02,
+     0.5
+    ],
+    [
+     40.267,
+     1.16,
+     0.5
+    ],
+    [
+     41.317,
+     1.02,
+     0.5
+    ],
+    [
+     42.367,
+     1.16,
+     0.5
+    ],
+    [
+     43.417,
+     1.02,
+     0.5
+    ],
+    [
+     44.467,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 37.817,
+   "d": 9.35,
+   "cor": "rgba(6,14,11,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.567,
+   "d": 10.45,
+   "box": [
+    40,
+    150,
+    1000,
+    940
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.567,
+   "d": 3.5,
+   "ms": 0.0,
+   "src": "assets/midia/sp_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    860
+   ],
+   "raio": 14,
+   "pos": "center 55%",
+   "arroba": "via @casal_fertilidade",
+   "arroba_pos": "topo",
+   "respira": false,
+   "z": 30,
+   "zoom": [
+    [
+     2.567,
+     1.0,
+     0.01
+    ],
+    [
+     2.767,
+     1.1,
+     3.0
+    ]
+   ]
+  },
+  {
+   "tipo": "video",
+   "t": 6.067,
+   "d": 3.45,
+   "ms": 4.0,
+   "src": "assets/midia/sp_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    860
+   ],
+   "raio": 14,
+   "pos": "center 55%",
+   "arroba": "via @casal_fertilidade",
+   "arroba_pos": "topo",
+   "respira": false,
+   "z": 30
+  },
+  {
+   "tipo": "video",
+   "t": 9.517,
+   "d": 3.5,
+   "ms": 8.15,
+   "src": "assets/midia/sp_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    860
+   ],
+   "raio": 14,
+   "pos": "center 15%",
+   "arroba": "via @casal_fertilidade",
+   "arroba_pos": "topo",
+   "respira": false,
+   "z": 30,
+   "zoom": [
+    [
+     9.517,
+     1.0,
+     0.01
+    ],
+    [
+     11.167,
+     1.08,
+     0.4
+    ]
+   ]
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.667,
+   "d": 3.35,
+   "xy": [
+    110,
+    1045
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Escorreu? Precisa pôr as pernas para cima?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.467
+  },
+  {
+   "tipo": "glitch",
+   "t": 6.017,
+   "d": 0.2
+  },
+  {
+   "tipo": "video",
+   "t": 6.067,
+   "d": 3.45,
+   "ms": 0,
+   "src": "assets/midia/sp_rosto.mp4",
+   "box": [
+    0,
+    1090,
+    1080,
+    830
+   ],
+   "pos": "center 35%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "numero",
+   "t": 9.567,
+   "d": 3.4,
+   "xy": [
+    0,
+    1000
+   ],
+   "valor": 5.5,
+   "dec": 1,
+   "suf": " MI",
+   "rotulo": "de visualizações nesse vídeo",
+   "tam": 190
+  },
+  {
+   "tipo": "glitch",
+   "t": 12.967,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 13.017,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "glitch",
+   "t": 33.467,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 33.517,
+   "d": 4.28,
+   "ms": 3.6,
+   "src": "assets/midia/sp_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     33.517,
+     1.0,
+     0.01
+    ],
+    [
+     35.867,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 33.717,
+   "d": 4.0,
+   "y": 215,
+   "txt": "COMBINADO: SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "glitch",
+   "t": 37.767,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 37.817,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "flash",
+   "t": 42.967,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 13.067,
+   "d": 2.75,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "ELES ACERTAM:",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 13.617,
+   "d": 2.2,
+   "xy": [
+    40,
+    620
+   ],
+   "w": 1000,
+   "fonte": "180px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "NÃO PRECISA",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 15.867,
+   "d": 3.45,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "EM 1 MINUTO JÁ CHEGA LÁ",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "texto",
+   "t": 15.867,
+   "d": 7.6,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Kunz et al., Hum Reprod 1996 (teste com partículas do tamanho do espermatozoide)",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 19.367,
+   "d": 4.1,
+   "xy": [
+    40,
+    520
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "O CAMINHO É RÁPIDO",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 23.517,
+   "d": 3.8,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SAEM MILHÕES",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "texto",
+   "t": 25.217,
+   "d": 2.1,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "CHEGAM POUCOS",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 27.367,
+   "d": 1.8,
+   "xy": [
+    40,
+    520
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "ESCORRER É NORMAL",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 29.167,
+   "d": 4.3,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "PERNAS PARA CIMA?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "texto",
+   "t": 30.567,
+   "d": 2.9,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#ff2d3d",
+   "alinha": "center",
+   "txt": "NÃO PROVOU AJUDAR",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #5a0d10"
+  },
+  {
+   "tipo": "texto",
+   "t": 30.567,
+   "d": 2.9,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Cordary et al. 2017: 4 estudos, 1.361 casais",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 37.917,
+   "d": 3.85,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "1 ANO TENTANDO?",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "texto",
+   "t": 39.417,
+   "d": 2.35,
+   "xy": [
+    40,
+    760
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "+35 ANOS: 6 MESES",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 41.767,
+   "d": 2.3,
+   "xy": [
+    40,
+    520
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "CONSULTA PARA OS DOIS",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 44.067,
+   "d": 3.1,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "O QUE IMPORTA NÃO ESCORRE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "texto",
+   "t": 45.017,
+   "d": 2.15,
+   "xy": [
+    40,
+    900
+   ],
+   "w": 1000,
+   "fonte": "210px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "JÁ SUBIU.",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 44.067,
+   "d": 3.1,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Kunz et al., Hum Reprod 1996 · doi 10.1093/humrep/11.3.627 · Cordary et al. 2017 · ACOG 2019",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  }
+ ],
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/fe_entB.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.567,
+    "palavras": "assets/midia/fe_entB.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/sp_voz.wav",
+    "t": 6.067,
+    "ms": 0,
+    "d": 3.45,
+    "palavras": "assets/midia/sp_voz.words.json"
+   },
+   {
+    "src": "assets/midia/sp_voz.wav",
+    "t": 13.017,
+    "ms": 3.64,
+    "d": 20.45,
+    "palavras": "assets/midia/sp_voz.words.json"
+   },
+   {
+    "src": "assets/midia/sp_voz.wav",
+    "t": 33.517,
+    "ms": 24.5,
+    "d": 4.28,
+    "palavras": "assets/midia/sp_voz.words.json"
+   },
+   {
+    "src": "assets/midia/sp_voz.wav",
+    "t": 37.817,
+    "ms": 29.4,
+    "d": 8.4,
+    "palavras": "assets/midia/sp_voz.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.567,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.467,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 6.017,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 9.517,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 9.567,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 10.167,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 11.367,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 12.967,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 13.017,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 33.467,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 33.717,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 37.767,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 13.617,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 15.867,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 19.367,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 23.517,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 25.217,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh2",
+    "t": 27.367,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 29.167,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 30.567,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 37.917,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 39.417,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh",
+    "t": 41.767,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 44.067,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 45.017,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.3
+   },
+   {
+    "src": "teclado",
+    "t": 2.7,
+    "d": 2.59,
+    "gain": 0.55
+   },
+   {
+    "src": "riser",
+    "t": 4.4,
+    "d": 1.65,
+    "gain": 0.35
+   },
+   {
+    "src": "teclado",
+    "t": 9.6,
+    "d": 2.59,
+    "gain": 0.55
+   },
+   {
+    "src": "riser",
+    "t": 11.3,
+    "d": 1.7,
+    "gain": 0.35
+   }
+  ]
+ }
+}

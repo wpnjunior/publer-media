@@ -1,0 +1,7 @@
+<g>
+  <path d="M0 -190 C46 -118 138 -36 138 50 C138 128 76 182 0 182 C-76 182 -138 128 -138 50 C-138 -36 -46 -118 0 -190 Z" fill="#eef3f6" stroke="#4d5b66" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M-104 74 C-70 54 -36 94 0 74 C36 54 70 94 104 74" fill="none" stroke="#c9d6de" stroke-width="8" stroke-linecap="round"/>
+  <path d="M-92 116 C-60 98 -30 134 0 116 C30 98 60 134 92 116" fill="none" stroke="#c9d6de" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="-58" cy="10" rx="20" ry="52" fill="#fff" opacity=".95" transform="rotate(14 -58 10)"/>
+  <circle cx="-34" cy="-58" r="9" fill="#fff"/>
+</g>

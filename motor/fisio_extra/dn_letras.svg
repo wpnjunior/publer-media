@@ -1,0 +1,8 @@
+<g>
+  <rect x="-185" y="-150" width="370" height="300" rx="16" fill="#ffffff" stroke="#1c1a17" stroke-width="8"/>
+  <g font-family="Anton, Impact, sans-serif" font-size="70" text-anchor="middle" fill="#1c1a17">
+    <text x="-120" y="-60">A</text><text x="-40" y="-60">T</text><text x="40" y="-60">G</text><text x="120" y="-60">C</text>
+    <text x="-120" y="30">T</text><text x="-40" y="30">A</text><text x="40" y="30" fill="#e0322b">A</text><text x="120" y="30">G</text>
+    <text x="-120" y="120">C</text><text x="-40" y="120">G</text><text x="40" y="120">T</text><text x="120" y="120">A</text>
+  </g>
+</g>

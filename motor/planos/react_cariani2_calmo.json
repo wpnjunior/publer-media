@@ -1,0 +1,1579 @@
+{
+ "id": "react_cariani2_calmo",
+ "dur": 67.958,
+ "seed": 84,
+ "fundo": "#e9dcbc",
+ "legenda": {
+  "estilo": "maquina",
+  "y": 1340,
+  "esconde": [
+   [
+    0.0,
+    1.88
+   ],
+   [
+    1.88,
+    5.98
+   ]
+  ],
+  "ys": [
+   [
+    5.98,
+    13.47,
+    1440
+   ],
+   [
+    13.47,
+    16.22,
+    1000
+   ],
+   [
+    16.22,
+    59.614,
+    1730
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ca2_ent.mp4",
+    "t": 0.0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/ca2_ent.words.json"
+   },
+   {
+    "src": "assets/midia/ca_viral.mp4",
+    "t": 1.88,
+    "ms": 0,
+    "d": 11.59,
+    "palavras": "assets/midia/ca_viral.words.json"
+   },
+   {
+    "src": "assets/midia/ca2_r1.mp4",
+    "t": 13.47,
+    "ms": 0,
+    "d": 2.75,
+    "palavras": "assets/midia/ca2_r1.words.json"
+   },
+   {
+    "src": "assets/midia/ca2_voz_calmo.wav",
+    "t": 16.22,
+    "ms": 0.0,
+    "d": 43.394,
+    "palavras": "assets/midia/ca2_voz_calmo.words.json"
+   },
+   {
+    "src": "assets/midia/ca2_cta.mp4",
+    "t": 59.614,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/ca2_cta.words.json"
+   },
+   {
+    "src": "assets/midia/ca2_voz_calmo.wav",
+    "t": 63.734,
+    "ms": 43.394,
+    "d": 3.623,
+    "palavras": "assets/midia/ca2_voz_calmo.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 16.22,
+    "ms": 0,
+    "d": 22.95,
+    "gain": 0.32,
+    "fade": 0.8
+   },
+   {
+    "src": "m_investiga",
+    "t": 38.37,
+    "ms": 0,
+    "d": 21.244,
+    "gain": 0.32,
+    "fade": 0.8
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.18,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.18,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 13.42,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 13.52,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 16.17,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 16.22,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 16.39,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 21.89,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 22.003,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 28.008,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 24.96,
+    "gain": 0.3
+   },
+   {
+    "src": "boing",
+    "t": 29.834,
+    "gain": 0.35
+   },
+   {
+    "src": "riser",
+    "t": 31.299,
+    "gain": 0.25,
+    "d": 3.844
+   },
+   {
+    "src": "whoosh",
+    "t": 35.714,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "scratch",
+    "t": 36.336,
+    "gain": 0.3
+   },
+   {
+    "src": "scratch",
+    "t": 37.466,
+    "gain": 0.3
+   },
+   {
+    "src": "whoosh2",
+    "t": 39.659,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh",
+    "t": 42.73,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 44.165,
+    "gain": 0.55,
+    "pico": 0.3,
+    "d": 1.578
+   },
+   {
+    "src": "whoosh2",
+    "t": 45.72,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 45.777,
+    "gain": 0.35
+   },
+   {
+    "src": "boom",
+    "t": 49.338,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.696
+   },
+   {
+    "src": "boing",
+    "t": 52.25,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 54.687,
+    "gain": 0.45,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 58.028,
+    "gain": 0.65,
+    "pico": 0.3,
+    "d": 1.936
+   },
+   {
+    "src": "glitch",
+    "t": 59.558,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 59.814,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 63.684,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 65.956,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 66.296,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.622
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0.0,
+   "d": 67.958,
+   "cor": "#efe4c9",
+   "textura": "papel"
+  },
+  {
+   "tipo": "video",
+   "t": 0.0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/ca2_ent.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0.0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "Emagrecer sem proteína e sem treino queima músculo?",
+   "sub": "Fala viral de podcast",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 14.34,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 11.59,
+   "ms": 0,
+   "src": "assets/midia/ca_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 11%",
+   "arroba": "via @flowpdc",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.06,
+     0.4
+    ],
+    [
+     10.97,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? 👇",
+   "txt": "Sem proteína e sem treino, o corpo come músculo?",
+   "botoes": [
+    "MITO",
+    "VERDADE"
+   ],
+   "vel": 0.025,
+   "escolha": 1,
+   "t_escolha": 5.18
+  },
+  {
+   "tipo": "numero",
+   "t": 6.18,
+   "d": 7.2,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 766,
+   "suf": " MIL VIEWS",
+   "tam": 120,
+   "cor": "#b3121f",
+   "sombra": "#d9c49a",
+   "cor_rotulo": "#1c1a17",
+   "sombra_rotulo": "none"
+  },
+  {
+   "tipo": "glitch",
+   "t": 13.42,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 13.47,
+   "d": 2.75,
+   "src": "assets/midia/ca_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 13.52,
+   "d": 1.7,
+   "xy": [
+    40,
+    1105
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "VERDADE.",
+   "z": 50,
+   "entra": "zoom",
+   "css": "text-shadow:10px 10px 0 #000",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 13.47,
+   "d": 2.75,
+   "ms": 0,
+   "src": "assets/midia/ca2_r1.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 16.17,
+   "d": 0.25,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 16.22,
+   "d": 0.2,
+   "max": 0.6,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 16.22,
+   "d": 5.67,
+   "ms": 2.0,
+   "src": "assets/midia/br_36150.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     16.22,
+     1.04,
+     0.011
+    ],
+    [
+     21.89,
+     1.14,
+     6.457
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 16.22,
+   "d": 5.67,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 21.89,
+   "d": 6.117,
+   "ms": 1.0,
+   "src": "assets/midia/br_24055.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     21.89,
+     1.04,
+     0.011
+    ],
+    [
+     28.008,
+     1.14,
+     5.948
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 21.89,
+   "d": 6.117,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 28.008,
+   "d": 7.763,
+   "ms": 0.5,
+   "src": "assets/midia/br_100545.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     28.008,
+     1.04,
+     0.011
+    ],
+    [
+     35.771,
+     1.14,
+     7.015
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 28.008,
+   "d": 7.763,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 16.22,
+   "d": 19.494,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "figado",
+     "xy": [
+      290,
+      1040
+     ],
+     "s": 0.72,
+     "t": 0.17,
+     "rotulo": "FÍGADO"
+    },
+    {
+     "k": "gordura",
+     "xy": [
+      800,
+      1040
+     ],
+     "s": 0.7,
+     "t": 5.783,
+     "rotulo": "GORDURA"
+    },
+    {
+     "k": "cerebro",
+     "xy": [
+      540,
+      660
+     ],
+     "s": 0.72,
+     "t": 8.74,
+     "rotulo": "CÉREBRO",
+     "rot_y": 200
+    },
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1450
+     ],
+     "s": 0.68,
+     "t": 13.614,
+     "rotulo": "MÚSCULO",
+     "rot_y": 175
+    }
+   ],
+   "fluxos": [
+    {
+     "de": [
+      290,
+      940
+     ],
+     "para": [
+      160,
+      430
+     ],
+     "curva": -60,
+     "cor": "#ffffff",
+     "t": 2.317,
+     "d": 3.24,
+     "n": 5,
+     "rotulo": "AÇÚCAR",
+     "viagem": 1.1
+    },
+    {
+     "de": [
+      800,
+      940
+     ],
+     "para": [
+      930,
+      420
+     ],
+     "curva": -60,
+     "cor": "#f6d26b",
+     "t": 6.066,
+     "d": 2.505,
+     "n": 6,
+     "rotulo": "ENERGIA",
+     "viagem": 1.0
+    },
+    {
+     "de": [
+      600,
+      1370
+     ],
+     "para": [
+      380,
+      1110
+     ],
+     "curva": 90,
+     "cor": "#ffd400",
+     "t": 15.079,
+     "d": 3.844,
+     "n": 8,
+     "rotulo": "AMINOÁCIDOS",
+     "viagem": 1.1
+    },
+    {
+     "de": [
+      250,
+      955
+     ],
+     "para": [
+      430,
+      720
+     ],
+     "curva": -40,
+     "cor": "#4dd8ff",
+     "t": 16.831,
+     "d": 2.494,
+     "n": 6,
+     "rotulo": "GLICOSE",
+     "viagem": 0.9
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 2.487
+    },
+    {
+     "o": 1,
+     "t": 6.179
+    },
+    {
+     "o": 2,
+     "t": 9.475
+    },
+    {
+     "o": 2,
+     "t": 10.266
+    },
+    {
+     "o": 3,
+     "t": 13.784
+    },
+    {
+     "o": 0,
+     "t": 16.888
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 16.333,
+   "d": 2.148,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "EM JEJUM, A INSULINA CAI",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 18.515,
+   "d": 3.375,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "92px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "AÇÚCAR DO FÍGADO: ~1 DIA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 21.969,
+   "d": 2.934,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "AÍ VAI A GORDURA ✓",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 24.926,
+   "d": 3.104,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#4dd8ff",
+   "alinha": "center",
+   "txt": "O CÉREBRO QUER GLICOSE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 28.053,
+   "d": 3.178,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ff5a5f",
+   "alinha": "center",
+   "txt": "DE ONDE? DO MÚSCULO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 31.254,
+   "d": 4.472,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "MÚSCULO VIRA GLICOSE",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 35.714,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 35.714,
+   "d": 7.015,
+   "ms": 3.0,
+   "src": "assets/midia/br_4607.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     35.714,
+     1.04,
+     0.011
+    ],
+    [
+     42.73,
+     1.14,
+     6.947
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 35.714,
+   "d": 7.015,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 35.714,
+   "d": 7.015,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "prato",
+     "xy": [
+      290,
+      780
+     ],
+     "s": 0.6,
+     "t": 0.113,
+     "rotulo": "PROTEÍNA"
+    },
+    {
+     "k": "haltere",
+     "xy": [
+      790,
+      780
+     ],
+     "s": 0.6,
+     "t": 1.243,
+     "rotulo": "TREINO"
+    },
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1330
+     ],
+     "s": 0.9,
+     "t": 0.283,
+     "rotulo": "MÚSCULO",
+     "rot_y": 175
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 2,
+     "t": 2.939
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 2,
+     "t": 4.183,
+     "para": 0.5,
+     "d": 1.922
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 36.336,
+   "d": 6.394,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      290,
+      760
+     ],
+     "s": 120
+    }
+   ],
+   "espessura": 16,
+   "cor": "#ff2d3d",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 37.466,
+   "d": 5.263,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      790,
+      760
+     ],
+     "s": 120
+    }
+   ],
+   "espessura": 16,
+   "cor": "#ff2d3d",
+   "z": 45,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 35.771,
+   "d": 3.844,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SEM PROTEÍNA, SEM TREINO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 39.659,
+   "d": 3.07,
+   "xy": [
+    40,
+    250
+   ],
+   "w": 1000,
+   "fonte": "104px Anton",
+   "cor": "#ff5a5f",
+   "alinha": "center",
+   "txt": "DESMONTA MAIS DO QUE CONSTRÓI",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 42.73,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 42.73,
+   "d": 2.991,
+   "ms": 2.0,
+   "src": "assets/midia/br_100543.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     42.73,
+     1.04,
+     0.011
+    ],
+    [
+     45.72,
+     1.14,
+     2.77
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 42.73,
+   "d": 2.991,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 42.752,
+   "d": 1.413,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#3ddc84",
+   "alinha": "center",
+   "txt": "TREINO PROTEGE ✓",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 44.165,
+   "d": 1.555,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "MAS NÃO ZERA",
+   "z": 40,
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "entra": "zoom",
+   "fixo": true
+  },
+  {
+   "tipo": "gigante",
+   "t": 44.03,
+   "d": 0.678,
+   "txt": "ZERA?",
+   "y": 1150,
+   "tam": 260,
+   "cor": "rgba(255,255,255,.16)",
+   "x": [
+    1000,
+    -1400
+   ],
+   "z": 20,
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 45.72,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 45.72,
+   "d": 6.529,
+   "ms": 4.0,
+   "src": "assets/midia/br_22510.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     45.72,
+     1.04,
+     0.011
+    ],
+    [
+     52.25,
+     1.14,
+     6.57
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 45.72,
+   "d": 6.529,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 52.25,
+   "d": 2.46,
+   "ms": 1.0,
+   "src": "assets/midia/br_40788.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     52.25,
+     1.04,
+     0.011
+    ],
+    [
+     54.709,
+     1.14,
+     2.754
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 52.25,
+   "d": 2.46,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 45.743,
+   "d": 3.561,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "IDOSOS EMAGRECENDO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 49.338,
+   "d": 5.371,
+   "xy": [
+    0,
+    560
+   ],
+   "valor": 5,
+   "pre": "-",
+   "suf": "%",
+   "rotulo": "de massa magra, só aeróbico",
+   "tam": 260,
+   "cor": "#ff5a5f",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "numero",
+   "t": 52.25,
+   "d": 2.46,
+   "xy": [
+    0,
+    1020
+   ],
+   "valor": 2,
+   "pre": "-",
+   "suf": "%",
+   "rotulo": "com musculação",
+   "tam": 260,
+   "cor": "#3ddc84",
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 45.743,
+   "d": 8.966,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Villareal et al., N Engl J Med 2017 (160 idosos com obesidade, 6 meses de dieta)",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000",
+   "fixo": true
+  },
+  {
+   "tipo": "flash",
+   "t": 54.687,
+   "d": 0.2,
+   "max": 0.5,
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 54.687,
+   "d": 4.928,
+   "ms": 1.0,
+   "src": "assets/midia/br_918.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     54.687,
+     1.04,
+     0.011
+    ],
+    [
+     59.614,
+     1.14,
+     3.72
+    ]
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "fundo",
+   "t": 54.687,
+   "d": 4.928,
+   "cor": "rgba(6,14,11,.6)",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 54.687,
+   "d": 4.928,
+   "z": 30,
+   "orgaos": [
+    {
+     "k": "musculo",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 1.0,
+     "t": 0.057,
+     "rotulo": "MÚSCULO",
+     "rot_y": 180
+    }
+   ],
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 2.697,
+     "para": 0.62,
+     "d": 1.357
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 54.709,
+   "d": 2.132,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "112px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "MÚSCULO = FUNCIONÁRIO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 56.841,
+   "d": 2.773,
+   "xy": [
+    40,
+    300
+   ],
+   "w": 1000,
+   "fonte": "120px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "SEM SERVIÇO...",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.09,
+   "css": "text-shadow:6px 6px 0 #000,0 0 18px rgba(0,0,0,.8)",
+   "fixo": true
+  },
+  {
+   "tipo": "carimbo",
+   "t": 58.028,
+   "d": 1.586,
+   "xy": [
+    170,
+    1230
+   ],
+   "txt": "DEMITIDO",
+   "tam": 150,
+   "rot": -10,
+   "z": 60,
+   "cor": "#ff2d3d",
+   "blend": "normal",
+   "css": "background:rgba(255,255,255,.9)",
+   "fixo": true
+  },
+  {
+   "tipo": "glitch",
+   "t": 59.558,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 59.614,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/ca2_cta.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     59.614,
+     1.0,
+     0.01
+    ],
+    [
+     62.214,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 59.814,
+   "d": 3.87,
+   "y": 215,
+   "txt": "AULA VALEU? SEGUE + CURTE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "video",
+   "t": 63.734,
+   "d": 4.223,
+   "ms": 25.0,
+   "src": "assets/midia/ca_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     63.734,
+     1.0,
+     0.011
+    ],
+    [
+     64.13,
+     1.16,
+     0.565
+    ],
+    [
+     65.674,
+     1.02,
+     0.565
+    ],
+    [
+     66.861,
+     1.16,
+     0.557
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 63.734,
+   "d": 4.223,
+   "cor": "rgba(239,228,201,.5)",
+   "z": 11
+  },
+  {
+   "tipo": "flash",
+   "t": 63.734,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 63.768,
+   "d": 2.166,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "FORÇA + PROTEÍNA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": ""
+  },
+  {
+   "tipo": "texto",
+   "t": 65.956,
+   "d": 2.001,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#b3121f",
+   "alinha": "center",
+   "txt": "COMBINA COM SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 66.296,
+   "d": 1.662,
+   "xy": [
+    60,
+    800
+   ],
+   "txt": "MÚSCULO COM SERVIÇO FICA",
+   "tam": 96,
+   "rot": -7,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 63.734,
+   "d": 4.223,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "Villareal et al., N Engl J Med 2017 · doi 10.1056/NEJMoa1616338",
+   "z": 70,
+   "css": "text-shadow:5px 5px 0 rgba(0,0,0,.14)"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.2
+  }
+ ]
+}

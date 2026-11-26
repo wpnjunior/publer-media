@@ -1,0 +1,1683 @@
+{
+ "id": "react_cafe_v5_calmo",
+ "dur": 73.333,
+ "seed": 93,
+ "fundo": "#14070a",
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1340,
+  "esconde": [
+   [
+    0.0,
+    1.88
+   ],
+   [
+    1.88,
+    5.88
+   ]
+  ],
+  "ys": [
+   [
+    5.88,
+    11.93,
+    1440
+   ],
+   [
+    11.93,
+    16.53,
+    1000
+   ],
+   [
+    16.587,
+    44.118,
+    1730
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/ent6.mp4",
+    "t": 0.0,
+    "ms": 0,
+    "d": 1.88,
+    "palavras": "assets/midia/ent6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/cf_viral.mp4",
+    "t": 1.88,
+    "ms": 1.2,
+    "d": 10.05,
+    "palavras": "assets/midia/cf_viral.words.json"
+   },
+   {
+    "src": "assets/midia/cf_v5_voz.wav",
+    "t": 11.93,
+    "ms": 0,
+    "d": 4.55,
+    "palavras": "assets/midia/cf_v5_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cf_v5_voz_calmo.wav",
+    "t": 16.53,
+    "ms": 5.144,
+    "d": 43.236,
+    "palavras": "assets/midia/cf_v5_voz_calmo.words.json"
+   },
+   {
+    "src": "assets/midia/cta6.mp4",
+    "t": 60.066,
+    "ms": 0,
+    "d": 4.12,
+    "palavras": "assets/midia/cta6.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/cf_v5_voz_calmo.wav",
+    "t": 64.216,
+    "ms": 48.775,
+    "d": 8.718,
+    "palavras": "assets/midia/cf_v5_voz_calmo.words.json"
+   }
+  ],
+  "musica": [
+   {
+    "src": "m_investiga",
+    "t": 16.53,
+    "d": 22.95,
+    "gain": 0.14,
+    "fade": 0.8,
+    "ms": 0
+   },
+   {
+    "src": "m_investiga",
+    "t": 38.68,
+    "d": 21.386,
+    "gain": 0.14,
+    "fade": 0.8,
+    "ms": 0
+   }
+  ],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 1.88,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "teclado",
+    "t": 1.98,
+    "d": 1.85,
+    "gain": 0.55
+   },
+   {
+    "src": "riser",
+    "t": 2.78,
+    "d": 1.1,
+    "gain": 0.35
+   },
+   {
+    "src": "boing",
+    "t": 5.18,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 6.18,
+    "gain": 0.35
+   },
+   {
+    "src": "glitch",
+    "t": 11.88,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 12.03,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "glitch",
+    "t": 16.48,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 16.643,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "papel",
+    "t": 16.756,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 18.395,
+    "gain": 0.3
+   },
+   {
+    "src": "pagina",
+    "t": 23.444,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 28.531,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 31.788,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 32.749,
+    "gain": 0.35
+   },
+   {
+    "src": "notif",
+    "t": 34.275,
+    "gain": 0.35
+   },
+   {
+    "src": "pagina",
+    "t": 34.84,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 36.034,
+    "gain": 0.45
+   },
+   {
+    "src": "pagina",
+    "t": 37.797,
+    "gain": 0.4
+   },
+   {
+    "src": "pagina",
+    "t": 40.404,
+    "gain": 0.4
+   },
+   {
+    "src": "boing",
+    "t": 41.896,
+    "gain": 0.3
+   },
+   {
+    "src": "glitch",
+    "t": 44.062,
+    "gain": 0.5
+   },
+   {
+    "src": "boom",
+    "t": 44.175,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 2.098
+   },
+   {
+    "src": "whoosh2",
+    "t": 47.968,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 51.384,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 54.459,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.696
+   },
+   {
+    "src": "boing",
+    "t": 54.662,
+    "gain": 0.35
+   },
+   {
+    "src": "whoosh",
+    "t": 58.054,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 60.016,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 60.266,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 64.136,
+    "gain": 0.5
+   },
+   {
+    "src": "papel",
+    "t": 64.216,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 67.681,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 70.57,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.696
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0.0,
+   "d": 73.333,
+   "cor": "#14070a",
+   "textura": "gradiente",
+   "cor2": "#5a0d10"
+  },
+  {
+   "tipo": "video",
+   "t": 0.0,
+   "d": 1.88,
+   "ms": 0,
+   "src": "assets/midia/ent6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0.0,
+     1.12,
+     1.88
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.76,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "“QUEM TEM TDAH DORME COM CAFÉ”?",
+   "sub": "o vídeo passou de 800 mil views",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 1.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 1.88,
+   "d": 14.65,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 1.88,
+   "d": 10.05,
+   "ms": 1.2,
+   "src": "assets/midia/cf_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 34%",
+   "arroba": "via @psi.walace",
+   "respira": false,
+   "zoom": [
+    [
+     1.88,
+     1.0,
+     0.01
+    ],
+    [
+     5.88,
+     1.06,
+     0.4
+    ],
+    [
+     9.43,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 1.98,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Mito ou verdade? ☕",
+   "txt": "Quem tem TDAH dorme com café?",
+   "botoes": [
+    "MITO",
+    "VERDADE",
+    "MEIO A MEIO"
+   ],
+   "vel": 0.025,
+   "escolha": 2,
+   "t_escolha": 5.18
+  },
+  {
+   "tipo": "numero",
+   "t": 6.18,
+   "d": 5.7,
+   "xy": [
+    0,
+    1150
+   ],
+   "valor": 821.8,
+   "dec": 1,
+   "suf": " MIL VIEWS",
+   "tam": 120
+  },
+  {
+   "tipo": "glitch",
+   "t": 11.88,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 11.93,
+   "d": 4.6,
+   "src": "assets/midia/cf_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "carimbo",
+   "t": 12.03,
+   "d": 4.45,
+   "xy": [
+    95,
+    470
+   ],
+   "txt": "MEIA VERDADE",
+   "tam": 130,
+   "rot": -7,
+   "z": 60,
+   "cor": "#ffd400",
+   "blend": "normal"
+  },
+  {
+   "tipo": "video",
+   "t": 11.93,
+   "d": 4.6,
+   "ms": 0,
+   "src": "assets/midia/cf_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "glitch",
+   "t": 16.48,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 16.53,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "fundo",
+   "t": 16.587,
+   "d": 27.532,
+   "cor": "#0e1012",
+   "textura": "gradiente",
+   "cor2": "#22302a",
+   "z": 11,
+   "fixo": true
+  },
+  {
+   "tipo": "cartao",
+   "t": 16.587,
+   "d": 27.532,
+   "box": [
+    60,
+    330,
+    960,
+    1250
+   ],
+   "aba": "1 · recompensa",
+   "z": 30,
+   "fixo": true,
+   "abas": [
+    [
+     23.444,
+     "2 · no TDAH"
+    ],
+    [
+     28.531,
+     "3 · prazer"
+    ],
+    [
+     34.84,
+     "4 · cafeína"
+    ],
+    [
+     37.797,
+     "5 · dopamina"
+    ],
+    [
+     40.404,
+     "6 · em alguns"
+    ]
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 16.813,
+   "d": 27.306,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 32px Montserrat",
+   "cor": "#111",
+   "alinha": "center",
+   "txt": "● AULA RÁPIDA · CÉREBRO",
+   "css": "letter-spacing:3px;background:#ffd400;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 16.869,
+   "d": 6.518,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "RECOMPENSA = ATENÇÃO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 16.982,
+   "d": 6.405,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "cf_estrela",
+     "xy": [
+      240,
+      1330
+     ],
+     "s": 0.8,
+     "t": 0.0
+    },
+    {
+     "k": "cerebro",
+     "xy": [
+      690,
+      970
+     ],
+     "s": 1.0,
+     "t": 0.565
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 2.713
+    },
+    {
+     "o": 1,
+     "t": 4.126
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 18.395,
+   "d": 4.992,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      330,
+      1250
+     ],
+     "para": [
+      520,
+      1080
+     ],
+     "curva": 30
+    }
+   ],
+   "cor": "#e0322b",
+   "espessura": 11,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 20.713,
+   "d": 2.674,
+   "z": 42,
+   "orgaos": [],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      320,
+      1270
+     ],
+     "para": [
+      540,
+      1070
+     ],
+     "curva": -40,
+     "cor": "#ffd400",
+     "t": 0.113,
+     "d": 2.505,
+     "n": 7,
+     "r": 15,
+     "viagem": 0.8
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 20.882,
+   "d": 2.505,
+   "xy": [
+    430,
+    1330
+   ],
+   "w": 560,
+   "fonte": "120px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "DOPAMINA",
+   "z": 46,
+   "entra": "zoom",
+   "css": "-webkit-text-stroke:10px #1c1a17;paint-order:stroke fill",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 23.557,
+   "d": 4.917,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "110px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "NO TDAH, O SINAL CHEGA MAIS FRACO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 23.67,
+   "d": 4.804,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "neuronio",
+     "xy": [
+      540,
+      1080
+     ],
+     "s": 1.5,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      380,
+      1080
+     ],
+     "para": [
+      800,
+      1080
+     ],
+     "curva": -150,
+     "cor": "#8e8e8e",
+     "t": 0.791,
+     "d": 3.844,
+     "n": 3,
+     "r": 10,
+     "viagem": 1.7,
+     "fica": true
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 26.665,
+   "d": 1.809,
+   "formas": [
+    {
+     "k": "circulo",
+     "c": [
+      830,
+      1080
+     ],
+     "r": [
+      125,
+      150
+     ]
+    }
+   ],
+   "cor": "#e0322b",
+   "espessura": 11,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 26.643,
+   "d": 1.831,
+   "xy": [
+    230,
+    1330
+   ],
+   "w": 620,
+   "fonte": "700 110px Caveat",
+   "cor": "#c0392b",
+   "alinha": "center",
+   "txt": "fraquinho...",
+   "z": 46,
+   "entra": "pop",
+   "css": "transform:rotate(-4deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 28.565,
+   "d": 3.19,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "140px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "SEM PRAZER, SEM ATENÇÃO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 29.023,
+   "d": 2.708,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "cerebro",
+     "xy": [
+      540,
+      1130
+     ],
+     "s": 1.05,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "encolhe": [
+    {
+     "o": 0,
+     "t": 0.678,
+     "para": 0.82,
+     "d": 1.13
+    }
+   ]
+  },
+  {
+   "tipo": "texto",
+   "t": 31.845,
+   "d": 2.939,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "AULA CHATA x VIDEOGAME",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 31.901,
+   "d": 2.883,
+   "formas": [
+    {
+     "k": "linha",
+     "pts": [
+      [
+       540,
+       740
+      ],
+      [
+       536,
+       1120
+      ],
+      [
+       542,
+       1500
+      ]
+     ],
+     "j": 4
+    }
+   ],
+   "cor": "#9aa3ad",
+   "espessura": 8,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 31.845,
+   "d": 2.939,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "cf_livro",
+     "xy": [
+      300,
+      1090
+     ],
+     "s": 0.95,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 32.24,
+   "d": 2.544,
+   "xy": [
+    330,
+    780
+   ],
+   "w": 260,
+   "fonte": "700 120px Caveat",
+   "cor": "#5b6670",
+   "alinha": "center",
+   "txt": "zzz",
+   "z": 46,
+   "entra": "pop",
+   "css": "transform:rotate(-8deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "desenho",
+   "t": 32.749,
+   "d": 2.035,
+   "formas": [
+    {
+     "k": "x",
+     "c": [
+      300,
+      1100
+     ],
+     "s": 120
+    }
+   ],
+   "cor": "#e0322b",
+   "espessura": 16,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 33.71,
+   "d": 1.074,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "cf_controle",
+     "xy": [
+      785,
+      1080
+     ],
+     "s": 0.95,
+     "t": 0.0
+    }
+   ],
+   "fixo": true,
+   "pulsos": [
+    {
+     "o": 0,
+     "t": 0.791
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 34.275,
+   "d": 0.509,
+   "formas": [
+    {
+     "k": "check",
+     "c": [
+      760,
+      1330
+     ],
+     "s": 75
+    }
+   ],
+   "cor": "#1f9e4f",
+   "espessura": 18,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 35.231,
+   "d": 2.532,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "CAFEÍNA TAMPA O CANSAÇO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 35.31,
+   "d": 2.43,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "xicara",
+     "xy": [
+      290,
+      1160
+     ],
+     "s": 1.0,
+     "t": 0.0
+    },
+    {
+     "k": "cf_bateria",
+     "xy": [
+      770,
+      1110
+     ],
+     "s": 0.95,
+     "t": 0.17
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 35.593,
+   "d": 2.148,
+   "xy": [
+    590,
+    1195
+   ],
+   "w": 360,
+   "fonte": "700 80px Caveat",
+   "cor": "#c0392b",
+   "alinha": "center",
+   "txt": "cansaço!",
+   "z": 46,
+   "entra": "pop",
+   "css": "transform:rotate(-3deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 36.034,
+   "d": 1.73,
+   "xy": [
+    578,
+    905
+   ],
+   "w": 384,
+   "fonte": "104px Anton",
+   "cor": "#f4f1e8",
+   "alinha": "center",
+   "txt": "CAFEÍNA",
+   "z": 47,
+   "entra": "desliza",
+   "dx": -430,
+   "dy": 0,
+   "fixo": true,
+   "css": "background:#5a3418;border:8px solid #2b1a0e;border-radius:26px;padding:126px 0;letter-spacing:2px;box-shadow:0 14px 0 rgba(0,0,0,.25)"
+  },
+  {
+   "tipo": "texto",
+   "t": 37.831,
+   "d": 2.057,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "128px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "MEXE NA DOPAMINA",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 37.91,
+   "d": 1.956,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "xicara",
+     "xy": [
+      270,
+      1310
+     ],
+     "s": 0.85,
+     "t": 0.0
+    },
+    {
+     "k": "cerebro",
+     "xy": [
+      720,
+      960
+     ],
+     "s": 0.92,
+     "t": 0.113
+    }
+   ],
+   "fixo": true,
+   "fluxos": [
+    {
+     "de": [
+      370,
+      1210
+     ],
+     "para": [
+      570,
+      1050
+     ],
+     "curva": -30,
+     "cor": "#ffd400",
+     "t": 0.565,
+     "d": 1.357,
+     "n": 5,
+     "r": 14,
+     "viagem": 0.6
+    }
+   ],
+   "pulsos": [
+    {
+     "o": 1,
+     "t": 1.243
+    }
+   ]
+  },
+  {
+   "tipo": "desenho",
+   "t": 38.08,
+   "d": 1.786,
+   "formas": [
+    {
+     "k": "seta",
+     "de": [
+      380,
+      1190
+     ],
+     "para": [
+      560,
+      1060
+     ],
+     "curva": 25
+    }
+   ],
+   "cor": "#e0322b",
+   "espessura": 11,
+   "z": 44,
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 40.46,
+   "d": 3.601,
+   "xy": [
+    95,
+    385
+   ],
+   "w": 890,
+   "fonte": "120px Anton",
+   "cor": "#1c1a17",
+   "alinha": "center",
+   "txt": "EM ALGUNS: CALMA OU SONO",
+   "z": 45,
+   "anim": "palavras",
+   "vel": 0.09,
+   "fixo": true
+  },
+  {
+   "tipo": "fisio",
+   "t": 40.517,
+   "d": 3.545,
+   "z": 42,
+   "orgaos": [
+    {
+     "k": "cf_lua",
+     "xy": [
+      500,
+      1120
+     ],
+     "s": 1.15,
+     "t": 0.0
+    }
+   ],
+   "fixo": true
+  },
+  {
+   "tipo": "texto",
+   "t": 41.896,
+   "d": 2.166,
+   "xy": [
+    620,
+    820
+   ],
+   "w": 300,
+   "fonte": "700 140px Caveat",
+   "cor": "#2d5aa0",
+   "alinha": "center",
+   "txt": "Zzz",
+   "z": 46,
+   "entra": "pop",
+   "css": "transform:rotate(-10deg)",
+   "fixo": true
+  },
+  {
+   "tipo": "video",
+   "t": 44.118,
+   "d": 15.947,
+   "ms": 0.5,
+   "src": "assets/midia/cf_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     44.118,
+     1.0,
+     0.011
+    ],
+    [
+     44.514,
+     1.16,
+     0.565
+    ],
+    [
+     46.103,
+     1.02,
+     0.565
+    ],
+    [
+     47.29,
+     1.16,
+     0.565
+    ],
+    [
+     48.664,
+     1.02,
+     0.565
+    ],
+    [
+     49.851,
+     1.16,
+     0.565
+    ],
+    [
+     51.271,
+     1.02,
+     0.565
+    ],
+    [
+     52.458,
+     1.16,
+     0.565
+    ],
+    [
+     53.645,
+     1.02,
+     0.565
+    ],
+    [
+     54.832,
+     1.16,
+     0.565
+    ],
+    [
+     56.019,
+     1.02,
+     0.565
+    ],
+    [
+     57.206,
+     1.16,
+     0.565
+    ],
+    [
+     58.393,
+     1.02,
+     0.565
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 44.118,
+   "d": 15.947,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 44.062,
+   "d": 0.25
+  },
+  {
+   "tipo": "numero",
+   "t": 44.175,
+   "d": 3.794,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 7,
+   "rotulo": "estudos com crianças",
+   "tam": 300,
+   "z": 44
+  },
+  {
+   "tipo": "flash",
+   "t": 47.968,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 47.968,
+   "d": 3.416,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "CAFÉ NÃO MELHOROU OS SINTOMAS",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 44.175,
+   "d": 7.209,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Perrotte et al., Brain Sci 2023 · 7 estudos, 104 crianças de 5 a 15 anos",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 51.384,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 51.407,
+   "d": 3.03,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "300 ADOLESCENTES COM TDAH",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "flash",
+   "t": 54.436,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 54.459,
+   "d": 3.595,
+   "xy": [
+    0,
+    380
+   ],
+   "valor": 2.5,
+   "dec": 1,
+   "suf": "x",
+   "rotulo": "mais chance",
+   "tam": 280,
+   "cor": "#f2c230",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 54.662,
+   "d": 3.391,
+   "xy": [
+    40,
+    900
+   ],
+   "w": 1000,
+   "fonte": "110px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "CAFEÍNA À TARDE E À NOITE",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 58.054,
+   "d": 1.992,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "180px Anton",
+   "cor": "#f2c230",
+   "alinha": "center",
+   "txt": "DORMIA PIOR",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "gigante",
+   "t": 58.054,
+   "d": 2.012,
+   "txt": "SONO",
+   "y": 760,
+   "tam": 320,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -1300
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "texto",
+   "t": 51.407,
+   "d": 8.659,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Cusick et al., J Pediatr Psychol 2020 · 302 adolescentes de 12 a 14 anos",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "glitch",
+   "t": 60.016,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 60.066,
+   "d": 4.12,
+   "ms": 0,
+   "src": "assets/midia/cta6.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     60.066,
+     1.0,
+     0.01
+    ],
+    [
+     62.066,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 60.266,
+   "d": 3.87,
+   "y": 215,
+   "txt": "SEGUE + CURTE = TREINO DO DEDÃO",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "video",
+   "t": 64.186,
+   "d": 9.148,
+   "ms": 20.0,
+   "src": "assets/midia/cf_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     64.186,
+     1.0,
+     0.01
+    ],
+    [
+     64.577,
+     1.16,
+     0.565
+    ],
+    [
+     65.764,
+     1.02,
+     0.565
+    ],
+    [
+     67.252,
+     1.16,
+     0.565
+    ],
+    [
+     68.439,
+     1.02,
+     0.967
+    ],
+    [
+     70.028,
+     1.16,
+     0.565
+    ],
+    [
+     71.215,
+     1.02,
+     0.565
+    ],
+    [
+     72.402,
+     1.16,
+     0.561
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 64.186,
+   "d": 9.148,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "flash",
+   "t": 64.186,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "checklist",
+   "t": 64.216,
+   "d": 3.466,
+   "box": [
+    120,
+    260,
+    840,
+    900
+   ],
+   "titulo": "Vale consulta?",
+   "entra": "cai",
+   "itens": [
+    {
+     "txt": "sono demais",
+     "t": 64.329
+    },
+    {
+     "txt": "foco que não vem",
+     "t": 65.685
+    }
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "texto",
+   "t": 67.681,
+   "d": 2.889,
+   "xy": [
+    40,
+    420
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CONVERSA COM SEU MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "carimbo",
+   "t": 70.57,
+   "d": 2.763,
+   "xy": [
+    60,
+    760
+   ],
+   "txt": "CAFÉ NÃO É EXAME",
+   "tam": 118,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 70.57,
+   "d": 2.763,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Perrotte, Brain Sci 2023 · doi 10.3390/brainsci13091304 · Cusick, J Pediatr Psychol 2020 · doi 10.1093/jpepsy/jsaa033",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  },
+  {
+   "tipo": "texto",
+   "t": 44.457,
+   "d": 15.608,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 64.521,
+   "d": 8.812,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  }
+ ]
+}

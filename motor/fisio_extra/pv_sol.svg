@@ -1,0 +1,6 @@
+<g>
+  <path d="M130 0 L185 0" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M113 65 L160 92" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M65 113 L93 160" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M0 130 L0 185" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M-65 113 L-92 160" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M-113 65 L-160 92" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M-130 0 L-185 0" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M-113 -65 L-160 -92" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M-65 -113 L-93 -160" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M-0 -130 L-0 -185" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M65 -113 L93 -160" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/><path d="M113 -65 L160 -93" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="0" cy="0" r="105" fill="#ffd23f" stroke="#a86b00" stroke-width="8"/>
+  <circle cx="0" cy="0" r="72" fill="#ffe27a" opacity=".7"/>
+  <ellipse cx="-38" cy="-42" rx="30" ry="16" fill="#fff" opacity=".55"/>
+</g>

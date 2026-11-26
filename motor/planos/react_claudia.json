@@ -1,0 +1,1044 @@
+{
+ "id": "react_claudia",
+ "dur": 45.0,
+ "seed": 97,
+ "fundo": "#14070a",
+ "legenda": {
+  "estilo": "pilula",
+  "y": 1340,
+  "esconde": [
+   [
+    0,
+    2.1
+   ],
+   [
+    2.1,
+    6.2
+   ]
+  ],
+  "ys": [
+   [
+    6.2,
+    7.27,
+    1440
+   ],
+   [
+    7.27,
+    10.27,
+    1000
+   ]
+  ]
+ },
+ "camera": {
+  "amp": 1.0
+ },
+ "audio": {
+  "voz": [
+   {
+    "src": "assets/midia/fe_entA.mp4",
+    "t": 0,
+    "ms": 0,
+    "d": 2.1,
+    "palavras": "assets/midia/fe_entA.mp4.words.json"
+   },
+   {
+    "src": "assets/midia/cr_viral.mp4",
+    "t": 2.1,
+    "ms": 0,
+    "d": 5.17,
+    "palavras": "assets/midia/cr_viral.words.json"
+   },
+   {
+    "src": "assets/midia/cr_voz.wav",
+    "t": 7.27,
+    "ms": 0,
+    "d": 2.72,
+    "palavras": "assets/midia/cr_voz.words.json"
+   },
+   {
+    "src": "assets/midia/cr_voz.wav",
+    "t": 10.27,
+    "ms": 2.72,
+    "d": 34.73,
+    "palavras": "assets/midia/cr_voz.words.json"
+   }
+  ],
+  "musica": [],
+  "sfx": [
+   {
+    "src": "notif",
+    "t": 0.15,
+    "gain": 0.7
+   },
+   {
+    "src": "pagina",
+    "t": 0.2,
+    "gain": 0.45
+   },
+   {
+    "src": "whoosh",
+    "t": 2.1,
+    "gain": 0.6,
+    "pico": 0.45
+   },
+   {
+    "src": "boing",
+    "t": 5.4,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 7.22,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 7.27,
+    "gain": 0.4,
+    "pico": 0.45
+   },
+   {
+    "src": "glitch",
+    "t": 10.22,
+    "gain": 0.5
+   },
+   {
+    "src": "whoosh",
+    "t": 12.25,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "whoosh2",
+    "t": 15.65,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 18.25,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "boom",
+    "t": 21.77,
+    "gain": 0.5,
+    "pico": 0.3,
+    "d": 1.2
+   },
+   {
+    "src": "whoosh2",
+    "t": 24.25,
+    "gain": 0.4
+   },
+   {
+    "src": "boom",
+    "t": 27.52,
+    "gain": 0.6,
+    "pico": 0.3,
+    "d": 1.5
+   },
+   {
+    "src": "whoosh2",
+    "t": 29.57,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 32.1,
+    "gain": 0.5
+   },
+   {
+    "src": "notif",
+    "t": 32.35,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 35.5,
+    "gain": 0.5
+   },
+   {
+    "src": "boing",
+    "t": 35.65,
+    "gain": 0.4
+   },
+   {
+    "src": "glitch",
+    "t": 37.35,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh2",
+    "t": 38.87,
+    "gain": 0.4
+   },
+   {
+    "src": "whoosh",
+    "t": 39.75,
+    "gain": 0.5,
+    "pico": 0.45
+   },
+   {
+    "src": "boom",
+    "t": 43.25,
+    "gain": 0.7,
+    "pico": 0.3,
+    "d": 1.5
+   }
+  ]
+ },
+ "camadas": [
+  {
+   "tipo": "fundo",
+   "t": 0,
+   "d": 45.0,
+   "cor": "#14070a",
+   "textura": "gradiente",
+   "cor2": "#5a0d10"
+  },
+  {
+   "tipo": "video",
+   "t": 0,
+   "d": 2.1,
+   "ms": 0,
+   "src": "assets/midia/fe_entA.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     0,
+     1.12,
+     2.1
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "manchete",
+   "t": 0.12,
+   "d": 1.98,
+   "xy": [
+    50,
+    235
+   ],
+   "w": 980,
+   "jornal": "Plantão das Redes",
+   "data": "nov 2026",
+   "txt": "GRÁVIDA DEPOIS DOS 50?",
+   "sub": "entrevista na TV reacendeu o assunto",
+   "rot": -3,
+   "z": 40
+  },
+  {
+   "tipo": "flash",
+   "t": 2.1,
+   "d": 0.25
+  },
+  {
+   "tipo": "cartao",
+   "t": 2.1,
+   "d": 8.17,
+   "box": [
+    40,
+    150,
+    1000,
+    990
+   ],
+   "aba": "o viral",
+   "entra": "whip"
+  },
+  {
+   "tipo": "video",
+   "t": 2.1,
+   "d": 5.17,
+   "ms": 0,
+   "src": "assets/midia/cr_viral.mp4",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "pos": "center 17%",
+   "arroba": "via @canalgnt",
+   "respira": false,
+   "zoom": [
+    [
+     2.1,
+     1.0,
+     0.01
+    ],
+    [
+     6.1,
+     1.06,
+     0.4
+    ],
+    [
+     4.77,
+     1.0,
+     0.4
+    ]
+   ],
+   "z": 30
+  },
+  {
+   "tipo": "pergunta",
+   "t": 2.2,
+   "d": 3.95,
+   "xy": [
+    110,
+    1150
+   ],
+   "w": 790,
+   "topo": "Responde aí 👇",
+   "txt": "Engravidar depois dos 50 é...",
+   "botoes": [
+    "RARO",
+    "COMUM"
+   ],
+   "vel": 0.025,
+   "escolha": 0,
+   "t_escolha": 5.4
+  },
+  {
+   "tipo": "glitch",
+   "t": 7.22,
+   "d": 0.25
+  },
+  {
+   "tipo": "foto",
+   "t": 7.27,
+   "d": 3.0,
+   "src": "assets/midia/cr_still.jpg",
+   "box": [
+    70,
+    190,
+    940,
+    909
+   ],
+   "raio": 14,
+   "sombra": false,
+   "z": 29
+  },
+  {
+   "tipo": "video",
+   "t": 7.27,
+   "d": 3.0,
+   "ms": 0,
+   "src": "assets/midia/cr_rosto.mp4",
+   "box": [
+    0,
+    1140,
+    1080,
+    780
+   ],
+   "pos": "center 30%",
+   "entra": "desliza",
+   "z": 45
+  },
+  {
+   "tipo": "video",
+   "t": 10.27,
+   "d": 21.88,
+   "ms": 0.5,
+   "src": "assets/midia/cr_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     10.27,
+     1.0,
+     0.01
+    ],
+    [
+     10.62,
+     1.16,
+     0.5
+    ],
+    [
+     11.67,
+     1.02,
+     0.5
+    ],
+    [
+     12.72,
+     1.16,
+     0.5
+    ],
+    [
+     13.77,
+     1.02,
+     0.5
+    ],
+    [
+     14.82,
+     1.16,
+     0.5
+    ],
+    [
+     15.87,
+     1.02,
+     0.5
+    ],
+    [
+     16.92,
+     1.16,
+     0.5
+    ],
+    [
+     17.97,
+     1.02,
+     0.5
+    ],
+    [
+     19.02,
+     1.16,
+     0.5
+    ],
+    [
+     20.07,
+     1.02,
+     0.5
+    ],
+    [
+     21.12,
+     1.16,
+     0.5
+    ],
+    [
+     22.17,
+     1.02,
+     0.5
+    ],
+    [
+     23.22,
+     1.16,
+     0.5
+    ],
+    [
+     24.27,
+     1.02,
+     0.5
+    ],
+    [
+     25.32,
+     1.16,
+     0.5
+    ],
+    [
+     26.37,
+     1.02,
+     0.5
+    ],
+    [
+     27.42,
+     1.16,
+     0.5
+    ],
+    [
+     28.47,
+     1.02,
+     0.5
+    ],
+    [
+     29.52,
+     1.16,
+     0.5
+    ],
+    [
+     30.57,
+     1.02,
+     0.5
+    ],
+    [
+     31.62,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 10.27,
+   "d": 21.88,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "video",
+   "t": 35.55,
+   "d": 9.45,
+   "ms": 6.0,
+   "src": "assets/midia/cr_viral_blur.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center",
+   "respira": false,
+   "z": 10,
+   "zoom": [
+    [
+     35.55,
+     1.0,
+     0.01
+    ],
+    [
+     35.9,
+     1.16,
+     0.5
+    ],
+    [
+     36.95,
+     1.02,
+     0.5
+    ],
+    [
+     38.0,
+     1.16,
+     0.5
+    ],
+    [
+     39.05,
+     1.02,
+     0.5
+    ],
+    [
+     40.1,
+     1.16,
+     0.5
+    ],
+    [
+     41.15,
+     1.02,
+     0.5
+    ],
+    [
+     42.2,
+     1.16,
+     0.5
+    ],
+    [
+     43.25,
+     1.02,
+     0.5
+    ],
+    [
+     44.3,
+     1.16,
+     0.5
+    ]
+   ]
+  },
+  {
+   "tipo": "fundo",
+   "t": 35.55,
+   "d": 9.45,
+   "cor": "rgba(24,5,9,.62)",
+   "z": 11
+  },
+  {
+   "tipo": "glitch",
+   "t": 10.22,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 10.27,
+   "d": 0.2,
+   "max": 0.6
+  },
+  {
+   "tipo": "texto",
+   "t": 10.3,
+   "d": 2.85,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "ELA ACERTA: É RARO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "gigante",
+   "t": 12.25,
+   "d": 0.6,
+   "txt": "RARO",
+   "y": 1180,
+   "tam": 300,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -1500
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "texto",
+   "t": 13.2,
+   "d": 2.4,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "NÃO EXAMINEI NINGUÉM",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "flash",
+   "t": 15.63,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 15.65,
+   "d": 2.58,
+   "xy": [
+    40,
+    480
+   ],
+   "w": 1000,
+   "fonte": "170px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "58 MIL MULHERES",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "flash",
+   "t": 18.23,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 18.25,
+   "d": 3.5,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 90,
+   "suf": "%",
+   "tam": 300,
+   "cor": "#f2c230",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 19.15,
+   "d": 2.6,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "130px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "SEM FILHO DEPOIS DOS 45",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 21.75,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 21.77,
+   "d": 2.4599999999999973,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 100,
+   "pre": "QUASE ",
+   "suf": "%",
+   "tam": 190,
+   "cor": "#ff2d3d",
+   "sombra": "#5a0d10",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 21.77,
+   "d": 2.46,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "DEPOIS DOS 50",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 15.65,
+   "d": 8.58,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Eijkemans et al., Hum Reprod 2014",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 24.23,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 24.25,
+   "d": 3.25,
+   "xy": [
+    40,
+    440
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "COM TRATAMENTO, AOS 45",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.12
+  },
+  {
+   "tipo": "flash",
+   "t": 27.5,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "numero",
+   "t": 27.52,
+   "d": 2.030000000000001,
+   "xy": [
+    0,
+    420
+   ],
+   "valor": 5,
+   "suf": " EM 100",
+   "tam": 240,
+   "cor": "#f2c230",
+   "z": 44
+  },
+  {
+   "tipo": "texto",
+   "t": 27.52,
+   "d": 2.03,
+   "xy": [
+    40,
+    860
+   ],
+   "w": 1000,
+   "fonte": "150px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "TIVERAM BEBÊ",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 24.25,
+   "d": 5.3,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Seifer et al., Reprod Biol Endocrinol 2023",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "texto",
+   "t": 29.57,
+   "d": 2.58,
+   "xy": [
+    40,
+    560
+   ],
+   "w": 1000,
+   "fonte": "140px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "É MÉDIA, NÃO SENTENÇA",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "glitch",
+   "t": 32.1,
+   "d": 0.25
+  },
+  {
+   "tipo": "video",
+   "t": 32.15,
+   "d": 3.400000000000002,
+   "ms": 3.15,
+   "src": "assets/midia/cr_rosto.mp4",
+   "box": [
+    0,
+    0,
+    1080,
+    1920
+   ],
+   "pos": "center 30%",
+   "zoom": [
+    [
+     32.15,
+     1.0,
+     0.01
+    ],
+    [
+     34.75,
+     1.1,
+     0.3
+    ]
+   ],
+   "z": 40
+  },
+  {
+   "tipo": "barra",
+   "t": 32.35,
+   "d": 3.150000000000002,
+   "y": 215,
+   "txt": "COMBINADO: CURTE + SEGUE",
+   "cor": "#c6ff3d",
+   "cor_txt": "#0b1512"
+  },
+  {
+   "tipo": "glitch",
+   "t": 35.5,
+   "d": 0.25
+  },
+  {
+   "tipo": "flash",
+   "t": 35.55,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 35.57,
+   "d": 1.83,
+   "xy": [
+    40,
+    600
+   ],
+   "w": 1000,
+   "fonte": "160px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "CURTE E SEGUE",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom",
+   "css": "text-shadow:10px 10px 0 #000"
+  },
+  {
+   "tipo": "flash",
+   "t": 37.4,
+   "d": 0.2,
+   "max": 0.5
+  },
+  {
+   "tipo": "texto",
+   "t": 37.55,
+   "d": 3.92,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "200px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "DÚVIDA?",
+   "z": 40,
+   "vel": 0.11,
+   "entra": "zoom"
+  },
+  {
+   "tipo": "texto",
+   "t": 38.87,
+   "d": 2.6,
+   "xy": [
+    40,
+    700
+   ],
+   "w": 1000,
+   "fonte": "118px Anton",
+   "cor": "#ffd400",
+   "alinha": "center",
+   "txt": "VOCÊS DOIS, JUNTOS, NO MÉDICO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.1,
+   "css": "text-shadow:8px 8px 0 #000"
+  },
+  {
+   "tipo": "gigante",
+   "t": 39.75,
+   "d": 0.6,
+   "txt": "JUNTOS",
+   "y": 1180,
+   "tam": 280,
+   "cor": "#ffd400",
+   "x": [
+    1000,
+    -1900
+   ],
+   "z": 42
+  },
+  {
+   "tipo": "texto",
+   "t": 41.49,
+   "d": 3.51,
+   "xy": [
+    40,
+    380
+   ],
+   "w": 1000,
+   "fonte": "122px Anton",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "MANCHETE MOSTRA A EXCEÇÃO",
+   "z": 40,
+   "anim": "palavras",
+   "vel": 0.11
+  },
+  {
+   "tipo": "carimbo",
+   "t": 43.25,
+   "d": 1.749999999999993,
+   "xy": [
+    40,
+    760
+   ],
+   "txt": "EXCEÇÃO, NÃO REGRA",
+   "tam": 100,
+   "rot": -8,
+   "z": 60
+  },
+  {
+   "tipo": "texto",
+   "t": 43.25,
+   "d": 1.75,
+   "xy": [
+    40,
+    215
+   ],
+   "w": 1000,
+   "fonte": "600 28px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "Eijkemans, Hum Reprod 2014 · doi 10.1093/humrep/deu056 · Seifer, Reprod Biol Endocrinol 2023 · doi 10.1186/s12958-023-01144-z",
+   "z": 70,
+   "css": "text-shadow:0 2px 6px #000"
+  },
+  {
+   "tipo": "progresso"
+  },
+  {
+   "tipo": "vinheta"
+  },
+  {
+   "tipo": "grao",
+   "op": 0.07
+  },
+  {
+   "tipo": "texto",
+   "t": 10.57,
+   "d": 21.58,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  },
+  {
+   "tipo": "texto",
+   "t": 35.85,
+   "d": 9.15,
+   "xy": [
+    40,
+    128
+   ],
+   "w": 1000,
+   "fonte": "900 34px Montserrat",
+   "cor": "#ffffff",
+   "alinha": "center",
+   "txt": "● CHECAGEM · O QUE A CIÊNCIA DIZ",
+   "css": "letter-spacing:3px;background:#ff2d3d;border-radius:14px;padding:12px 0",
+   "z": 69,
+   "entra": "desliza"
+  }
+ ]
+}

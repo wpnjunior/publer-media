@@ -1,0 +1,59 @@
+{
+ "marca": "TDAH Adulto Real",
+ "blogId": 8026030,
+ "metricool_id": 427556597,
+ "horario": "2026-11-20 08:14 America/Sao_Paulo",
+ "rede": "instagram",
+ "texto": "idêntico ao agendado (só a foto de fundo mudou)",
+ "slides_total": 6,
+ "slides_trocados": [
+  {
+   "slide": 1,
+   "foto_antiga": "px_homemso_6756359.jpg",
+   "foto_nova": "px_celularnoite_8036661.jpg",
+   "descricao_nova": "pessoa no escuro olhando o celular",
+   "motivo": "mesma sessão de px_homemso_6756351 (TDAH 16/11, slide 01)",
+   "fonte": "https://www.pexels.com/photo/8036661/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 2,
+   "foto_antiga": "px_homemso_6756358.jpg",
+   "foto_nova": "px_celular_5081404.jpg",
+   "descricao_nova": "celular sobre mesa de madeira",
+   "motivo": "mesma foto do TDAH 16/11, slide 03",
+   "fonte": "https://www.pexels.com/photo/5081404/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 3,
+   "foto_antiga": "px_homemso_10379552.jpg",
+   "foto_nova": "px_gravandovideo_8993867.jpg",
+   "descricao_nova": "celular no suporte gravando vídeo (\"relatos pessoais\")",
+   "motivo": "mesma foto do TDAH 16/11, slide 02",
+   "fonte": "https://www.pexels.com/photo/8993867/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 4,
+   "foto_antiga": "px_homemso_32482920.jpg",
+   "foto_nova": "px_trofeu_6532362.jpg",
+   "descricao_nova": "troféu (\"merece um troféu\")",
+   "motivo": "mesma foto do TDAH 16/11, slide 04",
+   "fonte": "https://www.pexels.com/photo/6532362/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  },
+  {
+   "slide": 5,
+   "foto_antiga": "px_homemmedico_7579831.jpg",
+   "foto_nova": "px_medicavideo_19957215.jpg",
+   "descricao_nova": "médica gravando vídeo (\"Quem postou importa\")",
+   "motivo": "mesma sessão de px_homemmedico_7578803 (TDAH 16/11, slide 06)",
+   "fonte": "https://www.pexels.com/photo/19957215/",
+   "licenca": "Licença Pexels (uso livre, sem atribuição obrigatória)"
+  }
+ ],
+ "slides_iguais_ao_agendado": [
+  6
+ ]
+}

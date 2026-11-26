@@ -1,0 +1,10 @@
+<g>
+  <path d="M-120 -70 L120 -70 C185 -70 215 10 205 80 C198 135 150 150 120 110 L80 60 L-80 60 L-120 110 C-150 150 -198 135 -205 80 C-215 10 -185 -70 -120 -70 Z" fill="#3a3f4a" stroke="#14161b" stroke-width="9" stroke-linejoin="round"/>
+  <rect x="-140" y="-22" width="70" height="24" rx="6" fill="#e9edf2"/>
+  <rect x="-117" y="-45" width="24" height="70" rx="6" fill="#e9edf2"/>
+  <circle cx="100" cy="-30" r="17" fill="#3ddc84" stroke="#14161b" stroke-width="5"/>
+  <circle cx="135" cy="0" r="17" fill="#ff3b30" stroke="#14161b" stroke-width="5"/>
+  <circle cx="65" cy="0" r="17" fill="#2d8cff" stroke="#14161b" stroke-width="5"/>
+  <circle cx="100" cy="30" r="17" fill="#ffd400" stroke="#14161b" stroke-width="5"/>
+  <ellipse cx="-60" cy="-52" rx="60" ry="10" fill="#fff" opacity=".18"/>
+</g>

@@ -1,0 +1,17 @@
+<g>
+  <rect x="-188" y="112" width="376" height="66" rx="26" fill="#f4f1e8" stroke="#3a3a3a" stroke-width="8"/>
+  <rect x="-170" y="174" width="44" height="18" rx="6" fill="#6a6a6a"/><rect x="126" y="174" width="44" height="18" rx="6" fill="#6a6a6a"/>
+  <rect x="-70" y="124" width="140" height="44" rx="9" fill="#1f2d2a" stroke="#3a3a3a" stroke-width="5"/>
+  <text x="0" y="158" text-anchor="middle" font-family="Courier Prime, monospace" font-weight="700" font-size="34" fill="#8dff7a">70 kg</text>
+  <path d="M-55 -92 L-55 -138 Q-55 -154 -39 -154 L39 -154 Q55 -154 55 -138 L55 -92" fill="none" stroke="#16324a" stroke-width="18" stroke-linecap="round"/>
+  <rect x="-155" y="-94" width="310" height="206" rx="28" fill="#2f6fa0" stroke="#16324a" stroke-width="8"/>
+  <rect x="-104" y="-90" width="28" height="198" fill="#24557c"/><rect x="76" y="-90" width="28" height="198" fill="#24557c"/>
+  <rect x="-110" y="-14" width="40" height="30" rx="5" fill="#d9b44a" stroke="#16324a" stroke-width="5"/>
+  <rect x="70" y="-14" width="40" height="30" rx="5" fill="#d9b44a" stroke="#16324a" stroke-width="5"/>
+  <rect x="-18" y="-104" width="36" height="22" rx="5" fill="#d9b44a" stroke="#16324a" stroke-width="5"/>
+  <path d="M-155 30 L155 30" stroke="#16324a" stroke-width="5" opacity=".55"/>
+  <path d="M48 -146 L104 -122" stroke="#6b4423" stroke-width="5"/>
+  <g transform="rotate(16 122 -112)"><rect x="98" y="-130" width="54" height="36" rx="6" fill="#f6efdc" stroke="#1c1a17" stroke-width="5"/>
+  <circle cx="108" cy="-112" r="5" fill="#1c1a17"/></g>
+  <ellipse cx="-80" cy="-70" rx="56" ry="12" fill="#fff" opacity=".22"/>
+</g>
