@@ -668,9 +668,10 @@
   {
    "id": "agua-nao-tem-numero-magico",
    "tema": "Água e hidratação",
-   "published": false,
-   "slot": null,
-   "caption": "A meta de litros virou regra sem nunca ter sido regra. Hidratar é acompanhar sede e urina, não bater número.\nEste conteúdo é educativo e não substitui a consulta médica.\n#hidratacao #agua #mitos #habitos #saude"
+   "published": true,
+   "slot": "2026-11-26T21:54:17Z",
+   "caption": "A meta de litros virou regra sem nunca ter sido regra. Hidratar é acompanhar sede e urina, não bater número.\nEste conteúdo é educativo e não substitui a consulta médica.\n#hidratacao #agua #mitos #habitos #saude",
+   "ig_media": "17991887499081806"
   },
   {
    "id": "lista-de-proibidos-que-so-cresce",
