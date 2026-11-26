@@ -1,0 +1,48 @@
+{
+ "marca": [
+  "TDAH",
+  "ADULTO REAL"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_lab_9574397.jpg",
+   "editoria": "Estudo",
+   "manchete": "TDAH e risco:<br>o dado da<br><span class=\"hl\">Dinamarca</span>",
+   "sub": "Um estudo acompanhou <b>1,92 milhão</b> de pessoas. O resultado pede cuidado, não medo.",
+   "fonte": "Fonte: Dalsgaard et al., The Lancet, 2015"
+  },
+  {
+   "foto": "px_calendario_9052846.jpg",
+   "numero": "01",
+   "manchete": "<span class=\"hl\">32 mil</span> pessoas<br>com TDAH",
+   "corpo": "Os pesquisadores usaram os registros nacionais da Dinamarca: 1,92 milhão de pessoas seguidas desde o primeiro ano de vida, 32.061 delas com TDAH."
+  },
+  {
+   "foto": "px_lab_9574415.jpg",
+   "numero": "02",
+   "manchete": "Risco cerca de<br><span class=\"hl\">2 vezes</span> maior",
+   "corpo": "A taxa de morte foi de 5,85 por 10 mil pessoas a cada ano no grupo com TDAH, contra 2,21 no grupo sem. O número absoluto é pequeno, mas a diferença existe."
+  },
+  {
+   "foto": "px_homemso_6756351.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Respira. Assunto sério também se conversa com calma por aqui. Um curtir e um seguir e a gente continua explicando sem assustar."
+  },
+  {
+   "foto": "peri_calm.jpg",
+   "numero": "04",
+   "manchete": "A causa mais comum:<br><span class=\"hl\">acidentes</span>",
+   "corpo": "O excesso veio principalmente de causas não naturais, sobretudo acidentes. Ele foi maior em quem recebeu o diagnóstico já adulto."
+  },
+  {
+   "foto": "peri_doctor2.jpg",
+   "numero": "05",
+   "manchete": "O estudo mostra<br><span class=\"hl\">associação</span>",
+   "corpo": "É um estudo de registros: mostra ligação, não causa, e não prevê o caso de ninguém. Serve de motivo para levar o TDAH a sério e buscar avaliação com profissional.",
+   "destaque": "Salva e manda para quem acha que TDAH é só distração.",
+   "fonte": "Fonte: Dalsgaard et al., Lancet 2015 · doi 10.1016/S0140-6736(14)61684-6 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

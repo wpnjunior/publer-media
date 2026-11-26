@@ -1,0 +1,48 @@
+{
+ "marca": [
+  "CANETA",
+  "COM MÚSCULO"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "bmi_athlete.jpg",
+   "editoria": "Músculo",
+   "manchete": "Emagrecer <span class=\"hl\">bem</span><br>é diferente de<br>emagrecer muito",
+   "sub": "Uma revisão de 2026 juntou o que protege o músculo durante a perda de peso.",
+   "fonte": "Fonte: Iwanicka et al., Cureus, 2026"
+  },
+  {
+   "foto": "frutas.jpg",
+   "numero": "01",
+   "manchete": "Comer menos ainda<br>nem sempre é <span class=\"hl\">melhor</span>",
+   "corpo": "Na revisão, cortar mais calorias não trouxe ganho proporcional na composição do corpo. Em alguns estudos, veio com perda maior de massa magra."
+  },
+  {
+   "foto": "px_laticinio_4198114.jpg",
+   "numero": "02",
+   "manchete": "<span class=\"hl\">Proteína</span><br>ajuda a segurar",
+   "corpo": "Comer mais proteína pareceu ajudar a preservar a massa magra durante a restrição, principalmente quando vinha junto com treino de força."
+  },
+  {
+   "foto": "px_academia_3836878.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Esse é o único levantamento de peso que a gente pede hoje: o dedo até o botão de seguir. Curtir conta como série extra."
+  },
+  {
+   "foto": "px_academia_7289233.jpg",
+   "numero": "04",
+   "manchete": "O treino de <span class=\"hl\">força</span><br>foi o mais constante",
+   "corpo": "Entre os exercícios, o de força foi o mais associado a preservar massa magra e melhorar força e função. O aeróbico somou no fôlego e na caminhada."
+  },
+  {
+   "foto": "px_homemmedico_8413410.jpg",
+   "numero": "05",
+   "manchete": "Com cirurgia ou<br>remédio, <span class=\"hl\">vale igual</span>",
+   "corpo": "Os dois emagrecem bastante e também reduzem massa magra. A revisão lembra que perder massa magra nem sempre significou perder força. O plano é individual, com o seu médico.",
+   "destaque": "Manda para quem só olha o número da balança.",
+   "fonte": "Fonte: Iwanicka et al., Cureus 2026 · doi 10.7759/cureus.117182 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

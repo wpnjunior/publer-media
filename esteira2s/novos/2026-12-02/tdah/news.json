@@ -1,0 +1,48 @@
+{
+ "marca": [
+  "TDAH",
+  "ADULTO REAL"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_brain.jpg",
+   "editoria": "Ciência",
+   "manchete": "<span class=\"hl\">208</span> conclusões<br>sobre o TDAH",
+   "sub": "Especialistas de <b>27 países</b> juntaram o que a ciência já sabe com segurança.",
+   "fonte": "Fonte: Faraone et al., Neuroscience & Biobehavioral Reviews, 2021"
+  },
+  {
+   "foto": "influfone.jpg",
+   "numero": "01",
+   "manchete": "Por que fizeram<br>esse <span class=\"hl\">consenso</span>",
+   "corpo": "Segundo os autores, ideias erradas sobre o TDAH aumentam o preconceito contra quem tem e podem impedir ou atrasar o tratamento."
+  },
+  {
+   "foto": "px_lab_8325940.jpg",
+   "numero": "02",
+   "manchete": "Só entrou estudo<br><span class=\"hl\">grande</span>",
+   "corpo": "Valeram estudos com mais de 2.000 participantes ou revisões que juntavam cinco estudos ou mais. Opinião solta ficou de fora."
+  },
+  {
+   "foto": "px_homemso_6756359.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Se você chegou até este slide, a sua atenção está melhor do que você pensa. Aproveita o embalo: curte e segue."
+  },
+  {
+   "foto": "px_lab_9574324.jpg",
+   "numero": "04",
+   "manchete": "<span class=\"hl\">80 autores</span>,<br>6 continentes",
+   "corpo": "As 208 afirmações foram aprovadas por 80 autores de 27 países, e outras 366 pessoas leram o documento e assinaram embaixo."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "05",
+   "manchete": "Menos mito,<br>menos <span class=\"hl\">culpa</span>",
+   "corpo": "Para os autores, conclusões firmes ajudam a reduzir mitos e estigma. Se você desconfia de TDAH, o caminho é uma avaliação com profissional, não um teste de internet.",
+   "destaque": "Salva para mandar a quem diz que TDAH é invenção.",
+   "fonte": "Fonte: Faraone et al., Neurosci Biobehav Rev 2021 · doi 10.1016/j.neubiorev.2021.01.022 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}

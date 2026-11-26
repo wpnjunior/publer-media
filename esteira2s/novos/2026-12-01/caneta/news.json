@@ -1,0 +1,48 @@
+{
+ "marca": [
+  "CANETA",
+  "COM MÚSCULO"
+ ],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "px_academia_17782876.jpg",
+   "editoria": "Composição",
+   "manchete": "Massa magra<br>não é só<br><span class=\"hl\">músculo</span>",
+   "sub": "Uma revisão de 2026 explica por que o número do exame assusta mais do que deveria.",
+   "fonte": "Fonte: Mollero et al., Nutrients, 2026"
+  },
+  {
+   "foto": "bmi_scale.jpg",
+   "numero": "01",
+   "manchete": "O exame mede<br><span class=\"hl\">tudo junto</span>",
+   "corpo": "Massa magra é tudo o que não é gordura: músculo, água, órgãos. Quando o peso cai, esse número cai junto. Sozinho, ele não diz quanto era músculo."
+  },
+  {
+   "foto": "px_lab_5726714.jpg",
+   "numero": "02",
+   "manchete": "Cai na <span class=\"hl\">proporção</span><br>do peso perdido",
+   "corpo": "Segundo a revisão, a perda de massa magra acompanha o tamanho da perda de peso. Os autores dizem que ela não deve ser lida como prova de dano ao músculo."
+  },
+  {
+   "foto": "px_academia_7289367.jpg",
+   "numero": "03",
+   "manchete": "Curte e <span class=\"hl\">segue</span>",
+   "corpo": "Seguir aqui não gasta caloria nenhuma, mas ajuda muito. Um curtir e um seguir e a gente continua lendo estudo por você."
+  },
+  {
+   "foto": "bmi_tape.jpg",
+   "numero": "04",
+   "manchete": "O que conta é a<br><span class=\"hl\">qualidade</span>",
+   "corpo": "A revisão destaca a qualidade do músculo: força, desempenho e quanta gordura há dentro dele. Em idosos e pessoas frágeis, os dados ainda são poucos."
+  },
+  {
+   "foto": "bmi_doctor.jpg",
+   "numero": "05",
+   "manchete": "Três coisas para<br>levar à <span class=\"hl\">consulta</span>",
+   "corpo": "Os autores apontam proteína adequada, treino de força e avaliação regular da força como parte do cuidado. Como fazer isso no seu caso é conversa com o seu médico.",
+   "destaque": "Salva para mostrar na próxima consulta.",
+   "fonte": "Fonte: Mollero et al., Nutrients 2026 · doi 10.3390/nu18162654 · Fotos: Pexels. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
