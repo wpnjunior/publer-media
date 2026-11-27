@@ -1,0 +1,59 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "camarao-agua-doce-detalhe.jpg",
+   "editoria": "Alimentação",
+   "manchete": "Sua pós-larva não cresce pouco por genética. <span class=\"hl\">Cresce pouco pela ração.</span>",
+   "sub": "Um aditivo na ração do berçário levou a sobrevivência de 76% para quase 93% em 56 dias de teste.",
+   "fonte": "Ashour et al., Aquaculture Nutrition, 2025. doi:10.1155/anu/4019255"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "01",
+   "manchete": "Mesma fase, <span class=\"hl\">peso diferente</span>",
+   "corpo": "Pós-larvas de <b>L. vannamei</b> receberam ração com 0, 1, 2,5 ou 5 g/kg da microalga <b>Coelastrella</b> por 56 dias. Sem o aditivo, o peso final foi <b>8,46 g</b>. Com 2,5 g/kg, chegou a <b>10,23 g</b>.",
+   "destaque": "Mais peso no mesmo prazo de berçário, sem mexer em mais nada além da ração.",
+   "fonte": "Ashour et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "02",
+   "manchete": "Sobrevivência <span class=\"hl\">salta</span>",
+   "corpo": "No grupo sem microalga, sobreviveram <b>76,01%</b> das pós-larvas. Com <b>2,5 g/kg</b> do aditivo na ração, a sobrevivência foi para <b>92,67%</b> — quase 17 pontos a mais.",
+   "destaque": "Quase 1 em cada 5 pós-larvas a mais chegando viva ao fim do berçário.",
+   "fonte": "Ashour et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "03",
+   "manchete": "Menos ração <span class=\"hl\">por quilo</span>",
+   "corpo": "A conversão alimentar (FCR) caiu de <b>2,09</b> no grupo controle para <b>1,71</b> com 2,5 g/kg de microalga — quase 20% a menos de ração pra fechar o mesmo quilo de camarão.",
+   "destaque": "Ração melhor aproveitada é dinheiro que fica no berçário, não vira sedimento.",
+   "fonte": "Ashour et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "camarao-gigante-na-mao.jpg",
+   "numero": "04",
+   "manchete": "A defesa também <span class=\"hl\">reagiu</span>",
+   "corpo": "A lisozima, enzima de defesa do camarão, subiu de <b>3,20</b> para <b>4,47 µg/mL</b> no grupo com microalga — sinal de sistema imune mais ativo, não só de mais peso na balança.",
+   "destaque": "Crescer rápido sem fortalecer a defesa é risco guardado pra depois.",
+   "fonte": "Ashour et al., Aquaculture Nutrition, 2025"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta como está a conversão alimentar do teu berçário.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
