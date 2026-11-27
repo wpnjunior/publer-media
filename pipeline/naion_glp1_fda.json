@@ -1,0 +1,49 @@
+{
+ "marca": ["PAPO", "NEWS"],
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "peri_awake.jpg",
+   "editoria": "Alerta de Segurança",
+   "manchete": "Acordou e um olho<br>não enxergava<br><span class=\"hl\">mais nada</span>",
+   "sub": "FDA exige alerta em <b>toda a classe</b> dos remédios GLP-1 — Ozempic, Wegovy, Mounjaro e outros — por risco raro de perda de visão.",
+   "fonte": "Fonte: FDA, Drug Safety Communication (09/nov/2026)"
+  },
+  {
+   "foto": "peri_brain.jpg",
+   "numero": "01",
+   "manchete": "O que é essa<br>doença no <span class=\"hl\">olho</span>",
+   "corpo": "<b>NAION</b> — neuropatia óptica isquêmica anterior não arterítica — é a queda súbita do fluxo de sangue para o nervo óptico. Causa perda de visão repentina e <b>indolor</b> em um olho, muitas vezes percebida <b>ao acordar</b>.",
+   "destaque": "O risco já existia antes dos GLP-1: diabetes, pressão alta, apneia do sono, tabagismo e anemia também aumentam a chance de NAION."
+  },
+  {
+   "foto": "bg_05.jpg",
+   "numero": "02",
+   "manchete": "Os números<br>por trás do<br><span class=\"hl\">alerta</span>",
+   "corpo": "O FDA reuniu <b>126 estudos clínicos</b>, com <b>134.253 pacientes</b> e quase 289 mil pessoas-ano de uso. Resultado: <b>15 casos</b> prováveis de NAION — 10 em quem usava GLP-1, 5 em quem não usava.",
+   "destaque": "Taxa: 6,4 casos a cada 100 mil pessoas-ano com GLP-1, contra 3,8 nos comparadores — incidência absoluta ainda baixa."
+  },
+  {
+   "tipo": "prova",
+   "foto": "bg_03.jpg",
+   "manchete": "Não é opinião.<br>É alerta <span class=\"hl\">oficial</span>.",
+   "print": "/tmp/claude-0/-home-user-publer-media/4295d781-b25e-57a8-be52-82929c156fb5/scratchpad/esteira_build/ficha_final.png",
+   "sub": "Comunicado de Segurança do <b>FDA</b> (agência dos EUA), 9 de novembro de 2026 — vale pra toda a classe dos agonistas de GLP-1."
+  },
+  {
+   "foto": "bg_07.jpg",
+   "numero": "03",
+   "manchete": "Quais remédios<br>são <span class=\"hl\">afetados</span>",
+   "corpo": "A exigência vale pra toda a classe: <b>semaglutida</b> (Ozempic, Wegovy, Rybelsus), <b>tirzepatida</b> (Mounjaro, Zepbound), liraglutida, dulaglutida, exenatida e <b>orforglipron</b> — usados pra diabetes tipo 2 e para emagrecimento.",
+   "destaque": "Dado observacional citado pelo FDA sugere risco maior em quem usa o remédio para obesidade do que em quem só tem diabetes."
+  },
+  {
+   "foto": "peri_consult.jpg",
+   "numero": "04",
+   "manchete": "O sinal que<br>não pode<br><span class=\"hl\">esperar</span>",
+   "corpo": "Perda de visão súbita e indolor em um olho, mancha ou \"buraco\" no campo de visão, visão embaçada ou distorção de cores — procure um oftalmologista <b>na hora</b>. Já teve NAION? Converse com seu médico antes de continuar o remédio.",
+   "destaque": "FDA: diante de NAION confirmado, considerar suspender o GLP-1 — a não ser que o benefício supere claramente o risco.",
+   "fonte": "Fontes: FDA, Drug Safety Communication (09/nov/2026) · meta-análise de 126 ensaios clínicos. Conteúdo educativo — não substitui consulta médica."
+  }
+ ]
+}
