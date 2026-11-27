@@ -676,9 +676,10 @@
   {
    "id": "lista-de-proibidos-que-so-cresce",
    "tema": "Dieta de eliminacao",
-   "published": false,
-   "slot": null,
-   "caption": "Dieta de eliminacao sem plano de reintroducao vira lista que so cresce, com o mesmo sintoma no fim. Este conteudo e educativo e nao substitui a consulta medica. #dietadeeliminacao #nutricao #intestino #saude #medicina"
+   "published": true,
+   "slot": "2026-11-27T21:37:44Z",
+   "caption": "Dieta de eliminacao sem plano de reintroducao vira lista que so cresce, com o mesmo sintoma no fim. Este conteudo e educativo e nao substitui a consulta medica. #dietadeeliminacao #nutricao #intestino #saude #medicina",
+   "ig_media": "18580440901078247"
   },
   {
    "id": "cortisol-normal-nao-prova-nada",
