@@ -684,9 +684,10 @@
   {
    "id": "cortisol-normal-nao-prova-nada",
    "tema": "cortisol e estresse crônico",
-   "published": false,
-   "slot": null,
-   "caption": "Cortisol normal não significa cabeça descansada. O que conta a história é o padrão do dia, não um tubo de sangue às oito da manhã.\nEste conteúdo é educativo e não substitui a consulta médica.\n#cortisol #estressecronico #burnout #saudemental #clinicamedica"
+   "published": true,
+   "slot": "2026-11-28T20:32:21Z",
+   "caption": "Cortisol normal não significa cabeça descansada. O que conta a história é o padrão do dia, não um tubo de sangue às oito da manhã.\nEste conteúdo é educativo e não substitui a consulta médica.\n#cortisol #estressecronico #burnout #saudemental #clinicamedica",
+   "ig_media": "17877711357639164"
   },
   {
    "id": "ansiedade-em-homem-e-pavio-curto",
