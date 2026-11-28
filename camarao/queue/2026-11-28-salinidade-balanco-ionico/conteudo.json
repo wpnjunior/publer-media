@@ -1,0 +1,67 @@
+{
+ "marca": [
+  "PAPO DE",
+  "CARCINICULTOR"
+ ],
+ "assinatura": {
+  "emblema": "🦐",
+  "nome": "Aqua Cultivo Novaes",
+  "linha": "Pós-larva de vannamei · Jaguaripe-BA"
+ },
+ "slides": [
+  {
+   "tipo": "capa",
+   "foto": "viveiros-por-do-sol-aereo.jpg",
+   "editoria": "Baixa salinidade",
+   "manchete": "Não é só baixar o sal. <span class=\"hl\">É acertar o equilíbrio iônico.</span>",
+   "sub": "Pós-larva e juvenil de vannamei em biofloco a 4 e 8 g/L: sobrevivência acima de 84,82% quando cálcio, magnésio e potássio acompanharam o sódio na água.",
+   "fonte": "Fontes: Ueno Fukura et al., J World Aquac Soc, 2024"
+  },
+  {
+   "foto": "lago-agua-doce.jpg",
+   "numero": "01",
+   "manchete": "Baixar o sal <span class=\"hl\">sem base</span> não funciona",
+   "corpo": "O estudo testou pós-larva e juvenil de <b>Litopenaeus vannamei</b> em biofloco, em duas salinidades baixas (<b>4 e 8 g/L</b>) e duas proporções de íons na água — sódio, magnésio, cálcio e potássio.",
+   "destaque": "Baixa salinidade sem ajustar os íons certos é meio trabalho feito.",
+   "fonte": "Ueno Fukura et al., J World Aquac Soc, 2024"
+  },
+  {
+   "foto": "reservatorio-agua-redondo.jpg",
+   "numero": "02",
+   "manchete": "A água não <span class=\"hl\">matou</span> o lote",
+   "corpo": "Em todos os tratamentos a sobrevivência ficou acima de <b>84,82%</b> e a densidade final acima de <b>1.272 camarões/m³</b>. O risco não foi a baixa salinidade — foi a proporção errada de íons.",
+   "destaque": "4 ou 8 g/L não é o vilão. O vilão é a água sem cálcio, magnésio e potássio na proporção certa.",
+   "fonte": "Ueno Fukura et al., J World Aquac Soc, 2024"
+  },
+  {
+   "foto": "tanque-redondo-vista-aerea.jpg",
+   "numero": "03",
+   "manchete": "Na pós-larva, <span class=\"hl\">8 g/L venceu</span>",
+   "corpo": "No berçário, o melhor peso final veio de <b>8 g/L</b> com a proporção iônica mais próxima da água do mar (Na:Mg:Ca:K 40,6:4,7:1,98:1): <b>0,24 g</b> (±0,01) ao fim da fase.",
+   "destaque": "Pós-larva em água pouco salgada pede mais mineral, não menos.",
+   "fonte": "Ueno Fukura et al., J World Aquac Soc, 2024"
+  },
+  {
+   "foto": "tanques-retangulares-vista-de-cima.jpg",
+   "numero": "04",
+   "manchete": "No juvenil, a conta <span class=\"hl\">mudou</span>",
+   "corpo": "Na engorda, o melhor peso final foi com <b>4 g/L</b> e proporção iônica mais enxuta (Na:Mg:Ca:K 27,6:3,6:1,05:1): <b>2,80 g</b> (±0,12). O que serve na pós-larva não é a mesma receita do juvenil.",
+   "destaque": "A água que funciona no berçário pode não ser a que funciona na engorda.",
+   "fonte": "Ueno Fukura et al., J World Aquac Soc, 2024"
+  },
+  {
+   "foto": "camarao-agua-doce-detalhe.jpg",
+   "numero": "05",
+   "manchete": "O hepatopâncreas <span class=\"hl\">avisa</span>",
+   "corpo": "Na baixa salinidade, os autores viram menos reserva de gordura no hepatopâncreas e sujeira orgânica acumulada na brânquia — sinal de que criar juvenil em água pouco salgada ainda é desafio, mesmo com os íons ajustados.",
+   "destaque": "Monitore a brânquia e o hepatopâncreas, não só o medidor de salinidade.",
+   "fonte": "Ueno Fukura et al., J World Aquac Soc, 2024"
+  },
+  {
+   "foto": "viveiros-campo-verde-aereo.jpg",
+   "manchete": "Próximo lote? <span class=\"hl\">Fala com quem produz.</span>",
+   "corpo": "A Aqua Cultivo Novaes produz pós-larva de <b>Litopenaeus vannamei</b> em Jaguaripe-BA. Chama no direct e conta a salinidade e a água do seu viveiro.",
+   "destaque": "@aquacultivonovaes · direct aberto"
+  }
+ ]
+}
